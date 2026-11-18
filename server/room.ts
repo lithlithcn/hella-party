@@ -1,6 +1,6 @@
 // One Durable Object per room code: owns the Game and the players' WebSockets.
 import { DurableObject } from 'cloudflare:workers';
-import type { ClientMsg, PackInfo, ServerMsg } from '../shared/protocol';
+import type { ChatQuote, ClientMsg, PackInfo, ServerMsg } from '../shared/protocol';
 import { Game, PACK_INFO, SETTING_DEFS } from './engine';
 import { resolvePack } from './packs';
 import { library, type Env } from './library';
@@ -14,13 +14,17 @@ export class Room extends DurableObject<Env> {
   private dirty = false;
   private libList: PackInfo[] = [];
   private libAt = 0;
+  private chatSeq = 0;
+  private chatLog = new Map<number, ChatQuote>(); // recent player messages, for replies
 
   private getGame(code: string) {
     return (this.game ??= new Game(code, {
       sync: () => {
         if (this.dirty) return;
         this.dirty = true;
-        queueMicrotask(() => { this.dirty = false; this.flush(); });
+        // Big rooms: batch bursts (e.g. 50 players answering at once) into one snapshot per 40 ms.
+        const run = () => { this.dirty = false; this.flush(); };
+        if (this.sockets.size > 8) setTimeout(run, 40); else queueMicrotask(run);
       },
       send: (to, msg) => this.send(to, msg),
       prepare: async q => {
@@ -115,7 +119,11 @@ export class Room extends DurableObject<Env> {
         case 'mediaError': return game.mediaError(id);
         case 'chat': {
           const text = String(m.text).trim().slice(0, 300);
-          if (text) this.send(null, { t: 'chat', from: id, name: game.players.get(id)?.name ?? '?', text });
+          if (!text) return;
+          const msg = { id: ++this.chatSeq, from: id, name: game.players.get(id)?.name ?? '?', text };
+          const q = typeof m.reply === 'number' ? this.chatLog.get(m.reply) : undefined;
+          this.chatLog.set(msg.id, msg); if (this.chatLog.size > 200) this.chatLog.delete(this.chatLog.keys().next().value!);
+          this.send(null, { t: 'chat', ...msg, reply: q && { ...q, text: q.text.slice(0, 80) } });
           return;
         }
         case 'stop': if (id === game.leaderId) game.stop(); return;

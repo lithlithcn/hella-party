@@ -73,7 +73,7 @@ export type ClientMsg =
   | { t: 'packs' }  // refresh the pack list (library)
   | { t: 'mediaError' } // this client could not load the question's media
   | { t: 'answer'; text: string }
-  | { t: 'chat'; text: string }
+  | { t: 'chat'; text: string; reply?: number }
   | { t: 'start' }
   | { t: 'stop' }
   | { t: 'settings'; patch: Record<string, any> }
@@ -85,6 +85,9 @@ export type ServerMsg =
   | { t: 'avatars'; map: Record<string, string> }       // id → data URL (on join: everyone's)
   | { t: 'avatar'; id: string; data: string | null }
   | { t: 'state'; s: PublicState }
-  | { t: 'chat'; from: string | null; name: string; text: string }
+  | { t: 'chat'; id?: number; from: string | null; name: string; text: string; reply?: ChatQuote }
   | { t: 'fx'; kind: string; f?: string; data?: any } // transient: sounds, feedback, animations
   | { t: 'err'; msg: string };
+
+/** Quoted message in a reply (Discord-like). */
+export interface ChatQuote { id: number; from: string | null; name: string; text: string }

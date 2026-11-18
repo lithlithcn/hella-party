@@ -170,8 +170,8 @@ legend { color: var(--cyan); font-weight: 700; padding: 0 6px; }
 @media (max-width: 860px) { .vol { width: 60px; } }
 
 /* ── guesses, avatars, modal, packs ── */
-.pguess { position: absolute; left: 50%; bottom: -12px; transform: translateX(-50%); max-width: 90%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  background: #fff; color: #1d1238; font-weight: 600; font-size: .78em; padding: 0 .55em; border-radius: 8px; animation: pop .2s; box-shadow: 0 2px 0 #0005; text-decoration: line-through var(--red) 2px; }
+.pguess { position: absolute; left: 50%; bottom: -12px; transform: translateX(-50%); max-width: 96%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  background: #fff; color: #1d1238; font-weight: 600; font-size: 1.05em; padding: .05em .6em; border-radius: 9px; animation: pop .2s; box-shadow: 0 2px 0 #0005; z-index: 1; }
 .pcard { margin-bottom: 6px; }
 img.avatar { object-fit: cover; display: block; }
 .clickable { cursor: pointer; }
@@ -211,3 +211,14 @@ img.avatar { object-fit: cover; display: block; }
 .version { opacity: .5; font-size: .75em; }
 .volmenu { position: relative; } .volpop { position: absolute; right: 0; top: 110%; z-index: 50; background: var(--panel2); border: 2px solid var(--line); border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; gap: 8px; min-width: 200px; } .volpop label { display: flex; flex-direction: column; gap: 4px; font-size: .9em; } .volpop input { accent-color: var(--pink); }
 .report { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 6px; }
+
+/* chat replies (Discord-like) + many players */
+.msg { position: relative; padding-right: 22px; border-radius: 6px; overflow-wrap: anywhere; }
+.msg.hl { animation: hl 1.2s; } @keyframes hl { from { background: #ffffff30; } to { background: transparent; } }
+.mreply { position: absolute; right: 0; top: 0; background: none; border: 0; color: var(--muted); cursor: pointer; padding: 0 4px; font-size: 1em; opacity: .5; }
+.mreply:hover, .mreply:focus { opacity: 1; color: #fff; }
+.mquote { font-size: .82em; color: var(--muted); cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 2px solid var(--line); padding-left: 6px; margin-bottom: 1px; }
+.reply-bar { display: flex; align-items: center; gap: 6px; margin: 0 8px; padding: 4px 8px; font-size: .85em; background: var(--panel2); border-radius: 8px 8px 0 0; color: var(--muted); }
+.reply-bar span { flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.reply-bar button { background: none; border: 0; color: inherit; cursor: pointer; }
+@media (min-width: 861px) { .players { max-height: 42vh; overflow-y: auto; padding-bottom: 14px; } }

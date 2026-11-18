@@ -3,7 +3,7 @@ import { useEffect, useState } from 'preact/hooks';
 import type { ClientMsg, PackInfo, PublicState, ServerMsg, SettingDef } from '../shared/protocol';
 import { play } from './sfx';
 
-export interface ChatLine { from: string | null; name: string; text: string }
+export interface ChatLine { id?: number; from: string | null; name: string; text: string; reply?: { id: number; from: string | null; name: string; text: string } }
 
 export const store = {
   s: null as PublicState | null,

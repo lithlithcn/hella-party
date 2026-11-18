@@ -4,7 +4,8 @@ import { CLIENT_FEATURES } from '../feature';
 import { send, store } from '../store';
 import { useState } from 'preact/hooks';
 import { AvatarEditor, myAvatar } from './avatar-editor';
-import { Avatar, fmtMs } from './util';
+import { Avatar, fmtMs, hue } from './util';
+import type { ChatLine } from '../store';
 
 export function Players({ s }: { s: PublicState }) {
   const list = s.status === 'lobby' ? s.players : [...s.players].sort((a, b) => b.score - a.score);
@@ -34,18 +35,28 @@ export function Players({ s }: { s: PublicState }) {
 
 export const chatInput = { el: null as HTMLInputElement | null };
 
+const nameColor = (id: string) => `hsl(${hue(id)} 85% 68%)`;
+const jump = (id: number) => { const el = document.querySelector(`[data-mid="${id}"]`); if (!el) return; el.scrollIntoView({ block: 'center' }); el.classList.remove('hl'); void (el as HTMLElement).offsetWidth; el.classList.add('hl'); };
+
 export function Chat() {
   const box = useRef<HTMLDivElement>(null);
+  const [reply, setReply] = useState<ChatLine | null>(null);
   useEffect(() => { box.current?.scrollTo(0, box.current.scrollHeight); }, [store.chat.length]);
+  const pick = (c: ChatLine) => { if (c.id == null) return; setReply(c); chatInput.el?.focus(); };
   return (
     <section class="chat">
       <div class="chat-log" ref={box}>
         {store.chat.map((c, i) => (
-          <div key={i} class={c.from ? 'msg' : 'msg sys'}>{c.from && <b>{c.name} </b>}{c.text}</div>
+          <div key={c.id ?? `s${i}`} data-mid={c.id} class={c.from ? 'msg' : 'msg sys'}>
+            {c.reply && <div class="mquote" onClick={() => jump(c.reply!.id)}>↪ <b style={{ color: c.reply.from ? nameColor(c.reply.from) : undefined }}>{c.reply.name}</b> {c.reply.text}</div>}
+            {c.from && <b style={{ color: nameColor(c.from) }}>{c.name} </b>}{c.text}
+            {c.id != null && <button type="button" class="mreply" title="Répondre" onClick={() => pick(c)}>↩</button>}
+          </div>
         ))}
       </div>
-      <form class="chat-form" onSubmit={e => { e.preventDefault(); const el = chatInput.el!; if (el.value.trim()) { send({ t: 'chat', text: el.value }); el.value = ''; } el.focus(); }}>
-        <input class="chat-input" ref={el => { chatInput.el = el; }} placeholder="Discuter…" maxLength={300} enterKeyHint="send" autocomplete="off" />
+      {reply && <div class="reply-bar">↩ Réponse à <b style={{ color: nameColor(reply.from!) }}>{reply.name}</b> <span>{reply.text}</span><button type="button" onClick={() => setReply(null)} title="Annuler">✕</button></div>}
+      <form class="chat-form" onSubmit={e => { e.preventDefault(); const el = chatInput.el!; if (el.value.trim()) { send({ t: 'chat', text: el.value, reply: reply?.id }); el.value = ''; setReply(null); } el.focus(); }}>
+        <input class="chat-input" onKeyDown={e => { if (e.key === 'Escape') setReply(null); }} ref={el => { chatInput.el = el; }} placeholder="Discuter…" maxLength={300} enterKeyHint="send" autocomplete="off" />
       </form>
     </section>
   );
