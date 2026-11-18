@@ -1387,6 +1387,1209 @@
     "facile"
    ],
    "src": "wiki:en:Cuphead"
+  },
+  {
+   "id": "goomba",
+   "answer": "Goomba",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Goomba"
+  },
+  {
+   "id": "koopa",
+   "answer": "Koopa",
+   "exact": [
+    "koopa troopa"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Koopa_Troopa"
+  },
+  {
+   "id": "maskass",
+   "answer": "Maskass",
+   "exact": [
+    "shy guy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Shy_Guy"
+  },
+  {
+   "id": "lakitu",
+   "answer": "Lakitu",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Lakitu"
+  },
+  {
+   "id": "chomp",
+   "answer": "Chomp",
+   "exact": [
+    "chain chomp"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Chain_Chomp"
+  },
+  {
+   "id": "ganon",
+   "answer": "Ganon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Ganon"
+  },
+  {
+   "id": "navi",
+   "answer": "Navi",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Navi_(The_Legend_of_Zelda)"
+  },
+  {
+   "id": "midna",
+   "answer": "Midna",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Midna"
+  },
+  {
+   "id": "roi-dadidou",
+   "answer": "Roi DaDiDou",
+   "exact": [
+    "dadidou",
+    "king dedede"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:King_Dedede"
+  },
+  {
+   "id": "meta-knight",
+   "answer": "Meta Knight",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Meta_Knight"
+  },
+  {
+   "id": "enderman",
+   "answer": "Enderman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Enderman"
+  },
+  {
+   "id": "herobrine",
+   "answer": "Herobrine",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Herobrine"
+  },
+  {
+   "id": "neo-cortex",
+   "answer": "Neo Cortex",
+   "exact": [
+    "cortex"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Doctor_Neo_Cortex"
+  },
+  {
+   "id": "guile",
+   "answer": "Guile",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Guile_(Street_Fighter)"
+  },
+  {
+   "id": "m-bison",
+   "answer": "M. Bison",
+   "exact": [
+    "bison"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:M._Bison"
+  },
+  {
+   "id": "blanka",
+   "answer": "Blanka",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Blanka"
+  },
+  {
+   "id": "dhalsim",
+   "answer": "Dhalsim",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Dhalsim"
+  },
+  {
+   "id": "raiden",
+   "answer": "Raiden",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Raiden_(Mortal_Kombat)"
+  },
+  {
+   "id": "liu-kang",
+   "answer": "Liu Kang",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Liu_Kang"
+  },
+  {
+   "id": "jin-kazama",
+   "answer": "Jin Kazama",
+   "exact": [
+    "jin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Jin_Kazama"
+  },
+  {
+   "id": "kazuya-mishima",
+   "answer": "Kazuya Mishima",
+   "exact": [
+    "kazuya"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Kazuya_Mishima"
+  },
+  {
+   "id": "heihachi",
+   "answer": "Heihachi",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Heihachi_Mishima"
+  },
+  {
+   "id": "aerith",
+   "answer": "Aerith",
+   "exact": [
+    "aeris"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Aerith_Gainsborough"
+  },
+  {
+   "id": "chocobo",
+   "answer": "Chocobo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Chocobo"
+  },
+  {
+   "id": "mog",
+   "answer": "Mog",
+   "exact": [
+    "moogle"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Moogle"
+  },
+  {
+   "id": "tidus",
+   "answer": "Tidus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Tidus"
+  },
+  {
+   "id": "big-boss",
+   "answer": "Big Boss",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Big_Boss_(Metal_Gear)"
+  },
+  {
+   "id": "chris-redfield",
+   "answer": "Chris Redfield",
+   "exact": [
+    "chris"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Chris_Redfield"
+  },
+  {
+   "id": "albert-wesker",
+   "answer": "Albert Wesker",
+   "exact": [
+    "wesker"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Albert_Wesker"
+  },
+  {
+   "id": "nemesis",
+   "answer": "Nemesis",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Nemesis_(Resident_Evil)"
+  },
+  {
+   "id": "lady-dimitrescu",
+   "answer": "Lady Dimitrescu",
+   "exact": [
+    "dimitrescu"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Lady_Dimitrescu"
+  },
+  {
+   "id": "chell",
+   "answer": "Chell",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Chell_(Portal)"
+  },
+  {
+   "id": "wheatley",
+   "answer": "Wheatley",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Wheatley_(Portal)"
+  },
+  {
+   "id": "alyx-vance",
+   "answer": "Alyx Vance",
+   "exact": [
+    "alyx"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Alyx_Vance"
+  },
+  {
+   "id": "g-man",
+   "answer": "G-Man",
+   "exact": [
+    "gman"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:G-Man_(Half-Life)"
+  },
+  {
+   "id": "ridley",
+   "answer": "Ridley",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Ridley_(Metroid)"
+  },
+  {
+   "id": "altair",
+   "answer": "Altaïr",
+   "exact": [
+    "altair"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Altaïr_Ibn-La'Ahad"
+  },
+  {
+   "id": "edward-kenway",
+   "answer": "Edward Kenway",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Edward_Kenway"
+  },
+  {
+   "id": "cj",
+   "answer": "CJ",
+   "exact": [
+    "carl johnson"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Carl_Johnson_(Grand_Theft_Auto)"
+  },
+  {
+   "id": "niko-bellic",
+   "answer": "Niko Bellic",
+   "exact": [
+    "niko"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Niko_Bellic"
+  },
+  {
+   "id": "trevor-philips",
+   "answer": "Trevor Philips",
+   "exact": [
+    "trevor"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Trevor_Philips"
+  },
+  {
+   "id": "john-marston",
+   "answer": "John Marston",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:John_Marston"
+  },
+  {
+   "id": "ciri",
+   "answer": "Ciri",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Ciri_(The_Witcher)"
+  },
+  {
+   "id": "yennefer",
+   "answer": "Yennefer",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Yennefer_of_Vengerberg"
+  },
+  {
+   "id": "papyrus",
+   "answer": "Papyrus",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Papyrus_(Undertale)"
+  },
+  {
+   "id": "toriel",
+   "answer": "Toriel",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Toriel"
+  },
+  {
+   "id": "riku",
+   "answer": "Riku",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Riku_(Kingdom_Hearts)"
+  },
+  {
+   "id": "tracer",
+   "answer": "Tracer",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Tracer_(Overwatch)"
+  },
+  {
+   "id": "d-va",
+   "answer": "D.Va",
+   "exact": [
+    "dva"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:D.Va"
+  },
+  {
+   "id": "mercy",
+   "answer": "Mercy",
+   "exact": [
+    "ange"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Mercy_(Overwatch)"
+  },
+  {
+   "id": "faucheur",
+   "answer": "Faucheur",
+   "exact": [
+    "reaper"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Reaper_(Overwatch)"
+  },
+  {
+   "id": "fatale",
+   "answer": "Fatale",
+   "exact": [
+    "widowmaker"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Widowmaker_(Overwatch)"
+  },
+  {
+   "id": "ahri",
+   "answer": "Ahri",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Ahri_(League_of_Legends)"
+  },
+  {
+   "id": "teemo",
+   "answer": "Teemo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Teemo"
+  },
+  {
+   "id": "yasuo",
+   "answer": "Yasuo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Yasuo"
+  },
+  {
+   "id": "jonesy",
+   "answer": "Jonesy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Jonesy"
+  },
+  {
+   "id": "peely",
+   "answer": "Peely",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Peely"
+  },
+  {
+   "id": "crewmate",
+   "answer": "Crewmate",
+   "exact": [
+    "among us"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Crewmate_(Among_Us)"
+  },
+  {
+   "id": "paimon",
+   "answer": "Paimon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Paimon_(Genshin_Impact)"
+  },
+  {
+   "id": "madeline",
+   "answer": "Madeline",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Madeline_(Celeste)"
+  },
+  {
+   "id": "conker",
+   "answer": "Conker",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Conker_the_Squirrel"
+  },
+  {
+   "id": "earthworm-jim",
+   "answer": "Earthworm Jim",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Earthworm_Jim_(character)"
+  },
+  {
+   "id": "bomberman",
+   "answer": "Bomberman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Bomberman_(character)"
+  },
+  {
+   "id": "blinky",
+   "answer": "Blinky",
+   "exact": [
+    "fantome pac-man"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Ghosts_(Pac-Man)"
+  },
+  {
+   "id": "pauline",
+   "answer": "Pauline",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Pauline_(Nintendo)"
+  },
+  {
+   "id": "master-hand",
+   "answer": "Master Hand",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Master_Hand"
+  },
+  {
+   "id": "shulk",
+   "answer": "Shulk",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Shulk"
+  },
+  {
+   "id": "pikmin",
+   "answer": "Pikmin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Pikmin_(creature)"
+  },
+  {
+   "id": "falco",
+   "answer": "Falco",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Falco_Lombardi"
+  },
+  {
+   "id": "mii",
+   "answer": "Mii",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Mii"
+  },
+  {
+   "id": "little-mac",
+   "answer": "Little Mac",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Little_Mac"
+  },
+  {
+   "id": "joker",
+   "answer": "Joker",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Joker_(Persona)"
+  },
+  {
+   "id": "morgana",
+   "answer": "Morgana",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Morgana_(Persona)"
+  },
+  {
+   "id": "solaire",
+   "answer": "Solaire",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Solaire_of_Astora"
+  },
+  {
+   "id": "malenia",
+   "answer": "Malenia",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Malenia"
+  },
+  {
+   "id": "big-daddy",
+   "answer": "Big Daddy",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Big_Daddy_(BioShock)"
+  },
+  {
+   "id": "vault-boy",
+   "answer": "Vault Boy",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Vault_Boy"
+  },
+  {
+   "id": "crazy-dave",
+   "answer": "Crazy Dave",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Crazy_Dave"
+  },
+  {
+   "id": "red",
+   "answer": "Red",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Red_(Angry_Birds)"
+  },
+  {
+   "id": "om-nom",
+   "answer": "Om Nom",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Om_Nom"
+  },
+  {
+   "id": "junimo",
+   "answer": "Junimo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Junimo"
+  },
+  {
+   "id": "clank",
+   "answer": "Clank",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Clank_(Ratchet_&_Clank)"
+  },
+  {
+   "id": "globox",
+   "answer": "Globox",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Globox"
+  },
+  {
+   "id": "lapin-cretin",
+   "answer": "Lapin crétin",
+   "exact": [
+    "lapins cretins"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Rabbids"
+  },
+  {
+   "id": "sam-fisher",
+   "answer": "Sam Fisher",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Sam_Fisher"
+  },
+  {
+   "id": "vaas",
+   "answer": "Vaas",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Vaas_Montenegro"
+  },
+  {
+   "id": "johnny-silverhand",
+   "answer": "Johnny Silverhand",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Johnny_Silverhand"
+  },
+  {
+   "id": "marcus-fenix",
+   "answer": "Marcus Fenix",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Marcus_Fenix"
+  },
+  {
+   "id": "commandant-shepard",
+   "answer": "Commandant Shepard",
+   "exact": [
+    "shepard"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Commander_Shepard"
+  },
+  {
+   "id": "luke-triton",
+   "answer": "Luke Triton",
+   "exact": [
+    "luke"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Luke_Triton"
+  },
+  {
+   "id": "miles-edgeworth",
+   "answer": "Miles Edgeworth",
+   "exact": [
+    "benjamin hunter"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Miles_Edgeworth"
+  },
+  {
+   "id": "sparx",
+   "answer": "Sparx",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Sparx_the_Dragonfly"
+  },
+  {
+   "id": "q-bert",
+   "answer": "Q*bert",
+   "exact": [
+    "qbert"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Q*bert_(character)"
+  },
+  {
+   "id": "banjo-et-kazooie",
+   "answer": "Banjo et Kazooie",
+   "exact": [
+    "banjo kazooie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Banjo_and_Kazooie"
+  },
+  {
+   "id": "cream",
+   "answer": "Cream",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Cream_the_Rabbit"
   }
  ]
 }

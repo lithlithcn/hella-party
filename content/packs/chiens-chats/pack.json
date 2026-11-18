@@ -1053,6 +1053,510 @@
     "difficile"
    ],
    "src": "wiki:en:Serval"
+  },
+  {
+   "id": "labrador-retriever",
+   "answer": "Labrador Retriever",
+   "exact": [
+    "labrador"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Labrador retriever"
+  },
+  {
+   "id": "husky-de-siberie",
+   "answer": "Husky de Sibérie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:husky"
+  },
+  {
+   "id": "yorkshire-terrier",
+   "answer": "Yorkshire Terrier",
+   "exact": [
+    "yorkshire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Yorkshire terrier"
+  },
+  {
+   "id": "cocker-anglais",
+   "answer": "Cocker anglais",
+   "exact": [
+    "cocker"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Cocker anglais"
+  },
+  {
+   "id": "jack-russell-terrier",
+   "answer": "Jack Russell Terrier",
+   "exact": [
+    "jack russell"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Jack Russell terrier"
+  },
+  {
+   "id": "akita-inu",
+   "answer": "Akita Inu",
+   "exact": [
+    "akita"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Akita inu"
+  },
+  {
+   "id": "levrier-greyhound",
+   "answer": "Lévrier greyhound",
+   "exact": [
+    "greyhound"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Greyhound"
+  },
+  {
+   "id": "staffordshire-bull-terrier",
+   "answer": "Staffordshire Bull Terrier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:staffie,staff"
+  },
+  {
+   "id": "bergamasque",
+   "answer": "Bergamasque",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Berger bergamasque"
+  },
+  {
+   "id": "komondor",
+   "answer": "Komondor",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Komondor"
+  },
+  {
+   "id": "leonberg",
+   "answer": "Leonberg",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Leonberg"
+  },
+  {
+   "id": "braque-de-weimar",
+   "answer": "Braque de Weimar",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:weimaraner"
+  },
+  {
+   "id": "mastiff",
+   "answer": "Mastiff",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Mastiff"
+  },
+  {
+   "id": "barzoi",
+   "answer": "Barzoï",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:barzoi"
+  },
+  {
+   "id": "papillon",
+   "answer": "Papillon",
+   "exact": [
+    "chien papillon"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Épagneul nain continental"
+  },
+  {
+   "id": "bobtail",
+   "answer": "Bobtail",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Old English Sheepdog"
+  },
+  {
+   "id": "bearded-collie",
+   "answer": "Bearded Collie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Bearded Collie"
+  },
+  {
+   "id": "chien-nu-du-mexique",
+   "answer": "Chien nu du Mexique",
+   "exact": [
+    "xolo"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Xoloitzcuintle"
+  },
+  {
+   "id": "chien-chinois-a-crete",
+   "answer": "Chien chinois à crête",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Chien chinois à crête"
+  },
+  {
+   "id": "basenji",
+   "answer": "Basenji",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Basenji"
+  },
+  {
+   "id": "cornish-rex",
+   "answer": "Cornish Rex",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Cornish Rex"
+  },
+  {
+   "id": "siberien",
+   "answer": "Sibérien",
+   "exact": [
+    "siberien"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Sibérien (chat)"
+  },
+  {
+   "id": "ragamuffin",
+   "answer": "Ragamuffin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Ragamuffin"
+  },
+  {
+   "id": "munchkin",
+   "answer": "Munchkin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Munchkin (chat)"
+  },
+  {
+   "id": "burmese",
+   "answer": "Burmese",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Burmese (chat)"
+  },
+  {
+   "id": "oriental",
+   "answer": "Oriental",
+   "exact": [
+    "oriental shorthair"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Oriental (chat)"
+  },
+  {
+   "id": "selkirk-rex",
+   "answer": "Selkirk Rex",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Selkirk Rex"
+  },
+  {
+   "id": "mau-egyptien",
+   "answer": "Mau égyptien",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:mau"
+  },
+  {
+   "id": "bobtail-japonais",
+   "answer": "Bobtail japonais",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Bobtail japonais"
+  },
+  {
+   "id": "manx",
+   "answer": "Manx",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Manx (chat)"
+  },
+  {
+   "id": "korat",
+   "answer": "Korat",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Korat"
+  },
+  {
+   "id": "singapura",
+   "answer": "Singapura",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Singapura"
+  },
+  {
+   "id": "toyger",
+   "answer": "Toyger",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Toyger"
+  },
+  {
+   "id": "ocicat",
+   "answer": "Ocicat",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Ocicat"
+  },
+  {
+   "id": "somali",
+   "answer": "Somali",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Somali (chat)"
+  },
+  {
+   "id": "lykoi",
+   "answer": "Lykoi",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Lykoi"
+  },
+  {
+   "id": "turc-de-van",
+   "answer": "Turc de Van",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:van turc"
+  },
+  {
+   "id": "havana-brown",
+   "answer": "Havana Brown",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Havana Brown"
+  },
+  {
+   "id": "balinais",
+   "answer": "Balinais",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Balinais (chat)"
+  },
+  {
+   "id": "snowshoe",
+   "answer": "Snowshoe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Snowshoe (chat)"
+  },
+  {
+   "id": "tonkinois",
+   "answer": "Tonkinois",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Tonkinois"
+  },
+  {
+   "id": "laperm",
+   "answer": "LaPerm",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:LaPerm"
+  },
+  {
+   "id": "american-curl",
+   "answer": "American Curl",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:American Curl"
+  },
+  {
+   "id": "chausie",
+   "answer": "Chausie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Chausie"
   }
  ]
 }

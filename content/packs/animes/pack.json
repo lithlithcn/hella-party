@@ -21,7 +21,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Naruto_Uzumaki"
+   "src": "wiki:en:Naruto_Uzumaki",
+   "explain": "C'était Naruto Uzumaki"
   },
   {
    "id": "one-piece",
@@ -34,7 +35,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Monkey_D._Luffy"
+   "src": "wiki:en:Monkey_D._Luffy",
+   "explain": "C'était Monkey D. Luffy"
   },
   {
    "id": "dragon-ball",
@@ -49,7 +51,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Goku"
+   "src": "wiki:en:Goku",
+   "explain": "C'était Goku"
   },
   {
    "id": "pokemon",
@@ -62,7 +65,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Ash_Ketchum"
+   "src": "wiki:en:Ash_Ketchum",
+   "explain": "C'était Ash Ketchum"
   },
   {
    "id": "l-attaque-des-titans",
@@ -77,7 +81,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Eren_Yeager"
+   "src": "wiki:en:Eren_Yeager",
+   "explain": "C'était Eren Yeager"
   },
   {
    "id": "death-note",
@@ -88,7 +93,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Light_Yagami"
+   "src": "wiki:en:Light_Yagami",
+   "explain": "C'était Light Yagami"
   },
   {
    "id": "my-hero-academia",
@@ -101,7 +107,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Izuku_Midoriya"
+   "src": "wiki:en:Izuku_Midoriya",
+   "explain": "C'était Izuku Midoriya"
   },
   {
    "id": "demon-slayer",
@@ -114,7 +121,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Tanjiro_Kamado"
+   "src": "wiki:en:Tanjiro_Kamado",
+   "explain": "C'était Tanjiro Kamado"
   },
   {
    "id": "jujutsu-kaisen",
@@ -127,7 +135,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Satoru_Gojo"
+   "src": "wiki:en:Satoru_Gojo",
+   "explain": "C'était Satoru Gojo"
   },
   {
    "id": "fullmetal-alchemist",
@@ -140,7 +149,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Edward_Elric"
+   "src": "wiki:en:Edward_Elric",
+   "explain": "C'était Edward Elric"
   },
   {
    "id": "hunter-x-hunter",
@@ -153,7 +163,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Gon_Freecss"
+   "src": "wiki:en:Gon_Freecss",
+   "explain": "C'était Gon Freecss"
   },
   {
    "id": "bleach",
@@ -164,7 +175,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Ichigo_Kurosaki"
+   "src": "wiki:en:Ichigo_Kurosaki",
+   "explain": "C'était Ichigo Kurosaki"
   },
   {
    "id": "sailor-moon",
@@ -175,7 +187,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Sailor_Moon_(character)"
+   "src": "wiki:en:Sailor_Moon_(character)",
+   "explain": "C'était Sailor Moon"
   },
   {
    "id": "one-punch-man",
@@ -188,7 +201,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Saitama_(One-Punch_Man)"
+   "src": "wiki:en:Saitama_(One-Punch_Man)",
+   "explain": "C'était Saitama"
   },
   {
    "id": "tokyo-ghoul",
@@ -199,7 +213,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Ken_Kaneki"
+   "src": "wiki:en:Ken_Kaneki",
+   "explain": "C'était Ken Kaneki"
   },
   {
    "id": "spy-x-family",
@@ -212,7 +227,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Anya_Forger"
+   "src": "wiki:en:Anya_Forger",
+   "explain": "C'était Anya Forger"
   },
   {
    "id": "chainsaw-man",
@@ -223,7 +239,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Denji_(Chainsaw_Man)"
+   "src": "wiki:en:Denji_(Chainsaw_Man)",
+   "explain": "C'était Denji"
   },
   {
    "id": "mon-voisin-totoro",
@@ -236,7 +253,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Totoro"
+   "src": "wiki:en:Totoro",
+   "explain": "C'était Totoro"
   },
   {
    "id": "jojo-s-bizarre-adventure",
@@ -249,7 +267,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Jotaro_Kujo"
+   "src": "wiki:en:Jotaro_Kujo",
+   "explain": "C'était Jotaro Kujo"
   },
   {
    "id": "neon-genesis-evangelion",
@@ -262,7 +281,8 @@
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Shinji_Ikari"
+   "src": "wiki:en:Shinji_Ikari",
+   "explain": "C'était Shinji Ikari"
   },
   {
    "id": "cowboy-bebop",
@@ -273,7 +293,8 @@
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Spike_Spiegel"
+   "src": "wiki:en:Spike_Spiegel",
+   "explain": "C'était Spike Spiegel"
   },
   {
    "id": "detective-conan",
@@ -287,7 +308,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Jimmy_Kudo"
+   "src": "wiki:en:Jimmy_Kudo",
+   "explain": "C'était Jimmy Kudo"
   },
   {
    "id": "doraemon",
@@ -298,7 +320,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Doraemon_(character)"
+   "src": "wiki:en:Doraemon_(character)",
+   "explain": "C'était Doraemon"
   },
   {
    "id": "yu-gi-oh",
@@ -311,7 +334,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Yugi_Mutou"
+   "src": "wiki:en:Yugi_Mutou",
+   "explain": "C'était Yugi Mutou"
   },
   {
    "id": "digimon",
@@ -324,7 +348,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Agumon"
+   "src": "wiki:en:Agumon",
+   "explain": "C'était Agumon"
   },
   {
    "id": "fairy-tail",
@@ -335,7 +360,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Natsu_Dragneel"
+   "src": "wiki:en:Natsu_Dragneel",
+   "explain": "C'était Natsu Dragneel"
   },
   {
    "id": "sword-art-online",
@@ -348,7 +374,8 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Kirito_(Sword_Art_Online)"
+   "src": "wiki:en:Kirito_(Sword_Art_Online)",
+   "explain": "C'était Kirito"
   },
   {
    "id": "black-clover",
@@ -359,7 +386,8 @@
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Asta_(Black_Clover)"
+   "src": "wiki:en:Asta_(Black_Clover)",
+   "explain": "C'était Asta"
   },
   {
    "id": "dragon-ball-vegeta",
@@ -599,7 +627,8 @@
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Lelouch_Lamperouge"
+   "src": "wiki:en:Lelouch_Lamperouge",
+   "explain": "C'était Lelouch Lamperouge"
   },
   {
    "id": "inuyasha",
@@ -610,7 +639,8 @@
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Inuyasha_(character)"
+   "src": "wiki:en:Inuyasha_(character)",
+   "explain": "C'était Inuyasha"
   },
   {
    "id": "ranma",
@@ -623,7 +653,8 @@
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Ranma_Saotome"
+   "src": "wiki:en:Ranma_Saotome",
+   "explain": "C'était Ranma Saotome"
   },
   {
    "id": "captain-tsubasa",
@@ -636,7 +667,8 @@
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Tsubasa_Ozora"
+   "src": "wiki:en:Tsubasa_Ozora",
+   "explain": "C'était Tsubasa Ozora"
   },
   {
    "id": "saint-seiya",
@@ -649,7 +681,8 @@
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Pegasus_Seiya"
+   "src": "wiki:en:Pegasus_Seiya",
+   "explain": "C'était Pegasus Seiya"
   },
   {
    "id": "astro-boy",
@@ -662,7 +695,8 @@
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Astro_Boy_(character)"
+   "src": "wiki:en:Astro_Boy_(character)",
+   "explain": "C'était Astro Boy"
   },
   {
    "id": "ghibli-le-voyage-de-chihiro",
@@ -677,7 +711,1761 @@
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:No-Face"
+   "src": "wiki:en:No-Face",
+   "explain": "C'était No-Face"
+  },
+  {
+   "id": "naruto-2",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Sakura_Haruno",
+   "explain": "C'était Sakura Haruno"
+  },
+  {
+   "id": "naruto-2-2",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Itachi_Uchiha",
+   "explain": "C'était Itachi Uchiha"
+  },
+  {
+   "id": "naruto-3",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Gaara",
+   "explain": "C'était Gaara"
+  },
+  {
+   "id": "naruto-4",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Hinata_Hyuga",
+   "explain": "C'était Hinata Hyuga"
+  },
+  {
+   "id": "naruto-5",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Jiraiya_(Naruto)",
+   "explain": "C'était Jiraiya"
+  },
+  {
+   "id": "naruto-6",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Orochimaru_(Naruto)",
+   "explain": "C'était Orochimaru"
+  },
+  {
+   "id": "naruto-7",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Rock_Lee",
+   "explain": "C'était Rock Lee"
+  },
+  {
+   "id": "naruto-8",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Madara_Uchiha",
+   "explain": "C'était Madara Uchiha"
+  },
+  {
+   "id": "naruto-9",
+   "answer": "Naruto",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Pain_(Naruto)",
+   "explain": "C'était Pain"
+  },
+  {
+   "id": "one-piece-2",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Nami_(One_Piece)",
+   "explain": "C'était Nami"
+  },
+  {
+   "id": "one-piece-2-2",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Usopp",
+   "explain": "C'était Usopp"
+  },
+  {
+   "id": "one-piece-3",
+   "answer": "One Piece",
+   "exact": [
+    "chopper"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Tony_Tony_Chopper",
+   "explain": "C'était Tony Tony Chopper"
+  },
+  {
+   "id": "one-piece-4",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Nico_Robin",
+   "explain": "C'était Nico Robin"
+  },
+  {
+   "id": "one-piece-5",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Portgas_D._Ace",
+   "explain": "C'était Portgas D. Ace"
+  },
+  {
+   "id": "one-piece-6",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Shanks",
+   "explain": "C'était Shanks"
+  },
+  {
+   "id": "one-piece-7",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Trafalgar_Law",
+   "explain": "C'était Trafalgar Law"
+  },
+  {
+   "id": "one-piece-8",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Boa_Hancock",
+   "explain": "C'était Boa Hancock"
+  },
+  {
+   "id": "one-piece-9",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Brook_(One_Piece)",
+   "explain": "C'était Brook"
+  },
+  {
+   "id": "one-piece-10",
+   "answer": "One Piece",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Franky_(One_Piece)",
+   "explain": "C'était Franky"
+  },
+  {
+   "id": "dragon-ball-2",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Gohan",
+   "explain": "C'était Gohan"
+  },
+  {
+   "id": "dragon-ball-2-2",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Krillin",
+   "explain": "C'était Krillin"
+  },
+  {
+   "id": "dragon-ball-3",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Cell_(Dragon_Ball)",
+   "explain": "C'était Cell"
+  },
+  {
+   "id": "dragon-ball-4",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Majin_Buu",
+   "explain": "C'était Majin Buu"
+  },
+  {
+   "id": "dragon-ball-5",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Trunks_(Dragon_Ball)",
+   "explain": "C'était Trunks"
+  },
+  {
+   "id": "dragon-ball-6",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Bulma",
+   "explain": "C'était Bulma"
+  },
+  {
+   "id": "dragon-ball-7",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Master_Roshi",
+   "explain": "C'était Master Roshi"
+  },
+  {
+   "id": "dragon-ball-8",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Broly",
+   "explain": "C'était Broly"
+  },
+  {
+   "id": "dragon-ball-9",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Goten",
+   "explain": "C'était Goten"
+  },
+  {
+   "id": "dragon-ball-10",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Beerus",
+   "explain": "C'était Beerus"
+  },
+  {
+   "id": "dragon-ball-11",
+   "answer": "Dragon Ball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Shenron",
+   "explain": "C'était Shenron"
+  },
+  {
+   "id": "pokemon-2",
+   "answer": "Pokémon",
+   "exact": [
+    "team rocket"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Team_Rocket",
+   "explain": "C'était Team Rocket"
+  },
+  {
+   "id": "pokemon-2-2",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Misty_(Pokémon)",
+   "explain": "C'était Misty"
+  },
+  {
+   "id": "pokemon-3",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Brock_(Pokémon)",
+   "explain": "C'était Brock"
+  },
+  {
+   "id": "l-attaque-des-titans-2",
+   "answer": "L'Attaque des Titans",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Mikasa_Ackerman",
+   "explain": "C'était Mikasa Ackerman"
+  },
+  {
+   "id": "l-attaque-des-titans-2-2",
+   "answer": "L'Attaque des Titans",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Armin_Arlert",
+   "explain": "C'était Armin Arlert"
+  },
+  {
+   "id": "l-attaque-des-titans-3",
+   "answer": "L'Attaque des Titans",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Reiner_Braun",
+   "explain": "C'était Reiner Braun"
+  },
+  {
+   "id": "my-hero-academia-2",
+   "answer": "My Hero Academia",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Katsuki_Bakugo",
+   "explain": "C'était Katsuki Bakugo"
+  },
+  {
+   "id": "my-hero-academia-2-2",
+   "answer": "My Hero Academia",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Shoto_Todoroki",
+   "explain": "C'était Shoto Todoroki"
+  },
+  {
+   "id": "my-hero-academia-3",
+   "answer": "My Hero Academia",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Ochaco_Uraraka",
+   "explain": "C'était Ochaco Uraraka"
+  },
+  {
+   "id": "my-hero-academia-4",
+   "answer": "My Hero Academia",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Tomura_Shigaraki",
+   "explain": "C'était Tomura Shigaraki"
+  },
+  {
+   "id": "demon-slayer-2",
+   "answer": "Demon Slayer",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Zenitsu_Agatsuma",
+   "explain": "C'était Zenitsu Agatsuma"
+  },
+  {
+   "id": "demon-slayer-2-2",
+   "answer": "Demon Slayer",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Inosuke_Hashibira",
+   "explain": "C'était Inosuke Hashibira"
+  },
+  {
+   "id": "demon-slayer-3",
+   "answer": "Demon Slayer",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Muzan_Kibutsuji",
+   "explain": "C'était Muzan Kibutsuji"
+  },
+  {
+   "id": "demon-slayer-4",
+   "answer": "Demon Slayer",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kyojuro_Rengoku",
+   "explain": "C'était Kyojuro Rengoku"
+  },
+  {
+   "id": "jujutsu-kaisen-2",
+   "answer": "Jujutsu Kaisen",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Yuji_Itadori",
+   "explain": "C'était Yuji Itadori"
+  },
+  {
+   "id": "jujutsu-kaisen-2-2",
+   "answer": "Jujutsu Kaisen",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Megumi_Fushiguro",
+   "explain": "C'était Megumi Fushiguro"
+  },
+  {
+   "id": "jujutsu-kaisen-3",
+   "answer": "Jujutsu Kaisen",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Ryomen_Sukuna",
+   "explain": "C'était Ryomen Sukuna"
+  },
+  {
+   "id": "jujutsu-kaisen-4",
+   "answer": "Jujutsu Kaisen",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Nobara_Kugisaki",
+   "explain": "C'était Nobara Kugisaki"
+  },
+  {
+   "id": "hunter-x-hunter-2",
+   "answer": "Hunter x Hunter",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Hisoka_Morow",
+   "explain": "C'était Hisoka Morow"
+  },
+  {
+   "id": "hunter-x-hunter-2-2",
+   "answer": "Hunter x Hunter",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kurapika",
+   "explain": "C'était Kurapika"
+  },
+  {
+   "id": "bleach-2",
+   "answer": "Bleach",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Rukia_Kuchiki",
+   "explain": "C'était Rukia Kuchiki"
+  },
+  {
+   "id": "bleach-2-2",
+   "answer": "Bleach",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Sōsuke_Aizen",
+   "explain": "C'était Sōsuke Aizen"
+  },
+  {
+   "id": "fullmetal-alchemist-2",
+   "answer": "Fullmetal Alchemist",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Roy_Mustang",
+   "explain": "C'était Roy Mustang"
+  },
+  {
+   "id": "tokyo-ghoul-2",
+   "answer": "Tokyo Ghoul",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Touka_Kirishima",
+   "explain": "C'était Touka Kirishima"
+  },
+  {
+   "id": "spy-x-family-2",
+   "answer": "Spy x Family",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Loid_Forger",
+   "explain": "C'était Loid Forger"
+  },
+  {
+   "id": "spy-x-family-2-2",
+   "answer": "Spy x Family",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Yor_Forger",
+   "explain": "C'était Yor Forger"
+  },
+  {
+   "id": "chainsaw-man-2",
+   "answer": "Chainsaw Man",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Power_(Chainsaw_Man)",
+   "explain": "C'était Power"
+  },
+  {
+   "id": "chainsaw-man-2-2",
+   "answer": "Chainsaw Man",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Makima_(Chainsaw_Man)",
+   "explain": "C'était Makima"
+  },
+  {
+   "id": "chainsaw-man-3",
+   "answer": "Chainsaw Man",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Pochita",
+   "explain": "C'était Pochita"
+  },
+  {
+   "id": "jojo-s-bizarre-adventure-2",
+   "answer": "JoJo's Bizarre Adventure",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Dio_Brando",
+   "explain": "C'était Dio Brando"
+  },
+  {
+   "id": "jojo-s-bizarre-adventure-2-2",
+   "answer": "JoJo's Bizarre Adventure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Giorno_Giovanna",
+   "explain": "C'était Giorno Giovanna"
+  },
+  {
+   "id": "jojo-s-bizarre-adventure-3",
+   "answer": "JoJo's Bizarre Adventure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Josuke_Higashikata",
+   "explain": "C'était Josuke Higashikata"
+  },
+  {
+   "id": "neon-genesis-evangelion-2",
+   "answer": "Neon Genesis Evangelion",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Rei_Ayanami",
+   "explain": "C'était Rei Ayanami"
+  },
+  {
+   "id": "neon-genesis-evangelion-2-2",
+   "answer": "Neon Genesis Evangelion",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Asuka_Langley_Soryu",
+   "explain": "C'était Asuka Langley Soryu"
+  },
+  {
+   "id": "sailor-moon-2",
+   "answer": "Sailor Moon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Sailor_Mars",
+   "explain": "C'était Sailor Mars"
+  },
+  {
+   "id": "sailor-moon-2-2",
+   "answer": "Sailor Moon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Sailor_Mercury",
+   "explain": "C'était Sailor Mercury"
+  },
+  {
+   "id": "detective-conan-2",
+   "answer": "Detective Conan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kaito_Kid",
+   "explain": "C'était Kaito Kid"
+  },
+  {
+   "id": "yu-gi-oh-2",
+   "answer": "Yu-Gi-Oh!",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Seto_Kaiba",
+   "explain": "C'était Seto Kaiba"
+  },
+  {
+   "id": "yu-gi-oh-2-2",
+   "answer": "Yu-Gi-Oh!",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Dark_Magician",
+   "explain": "C'était Dark Magician"
+  },
+  {
+   "id": "yu-gi-oh-3",
+   "answer": "Yu-Gi-Oh!",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Blue-Eyes_White_Dragon",
+   "explain": "C'était Blue-Eyes White Dragon"
+  },
+  {
+   "id": "fairy-tail-2",
+   "answer": "Fairy Tail",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Lucy_Heartfilia",
+   "explain": "C'était Lucy Heartfilia"
+  },
+  {
+   "id": "fairy-tail-2-2",
+   "answer": "Fairy Tail",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Happy_(Fairy_Tail)",
+   "explain": "C'était Happy"
+  },
+  {
+   "id": "sword-art-online-2",
+   "answer": "Sword Art Online",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Asuna_(Sword_Art_Online)",
+   "explain": "C'était Asuna"
+  },
+  {
+   "id": "black-clover-2",
+   "answer": "Black Clover",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Yuno_(Black_Clover)",
+   "explain": "C'était Yuno"
+  },
+  {
+   "id": "one-punch-man-2",
+   "answer": "One Punch Man",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Genos",
+   "explain": "C'était Genos"
+  },
+  {
+   "id": "death-note-2",
+   "answer": "Death Note",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Misa_Amane",
+   "explain": "C'était Misa Amane"
+  },
+  {
+   "id": "code-geass-2",
+   "answer": "Code Geass",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:C.C._(Code_Geass)",
+   "explain": "C'était C.C."
+  },
+  {
+   "id": "gintama",
+   "answer": "Gintama",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Gintoki_Sakata",
+   "explain": "C'était Gintoki Sakata"
+  },
+  {
+   "id": "haikyu",
+   "answer": "Haikyū!!",
+   "exact": [
+    "haikyu"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Shoyo_Hinata",
+   "explain": "C'était Shoyo Hinata"
+  },
+  {
+   "id": "haikyu-2",
+   "answer": "Haikyū!!",
+   "exact": [
+    "haikyu"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Tobio_Kageyama",
+   "explain": "C'était Tobio Kageyama"
+  },
+  {
+   "id": "kuroko-s-basket",
+   "answer": "Kuroko's Basket",
+   "exact": [
+    "kuroko no basket"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Tetsuya_Kuroko",
+   "explain": "C'était Tetsuya Kuroko"
+  },
+  {
+   "id": "blue-lock",
+   "answer": "Blue Lock",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Yoichi_Isagi",
+   "explain": "C'était Yoichi Isagi"
+  },
+  {
+   "id": "mob-psycho-100",
+   "answer": "Mob Psycho 100",
+   "exact": [
+    "mob psycho"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Shigeo_Kageyama",
+   "explain": "C'était Shigeo Kageyama"
+  },
+  {
+   "id": "mob-psycho-100-2",
+   "answer": "Mob Psycho 100",
+   "exact": [
+    "mob psycho"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Reigen_Arataka",
+   "explain": "C'était Reigen Arataka"
+  },
+  {
+   "id": "vinland-saga",
+   "answer": "Vinland Saga",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Thorfinn_(Vinland_Saga)",
+   "explain": "C'était Thorfinn"
+  },
+  {
+   "id": "frieren",
+   "answer": "Frieren",
+   "exact": [
+    "sousou no frieren"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Frieren_(character)",
+   "explain": "C'était Frieren"
+  },
+  {
+   "id": "dandadan",
+   "answer": "Dandadan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Momo_Ayase",
+   "explain": "C'était Momo Ayase"
+  },
+  {
+   "id": "solo-leveling",
+   "answer": "Solo Leveling",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Sung_Jinwoo",
+   "explain": "C'était Sung Jinwoo"
+  },
+  {
+   "id": "oshi-no-ko",
+   "answer": "Oshi no Ko",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Ai_Hoshino",
+   "explain": "C'était Ai Hoshino"
+  },
+  {
+   "id": "kaguya-sama",
+   "answer": "Kaguya-sama",
+   "exact": [
+    "kaguya sama"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Kaguya_Shinomiya",
+   "explain": "C'était Kaguya Shinomiya"
+  },
+  {
+   "id": "tokyo-revengers",
+   "answer": "Tokyo Revengers",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Takemichi_Hanagaki",
+   "explain": "C'était Takemichi Hanagaki"
+  },
+  {
+   "id": "tokyo-revengers-2",
+   "answer": "Tokyo Revengers",
+   "exact": [
+    "mikey"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Manjiro_Sano",
+   "explain": "C'était Manjiro Sano"
+  },
+  {
+   "id": "fire-force",
+   "answer": "Fire Force",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Shinra_Kusakabe",
+   "explain": "C'était Shinra Kusakabe"
+  },
+  {
+   "id": "dr-stone",
+   "answer": "Dr. Stone",
+   "exact": [
+    "dr stone"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Senku_Ishigami",
+   "explain": "C'était Senku Ishigami"
+  },
+  {
+   "id": "the-promised-neverland",
+   "answer": "The Promised Neverland",
+   "exact": [
+    "promised neverland"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Emma_(The_Promised_Neverland)",
+   "explain": "C'était Emma"
+  },
+  {
+   "id": "made-in-abyss",
+   "answer": "Made in Abyss",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Riko_(Made_in_Abyss)",
+   "explain": "C'était Riko"
+  },
+  {
+   "id": "re-zero",
+   "answer": "Re:Zero",
+   "exact": [
+    "re zero"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Rem_(Re:Zero)",
+   "explain": "C'était Rem"
+  },
+  {
+   "id": "re-zero-2",
+   "answer": "Re:Zero",
+   "exact": [
+    "re zero"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Subaru_Natsuki",
+   "explain": "C'était Subaru Natsuki"
+  },
+  {
+   "id": "konosuba",
+   "answer": "Konosuba",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Megumin",
+   "explain": "C'était Megumin"
+  },
+  {
+   "id": "konosuba-2",
+   "answer": "Konosuba",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Aqua_(KonoSuba)",
+   "explain": "C'était Aqua"
+  },
+  {
+   "id": "steins-gate",
+   "answer": "Steins;Gate",
+   "exact": [
+    "steins gate"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Rintaro_Okabe",
+   "explain": "C'était Rintaro Okabe"
+  },
+  {
+   "id": "psycho-pass",
+   "answer": "Psycho-Pass",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Shinya_Kogami",
+   "explain": "C'était Shinya Kogami"
+  },
+  {
+   "id": "toradora",
+   "answer": "Toradora!",
+   "exact": [
+    "toradora"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Taiga_Aisaka",
+   "explain": "C'était Taiga Aisaka"
+  },
+  {
+   "id": "lucky-star",
+   "answer": "Lucky Star",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Konata_Izumi",
+   "explain": "C'était Konata Izumi"
+  },
+  {
+   "id": "la-melancolie-de-haruhi-suzumiya",
+   "answer": "La Mélancolie de Haruhi Suzumiya",
+   "exact": [
+    "haruhi"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Haruhi_Suzumiya",
+   "explain": "C'était Haruhi Suzumiya"
+  },
+  {
+   "id": "k-on",
+   "answer": "K-On!",
+   "exact": [
+    "k on"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Yui_Hirasawa",
+   "explain": "C'était Yui Hirasawa"
+  },
+  {
+   "id": "clannad",
+   "answer": "Clannad",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Nagisa_Furukawa",
+   "explain": "C'était Nagisa Furukawa"
+  },
+  {
+   "id": "fruits-basket",
+   "answer": "Fruits Basket",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Tohru_Honda",
+   "explain": "C'était Tohru Honda"
+  },
+  {
+   "id": "nana",
+   "answer": "Nana",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Nana_Osaki",
+   "explain": "C'était Nana Osaki"
+  },
+  {
+   "id": "hellsing",
+   "answer": "Hellsing",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Alucard_(Hellsing)",
+   "explain": "C'était Alucard"
+  },
+  {
+   "id": "trigun",
+   "answer": "Trigun",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Vash_the_Stampede",
+   "explain": "C'était Vash the Stampede"
+  },
+  {
+   "id": "berserk",
+   "answer": "Berserk",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Guts_(Berserk)",
+   "explain": "C'était Guts"
+  },
+  {
+   "id": "berserk-2",
+   "answer": "Berserk",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Griffith_(Berserk)",
+   "explain": "C'était Griffith"
+  },
+  {
+   "id": "kenshin-le-vagabond",
+   "answer": "Kenshin le vagabond",
+   "exact": [
+    "rurouni kenshin",
+    "kenshin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kenshin_Himura",
+   "explain": "C'était Kenshin Himura"
+  },
+  {
+   "id": "ken-le-survivant",
+   "answer": "Ken le Survivant",
+   "exact": [
+    "hokuto no ken",
+    "fist of the north star"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kenshiro",
+   "explain": "C'était Kenshiro"
+  },
+  {
+   "id": "city-hunter",
+   "answer": "City Hunter",
+   "exact": [
+    "nicky larson"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Ryo_Saeba",
+   "explain": "C'était Ryo Saeba"
+  },
+  {
+   "id": "dr-slump",
+   "answer": "Dr. Slump",
+   "exact": [
+    "arale"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Arale_Norimaki",
+   "explain": "C'était Arale Norimaki"
+  },
+  {
+   "id": "lupin-iii",
+   "answer": "Lupin III",
+   "exact": [
+    "lupin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Arsène_Lupin_III",
+   "explain": "C'était Arsène Lupin III"
+  },
+  {
+   "id": "goldorak",
+   "answer": "Goldorak",
+   "exact": [
+    "ufo robot grendizer"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Grendizer",
+   "explain": "C'était Grendizer"
+  },
+  {
+   "id": "gundam",
+   "answer": "Gundam",
+   "exact": [
+    "mobile suit gundam"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Gundam_(fictional_robot)",
+   "explain": "C'était Gundam"
+  },
+  {
+   "id": "mazinger-z",
+   "answer": "Mazinger Z",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Mazinger_Z_(character)",
+   "explain": "C'était Mazinger Z"
+  },
+  {
+   "id": "albator",
+   "answer": "Albator",
+   "exact": [
+    "captain harlock"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Captain_Harlock",
+   "explain": "C'était Captain Harlock"
+  },
+  {
+   "id": "candy",
+   "answer": "Candy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Candy_Candy",
+   "explain": "C'était Candy Candy"
+  },
+  {
+   "id": "princesse-sarah",
+   "answer": "Princesse Sarah",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:A_Little_Princess_Sara",
+   "explain": "C'était A Little Princess Sara"
+  },
+  {
+   "id": "les-mysterieuses-cites-d-or",
+   "answer": "Les Mystérieuses Cités d'or",
+   "exact": [
+    "cites d'or"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Esteban_(The_Mysterious_Cities_of_Gold)",
+   "explain": "C'était Esteban"
+  },
+  {
+   "id": "cardcaptor-sakura",
+   "answer": "Cardcaptor Sakura",
+   "exact": [
+    "sakura chasseuse de cartes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Sakura_Kinomoto",
+   "explain": "C'était Sakura Kinomoto"
+  },
+  {
+   "id": "shaman-king",
+   "answer": "Shaman King",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Yoh_Asakura",
+   "explain": "C'était Yoh Asakura"
+  },
+  {
+   "id": "beyblade",
+   "answer": "Beyblade",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Tyson_Granger",
+   "explain": "C'était Tyson Granger"
+  },
+  {
+   "id": "inazuma-eleven",
+   "answer": "Inazuma Eleven",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Mark_Evans_(Inazuma_Eleven)",
+   "explain": "C'était Mark Evans"
+  },
+  {
+   "id": "yo-kai-watch",
+   "answer": "Yo-kai Watch",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Jibanyan",
+   "explain": "C'était Jibanyan"
+  },
+  {
+   "id": "hamtaro",
+   "answer": "Hamtaro",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Hamtaro_(character)",
+   "explain": "C'était Hamtaro"
+  },
+  {
+   "id": "le-voyage-de-chihiro",
+   "answer": "Le Voyage de Chihiro",
+   "exact": [
+    "chihiro",
+    "spirited away"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Chihiro_Ogino",
+   "explain": "C'était Chihiro Ogino"
+  },
+  {
+   "id": "princesse-mononoke",
+   "answer": "Princesse Mononoké",
+   "exact": [
+    "mononoke"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:San_(Princess_Mononoke)",
+   "explain": "C'était San"
+  },
+  {
+   "id": "le-chateau-ambulant",
+   "answer": "Le Château ambulant",
+   "exact": [
+    "chateau ambulant"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Howl_(Howl's_Moving_Castle)",
+   "explain": "C'était Howl"
+  },
+  {
+   "id": "kiki-la-petite-sorciere",
+   "answer": "Kiki la petite sorcière",
+   "exact": [
+    "kiki"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kiki_(Kiki's_Delivery_Service)",
+   "explain": "C'était Kiki"
+  },
+  {
+   "id": "ponyo-sur-la-falaise",
+   "answer": "Ponyo sur la falaise",
+   "exact": [
+    "ponyo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Ponyo_(character)",
+   "explain": "C'était Ponyo"
+  },
+  {
+   "id": "nausicaa-de-la-vallee-du-vent",
+   "answer": "Nausicaä de la vallée du vent",
+   "exact": [
+    "nausicaa"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Nausicaä_(character)",
+   "explain": "C'était Nausicaä"
+  },
+  {
+   "id": "akira",
+   "answer": "Akira",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Shotaro_Kaneda",
+   "explain": "C'était Shotaro Kaneda"
+  },
+  {
+   "id": "your-name",
+   "answer": "Your Name",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Mitsuha_Miyamizu",
+   "explain": "C'était Mitsuha Miyamizu"
+  },
+  {
+   "id": "dragon-quest-la-quete-de-dai",
+   "answer": "Dragon Quest : La Quête de Daï",
+   "exact": [
+    "dai"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Dai_(Dragon_Quest)",
+   "explain": "C'était Dai"
   }
  ]
 }

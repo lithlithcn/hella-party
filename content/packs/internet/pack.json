@@ -738,6 +738,1252 @@
     "moyen"
    ],
    "src": "wiki:en:Ghosts_(Pac-Man)"
+  },
+  {
+   "id": "pepe",
+   "answer": "Pepe",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Pepe_the_Frog"
+  },
+  {
+   "id": "cheems",
+   "answer": "Cheems",
+   "exact": [
+    "cheems"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Cheems"
+  },
+  {
+   "id": "smudge-le-chat",
+   "answer": "Smudge le chat",
+   "exact": [
+    "woman yelling at a cat",
+    "smudge"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Woman_yelling_at_a_cat"
+  },
+  {
+   "id": "chat-qui-crie",
+   "answer": "Chat qui crie",
+   "exact": [
+    "screaming cat"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Screaming_cat"
+  },
+  {
+   "id": "maxwell-le-chat",
+   "answer": "Maxwell le chat",
+   "exact": [
+    "maxwell"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Maxwell_the_Cat"
+  },
+  {
+   "id": "chat-pop",
+   "answer": "Chat Pop",
+   "exact": [
+    "popcat"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Popcat"
+  },
+  {
+   "id": "happy-happy-cat",
+   "answer": "Happy Happy Cat",
+   "exact": [
+    "happy cat"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Happy_Happy_Happy_Cat"
+  },
+  {
+   "id": "chipi-chipi-chapa-chapa",
+   "answer": "Chipi Chipi Chapa Chapa",
+   "exact": [
+    "chipi chipi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Chipi_Chipi_Chapa_Chapa_Cat"
+  },
+  {
+   "id": "huh-cat",
+   "answer": "Huh cat",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Huh_Cat"
+  },
+  {
+   "id": "lil-bub",
+   "answer": "Lil Bub",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Lil_Bub"
+  },
+  {
+   "id": "maru",
+   "answer": "Maru",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Maru_(cat)"
+  },
+  {
+   "id": "hamster-qui-crie",
+   "answer": "Hamster qui crie",
+   "exact": [
+    "hampster dance"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Hamster_dance"
+  },
+  {
+   "id": "pedro-le-raton",
+   "answer": "Pedro le raton",
+   "exact": [
+    "pedro"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Pedro_Pedro_Pedro"
+  },
+  {
+   "id": "hippo-fiona",
+   "answer": "Hippo Fiona",
+   "exact": [
+    "fiona"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Fiona_(hippo)"
+  },
+  {
+   "id": "walter",
+   "answer": "Walter",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Walter_(dog)"
+  },
+  {
+   "id": "stonks",
+   "answer": "Stonks",
+   "exact": [
+    "meme man"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Stonks"
+  },
+  {
+   "id": "surprised-pikachu",
+   "answer": "Surprised Pikachu",
+   "exact": [
+    "pikachu surpris"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Surprised_Pikachu",
+   "hint": "1"
+  },
+  {
+   "id": "polite-cat",
+   "answer": "Polite Cat",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Polite_Cat"
+  },
+  {
+   "id": "sad-hamster",
+   "answer": "Sad Hamster",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Sad_hamster"
+  },
+  {
+   "id": "dancing-hot-dog",
+   "answer": "Dancing Hot Dog",
+   "exact": [
+    "hot dog snapchat"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Dancing_Hot_Dog"
+  },
+  {
+   "id": "crab-rave",
+   "answer": "Crab Rave",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Crab_Rave"
+  },
+  {
+   "id": "coffin-dance",
+   "answer": "Coffin Dance",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Coffin_Dance"
+  },
+  {
+   "id": "amogus",
+   "answer": "Amogus",
+   "exact": [
+    "sus"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Amogus"
+  },
+  {
+   "id": "lofi-girl",
+   "answer": "Lofi Girl",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Lofi_Girl"
+  },
+  {
+   "id": "skibidi",
+   "answer": "Skibidi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Skibidi_Toilet"
+  },
+  {
+   "id": "grimace-shake",
+   "answer": "Grimace Shake",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Grimace_shake"
+  },
+  {
+   "id": "dubai-chocolate",
+   "answer": "Dubai chocolate",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Dubai_chocolate"
+  },
+  {
+   "id": "brainrot",
+   "answer": "Brainrot",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Brain_rot"
+  },
+  {
+   "id": "tralalero-tralala",
+   "answer": "Tralalero Tralala",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Tralalero_Tralala"
+  },
+  {
+   "id": "tung-tung-tung-sahur",
+   "answer": "Tung Tung Tung Sahur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Tung_Tung_Tung_Sahur"
+  },
+  {
+   "id": "bombardiro-crocodilo",
+   "answer": "Bombardiro Crocodilo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Bombardiro_Crocodilo"
+  },
+  {
+   "id": "italian-brainrot",
+   "answer": "Italian brainrot",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Italian_brainrot"
+  },
+  {
+   "id": "big-floppa",
+   "answer": "Big Floppa",
+   "exact": [
+    "floppa"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Floppa"
+  },
+  {
+   "id": "bingus",
+   "answer": "Bingus",
+   "exact": [
+    "chat sphynx"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Bingus"
+  },
+  {
+   "id": "doge-coin",
+   "answer": "Doge Coin",
+   "exact": [
+    "dogecoin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Dogecoin"
+  },
+  {
+   "id": "nft",
+   "answer": "NFT",
+   "exact": [
+    "bored ape"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Bored_Ape"
+  },
+  {
+   "id": "forever-alone",
+   "answer": "Forever Alone",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Forever_alone"
+  },
+  {
+   "id": "me-gusta",
+   "answer": "Me Gusta",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Me_gusta"
+  },
+  {
+   "id": "y-u-no",
+   "answer": "Y U No",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Y_U_No"
+  },
+  {
+   "id": "cereal-guy",
+   "answer": "Cereal Guy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Cereal_Guy"
+  },
+  {
+   "id": "advice-dog",
+   "answer": "Advice Dog",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Advice_Dog"
+  },
+  {
+   "id": "philosoraptor",
+   "answer": "Philosoraptor",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Philosoraptor"
+  },
+  {
+   "id": "courage-wolf",
+   "answer": "Courage Wolf",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Courage_Wolf"
+  },
+  {
+   "id": "socially-awkward-penguin",
+   "answer": "Socially Awkward Penguin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Socially_Awkward_Penguin"
+  },
+  {
+   "id": "doomer",
+   "answer": "Doomer",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Doomer"
+  },
+  {
+   "id": "chad",
+   "answer": "Chad",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Chad_(slang)"
+  },
+  {
+   "id": "npc",
+   "answer": "NPC",
+   "exact": [
+    "npc wojak"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:NPC_(meme)"
+  },
+  {
+   "id": "galaxy-brain",
+   "answer": "Galaxy brain",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Galaxy_brain"
+  },
+  {
+   "id": "cursed-image",
+   "answer": "Cursed image",
+   "exact": [
+    "image maudite"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Cursed_image"
+  },
+  {
+   "id": "jeff-the-killer",
+   "answer": "Jeff the Killer",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Jeff_the_Killer"
+  },
+  {
+   "id": "smile-dog",
+   "answer": "Smile Dog",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Smile_Dog"
+  },
+  {
+   "id": "ben-drowned",
+   "answer": "Ben Drowned",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Ben_Drowned"
+  },
+  {
+   "id": "squidward-s-suicide",
+   "answer": "Squidward's Suicide",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Squidward's_Suicide"
+  },
+  {
+   "id": "rake",
+   "answer": "Rake",
+   "exact": [
+    "the rake"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:The_Rake_(creepypasta)"
+  },
+  {
+   "id": "huggy-wuggy",
+   "answer": "Huggy Wuggy",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Huggy_Wuggy"
+  },
+  {
+   "id": "scp-173",
+   "answer": "SCP-173",
+   "exact": [
+    "scp 173"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:SCP-173"
+  },
+  {
+   "id": "scp-096",
+   "answer": "SCP-096",
+   "exact": [
+    "scp 096"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:SCP-096"
+  },
+  {
+   "id": "backrooms-niveau-0",
+   "answer": "Backrooms niveau 0",
+   "exact": [
+    "backrooms"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:The_Backrooms"
+  },
+  {
+   "id": "liminal-space",
+   "answer": "Liminal space",
+   "exact": [
+    "espace liminal"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Liminal_space_(aesthetic)"
+  },
+  {
+   "id": "dreamcore",
+   "answer": "Dreamcore",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Dreamcore"
+  },
+  {
+   "id": "weirdcore",
+   "answer": "Weirdcore",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Weirdcore"
+  },
+  {
+   "id": "cottagecore",
+   "answer": "Cottagecore",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Cottagecore"
+  },
+  {
+   "id": "webcore",
+   "answer": "Webcore",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Webcore"
+  },
+  {
+   "id": "frutiger-metro",
+   "answer": "Frutiger Metro",
+   "exact": [
+    "metro"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Metro_(design_language)"
+  },
+  {
+   "id": "skeuomorphisme",
+   "answer": "Skeuomorphisme",
+   "exact": [
+    "skeuomorphism"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Skeuomorph"
+  },
+  {
+   "id": "aqua",
+   "answer": "Aqua",
+   "exact": [
+    "mac os x aqua"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Aqua_(user_interface)"
+  },
+  {
+   "id": "windows-98",
+   "answer": "Windows 98",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Windows 98"
+  },
+  {
+   "id": "windows-me",
+   "answer": "Windows Me",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Windows Me"
+  },
+  {
+   "id": "windows-8",
+   "answer": "Windows 8",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Windows 8"
+  },
+  {
+   "id": "windows-10",
+   "answer": "Windows 10",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Windows 10"
+  },
+  {
+   "id": "windows-11",
+   "answer": "Windows 11",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Windows 11"
+  },
+  {
+   "id": "mac-os-x",
+   "answer": "Mac OS X",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Mac OS X"
+  },
+  {
+   "id": "fond-d-ecran-bliss",
+   "answer": "Fond d'écran Bliss",
+   "exact": [
+    "bliss"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Bliss_(image)"
+  },
+  {
+   "id": "pinball-3d",
+   "answer": "Pinball 3D",
+   "exact": [
+    "3d pinball"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Full_Tilt!_Pinball"
+  },
+  {
+   "id": "solitaire",
+   "answer": "Solitaire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Microsoft_Solitaire"
+  },
+  {
+   "id": "dino-chrome",
+   "answer": "Dino Chrome",
+   "exact": [
+    "dino game",
+    "t rex"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Dinosaur_Game"
+  },
+  {
+   "id": "club-penguin-puffle",
+   "answer": "Club Penguin Puffle",
+   "exact": [
+    "puffle"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Puffle"
+  },
+  {
+   "id": "badger-badger-badger",
+   "answer": "Badger Badger Badger",
+   "exact": [
+    "badger"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Badgers_(animation)"
+  },
+  {
+   "id": "peanut-butter-jelly-time",
+   "answer": "Peanut Butter Jelly Time",
+   "exact": [
+    "banane qui danse"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Peanut_Butter_Jelly_Time"
+  },
+  {
+   "id": "bonzi-buddy",
+   "answer": "Bonzi Buddy",
+   "exact": [
+    "bonzibuddy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:BonziBuddy"
+  },
+  {
+   "id": "furby",
+   "answer": "Furby",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Furby"
+  },
+  {
+   "id": "sims",
+   "answer": "Sims",
+   "exact": [
+    "plumbob",
+    "les sims"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Plumbob"
+  },
+  {
+   "id": "captcha",
+   "answer": "Captcha",
+   "exact": [
+    "captcha"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:CAPTCHA"
+  },
+  {
+   "id": "curseur",
+   "answer": "Curseur",
+   "exact": [
+    "souris"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Cursor_(user_interface)"
+  },
+  {
+   "id": "sablier-windows",
+   "answer": "Sablier Windows",
+   "exact": [
+    "chargement"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Throbber"
+  },
+  {
+   "id": "rond-de-chargement",
+   "answer": "Rond de chargement",
+   "exact": [
+    "roue arc en ciel"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Spinning_pinwheel"
+  },
+  {
+   "id": "ctrl-alt-suppr",
+   "answer": "Ctrl+Alt+Suppr",
+   "exact": [
+    "ctrl alt suppr"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Control-Alt-Delete"
+  },
+  {
+   "id": "bouton-like",
+   "answer": "Bouton Like",
+   "exact": [
+    "like"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Like_button"
+  },
+  {
+   "id": "hashtag",
+   "answer": "Hashtag",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Hashtag"
+  },
+  {
+   "id": "arobase",
+   "answer": "Arobase",
+   "exact": [
+    "@"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:At_sign"
+  },
+  {
+   "id": "emoji-qui-pleure-de-rire",
+   "answer": "Emoji qui pleure de rire",
+   "exact": [
+    "emoji mort de rire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Face_with_Tears_of_Joy_emoji"
+  },
+  {
+   "id": "emoji-caca",
+   "answer": "Emoji caca",
+   "exact": [
+    "caca"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Pile_of_Poo_emoji"
+  },
+  {
+   "id": "lenny-face",
+   "answer": "Lenny face",
+   "exact": [
+    "( ͡° ͜ʖ ͡°)"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Lenny_face"
+  },
+  {
+   "id": "shrug",
+   "answer": "Shrug",
+   "exact": [
+    "¯\\_(ツ)_/¯"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Shrug_emoticon"
+  },
+  {
+   "id": "kaomoji",
+   "answer": "Kaomoji",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Kaomoji"
+  },
+  {
+   "id": "pixel-art",
+   "answer": "Pixel art",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Pixel art"
+  },
+  {
+   "id": "gif",
+   "answer": "GIF",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:GIF"
+  },
+  {
+   "id": "ascii-art",
+   "answer": "ASCII art",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:ASCII art"
+  },
+  {
+   "id": "glitch",
+   "answer": "Glitch",
+   "exact": [
+    "glitch art"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Glitch_art"
+  },
+  {
+   "id": "datamoshing",
+   "answer": "Datamoshing",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Datamoshing"
+  },
+  {
+   "id": "synthwave",
+   "answer": "Synthwave",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Synthwave"
+  },
+  {
+   "id": "lo-fi",
+   "answer": "Lo-fi",
+   "exact": [
+    "lofi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Lo-fi_hip_hop"
+  },
+  {
+   "id": "phonk",
+   "answer": "Phonk",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Phonk"
+  },
+  {
+   "id": "nightcore",
+   "answer": "Nightcore",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Nightcore"
   }
  ]
 }

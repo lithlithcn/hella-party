@@ -611,6 +611,1200 @@
     "difficile"
    ],
    "src": "wiki:en:Microraptor"
+  },
+  {
+   "id": "utahraptor",
+   "answer": "Utahraptor",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Utahraptor"
+  },
+  {
+   "id": "troodon",
+   "answer": "Troodon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Troodon"
+  },
+  {
+   "id": "albertosaure",
+   "answer": "Albertosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:albertosaurus"
+  },
+  {
+   "id": "tarbosaure",
+   "answer": "Tarbosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:tarbosaurus"
+  },
+  {
+   "id": "daspletosaure",
+   "answer": "Daspletosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Daspletosaure"
+  },
+  {
+   "id": "gorgosaure",
+   "answer": "Gorgosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Gorgosaure"
+  },
+  {
+   "id": "ceratosaure",
+   "answer": "Ceratosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Ceratosaure"
+  },
+  {
+   "id": "megalosaure",
+   "answer": "Megalosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:megalosaurus"
+  },
+  {
+   "id": "torvosaure",
+   "answer": "Torvosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Torvosaure"
+  },
+  {
+   "id": "acrocanthosaure",
+   "answer": "Acrocanthosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Acrocanthosaure"
+  },
+  {
+   "id": "carcharodontosaure",
+   "answer": "Carcharodontosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Carcharodontosaure"
+  },
+  {
+   "id": "suchomimus",
+   "answer": "Suchomimus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Suchomimus"
+  },
+  {
+   "id": "irritator",
+   "answer": "Irritator",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Irritator"
+  },
+  {
+   "id": "herrerasaure",
+   "answer": "Herrerasaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Herrerasaure"
+  },
+  {
+   "id": "eoraptor",
+   "answer": "Eoraptor",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Eoraptor"
+  },
+  {
+   "id": "coelophysis",
+   "answer": "Coelophysis",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Coelophysis"
+  },
+  {
+   "id": "plateosaure",
+   "answer": "Plateosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Plateosaure"
+  },
+  {
+   "id": "camarasaure",
+   "answer": "Camarasaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Camarasaure"
+  },
+  {
+   "id": "apatosaure",
+   "answer": "Apatosaure",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:apatosaurus"
+  },
+  {
+   "id": "mamenchisaure",
+   "answer": "Mamenchisaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Mamenchisaure"
+  },
+  {
+   "id": "amargasaure",
+   "answer": "Amargasaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Amargasaure"
+  },
+  {
+   "id": "patagotitan",
+   "answer": "Patagotitan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Patagotitan"
+  },
+  {
+   "id": "dreadnoughtus",
+   "answer": "Dreadnoughtus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Dreadnoughtus"
+  },
+  {
+   "id": "nigersaure",
+   "answer": "Nigersaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Nigersaure"
+  },
+  {
+   "id": "edmontosaure",
+   "answer": "Edmontosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Edmontosaure"
+  },
+  {
+   "id": "maiasaura",
+   "answer": "Maiasaura",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Maiasaura"
+  },
+  {
+   "id": "corythosaure",
+   "answer": "Corythosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Corythosaure"
+  },
+  {
+   "id": "lambeosaure",
+   "answer": "Lambeosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Lambeosaure"
+  },
+  {
+   "id": "hadrosaure",
+   "answer": "Hadrosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Hadrosaure"
+  },
+  {
+   "id": "ouranosaure",
+   "answer": "Ouranosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Ouranosaure"
+  },
+  {
+   "id": "protoceratops",
+   "answer": "Protoceratops",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Protoceratops"
+  },
+  {
+   "id": "styracosaure",
+   "answer": "Styracosaure",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Styracosaure"
+  },
+  {
+   "id": "centrosaure",
+   "answer": "Centrosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Centrosaure"
+  },
+  {
+   "id": "chasmosaure",
+   "answer": "Chasmosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Chasmosaure"
+  },
+  {
+   "id": "psittacosaure",
+   "answer": "Psittacosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Psittacosaure"
+  },
+  {
+   "id": "euoplocephalus",
+   "answer": "Euoplocephalus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Euoplocephalus"
+  },
+  {
+   "id": "nodosaure",
+   "answer": "Nodosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Nodosaure"
+  },
+  {
+   "id": "borealopelta",
+   "answer": "Borealopelta",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Borealopelta"
+  },
+  {
+   "id": "kentrosaure",
+   "answer": "Kentrosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Kentrosaure"
+  },
+  {
+   "id": "stygimoloch",
+   "answer": "Stygimoloch",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Stygimoloch"
+  },
+  {
+   "id": "minmi",
+   "answer": "Minmi",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Minmi"
+  },
+  {
+   "id": "microceratus",
+   "answer": "Microceratus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Microceratus"
+  },
+  {
+   "id": "pentaceratops",
+   "answer": "Pentaceratops",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Pentaceratops"
+  },
+  {
+   "id": "sinosauropteryx",
+   "answer": "Sinosauropteryx",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Sinosauropteryx"
+  },
+  {
+   "id": "yutyrannus",
+   "answer": "Yutyrannus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Yutyrannus"
+  },
+  {
+   "id": "deinocheirus",
+   "answer": "Deinocheirus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Deinocheirus"
+  },
+  {
+   "id": "mononykus",
+   "answer": "Mononykus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Mononykus"
+  },
+  {
+   "id": "struthiomimus",
+   "answer": "Struthiomimus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Struthiomimus"
+  },
+  {
+   "id": "ornithomimus",
+   "answer": "Ornithomimus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Ornithomimus"
+  },
+  {
+   "id": "pterodactyle",
+   "answer": "Ptérodactyle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:pterodactyle"
+  },
+  {
+   "id": "rhamphorhynchus",
+   "answer": "Rhamphorhynchus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Rhamphorhynchus"
+  },
+  {
+   "id": "dimorphodon",
+   "answer": "Dimorphodon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Dimorphodon"
+  },
+  {
+   "id": "hatzegopteryx",
+   "answer": "Hatzegopteryx",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Hatzegopteryx"
+  },
+  {
+   "id": "tapejara",
+   "answer": "Tapejara",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Tapejara"
+  },
+  {
+   "id": "liopleurodon",
+   "answer": "Liopleurodon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Liopleurodon"
+  },
+  {
+   "id": "kronosaure",
+   "answer": "Kronosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Kronosaure"
+  },
+  {
+   "id": "tylosaure",
+   "answer": "Tylosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Tylosaure"
+  },
+  {
+   "id": "shonisaurus",
+   "answer": "Shonisaurus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Shonisaurus"
+  },
+  {
+   "id": "dunkleosteus",
+   "answer": "Dunkleosteus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Dunkleosteus"
+  },
+  {
+   "id": "helicoprion",
+   "answer": "Hélicoprion",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:helicoprion"
+  },
+  {
+   "id": "anomalocaris",
+   "answer": "Anomalocaris",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Anomalocaris"
+  },
+  {
+   "id": "hallucigenia",
+   "answer": "Hallucigenia",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Hallucigenia"
+  },
+  {
+   "id": "opabinia",
+   "answer": "Opabinia",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Opabinia"
+  },
+  {
+   "id": "eurypteride",
+   "answer": "Euryptéride",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:scorpion de mer"
+  },
+  {
+   "id": "meganeura",
+   "answer": "Meganeura",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:libellule geante"
+  },
+  {
+   "id": "arthropleura",
+   "answer": "Arthropleura",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Arthropleura"
+  },
+  {
+   "id": "coelacanthe",
+   "answer": "Coelacanthe",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Coelacanthe"
+  },
+  {
+   "id": "limule",
+   "answer": "Limule",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Limule"
+  },
+  {
+   "id": "nautile",
+   "answer": "Nautile",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Nautile"
+  },
+  {
+   "id": "belemnite",
+   "answer": "Bélemnite",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:belemnite"
+  },
+  {
+   "id": "crinoide",
+   "answer": "Crinoïde",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Crinoïde"
+  },
+  {
+   "id": "sarcosuchus",
+   "answer": "Sarcosuchus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Sarcosuchus"
+  },
+  {
+   "id": "deinosuchus",
+   "answer": "Deinosuchus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Deinosuchus"
+  },
+  {
+   "id": "postosuchus",
+   "answer": "Postosuchus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Postosuchus"
+  },
+  {
+   "id": "titanoboa",
+   "answer": "Titanoboa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Titanoboa"
+  },
+  {
+   "id": "gastornis",
+   "answer": "Gastornis",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:diatryma"
+  },
+  {
+   "id": "phorusrhacos",
+   "answer": "Phorusrhacos",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:oiseau terreur"
+  },
+  {
+   "id": "argentavis",
+   "answer": "Argentavis",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Argentavis"
+  },
+  {
+   "id": "moa",
+   "answer": "Moa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Moa"
+  },
+  {
+   "id": "oiseau-elephant",
+   "answer": "Oiseau-éléphant",
+   "exact": [
+    "aepyornis"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Aepyornis"
+  },
+  {
+   "id": "smilodon",
+   "answer": "Smilodon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Smilodon"
+  },
+  {
+   "id": "mastodonte",
+   "answer": "Mastodonte",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Mastodonte"
+  },
+  {
+   "id": "deinotherium",
+   "answer": "Deinotherium",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Deinotherium"
+  },
+  {
+   "id": "glyptodon",
+   "answer": "Glyptodon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Glyptodon"
+  },
+  {
+   "id": "megaloceros",
+   "answer": "Megaloceros",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:cerf geant"
+  },
+  {
+   "id": "lion-des-cavernes",
+   "answer": "Lion des cavernes",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Lion des cavernes"
+  },
+  {
+   "id": "andrewsarchus",
+   "answer": "Andrewsarchus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Andrewsarchus"
+  },
+  {
+   "id": "basilosaurus",
+   "answer": "Basilosaurus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Basilosaurus"
+  },
+  {
+   "id": "ambulocetus",
+   "answer": "Ambulocetus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Ambulocetus"
+  },
+  {
+   "id": "livyatan",
+   "answer": "Livyatan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Livyatan melvillei"
+  },
+  {
+   "id": "thylacine",
+   "answer": "Thylacine",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:tigre de tasmanie"
+  },
+  {
+   "id": "aurochs",
+   "answer": "Aurochs",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Aurochs"
+  },
+  {
+   "id": "homo-erectus",
+   "answer": "Homo erectus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Homo erectus"
+  },
+  {
+   "id": "lucy",
+   "answer": "Lucy",
+   "exact": [
+    "australopitheque"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Lucy (australopithèque)"
+  },
+  {
+   "id": "uf-de-dinosaure",
+   "answer": "Œuf de dinosaure",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:oeuf de dinosaure"
+  },
+  {
+   "id": "ambre",
+   "answer": "Ambre",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Ambre"
+  },
+  {
+   "id": "empreinte-de-dinosaure",
+   "answer": "Empreinte de dinosaure",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Empreinte de dinosaure"
+  },
+  {
+   "id": "coprolithe",
+   "answer": "Coprolithe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:Coprolithe"
+  },
+  {
+   "id": "squelette-de-t-rex",
+   "answer": "Squelette de T-Rex",
+   "exact": [
+    "sue"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:Sue (dinosaure)"
   }
  ]
 }

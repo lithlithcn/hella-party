@@ -1626,6 +1626,845 @@
     "difficile"
    ],
    "src": "wiki:en:Manatee"
+  },
+  {
+   "id": "loup-gris",
+   "answer": "Loup gris",
+   "exact": [
+    "loup"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Loup"
+  },
+  {
+   "id": "renard-roux",
+   "answer": "Renard roux",
+   "exact": [
+    "renard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Renard roux"
+  },
+  {
+   "id": "hyene-tachetee",
+   "answer": "Hyène tachetée",
+   "exact": [
+    "hyene"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Hyène tachetée"
+  },
+  {
+   "id": "ecureuil-roux",
+   "answer": "Écureuil roux",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:écureuil,ecureuil"
+  },
+  {
+   "id": "blaireau-europeen",
+   "answer": "Blaireau européen",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:blaireau"
+  },
+  {
+   "id": "lievre",
+   "answer": "Lièvre",
+   "exact": [
+    "lievre"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Lièvre d'Europe"
+  },
+  {
+   "id": "cerf-elaphe",
+   "answer": "Cerf élaphe",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:cerf"
+  },
+  {
+   "id": "dromadaire",
+   "answer": "Dromadaire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Dromadaire"
+  },
+  {
+   "id": "alpaga",
+   "answer": "Alpaga",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Alpaga"
+  },
+  {
+   "id": "sanglier",
+   "answer": "Sanglier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Sanglier"
+  },
+  {
+   "id": "canard-colvert",
+   "answer": "Canard colvert",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:canard"
+  },
+  {
+   "id": "dinde",
+   "answer": "Dinde",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Dindon"
+  },
+  {
+   "id": "emeu",
+   "answer": "Émeu",
+   "exact": [
+    "emeu"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Émeu d'Australie"
+  },
+  {
+   "id": "hibou-grand-duc",
+   "answer": "Hibou grand-duc",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:hibou,grand duc"
+  },
+  {
+   "id": "chouette-effraie",
+   "answer": "Chouette effraie",
+   "exact": [
+    "effraie",
+    "chouette"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Effraie des clochers"
+  },
+  {
+   "id": "aigle-royal",
+   "answer": "Aigle royal",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:aigle"
+  },
+  {
+   "id": "faucon-pelerin",
+   "answer": "Faucon pèlerin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:faucon"
+  },
+  {
+   "id": "vautour",
+   "answer": "Vautour",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Vautour fauve"
+  },
+  {
+   "id": "rouge-gorge",
+   "answer": "Rouge-gorge",
+   "exact": [
+    "rouge gorge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Rouge-gorge familier"
+  },
+  {
+   "id": "pie",
+   "answer": "Pie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Pie bavarde"
+  },
+  {
+   "id": "mouette",
+   "answer": "Mouette",
+   "exact": [
+    "goeland"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Mouette rieuse"
+  },
+  {
+   "id": "macareux",
+   "answer": "Macareux",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Macareux moine"
+  },
+  {
+   "id": "manchot-empereur",
+   "answer": "Manchot empereur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:manchot,pingouin"
+  },
+  {
+   "id": "kiwi",
+   "answer": "Kiwi",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Apteryx"
+  },
+  {
+   "id": "alligator",
+   "answer": "Alligator",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Alligator d'Amérique"
+  },
+  {
+   "id": "tortue-de-mer",
+   "answer": "Tortue de mer",
+   "exact": [
+    "tortue marine"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Tortue verte"
+  },
+  {
+   "id": "dragon-de-komodo",
+   "answer": "Dragon de Komodo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:varan"
+  },
+  {
+   "id": "serpent-a-sonnette",
+   "answer": "Serpent à sonnette",
+   "exact": [
+    "crotale"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Crotalus"
+  },
+  {
+   "id": "salamandre",
+   "answer": "Salamandre",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Salamandre tachetée"
+  },
+  {
+   "id": "requin-blanc",
+   "answer": "Requin blanc",
+   "exact": [
+    "requin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Grand requin blanc"
+  },
+  {
+   "id": "baleine-bleue",
+   "answer": "Baleine bleue",
+   "exact": [
+    "baleine"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Rorqual bleu"
+  },
+  {
+   "id": "otarie",
+   "answer": "Otarie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Otarie de Californie"
+  },
+  {
+   "id": "poulpe",
+   "answer": "Poulpe",
+   "exact": [
+    "pieuvre"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Pieuvre"
+  },
+  {
+   "id": "calmar",
+   "answer": "Calmar",
+   "exact": [
+    "calamar"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Teuthida"
+  },
+  {
+   "id": "poisson-globe",
+   "answer": "Poisson-globe",
+   "exact": [
+    "fugu"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Tetraodontidae"
+  },
+  {
+   "id": "espadon",
+   "answer": "Espadon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Espadon"
+  },
+  {
+   "id": "guepe",
+   "answer": "Guêpe",
+   "exact": [
+    "guepe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Guêpe commune"
+  },
+  {
+   "id": "papillon-monarque",
+   "answer": "Papillon monarque",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:monarque,papillon"
+  },
+  {
+   "id": "scarabee-rhinoceros",
+   "answer": "Scarabée rhinocéros",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:scarabee"
+  },
+  {
+   "id": "tamanoir",
+   "answer": "Tamanoir",
+   "exact": [
+    "fourmilier"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Grand fourmilier"
+  },
+  {
+   "id": "diable-de-tasmanie",
+   "answer": "Diable de Tasmanie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Diable de Tasmanie"
+  },
+  {
+   "id": "lemur-catta",
+   "answer": "Lémur catta",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:lemur"
+  },
+  {
+   "id": "chinchilla",
+   "answer": "Chinchilla",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Chinchilla laineux"
+  },
+  {
+   "id": "mangouste",
+   "answer": "Mangouste",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Herpestidae"
+  },
+  {
+   "id": "bonobo",
+   "answer": "Bonobo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Bonobo"
+  },
+  {
+   "id": "mandrill",
+   "answer": "Mandrill",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Mandrill"
+  },
+  {
+   "id": "yak",
+   "answer": "Yak",
+   "exact": [
+    "yack"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Yack"
+  },
+  {
+   "id": "gnou",
+   "answer": "Gnou",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Gnou à queue noire"
+  },
+  {
+   "id": "gazelle",
+   "answer": "Gazelle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Gazelle de Thomson"
+  },
+  {
+   "id": "antilope",
+   "answer": "Antilope",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Antilope cervicapre"
+  },
+  {
+   "id": "zebu",
+   "answer": "Zèbu",
+   "exact": [
+    "zebu"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Zébu"
+  },
+  {
+   "id": "buffle",
+   "answer": "Buffle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Buffle d'Afrique"
+  },
+  {
+   "id": "marmotte",
+   "answer": "Marmotte",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Marmotte des Alpes"
+  },
+  {
+   "id": "chamois",
+   "answer": "Chamois",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Chamois"
+  },
+  {
+   "id": "bouquetin",
+   "answer": "Bouquetin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Bouquetin des Alpes"
+  },
+  {
+   "id": "phacochere",
+   "answer": "Phacochère",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:phacochere"
+  },
+  {
+   "id": "coati",
+   "answer": "Coati",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Coati roux"
+  },
+  {
+   "id": "tamarin",
+   "answer": "Tamarin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Tamarin empereur"
+  },
+  {
+   "id": "gibbon",
+   "answer": "Gibbon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Hylobatidae"
+  },
+  {
+   "id": "manchot-royal",
+   "answer": "Manchot royal",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Manchot royal"
+  },
+  {
+   "id": "albatros",
+   "answer": "Albatros",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Albatros hurleur"
+  },
+  {
+   "id": "cigogne",
+   "answer": "Cigogne",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Cigogne blanche"
+  },
+  {
+   "id": "heron",
+   "answer": "Héron",
+   "exact": [
+    "heron"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Héron cendré"
+  },
+  {
+   "id": "huppe-fasciee",
+   "answer": "Huppe fasciée",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:huppe"
+  },
+  {
+   "id": "calao",
+   "answer": "Calao",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Calao bicorne"
+  },
+  {
+   "id": "casoar",
+   "answer": "Casoar",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Casoar à casque"
+  },
+  {
+   "id": "anguille",
+   "answer": "Anguille",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Anguille d'Europe"
+  },
+  {
+   "id": "poisson-rouge",
+   "answer": "Poisson rouge",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:Carassin doré"
+  },
+  {
+   "id": "luciole",
+   "answer": "Luciole",
+   "exact": [
+    "ver luisant"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Lampyridae"
+  },
+  {
+   "id": "mille-pattes",
+   "answer": "Mille-pattes",
+   "exact": [
+    "mille pattes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Myriapoda"
+  },
+  {
+   "id": "phasme",
+   "answer": "Phasme",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:Phasmatodea"
+  },
+  {
+   "id": "bernard-l-ermite",
+   "answer": "Bernard-l'ermite",
+   "exact": [
+    "bernard l'ermite"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:Paguroidea"
   }
  ]
 }

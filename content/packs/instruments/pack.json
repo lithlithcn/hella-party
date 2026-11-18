@@ -899,6 +899,1322 @@
     "moyen"
    ],
    "src": "wiki:en:Phonograph"
+  },
+  {
+   "id": "guitare-classique",
+   "answer": "Guitare classique",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:Guitare classique"
+  },
+  {
+   "id": "guitare-douze-cordes",
+   "answer": "Guitare douze cordes",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Guitare douze cordes"
+  },
+  {
+   "id": "guitare-basse",
+   "answer": "Guitare basse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:Guitare basse"
+  },
+  {
+   "id": "piano-droit",
+   "answer": "Piano droit",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:Piano droit"
+  },
+  {
+   "id": "orgue-hammond",
+   "answer": "Orgue Hammond",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Orgue Hammond"
+  },
+  {
+   "id": "harmonium",
+   "answer": "Harmonium",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Harmonium"
+  },
+  {
+   "id": "mellotron",
+   "answer": "Mellotron",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Mellotron"
+  },
+  {
+   "id": "clavinet",
+   "answer": "Clavinet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Clavinet"
+  },
+  {
+   "id": "piano-electrique",
+   "answer": "Piano électrique",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Fender Rhodes"
+  },
+  {
+   "id": "boite-a-rythmes",
+   "answer": "Boîte à rythmes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:boite a rythmes"
+  },
+  {
+   "id": "roland-tr-808",
+   "answer": "Roland TR-808",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:808"
+  },
+  {
+   "id": "echantillonneur",
+   "answer": "Échantillonneur",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:sampler"
+  },
+  {
+   "id": "table-de-mixage",
+   "answer": "Table de mixage",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Table de mixage"
+  },
+  {
+   "id": "talkbox",
+   "answer": "Talkbox",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Talkbox"
+  },
+  {
+   "id": "vocodeur",
+   "answer": "Vocodeur",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:vocoder"
+  },
+  {
+   "id": "pedale-d-effet",
+   "answer": "Pédale d'effet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Pédale d'effet"
+  },
+  {
+   "id": "alto",
+   "answer": "Alto",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Alto (instrument)"
+  },
+  {
+   "id": "viole-de-gambe",
+   "answer": "Viole de gambe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Viole de gambe"
+  },
+  {
+   "id": "vielle-a-roue",
+   "answer": "Vielle à roue",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:vielle"
+  },
+  {
+   "id": "nyckelharpa",
+   "answer": "Nyckelharpa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Nyckelharpa"
+  },
+  {
+   "id": "erhu",
+   "answer": "Erhu",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Erhu"
+  },
+  {
+   "id": "pipa",
+   "answer": "Pipa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Pipa (instrument)"
+  },
+  {
+   "id": "shamisen",
+   "answer": "Shamisen",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Shamisen"
+  },
+  {
+   "id": "biwa",
+   "answer": "Biwa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Biwa"
+  },
+  {
+   "id": "shakuhachi",
+   "answer": "Shakuhachi",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Shakuhachi"
+  },
+  {
+   "id": "taiko",
+   "answer": "Taiko",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Taiko"
+  },
+  {
+   "id": "tabla",
+   "answer": "Tabla",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Tabla"
+  },
+  {
+   "id": "sarod",
+   "answer": "Sarod",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Sarod"
+  },
+  {
+   "id": "santour",
+   "answer": "Santour",
+   "exact": [
+    "santur"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Santûr"
+  },
+  {
+   "id": "qanun",
+   "answer": "Qanûn",
+   "exact": [
+    "kanun"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Qanun"
+  },
+  {
+   "id": "rebab",
+   "answer": "Rebab",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Rebab"
+  },
+  {
+   "id": "ney",
+   "answer": "Ney",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Ney (flûte)"
+  },
+  {
+   "id": "bendir",
+   "answer": "Bendir",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Bendir"
+  },
+  {
+   "id": "derbouka",
+   "answer": "Derbouka",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Derbouka"
+  },
+  {
+   "id": "riq",
+   "answer": "Riq",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Riq"
+  },
+  {
+   "id": "kora",
+   "answer": "Kora",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Kora"
+  },
+  {
+   "id": "balafon",
+   "answer": "Balafon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Balafon"
+  },
+  {
+   "id": "mbira",
+   "answer": "Mbira",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Mbira"
+  },
+  {
+   "id": "talking-drum",
+   "answer": "Talking drum",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Tambour d'aisselle"
+  },
+  {
+   "id": "udu",
+   "answer": "Udu",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Udu"
+  },
+  {
+   "id": "charango",
+   "answer": "Charango",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Charango"
+  },
+  {
+   "id": "quena",
+   "answer": "Quena",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Quena"
+  },
+  {
+   "id": "flute-de-pan",
+   "answer": "Flûte de Pan",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:flute de pan"
+  },
+  {
+   "id": "ocarina",
+   "answer": "Ocarina",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:Ocarina"
+  },
+  {
+   "id": "piccolo",
+   "answer": "Piccolo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Piccolo"
+  },
+  {
+   "id": "fifre",
+   "answer": "Fifre",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Fifre"
+  },
+  {
+   "id": "flageolet",
+   "answer": "Flageolet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Flageolet"
+  },
+  {
+   "id": "bombarde",
+   "answer": "Bombarde",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Bombarde"
+  },
+  {
+   "id": "cor-anglais",
+   "answer": "Cor anglais",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Cor anglais"
+  },
+  {
+   "id": "contrebasson",
+   "answer": "Contrebasson",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Contrebasson"
+  },
+  {
+   "id": "clarinette-basse",
+   "answer": "Clarinette basse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Clarinette basse"
+  },
+  {
+   "id": "saxophone-soprano",
+   "answer": "Saxophone soprano",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Saxophone soprano"
+  },
+  {
+   "id": "saxophone-baryton",
+   "answer": "Saxophone baryton",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Saxophone baryton"
+  },
+  {
+   "id": "cornet-a-pistons",
+   "answer": "Cornet à pistons",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:cornet"
+  },
+  {
+   "id": "bugle",
+   "answer": "Bugle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Bugle"
+  },
+  {
+   "id": "euphonium",
+   "answer": "Euphonium",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Euphonium"
+  },
+  {
+   "id": "sousaphone",
+   "answer": "Sousaphone",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Sousaphone"
+  },
+  {
+   "id": "cor-des-alpes",
+   "answer": "Cor des Alpes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Cor des Alpes"
+  },
+  {
+   "id": "cor-de-chasse",
+   "answer": "Cor de chasse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Trompe de chasse"
+  },
+  {
+   "id": "shofar",
+   "answer": "Shofar",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Shofar"
+  },
+  {
+   "id": "conque",
+   "answer": "Conque",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Conque"
+  },
+  {
+   "id": "tuba-wagnerien",
+   "answer": "Tuba wagnérien",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Tuba wagnérien"
+  },
+  {
+   "id": "harpe-celtique",
+   "answer": "Harpe celtique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Harpe celtique"
+  },
+  {
+   "id": "cithare",
+   "answer": "Cithare",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Cithare"
+  },
+  {
+   "id": "psalterion",
+   "answer": "Psaltérion",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:psalterion"
+  },
+  {
+   "id": "dulcimer",
+   "answer": "Dulcimer",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Dulcimer des Appalaches"
+  },
+  {
+   "id": "autoharpe",
+   "answer": "Autoharpe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Autoharpe"
+  },
+  {
+   "id": "lap-steel",
+   "answer": "Lap steel",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Guitare lap steel"
+  },
+  {
+   "id": "dobro",
+   "answer": "Dobro",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Guitare résonateur"
+  },
+  {
+   "id": "ukulele-basse",
+   "answer": "Ukulélé basse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Ukulélé basse"
+  },
+  {
+   "id": "bouzouki",
+   "answer": "Bouzouki",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Bouzouki"
+  },
+  {
+   "id": "banjo-tenor",
+   "answer": "Banjo ténor",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Banjo ténor"
+  },
+  {
+   "id": "luth",
+   "answer": "Luth",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Luth"
+  },
+  {
+   "id": "theorbe",
+   "answer": "Théorbe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Théorbe"
+  },
+  {
+   "id": "mandole",
+   "answer": "Mandole",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Mandole"
+  },
+  {
+   "id": "guimbarde",
+   "answer": "Guimbarde",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Guimbarde"
+  },
+  {
+   "id": "scie-musicale",
+   "answer": "Scie musicale",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Scie musicale"
+  },
+  {
+   "id": "glass-harmonica",
+   "answer": "Glass harmonica",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:harmonica de verre"
+  },
+  {
+   "id": "verres-musicaux",
+   "answer": "Verres musicaux",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Verres musicaux"
+  },
+  {
+   "id": "waterphone",
+   "answer": "Waterphone",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Waterphone"
+  },
+  {
+   "id": "hang",
+   "answer": "Hang",
+   "exact": [
+    "handpan"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Hang (instrument)"
+  },
+  {
+   "id": "tongue-drum",
+   "answer": "Tongue drum",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Tongue drum"
+  },
+  {
+   "id": "grosse-caisse",
+   "answer": "Grosse caisse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:Grosse caisse"
+  },
+  {
+   "id": "caisse-claire",
+   "answer": "Caisse claire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:Caisse claire"
+  },
+  {
+   "id": "charleston",
+   "answer": "Charleston",
+   "exact": [
+    "hi-hat"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Charleston (cymbale)"
+  },
+  {
+   "id": "tom-basse",
+   "answer": "Tom basse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Tom basse"
+  },
+  {
+   "id": "batterie-electronique",
+   "answer": "Batterie électronique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Batterie électronique"
+  },
+  {
+   "id": "pad-de-batterie",
+   "answer": "Pad de batterie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Pad de batterie"
+  },
+  {
+   "id": "woodblock",
+   "answer": "Woodblock",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Woodblock"
+  },
+  {
+   "id": "claves",
+   "answer": "Claves",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Claves"
+  },
+  {
+   "id": "guiro",
+   "answer": "Güiro",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:guiro"
+  },
+  {
+   "id": "cabasa",
+   "answer": "Cabasa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Cabasa"
+  },
+  {
+   "id": "shaker",
+   "answer": "Shaker",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Shaker (instrument)"
+  },
+  {
+   "id": "cloche-a-vache",
+   "answer": "Cloche à vache",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:cowbell"
+  },
+  {
+   "id": "crecelle",
+   "answer": "Crécelle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:crecelle"
+  },
+  {
+   "id": "hochet",
+   "answer": "Hochet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Hochet"
+  },
+  {
+   "id": "appeau",
+   "answer": "Appeau",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Appeau"
+  },
+  {
+   "id": "fouet",
+   "answer": "Fouet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Fouet (instrument)"
+  },
+  {
+   "id": "vibraphone",
+   "answer": "Vibraphone",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Vibraphone"
+  },
+  {
+   "id": "celesta",
+   "answer": "Célesta",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:celesta"
+  },
+  {
+   "id": "cloches-tubulaires",
+   "answer": "Cloches tubulaires",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:Cloches tubulaires"
+  },
+  {
+   "id": "steelpan",
+   "answer": "Steelpan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Steelpan"
+  },
+  {
+   "id": "tam-tam",
+   "answer": "Tam-tam",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:tam tam"
+  },
+  {
+   "id": "archet",
+   "answer": "Archet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:Archet"
+  },
+  {
+   "id": "baguettes-de-batterie",
+   "answer": "Baguettes de batterie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:baguettes"
+  },
+  {
+   "id": "mediator",
+   "answer": "Médiator",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:mediator"
+  },
+  {
+   "id": "diapason",
+   "answer": "Diapason",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Diapason"
+  },
+  {
+   "id": "pupitre",
+   "answer": "Pupitre",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:Pupitre"
+  },
+  {
+   "id": "capodastre",
+   "answer": "Capodastre",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:capo"
   }
  ]
 }

@@ -1667,6 +1667,1146 @@
    "type": "image",
    "src": "/packs/flags/pa.webp",
    "prompt": "Capitale de ce pays ? (Panama)"
+  },
+  {
+   "id": "al-cap",
+   "answer": "Tirana",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/al.webp",
+   "prompt": "Capitale de ce pays ? (Albanie)"
+  },
+  {
+   "id": "ao-cap",
+   "answer": "Luanda",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/ao.webp",
+   "prompt": "Capitale de ce pays ? (Angola)"
+  },
+  {
+   "id": "bh-cap",
+   "answer": "Manama",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/bh.webp",
+   "prompt": "Capitale de ce pays ? (Bahreïn)"
+  },
+  {
+   "id": "bi-cap",
+   "answer": "Gitega",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/bi.webp",
+   "prompt": "Capitale de ce pays ? (Burundi)"
+  },
+  {
+   "id": "bj-cap",
+   "answer": "Porto-Novo",
+   "exact": [
+    "porto novo"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/bj.webp",
+   "prompt": "Capitale de ce pays ? (Bénin)"
+  },
+  {
+   "id": "bs-cap",
+   "answer": "Nassau",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/bs.webp",
+   "prompt": "Capitale de ce pays ? (Bahamas)"
+  },
+  {
+   "id": "bt-cap",
+   "answer": "Thimphou",
+   "exact": [
+    "thimphu"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/bt.webp",
+   "prompt": "Capitale de ce pays ? (Bhoutan)"
+  },
+  {
+   "id": "bw-cap",
+   "answer": "Gaborone",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/bw.webp",
+   "prompt": "Capitale de ce pays ? (Botswana)"
+  },
+  {
+   "id": "bz-cap",
+   "answer": "Belmopan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/bz.webp",
+   "prompt": "Capitale de ce pays ? (Belize)"
+  },
+  {
+   "id": "cf-cap",
+   "answer": "Bangui",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/cf.webp",
+   "prompt": "Capitale de ce pays ? (République centrafricaine)"
+  },
+  {
+   "id": "cr-cap",
+   "answer": "San José",
+   "exact": [
+    "san jose"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/cr.webp",
+   "prompt": "Capitale de ce pays ? (Costa Rica)"
+  },
+  {
+   "id": "cv-cap",
+   "answer": "Praia",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/cv.webp",
+   "prompt": "Capitale de ce pays ? (Cap-Vert)"
+  },
+  {
+   "id": "cy-cap",
+   "answer": "Nicosie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/cy.webp",
+   "prompt": "Capitale de ce pays ? (Chypre)"
+  },
+  {
+   "id": "dj-cap",
+   "answer": "Djibouti",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/dj.webp",
+   "prompt": "Capitale de ce pays ? (Djibouti)"
+  },
+  {
+   "id": "do-cap",
+   "answer": "Saint-Domingue",
+   "exact": [
+    "saint domingue",
+    "santo domingo"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/do.webp",
+   "prompt": "Capitale de ce pays ? (République dominicaine)"
+  },
+  {
+   "id": "er-cap",
+   "answer": "Asmara",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/er.webp",
+   "prompt": "Capitale de ce pays ? (Érythrée)"
+  },
+  {
+   "id": "fj-cap",
+   "answer": "Suva",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/fj.webp",
+   "prompt": "Capitale de ce pays ? (Fidji)"
+  },
+  {
+   "id": "gb-eng-cap",
+   "answer": "Londres",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "capitales",
+    "facile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gb-eng.webp",
+   "prompt": "Capitale de ce pays ? (Angleterre)"
+  },
+  {
+   "id": "gb-sct-cap",
+   "answer": "Édimbourg",
+   "exact": [
+    "edimbourg",
+    "edinburgh"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gb-sct.webp",
+   "prompt": "Capitale de ce pays ? (Écosse)"
+  },
+  {
+   "id": "gb-wls-cap",
+   "answer": "Cardiff",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gb-wls.webp",
+   "prompt": "Capitale de ce pays ? (Pays de Galles)"
+  },
+  {
+   "id": "gb-nir-cap",
+   "answer": "Belfast",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gb-nir.webp",
+   "prompt": "Capitale de ce pays ? (Irlande du Nord)"
+  },
+  {
+   "id": "gm-cap",
+   "answer": "Banjul",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gm.webp",
+   "prompt": "Capitale de ce pays ? (Gambie)"
+  },
+  {
+   "id": "gq-cap",
+   "answer": "Malabo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gq.webp",
+   "prompt": "Capitale de ce pays ? (Guinée équatoriale)"
+  },
+  {
+   "id": "gt-cap",
+   "answer": "Guatemala",
+   "exact": [
+    "guatemala city"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gt.webp",
+   "prompt": "Capitale de ce pays ? (Guatemala)"
+  },
+  {
+   "id": "gw-cap",
+   "answer": "Bissau",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gw.webp",
+   "prompt": "Capitale de ce pays ? (Guinée-Bissau)"
+  },
+  {
+   "id": "gy-cap",
+   "answer": "Georgetown",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gy.webp",
+   "prompt": "Capitale de ce pays ? (Guyana)"
+  },
+  {
+   "id": "hn-cap",
+   "answer": "Tegucigalpa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/hn.webp",
+   "prompt": "Capitale de ce pays ? (Honduras)"
+  },
+  {
+   "id": "il-cap",
+   "answer": "Jérusalem",
+   "exact": [
+    "jerusalem"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/il.webp",
+   "prompt": "Capitale de ce pays ? (Israël)"
+  },
+  {
+   "id": "kg-cap",
+   "answer": "Bichkek",
+   "exact": [
+    "bishkek"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/kg.webp",
+   "prompt": "Capitale de ce pays ? (Kirghizstan)"
+  },
+  {
+   "id": "kh-cap",
+   "answer": "Phnom Penh",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/kh.webp",
+   "prompt": "Capitale de ce pays ? (Cambodge)"
+  },
+  {
+   "id": "km-cap",
+   "answer": "Moroni",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/km.webp",
+   "prompt": "Capitale de ce pays ? (Comores)"
+  },
+  {
+   "id": "kw-cap",
+   "answer": "Koweït",
+   "exact": [
+    "koweit"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/kw.webp",
+   "prompt": "Capitale de ce pays ? (Koweït)"
+  },
+  {
+   "id": "la-cap",
+   "answer": "Vientiane",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/la.webp",
+   "prompt": "Capitale de ce pays ? (Laos)"
+  },
+  {
+   "id": "li-cap",
+   "answer": "Vaduz",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/li.webp",
+   "prompt": "Capitale de ce pays ? (Liechtenstein)"
+  },
+  {
+   "id": "lr-cap",
+   "answer": "Monrovia",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/lr.webp",
+   "prompt": "Capitale de ce pays ? (Liberia)"
+  },
+  {
+   "id": "ls-cap",
+   "answer": "Maseru",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/ls.webp",
+   "prompt": "Capitale de ce pays ? (Lesotho)"
+  },
+  {
+   "id": "me-cap",
+   "answer": "Podgorica",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/me.webp",
+   "prompt": "Capitale de ce pays ? (Monténégro)"
+  },
+  {
+   "id": "mk-cap",
+   "answer": "Skopje",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/mk.webp",
+   "prompt": "Capitale de ce pays ? (Macédoine du Nord)"
+  },
+  {
+   "id": "mm-cap",
+   "answer": "Naypyidaw",
+   "exact": [
+    "naypyitaw"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/mm.webp",
+   "prompt": "Capitale de ce pays ? (Myanmar (Birmanie))"
+  },
+  {
+   "id": "mu-cap",
+   "answer": "Port-Louis",
+   "exact": [
+    "port louis"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/mu.webp",
+   "prompt": "Capitale de ce pays ? (Maurice)"
+  },
+  {
+   "id": "mv-cap",
+   "answer": "Malé",
+   "exact": [
+    "male"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/mv.webp",
+   "prompt": "Capitale de ce pays ? (Maldives)"
+  },
+  {
+   "id": "mw-cap",
+   "answer": "Lilongwe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/mw.webp",
+   "prompt": "Capitale de ce pays ? (Malawi)"
+  },
+  {
+   "id": "mz-cap",
+   "answer": "Maputo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/mz.webp",
+   "prompt": "Capitale de ce pays ? (Mozambique)"
+  },
+  {
+   "id": "na-cap",
+   "answer": "Windhoek",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/na.webp",
+   "prompt": "Capitale de ce pays ? (Namibie)"
+  },
+  {
+   "id": "ni-cap",
+   "answer": "Managua",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/ni.webp",
+   "prompt": "Capitale de ce pays ? (Nicaragua)"
+  },
+  {
+   "id": "om-cap",
+   "answer": "Mascate",
+   "exact": [
+    "muscat"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/om.webp",
+   "prompt": "Capitale de ce pays ? (Oman)"
+  },
+  {
+   "id": "pg-cap",
+   "answer": "Port Moresby",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/pg.webp",
+   "prompt": "Capitale de ce pays ? (Papouasie-Nouvelle-Guinée)"
+  },
+  {
+   "id": "rw-cap",
+   "answer": "Kigali",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/rw.webp",
+   "prompt": "Capitale de ce pays ? (Rwanda)"
+  },
+  {
+   "id": "sc-cap",
+   "answer": "Victoria",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/sc.webp",
+   "prompt": "Capitale de ce pays ? (Seychelles)"
+  },
+  {
+   "id": "sl-cap",
+   "answer": "Freetown",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/sl.webp",
+   "prompt": "Capitale de ce pays ? (Sierra Leone)"
+  },
+  {
+   "id": "so-cap",
+   "answer": "Mogadiscio",
+   "exact": [
+    "mogadishu"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/so.webp",
+   "prompt": "Capitale de ce pays ? (Somalie)"
+  },
+  {
+   "id": "sr-cap",
+   "answer": "Paramaribo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/sr.webp",
+   "prompt": "Capitale de ce pays ? (Suriname)"
+  },
+  {
+   "id": "ss-cap",
+   "answer": "Djouba",
+   "exact": [
+    "juba"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/ss.webp",
+   "prompt": "Capitale de ce pays ? (Soudan du Sud)"
+  },
+  {
+   "id": "sv-cap",
+   "answer": "San Salvador",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/sv.webp",
+   "prompt": "Capitale de ce pays ? (Salvador)"
+  },
+  {
+   "id": "sz-cap",
+   "answer": "Mbabane",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/sz.webp",
+   "prompt": "Capitale de ce pays ? (Eswatini)"
+  },
+  {
+   "id": "td-cap",
+   "answer": "N'Djaména",
+   "exact": [
+    "ndjamena"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/td.webp",
+   "prompt": "Capitale de ce pays ? (Tchad)"
+  },
+  {
+   "id": "tg-cap",
+   "answer": "Lomé",
+   "exact": [
+    "lome"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/tg.webp",
+   "prompt": "Capitale de ce pays ? (Togo)"
+  },
+  {
+   "id": "tj-cap",
+   "answer": "Douchanbé",
+   "exact": [
+    "dushanbe"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/tj.webp",
+   "prompt": "Capitale de ce pays ? (Tadjikistan)"
+  },
+  {
+   "id": "tl-cap",
+   "answer": "Dili",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/tl.webp",
+   "prompt": "Capitale de ce pays ? (Timor oriental)"
+  },
+  {
+   "id": "tm-cap",
+   "answer": "Achgabat",
+   "exact": [
+    "ashgabat"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/tm.webp",
+   "prompt": "Capitale de ce pays ? (Turkménistan)"
+  },
+  {
+   "id": "tt-cap",
+   "answer": "Port-d'Espagne",
+   "exact": [
+    "port of spain"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/tt.webp",
+   "prompt": "Capitale de ce pays ? (Trinité-et-Tobago)"
+  },
+  {
+   "id": "tz-cap",
+   "answer": "Dodoma",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/tz.webp",
+   "prompt": "Capitale de ce pays ? (Tanzanie)"
+  },
+  {
+   "id": "ug-cap",
+   "answer": "Kampala",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/ug.webp",
+   "prompt": "Capitale de ce pays ? (Ouganda)"
+  },
+  {
+   "id": "va-cap",
+   "answer": "Vatican",
+   "exact": [
+    "cite du vatican"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/va.webp",
+   "prompt": "Capitale de ce pays ? (État de la Cité du Vatican)"
+  },
+  {
+   "id": "xk-cap",
+   "answer": "Pristina",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/xk.webp",
+   "prompt": "Capitale de ce pays ? (Kosovo)"
+  },
+  {
+   "id": "ye-cap",
+   "answer": "Sanaa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/ye.webp",
+   "prompt": "Capitale de ce pays ? (Yémen)"
+  },
+  {
+   "id": "zm-cap",
+   "answer": "Lusaka",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/zm.webp",
+   "prompt": "Capitale de ce pays ? (Zambie)"
+  },
+  {
+   "id": "zw-cap",
+   "answer": "Harare",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/zw.webp",
+   "prompt": "Capitale de ce pays ? (Zimbabwe)"
+  },
+  {
+   "id": "gl-cap",
+   "answer": "Nuuk",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gl.webp",
+   "prompt": "Capitale de ce pays ? (Groenland)"
+  },
+  {
+   "id": "re-cap",
+   "answer": "Saint-Denis",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/re.webp",
+   "prompt": "Capitale de ce pays ? (La Réunion)"
+  },
+  {
+   "id": "gp-cap",
+   "answer": "Basse-Terre",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gp.webp",
+   "prompt": "Capitale de ce pays ? (Guadeloupe)"
+  },
+  {
+   "id": "mq-cap",
+   "answer": "Fort-de-France",
+   "exact": [
+    "fort de france"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/mq.webp",
+   "prompt": "Capitale de ce pays ? (Martinique)"
+  },
+  {
+   "id": "gf-cap",
+   "answer": "Cayenne",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/gf.webp",
+   "prompt": "Capitale de ce pays ? (Guyane française)"
+  },
+  {
+   "id": "nc-cap",
+   "answer": "Nouméa",
+   "exact": [
+    "noumea"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/nc.webp",
+   "prompt": "Capitale de ce pays ? (Nouvelle-Calédonie)"
+  },
+  {
+   "id": "pf-cap",
+   "answer": "Papeete",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/pf.webp",
+   "prompt": "Capitale de ce pays ? (Polynésie française)"
+  },
+  {
+   "id": "yt-cap",
+   "answer": "Mamoudzou",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/yt.webp",
+   "prompt": "Capitale de ce pays ? (Mayotte)"
+  },
+  {
+   "id": "pr-cap",
+   "answer": "San Juan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "image",
+   "src": "/packs/flags/pr.webp",
+   "prompt": "Capitale de ce pays ? (Porto Rico)"
+  },
+  {
+   "id": "hk-cap",
+   "answer": "Hong Kong",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "image",
+   "src": "/packs/flags/hk.webp",
+   "prompt": "Capitale de ce pays ? (R.A.S. chinoise de Hong Kong)"
   }
  ]
 }

@@ -1266,6 +1266,1889 @@
     "moyen"
    ],
    "src": "wiki:en:Segway"
+  },
+  {
+   "id": "peugeot-206",
+   "answer": "Peugeot 206",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Peugeot 206"
+  },
+  {
+   "id": "peugeot-106",
+   "answer": "Peugeot 106",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Peugeot 106"
+  },
+  {
+   "id": "peugeot-405",
+   "answer": "Peugeot 405",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Peugeot 405"
+  },
+  {
+   "id": "peugeot-504",
+   "answer": "Peugeot 504",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Peugeot 504"
+  },
+  {
+   "id": "renault-espace",
+   "answer": "Renault Espace",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Renault Espace"
+  },
+  {
+   "id": "renault-kangoo",
+   "answer": "Renault Kangoo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:kangoo"
+  },
+  {
+   "id": "renault-zoe",
+   "answer": "Renault Zoe",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:zoe"
+  },
+  {
+   "id": "renault-4",
+   "answer": "Renault 4",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:4L"
+  },
+  {
+   "id": "renault-alpine-a110",
+   "answer": "Renault Alpine A110",
+   "exact": [
+    "alpine"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Alpine A110"
+  },
+  {
+   "id": "citroen-ds",
+   "answer": "Citroën DS",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:ds"
+  },
+  {
+   "id": "citroen-traction-avant",
+   "answer": "Citroën Traction Avant",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:traction avant"
+  },
+  {
+   "id": "citroen-mehari",
+   "answer": "Citroën Méhari",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:mehari"
+  },
+  {
+   "id": "citroen-ami",
+   "answer": "Citroën Ami",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Citroën Ami (2020)"
+  },
+  {
+   "id": "citroen-berlingo",
+   "answer": "Citroën Berlingo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:berlingo"
+  },
+  {
+   "id": "citroen-saxo",
+   "answer": "Citroën Saxo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:saxo"
+  },
+  {
+   "id": "dacia-duster",
+   "answer": "Dacia Duster",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:duster"
+  },
+  {
+   "id": "dacia-logan",
+   "answer": "Dacia Logan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:logan"
+  },
+  {
+   "id": "volkswagen-polo",
+   "answer": "Volkswagen Polo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:polo"
+  },
+  {
+   "id": "volkswagen-transporter",
+   "answer": "Volkswagen Transporter",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Volkswagen Transporter"
+  },
+  {
+   "id": "audi-r8",
+   "answer": "Audi R8",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Audi R8"
+  },
+  {
+   "id": "audi-tt",
+   "answer": "Audi TT",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Audi TT"
+  },
+  {
+   "id": "audi-quattro",
+   "answer": "Audi Quattro",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Audi Quattro"
+  },
+  {
+   "id": "bmw-m3",
+   "answer": "BMW M3",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:BMW M3"
+  },
+  {
+   "id": "bmw-i8",
+   "answer": "BMW i8",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:BMW i8"
+  },
+  {
+   "id": "bmw-isetta",
+   "answer": "BMW Isetta",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:isetta"
+  },
+  {
+   "id": "mercedes-classe-a",
+   "answer": "Mercedes Classe A",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Mercedes Classe A"
+  },
+  {
+   "id": "mercedes-300-sl",
+   "answer": "Mercedes 300 SL",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:300 sl"
+  },
+  {
+   "id": "porsche-cayenne",
+   "answer": "Porsche Cayenne",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:cayenne"
+  },
+  {
+   "id": "porsche-356",
+   "answer": "Porsche 356",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Porsche 356"
+  },
+  {
+   "id": "opel-corsa",
+   "answer": "Opel Corsa",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:corsa"
+  },
+  {
+   "id": "ford-focus",
+   "answer": "Ford Focus",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:focus"
+  },
+  {
+   "id": "ford-f-150",
+   "answer": "Ford F-150",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:f150"
+  },
+  {
+   "id": "ford-transit",
+   "answer": "Ford Transit",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:transit"
+  },
+  {
+   "id": "ford-bronco",
+   "answer": "Ford Bronco",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:bronco"
+  },
+  {
+   "id": "chevrolet-impala",
+   "answer": "Chevrolet Impala",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:impala"
+  },
+  {
+   "id": "cadillac-eldorado",
+   "answer": "Cadillac Eldorado",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:cadillac"
+  },
+  {
+   "id": "pontiac-firebird",
+   "answer": "Pontiac Firebird",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:firebird"
+  },
+  {
+   "id": "dodge-charger",
+   "answer": "Dodge Charger",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:charger"
+  },
+  {
+   "id": "dodge-viper",
+   "answer": "Dodge Viper",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:viper"
+  },
+  {
+   "id": "shelby-cobra",
+   "answer": "Shelby Cobra",
+   "exact": [
+    "cobra"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:AC Cobra"
+  },
+  {
+   "id": "tesla-model-x",
+   "answer": "Tesla Model X",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:model x"
+  },
+  {
+   "id": "tesla-model-y",
+   "answer": "Tesla Model Y",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:model y"
+  },
+  {
+   "id": "tesla-roadster",
+   "answer": "Tesla Roadster",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Tesla Roadster"
+  },
+  {
+   "id": "toyota-corolla",
+   "answer": "Toyota Corolla",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:corolla"
+  },
+  {
+   "id": "toyota-land-cruiser",
+   "answer": "Toyota Land Cruiser",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:land cruiser"
+  },
+  {
+   "id": "toyota-ae86",
+   "answer": "Toyota AE86",
+   "exact": [
+    "ae86"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Toyota Sprinter Trueno"
+  },
+  {
+   "id": "toyota-hilux",
+   "answer": "Toyota Hilux",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:hilux"
+  },
+  {
+   "id": "honda-civic",
+   "answer": "Honda Civic",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:civic"
+  },
+  {
+   "id": "honda-nsx",
+   "answer": "Honda NSX",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:nsx"
+  },
+  {
+   "id": "mazda-mx-5",
+   "answer": "Mazda MX-5",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:mx5"
+  },
+  {
+   "id": "mazda-rx-7",
+   "answer": "Mazda RX-7",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:rx7"
+  },
+  {
+   "id": "mitsubishi-lancer-evolution",
+   "answer": "Mitsubishi Lancer Evolution",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:lancer evo"
+  },
+  {
+   "id": "subaru-impreza",
+   "answer": "Subaru Impreza",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:impreza"
+  },
+  {
+   "id": "nissan-skyline",
+   "answer": "Nissan Skyline",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:skyline"
+  },
+  {
+   "id": "nissan-350z",
+   "answer": "Nissan 350Z",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:350z"
+  },
+  {
+   "id": "suzuki-swift",
+   "answer": "Suzuki Swift",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:swift"
+  },
+  {
+   "id": "kia-sportage",
+   "answer": "Kia Sportage",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:sportage"
+  },
+  {
+   "id": "hyundai-tucson",
+   "answer": "Hyundai Tucson",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:tucson"
+  },
+  {
+   "id": "fiat-panda",
+   "answer": "Fiat Panda",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:panda"
+  },
+  {
+   "id": "fiat-multipla",
+   "answer": "Fiat Multipla",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:multipla"
+  },
+  {
+   "id": "alfa-romeo-giulia",
+   "answer": "Alfa Romeo Giulia",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:giulia"
+  },
+  {
+   "id": "lancia-delta",
+   "answer": "Lancia Delta",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Lancia Delta Integrale"
+  },
+  {
+   "id": "lancia-stratos",
+   "answer": "Lancia Stratos",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:stratos"
+  },
+  {
+   "id": "ferrari-testarossa",
+   "answer": "Ferrari Testarossa",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:testarossa"
+  },
+  {
+   "id": "ferrari-458",
+   "answer": "Ferrari 458",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Ferrari 458"
+  },
+  {
+   "id": "ferrari-enzo",
+   "answer": "Ferrari Enzo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:enzo"
+  },
+  {
+   "id": "ferrari-250-gto",
+   "answer": "Ferrari 250 GTO",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Ferrari 250 GTO"
+  },
+  {
+   "id": "lamborghini-miura",
+   "answer": "Lamborghini Miura",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:miura"
+  },
+  {
+   "id": "lamborghini-diablo",
+   "answer": "Lamborghini Diablo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:diablo"
+  },
+  {
+   "id": "lamborghini-huracan",
+   "answer": "Lamborghini Huracán",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:huracan"
+  },
+  {
+   "id": "maserati-mc20",
+   "answer": "Maserati MC20",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Maserati MC20"
+  },
+  {
+   "id": "bugatti-veyron",
+   "answer": "Bugatti Veyron",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:veyron"
+  },
+  {
+   "id": "mclaren-p1",
+   "answer": "McLaren P1",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:p1"
+  },
+  {
+   "id": "jaguar-e-type",
+   "answer": "Jaguar E-Type",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:type e"
+  },
+  {
+   "id": "lotus-elise",
+   "answer": "Lotus Elise",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:elise"
+  },
+  {
+   "id": "bentley-continental-gt",
+   "answer": "Bentley Continental GT",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:bentley"
+  },
+  {
+   "id": "aston-martin-vantage",
+   "answer": "Aston Martin Vantage",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Aston Martin Vantage"
+  },
+  {
+   "id": "trabant",
+   "answer": "Trabant",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Trabant"
+  },
+  {
+   "id": "lada-niva",
+   "answer": "Lada Niva",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:niva"
+  },
+  {
+   "id": "hummer-h2",
+   "answer": "Hummer H2",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Hummer H2"
+  },
+  {
+   "id": "mini-moke",
+   "answer": "Mini Moke",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Mini Moke"
+  },
+  {
+   "id": "austin-mini",
+   "answer": "Austin Mini",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Austin Mini"
+  },
+  {
+   "id": "morris-minor",
+   "answer": "Morris Minor",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Morris Minor"
+  },
+  {
+   "id": "harley-davidson",
+   "answer": "Harley-Davidson",
+   "exact": [
+    "harley"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Harley-Davidson Fat Boy"
+  },
+  {
+   "id": "ducati-monster",
+   "answer": "Ducati Monster",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:ducati"
+  },
+  {
+   "id": "yamaha-r1",
+   "answer": "Yamaha R1",
+   "exact": [
+    "r1"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Yamaha YZF-R1"
+  },
+  {
+   "id": "honda-cb750",
+   "answer": "Honda CB750",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Honda CB750"
+  },
+  {
+   "id": "kawasaki-ninja",
+   "answer": "Kawasaki Ninja",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:ninja"
+  },
+  {
+   "id": "solex",
+   "answer": "Solex",
+   "exact": [
+    "velosolex"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:VéloSoleX"
+  },
+  {
+   "id": "mobylette",
+   "answer": "Mobylette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Mobylette"
+  },
+  {
+   "id": "scooter",
+   "answer": "Scooter",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Scooter"
+  },
+  {
+   "id": "side-car",
+   "answer": "Side-car",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:sidecar"
+  },
+  {
+   "id": "monocycle",
+   "answer": "Monocycle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Monocycle"
+  },
+  {
+   "id": "tandem",
+   "answer": "Tandem",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Tandem (vélo)"
+  },
+  {
+   "id": "draisienne",
+   "answer": "Draisienne",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Draisienne"
+  },
+  {
+   "id": "grand-bi",
+   "answer": "Grand-bi",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:grand bi"
+  },
+  {
+   "id": "rosalie",
+   "answer": "Rosalie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Rosalie (véhicule)"
+  },
+  {
+   "id": "hoverboard",
+   "answer": "Hoverboard",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Gyropode autoéquilibré"
+  },
+  {
+   "id": "gyroroue",
+   "answer": "Gyroroue",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Gyroroue"
+  },
+  {
+   "id": "pousse-pousse",
+   "answer": "Pousse-pousse",
+   "exact": [
+    "rickshaw"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Rickshaw"
+  },
+  {
+   "id": "caleche",
+   "answer": "Calèche",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:caleche"
+  },
+  {
+   "id": "diligence",
+   "answer": "Diligence",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Diligence"
+  },
+  {
+   "id": "traineau-a-chiens",
+   "answer": "Traîneau à chiens",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:traineau"
+  },
+  {
+   "id": "motoneige",
+   "answer": "Motoneige",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Motoneige"
+  },
+  {
+   "id": "dameuse",
+   "answer": "Dameuse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Dameuse"
+  },
+  {
+   "id": "chasse-neige",
+   "answer": "Chasse-neige",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Chasse-neige"
+  },
+  {
+   "id": "camion-citerne",
+   "answer": "Camion-citerne",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Camion-citerne"
+  },
+  {
+   "id": "semi-remorque",
+   "answer": "Semi-remorque",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:camion"
+  },
+  {
+   "id": "depanneuse",
+   "answer": "Dépanneuse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:depanneuse"
+  },
+  {
+   "id": "betonniere",
+   "answer": "Bétonnière",
+   "exact": [
+    "toupie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Camion toupie"
+  },
+  {
+   "id": "chariot-elevateur",
+   "answer": "Chariot élévateur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:clark"
+  },
+  {
+   "id": "moissonneuse-batteuse",
+   "answer": "Moissonneuse-batteuse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:moissonneuse"
+  },
+  {
+   "id": "rouleau-compresseur",
+   "answer": "Rouleau compresseur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Rouleau compresseur"
+  },
+  {
+   "id": "tractopelle",
+   "answer": "Tractopelle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Tractopelle"
+  },
+  {
+   "id": "benne",
+   "answer": "Benne",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Camion benne"
+  },
+  {
+   "id": "corbillard",
+   "answer": "Corbillard",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Corbillard"
+  },
+  {
+   "id": "food-truck",
+   "answer": "Food truck",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:camion a pizza"
+  },
+  {
+   "id": "bus",
+   "answer": "Bus",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Autobus"
+  },
+  {
+   "id": "car",
+   "answer": "Car",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Autocar"
+  },
+  {
+   "id": "taxi-jaune",
+   "answer": "Taxi jaune",
+   "exact": [
+    "taxi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Taxi de New York"
+  },
+  {
+   "id": "black-cab",
+   "answer": "Black cab",
+   "exact": [
+    "taxi anglais"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Taxi londonien"
+  },
+  {
+   "id": "jeepney",
+   "answer": "Jeepney",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Jeepney"
+  },
+  {
+   "id": "train-a-vapeur",
+   "answer": "Train à vapeur",
+   "exact": [
+    "locomotive"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Locomotive à vapeur"
+  },
+  {
+   "id": "shinkansen",
+   "answer": "Shinkansen",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Shinkansen"
+  },
+  {
+   "id": "eurostar",
+   "answer": "Eurostar",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Eurostar"
+  },
+  {
+   "id": "orient-express",
+   "answer": "Orient-Express",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:orient express"
+  },
+  {
+   "id": "maglev",
+   "answer": "Maglev",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Train à sustentation magnétique"
+  },
+  {
+   "id": "monorail",
+   "answer": "Monorail",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Monorail"
+  },
+  {
+   "id": "draisine",
+   "answer": "Draisine",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Draisine"
+  },
+  {
+   "id": "peniche",
+   "answer": "Péniche",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Péniche"
+  },
+  {
+   "id": "bateau-mouche",
+   "answer": "Bateau-mouche",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:bateau mouche"
+  },
+  {
+   "id": "ferry",
+   "answer": "Ferry",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Ferry"
+  },
+  {
+   "id": "yacht",
+   "answer": "Yacht",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Yacht"
+  },
+  {
+   "id": "catamaran",
+   "answer": "Catamaran",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Catamaran"
+  },
+  {
+   "id": "trimaran",
+   "answer": "Trimaran",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Trimaran"
+  },
+  {
+   "id": "galion",
+   "answer": "Galion",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Galion"
+  },
+  {
+   "id": "drakkar",
+   "answer": "Drakkar",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Drakkar"
+  },
+  {
+   "id": "trireme",
+   "answer": "Trirème",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Trirème"
+  },
+  {
+   "id": "jonque",
+   "answer": "Jonque",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Jonque"
+  },
+  {
+   "id": "canoe",
+   "answer": "Canoë",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:canoe"
+  },
+  {
+   "id": "paddle",
+   "answer": "Paddle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Stand up paddle"
+  },
+  {
+   "id": "pedalo",
+   "answer": "Pédalo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:pedalo"
+  },
+  {
+   "id": "zodiac",
+   "answer": "Zodiac",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Bateau pneumatique"
+  },
+  {
+   "id": "brise-glace",
+   "answer": "Brise-glace",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Brise-glace"
+  },
+  {
+   "id": "bathyscaphe",
+   "answer": "Bathyscaphe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Bathyscaphe"
+  },
+  {
+   "id": "titanic",
+   "answer": "Titanic",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Titanic"
+  },
+  {
+   "id": "avion-de-chasse",
+   "answer": "Avion de chasse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Avion de chasse"
+  },
+  {
+   "id": "rafale",
+   "answer": "Rafale",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Dassault Rafale"
+  },
+  {
+   "id": "f-16",
+   "answer": "F-16",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:General Dynamics F-16 Fighting Falcon"
+  },
+  {
+   "id": "sr-71-blackbird",
+   "answer": "SR-71 Blackbird",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:sr71"
+  },
+  {
+   "id": "spitfire",
+   "answer": "Spitfire",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Supermarine Spitfire"
+  },
+  {
+   "id": "biplan",
+   "answer": "Biplan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Biplan"
+  },
+  {
+   "id": "hydravion",
+   "answer": "Hydravion",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Hydravion"
+  },
+  {
+   "id": "ultra-leger-motorise",
+   "answer": "Ultra-léger motorisé",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:ulm"
+  },
+  {
+   "id": "deltaplane",
+   "answer": "Deltaplane",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Deltaplane"
+  },
+  {
+   "id": "parapente",
+   "answer": "Parapente",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Parapente"
+  },
+  {
+   "id": "autogire",
+   "answer": "Autogire",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Autogire"
+  },
+  {
+   "id": "avion-solar-impulse",
+   "answer": "Avion Solar Impulse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Solar Impulse"
+  },
+  {
+   "id": "boeing-737",
+   "answer": "Boeing 737",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Boeing 737"
+  },
+  {
+   "id": "airbus-a320",
+   "answer": "Airbus A320",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Airbus A320"
+  },
+  {
+   "id": "antonov-an-225",
+   "answer": "Antonov An-225",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:an-225"
+  },
+  {
+   "id": "canadair",
+   "answer": "Canadair",
+   "exact": [
+    "bombardier d'eau"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Bombardier CL-415"
+  },
+  {
+   "id": "helicoptere-chinook",
+   "answer": "Hélicoptère Chinook",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:chinook"
+  },
+  {
+   "id": "apache",
+   "answer": "Apache",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Boeing AH-64 Apache"
+  },
+  {
+   "id": "osprey",
+   "answer": "Osprey",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Bell-Boeing V-22 Osprey"
+  },
+  {
+   "id": "zeppelin",
+   "answer": "Zeppelin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Dirigeable rigide"
+  },
+  {
+   "id": "navette-spatiale",
+   "answer": "Navette spatiale",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:Navette spatiale"
+  },
+  {
+   "id": "rover-lunaire",
+   "answer": "Rover lunaire",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:Lunar Roving Vehicle"
+  },
+  {
+   "id": "voiture-balai",
+   "answer": "Voiture-balai",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:Voiture-balai"
   }
  ]
 }

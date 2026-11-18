@@ -1076,6 +1076,1416 @@
     "moyen"
    ],
    "src": "wiki:fr:Malabar_(confiserie)"
+  },
+  {
+   "id": "super-nintendo",
+   "answer": "Super Nintendo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:snes"
+  },
+  {
+   "id": "nes",
+   "answer": "NES",
+   "exact": [
+    "nes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:Nintendo Entertainment System"
+  },
+  {
+   "id": "sega-saturn",
+   "answer": "Sega Saturn",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Sega Saturn"
+  },
+  {
+   "id": "dreamcast",
+   "answer": "Dreamcast",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Dreamcast"
+  },
+  {
+   "id": "playstation-2",
+   "answer": "PlayStation 2",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:ps2"
+  },
+  {
+   "id": "gamecube",
+   "answer": "GameCube",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:GameCube"
+  },
+  {
+   "id": "xbox",
+   "answer": "Xbox",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Xbox (console)"
+  },
+  {
+   "id": "nintendo-ds",
+   "answer": "Nintendo DS",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:ds"
+  },
+  {
+   "id": "psp",
+   "answer": "PSP",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:PlayStation Portable"
+  },
+  {
+   "id": "game-boy-advance",
+   "answer": "Game Boy Advance",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:gba"
+  },
+  {
+   "id": "virtual-boy",
+   "answer": "Virtual Boy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Virtual Boy"
+  },
+  {
+   "id": "neo-geo",
+   "answer": "Neo-Geo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Neo-Geo"
+  },
+  {
+   "id": "amstrad-cpc",
+   "answer": "Amstrad CPC",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:amstrad"
+  },
+  {
+   "id": "commodore-64",
+   "answer": "Commodore 64",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:c64"
+  },
+  {
+   "id": "zx-spectrum",
+   "answer": "ZX Spectrum",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:ZX Spectrum"
+  },
+  {
+   "id": "atari-st",
+   "answer": "Atari ST",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Atari ST"
+  },
+  {
+   "id": "macintosh-128k",
+   "answer": "Macintosh 128K",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:premier mac"
+  },
+  {
+   "id": "imac-g3",
+   "answer": "iMac G3",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:imac"
+  },
+  {
+   "id": "windows-95",
+   "answer": "Windows 95",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Windows 95"
+  },
+  {
+   "id": "pentium",
+   "answer": "Pentium",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Pentium"
+  },
+  {
+   "id": "clavier-mecanique",
+   "answer": "Clavier mécanique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Clavier mécanique"
+  },
+  {
+   "id": "lecteur-de-cartes-perforees",
+   "answer": "Lecteur de cartes perforées",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:carte perforee"
+  },
+  {
+   "id": "bande-magnetique",
+   "answer": "Bande magnétique",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Bande magnétique"
+  },
+  {
+   "id": "cartouche-de-jeu",
+   "answer": "Cartouche de jeu",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Cartouche de jeu"
+  },
+  {
+   "id": "carte-memoire-playstation",
+   "answer": "Carte mémoire PlayStation",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Carte mémoire PlayStation"
+  },
+  {
+   "id": "zapette",
+   "answer": "Zapette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Zapette"
+  },
+  {
+   "id": "antenne-rateau",
+   "answer": "Antenne râteau",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:antenne"
+  },
+  {
+   "id": "television-noir-et-blanc",
+   "answer": "Télévision noir et blanc",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Télévision noir et blanc"
+  },
+  {
+   "id": "poste-de-radio-tsf",
+   "answer": "Poste de radio TSF",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:tsf"
+  },
+  {
+   "id": "transistor",
+   "answer": "Transistor",
+   "exact": [
+    "radio transistor"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Poste à transistor"
+  },
+  {
+   "id": "ghetto-blaster",
+   "answer": "Ghetto blaster",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:boombox"
+  },
+  {
+   "id": "chaine-hi-fi",
+   "answer": "Chaîne hi-fi",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:chaine hifi"
+  },
+  {
+   "id": "platine-cassette",
+   "answer": "Platine cassette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Platine cassette"
+  },
+  {
+   "id": "magnetophone-a-bandes",
+   "answer": "Magnétophone à bandes",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:magnetophone"
+  },
+  {
+   "id": "dictaphone",
+   "answer": "Dictaphone",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Dictaphone"
+  },
+  {
+   "id": "lecteur-8-pistes",
+   "answer": "Lecteur 8 pistes",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:8 pistes"
+  },
+  {
+   "id": "laserdisc",
+   "answer": "Laserdisc",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Laserdisc"
+  },
+  {
+   "id": "betamax",
+   "answer": "Betamax",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Betamax"
+  },
+  {
+   "id": "super-8",
+   "answer": "Super 8",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Super 8"
+  },
+  {
+   "id": "appareil-photo-jetable",
+   "answer": "Appareil photo jetable",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Appareil photo jetable"
+  },
+  {
+   "id": "flash-a-ampoule",
+   "answer": "Flash à ampoule",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Flash à ampoule"
+  },
+  {
+   "id": "daguerreotype",
+   "answer": "Daguerréotype",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:daguerreotype"
+  },
+  {
+   "id": "lanterne-magique",
+   "answer": "Lanterne magique",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Lanterne magique"
+  },
+  {
+   "id": "kinetoscope",
+   "answer": "Kinétoscope",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:kinetoscope"
+  },
+  {
+   "id": "visionneuse-view-master",
+   "answer": "Visionneuse View-Master",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:view master"
+  },
+  {
+   "id": "telegraphe",
+   "answer": "Télégraphe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:telegraphe"
+  },
+  {
+   "id": "morse",
+   "answer": "Morse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Code Morse"
+  },
+  {
+   "id": "telephone-a-manivelle",
+   "answer": "Téléphone à manivelle",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Téléphone à manivelle"
+  },
+  {
+   "id": "telephone-mural",
+   "answer": "Téléphone mural",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Téléphone mural"
+  },
+  {
+   "id": "socotel-s63",
+   "answer": "Socotel S63",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:telephone gris"
+  },
+  {
+   "id": "repondeur-telephonique",
+   "answer": "Répondeur téléphonique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:repondeur"
+  },
+  {
+   "id": "tam-tam",
+   "answer": "Tam-tam",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Tam-tam"
+  },
+  {
+   "id": "itineris",
+   "answer": "Itinéris",
+   "exact": [
+    "tatoo"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Tatoo (pager)"
+  },
+  {
+   "id": "motorola-startac",
+   "answer": "Motorola StarTAC",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:startac"
+  },
+  {
+   "id": "motorola-razr",
+   "answer": "Motorola Razr",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:razr"
+  },
+  {
+   "id": "nokia-3210",
+   "answer": "Nokia 3210",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Nokia 3210"
+  },
+  {
+   "id": "sony-ericsson",
+   "answer": "Sony Ericsson",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Sony Ericsson T610"
+  },
+  {
+   "id": "siemens",
+   "answer": "Siemens",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Siemens C35"
+  },
+  {
+   "id": "palm-pilot",
+   "answer": "Palm Pilot",
+   "exact": [
+    "pda"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Palm (assistant personnel)"
+  },
+  {
+   "id": "iphone-2g",
+   "answer": "iPhone 2G",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:premier iphone"
+  },
+  {
+   "id": "ipod-shuffle",
+   "answer": "iPod shuffle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:iPod shuffle"
+  },
+  {
+   "id": "ipod-nano",
+   "answer": "iPod nano",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:iPod nano"
+  },
+  {
+   "id": "zune",
+   "answer": "Zune",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Zune"
+  },
+  {
+   "id": "cle-3g",
+   "answer": "Clé 3G",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Clé 3G"
+  },
+  {
+   "id": "cd-rom",
+   "answer": "CD-ROM",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:CD-ROM"
+  },
+  {
+   "id": "graveur-de-cd",
+   "answer": "Graveur de CD",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Graveur de CD"
+  },
+  {
+   "id": "lecteur-zip",
+   "answer": "Lecteur Zip",
+   "exact": [
+    "zip"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Iomega Zip"
+  },
+  {
+   "id": "carte-sd",
+   "answer": "Carte SD",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Carte SD"
+  },
+  {
+   "id": "disque-dur",
+   "answer": "Disque dur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Disque dur"
+  },
+  {
+   "id": "tour-d-ordinateur",
+   "answer": "Tour d'ordinateur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:unite centrale"
+  },
+  {
+   "id": "joystick",
+   "answer": "Joystick",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Joystick"
+  },
+  {
+   "id": "manette-nes",
+   "answer": "Manette NES",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Manette NES"
+  },
+  {
+   "id": "pistolet-nes",
+   "answer": "Pistolet NES",
+   "exact": [
+    "zapper"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:NES Zapper"
+  },
+  {
+   "id": "wiimote",
+   "answer": "Wiimote",
+   "exact": [
+    "wiimote"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:Wii Remote"
+  },
+  {
+   "id": "kinect",
+   "answer": "Kinect",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Kinect"
+  },
+  {
+   "id": "eyetoy",
+   "answer": "EyeToy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:EyeToy"
+  },
+  {
+   "id": "tapis-de-danse",
+   "answer": "Tapis de danse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Dance Dance Revolution"
+  },
+  {
+   "id": "guitar-hero-manette",
+   "answer": "Guitar Hero (manette)",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:guitare guitar hero"
+  },
+  {
+   "id": "pokewalker",
+   "answer": "Pokéwalker",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Pokéwalker"
+  },
+  {
+   "id": "pog",
+   "answer": "Pog",
+   "exact": [
+    "pogs"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Pogs"
+  },
+  {
+   "id": "bille-en-verre",
+   "answer": "Bille en verre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:billes"
+  },
+  {
+   "id": "osselets",
+   "answer": "Osselets",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Osselets"
+  },
+  {
+   "id": "toupie-beyblade",
+   "answer": "Toupie Beyblade",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Toupie Beyblade"
+  },
+  {
+   "id": "yo-yo",
+   "answer": "Yo-yo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:Yo-yo"
+  },
+  {
+   "id": "boule-de-bowling",
+   "answer": "Boule de bowling",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Boule de bowling"
+  },
+  {
+   "id": "scoubidou",
+   "answer": "Scoubidou",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Scoubidou"
+  },
+  {
+   "id": "bracelet-bresilien",
+   "answer": "Bracelet brésilien",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Bracelet brésilien"
+  },
+  {
+   "id": "tatouage-ephemere",
+   "answer": "Tatouage éphémère",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Tatouage éphémère"
+  },
+  {
+   "id": "sucette-chupa-chups",
+   "answer": "Sucette Chupa Chups",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:chupa chups"
+  },
+  {
+   "id": "carambar",
+   "answer": "Carambar",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Carambar"
+  },
+  {
+   "id": "television-a-tube",
+   "answer": "Télévision à tube",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Télévision à tube"
+  },
+  {
+   "id": "horloge-a-coucou",
+   "answer": "Horloge à coucou",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:coucou"
+  },
+  {
+   "id": "pendule",
+   "answer": "Pendule",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Pendule"
+  },
+  {
+   "id": "barometre",
+   "answer": "Baromètre",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Baromètre"
+  },
+  {
+   "id": "thermometre-a-mercure",
+   "answer": "Thermomètre à mercure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Thermomètre à mercure"
+  },
+  {
+   "id": "poele-a-bois",
+   "answer": "Poêle à bois",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Poêle à bois"
+  },
+  {
+   "id": "moulin-a-legumes",
+   "answer": "Moulin à légumes",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Moulin à légumes"
+  },
+  {
+   "id": "garde-manger",
+   "answer": "Garde-manger",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Garde-manger"
+  },
+  {
+   "id": "boite-a-musique",
+   "answer": "Boîte à musique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Boîte à musique"
+  },
+  {
+   "id": "orgue-de-barbarie",
+   "answer": "Orgue de Barbarie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Orgue de Barbarie"
+  },
+  {
+   "id": "machine-a-calculer",
+   "answer": "Machine à calculer",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Arithmomètre"
+  },
+  {
+   "id": "regle-a-calcul",
+   "answer": "Règle à calcul",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Règle à calcul"
+  },
+  {
+   "id": "plume",
+   "answer": "Plume",
+   "exact": [
+    "plume d'oie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Plume (écriture)"
+  },
+  {
+   "id": "papier-carbone",
+   "answer": "Papier carbone",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Papier carbone"
+  },
+  {
+   "id": "machine-a-polycopier",
+   "answer": "Machine à polycopier",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:ronéo"
+  },
+  {
+   "id": "photocopieuse",
+   "answer": "Photocopieuse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Photocopieuse"
+  },
+  {
+   "id": "lampe-a-huile",
+   "answer": "Lampe à huile",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Lampe à huile"
+  },
+  {
+   "id": "chandelier",
+   "answer": "Chandelier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Chandelier"
+  },
+  {
+   "id": "lanterne",
+   "answer": "Lanterne",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Lanterne"
+  },
+  {
+   "id": "bouillotte",
+   "answer": "Bouillotte",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Bouillotte"
+  },
+  {
+   "id": "pot-de-chambre",
+   "answer": "Pot de chambre",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Pot de chambre"
+  },
+  {
+   "id": "lavoir",
+   "answer": "Lavoir",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Lavoir"
+  },
+  {
+   "id": "planche-a-laver",
+   "answer": "Planche à laver",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Planche à laver"
+  },
+  {
+   "id": "fer-a-charbon",
+   "answer": "Fer à charbon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Fer à charbon"
+  },
+  {
+   "id": "glaciere",
+   "answer": "Glacière",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:Glacière"
+  },
+  {
+   "id": "siphon",
+   "answer": "Siphon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:Siphon (boisson)"
   }
  ]
 }

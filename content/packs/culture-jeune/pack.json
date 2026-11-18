@@ -483,6 +483,1042 @@
     "facile"
    ],
    "src": "wiki:en:Instagram"
+  },
+  {
+   "id": "nintendo-switch",
+   "answer": "Nintendo Switch",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Nintendo Switch"
+  },
+  {
+   "id": "playstation-5",
+   "answer": "PlayStation 5",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:ps5"
+  },
+  {
+   "id": "casque-vr",
+   "answer": "Casque VR",
+   "exact": [
+    "casque de realite virtuelle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Meta Quest"
+  },
+  {
+   "id": "ecran-gaming",
+   "answer": "Écran gaming",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Écran gaming"
+  },
+  {
+   "id": "chaise-gaming",
+   "answer": "Chaise gaming",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Chaise gaming"
+  },
+  {
+   "id": "clavier-rgb",
+   "answer": "Clavier RGB",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:clavier gaming"
+  },
+  {
+   "id": "souris-gaming",
+   "answer": "Souris gaming",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Souris gaming"
+  },
+  {
+   "id": "led-rgb",
+   "answer": "LED RGB",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:ruban led"
+  },
+  {
+   "id": "ventilateur-rgb",
+   "answer": "Ventilateur RGB",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Ventilateur RGB"
+  },
+  {
+   "id": "pc-gamer",
+   "answer": "PC gamer",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:PC gamer"
+  },
+  {
+   "id": "manette-xbox",
+   "answer": "Manette Xbox",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Manette Xbox"
+  },
+  {
+   "id": "joy-con",
+   "answer": "Joy-Con",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:joycon"
+  },
+  {
+   "id": "micro-de-streaming",
+   "answer": "Micro de streaming",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:micro"
+  },
+  {
+   "id": "webcam",
+   "answer": "Webcam",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Webcam"
+  },
+  {
+   "id": "ecouteurs-sans-fil",
+   "answer": "Écouteurs sans fil",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Écouteurs sans fil"
+  },
+  {
+   "id": "enceinte-bluetooth",
+   "answer": "Enceinte Bluetooth",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Enceinte Bluetooth"
+  },
+  {
+   "id": "montre-connectee",
+   "answer": "Montre connectée",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:apple watch"
+  },
+  {
+   "id": "powerbank",
+   "answer": "Powerbank",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:batterie externe"
+  },
+  {
+   "id": "coque-de-telephone",
+   "answer": "Coque de téléphone",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Coque de téléphone"
+  },
+  {
+   "id": "popsocket",
+   "answer": "PopSocket",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:PopSocket"
+  },
+  {
+   "id": "velo-electrique",
+   "answer": "Vélo électrique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Vélo électrique"
+  },
+  {
+   "id": "gyropode",
+   "answer": "Gyropode",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Gyropode"
+  },
+  {
+   "id": "air-max",
+   "answer": "Air Max",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Nike Air Max"
+  },
+  {
+   "id": "new-balance-550",
+   "answer": "New Balance 550",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:new balance"
+  },
+  {
+   "id": "vans-old-skool",
+   "answer": "Vans Old Skool",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:vans"
+  },
+  {
+   "id": "timberland",
+   "answer": "Timberland",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Timberland (chaussure)"
+  },
+  {
+   "id": "ugg",
+   "answer": "Ugg",
+   "exact": [
+    "uggs"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Bottes Ugg"
+  },
+  {
+   "id": "claquettes",
+   "answer": "Claquettes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:claquette"
+  },
+  {
+   "id": "sweat-a-capuche",
+   "answer": "Sweat à capuche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:hoodie"
+  },
+  {
+   "id": "jogging",
+   "answer": "Jogging",
+   "exact": [
+    "survetement"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Survêtement"
+  },
+  {
+   "id": "doudoune",
+   "answer": "Doudoune",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Doudoune"
+  },
+  {
+   "id": "bob",
+   "answer": "Bob",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Bob (chapeau)"
+  },
+  {
+   "id": "bandana",
+   "answer": "Bandana",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Bandana"
+  },
+  {
+   "id": "casquette-trucker",
+   "answer": "Casquette trucker",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Casquette trucker"
+  },
+  {
+   "id": "lunettes-y2k",
+   "answer": "Lunettes Y2K",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Lunettes Y2K"
+  },
+  {
+   "id": "tote-bag",
+   "answer": "Tote bag",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Tote bag"
+  },
+  {
+   "id": "gourde-stanley",
+   "answer": "Gourde Stanley",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:stanley"
+  },
+  {
+   "id": "squishmallow",
+   "answer": "Squishmallow",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Squishmallows"
+  },
+  {
+   "id": "plushie-sonny-angel",
+   "answer": "Plushie Sonny Angel",
+   "exact": [
+    "sonny angel"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Sonny Angel"
+  },
+  {
+   "id": "jellycat",
+   "answer": "Jellycat",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Jellycat"
+  },
+  {
+   "id": "kebab",
+   "answer": "Kebab",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Kebab"
+  },
+  {
+   "id": "burger-smash",
+   "answer": "Burger Smash",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:smash burger"
+  },
+  {
+   "id": "bubble-waffle",
+   "answer": "Bubble waffle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Bubble waffle"
+  },
+  {
+   "id": "mochis",
+   "answer": "Mochis",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Mochis"
+  },
+  {
+   "id": "onigiri",
+   "answer": "Onigiri",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Onigiri"
+  },
+  {
+   "id": "ramen",
+   "answer": "Ramen",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Ramen"
+  },
+  {
+   "id": "sushi",
+   "answer": "Sushi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Sushi"
+  },
+  {
+   "id": "poke-bowl",
+   "answer": "Poké bowl",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:poke"
+  },
+  {
+   "id": "matcha-latte",
+   "answer": "Matcha latte",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:matcha"
+  },
+  {
+   "id": "slush",
+   "answer": "Slush",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Granita"
+  },
+  {
+   "id": "perles-de-tapioca",
+   "answer": "Perles de tapioca",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:tapioca"
+  },
+  {
+   "id": "pasteis-de-nata",
+   "answer": "Pastéis de nata",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Pastéis de nata"
+  },
+  {
+   "id": "croissant-cookie",
+   "answer": "Croissant Cookie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:crookie"
+  },
+  {
+   "id": "brownie",
+   "answer": "Brownie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Brownie"
+  },
+  {
+   "id": "cookie-geant",
+   "answer": "Cookie géant",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Cookie géant"
+  },
+  {
+   "id": "pancakes",
+   "answer": "Pancakes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Pancakes"
+  },
+  {
+   "id": "avocado-toast",
+   "answer": "Avocado toast",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:avocat toast"
+  },
+  {
+   "id": "acai-bowl",
+   "answer": "Açaí bowl",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:acai"
+  },
+  {
+   "id": "jenga",
+   "answer": "Jenga",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Jenga"
+  },
+  {
+   "id": "paintball",
+   "answer": "Paintball",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Paintball"
+  },
+  {
+   "id": "laser-game",
+   "answer": "Laser game",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Laser game"
+  },
+  {
+   "id": "escape-game",
+   "answer": "Escape game",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Escape game"
+  },
+  {
+   "id": "bowling",
+   "answer": "Bowling",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Bowling"
+  },
+  {
+   "id": "karaoke",
+   "answer": "Karaoké",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:karaoke"
+  },
+  {
+   "id": "trampoline-park",
+   "answer": "Trampoline park",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Trampoline park"
+  },
+  {
+   "id": "karting",
+   "answer": "Karting",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Karting"
+  },
+  {
+   "id": "patinoire",
+   "answer": "Patinoire",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Patinoire"
+  },
+  {
+   "id": "festival",
+   "answer": "Festival",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Festival de musique"
+  },
+  {
+   "id": "concert",
+   "answer": "Concert",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Concert"
+  },
+  {
+   "id": "fete-foraine",
+   "answer": "Fête foraine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Fête foraine"
+  },
+  {
+   "id": "grande-roue",
+   "answer": "Grande roue",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Grande roue"
+  },
+  {
+   "id": "montagnes-russes",
+   "answer": "Montagnes russes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Montagnes russes"
+  },
+  {
+   "id": "plage",
+   "answer": "Plage",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Plage"
+  },
+  {
+   "id": "piscine",
+   "answer": "Piscine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Piscine"
+  },
+  {
+   "id": "camping",
+   "answer": "Camping",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Camping"
+  },
+  {
+   "id": "selfie",
+   "answer": "Selfie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:Selfie"
+  },
+  {
+   "id": "stories",
+   "answer": "Stories",
+   "exact": [
+    "story"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:Story (réseaux sociaux)"
+  },
+  {
+   "id": "live-stream",
+   "answer": "Live stream",
+   "exact": [
+    "live"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Diffusion en direct"
+  },
+  {
+   "id": "tatouage",
+   "answer": "Tatouage",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Tatouage"
+  },
+  {
+   "id": "piercing",
+   "answer": "Piercing",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Piercing"
+  },
+  {
+   "id": "manucure",
+   "answer": "Manucure",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:ongles"
+  },
+  {
+   "id": "tresses",
+   "answer": "Tresses",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Tresses"
+  },
+  {
+   "id": "degrade",
+   "answer": "Dégradé",
+   "exact": [
+    "degrade"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Coupe dégradée"
+  },
+  {
+   "id": "mulet",
+   "answer": "Mulet",
+   "exact": [
+    "mullet"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:Coupe mulet"
+  },
+  {
+   "id": "bouclettes",
+   "answer": "Bouclettes",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:cheveux boucles"
   }
  ]
 }

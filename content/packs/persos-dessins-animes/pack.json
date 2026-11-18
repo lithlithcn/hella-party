@@ -1749,6 +1749,1493 @@
     "moyen"
    ],
    "src": "wiki:en:Scrat"
+  },
+  {
+   "id": "gary",
+   "answer": "Gary",
+   "exact": [
+    "gary l'escargot"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Gary_the_Snail"
+  },
+  {
+   "id": "ned-flanders",
+   "answer": "Ned Flanders",
+   "exact": [
+    "flanders"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Ned_Flanders"
+  },
+  {
+   "id": "milhouse",
+   "answer": "Milhouse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Milhouse_Van_Houten"
+  },
+  {
+   "id": "moe",
+   "answer": "Moe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Moe_Szyslak"
+  },
+  {
+   "id": "tahiti-bob",
+   "answer": "Tahiti Bob",
+   "exact": [
+    "sideshow bob"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Sideshow_Bob"
+  },
+  {
+   "id": "vera",
+   "answer": "Véra",
+   "exact": [
+    "velma"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Velma_Dinkley"
+  },
+  {
+   "id": "fred",
+   "answer": "Fred",
+   "exact": [
+    "fred jones"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Fred_Jones_(Scooby-Doo)"
+  },
+  {
+   "id": "vil-coyote",
+   "answer": "Vil Coyote",
+   "exact": [
+    "wile e coyote",
+    "coyote"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Wile_E._Coyote_and_the_Road_Runner"
+  },
+  {
+   "id": "elmer",
+   "answer": "Elmer",
+   "exact": [
+    "elmer fudd"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Elmer_Fudd"
+  },
+  {
+   "id": "sam-le-pirate",
+   "answer": "Sam le pirate",
+   "exact": [
+    "yosemite sam"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Yosemite_Sam"
+  },
+  {
+   "id": "marvin-le-martien",
+   "answer": "Marvin le Martien",
+   "exact": [
+    "marvin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Marvin_the_Martian"
+  },
+  {
+   "id": "pepe-le-putois",
+   "answer": "Pépé le putois",
+   "exact": [
+    "pepe le putois"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Pepé_Le_Pew"
+  },
+  {
+   "id": "charlie-le-coq",
+   "answer": "Charlie le coq",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Foghorn_Leghorn"
+  },
+  {
+   "id": "pat-hibulaire",
+   "answer": "Pat Hibulaire",
+   "exact": [
+    "pat"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Pete_(Disney)"
+  },
+  {
+   "id": "lilo",
+   "answer": "Lilo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Lilo_Pelekai"
+  },
+  {
+   "id": "mufasa",
+   "answer": "Mufasa",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Mufasa"
+  },
+  {
+   "id": "rafiki",
+   "answer": "Rafiki",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Rafiki"
+  },
+  {
+   "id": "nala",
+   "answer": "Nala",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Nala_(The_Lion_King)"
+  },
+  {
+   "id": "anna",
+   "answer": "Anna",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Anna_(Frozen)"
+  },
+  {
+   "id": "kristoff",
+   "answer": "Kristoff",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Kristoff_(Frozen)"
+  },
+  {
+   "id": "jessie",
+   "answer": "Jessie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Jessie_(Toy_Story)"
+  },
+  {
+   "id": "monsieur-patate",
+   "answer": "Monsieur Patate",
+   "exact": [
+    "mr patate"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Mr._Potato_Head"
+  },
+  {
+   "id": "rex",
+   "answer": "Rex",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Rex_(Toy_Story)"
+  },
+  {
+   "id": "lotso",
+   "answer": "Lotso",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Lotso"
+  },
+  {
+   "id": "fiona",
+   "answer": "Fiona",
+   "exact": [
+    "princesse fiona"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Princess_Fiona"
+  },
+  {
+   "id": "lord-farquaad",
+   "answer": "Lord Farquaad",
+   "exact": [
+    "farquaad"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Lord_Farquaad"
+  },
+  {
+   "id": "ti-biscuit",
+   "answer": "Ti-Biscuit",
+   "exact": [
+    "ti biscuit"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Gingerbread_Man_(Shrek)"
+  },
+  {
+   "id": "agnes",
+   "answer": "Agnès",
+   "exact": [
+    "agnes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Agnes_(Despicable_Me)"
+  },
+  {
+   "id": "tai-lung",
+   "answer": "Tai Lung",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Tai_Lung"
+  },
+  {
+   "id": "maitre-shifu",
+   "answer": "Maître Shifu",
+   "exact": [
+    "shifu"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Master_Shifu"
+  },
+  {
+   "id": "tigresse",
+   "answer": "Tigresse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Tigress_(Kung_Fu_Panda)"
+  },
+  {
+   "id": "manny",
+   "answer": "Manny",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Manny_(Ice_Age)"
+  },
+  {
+   "id": "diego",
+   "answer": "Diego",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Diego_(Ice_Age)"
+  },
+  {
+   "id": "martin",
+   "answer": "Martin",
+   "exact": [
+    "mater"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Mater_(Cars)"
+  },
+  {
+   "id": "bouh",
+   "answer": "Bouh",
+   "exact": [
+    "boo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Boo_(Monsters,_Inc.)"
+  },
+  {
+   "id": "leon",
+   "answer": "Léon",
+   "exact": [
+    "randall"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Randall_Boggs"
+  },
+  {
+   "id": "mr-indestructible",
+   "answer": "Mr. Indestructible",
+   "exact": [
+    "mr incredible"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Mr._Incredible"
+  },
+  {
+   "id": "elastigirl",
+   "answer": "Elastigirl",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Elastigirl"
+  },
+  {
+   "id": "edna-mode",
+   "answer": "Edna Mode",
+   "exact": [
+    "edna"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Edna_Mode"
+  },
+  {
+   "id": "frozone",
+   "answer": "Frozone",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Frozone"
+  },
+  {
+   "id": "jack-jack",
+   "answer": "Jack-Jack",
+   "exact": [
+    "jack jack"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Jack-Jack_Parr"
+  },
+  {
+   "id": "joie",
+   "answer": "Joie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Joy_(Inside_Out)"
+  },
+  {
+   "id": "colere",
+   "answer": "Colère",
+   "exact": [
+    "colere"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Anger_(Inside_Out)"
+  },
+  {
+   "id": "carl-fredricksen",
+   "answer": "Carl Fredricksen",
+   "exact": [
+    "carl"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Carl_Fredricksen"
+  },
+  {
+   "id": "wall-e",
+   "answer": "WALL-E",
+   "exact": [
+    "walle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:WALL-E_(character)"
+  },
+  {
+   "id": "remy",
+   "answer": "Rémy",
+   "exact": [
+    "remy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Remy_(Ratatouille)"
+  },
+  {
+   "id": "miguel",
+   "answer": "Miguel",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Miguel_Rivera_(Coco)"
+  },
+  {
+   "id": "mirabel",
+   "answer": "Mirabel",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Mirabel_Madrigal"
+  },
+  {
+   "id": "merida",
+   "answer": "Merida",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Merida_(Brave)"
+  },
+  {
+   "id": "iago",
+   "answer": "Iago",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Iago_(Aladdin)"
+  },
+  {
+   "id": "sebastien",
+   "answer": "Sébastien",
+   "exact": [
+    "sebastien"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Sebastian_(The_Little_Mermaid)"
+  },
+  {
+   "id": "polochon",
+   "answer": "Polochon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Flounder_(The_Little_Mermaid)"
+  },
+  {
+   "id": "shere-khan",
+   "answer": "Shere Khan",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Shere_Khan"
+  },
+  {
+   "id": "kaa",
+   "answer": "Kaa",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Kaa"
+  },
+  {
+   "id": "roi-louie",
+   "answer": "Roi Louie",
+   "exact": [
+    "king louie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:King_Louie"
+  },
+  {
+   "id": "bourriquet",
+   "answer": "Bourriquet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Eeyore"
+  },
+  {
+   "id": "porcinet",
+   "answer": "Porcinet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Piglet_(Winnie-the-Pooh)"
+  },
+  {
+   "id": "woodstock",
+   "answer": "Woodstock",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Woodstock_(Peanuts)"
+  },
+  {
+   "id": "professeur-tournesol",
+   "answer": "Professeur Tournesol",
+   "exact": [
+    "tournesol"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Professor_Calculus"
+  },
+  {
+   "id": "dupond-et-dupont",
+   "answer": "Dupond et Dupont",
+   "exact": [
+    "dupont et dupond"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Thomson_and_Thompson"
+  },
+  {
+   "id": "azrael",
+   "answer": "Azraël",
+   "exact": [
+    "azrael"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Azrael_(The_Smurfs)"
+  },
+  {
+   "id": "jolly-jumper",
+   "answer": "Jolly Jumper",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Jolly_Jumper"
+  },
+  {
+   "id": "rantanplan",
+   "answer": "Rantanplan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Rantanplan"
+  },
+  {
+   "id": "brian-griffin",
+   "answer": "Brian Griffin",
+   "exact": [
+    "brian"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Brian_Griffin"
+  },
+  {
+   "id": "stan-marsh",
+   "answer": "Stan Marsh",
+   "exact": [
+    "stan"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Stan_Marsh"
+  },
+  {
+   "id": "kyle-broflovski",
+   "answer": "Kyle Broflovski",
+   "exact": [
+    "kyle"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Kyle_Broflovski"
+  },
+  {
+   "id": "butters",
+   "answer": "Butters",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Butters_Stotch"
+  },
+  {
+   "id": "leela",
+   "answer": "Leela",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Leela_(Futurama)"
+  },
+  {
+   "id": "fry",
+   "answer": "Fry",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Philip_J._Fry"
+  },
+  {
+   "id": "zoidberg",
+   "answer": "Zoidberg",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Zoidberg"
+  },
+  {
+   "id": "katara",
+   "answer": "Katara",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Katara_(Avatar:_The_Last_Airbender)"
+  },
+  {
+   "id": "splinter",
+   "answer": "Splinter",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Splinter_(Teenage_Mutant_Ninja_Turtles)"
+  },
+  {
+   "id": "shredder",
+   "answer": "Shredder",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Shredder_(Teenage_Mutant_Ninja_Turtles)"
+  },
+  {
+   "id": "michelangelo",
+   "answer": "Michelangelo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Michelangelo_(Teenage_Mutant_Ninja_Turtles)"
+  },
+  {
+   "id": "fred-pierrafeu",
+   "answer": "Fred Pierrafeu",
+   "exact": [
+    "fred flintstone"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Fred_Flintstone"
+  },
+  {
+   "id": "les-supers-nanas",
+   "answer": "Les Supers Nanas",
+   "exact": [
+    "powerpuff girls"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Blossom,_Bubbles,_and_Buttercup"
+  },
+  {
+   "id": "perry-l-ornithorynque",
+   "answer": "Perry l'ornithorynque",
+   "exact": [
+    "perry"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Perry_the_Platypus"
+  },
+  {
+   "id": "doofenshmirtz",
+   "answer": "Doofenshmirtz",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Dr._Heinz_Doofenshmirtz"
+  },
+  {
+   "id": "steven-universe",
+   "answer": "Steven Universe",
+   "exact": [
+    "steven"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Steven_Universe_(character)"
+  },
+  {
+   "id": "danny-fantome",
+   "answer": "Danny Fantôme",
+   "exact": [
+    "danny phantom"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Danny_Phantom_(character)"
+  },
+  {
+   "id": "jimmy-neutron",
+   "answer": "Jimmy Neutron",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Jimmy_Neutron_(character)"
+  },
+  {
+   "id": "tommy-pickles",
+   "answer": "Tommy Pickles",
+   "exact": [
+    "tommy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Tommy_Pickles"
+  },
+  {
+   "id": "arnold",
+   "answer": "Arnold",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Arnold_Shortman"
+  },
+  {
+   "id": "timmy-turner",
+   "answer": "Timmy Turner",
+   "exact": [
+    "timmy"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Timmy_Turner"
+  },
+  {
+   "id": "chase",
+   "answer": "Chase",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Chase_(PAW_Patrol)"
+  },
+  {
+   "id": "dora",
+   "answer": "Dora",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Dora_(Dora_the_Explorer)"
+  },
+  {
+   "id": "oui-oui",
+   "answer": "Oui-Oui",
+   "exact": [
+    "oui oui"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Noddy_(character)"
+  },
+  {
+   "id": "babar",
+   "answer": "Babar",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Babar_the_Elephant"
+  },
+  {
+   "id": "odie",
+   "answer": "Odie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Odie"
+  },
+  {
+   "id": "olive",
+   "answer": "Olive",
+   "exact": [
+    "olive oyl"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Olive_Oyl"
+  },
+  {
+   "id": "la-panthere-rose",
+   "answer": "La Panthère rose",
+   "exact": [
+    "pink panther"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Pink_Panther_(character)"
+  },
+  {
+   "id": "inspecteur-gadget",
+   "answer": "Inspecteur Gadget",
+   "exact": [
+    "gadget"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Inspector_Gadget_(character)"
+  },
+  {
+   "id": "roi-julian",
+   "answer": "Roi Julian",
+   "exact": [
+    "king julien"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:King_Julien"
+  },
+  {
+   "id": "judy-hopps",
+   "answer": "Judy Hopps",
+   "exact": [
+    "judy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Judy_Hopps"
+  },
+  {
+   "id": "nick-wilde",
+   "answer": "Nick Wilde",
+   "exact": [
+    "nick"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Nick_Wilde"
+  },
+  {
+   "id": "miles-morales",
+   "answer": "Miles Morales",
+   "exact": [
+    "miles"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Miles_Morales"
+  },
+  {
+   "id": "hades",
+   "answer": "Hadès",
+   "exact": [
+    "hades"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Hades_(Disney)"
+  },
+  {
+   "id": "hercule",
+   "answer": "Hercule",
+   "exact": [
+    "hercules"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Hercules_(Disney)"
+  },
+  {
+   "id": "capitaine-crochet",
+   "answer": "Capitaine Crochet",
+   "exact": [
+    "crochet"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Captain_Hook"
+  },
+  {
+   "id": "fee-clochette",
+   "answer": "Fée Clochette",
+   "exact": [
+    "clochette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Tinker_Bell"
+  },
+  {
+   "id": "chat-du-cheshire",
+   "answer": "Chat du Cheshire",
+   "exact": [
+    "cheshire"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Cheshire_Cat"
+  },
+  {
+   "id": "cruella",
+   "answer": "Cruella",
+   "exact": [
+    "cruella d'enfer"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Cruella_de_Vil"
+  },
+  {
+   "id": "pocahontas",
+   "answer": "Pocahontas",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Pocahontas_(Disney)"
+  },
+  {
+   "id": "quasimodo",
+   "answer": "Quasimodo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Quasimodo_(Disney)"
+  },
+  {
+   "id": "tarzan",
+   "answer": "Tarzan",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Tarzan_(Disney)"
+  },
+  {
+   "id": "robin-des-bois",
+   "answer": "Robin des Bois",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Robin_Hood_(Disney)"
+  },
+  {
+   "id": "ralph",
+   "answer": "Ralph",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Wreck-It_Ralph"
+  },
+  {
+   "id": "baymax",
+   "answer": "Baymax",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Baymax"
+  },
+  {
+   "id": "sisu",
+   "answer": "Sisu",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "difficile"
+   ],
+   "src": "wiki:en:Sisu_(Raya_and_the_Last_Dragon)"
+  },
+  {
+   "id": "maui",
+   "answer": "Maui",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Maui_(Disney)"
+  },
+  {
+   "id": "jack-skellington",
+   "answer": "Jack Skellington",
+   "exact": [
+    "jack"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Jack_Skellington"
+  },
+  {
+   "id": "coraline",
+   "answer": "Coraline",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Coraline_Jones"
+  },
+  {
+   "id": "le-grinch",
+   "answer": "Le Grinch",
+   "exact": [
+    "grinch"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:The_Grinch"
+  },
+  {
+   "id": "mike-wazowski",
+   "answer": "Mike Wazowski",
+   "exact": [
+    "bob razowski"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Mike_Wazowski"
   }
  ]
 }

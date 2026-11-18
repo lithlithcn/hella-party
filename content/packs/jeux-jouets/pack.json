@@ -1300,6 +1300,1622 @@
     "difficile"
    ],
    "src": "wiki:en:Space_hopper"
+  },
+  {
+   "id": "cubes",
+   "answer": "Cubes",
+   "exact": [
+    "cubes en bois"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Cubes (jouet)"
+  },
+  {
+   "id": "hochet",
+   "answer": "Hochet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Hochet"
+  },
+  {
+   "id": "cheval-a-bascule",
+   "answer": "Cheval à bascule",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Cheval à bascule"
+  },
+  {
+   "id": "train-electrique",
+   "answer": "Train électrique",
+   "exact": [
+    "train miniature"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Modélisme ferroviaire"
+  },
+  {
+   "id": "voiture-teleguidee",
+   "answer": "Voiture téléguidée",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:voiture radiocommandee"
+  },
+  {
+   "id": "drone-jouet",
+   "answer": "Drone jouet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Drone jouet"
+  },
+  {
+   "id": "robot-jouet",
+   "answer": "Robot jouet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Robot jouet"
+  },
+  {
+   "id": "pistolet-a-bulles",
+   "answer": "Pistolet à bulles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:bulles"
+  },
+  {
+   "id": "bulles-de-savon",
+   "answer": "Bulles de savon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Bulles de savon"
+  },
+  {
+   "id": "pate-a-prout",
+   "answer": "Pâte à prout",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Pâte à prout"
+  },
+  {
+   "id": "loupe-jouet",
+   "answer": "Loupe jouet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Loupe jouet"
+  },
+  {
+   "id": "poupee",
+   "answer": "Poupée",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Poupée"
+  },
+  {
+   "id": "poupee-de-chiffon",
+   "answer": "Poupée de chiffon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Poupée de chiffon"
+  },
+  {
+   "id": "poupee-barbie",
+   "answer": "Poupée Barbie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Poupée Barbie"
+  },
+  {
+   "id": "ken",
+   "answer": "Ken",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Ken (poupée)"
+  },
+  {
+   "id": "baigneur",
+   "answer": "Baigneur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Poupon"
+  },
+  {
+   "id": "maison-de-poupee",
+   "answer": "Maison de poupée",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Maison de poupée"
+  },
+  {
+   "id": "dinette",
+   "answer": "Dînette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:dinette"
+  },
+  {
+   "id": "cuisine-jouet",
+   "answer": "Cuisine jouet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Cuisine jouet"
+  },
+  {
+   "id": "marionnette",
+   "answer": "Marionnette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Marionnette"
+  },
+  {
+   "id": "marionnette-a-doigt",
+   "answer": "Marionnette à doigt",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Marionnette à doigt"
+  },
+  {
+   "id": "ventriloque",
+   "answer": "Ventriloque",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:marionnette ventriloque"
+  },
+  {
+   "id": "peluche",
+   "answer": "Peluche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Peluche"
+  },
+  {
+   "id": "doudou",
+   "answer": "Doudou",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Doudou"
+  },
+  {
+   "id": "lapin-en-peluche",
+   "answer": "Lapin en peluche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Lapin en peluche"
+  },
+  {
+   "id": "tirelire",
+   "answer": "Tirelire",
+   "exact": [
+    "cochon tirelire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Tirelire cochon"
+  },
+  {
+   "id": "boite-a-meuh",
+   "answer": "Boîte à meuh",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Boîte à meuh"
+  },
+  {
+   "id": "diabolo",
+   "answer": "Diabolo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Diabolo (jonglerie)"
+  },
+  {
+   "id": "balles-de-jonglage",
+   "answer": "Balles de jonglage",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:jonglage"
+  },
+  {
+   "id": "massues",
+   "answer": "Massues",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Massues"
+  },
+  {
+   "id": "baton-du-diable",
+   "answer": "Bâton du diable",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Bâton du diable"
+  },
+  {
+   "id": "frisbee",
+   "answer": "Frisbee",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Frisbee"
+  },
+  {
+   "id": "boomerang",
+   "answer": "Boomerang",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Boomerang"
+  },
+  {
+   "id": "ballon-de-baudruche",
+   "answer": "Ballon de baudruche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:ballon"
+  },
+  {
+   "id": "pinata",
+   "answer": "Piñata",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:pinata"
+  },
+  {
+   "id": "confettis",
+   "answer": "Confettis",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Confettis"
+  },
+  {
+   "id": "serpentin",
+   "answer": "Serpentin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Serpentin"
+  },
+  {
+   "id": "masque-de-carnaval",
+   "answer": "Masque de carnaval",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Masque de carnaval"
+  },
+  {
+   "id": "deguisement",
+   "answer": "Déguisement",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Déguisement"
+  },
+  {
+   "id": "maquillage-pour-enfants",
+   "answer": "Maquillage pour enfants",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Maquillage pour enfants"
+  },
+  {
+   "id": "craie-de-trottoir",
+   "answer": "Craie de trottoir",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Craie de trottoir"
+  },
+  {
+   "id": "marelle",
+   "answer": "Marelle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Marelle"
+  },
+  {
+   "id": "elastique",
+   "answer": "Élastique",
+   "exact": [
+    "jeu d'elastique"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Élastique (jeu)"
+  },
+  {
+   "id": "chat-perche",
+   "answer": "Chat perché",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Chat perché"
+  },
+  {
+   "id": "cache-cache",
+   "answer": "Cache-cache",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:cache cache"
+  },
+  {
+   "id": "colin-maillard",
+   "answer": "Colin-maillard",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:colin maillard"
+  },
+  {
+   "id": "chaises-musicales",
+   "answer": "Chaises musicales",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Chaises musicales"
+  },
+  {
+   "id": "course-en-sac",
+   "answer": "Course en sac",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Course en sac"
+  },
+  {
+   "id": "tir-a-la-corde",
+   "answer": "Tir à la corde",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Tir à la corde"
+  },
+  {
+   "id": "chateau-gonflable",
+   "answer": "Château gonflable",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Château gonflable"
+  },
+  {
+   "id": "piscine-a-balles",
+   "answer": "Piscine à balles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Piscine à balles"
+  },
+  {
+   "id": "bac-a-sable",
+   "answer": "Bac à sable",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Bac à sable"
+  },
+  {
+   "id": "pelle-et-seau",
+   "answer": "Pelle et seau",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Pelle et seau"
+  },
+  {
+   "id": "chateau-de-sable",
+   "answer": "Château de sable",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Château de sable"
+  },
+  {
+   "id": "bouee",
+   "answer": "Bouée",
+   "exact": [
+    "bouee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Bouée (natation)"
+  },
+  {
+   "id": "brassards",
+   "answer": "Brassards",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Brassard (natation)"
+  },
+  {
+   "id": "frite-de-piscine",
+   "answer": "Frite de piscine",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Frite de piscine"
+  },
+  {
+   "id": "pistolet-laser",
+   "answer": "Pistolet laser",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Laser game"
+  },
+  {
+   "id": "talkie-walkie",
+   "answer": "Talkie-walkie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:talkie walkie"
+  },
+  {
+   "id": "lampe-de-poche-jouet",
+   "answer": "Lampe de poche jouet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Lampe de poche jouet"
+  },
+  {
+   "id": "jumelles-jouet",
+   "answer": "Jumelles jouet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Jumelles jouet"
+  },
+  {
+   "id": "lunettes-3d",
+   "answer": "Lunettes 3D",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Lunettes 3D"
+  },
+  {
+   "id": "puzzle-3d",
+   "answer": "Puzzle 3D",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Puzzle 3D"
+  },
+  {
+   "id": "casse-tete",
+   "answer": "Casse-tête",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Casse-tête mécanique"
+  },
+  {
+   "id": "tangram",
+   "answer": "Tangram",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Tangram"
+  },
+  {
+   "id": "taquin",
+   "answer": "Taquin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Taquin"
+  },
+  {
+   "id": "rubik-s-revenge",
+   "answer": "Rubik's Revenge",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:4x4"
+  },
+  {
+   "id": "megaminx",
+   "answer": "Mégaminx",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:megaminx"
+  },
+  {
+   "id": "pyraminx",
+   "answer": "Pyraminx",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Pyraminx"
+  },
+  {
+   "id": "cube-miroir",
+   "answer": "Cube Miroir",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Mirror cube"
+  },
+  {
+   "id": "abaque",
+   "answer": "Abaque",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:boulier"
+  },
+  {
+   "id": "jeu-de-des",
+   "answer": "Jeu de dés",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Jeu de dés"
+  },
+  {
+   "id": "de-a-20-faces",
+   "answer": "Dé à 20 faces",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:d20"
+  },
+  {
+   "id": "jetons",
+   "answer": "Jetons",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Jeton (jeu)"
+  },
+  {
+   "id": "sablier",
+   "answer": "Sablier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Sablier"
+  },
+  {
+   "id": "plateau-de-jeu",
+   "answer": "Plateau de jeu",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Plateau de jeu"
+  },
+  {
+   "id": "pieces-d-echecs",
+   "answer": "Pièces d'échecs",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Pièces d'échecs"
+  },
+  {
+   "id": "roi",
+   "answer": "Roi",
+   "exact": [
+    "roi echecs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Roi (échecs)"
+  },
+  {
+   "id": "dame",
+   "answer": "Dame",
+   "exact": [
+    "reine"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Dame (échecs)"
+  },
+  {
+   "id": "cavalier",
+   "answer": "Cavalier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Cavalier (échecs)"
+  },
+  {
+   "id": "pion",
+   "answer": "Pion",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Pion (échecs)"
+  },
+  {
+   "id": "jeu-de-quilles",
+   "answer": "Jeu de quilles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Jeu de quilles"
+  },
+  {
+   "id": "croquet",
+   "answer": "Croquet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Croquet"
+  },
+  {
+   "id": "flechettes",
+   "answer": "Fléchettes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Fléchettes"
+  },
+  {
+   "id": "flipper",
+   "answer": "Flipper",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Flipper"
+  },
+  {
+   "id": "air-hockey",
+   "answer": "Air hockey",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Air hockey"
+  },
+  {
+   "id": "machine-a-pince",
+   "answer": "Machine à pince",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:attrape peluche"
+  },
+  {
+   "id": "juke-box",
+   "answer": "Juke-box",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Juke-box"
+  },
+  {
+   "id": "manege",
+   "answer": "Manège",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Manège"
+  },
+  {
+   "id": "grande-roue",
+   "answer": "Grande roue",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Grande roue"
+  },
+  {
+   "id": "montagnes-russes",
+   "answer": "Montagnes russes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Montagnes russes"
+  },
+  {
+   "id": "auto-tamponneuse",
+   "answer": "Auto-tamponneuse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:autos tamponneuses"
+  },
+  {
+   "id": "train-fantome",
+   "answer": "Train fantôme",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Train fantôme"
+  },
+  {
+   "id": "tasses-tournantes",
+   "answer": "Tasses tournantes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Tasses tournantes"
+  },
+  {
+   "id": "carrousel",
+   "answer": "Carrousel",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Carrousel"
+  },
+  {
+   "id": "toboggan-aquatique",
+   "answer": "Toboggan aquatique",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Toboggan aquatique"
+  },
+  {
+   "id": "balancoire-a-bascule",
+   "answer": "Balançoire à bascule",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:tape-cul"
+  },
+  {
+   "id": "tourniquet",
+   "answer": "Tourniquet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Tourniquet (jeu)"
+  },
+  {
+   "id": "cage-a-ecureuil",
+   "answer": "Cage à écureuil",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Cage à écureuil"
+  },
+  {
+   "id": "mur-d-escalade",
+   "answer": "Mur d'escalade",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Mur d'escalade"
+  },
+  {
+   "id": "trottinette-electrique",
+   "answer": "Trottinette électrique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Trottinette électrique"
+  },
+  {
+   "id": "skateboard",
+   "answer": "Skateboard",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Skateboard"
+  },
+  {
+   "id": "rollers",
+   "answer": "Rollers",
+   "exact": [
+    "roller"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Patins à roulettes"
+  },
+  {
+   "id": "hoverboard",
+   "answer": "Hoverboard",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Hoverboard"
+  },
+  {
+   "id": "planche-a-roulettes",
+   "answer": "Planche à roulettes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Planche à roulettes"
+  },
+  {
+   "id": "velo-d-enfant",
+   "answer": "Vélo d'enfant",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:petit velo"
+  },
+  {
+   "id": "draisienne",
+   "answer": "Draisienne",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Draisienne"
+  },
+  {
+   "id": "kart-a-pedales",
+   "answer": "Kart à pédales",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Kart à pédales"
+  },
+  {
+   "id": "voiture-a-pedales",
+   "answer": "Voiture à pédales",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Voiture à pédales"
+  },
+  {
+   "id": "luge",
+   "answer": "Luge",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Luge (traîneau)"
+  },
+  {
+   "id": "bonhomme-de-neige",
+   "answer": "Bonhomme de neige",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Bonhomme de neige"
+  },
+  {
+   "id": "boule-de-neige",
+   "answer": "Boule de neige",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Boule de neige"
+  },
+  {
+   "id": "igloo",
+   "answer": "Igloo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Igloo"
+  },
+  {
+   "id": "sable-magique",
+   "answer": "Sable magique",
+   "exact": [
+    "kinetic sand"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Kinetic sand"
+  },
+  {
+   "id": "pate-play-doh",
+   "answer": "Pâte Play-Doh",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:play doh"
+  },
+  {
+   "id": "gommettes",
+   "answer": "Gommettes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Gommettes"
+  },
+  {
+   "id": "perles-a-repasser",
+   "answer": "Perles à repasser",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:hama"
+  },
+  {
+   "id": "metier-a-tisser",
+   "answer": "Métier à tisser",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Métier à tisser"
+  },
+  {
+   "id": "kit-de-peinture",
+   "answer": "Kit de peinture",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Kit de peinture"
+  },
+  {
+   "id": "crayons-de-cire",
+   "answer": "Crayons de cire",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Crayons de cire"
+  },
+  {
+   "id": "coloriage",
+   "answer": "Coloriage",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Coloriage"
+  },
+  {
+   "id": "pochoir",
+   "answer": "Pochoir",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Pochoir"
+  },
+  {
+   "id": "mosaique",
+   "answer": "Mosaïque",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Mosaïque"
+  },
+  {
+   "id": "origami",
+   "answer": "Origami",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Origami"
+  },
+  {
+   "id": "avion-en-papier",
+   "answer": "Avion en papier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Avion en papier"
+  },
+  {
+   "id": "cocotte-en-papier",
+   "answer": "Cocotte en papier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:Cocotte en papier"
+  },
+  {
+   "id": "bateau-en-papier",
+   "answer": "Bateau en papier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Bateau en papier"
+  },
+  {
+   "id": "moulin-a-vent",
+   "answer": "Moulin à vent",
+   "exact": [
+    "moulinet"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Moulinet"
+  },
+  {
+   "id": "sifflet",
+   "answer": "Sifflet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Sifflet"
+  },
+  {
+   "id": "mirliton",
+   "answer": "Mirliton",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:langue de belle-mere"
+  },
+  {
+   "id": "tambour-jouet",
+   "answer": "Tambour jouet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:Tambour jouet"
+  },
+  {
+   "id": "xylophone-jouet",
+   "answer": "Xylophone jouet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Xylophone jouet"
+  },
+  {
+   "id": "piano-jouet",
+   "answer": "Piano jouet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:Piano jouet"
   }
  ]
 }

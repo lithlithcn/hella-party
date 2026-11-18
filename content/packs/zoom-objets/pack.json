@@ -1369,6 +1369,2462 @@
     "facile"
    ],
    "src": "wiki:en:Book"
+  },
+  {
+   "id": "cuillere-en-bois",
+   "answer": "Cuillère en bois",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:cuillere en bois"
+  },
+  {
+   "id": "couteau",
+   "answer": "Couteau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Couteau"
+  },
+  {
+   "id": "planche-a-decouper",
+   "answer": "Planche à découper",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:planche a decouper"
+  },
+  {
+   "id": "presse-agrumes",
+   "answer": "Presse-agrumes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:presse agrumes"
+  },
+  {
+   "id": "epluche-legumes",
+   "answer": "Épluche-légumes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:eplucheur,econome"
+  },
+  {
+   "id": "ecumoire",
+   "answer": "Écumoire",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:ecumoire"
+  },
+  {
+   "id": "pince-de-cuisine",
+   "answer": "Pince de cuisine",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Pince de cuisine"
+  },
+  {
+   "id": "mortier",
+   "answer": "Mortier",
+   "exact": [
+    "pilon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Mortier et pilon"
+  },
+  {
+   "id": "balance-de-cuisine",
+   "answer": "Balance de cuisine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:balance"
+  },
+  {
+   "id": "minuteur",
+   "answer": "Minuteur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:minuteur de cuisine"
+  },
+  {
+   "id": "thermos",
+   "answer": "Thermos",
+   "exact": [
+    "bouteille isotherme"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Bouteille isotherme"
+  },
+  {
+   "id": "gourde",
+   "answer": "Gourde",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Gourde"
+  },
+  {
+   "id": "boite-a-lunch",
+   "answer": "Boîte à lunch",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:lunchbox"
+  },
+  {
+   "id": "moule-a-gateau",
+   "answer": "Moule à gâteau",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Moule à gâteau"
+  },
+  {
+   "id": "batteur-electrique",
+   "answer": "Batteur électrique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:batteur"
+  },
+  {
+   "id": "cocotte-minute",
+   "answer": "Cocotte-minute",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:autocuiseur"
+  },
+  {
+   "id": "wok",
+   "answer": "Wok",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Wok"
+  },
+  {
+   "id": "gaufrier",
+   "answer": "Gaufrier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Gaufrier"
+  },
+  {
+   "id": "appareil-a-raclette",
+   "answer": "Appareil à raclette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:raclette"
+  },
+  {
+   "id": "machine-a-cafe",
+   "answer": "Machine à café",
+   "exact": [
+    "machine a cafe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Machine à expresso"
+  },
+  {
+   "id": "capsule-de-cafe",
+   "answer": "Capsule de café",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Capsule de café"
+  },
+  {
+   "id": "sachet-de-the",
+   "answer": "Sachet de thé",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Sachet de thé"
+  },
+  {
+   "id": "bouchon",
+   "answer": "Bouchon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Bouchon de liège"
+  },
+  {
+   "id": "decapsuleur",
+   "answer": "Décapsuleur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:decapsuleur"
+  },
+  {
+   "id": "saladier",
+   "answer": "Saladier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Saladier"
+  },
+  {
+   "id": "bol",
+   "answer": "Bol",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Bol"
+  },
+  {
+   "id": "mug",
+   "answer": "Mug",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Mug"
+  },
+  {
+   "id": "carafe",
+   "answer": "Carafe",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Carafe"
+  },
+  {
+   "id": "plateau",
+   "answer": "Plateau",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Plateau (vaisselle)"
+  },
+  {
+   "id": "serviette",
+   "answer": "Serviette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Serviette de table"
+  },
+  {
+   "id": "nappe",
+   "answer": "Nappe",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Nappe"
+  },
+  {
+   "id": "torchon",
+   "answer": "Torchon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Torchon"
+  },
+  {
+   "id": "lave-vaisselle",
+   "answer": "Lave-vaisselle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:lave vaisselle"
+  },
+  {
+   "id": "refrigerateur",
+   "answer": "Réfrigérateur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:frigo"
+  },
+  {
+   "id": "congelateur",
+   "answer": "Congélateur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Congélateur"
+  },
+  {
+   "id": "four",
+   "answer": "Four",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Four"
+  },
+  {
+   "id": "plaque-de-cuisson",
+   "answer": "Plaque de cuisson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Plaque de cuisson"
+  },
+  {
+   "id": "hotte",
+   "answer": "Hotte",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Hotte aspirante"
+  },
+  {
+   "id": "aspirateur",
+   "answer": "Aspirateur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Aspirateur"
+  },
+  {
+   "id": "balai",
+   "answer": "Balai",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Balai"
+  },
+  {
+   "id": "serpilliere",
+   "answer": "Serpillière",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:serpilliere"
+  },
+  {
+   "id": "seau",
+   "answer": "Seau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Seau"
+  },
+  {
+   "id": "pelle-a-poussiere",
+   "answer": "Pelle à poussière",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:balayette"
+  },
+  {
+   "id": "poubelle",
+   "answer": "Poubelle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Poubelle"
+  },
+  {
+   "id": "sac-poubelle",
+   "answer": "Sac poubelle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Sac poubelle"
+  },
+  {
+   "id": "gants-de-menage",
+   "answer": "Gants de ménage",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Gants de ménage"
+  },
+  {
+   "id": "lave-linge",
+   "answer": "Lave-linge",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:machine a laver"
+  },
+  {
+   "id": "seche-linge",
+   "answer": "Sèche-linge",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:seche linge"
+  },
+  {
+   "id": "fer-a-repasser",
+   "answer": "Fer à repasser",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Fer à repasser"
+  },
+  {
+   "id": "planche-a-repasser",
+   "answer": "Planche à repasser",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Planche à repasser"
+  },
+  {
+   "id": "panier-a-linge",
+   "answer": "Panier à linge",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Panier à linge"
+  },
+  {
+   "id": "etendoir",
+   "answer": "Étendoir",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:etendoir"
+  },
+  {
+   "id": "corbeille",
+   "answer": "Corbeille",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Corbeille"
+  },
+  {
+   "id": "lampe-de-chevet",
+   "answer": "Lampe de chevet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:lampe"
+  },
+  {
+   "id": "lampe-torche",
+   "answer": "Lampe torche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:lampe de poche"
+  },
+  {
+   "id": "abat-jour",
+   "answer": "Abat-jour",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:abat jour"
+  },
+  {
+   "id": "rideau",
+   "answer": "Rideau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Rideau"
+  },
+  {
+   "id": "store",
+   "answer": "Store",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Store (fenêtre)"
+  },
+  {
+   "id": "paillasson",
+   "answer": "Paillasson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Paillasson"
+  },
+  {
+   "id": "tapis",
+   "answer": "Tapis",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Tapis"
+  },
+  {
+   "id": "coussin",
+   "answer": "Coussin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Coussin"
+  },
+  {
+   "id": "matelas",
+   "answer": "Matelas",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Matelas"
+  },
+  {
+   "id": "drap",
+   "answer": "Drap",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Drap"
+  },
+  {
+   "id": "couette",
+   "answer": "Couette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Couette"
+  },
+  {
+   "id": "table-de-nuit",
+   "answer": "Table de nuit",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Table de nuit"
+  },
+  {
+   "id": "commode",
+   "answer": "Commode",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Commode"
+  },
+  {
+   "id": "armoire",
+   "answer": "Armoire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Armoire"
+  },
+  {
+   "id": "etagere",
+   "answer": "Étagère",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:etagere"
+  },
+  {
+   "id": "canape",
+   "answer": "Canapé",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:canape"
+  },
+  {
+   "id": "fauteuil",
+   "answer": "Fauteuil",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Fauteuil"
+  },
+  {
+   "id": "chaise",
+   "answer": "Chaise",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Chaise"
+  },
+  {
+   "id": "tabouret",
+   "answer": "Tabouret",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Tabouret"
+  },
+  {
+   "id": "table-basse",
+   "answer": "Table basse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Table basse"
+  },
+  {
+   "id": "bureau",
+   "answer": "Bureau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Bureau (meuble)"
+  },
+  {
+   "id": "lit-superpose",
+   "answer": "Lit superposé",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:lit superpose"
+  },
+  {
+   "id": "hamac",
+   "answer": "Hamac",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Hamac"
+  },
+  {
+   "id": "berceau",
+   "answer": "Berceau",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Berceau"
+  },
+  {
+   "id": "poussette",
+   "answer": "Poussette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Poussette"
+  },
+  {
+   "id": "biberon",
+   "answer": "Biberon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Biberon"
+  },
+  {
+   "id": "tetine",
+   "answer": "Tétine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:tetine"
+  },
+  {
+   "id": "couche",
+   "answer": "Couche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Couche-culotte"
+  },
+  {
+   "id": "hochet",
+   "answer": "Hochet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Hochet"
+  },
+  {
+   "id": "brosse-wc",
+   "answer": "Brosse WC",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Brosse WC"
+  },
+  {
+   "id": "papier-toilette",
+   "answer": "Papier toilette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:pq"
+  },
+  {
+   "id": "pommeau-de-douche",
+   "answer": "Pommeau de douche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:douche"
+  },
+  {
+   "id": "robinet",
+   "answer": "Robinet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Robinet"
+  },
+  {
+   "id": "baignoire",
+   "answer": "Baignoire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Baignoire"
+  },
+  {
+   "id": "lavabo",
+   "answer": "Lavabo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Lavabo"
+  },
+  {
+   "id": "serviette-de-bain",
+   "answer": "Serviette de bain",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Serviette de bain"
+  },
+  {
+   "id": "peignoir",
+   "answer": "Peignoir",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Peignoir"
+  },
+  {
+   "id": "pese-personne",
+   "answer": "Pèse-personne",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:balance"
+  },
+  {
+   "id": "brosse-a-dents-electrique",
+   "answer": "Brosse à dents électrique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Brosse à dents électrique"
+  },
+  {
+   "id": "fil-dentaire",
+   "answer": "Fil dentaire",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Fil dentaire"
+  },
+  {
+   "id": "bain-de-bouche",
+   "answer": "Bain de bouche",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Bain de bouche"
+  },
+  {
+   "id": "gel-douche",
+   "answer": "Gel douche",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Gel douche"
+  },
+  {
+   "id": "shampoing",
+   "answer": "Shampoing",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:shampooing"
+  },
+  {
+   "id": "deodorant",
+   "answer": "Déodorant",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:deodorant"
+  },
+  {
+   "id": "creme-solaire",
+   "answer": "Crème solaire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Crème solaire"
+  },
+  {
+   "id": "vernis-a-ongles",
+   "answer": "Vernis à ongles",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:vernis"
+  },
+  {
+   "id": "mascara",
+   "answer": "Mascara",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Mascara"
+  },
+  {
+   "id": "fond-de-teint",
+   "answer": "Fond de teint",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Fond de teint"
+  },
+  {
+   "id": "pinceau-de-maquillage",
+   "answer": "Pinceau de maquillage",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Pinceau de maquillage"
+  },
+  {
+   "id": "lime-a-ongles",
+   "answer": "Lime à ongles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Lime à ongles"
+  },
+  {
+   "id": "elastique",
+   "answer": "Élastique",
+   "exact": [
+    "chouchou"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Élastique à cheveux"
+  },
+  {
+   "id": "barrette",
+   "answer": "Barrette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Barrette (coiffure)"
+  },
+  {
+   "id": "bigoudi",
+   "answer": "Bigoudi",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Bigoudi"
+  },
+  {
+   "id": "tondeuse-a-cheveux",
+   "answer": "Tondeuse à cheveux",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:tondeuse"
+  },
+  {
+   "id": "blaireau-de-rasage",
+   "answer": "Blaireau de rasage",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "objets",
+    "zoom",
+    "difficile"
+   ],
+   "src": "wiki:blaireau"
+  },
+  {
+   "id": "trousse-de-toilette",
+   "answer": "Trousse de toilette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Trousse de toilette"
+  },
+  {
+   "id": "valise",
+   "answer": "Valise",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Valise"
+  },
+  {
+   "id": "sac-a-dos",
+   "answer": "Sac à dos",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Sac à dos"
+  },
+  {
+   "id": "portefeuille",
+   "answer": "Portefeuille",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Portefeuille"
+  },
+  {
+   "id": "porte-cles",
+   "answer": "Porte-clés",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:porte cles"
+  },
+  {
+   "id": "ceinture",
+   "answer": "Ceinture",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Ceinture"
+  },
+  {
+   "id": "cravate",
+   "answer": "Cravate",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Cravate"
+  },
+  {
+   "id": "n-ud-papillon",
+   "answer": "Nœud papillon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:noeud papillon"
+  },
+  {
+   "id": "bretelles",
+   "answer": "Bretelles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Bretelles"
+  },
+  {
+   "id": "echarpe",
+   "answer": "Écharpe",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:echarpe"
+  },
+  {
+   "id": "bonnet",
+   "answer": "Bonnet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Bonnet"
+  },
+  {
+   "id": "casquette",
+   "answer": "Casquette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Casquette"
+  },
+  {
+   "id": "chapeau",
+   "answer": "Chapeau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Chapeau"
+  },
+  {
+   "id": "gants",
+   "answer": "Gants",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Gant"
+  },
+  {
+   "id": "moufles",
+   "answer": "Moufles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Moufles"
+  },
+  {
+   "id": "bottes",
+   "answer": "Bottes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Bottes"
+  },
+  {
+   "id": "baskets",
+   "answer": "Baskets",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:basket"
+  },
+  {
+   "id": "tongs",
+   "answer": "Tongs",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Tongs"
+  },
+  {
+   "id": "pantoufles",
+   "answer": "Pantoufles",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:chaussons"
+  },
+  {
+   "id": "talons-hauts",
+   "answer": "Talons hauts",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:escarpins"
+  },
+  {
+   "id": "sandales",
+   "answer": "Sandales",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Sandales"
+  },
+  {
+   "id": "chausse-pied",
+   "answer": "Chausse-pied",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:chausse pied"
+  },
+  {
+   "id": "montre-connectee",
+   "answer": "Montre connectée",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Montre connectée"
+  },
+  {
+   "id": "bague",
+   "answer": "Bague",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Bague"
+  },
+  {
+   "id": "collier",
+   "answer": "Collier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Collier"
+  },
+  {
+   "id": "boucles-d-oreilles",
+   "answer": "Boucles d'oreilles",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Boucles d'oreilles"
+  },
+  {
+   "id": "bracelet",
+   "answer": "Bracelet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Bracelet"
+  },
+  {
+   "id": "broche",
+   "answer": "Broche",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Broche (bijou)"
+  },
+  {
+   "id": "eventail",
+   "answer": "Éventail",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:eventail"
+  },
+  {
+   "id": "mouchoir",
+   "answer": "Mouchoir",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Mouchoir"
+  },
+  {
+   "id": "masque-chirurgical",
+   "answer": "Masque chirurgical",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:masque"
+  },
+  {
+   "id": "thermometre",
+   "answer": "Thermomètre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Thermomètre"
+  },
+  {
+   "id": "pansement",
+   "answer": "Pansement",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Pansement"
+  },
+  {
+   "id": "seringue",
+   "answer": "Seringue",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Seringue"
+  },
+  {
+   "id": "stethoscope",
+   "answer": "Stéthoscope",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:stethoscope"
+  },
+  {
+   "id": "bequille",
+   "answer": "Béquille",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:bequille"
+  },
+  {
+   "id": "fauteuil-roulant",
+   "answer": "Fauteuil roulant",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Fauteuil roulant"
+  },
+  {
+   "id": "trousse-de-secours",
+   "answer": "Trousse de secours",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Trousse de secours"
+  },
+  {
+   "id": "pilulier",
+   "answer": "Pilulier",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "objets",
+    "zoom",
+    "difficile"
+   ],
+   "src": "wiki:Pilulier"
+  },
+  {
+   "id": "lunettes-de-soleil",
+   "answer": "Lunettes de soleil",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Lunettes de soleil"
+  },
+  {
+   "id": "jumelles",
+   "answer": "Jumelles",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Jumelles"
+  },
+  {
+   "id": "appareil-photo",
+   "answer": "Appareil photo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Appareil photo"
+  },
+  {
+   "id": "trepied",
+   "answer": "Trépied",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:trepied"
+  },
+  {
+   "id": "cle-a-molette",
+   "answer": "Clé à molette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Clé à molette"
+  },
+  {
+   "id": "cle-allen",
+   "answer": "Clé Allen",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:cle allen"
+  },
+  {
+   "id": "pince",
+   "answer": "Pince",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Pince (outil)"
+  },
+  {
+   "id": "scie",
+   "answer": "Scie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Scie"
+  },
+  {
+   "id": "perceuse",
+   "answer": "Perceuse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Perceuse"
+  },
+  {
+   "id": "niveau-a-bulle",
+   "answer": "Niveau à bulle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:niveau"
+  },
+  {
+   "id": "metre-ruban",
+   "answer": "Mètre ruban",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:metre"
+  },
+  {
+   "id": "cutter",
+   "answer": "Cutter",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Cutter"
+  },
+  {
+   "id": "pistolet-a-colle",
+   "answer": "Pistolet à colle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Pistolet à colle"
+  },
+  {
+   "id": "fer-a-souder",
+   "answer": "Fer à souder",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Fer à souder"
+  },
+  {
+   "id": "ruban-adhesif",
+   "answer": "Ruban adhésif",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:scotch"
+  },
+  {
+   "id": "corde",
+   "answer": "Corde",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Corde"
+  },
+  {
+   "id": "chaine",
+   "answer": "Chaîne",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:chaine"
+  },
+  {
+   "id": "echelle",
+   "answer": "Échelle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:echelle"
+  },
+  {
+   "id": "brouette",
+   "answer": "Brouette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Brouette"
+  },
+  {
+   "id": "pelle",
+   "answer": "Pelle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Pelle"
+  },
+  {
+   "id": "rateau",
+   "answer": "Râteau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:rateau"
+  },
+  {
+   "id": "arrosoir",
+   "answer": "Arrosoir",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Arrosoir"
+  },
+  {
+   "id": "tuyau-d-arrosage",
+   "answer": "Tuyau d'arrosage",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Tuyau d'arrosage"
+  },
+  {
+   "id": "secateur",
+   "answer": "Sécateur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:secateur"
+  },
+  {
+   "id": "tondeuse-a-gazon",
+   "answer": "Tondeuse à gazon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Tondeuse à gazon"
+  },
+  {
+   "id": "nain-de-jardin",
+   "answer": "Nain de jardin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Nain de jardin"
+  },
+  {
+   "id": "pot-de-fleurs",
+   "answer": "Pot de fleurs",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Pot de fleurs"
+  },
+  {
+   "id": "cage-a-oiseaux",
+   "answer": "Cage à oiseaux",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Cage à oiseaux"
+  },
+  {
+   "id": "niche",
+   "answer": "Niche",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Niche (chien)"
+  },
+  {
+   "id": "laisse",
+   "answer": "Laisse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Laisse"
+  },
+  {
+   "id": "gamelle",
+   "answer": "Gamelle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Gamelle"
+  },
+  {
+   "id": "aquarium",
+   "answer": "Aquarium",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Aquarium"
+  },
+  {
+   "id": "extincteur",
+   "answer": "Extincteur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Extincteur"
+  },
+  {
+   "id": "detecteur-de-fumee",
+   "answer": "Détecteur de fumée",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Détecteur de fumée"
+  },
+  {
+   "id": "boite-aux-lettres",
+   "answer": "Boîte aux lettres",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Boîte aux lettres"
+  },
+  {
+   "id": "sonnette",
+   "answer": "Sonnette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Sonnette"
+  },
+  {
+   "id": "cadenas-a-code",
+   "answer": "Cadenas à code",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Cadenas à code"
+  },
+  {
+   "id": "coffre-fort",
+   "answer": "Coffre-fort",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:coffre fort"
+  },
+  {
+   "id": "trousseau-de-cles",
+   "answer": "Trousseau de clés",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Trousseau de clés"
+  },
+  {
+   "id": "agenda",
+   "answer": "Agenda",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Agenda"
+  },
+  {
+   "id": "calendrier",
+   "answer": "Calendrier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Calendrier"
+  },
+  {
+   "id": "classeur",
+   "answer": "Classeur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Classeur"
+  },
+  {
+   "id": "pochette",
+   "answer": "Pochette",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Pochette plastique"
+  },
+  {
+   "id": "trousse",
+   "answer": "Trousse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Trousse scolaire"
+  },
+  {
+   "id": "cahier",
+   "answer": "Cahier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Cahier"
+  },
+  {
+   "id": "feutre",
+   "answer": "Feutre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Feutre"
+  },
+  {
+   "id": "crayon-de-couleur",
+   "answer": "Crayon de couleur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:crayons de couleur"
+  },
+  {
+   "id": "pastel",
+   "answer": "Pastel",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Pastel"
+  },
+  {
+   "id": "craie",
+   "answer": "Craie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Craie"
+  },
+  {
+   "id": "ardoise",
+   "answer": "Ardoise",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Ardoise"
+  },
+  {
+   "id": "equerre",
+   "answer": "Équerre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:equerre"
+  },
+  {
+   "id": "rapporteur",
+   "answer": "Rapporteur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:Rapporteur"
+  },
+  {
+   "id": "tampon-encreur",
+   "answer": "Tampon encreur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:tampon"
+  },
+  {
+   "id": "perforatrice",
+   "answer": "Perforatrice",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Perforatrice"
+  },
+  {
+   "id": "massicot",
+   "answer": "Massicot",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "objets",
+    "zoom",
+    "difficile"
+   ],
+   "src": "wiki:Massicot"
+  },
+  {
+   "id": "globe-terrestre",
+   "answer": "Globe terrestre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:globe"
+  },
+  {
+   "id": "mappemonde",
+   "answer": "Mappemonde",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:Mappemonde"
   }
  ]
 }

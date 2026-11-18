@@ -22,7 +22,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Mario"
+   "src": "wiki:en:Mario",
+   "explain": "C'était Mario"
   },
   {
    "id": "super-mario-luigi",
@@ -50,7 +51,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Link_(The_Legend_of_Zelda)"
+   "src": "wiki:en:Link_(The_Legend_of_Zelda)",
+   "explain": "C'était Link"
   },
   {
    "id": "pokemon",
@@ -63,7 +65,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Pikachu"
+   "src": "wiki:en:Pikachu",
+   "explain": "C'était Pikachu"
   },
   {
    "id": "sonic",
@@ -76,7 +79,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Sonic_the_Hedgehog_(character)"
+   "src": "wiki:en:Sonic_the_Hedgehog_(character)",
+   "explain": "C'était Sonic the Hedgehog"
   },
   {
    "id": "minecraft",
@@ -87,7 +91,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Creeper_(Minecraft)"
+   "src": "wiki:en:Creeper_(Minecraft)",
+   "explain": "C'était Creeper"
   },
   {
    "id": "pac-man",
@@ -100,7 +105,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Pac-Man_(character)"
+   "src": "wiki:en:Pac-Man_(character)",
+   "explain": "C'était Pac-Man"
   },
   {
    "id": "kirby",
@@ -111,7 +117,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Kirby_(character)"
+   "src": "wiki:en:Kirby_(character)",
+   "explain": "C'était Kirby"
   },
   {
    "id": "donkey-kong",
@@ -124,7 +131,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Donkey_Kong_(character)"
+   "src": "wiki:en:Donkey_Kong_(character)",
+   "explain": "C'était Donkey Kong"
   },
   {
    "id": "tomb-raider",
@@ -137,7 +145,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Lara_Croft"
+   "src": "wiki:en:Lara_Croft",
+   "explain": "C'était Lara Croft"
   },
   {
    "id": "halo",
@@ -148,7 +157,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Master_Chief_(Halo)"
+   "src": "wiki:en:Master_Chief_(Halo)",
+   "explain": "C'était Master Chief"
   },
   {
    "id": "god-of-war",
@@ -159,7 +169,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Kratos_(God_of_War)"
+   "src": "wiki:en:Kratos_(God_of_War)",
+   "explain": "C'était Kratos"
   },
   {
    "id": "crash-bandicoot",
@@ -172,7 +183,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Crash_Bandicoot_(character)"
+   "src": "wiki:en:Crash_Bandicoot_(character)",
+   "explain": "C'était Crash Bandicoot"
   },
   {
    "id": "spyro",
@@ -183,7 +195,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Spyro_(character)"
+   "src": "wiki:en:Spyro_(character)",
+   "explain": "C'était Spyro"
   },
   {
    "id": "rayman",
@@ -194,7 +207,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Rayman_(character)"
+   "src": "wiki:en:Rayman_(character)",
+   "explain": "C'était Rayman"
   },
   {
    "id": "street-fighter",
@@ -205,7 +219,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Ryu_(Street_Fighter)"
+   "src": "wiki:en:Ryu_(Street_Fighter)",
+   "explain": "C'était Ryu"
   },
   {
    "id": "mortal-kombat",
@@ -218,7 +233,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Scorpion_(Mortal_Kombat)"
+   "src": "wiki:en:Scorpion_(Mortal_Kombat)",
+   "explain": "C'était Scorpion"
   },
   {
    "id": "final-fantasy-vii",
@@ -232,7 +248,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Cloud_Strife"
+   "src": "wiki:en:Cloud_Strife",
+   "explain": "C'était Cloud Strife"
   },
   {
    "id": "metal-gear-solid",
@@ -246,7 +263,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Solid_Snake"
+   "src": "wiki:en:Solid_Snake",
+   "explain": "C'était Solid Snake"
   },
   {
    "id": "resident-evil",
@@ -257,7 +275,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Leon_S._Kennedy"
+   "src": "wiki:en:Leon_S._Kennedy",
+   "explain": "C'était Leon S. Kennedy"
   },
   {
    "id": "the-last-of-us",
@@ -268,7 +287,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Ellie_(The_Last_of_Us)"
+   "src": "wiki:en:Ellie_(The_Last_of_Us)",
+   "explain": "C'était Ellie"
   },
   {
    "id": "uncharted",
@@ -279,7 +299,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Nathan_Drake"
+   "src": "wiki:en:Nathan_Drake",
+   "explain": "C'était Nathan Drake"
   },
   {
    "id": "portal",
@@ -290,7 +311,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:GLaDOS"
+   "src": "wiki:en:GLaDOS",
+   "explain": "C'était GLaDOS"
   },
   {
    "id": "half-life",
@@ -301,7 +323,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Gordon_Freeman"
+   "src": "wiki:en:Gordon_Freeman",
+   "explain": "C'était Gordon Freeman"
   },
   {
    "id": "doom",
@@ -312,7 +335,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Doomguy"
+   "src": "wiki:en:Doomguy",
+   "explain": "C'était Doomguy"
   },
   {
    "id": "animal-crossing",
@@ -323,7 +347,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Tom_Nook"
+   "src": "wiki:en:Tom_Nook",
+   "explain": "C'était Tom Nook"
   },
   {
    "id": "splatoon",
@@ -334,7 +359,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Inkling"
+   "src": "wiki:en:Inkling",
+   "explain": "C'était Inkling"
   },
   {
    "id": "metroid",
@@ -345,7 +371,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Samus_Aran"
+   "src": "wiki:en:Samus_Aran",
+   "explain": "C'était Samus Aran"
   },
   {
    "id": "mega-man",
@@ -358,7 +385,8 @@
     "jeux vidéo",
     "facile"
    ],
-   "src": "wiki:en:Mega_Man_(character)"
+   "src": "wiki:en:Mega_Man_(character)",
+   "explain": "C'était Mega Man"
   },
   {
    "id": "assassin-s-creed",
@@ -369,7 +397,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Ezio_Auditore_da_Firenze"
+   "src": "wiki:en:Ezio_Auditore_da_Firenze",
+   "explain": "C'était Ezio Auditore da Firenze"
   },
   {
    "id": "red-dead-redemption-2",
@@ -382,7 +411,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Arthur_Morgan_(Red_Dead)"
+   "src": "wiki:en:Arthur_Morgan_(Red_Dead)",
+   "explain": "C'était Arthur Morgan"
   },
   {
    "id": "the-witcher",
@@ -393,7 +423,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Geralt_of_Rivia"
+   "src": "wiki:en:Geralt_of_Rivia",
+   "explain": "C'était Geralt of Rivia"
   },
   {
    "id": "undertale",
@@ -404,31 +435,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Sans_(Undertale)"
-  },
-  {
-   "id": "five-nights-at-freddy-s",
-   "answer": "Five Nights at Freddy's",
-   "exact": [
-    "fnaf"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "jeux vidéo",
-    "facile"
-   ],
-   "src": "wiki:en:Five_Nights_at_Freddy's"
-  },
-  {
-   "id": "cuphead",
-   "answer": "Cuphead",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "jeux vidéo",
-    "facile"
-   ],
-   "src": "wiki:en:Cuphead"
+   "src": "wiki:en:Sans_(Undertale)",
+   "explain": "C'était Sans"
   },
   {
    "id": "bayonetta",
@@ -439,7 +447,8 @@
     "jeux vidéo",
     "difficile"
    ],
-   "src": "wiki:en:Bayonetta_(character)"
+   "src": "wiki:en:Bayonetta_(character)",
+   "explain": "C'était Bayonetta"
   },
   {
    "id": "devil-may-cry",
@@ -450,7 +459,8 @@
     "jeux vidéo",
     "difficile"
    ],
-   "src": "wiki:en:Dante_(Devil_May_Cry)"
+   "src": "wiki:en:Dante_(Devil_May_Cry)",
+   "explain": "C'était Dante"
   },
   {
    "id": "kingdom-hearts",
@@ -461,7 +471,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Sora_(Kingdom_Hearts)"
+   "src": "wiki:en:Sora_(Kingdom_Hearts)",
+   "explain": "C'était Sora"
   },
   {
    "id": "ratchet-clank",
@@ -472,7 +483,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Ratchet_(Ratchet_&_Clank)"
+   "src": "wiki:en:Ratchet_(Ratchet_&_Clank)",
+   "explain": "C'était Ratchet"
   },
   {
    "id": "sly-cooper",
@@ -483,7 +495,8 @@
     "jeux vidéo",
     "difficile"
    ],
-   "src": "wiki:en:Sly_Cooper_(character)"
+   "src": "wiki:en:Sly_Cooper_(character)",
+   "explain": "C'était Sly Cooper"
   },
   {
    "id": "professeur-layton",
@@ -496,7 +509,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Professor_Layton_(character)"
+   "src": "wiki:en:Professor_Layton_(character)",
+   "explain": "C'était Professor Layton"
   },
   {
    "id": "ace-attorney",
@@ -509,7 +523,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Phoenix_Wright"
+   "src": "wiki:en:Phoenix_Wright",
+   "explain": "C'était Phoenix Wright"
   },
   {
    "id": "hitman",
@@ -520,7 +535,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Agent_47"
+   "src": "wiki:en:Agent_47",
+   "explain": "C'était Agent 47"
   },
   {
    "id": "league-of-legends",
@@ -533,7 +549,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Jinx_(League_of_Legends)"
+   "src": "wiki:en:Jinx_(League_of_Legends)",
+   "explain": "C'était Jinx"
   },
   {
    "id": "silent-hill",
@@ -544,7 +561,8 @@
     "jeux vidéo",
     "difficile"
    ],
-   "src": "wiki:en:Pyramid_Head"
+   "src": "wiki:en:Pyramid_Head",
+   "explain": "C'était Pyramid Head"
   },
   {
    "id": "super-mario-bowser",
@@ -668,7 +686,8 @@
     "jeux vidéo",
     "difficile"
    ],
-   "src": "wiki:en:Heihachi_Mishima"
+   "src": "wiki:en:Heihachi_Mishima",
+   "explain": "C'était Heihachi Mishima"
   },
   {
    "id": "star-fox",
@@ -679,7 +698,8 @@
     "jeux vidéo",
     "moyen"
    ],
-   "src": "wiki:en:Fox_McCloud"
+   "src": "wiki:en:Fox_McCloud",
+   "explain": "C'était Fox McCloud"
   },
   {
    "id": "f-zero",
@@ -690,7 +710,8 @@
     "jeux vidéo",
     "difficile"
    ],
-   "src": "wiki:en:Captain_Falcon"
+   "src": "wiki:en:Captain_Falcon",
+   "explain": "C'était Captain Falcon"
   },
   {
    "id": "earthbound",
@@ -701,7 +722,2011 @@
     "jeux vidéo",
     "difficile"
    ],
-   "src": "wiki:en:Ness_(EarthBound)"
+   "src": "wiki:en:Ness_(EarthBound)",
+   "explain": "C'était Ness"
+  },
+  {
+   "id": "super-mario-2",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Princess_Peach",
+   "explain": "C'était Princess Peach"
+  },
+  {
+   "id": "super-mario-2-2",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Toad_(Nintendo)",
+   "explain": "C'était Toad"
+  },
+  {
+   "id": "super-mario-3",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Princess_Daisy",
+   "explain": "C'était Princess Daisy"
+  },
+  {
+   "id": "super-mario-4",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Waluigi",
+   "explain": "C'était Waluigi"
+  },
+  {
+   "id": "super-mario-5",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Boo_(character)",
+   "explain": "C'était Boo"
+  },
+  {
+   "id": "super-mario-6",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Goomba",
+   "explain": "C'était Goomba"
+  },
+  {
+   "id": "super-mario-7",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Koopa_Troopa",
+   "explain": "C'était Koopa Troopa"
+  },
+  {
+   "id": "super-mario-8",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Bowser_Jr.",
+   "explain": "C'était Bowser Jr."
+  },
+  {
+   "id": "super-mario-9",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Rosalina",
+   "explain": "C'était Rosalina"
+  },
+  {
+   "id": "super-mario-10",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Shy_Guy",
+   "explain": "C'était Shy Guy"
+  },
+  {
+   "id": "super-mario-11",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Lakitu",
+   "explain": "C'était Lakitu"
+  },
+  {
+   "id": "super-mario-12",
+   "answer": "Super Mario",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Chain_Chomp",
+   "explain": "C'était Chain Chomp"
+  },
+  {
+   "id": "the-legend-of-zelda-2",
+   "answer": "The Legend of Zelda",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Princess_Zelda",
+   "explain": "C'était Princess Zelda"
+  },
+  {
+   "id": "the-legend-of-zelda-2-2",
+   "answer": "The Legend of Zelda",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Ganon",
+   "explain": "C'était Ganon"
+  },
+  {
+   "id": "the-legend-of-zelda-3",
+   "answer": "The Legend of Zelda",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Navi_(The_Legend_of_Zelda)",
+   "explain": "C'était Navi"
+  },
+  {
+   "id": "the-legend-of-zelda-4",
+   "answer": "The Legend of Zelda",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Midna",
+   "explain": "C'était Midna"
+  },
+  {
+   "id": "pokemon-2",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Jigglypuff",
+   "explain": "C'était Jigglypuff"
+  },
+  {
+   "id": "pokemon-2-2",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Snorlax",
+   "explain": "C'était Snorlax"
+  },
+  {
+   "id": "pokemon-3",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Eevee",
+   "explain": "C'était Eevee"
+  },
+  {
+   "id": "pokemon-4",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Lucario",
+   "explain": "C'était Lucario"
+  },
+  {
+   "id": "pokemon-5",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Bulbasaur",
+   "explain": "C'était Bulbasaur"
+  },
+  {
+   "id": "pokemon-6",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Squirtle",
+   "explain": "C'était Squirtle"
+  },
+  {
+   "id": "pokemon-7",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Charmander",
+   "explain": "C'était Charmander"
+  },
+  {
+   "id": "pokemon-8",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Gengar",
+   "explain": "C'était Gengar"
+  },
+  {
+   "id": "pokemon-9",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Psyduck",
+   "explain": "C'était Psyduck"
+  },
+  {
+   "id": "pokemon-10",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Meowth",
+   "explain": "C'était Meowth"
+  },
+  {
+   "id": "pokemon-11",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Magikarp",
+   "explain": "C'était Magikarp"
+  },
+  {
+   "id": "pokemon-12",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Mew_(Pokémon)",
+   "explain": "C'était Mew"
+  },
+  {
+   "id": "pokemon-13",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Lugia",
+   "explain": "C'était Lugia"
+  },
+  {
+   "id": "pokemon-14",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Rayquaza",
+   "explain": "C'était Rayquaza"
+  },
+  {
+   "id": "pokemon-15",
+   "answer": "Pokémon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Greninja",
+   "explain": "C'était Greninja"
+  },
+  {
+   "id": "sonic-2",
+   "answer": "Sonic",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Knuckles_the_Echidna",
+   "explain": "C'était Knuckles the Echidna"
+  },
+  {
+   "id": "sonic-2-2",
+   "answer": "Sonic",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Shadow_the_Hedgehog",
+   "explain": "C'était Shadow the Hedgehog"
+  },
+  {
+   "id": "sonic-3",
+   "answer": "Sonic",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Amy_Rose",
+   "explain": "C'était Amy Rose"
+  },
+  {
+   "id": "sonic-4",
+   "answer": "Sonic",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Metal_Sonic",
+   "explain": "C'était Metal Sonic"
+  },
+  {
+   "id": "kirby-2",
+   "answer": "Kirby",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:King_Dedede",
+   "explain": "C'était King Dedede"
+  },
+  {
+   "id": "kirby-2-2",
+   "answer": "Kirby",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Meta_Knight",
+   "explain": "C'était Meta Knight"
+  },
+  {
+   "id": "donkey-kong-2",
+   "answer": "Donkey Kong",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Diddy_Kong",
+   "explain": "C'était Diddy Kong"
+  },
+  {
+   "id": "minecraft-2",
+   "answer": "Minecraft",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Steve_(Minecraft)",
+   "explain": "C'était Steve"
+  },
+  {
+   "id": "minecraft-2-2",
+   "answer": "Minecraft",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Enderman",
+   "explain": "C'était Enderman"
+  },
+  {
+   "id": "minecraft-3",
+   "answer": "Minecraft",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Herobrine",
+   "explain": "C'était Herobrine"
+  },
+  {
+   "id": "halo-2",
+   "answer": "Halo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Cortana_(Halo)",
+   "explain": "C'était Cortana"
+  },
+  {
+   "id": "crash-bandicoot-2",
+   "answer": "Crash Bandicoot",
+   "exact": [
+    "cortex"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Doctor_Neo_Cortex",
+   "explain": "C'était Doctor Neo Cortex"
+  },
+  {
+   "id": "street-fighter-2",
+   "answer": "Street Fighter",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Chun-Li",
+   "explain": "C'était Chun-Li"
+  },
+  {
+   "id": "street-fighter-2-2",
+   "answer": "Street Fighter",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Ken_Masters",
+   "explain": "C'était Ken Masters"
+  },
+  {
+   "id": "street-fighter-3",
+   "answer": "Street Fighter",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Guile_(Street_Fighter)",
+   "explain": "C'était Guile"
+  },
+  {
+   "id": "street-fighter-4",
+   "answer": "Street Fighter",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:M._Bison",
+   "explain": "C'était M. Bison"
+  },
+  {
+   "id": "street-fighter-5",
+   "answer": "Street Fighter",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Blanka",
+   "explain": "C'était Blanka"
+  },
+  {
+   "id": "street-fighter-6",
+   "answer": "Street Fighter",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Dhalsim",
+   "explain": "C'était Dhalsim"
+  },
+  {
+   "id": "mortal-kombat-2",
+   "answer": "Mortal Kombat",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Sub-Zero_(Mortal_Kombat)",
+   "explain": "C'était Sub-Zero"
+  },
+  {
+   "id": "mortal-kombat-2-2",
+   "answer": "Mortal Kombat",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Raiden_(Mortal_Kombat)",
+   "explain": "C'était Raiden"
+  },
+  {
+   "id": "mortal-kombat-3",
+   "answer": "Mortal Kombat",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Liu_Kang",
+   "explain": "C'était Liu Kang"
+  },
+  {
+   "id": "tekken-2",
+   "answer": "Tekken",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Jin_Kazama",
+   "explain": "C'était Jin Kazama"
+  },
+  {
+   "id": "tekken-2-2",
+   "answer": "Tekken",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Kazuya_Mishima",
+   "explain": "C'était Kazuya Mishima"
+  },
+  {
+   "id": "tekken-3",
+   "answer": "Tekken",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Paul_Phoenix",
+   "explain": "C'était Paul Phoenix"
+  },
+  {
+   "id": "final-fantasy-vii-2",
+   "answer": "Final Fantasy VII",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Tifa_Lockhart",
+   "explain": "C'était Tifa Lockhart"
+  },
+  {
+   "id": "final-fantasy-vii-2-2",
+   "answer": "Final Fantasy VII",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Aerith_Gainsborough",
+   "explain": "C'était Aerith Gainsborough"
+  },
+  {
+   "id": "final-fantasy",
+   "answer": "Final Fantasy",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Chocobo",
+   "explain": "C'était Chocobo"
+  },
+  {
+   "id": "final-fantasy-2",
+   "answer": "Final Fantasy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Moogle",
+   "explain": "C'était Moogle"
+  },
+  {
+   "id": "final-fantasy-x",
+   "answer": "Final Fantasy X",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Tidus",
+   "explain": "C'était Tidus"
+  },
+  {
+   "id": "metal-gear-solid-2",
+   "answer": "Metal Gear Solid",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Big_Boss_(Metal_Gear)",
+   "explain": "C'était Big Boss"
+  },
+  {
+   "id": "metal-gear-solid-2-2",
+   "answer": "Metal Gear Solid",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Raiden_(Metal_Gear)",
+   "explain": "C'était Raiden"
+  },
+  {
+   "id": "resident-evil-2",
+   "answer": "Resident Evil",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Jill_Valentine",
+   "explain": "C'était Jill Valentine"
+  },
+  {
+   "id": "resident-evil-2-2",
+   "answer": "Resident Evil",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Chris_Redfield",
+   "explain": "C'était Chris Redfield"
+  },
+  {
+   "id": "resident-evil-3",
+   "answer": "Resident Evil",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Albert_Wesker",
+   "explain": "C'était Albert Wesker"
+  },
+  {
+   "id": "resident-evil-4",
+   "answer": "Resident Evil",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Nemesis_(Resident_Evil)",
+   "explain": "C'était Nemesis"
+  },
+  {
+   "id": "resident-evil-5",
+   "answer": "Resident Evil",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Lady_Dimitrescu",
+   "explain": "C'était Lady Dimitrescu"
+  },
+  {
+   "id": "the-last-of-us-2",
+   "answer": "The Last of Us",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Joel_Miller_(The_Last_of_Us)",
+   "explain": "C'était Joel Miller"
+  },
+  {
+   "id": "portal-2",
+   "answer": "Portal",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Chell_(Portal)",
+   "explain": "C'était Chell"
+  },
+  {
+   "id": "portal-2-2",
+   "answer": "Portal",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Wheatley_(Portal)",
+   "explain": "C'était Wheatley"
+  },
+  {
+   "id": "half-life-2",
+   "answer": "Half-Life",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Alyx_Vance",
+   "explain": "C'était Alyx Vance"
+  },
+  {
+   "id": "half-life-2-2",
+   "answer": "Half-Life",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:G-Man_(Half-Life)",
+   "explain": "C'était G-Man"
+  },
+  {
+   "id": "animal-crossing-2",
+   "answer": "Animal Crossing",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Isabelle_(Animal_Crossing)",
+   "explain": "C'était Isabelle"
+  },
+  {
+   "id": "metroid-2",
+   "answer": "Metroid",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Ridley_(Metroid)",
+   "explain": "C'était Ridley"
+  },
+  {
+   "id": "assassin-s-creed-2",
+   "answer": "Assassin's Creed",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Altaïr_Ibn-La'Ahad",
+   "explain": "C'était Altaïr Ibn-La'Ahad"
+  },
+  {
+   "id": "assassin-s-creed-2-2",
+   "answer": "Assassin's Creed",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Edward_Kenway",
+   "explain": "C'était Edward Kenway"
+  },
+  {
+   "id": "assassin-s-creed-3",
+   "answer": "Assassin's Creed",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Bayek",
+   "explain": "C'était Bayek"
+  },
+  {
+   "id": "grand-theft-auto",
+   "answer": "Grand Theft Auto",
+   "exact": [
+    "gta"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Carl_Johnson_(Grand_Theft_Auto)",
+   "explain": "C'était Carl Johnson"
+  },
+  {
+   "id": "grand-theft-auto-2",
+   "answer": "Grand Theft Auto",
+   "exact": [
+    "gta"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Niko_Bellic",
+   "explain": "C'était Niko Bellic"
+  },
+  {
+   "id": "grand-theft-auto-3",
+   "answer": "Grand Theft Auto",
+   "exact": [
+    "gta"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Trevor_Philips",
+   "explain": "C'était Trevor Philips"
+  },
+  {
+   "id": "grand-theft-auto-4",
+   "answer": "Grand Theft Auto",
+   "exact": [
+    "gta"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Tommy_Vercetti",
+   "explain": "C'était Tommy Vercetti"
+  },
+  {
+   "id": "red-dead-redemption",
+   "answer": "Red Dead Redemption",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:John_Marston",
+   "explain": "C'était John Marston"
+  },
+  {
+   "id": "the-witcher-2",
+   "answer": "The Witcher",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Ciri_(The_Witcher)",
+   "explain": "C'était Ciri"
+  },
+  {
+   "id": "the-witcher-2-2",
+   "answer": "The Witcher",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Yennefer_of_Vengerberg",
+   "explain": "C'était Yennefer of Vengerberg"
+  },
+  {
+   "id": "undertale-2",
+   "answer": "Undertale",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Papyrus_(Undertale)",
+   "explain": "C'était Papyrus"
+  },
+  {
+   "id": "undertale-2-2",
+   "answer": "Undertale",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Toriel",
+   "explain": "C'était Toriel"
+  },
+  {
+   "id": "five-nights-at-freddy-s-2",
+   "answer": "Five Nights at Freddy's",
+   "exact": [
+    "fnaf"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Freddy_Fazbear",
+   "explain": "C'était Freddy Fazbear"
+  },
+  {
+   "id": "kingdom-hearts-2",
+   "answer": "Kingdom Hearts",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Riku_(Kingdom_Hearts)",
+   "explain": "C'était Riku"
+  },
+  {
+   "id": "overwatch",
+   "answer": "Overwatch",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Tracer_(Overwatch)",
+   "explain": "C'était Tracer"
+  },
+  {
+   "id": "overwatch-2",
+   "answer": "Overwatch",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:D.Va",
+   "explain": "C'était D.Va"
+  },
+  {
+   "id": "overwatch-3",
+   "answer": "Overwatch",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Mercy_(Overwatch)",
+   "explain": "C'était Mercy"
+  },
+  {
+   "id": "overwatch-4",
+   "answer": "Overwatch",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Reaper_(Overwatch)",
+   "explain": "C'était Reaper"
+  },
+  {
+   "id": "overwatch-5",
+   "answer": "Overwatch",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Widowmaker_(Overwatch)",
+   "explain": "C'était Widowmaker"
+  },
+  {
+   "id": "league-of-legends-2",
+   "answer": "League of Legends",
+   "exact": [
+    "lol"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Ahri_(League_of_Legends)",
+   "explain": "C'était Ahri"
+  },
+  {
+   "id": "league-of-legends-2-2",
+   "answer": "League of Legends",
+   "exact": [
+    "lol"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Teemo",
+   "explain": "C'était Teemo"
+  },
+  {
+   "id": "league-of-legends-3",
+   "answer": "League of Legends",
+   "exact": [
+    "lol"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Yasuo",
+   "explain": "C'était Yasuo"
+  },
+  {
+   "id": "fortnite",
+   "answer": "Fortnite",
+   "exact": [
+    "fortnite"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Jonesy",
+   "explain": "C'était Jonesy"
+  },
+  {
+   "id": "fortnite-2",
+   "answer": "Fortnite",
+   "exact": [
+    "fortnite"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Peely",
+   "explain": "C'était Peely"
+  },
+  {
+   "id": "among-us",
+   "answer": "Among Us",
+   "exact": [
+    "among us"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Crewmate_(Among_Us)",
+   "explain": "C'était Crewmate"
+  },
+  {
+   "id": "apex-legends",
+   "answer": "Apex Legends",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Wraith_(Apex_Legends)",
+   "explain": "C'était Wraith"
+  },
+  {
+   "id": "valorant",
+   "answer": "Valorant",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Jett_(Valorant)",
+   "explain": "C'était Jett"
+  },
+  {
+   "id": "genshin-impact",
+   "answer": "Genshin Impact",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Paimon_(Genshin_Impact)",
+   "explain": "C'était Paimon"
+  },
+  {
+   "id": "genshin-impact-2",
+   "answer": "Genshin Impact",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Hu_Tao",
+   "explain": "C'était Hu Tao"
+  },
+  {
+   "id": "hollow-knight",
+   "answer": "Hollow Knight",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:The_Knight_(Hollow_Knight)",
+   "explain": "C'était The Knight"
+  },
+  {
+   "id": "celeste",
+   "answer": "Celeste",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Madeline_(Celeste)",
+   "explain": "C'était Madeline"
+  },
+  {
+   "id": "shovel-knight",
+   "answer": "Shovel Knight",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Shovel_Knight_(character)",
+   "explain": "C'était Shovel Knight"
+  },
+  {
+   "id": "banjo-kazooie",
+   "answer": "Banjo-Kazooie",
+   "exact": [
+    "banjo kazooie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Banjo_and_Kazooie",
+   "explain": "C'était Banjo and Kazooie"
+  },
+  {
+   "id": "conker",
+   "answer": "Conker",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Conker_the_Squirrel",
+   "explain": "C'était Conker the Squirrel"
+  },
+  {
+   "id": "earthworm-jim",
+   "answer": "Earthworm Jim",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Earthworm_Jim_(character)",
+   "explain": "C'était Earthworm Jim"
+  },
+  {
+   "id": "sonic-5",
+   "answer": "Sonic",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Cream_the_Rabbit",
+   "explain": "C'était Cream the Rabbit"
+  },
+  {
+   "id": "bomberman",
+   "answer": "Bomberman",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Bomberman_(character)",
+   "explain": "C'était Bomberman"
+  },
+  {
+   "id": "q-bert",
+   "answer": "Q*bert",
+   "exact": [
+    "qbert"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Q*bert_(character)",
+   "explain": "C'était Q*bert"
+  },
+  {
+   "id": "space-invaders",
+   "answer": "Space Invaders",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Space_Invaders_(character)",
+   "explain": "C'était Space Invaders"
+  },
+  {
+   "id": "frogger",
+   "answer": "Frogger",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Frogger_(character)",
+   "explain": "C'était Frogger"
+  },
+  {
+   "id": "pac-man-2",
+   "answer": "Pac-Man",
+   "exact": [
+    "pac man"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Ghosts_(Pac-Man)",
+   "explain": "C'était Ghosts"
+  },
+  {
+   "id": "donkey-kong-2-2",
+   "answer": "Donkey Kong",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Pauline_(Nintendo)",
+   "explain": "C'était Pauline"
+  },
+  {
+   "id": "super-smash-bros",
+   "answer": "Super Smash Bros.",
+   "exact": [
+    "smash bros"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Master_Hand",
+   "explain": "C'était Master Hand"
+  },
+  {
+   "id": "fire-emblem",
+   "answer": "Fire Emblem",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Marth",
+   "explain": "C'était Marth"
+  },
+  {
+   "id": "fire-emblem-2",
+   "answer": "Fire Emblem",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Ike_(Fire_Emblem)",
+   "explain": "C'était Ike"
+  },
+  {
+   "id": "xenoblade-chronicles",
+   "answer": "Xenoblade Chronicles",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Shulk",
+   "explain": "C'était Shulk"
+  },
+  {
+   "id": "pikmin",
+   "answer": "Pikmin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Captain_Olimar",
+   "explain": "C'était Captain Olimar"
+  },
+  {
+   "id": "pikmin-2",
+   "answer": "Pikmin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Pikmin_(creature)",
+   "explain": "C'était Pikmin"
+  },
+  {
+   "id": "star-fox-2",
+   "answer": "Star Fox",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Falco_Lombardi",
+   "explain": "C'était Falco Lombardi"
+  },
+  {
+   "id": "ice-climber",
+   "answer": "Ice Climber",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Popo_and_Nana",
+   "explain": "C'était Popo and Nana"
+  },
+  {
+   "id": "wii-fit",
+   "answer": "Wii Fit",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Wii_Fit_Trainer",
+   "explain": "C'était Wii Fit Trainer"
+  },
+  {
+   "id": "wii-sports",
+   "answer": "Wii Sports",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Mii",
+   "explain": "C'était Mii"
+  },
+  {
+   "id": "duck-hunt",
+   "answer": "Duck Hunt",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Duck_Hunt_Duo",
+   "explain": "C'était Duck Hunt Duo"
+  },
+  {
+   "id": "punch-out",
+   "answer": "Punch-Out!!",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Little_Mac",
+   "explain": "C'était Little Mac"
+  },
+  {
+   "id": "splatoon-2",
+   "answer": "Splatoon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Octoling",
+   "explain": "C'était Octoling"
+  },
+  {
+   "id": "professeur-layton-2",
+   "answer": "Professeur Layton",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Luke_Triton",
+   "explain": "C'était Luke Triton"
+  },
+  {
+   "id": "ace-attorney-2",
+   "answer": "Ace Attorney",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Miles_Edgeworth",
+   "explain": "C'était Miles Edgeworth"
+  },
+  {
+   "id": "persona-5",
+   "answer": "Persona 5",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Joker_(Persona)",
+   "explain": "C'était Joker"
+  },
+  {
+   "id": "persona-5-2",
+   "answer": "Persona 5",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Morgana_(Persona)",
+   "explain": "C'était Morgana"
+  },
+  {
+   "id": "dark-souls",
+   "answer": "Dark Souls",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Solaire_of_Astora",
+   "explain": "C'était Solaire of Astora"
+  },
+  {
+   "id": "elden-ring",
+   "answer": "Elden Ring",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Malenia",
+   "explain": "C'était Malenia"
+  },
+  {
+   "id": "bloodborne",
+   "answer": "Bloodborne",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Lady_Maria",
+   "explain": "C'était Lady Maria"
+  },
+  {
+   "id": "sekiro",
+   "answer": "Sekiro",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Sekiro_(character)",
+   "explain": "C'était Sekiro"
+  },
+  {
+   "id": "mass-effect",
+   "answer": "Mass Effect",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Commander_Shepard",
+   "explain": "C'était Commander Shepard"
+  },
+  {
+   "id": "gears-of-war",
+   "answer": "Gears of War",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Marcus_Fenix",
+   "explain": "C'était Marcus Fenix"
+  },
+  {
+   "id": "uncharted-2",
+   "answer": "Uncharted",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Victor_Sullivan",
+   "explain": "C'était Victor Sullivan"
+  },
+  {
+   "id": "jak-and-daxter",
+   "answer": "Jak and Daxter",
+   "exact": [
+    "jak and daxter"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Jak_(Jak_and_Daxter)",
+   "explain": "C'était Jak"
+  },
+  {
+   "id": "bioshock",
+   "answer": "BioShock",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Big_Daddy_(BioShock)",
+   "explain": "C'était Big Daddy"
+  },
+  {
+   "id": "fallout",
+   "answer": "Fallout",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Vault_Boy",
+   "explain": "C'était Vault Boy"
+  },
+  {
+   "id": "team-fortress-2",
+   "answer": "Team Fortress 2",
+   "exact": [
+    "tf2"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Heavy_(Team_Fortress_2)",
+   "explain": "C'était Heavy"
+  },
+  {
+   "id": "left-4-dead",
+   "answer": "Left 4 Dead",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Tank_(Left_4_Dead)",
+   "explain": "C'était Tank"
+  },
+  {
+   "id": "dead-by-daylight",
+   "answer": "Dead by Daylight",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:The_Trapper",
+   "explain": "C'était The Trapper"
+  },
+  {
+   "id": "plants-vs-zombies",
+   "answer": "Plants vs. Zombies",
+   "exact": [
+    "pvz"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Crazy_Dave",
+   "explain": "C'était Crazy Dave"
+  },
+  {
+   "id": "angry-birds",
+   "answer": "Angry Birds",
+   "exact": [
+    "angry birds"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Red_(Angry_Birds)",
+   "explain": "C'était Red"
+  },
+  {
+   "id": "cut-the-rope",
+   "answer": "Cut the Rope",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Om_Nom",
+   "explain": "C'était Om Nom"
+  },
+  {
+   "id": "terraria",
+   "answer": "Terraria",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Guide_(Terraria)",
+   "explain": "C'était Guide"
+  },
+  {
+   "id": "stardew-valley",
+   "answer": "Stardew Valley",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Junimo",
+   "explain": "C'était Junimo"
+  },
+  {
+   "id": "sackboy",
+   "answer": "Sackboy",
+   "exact": [
+    "littlebigplanet"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Sackboy",
+   "explain": "C'était Sackboy"
+  },
+  {
+   "id": "ratchet-clank-2",
+   "answer": "Ratchet & Clank",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Clank_(Ratchet_&_Clank)",
+   "explain": "C'était Clank"
+  },
+  {
+   "id": "spyro-2",
+   "answer": "Spyro",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Sparx_the_Dragonfly",
+   "explain": "C'était Sparx the Dragonfly"
+  },
+  {
+   "id": "rayman-2",
+   "answer": "Rayman",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Globox",
+   "explain": "C'était Globox"
+  },
+  {
+   "id": "lapins-cretins",
+   "answer": "Lapins Crétins",
+   "exact": [
+    "raving rabbids",
+    "lapins cretins"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Rabbids",
+   "explain": "C'était Rabbids"
+  },
+  {
+   "id": "prince-of-persia",
+   "answer": "Prince of Persia",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Prince_(Prince_of_Persia)",
+   "explain": "C'était Prince"
+  },
+  {
+   "id": "splinter-cell",
+   "answer": "Splinter Cell",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Sam_Fisher",
+   "explain": "C'était Sam Fisher"
+  },
+  {
+   "id": "far-cry-3",
+   "answer": "Far Cry 3",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Vaas_Montenegro",
+   "explain": "C'était Vaas Montenegro"
+  },
+  {
+   "id": "silent-hill-2",
+   "answer": "Silent Hill",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:James_Sunderland",
+   "explain": "C'était James Sunderland"
+  },
+  {
+   "id": "detroit-become-human",
+   "answer": "Detroit: Become Human",
+   "exact": [
+    "detroit"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Connor_(Detroit:_Become_Human)",
+   "explain": "C'était Connor"
+  },
+  {
+   "id": "death-stranding",
+   "answer": "Death Stranding",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Sam_Porter_Bridges",
+   "explain": "C'était Sam Porter Bridges"
+  },
+  {
+   "id": "cyberpunk-2077",
+   "answer": "Cyberpunk 2077",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Johnny_Silverhand",
+   "explain": "C'était Johnny Silverhand"
   }
  ]
 }

@@ -1237,6 +1237,1318 @@
     "difficile"
    ],
    "src": "wiki:en:Great_Blue_Hole"
+  },
+  {
+   "id": "lac-moraine",
+   "answer": "Lac Moraine",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:lac moraine"
+  },
+  {
+   "id": "lac-louise",
+   "answer": "Lac Louise",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Lac Louise"
+  },
+  {
+   "id": "parc-national-de-banff",
+   "answer": "Parc national de Banff",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:banff"
+  },
+  {
+   "id": "montagnes-rocheuses",
+   "answer": "Montagnes Rocheuses",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:rocheuses"
+  },
+  {
+   "id": "grand-prismatic-spring",
+   "answer": "Grand Prismatic Spring",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Grand Prismatic Spring"
+  },
+  {
+   "id": "old-faithful",
+   "answer": "Old Faithful",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Old Faithful"
+  },
+  {
+   "id": "horseshoe-bend",
+   "answer": "Horseshoe Bend",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Horseshoe Bend"
+  },
+  {
+   "id": "bryce-canyon",
+   "answer": "Bryce Canyon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Bryce Canyon"
+  },
+  {
+   "id": "arches-national-park",
+   "answer": "Arches National Park",
+   "exact": [
+    "arches"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Parc national des Arches"
+  },
+  {
+   "id": "everglades",
+   "answer": "Everglades",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Everglades"
+  },
+  {
+   "id": "mammoth-cave",
+   "answer": "Mammoth Cave",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Mammoth Cave"
+  },
+  {
+   "id": "chutes-de-gullfoss",
+   "answer": "Chutes de Gullfoss",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:gullfoss"
+  },
+  {
+   "id": "jokulsarlon",
+   "answer": "Jökulsárlón",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:jokulsarlon"
+  },
+  {
+   "id": "skogafoss",
+   "answer": "Skógafoss",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:skogafoss"
+  },
+  {
+   "id": "plage-de-reynisfjara",
+   "answer": "Plage de Reynisfjara",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:sable noir"
+  },
+  {
+   "id": "geirangerfjord",
+   "answer": "Geirangerfjord",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Geirangerfjord"
+  },
+  {
+   "id": "preikestolen",
+   "answer": "Preikestolen",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Preikestolen"
+  },
+  {
+   "id": "lofoten",
+   "answer": "Lofoten",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Îles Lofoten"
+  },
+  {
+   "id": "cervin",
+   "answer": "Cervin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Cervin"
+  },
+  {
+   "id": "lac-de-come",
+   "answer": "Lac de Côme",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Lac de Côme"
+  },
+  {
+   "id": "lac-de-bled",
+   "answer": "Lac de Bled",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Lac de Bled"
+  },
+  {
+   "id": "lacs-de-plitvice",
+   "answer": "Lacs de Plitvice",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:plitvice"
+  },
+  {
+   "id": "falaises-de-moher",
+   "answer": "Falaises de Moher",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:moher"
+  },
+  {
+   "id": "cirque-de-gavarnie",
+   "answer": "Cirque de Gavarnie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:gavarnie"
+  },
+  {
+   "id": "puy-de-dome",
+   "answer": "Puy de Dôme",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Puy de Dôme"
+  },
+  {
+   "id": "chaine-des-puys",
+   "answer": "Chaîne des Puys",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:volcans d'auvergne"
+  },
+  {
+   "id": "calanques-de-marseille",
+   "answer": "Calanques de Marseille",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:calanques"
+  },
+  {
+   "id": "iles-lavezzi",
+   "answer": "Îles Lavezzi",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Îles Lavezzi"
+  },
+  {
+   "id": "aiguille-du-midi",
+   "answer": "Aiguille du Midi",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Aiguille du Midi"
+  },
+  {
+   "id": "mer-de-glace",
+   "answer": "Mer de Glace",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Mer de Glace"
+  },
+  {
+   "id": "lac-d-annecy",
+   "answer": "Lac d'Annecy",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Lac d'Annecy"
+  },
+  {
+   "id": "gouffre-de-padirac",
+   "answer": "Gouffre de Padirac",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:padirac"
+  },
+  {
+   "id": "grotte-chauvet",
+   "answer": "Grotte Chauvet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Grotte Chauvet"
+  },
+  {
+   "id": "rocher-de-gibraltar",
+   "answer": "Rocher de Gibraltar",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:gibraltar"
+  },
+  {
+   "id": "teide",
+   "answer": "Teide",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Teide"
+  },
+  {
+   "id": "santorin-caldeira",
+   "answer": "Santorin caldeira",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Santorin caldeira"
+  },
+  {
+   "id": "vallee-de-la-lune",
+   "answer": "Vallée de la Lune",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Vallée de la Lune"
+  },
+  {
+   "id": "torres-del-paine",
+   "answer": "Torres del Paine",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Torres del Paine"
+  },
+  {
+   "id": "perito-moreno",
+   "answer": "Perito Moreno",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Perito Moreno"
+  },
+  {
+   "id": "fitz-roy",
+   "answer": "Fitz Roy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Mont Fitz Roy"
+  },
+  {
+   "id": "montagne-de-la-table",
+   "answer": "Montagne de la Table",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:table mountain"
+  },
+  {
+   "id": "delta-de-l-okavango",
+   "answer": "Delta de l'Okavango",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:okavango"
+  },
+  {
+   "id": "desert-du-namib",
+   "answer": "Désert du Namib",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:namib"
+  },
+  {
+   "id": "sossusvlei",
+   "answer": "Sossusvlei",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Sossusvlei"
+  },
+  {
+   "id": "lac-natron",
+   "answer": "Lac Natron",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Lac Natron"
+  },
+  {
+   "id": "cratere-du-ngorongoro",
+   "answer": "Cratère du Ngorongoro",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:ngorongoro"
+  },
+  {
+   "id": "serengeti",
+   "answer": "Serengeti",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Serengeti"
+  },
+  {
+   "id": "masai-mara",
+   "answer": "Masai Mara",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Masai Mara"
+  },
+  {
+   "id": "tsingy-de-bemaraha",
+   "answer": "Tsingy de Bemaraha",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:tsingy"
+  },
+  {
+   "id": "allee-des-baobabs",
+   "answer": "Allée des baobabs",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Allée des baobabs"
+  },
+  {
+   "id": "wadi-rum",
+   "answer": "Wadi Rum",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Wadi Rum"
+  },
+  {
+   "id": "socotra",
+   "answer": "Socotra",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Socotra"
+  },
+  {
+   "id": "mont-sinai",
+   "answer": "Mont Sinaï",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Mont Sinaï"
+  },
+  {
+   "id": "rub-al-khali",
+   "answer": "Rub al-Khali",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Rub al-Khali"
+  },
+  {
+   "id": "sundarbans",
+   "answer": "Sundarbans",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Sundarbans"
+  },
+  {
+   "id": "mont-kailash",
+   "answer": "Mont Kailash",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Mont Kailash"
+  },
+  {
+   "id": "lac-pangong",
+   "answer": "Lac Pangong",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Lac Pangong"
+  },
+  {
+   "id": "rizieres-en-terrasses",
+   "answer": "Rizières en terrasses",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Rizières en terrasses"
+  },
+  {
+   "id": "mont-bromo",
+   "answer": "Mont Bromo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Mont Bromo"
+  },
+  {
+   "id": "krakatoa",
+   "answer": "Krakatoa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Krakatoa"
+  },
+  {
+   "id": "komodo",
+   "answer": "Komodo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Parc national de Komodo"
+  },
+  {
+   "id": "riviere-souterraine-de-puerto-princesa",
+   "answer": "Rivière souterraine de Puerto Princesa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Rivière souterraine de Puerto Princesa"
+  },
+  {
+   "id": "chocolate-hills",
+   "answer": "Chocolate Hills",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Chocolate Hills"
+  },
+  {
+   "id": "jiuzhaigou",
+   "answer": "Jiuzhaigou",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Jiuzhaigou"
+  },
+  {
+   "id": "guilin",
+   "answer": "Guilin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Guilin"
+  },
+  {
+   "id": "huangshan",
+   "answer": "Huangshan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Mont Huang"
+  },
+  {
+   "id": "vallee-de-hunza",
+   "answer": "Vallée de Hunza",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Vallée de Hunza"
+  },
+  {
+   "id": "mont-cook",
+   "answer": "Mont Cook",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Aoraki / Mont Cook"
+  },
+  {
+   "id": "milford-sound",
+   "answer": "Milford Sound",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Milford Sound"
+  },
+  {
+   "id": "twelve-apostles",
+   "answer": "Twelve Apostles",
+   "exact": [
+    "douze apotres"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Douze Apôtres"
+  },
+  {
+   "id": "bungle-bungle",
+   "answer": "Bungle Bungle",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Bungle Bungle"
+  },
+  {
+   "id": "whitehaven-beach",
+   "answer": "Whitehaven Beach",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Whitehaven Beach"
+  },
+  {
+   "id": "kilauea",
+   "answer": "Kilauea",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Kilauea"
+  },
+  {
+   "id": "mauna-kea",
+   "answer": "Mauna Kea",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Mauna Kea"
+  },
+  {
+   "id": "grotte-de-son-doong",
+   "answer": "Grotte de Son Doong",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:son doong"
+  },
+  {
+   "id": "grotte-des-mille-bouddhas",
+   "answer": "Grotte des Mille Bouddhas",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Grotte des Mille Bouddhas"
+  },
+  {
+   "id": "cenote",
+   "answer": "Cénote",
+   "exact": [
+    "cenote"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Cénote"
+  },
+  {
+   "id": "trou-bleu",
+   "answer": "Trou bleu",
+   "exact": [
+    "blue hole"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Trou bleu"
+  },
+  {
+   "id": "grand-trou-bleu",
+   "answer": "Grand Trou Bleu",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:great blue hole"
+  },
+  {
+   "id": "grotte-de-cristal-de-naica",
+   "answer": "Grotte de cristal de Naica",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:naica"
+  },
+  {
+   "id": "rainbow-mountain",
+   "answer": "Rainbow Mountain",
+   "exact": [
+    "montagne arc en ciel"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Vinicunca"
+  },
+  {
+   "id": "laguna-colorada",
+   "answer": "Laguna Colorada",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Laguna Colorada"
+  },
+  {
+   "id": "lac-hillier",
+   "answer": "Lac Hillier",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:lac rose"
+  },
+  {
+   "id": "lac-retba",
+   "answer": "Lac Retba",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:lac rose senegal"
+  },
+  {
+   "id": "desert-blanc",
+   "answer": "Désert blanc",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Désert Blanc (Égypte)"
+  },
+  {
+   "id": "danakil",
+   "answer": "Danakil",
+   "exact": [
+    "dallol"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Dallol"
+  },
+  {
+   "id": "lac-kawah-ijen",
+   "answer": "Lac Kawah Ijen",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:ijen"
+  },
+  {
+   "id": "grotte-de-waitomo",
+   "answer": "Grotte de Waitomo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:vers luisants"
+  },
+  {
+   "id": "bioluminescence",
+   "answer": "Bioluminescence",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Bioluminescence"
+  },
+  {
+   "id": "tsunami",
+   "answer": "Tsunami",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:Tsunami"
+  },
+  {
+   "id": "avalanche",
+   "answer": "Avalanche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:Avalanche"
+  },
+  {
+   "id": "ouragan",
+   "answer": "Ouragan",
+   "exact": [
+    "cyclone"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:Cyclone tropical"
+  },
+  {
+   "id": "halo-solaire",
+   "answer": "Halo solaire",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Halo (optique)"
+  },
+  {
+   "id": "arc-en-ciel-de-feu",
+   "answer": "Arc-en-ciel de feu",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Arc-en-ciel de feu"
+  },
+  {
+   "id": "nuage-lenticulaire",
+   "answer": "Nuage lenticulaire",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Nuage lenticulaire"
+  },
+  {
+   "id": "cumulonimbus",
+   "answer": "Cumulonimbus",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Cumulonimbus"
+  },
+  {
+   "id": "grele",
+   "answer": "Grêle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:grele"
+  },
+  {
+   "id": "flocon-de-neige",
+   "answer": "Flocon de neige",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:Flocon de neige"
+  },
+  {
+   "id": "stalactite",
+   "answer": "Stalactite",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Stalactite"
+  },
+  {
+   "id": "coulee-de-lave",
+   "answer": "Coulée de lave",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:lave"
+  },
+  {
+   "id": "desert-de-sel",
+   "answer": "Désert de sel",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Désert de sel"
+  },
+  {
+   "id": "steppe",
+   "answer": "Steppe",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Steppe"
+  },
+  {
+   "id": "foret-tropicale",
+   "answer": "Forêt tropicale",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:Forêt tropicale"
+  },
+  {
+   "id": "marais",
+   "answer": "Marais",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Marais"
+  },
+  {
+   "id": "delta-du-nil",
+   "answer": "Delta du Nil",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Delta du Nil"
+  },
+  {
+   "id": "chutes-de-kaieteur",
+   "answer": "Chutes de Kaieteur",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Chutes de Kaieteur"
+  },
+  {
+   "id": "montagne-table",
+   "answer": "Montagne Table",
+   "exact": [
+    "tepui"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:Tepuy"
+  },
+  {
+   "id": "pain-de-sucre",
+   "answer": "Pain de Sucre",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:Pain de Sucre"
   }
  ]
 }

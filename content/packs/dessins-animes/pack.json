@@ -21,7 +21,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:SpongeBob_SquarePants_(character)"
+   "src": "wiki:en:SpongeBob_SquarePants_(character)",
+   "explain": "C'était SpongeBob SquarePants"
   },
   {
    "id": "bob-l-eponge-patrick",
@@ -64,7 +65,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Homer_Simpson"
+   "src": "wiki:en:Homer_Simpson",
+   "explain": "C'était Homer Simpson"
   },
   {
    "id": "les-simpson-bart",
@@ -90,7 +92,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Scooby-Doo_(character)"
+   "src": "wiki:en:Scooby-Doo_(character)",
+   "explain": "C'était Scooby-Doo"
   },
   {
    "id": "looney-tunes",
@@ -103,7 +106,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Bugs_Bunny"
+   "src": "wiki:en:Bugs_Bunny",
+   "explain": "C'était Bugs Bunny"
   },
   {
    "id": "looney-tunes-titi",
@@ -130,7 +134,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Tom_Cat"
+   "src": "wiki:en:Tom_Cat",
+   "explain": "C'était Tom Cat"
   },
   {
    "id": "mickey-mouse",
@@ -144,7 +149,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Mickey_Mouse"
+   "src": "wiki:en:Mickey_Mouse",
+   "explain": "C'était Mickey Mouse"
   },
   {
    "id": "lilo-et-stitch",
@@ -157,7 +163,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Stitch_(Lilo_&_Stitch)"
+   "src": "wiki:en:Stitch_(Lilo_&_Stitch)",
+   "explain": "C'était Stitch"
   },
   {
    "id": "le-roi-lion",
@@ -171,7 +178,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Simba"
+   "src": "wiki:en:Simba",
+   "explain": "C'était Simba"
   },
   {
    "id": "le-roi-lion-scar",
@@ -198,7 +206,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Elsa_(Frozen)"
+   "src": "wiki:en:Elsa_(Frozen)",
+   "explain": "C'était Elsa"
   },
   {
    "id": "la-reine-des-neiges-olaf",
@@ -225,7 +234,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Buzz_Lightyear"
+   "src": "wiki:en:Buzz_Lightyear",
+   "explain": "C'était Buzz Lightyear"
   },
   {
    "id": "toy-story-woody",
@@ -250,7 +260,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Shrek_(character)"
+   "src": "wiki:en:Shrek_(character)",
+   "explain": "C'était Shrek"
   },
   {
    "id": "le-monde-de-nemo",
@@ -264,7 +275,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Dory_(Finding_Nemo)"
+   "src": "wiki:en:Dory_(Finding_Nemo)",
+   "explain": "C'était Dory"
   },
   {
    "id": "moi-moche-et-mechant",
@@ -278,7 +290,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Minions_(Despicable_Me)"
+   "src": "wiki:en:Minions_(Despicable_Me)",
+   "explain": "C'était Minions"
   },
   {
    "id": "kung-fu-panda",
@@ -291,7 +304,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Po_(Kung_Fu_Panda)"
+   "src": "wiki:en:Po_(Kung_Fu_Panda)",
+   "explain": "C'était Po"
   },
   {
    "id": "dragons",
@@ -305,7 +319,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Toothless_(How_to_Train_Your_Dragon)"
+   "src": "wiki:en:Toothless_(How_to_Train_Your_Dragon)",
+   "explain": "C'était Toothless"
   },
   {
    "id": "l-age-de-glace",
@@ -319,7 +334,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Scrat"
+   "src": "wiki:en:Scrat",
+   "explain": "C'était Scrat"
   },
   {
    "id": "cars",
@@ -332,7 +348,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Lightning_McQueen"
+   "src": "wiki:en:Lightning_McQueen",
+   "explain": "C'était Lightning McQueen"
   },
   {
    "id": "monstres-et-cie",
@@ -345,7 +362,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Mike_Wazowski"
+   "src": "wiki:en:Mike_Wazowski",
+   "explain": "C'était Mike Wazowski"
   },
   {
    "id": "aladdin",
@@ -358,7 +376,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Genie_(Aladdin)"
+   "src": "wiki:en:Genie_(Aladdin)",
+   "explain": "C'était Genie"
   },
   {
    "id": "la-petite-sirene",
@@ -371,7 +390,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Ariel_(The_Little_Mermaid)"
+   "src": "wiki:en:Ariel_(The_Little_Mermaid)",
+   "explain": "C'était Ariel"
   },
   {
    "id": "le-livre-de-la-jungle",
@@ -384,7 +404,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Baloo"
+   "src": "wiki:en:Baloo",
+   "explain": "C'était Baloo"
   },
   {
    "id": "winnie-l-ourson",
@@ -397,7 +418,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Winnie-the-Pooh"
+   "src": "wiki:en:Winnie-the-Pooh",
+   "explain": "C'était Winnie-the-Pooh"
   },
   {
    "id": "garfield",
@@ -408,7 +430,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Garfield_(character)"
+   "src": "wiki:en:Garfield_(character)",
+   "explain": "C'était Garfield"
   },
   {
    "id": "peanuts-snoopy",
@@ -434,7 +457,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Popeye"
+   "src": "wiki:en:Popeye",
+   "explain": "C'était Popeye"
   },
   {
    "id": "asterix",
@@ -447,7 +471,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Asterix_(character)"
+   "src": "wiki:en:Asterix_(character)",
+   "explain": "C'était Asterix"
   },
   {
    "id": "tintin",
@@ -458,7 +483,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Tintin_(character)"
+   "src": "wiki:en:Tintin_(character)",
+   "explain": "C'était Tintin"
   },
   {
    "id": "les-schtroumpfs",
@@ -472,7 +498,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Papa_Smurf"
+   "src": "wiki:en:Papa_Smurf",
+   "explain": "C'était Papa Smurf"
   },
   {
    "id": "lucky-luke",
@@ -483,7 +510,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Lucky_Luke_(character)"
+   "src": "wiki:en:Lucky_Luke_(character)",
+   "explain": "C'était Lucky Luke"
   },
   {
    "id": "peppa-pig",
@@ -496,7 +524,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Peppa_Pig_(character)"
+   "src": "wiki:en:Peppa_Pig_(character)",
+   "explain": "C'était Peppa Pig"
   },
   {
    "id": "rick-et-morty",
@@ -509,7 +538,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Rick_Sanchez"
+   "src": "wiki:en:Rick_Sanchez",
+   "explain": "C'était Rick Sanchez"
   },
   {
    "id": "les-griffin",
@@ -522,7 +552,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Peter_Griffin"
+   "src": "wiki:en:Peter_Griffin",
+   "explain": "C'était Peter Griffin"
   },
   {
    "id": "south-park",
@@ -535,7 +566,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Eric_Cartman"
+   "src": "wiki:en:Eric_Cartman",
+   "explain": "C'était Eric Cartman"
   },
   {
    "id": "futurama",
@@ -546,7 +578,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Bender_(Futurama)"
+   "src": "wiki:en:Bender_(Futurama)",
+   "explain": "C'était Bender"
   },
   {
    "id": "gravity-falls",
@@ -557,7 +590,8 @@
     "dessin animé",
     "difficile"
    ],
-   "src": "wiki:en:Bill_Cipher"
+   "src": "wiki:en:Bill_Cipher",
+   "explain": "C'était Bill Cipher"
   },
   {
    "id": "adventure-time",
@@ -568,7 +602,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Finn_the_Human"
+   "src": "wiki:en:Finn_the_Human",
+   "explain": "C'était Finn the Human"
   },
   {
    "id": "avatar-le-dernier-maitre-de-l-air",
@@ -581,7 +616,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Aang"
+   "src": "wiki:en:Aang",
+   "explain": "C'était Aang"
   },
   {
    "id": "ben-10",
@@ -592,7 +628,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Ben_Tennyson"
+   "src": "wiki:en:Ben_Tennyson",
+   "explain": "C'était Ben Tennyson"
   },
   {
    "id": "les-tortues-ninja",
@@ -606,7 +643,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Leonardo_(Teenage_Mutant_Ninja_Turtles)"
+   "src": "wiki:en:Leonardo_(Teenage_Mutant_Ninja_Turtles)",
+   "explain": "C'était Leonardo"
   },
   {
    "id": "kim-possible",
@@ -617,7 +655,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Kim_Possible_(character)"
+   "src": "wiki:en:Kim_Possible_(character)",
+   "explain": "C'était Kim Possible"
   },
   {
    "id": "johnny-bravo",
@@ -628,7 +667,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Johnny_Bravo_(character)"
+   "src": "wiki:en:Johnny_Bravo_(character)",
+   "explain": "C'était Johnny Bravo"
   },
   {
    "id": "hello-kitty",
@@ -639,7 +679,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Hello_Kitty"
+   "src": "wiki:en:Hello_Kitty",
+   "explain": "C'était Hello Kitty"
   },
   {
    "id": "pinocchio",
@@ -650,7 +691,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Pinocchio"
+   "src": "wiki:en:Pinocchio",
+   "explain": "C'était Pinocchio"
   },
   {
    "id": "bambi",
@@ -661,7 +703,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Bambi"
+   "src": "wiki:en:Bambi",
+   "explain": "C'était Bambi"
   },
   {
    "id": "dumbo",
@@ -672,7 +715,8 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Dumbo"
+   "src": "wiki:en:Dumbo",
+   "explain": "C'était Dumbo"
   },
   {
    "id": "mulan",
@@ -683,7 +727,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Fa_Mulan"
+   "src": "wiki:en:Fa_Mulan",
+   "explain": "C'était Fa Mulan"
   },
   {
    "id": "la-belle-et-la-bete",
@@ -694,7 +739,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Belle_(Beauty_and_the_Beast)"
+   "src": "wiki:en:Belle_(Beauty_and_the_Beast)",
+   "explain": "C'était Belle"
   },
   {
    "id": "raiponce",
@@ -707,7 +753,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Rapunzel_(Disney)"
+   "src": "wiki:en:Rapunzel_(Disney)",
+   "explain": "C'était Rapunzel"
   },
   {
    "id": "vaiana",
@@ -720,7 +767,8 @@
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:Moana_(character)"
+   "src": "wiki:en:Moana_(character)",
+   "explain": "C'était Moana"
   },
   {
    "id": "le-grinch",
@@ -733,20 +781,2261 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:The_Grinch"
+   "src": "wiki:en:The_Grinch",
+   "explain": "C'était The Grinch"
   },
   {
-   "id": "miraculous",
-   "answer": "Miraculous",
+   "id": "bob-l-eponge-2",
+   "answer": "Bob l'éponge",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Mr._Krabs",
+   "explain": "C'était Mr. Krabs"
+  },
+  {
+   "id": "bob-l-eponge-2-2",
+   "answer": "Bob l'éponge",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Sandy_Cheeks",
+   "explain": "C'était Sandy Cheeks"
+  },
+  {
+   "id": "bob-l-eponge-3",
+   "answer": "Bob l'éponge",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Plankton_and_Karen",
+   "explain": "C'était Plankton and Karen"
+  },
+  {
+   "id": "bob-l-eponge-4",
+   "answer": "Bob l'éponge",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Gary_the_Snail",
+   "explain": "C'était Gary the Snail"
+  },
+  {
+   "id": "les-simpson-2",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Marge_Simpson",
+   "explain": "C'était Marge Simpson"
+  },
+  {
+   "id": "les-simpson-2-2",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Lisa_Simpson",
+   "explain": "C'était Lisa Simpson"
+  },
+  {
+   "id": "les-simpson-3",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Maggie_Simpson",
+   "explain": "C'était Maggie Simpson"
+  },
+  {
+   "id": "les-simpson-4",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Mr._Burns",
+   "explain": "C'était Mr. Burns"
+  },
+  {
+   "id": "les-simpson-5",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Ned_Flanders",
+   "explain": "C'était Ned Flanders"
+  },
+  {
+   "id": "les-simpson-6",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Krusty_the_Clown",
+   "explain": "C'était Krusty the Clown"
+  },
+  {
+   "id": "les-simpson-7",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Milhouse_Van_Houten",
+   "explain": "C'était Milhouse Van Houten"
+  },
+  {
+   "id": "les-simpson-8",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Apu_Nahasapeemapetilon",
+   "explain": "C'était Apu Nahasapeemapetilon"
+  },
+  {
+   "id": "les-simpson-9",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Moe_Szyslak",
+   "explain": "C'était Moe Szyslak"
+  },
+  {
+   "id": "les-simpson-10",
+   "answer": "Les Simpson",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Sideshow_Bob",
+   "explain": "C'était Sideshow Bob"
+  },
+  {
+   "id": "scooby-doo-2",
+   "answer": "Scooby-Doo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Shaggy_Rogers",
+   "explain": "C'était Shaggy Rogers"
+  },
+  {
+   "id": "scooby-doo-2-2",
+   "answer": "Scooby-Doo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Velma_Dinkley",
+   "explain": "C'était Velma Dinkley"
+  },
+  {
+   "id": "scooby-doo-3",
+   "answer": "Scooby-Doo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Fred_Jones_(Scooby-Doo)",
+   "explain": "C'était Fred Jones"
+  },
+  {
+   "id": "looney-tunes-2",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Daffy_Duck",
+   "explain": "C'était Daffy Duck"
+  },
+  {
+   "id": "looney-tunes-2-2",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Porky_Pig",
+   "explain": "C'était Porky Pig"
+  },
+  {
+   "id": "looney-tunes-3",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Sylvester_the_Cat",
+   "explain": "C'était Sylvester the Cat"
+  },
+  {
+   "id": "looney-tunes-4",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Tasmanian_Devil_(Looney_Tunes)",
+   "explain": "C'était Tasmanian Devil"
+  },
+  {
+   "id": "looney-tunes-5",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Road_Runner",
+   "explain": "C'était Road Runner"
+  },
+  {
+   "id": "looney-tunes-6",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Wile_E._Coyote_and_the_Road_Runner",
+   "explain": "C'était Wile E. Coyote and the Road Runner"
+  },
+  {
+   "id": "looney-tunes-7",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Speedy_Gonzales",
+   "explain": "C'était Speedy Gonzales"
+  },
+  {
+   "id": "looney-tunes-8",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Elmer_Fudd",
+   "explain": "C'était Elmer Fudd"
+  },
+  {
+   "id": "looney-tunes-9",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Yosemite_Sam",
+   "explain": "C'était Yosemite Sam"
+  },
+  {
+   "id": "looney-tunes-10",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Marvin_the_Martian",
+   "explain": "C'était Marvin the Martian"
+  },
+  {
+   "id": "looney-tunes-11",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Pepé_Le_Pew",
+   "explain": "C'était Pepé Le Pew"
+  },
+  {
+   "id": "looney-tunes-12",
+   "answer": "Looney Tunes",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Foghorn_Leghorn",
+   "explain": "C'était Foghorn Leghorn"
+  },
+  {
+   "id": "tom-et-jerry-2",
+   "answer": "Tom et Jerry",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Jerry_Mouse",
+   "explain": "C'était Jerry Mouse"
+  },
+  {
+   "id": "mickey-mouse-2",
+   "answer": "Mickey Mouse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Minnie_Mouse",
+   "explain": "C'était Minnie Mouse"
+  },
+  {
+   "id": "mickey-mouse-2-2",
+   "answer": "Mickey Mouse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Donald_Duck",
+   "explain": "C'était Donald Duck"
+  },
+  {
+   "id": "mickey-mouse-3",
+   "answer": "Mickey Mouse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Goofy",
+   "explain": "C'était Goofy"
+  },
+  {
+   "id": "mickey-mouse-4",
+   "answer": "Mickey Mouse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Pluto_(Disney)",
+   "explain": "C'était Pluto"
+  },
+  {
+   "id": "mickey-mouse-5",
+   "answer": "Mickey Mouse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Daisy_Duck",
+   "explain": "C'était Daisy Duck"
+  },
+  {
+   "id": "mickey-mouse-6",
+   "answer": "Mickey Mouse",
    "exact": [
-    "ladybug"
+    "picsou"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Miraculous:_Tales_of_Ladybug_&_Cat_Noir"
+   "src": "wiki:en:Scrooge_McDuck",
+   "explain": "C'était Scrooge McDuck"
+  },
+  {
+   "id": "mickey-mouse-7",
+   "answer": "Mickey Mouse",
+   "exact": [
+    "tic et tac"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Chip_'n'_Dale",
+   "explain": "C'était Chip 'n' Dale"
+  },
+  {
+   "id": "mickey-mouse-8",
+   "answer": "Mickey Mouse",
+   "exact": [
+    "pat hibulaire"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Pete_(Disney)",
+   "explain": "C'était Pete"
+  },
+  {
+   "id": "lilo-et-stitch-2",
+   "answer": "Lilo et Stitch",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Lilo_Pelekai",
+   "explain": "C'était Lilo Pelekai"
+  },
+  {
+   "id": "le-roi-lion-2",
+   "answer": "Le Roi lion",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Mufasa",
+   "explain": "C'était Mufasa"
+  },
+  {
+   "id": "le-roi-lion-2-2",
+   "answer": "Le Roi lion",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Timon_and_Pumbaa",
+   "explain": "C'était Timon and Pumbaa"
+  },
+  {
+   "id": "le-roi-lion-3",
+   "answer": "Le Roi lion",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Rafiki",
+   "explain": "C'était Rafiki"
+  },
+  {
+   "id": "le-roi-lion-4",
+   "answer": "Le Roi lion",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Nala_(The_Lion_King)",
+   "explain": "C'était Nala"
+  },
+  {
+   "id": "la-reine-des-neiges-2",
+   "answer": "La Reine des neiges",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Anna_(Frozen)",
+   "explain": "C'était Anna"
+  },
+  {
+   "id": "la-reine-des-neiges-2-2",
+   "answer": "La Reine des neiges",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kristoff_(Frozen)",
+   "explain": "C'était Kristoff"
+  },
+  {
+   "id": "toy-story-2",
+   "answer": "Toy Story",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Jessie_(Toy_Story)",
+   "explain": "C'était Jessie"
+  },
+  {
+   "id": "toy-story-2-2",
+   "answer": "Toy Story",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Mr._Potato_Head",
+   "explain": "C'était Mr. Potato Head"
+  },
+  {
+   "id": "toy-story-3",
+   "answer": "Toy Story",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Rex_(Toy_Story)",
+   "explain": "C'était Rex"
+  },
+  {
+   "id": "toy-story-4",
+   "answer": "Toy Story",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Lotso",
+   "explain": "C'était Lotso"
+  },
+  {
+   "id": "shrek-2",
+   "answer": "Shrek",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Donkey_(Shrek)",
+   "explain": "C'était Donkey"
+  },
+  {
+   "id": "shrek-2-2",
+   "answer": "Shrek",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Puss_in_Boots_(Shrek)",
+   "explain": "C'était Puss in Boots"
+  },
+  {
+   "id": "shrek-3",
+   "answer": "Shrek",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Princess_Fiona",
+   "explain": "C'était Princess Fiona"
+  },
+  {
+   "id": "shrek-4",
+   "answer": "Shrek",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Lord_Farquaad",
+   "explain": "C'était Lord Farquaad"
+  },
+  {
+   "id": "shrek-5",
+   "answer": "Shrek",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Gingerbread_Man_(Shrek)",
+   "explain": "C'était Gingerbread Man"
+  },
+  {
+   "id": "le-monde-de-nemo-2",
+   "answer": "Le Monde de Nemo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Nemo_(Finding_Nemo)",
+   "explain": "C'était Nemo"
+  },
+  {
+   "id": "le-monde-de-nemo-2-2",
+   "answer": "Le Monde de Nemo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Marlin_(Finding_Nemo)",
+   "explain": "C'était Marlin"
+  },
+  {
+   "id": "moi-moche-et-mechant-2",
+   "answer": "Moi, moche et méchant",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Gru_(Despicable_Me)",
+   "explain": "C'était Gru"
+  },
+  {
+   "id": "moi-moche-et-mechant-2-2",
+   "answer": "Moi, moche et méchant",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Agnes_(Despicable_Me)",
+   "explain": "C'était Agnes"
+  },
+  {
+   "id": "kung-fu-panda-2",
+   "answer": "Kung Fu Panda",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Tai_Lung",
+   "explain": "C'était Tai Lung"
+  },
+  {
+   "id": "kung-fu-panda-2-2",
+   "answer": "Kung Fu Panda",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Master_Shifu",
+   "explain": "C'était Master Shifu"
+  },
+  {
+   "id": "kung-fu-panda-3",
+   "answer": "Kung Fu Panda",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Tigress_(Kung_Fu_Panda)",
+   "explain": "C'était Tigress"
+  },
+  {
+   "id": "l-age-de-glace-2",
+   "answer": "L'Âge de glace",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Sid_(Ice_Age)",
+   "explain": "C'était Sid"
+  },
+  {
+   "id": "l-age-de-glace-2-2",
+   "answer": "L'Âge de glace",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Manny_(Ice_Age)",
+   "explain": "C'était Manny"
+  },
+  {
+   "id": "l-age-de-glace-3",
+   "answer": "L'Âge de glace",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Diego_(Ice_Age)",
+   "explain": "C'était Diego"
+  },
+  {
+   "id": "cars-2",
+   "answer": "Cars",
+   "exact": [
+    "martin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Mater_(Cars)",
+   "explain": "C'était Mater"
+  },
+  {
+   "id": "monstres-et-cie-2",
+   "answer": "Monstres et Cie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:James_P._Sullivan",
+   "explain": "C'était James P. Sullivan"
+  },
+  {
+   "id": "monstres-et-cie-2-2",
+   "answer": "Monstres et Cie",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Boo_(Monsters,_Inc.)",
+   "explain": "C'était Boo"
+  },
+  {
+   "id": "monstres-et-cie-3",
+   "answer": "Monstres et Cie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Randall_Boggs",
+   "explain": "C'était Randall Boggs"
+  },
+  {
+   "id": "les-indestructibles",
+   "answer": "Les Indestructibles",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Mr._Incredible",
+   "explain": "C'était Mr. Incredible"
+  },
+  {
+   "id": "les-indestructibles-2",
+   "answer": "Les Indestructibles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Elastigirl",
+   "explain": "C'était Elastigirl"
+  },
+  {
+   "id": "les-indestructibles-3",
+   "answer": "Les Indestructibles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Edna_Mode",
+   "explain": "C'était Edna Mode"
+  },
+  {
+   "id": "les-indestructibles-4",
+   "answer": "Les Indestructibles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Frozone",
+   "explain": "C'était Frozone"
+  },
+  {
+   "id": "les-indestructibles-5",
+   "answer": "Les Indestructibles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Jack-Jack_Parr",
+   "explain": "C'était Jack-Jack Parr"
+  },
+  {
+   "id": "vice-versa",
+   "answer": "Vice-versa",
+   "exact": [
+    "inside out"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Joy_(Inside_Out)",
+   "explain": "C'était Joy"
+  },
+  {
+   "id": "vice-versa-2",
+   "answer": "Vice-versa",
+   "exact": [
+    "inside out"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Anger_(Inside_Out)",
+   "explain": "C'était Anger"
+  },
+  {
+   "id": "la-haut",
+   "answer": "Là-haut",
+   "exact": [
+    "up"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Carl_Fredricksen",
+   "explain": "C'était Carl Fredricksen"
+  },
+  {
+   "id": "wall-e",
+   "answer": "Wall-E",
+   "exact": [
+    "walle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:WALL-E_(character)",
+   "explain": "C'était WALL-E"
+  },
+  {
+   "id": "ratatouille",
+   "answer": "Ratatouille",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Remy_(Ratatouille)",
+   "explain": "C'était Remy"
+  },
+  {
+   "id": "coco",
+   "answer": "Coco",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Miguel_Rivera_(Coco)",
+   "explain": "C'était Miguel Rivera"
+  },
+  {
+   "id": "encanto",
+   "answer": "Encanto",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Mirabel_Madrigal",
+   "explain": "C'était Mirabel Madrigal"
+  },
+  {
+   "id": "rebelle",
+   "answer": "Rebelle",
+   "exact": [
+    "brave"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Merida_(Brave)",
+   "explain": "C'était Merida"
+  },
+  {
+   "id": "aladdin-2",
+   "answer": "Aladdin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Aladdin_(Disney_character)",
+   "explain": "C'était Aladdin"
+  },
+  {
+   "id": "aladdin-2-2",
+   "answer": "Aladdin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Jafar_(Aladdin)",
+   "explain": "C'était Jafar"
+  },
+  {
+   "id": "aladdin-3",
+   "answer": "Aladdin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Princess_Jasmine",
+   "explain": "C'était Princess Jasmine"
+  },
+  {
+   "id": "aladdin-4",
+   "answer": "Aladdin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Iago_(Aladdin)",
+   "explain": "C'était Iago"
+  },
+  {
+   "id": "la-petite-sirene-2",
+   "answer": "La Petite Sirène",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Ursula_(The_Little_Mermaid)",
+   "explain": "C'était Ursula"
+  },
+  {
+   "id": "la-petite-sirene-2-2",
+   "answer": "La Petite Sirène",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Sebastian_(The_Little_Mermaid)",
+   "explain": "C'était Sebastian"
+  },
+  {
+   "id": "la-petite-sirene-3",
+   "answer": "La Petite Sirène",
+   "exact": [
+    "polochon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Flounder_(The_Little_Mermaid)",
+   "explain": "C'était Flounder"
+  },
+  {
+   "id": "le-livre-de-la-jungle-2",
+   "answer": "Le Livre de la jungle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Mowgli",
+   "explain": "C'était Mowgli"
+  },
+  {
+   "id": "le-livre-de-la-jungle-2-2",
+   "answer": "Le Livre de la jungle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Shere_Khan",
+   "explain": "C'était Shere Khan"
+  },
+  {
+   "id": "le-livre-de-la-jungle-3",
+   "answer": "Le Livre de la jungle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kaa",
+   "explain": "C'était Kaa"
+  },
+  {
+   "id": "le-livre-de-la-jungle-4",
+   "answer": "Le Livre de la jungle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:King_Louie",
+   "explain": "C'était King Louie"
+  },
+  {
+   "id": "winnie-l-ourson-2",
+   "answer": "Winnie l'ourson",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Tigger",
+   "explain": "C'était Tigger"
+  },
+  {
+   "id": "winnie-l-ourson-2-2",
+   "answer": "Winnie l'ourson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Eeyore",
+   "explain": "C'était Eeyore"
+  },
+  {
+   "id": "winnie-l-ourson-3",
+   "answer": "Winnie l'ourson",
+   "exact": [
+    "porcinet"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Piglet_(Winnie-the-Pooh)",
+   "explain": "C'était Piglet"
+  },
+  {
+   "id": "peanuts",
+   "answer": "Peanuts",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Charlie_Brown",
+   "explain": "C'était Charlie Brown"
+  },
+  {
+   "id": "peanuts-2",
+   "answer": "Peanuts",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Woodstock_(Peanuts)",
+   "explain": "C'était Woodstock"
+  },
+  {
+   "id": "asterix-2",
+   "answer": "Astérix",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Obelix",
+   "explain": "C'était Obelix"
+  },
+  {
+   "id": "asterix-2-2",
+   "answer": "Astérix",
+   "exact": [
+    "panoramix"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Getafix",
+   "explain": "C'était Getafix"
+  },
+  {
+   "id": "asterix-3",
+   "answer": "Astérix",
+   "exact": [
+    "idefix"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Dogmatix",
+   "explain": "C'était Dogmatix"
+  },
+  {
+   "id": "tintin-2",
+   "answer": "Tintin",
+   "exact": [
+    "milou"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Snowy_(character)",
+   "explain": "C'était Snowy"
+  },
+  {
+   "id": "tintin-2-2",
+   "answer": "Tintin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Captain_Haddock",
+   "explain": "C'était Captain Haddock"
+  },
+  {
+   "id": "tintin-3",
+   "answer": "Tintin",
+   "exact": [
+    "tournesol"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Professor_Calculus",
+   "explain": "C'était Professor Calculus"
+  },
+  {
+   "id": "tintin-4",
+   "answer": "Tintin",
+   "exact": [
+    "dupond et dupont"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Thomson_and_Thompson",
+   "explain": "C'était Thomson and Thompson"
+  },
+  {
+   "id": "les-schtroumpfs-2",
+   "answer": "Les Schtroumpfs",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Smurfette",
+   "explain": "C'était Smurfette"
+  },
+  {
+   "id": "les-schtroumpfs-2-2",
+   "answer": "Les Schtroumpfs",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Gargamel",
+   "explain": "C'était Gargamel"
+  },
+  {
+   "id": "les-schtroumpfs-3",
+   "answer": "Les Schtroumpfs",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Azrael_(The_Smurfs)",
+   "explain": "C'était Azrael"
+  },
+  {
+   "id": "lucky-luke-2",
+   "answer": "Lucky Luke",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Dalton_Brothers_(Lucky_Luke)",
+   "explain": "C'était Dalton Brothers"
+  },
+  {
+   "id": "lucky-luke-2-2",
+   "answer": "Lucky Luke",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Jolly_Jumper",
+   "explain": "C'était Jolly Jumper"
+  },
+  {
+   "id": "lucky-luke-3",
+   "answer": "Lucky Luke",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Rantanplan",
+   "explain": "C'était Rantanplan"
+  },
+  {
+   "id": "rick-et-morty-2",
+   "answer": "Rick et Morty",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Morty_Smith",
+   "explain": "C'était Morty Smith"
+  },
+  {
+   "id": "les-griffin-2",
+   "answer": "Les Griffin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Stewie_Griffin",
+   "explain": "C'était Stewie Griffin"
+  },
+  {
+   "id": "les-griffin-2-2",
+   "answer": "Les Griffin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Brian_Griffin",
+   "explain": "C'était Brian Griffin"
+  },
+  {
+   "id": "south-park-2",
+   "answer": "South Park",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Kenny_McCormick",
+   "explain": "C'était Kenny McCormick"
+  },
+  {
+   "id": "south-park-2-2",
+   "answer": "South Park",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Stan_Marsh",
+   "explain": "C'était Stan Marsh"
+  },
+  {
+   "id": "south-park-3",
+   "answer": "South Park",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kyle_Broflovski",
+   "explain": "C'était Kyle Broflovski"
+  },
+  {
+   "id": "south-park-4",
+   "answer": "South Park",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Butters_Stotch",
+   "explain": "C'était Butters Stotch"
+  },
+  {
+   "id": "futurama-2",
+   "answer": "Futurama",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Leela_(Futurama)",
+   "explain": "C'était Leela"
+  },
+  {
+   "id": "futurama-2-2",
+   "answer": "Futurama",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Philip_J._Fry",
+   "explain": "C'était Philip J. Fry"
+  },
+  {
+   "id": "futurama-3",
+   "answer": "Futurama",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Zoidberg",
+   "explain": "C'était Zoidberg"
+  },
+  {
+   "id": "gravity-falls-2",
+   "answer": "Gravity Falls",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Dipper_Pines",
+   "explain": "C'était Dipper Pines"
+  },
+  {
+   "id": "adventure-time-2",
+   "answer": "Adventure Time",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Jake_the_Dog",
+   "explain": "C'était Jake the Dog"
+  },
+  {
+   "id": "avatar-le-dernier-maitre-de-l-air-2",
+   "answer": "Avatar, le dernier maître de l'air",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Zuko",
+   "explain": "C'était Zuko"
+  },
+  {
+   "id": "avatar-le-dernier-maitre-de-l-air-2-2",
+   "answer": "Avatar, le dernier maître de l'air",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Katara_(Avatar:_The_Last_Airbender)",
+   "explain": "C'était Katara"
+  },
+  {
+   "id": "les-tortues-ninja-2",
+   "answer": "Les Tortues Ninja",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Splinter_(Teenage_Mutant_Ninja_Turtles)",
+   "explain": "C'était Splinter"
+  },
+  {
+   "id": "les-tortues-ninja-2-2",
+   "answer": "Les Tortues Ninja",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Shredder_(Teenage_Mutant_Ninja_Turtles)",
+   "explain": "C'était Shredder"
+  },
+  {
+   "id": "les-tortues-ninja-3",
+   "answer": "Les Tortues Ninja",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Michelangelo_(Teenage_Mutant_Ninja_Turtles)",
+   "explain": "C'était Michelangelo"
+  },
+  {
+   "id": "les-pierrafeu",
+   "answer": "Les Pierrafeu",
+   "exact": [
+    "flintstones"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Fred_Flintstone",
+   "explain": "C'était Fred Flintstone"
+  },
+  {
+   "id": "les-jetson",
+   "answer": "Les Jetson",
+   "exact": [
+    "jetsons"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:George_Jetson",
+   "explain": "C'était George Jetson"
+  },
+  {
+   "id": "les-supers-nanas",
+   "answer": "Les Supers Nanas",
+   "exact": [
+    "powerpuff girls"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Blossom,_Bubbles,_and_Buttercup",
+   "explain": "C'était Blossom, Bubbles, and Buttercup"
+  },
+  {
+   "id": "le-laboratoire-de-dexter",
+   "answer": "Le Laboratoire de Dexter",
+   "exact": [
+    "dexter"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Dexter_(Dexter's_Laboratory)",
+   "explain": "C'était Dexter"
+  },
+  {
+   "id": "courage-le-chien-froussard",
+   "answer": "Courage, le chien froussard",
+   "exact": [
+    "courage"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Courage_the_Cowardly_Dog_(character)",
+   "explain": "C'était Courage the Cowardly Dog"
+  },
+  {
+   "id": "le-monde-incroyable-de-gumball",
+   "answer": "Le Monde incroyable de Gumball",
+   "exact": [
+    "gumball"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Gumball_Watterson",
+   "explain": "C'était Gumball Watterson"
+  },
+  {
+   "id": "phineas-et-ferb",
+   "answer": "Phinéas et Ferb",
+   "exact": [
+    "phineas et ferb"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Perry_the_Platypus",
+   "explain": "C'était Perry the Platypus"
+  },
+  {
+   "id": "phineas-et-ferb-2",
+   "answer": "Phinéas et Ferb",
+   "exact": [
+    "phineas et ferb"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Dr._Heinz_Doofenshmirtz",
+   "explain": "C'était Dr. Heinz Doofenshmirtz"
+  },
+  {
+   "id": "steven-universe",
+   "answer": "Steven Universe",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Steven_Universe_(character)",
+   "explain": "C'était Steven Universe"
+  },
+  {
+   "id": "danny-fantome",
+   "answer": "Danny Fantôme",
+   "exact": [
+    "danny phantom"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Danny_Phantom_(character)",
+   "explain": "C'était Danny Phantom"
+  },
+  {
+   "id": "jimmy-neutron",
+   "answer": "Jimmy Neutron",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Jimmy_Neutron_(character)",
+   "explain": "C'était Jimmy Neutron"
+  },
+  {
+   "id": "les-razmoket",
+   "answer": "Les Razmoket",
+   "exact": [
+    "rugrats"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Tommy_Pickles",
+   "explain": "C'était Tommy Pickles"
+  },
+  {
+   "id": "he-arnold",
+   "answer": "Hé Arnold !",
+   "exact": [
+    "hey arnold"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Arnold_Shortman",
+   "explain": "C'était Arnold Shortman"
+  },
+  {
+   "id": "les-fees-mignonnes",
+   "answer": "Les Fées Mignonnes",
+   "exact": [
+    "fairly oddparents"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Timmy_Turner",
+   "explain": "C'était Timmy Turner"
+  },
+  {
+   "id": "bluey",
+   "answer": "Bluey",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Bluey_(character)",
+   "explain": "C'était Bluey"
+  },
+  {
+   "id": "pat-patrouille",
+   "answer": "Pat' Patrouille",
+   "exact": [
+    "paw patrol",
+    "pat patrouille"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Chase_(PAW_Patrol)",
+   "explain": "C'était Chase"
+  },
+  {
+   "id": "dora-l-exploratrice",
+   "answer": "Dora l'exploratrice",
+   "exact": [
+    "dora"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Dora_(Dora_the_Explorer)",
+   "explain": "C'était Dora"
+  },
+  {
+   "id": "oui-oui",
+   "answer": "Oui-Oui",
+   "exact": [
+    "oui oui"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Noddy_(character)",
+   "explain": "C'était Noddy"
+  },
+  {
+   "id": "babar",
+   "answer": "Babar",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Babar_the_Elephant",
+   "explain": "C'était Babar the Elephant"
+  },
+  {
+   "id": "casimir",
+   "answer": "Casimir",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:Casimir (personnage)",
+   "explain": "C'était Casimir (personnage)"
+  },
+  {
+   "id": "titeuf",
+   "answer": "Titeuf",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:Titeuf",
+   "explain": "C'était Titeuf"
+  },
+  {
+   "id": "le-marsupilami",
+   "answer": "Le Marsupilami",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Marsupilami",
+   "explain": "C'était Marsupilami"
+  },
+  {
+   "id": "les-lapins-cretins",
+   "answer": "Les Lapins crétins",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Rabbids",
+   "explain": "C'était Rabbids"
+  },
+  {
+   "id": "garfield-2",
+   "answer": "Garfield",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Odie",
+   "explain": "C'était Odie"
+  },
+  {
+   "id": "popeye-2",
+   "answer": "Popeye",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Olive_Oyl",
+   "explain": "C'était Olive Oyl"
+  },
+  {
+   "id": "betty-boop",
+   "answer": "Betty Boop",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Betty_Boop",
+   "explain": "C'était Betty Boop"
+  },
+  {
+   "id": "woody-woodpecker",
+   "answer": "Woody Woodpecker",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Woody_Woodpecker",
+   "explain": "C'était Woody Woodpecker"
+  },
+  {
+   "id": "la-panthere-rose",
+   "answer": "La Panthère rose",
+   "exact": [
+    "pink panther"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Pink_Panther_(character)",
+   "explain": "C'était Pink Panther"
+  },
+  {
+   "id": "inspecteur-gadget",
+   "answer": "Inspecteur Gadget",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Inspector_Gadget_(character)",
+   "explain": "C'était Inspector Gadget"
+  },
+  {
+   "id": "madagascar",
+   "answer": "Madagascar",
+   "exact": [
+    "roi julian"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:King_Julien",
+   "explain": "C'était King Julien"
+  },
+  {
+   "id": "hotel-transylvanie",
+   "answer": "Hotel Transylvanie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Dracula_(Hotel_Transylvania)",
+   "explain": "C'était Dracula"
+  },
+  {
+   "id": "zootopie",
+   "answer": "Zootopie",
+   "exact": [
+    "zootopia"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Judy_Hopps",
+   "explain": "C'était Judy Hopps"
+  },
+  {
+   "id": "zootopie-2",
+   "answer": "Zootopie",
+   "exact": [
+    "zootopia"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Nick_Wilde",
+   "explain": "C'était Nick Wilde"
+  },
+  {
+   "id": "spider-man-new-generation",
+   "answer": "Spider-Man: New Generation",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Miles_Morales",
+   "explain": "C'était Miles Morales"
+  },
+  {
+   "id": "hercule",
+   "answer": "Hercule",
+   "exact": [
+    "hercules"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Hades_(Disney)",
+   "explain": "C'était Hades"
+  },
+  {
+   "id": "hercule-2",
+   "answer": "Hercule",
+   "exact": [
+    "hercules"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Hercules_(Disney)",
+   "explain": "C'était Hercules"
+  },
+  {
+   "id": "peter-pan",
+   "answer": "Peter Pan",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Captain_Hook",
+   "explain": "C'était Captain Hook"
+  },
+  {
+   "id": "peter-pan-2",
+   "answer": "Peter Pan",
+   "exact": [
+    "fée clochette",
+    "fee clochette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Tinker_Bell",
+   "explain": "C'était Tinker Bell"
+  },
+  {
+   "id": "alice-au-pays-des-merveilles",
+   "answer": "Alice au pays des merveilles",
+   "exact": [
+    "chat du cheshire"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Cheshire_Cat",
+   "explain": "C'était Cheshire Cat"
+  },
+  {
+   "id": "les-101-dalmatiens",
+   "answer": "Les 101 Dalmatiens",
+   "exact": [
+    "cruella"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Cruella_de_Vil",
+   "explain": "C'était Cruella de Vil"
+  },
+  {
+   "id": "la-belle-au-bois-dormant",
+   "answer": "La Belle au bois dormant",
+   "exact": [
+    "malefique"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Maleficent",
+   "explain": "C'était Maleficent"
+  },
+  {
+   "id": "blanche-neige",
+   "answer": "Blanche-Neige",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Snow_White_(Disney)",
+   "explain": "C'était Snow White"
+  },
+  {
+   "id": "cendrillon",
+   "answer": "Cendrillon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Cinderella_(Disney)",
+   "explain": "C'était Cinderella"
+  },
+  {
+   "id": "pocahontas",
+   "answer": "Pocahontas",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Pocahontas_(Disney)",
+   "explain": "C'était Pocahontas"
+  },
+  {
+   "id": "le-bossu-de-notre-dame",
+   "answer": "Le Bossu de Notre-Dame",
+   "exact": [
+    "quasimodo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Quasimodo_(Disney)",
+   "explain": "C'était Quasimodo"
+  },
+  {
+   "id": "tarzan",
+   "answer": "Tarzan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Tarzan_(Disney)",
+   "explain": "C'était Tarzan"
+  },
+  {
+   "id": "robin-des-bois",
+   "answer": "Robin des Bois",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Robin_Hood_(Disney)",
+   "explain": "C'était Robin Hood"
+  },
+  {
+   "id": "ralph-la-casse",
+   "answer": "Ralph la casse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Wreck-It_Ralph",
+   "explain": "C'était Wreck-It Ralph"
+  },
+  {
+   "id": "les-nouveaux-heros",
+   "answer": "Les Nouveaux Héros",
+   "exact": [
+    "big hero 6"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Baymax",
+   "explain": "C'était Baymax"
+  },
+  {
+   "id": "raya-et-le-dernier-dragon",
+   "answer": "Raya et le Dernier Dragon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Sisu_(Raya_and_the_Last_Dragon)",
+   "explain": "C'était Sisu"
+  },
+  {
+   "id": "vaiana-2",
+   "answer": "Vaiana",
+   "exact": [
+    "moana"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Maui_(Disney)",
+   "explain": "C'était Maui"
+  },
+  {
+   "id": "l-etrange-noel-de-monsieur-jack",
+   "answer": "L'Étrange Noël de monsieur Jack",
+   "exact": [
+    "jack skellington",
+    "nightmare before christmas"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Jack_Skellington",
+   "explain": "C'était Jack Skellington"
+  },
+  {
+   "id": "coraline",
+   "answer": "Coraline",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Coraline_Jones",
+   "explain": "C'était Coraline Jones"
   }
  ]
 }

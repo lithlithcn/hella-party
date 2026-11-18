@@ -1275,6 +1275,1310 @@
     "difficile"
    ],
    "src": "wiki:en:Bok_choy"
+  },
+  {
+   "id": "clementine",
+   "answer": "Clémentine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:clementine"
+  },
+  {
+   "id": "pomelo",
+   "answer": "Pomelo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Pomelo"
+  },
+  {
+   "id": "bergamote",
+   "answer": "Bergamote",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Bergamote (agrume)"
+  },
+  {
+   "id": "yuzu",
+   "answer": "Yuzu",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Yuzu"
+  },
+  {
+   "id": "main-de-bouddha",
+   "answer": "Main de Bouddha",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Cédrat main de Bouddha"
+  },
+  {
+   "id": "ramboutan",
+   "answer": "Ramboutan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:ramboutan"
+  },
+  {
+   "id": "longane",
+   "answer": "Longane",
+   "exact": [
+    "longan"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Longanier"
+  },
+  {
+   "id": "mangoustan",
+   "answer": "Mangoustan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Mangoustan"
+  },
+  {
+   "id": "jacquier",
+   "answer": "Jacquier",
+   "exact": [
+    "jaque"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Jaque"
+  },
+  {
+   "id": "corossol",
+   "answer": "Corossol",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Corossol"
+  },
+  {
+   "id": "pomme-cannelle",
+   "answer": "Pomme cannelle",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Pomme cannelle"
+  },
+  {
+   "id": "feijoa",
+   "answer": "Feijoa",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Feijoa"
+  },
+  {
+   "id": "nefle",
+   "answer": "Nèfle",
+   "exact": [
+    "nefle"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Néflier commun"
+  },
+  {
+   "id": "sureau",
+   "answer": "Sureau",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Sureau noir"
+  },
+  {
+   "id": "arbouse",
+   "answer": "Arbouse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Arbousier"
+  },
+  {
+   "id": "cerise-de-terre",
+   "answer": "Cerise de terre",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Physalis pruinosa"
+  },
+  {
+   "id": "tamarin",
+   "answer": "Tamarin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Tamarinier"
+  },
+  {
+   "id": "banane-plantain",
+   "answer": "Banane plantain",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:plantain"
+  },
+  {
+   "id": "mirabelle",
+   "answer": "Mirabelle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Mirabelle"
+  },
+  {
+   "id": "reine-claude",
+   "answer": "Reine-claude",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:reine claude"
+  },
+  {
+   "id": "quetsche",
+   "answer": "Quetsche",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Quetsche"
+  },
+  {
+   "id": "melon-charentais",
+   "answer": "Melon charentais",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Melon charentais"
+  },
+  {
+   "id": "groseille-a-maquereau",
+   "answer": "Groseille à maquereau",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:groseille a maquereau"
+  },
+  {
+   "id": "airelle",
+   "answer": "Airelle",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Airelle rouge"
+  },
+  {
+   "id": "baie-de-goji",
+   "answer": "Baie de goji",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:goji"
+  },
+  {
+   "id": "acai",
+   "answer": "Açaï",
+   "exact": [
+    "acai"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Euterpe oleracea"
+  },
+  {
+   "id": "cranberry",
+   "answer": "Cranberry",
+   "exact": [
+    "canneberge"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Canneberge"
+  },
+  {
+   "id": "kiwano",
+   "answer": "Kiwano",
+   "exact": [
+    "concombre cornu"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Concombre cornu"
+  },
+  {
+   "id": "pitaya-jaune",
+   "answer": "Pitaya jaune",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Selenicereus megalanthus"
+  },
+  {
+   "id": "nashi",
+   "answer": "Nashi",
+   "exact": [
+    "poire asiatique"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Poire asiatique"
+  },
+  {
+   "id": "pomme-granny-smith",
+   "answer": "Pomme Granny Smith",
+   "exact": [
+    "granny smith"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Granny Smith"
+  },
+  {
+   "id": "raisin-sec",
+   "answer": "Raisin sec",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Raisin sec"
+  },
+  {
+   "id": "pruneau",
+   "answer": "Pruneau",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Pruneau"
+  },
+  {
+   "id": "datte",
+   "answer": "Datte",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Datte"
+  },
+  {
+   "id": "noix-de-macadamia",
+   "answer": "Noix de macadamia",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:macadamia"
+  },
+  {
+   "id": "noix-de-pecan",
+   "answer": "Noix de pécan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:pecan"
+  },
+  {
+   "id": "noix-du-bresil",
+   "answer": "Noix du Brésil",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:noix du bresil"
+  },
+  {
+   "id": "pignon-de-pin",
+   "answer": "Pignon de pin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:pignon"
+  },
+  {
+   "id": "graine-de-tournesol",
+   "answer": "Graine de tournesol",
+   "exact": [
+    "tournesol"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Tournesol"
+  },
+  {
+   "id": "courge-butternut",
+   "answer": "Courge butternut",
+   "exact": [
+    "butternut"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Butternut"
+  },
+  {
+   "id": "potimarron",
+   "answer": "Potimarron",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Potimarron"
+  },
+  {
+   "id": "courge-spaghetti",
+   "answer": "Courge spaghetti",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Courge spaghetti"
+  },
+  {
+   "id": "chayote",
+   "answer": "Chayote",
+   "exact": [
+    "christophine"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Chayotte"
+  },
+  {
+   "id": "panais",
+   "answer": "Panais",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Panais"
+  },
+  {
+   "id": "topinambour",
+   "answer": "Topinambour",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Topinambour"
+  },
+  {
+   "id": "rutabaga",
+   "answer": "Rutabaga",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Rutabaga"
+  },
+  {
+   "id": "salsifis",
+   "answer": "Salsifis",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Salsifis"
+  },
+  {
+   "id": "celeri-rave",
+   "answer": "Céleri-rave",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:celeri rave"
+  },
+  {
+   "id": "radis-noir",
+   "answer": "Radis noir",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Radis noir"
+  },
+  {
+   "id": "daikon",
+   "answer": "Daikon",
+   "exact": [
+    "radis blanc"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Radis blanc"
+  },
+  {
+   "id": "chou-kale",
+   "answer": "Chou kale",
+   "exact": [
+    "kale"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Chou frisé"
+  },
+  {
+   "id": "chou-romanesco",
+   "answer": "Chou romanesco",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:romanesco"
+  },
+  {
+   "id": "chou-chinois",
+   "answer": "Chou chinois",
+   "exact": [
+    "chou de pekin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Chou de Pékin"
+  },
+  {
+   "id": "blette",
+   "answer": "Blette",
+   "exact": [
+    "bette"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Bette (plante)"
+  },
+  {
+   "id": "cresson",
+   "answer": "Cresson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Cresson de fontaine"
+  },
+  {
+   "id": "mache",
+   "answer": "Mâche",
+   "exact": [
+    "mache"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Mâche (plante)"
+  },
+  {
+   "id": "laitue-iceberg",
+   "answer": "Laitue iceberg",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:iceberg"
+  },
+  {
+   "id": "frisee",
+   "answer": "Frisée",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Chicorée frisée"
+  },
+  {
+   "id": "oseille",
+   "answer": "Oseille",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Oseille"
+  },
+  {
+   "id": "pois-gourmand",
+   "answer": "Pois gourmand",
+   "exact": [
+    "mange-tout"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Mangetout"
+  },
+  {
+   "id": "haricot-rouge",
+   "answer": "Haricot rouge",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Haricot rouge"
+  },
+  {
+   "id": "haricot-blanc",
+   "answer": "Haricot blanc",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Haricot blanc"
+  },
+  {
+   "id": "soja",
+   "answer": "Soja",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Soja"
+  },
+  {
+   "id": "edamame",
+   "answer": "Edamame",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Edamame"
+  },
+  {
+   "id": "pousse-de-bambou",
+   "answer": "Pousse de bambou",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:bambou"
+  },
+  {
+   "id": "germes-de-soja",
+   "answer": "Germes de soja",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Germes de soja"
+  },
+  {
+   "id": "cornichon",
+   "answer": "Cornichon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Cornichon"
+  },
+  {
+   "id": "capre",
+   "answer": "Câpre",
+   "exact": [
+    "capre"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Câprier"
+  },
+  {
+   "id": "wasabi",
+   "answer": "Wasabi",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Wasabi"
+  },
+  {
+   "id": "raifort",
+   "answer": "Raifort",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Raifort"
+  },
+  {
+   "id": "curcuma",
+   "answer": "Curcuma",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Curcuma"
+  },
+  {
+   "id": "cannelle",
+   "answer": "Cannelle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Cannelle"
+  },
+  {
+   "id": "vanille",
+   "answer": "Vanille",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Vanille"
+  },
+  {
+   "id": "poivre",
+   "answer": "Poivre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Poivre noir"
+  },
+  {
+   "id": "clou-de-girofle",
+   "answer": "Clou de girofle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Clou de girofle"
+  },
+  {
+   "id": "badiane",
+   "answer": "Badiane",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:anis etoile"
+  },
+  {
+   "id": "safran",
+   "answer": "Safran",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Safran"
+  },
+  {
+   "id": "thym",
+   "answer": "Thym",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Thym"
+  },
+  {
+   "id": "romarin",
+   "answer": "Romarin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Romarin"
+  },
+  {
+   "id": "laurier",
+   "answer": "Laurier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Laurier-sauce"
+  },
+  {
+   "id": "coriandre",
+   "answer": "Coriandre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Coriandre"
+  },
+  {
+   "id": "aneth",
+   "answer": "Aneth",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Aneth"
+  },
+  {
+   "id": "estragon",
+   "answer": "Estragon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Estragon"
+  },
+  {
+   "id": "sauge",
+   "answer": "Sauge",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Sauge officinale"
+  },
+  {
+   "id": "origan",
+   "answer": "Origan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Origan"
+  },
+  {
+   "id": "citronnelle",
+   "answer": "Citronnelle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Cymbopogon citratus"
+  },
+  {
+   "id": "truffe",
+   "answer": "Truffe",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Truffe noire"
+  },
+  {
+   "id": "cepe",
+   "answer": "Cèpe",
+   "exact": [
+    "cepe"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Cèpe de Bordeaux"
+  },
+  {
+   "id": "girolle",
+   "answer": "Girolle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Girolle"
+  },
+  {
+   "id": "champignon-de-paris",
+   "answer": "Champignon de Paris",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Champignon de Paris"
+  },
+  {
+   "id": "shiitake",
+   "answer": "Shiitake",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Shiitake"
+  },
+  {
+   "id": "pleurote",
+   "answer": "Pleurote",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Pleurote en huître"
+  },
+  {
+   "id": "morille",
+   "answer": "Morille",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Morille"
+  },
+  {
+   "id": "amanite-tue-mouches",
+   "answer": "Amanite tue-mouches",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:amanite"
+  },
+  {
+   "id": "piment-jalapeno",
+   "answer": "Piment jalapeño",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:jalapeno"
+  },
+  {
+   "id": "tomate-cerise",
+   "answer": "Tomate cerise",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Tomate cerise"
+  },
+  {
+   "id": "pomme-de-terre-violette",
+   "answer": "Pomme de terre violette",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:vitelotte"
+  },
+  {
+   "id": "oignon-rouge",
+   "answer": "Oignon rouge",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Oignon rouge"
+  },
+  {
+   "id": "cacao",
+   "answer": "Cacao",
+   "exact": [
+    "cabosse"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Cabosse"
+  },
+  {
+   "id": "cafe",
+   "answer": "Café",
+   "exact": [
+    "grain de cafe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:Grain de café"
+  },
+  {
+   "id": "canne-a-sucre",
+   "answer": "Canne à sucre",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:canne a sucre"
+  },
+  {
+   "id": "cardon",
+   "answer": "Cardon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Cardon"
+  },
+  {
+   "id": "gombo",
+   "answer": "Gombo",
+   "exact": [
+    "okra"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:Gombo"
+  },
+  {
+   "id": "taro",
+   "answer": "Taro",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Taro"
+  },
+  {
+   "id": "lotus",
+   "answer": "Lotus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:Racine de lotus"
   }
  ]
 }
