@@ -132,7 +132,7 @@ legend { color: var(--cyan); font-weight: 700; padding: 0 6px; }
 
 /* ── players ── */
 .players { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; align-content: start; }
-@media (max-width: 860px) { .players { display: flex; overflow-x: auto; } .pcard { min-width: 150px; } }
+@media (max-width: 860px) { .players { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 14px 8px; } }
 .pcard { position: relative; display: flex; align-items: center; gap: 10px; padding: 8px 10px; background: var(--panel); border: 2px solid var(--line); border-radius: 14px; transition: transform .2s, border-color .2s; }
 .pcard.me { border-color: #ffffff40; }
 .pcard.off { opacity: .4; }
@@ -221,5 +221,15 @@ img.avatar { object-fit: cover; display: block; }
 .reply-bar { display: flex; align-items: center; gap: 6px; margin: 0 8px; padding: 4px 8px; font-size: .85em; background: var(--panel2); border-radius: 8px 8px 0 0; color: var(--muted); }
 .reply-bar span { flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .reply-bar button { background: none; border: 0; color: inherit; cursor: pointer; }
-@media (min-width: 861px) { .players { max-height: 42vh; overflow-y: auto; padding-bottom: 14px; } }
 @media (min-width: 861px) { .q-image { height: min(58vh, 640px); width: auto; max-height: none; } }
+/* everyone visible at once: cards shrink with the player count (no scrolling) */
+.players.compact { grid-template-columns: repeat(auto-fill, minmax(125px, 1fr)); gap: 14px 6px; }
+.players.compact .pcard { padding: 4px 6px; gap: 6px; border-radius: 10px; }
+.players.compact .avatar { width: 30px !important; height: 30px !important; font-size: 12px !important; }
+.players.compact .pname { font-size: .85em; } .players.compact .pscore { font-size: .9em; }
+.players.tiny { grid-template-columns: repeat(auto-fill, minmax(98px, 1fr)); gap: 13px 4px; }
+.players.tiny .avatar { width: 22px !important; height: 22px !important; font-size: 9px !important; }
+.players.tiny .pname { font-size: .75em; } .players.tiny .pscore { font-size: .8em; }
+.players.tiny .pguess { font-size: .85em; }
+.pname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .pinfo { min-width: 0; }
+.players.compact .pfound, .players.tiny .pfound { font-size: .75em; }

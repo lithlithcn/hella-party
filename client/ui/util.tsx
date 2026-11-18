@@ -32,4 +32,4 @@ export function Logo({ big }: { big?: boolean }) {
   );
 }
 
-export const fmtMs = (ms: number) => `${(ms / 1000).toFixed(1)} s`;
+export const fmtMs = (ms: number) => `${(ms / 1000).toFixed(3)} s`;

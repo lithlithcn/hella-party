@@ -167,7 +167,7 @@ export class Game {
     const packs = this.packQuestions();
     if (!packs.length) return this.fx(this.leaderId, 'error', { msg: 'Aucun pack sélectionné' });
     for (const p of this.list) p.score = 0;
-    this.status = 'playing'; this.round = 0; this.winners = []; this.used.clear(); this.history = []; this.forced = []; this.prepared = null;
+    this.status = 'playing'; this.round = 0; this.winners = []; this.used.clear(); this.history = []; this.forced = []; this.prepared = []; this.prepGen++;
     this.initFeatures();
     this.emit('gameStart', {});
     this.nextRound();
@@ -206,12 +206,14 @@ export class Game {
     });
   }
 
-  private prepared: Question | null = null;
+  private prepared: Question[] = [];
+  private prepGen = 0; private preparing = false;
+  static AHEAD = 4; // questions resolved (images downloaded server-side + preloaded by clients) in advance
   private mediaFails = new Set<string>();
 
   /** Next playable question: forced ones first, then the preloaded one, then random picks (unusable ones skipped). */
   private async nextQuestion(usePrepared = true): Promise<Question | null> {
-    if (usePrepared && !this.forced.length && this.prepared) { const q = this.prepared; this.prepared = null; return q; }
+    if (usePrepared && !this.forced.length && this.prepared.length) { const q = this.prepared.shift()!; this.prepareAhead(); return q; }
     for (let i = 0; i < 10; i++) {
       const c = this.forced.shift() ?? this.pick();
       if (!c) return null;
@@ -222,13 +224,18 @@ export class Game {
     return null;
   }
 
-  /** During the reveal, pick + resolve the next question and tell clients to preload its image. */
-  private async prepareNext() {
-    if (this.forced.length) return;
-    const q = await this.nextQuestion(false);
-    if (this.status !== 'playing' || !q) return;
-    this.prepared = q;
-    if (q.type === 'image' && q.src) this.fx(null, 'preload', { src: q.src });
+  /** Keep AHEAD questions resolved in advance (one at a time) and tell clients to preload their images. */
+  private async prepareAhead() {
+    if (this.preparing) return;
+    this.preparing = true; const gen = this.prepGen;
+    try {
+      while (this.status === 'playing' && gen === this.prepGen && this.prepared.length < Game.AHEAD) {
+        const q = await this.nextQuestion(false);
+        if (!q || gen !== this.prepGen || this.status !== 'playing') break;
+        this.prepared.push(q);
+        if (q.type === 'image' && q.src) this.fx(null, 'preload', { src: q.src });
+      }
+    } finally { this.preparing = false; }
   }
 
   /** Every connected human failed to load the media → replace the question silently. */
@@ -252,6 +259,7 @@ export class Game {
     this.question = q; this.round++; this.history.push(q); this.found.clear(); this.guesses.clear();
     this.setPhase('question', (q.time || this.setting<number>('answerTime')) * 1000, undefined, () => this.endQuestion());
     this.emit('questionStart', {});
+    this.prepareAhead();
   }
 
   private endQuestion() {
@@ -262,10 +270,10 @@ export class Game {
       answer: q.answer, src: q.type === 'image' ? q.src : undefined, explain: q.explain,
       finders: [...this.found].map(([id, f]) => ({ id, ...f })).sort((a, b) => a.ms - b.ms),
     };
-    const names = this.reveal.finders.map(f => `${this.players.get(f.id)?.name ?? '?'} (${(f.ms / 1000).toFixed(1)} s)`);
+    const names = this.reveal.finders.map(f => `${this.players.get(f.id)?.name ?? '?'} (${(f.ms / 1000).toFixed(3)} s)`);
     this.chat(`✅ ${q.answer}${names.length ? ` — trouvé par ${names.join(', ')}` : ' — personne n\'a trouvé'}`);
     this.setPhase('reveal', this.setting<number>('revealTime') * 1000, undefined, () => this.nextRound());
-    this.prepareNext();
+    this.prepareAhead();
   }
 
   pack(id: string) { return PACKS[id] ?? this.extra[id]; }

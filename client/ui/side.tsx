@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'preact/hooks';
+import { useLayoutEffect, useRef } from 'preact/hooks';
 import type { PublicState } from '../../shared/protocol';
 import { CLIENT_FEATURES } from '../feature';
 import { send, store } from '../store';
@@ -12,7 +12,7 @@ export function Players({ s }: { s: PublicState }) {
   const reveal = s.phase?.name === 'reveal';
   const [edit, setEdit] = useState(false);
   return (
-    <section class="players">
+    <section class={`players ${list.length > 16 ? 'tiny' : list.length > 6 ? 'compact' : ''}`}>
       {edit && <AvatarEditor onClose={() => setEdit(false)} onDone={d => { myAvatar.set(d); send({ t: 'avatar', data: d }); setEdit(false); }} />}
       {list.map(p => {
         const f = p.found;
@@ -41,11 +41,14 @@ const jump = (id: number) => { const el = document.querySelector(`[data-mid="${i
 export function Chat() {
   const box = useRef<HTMLDivElement>(null);
   const [reply, setReply] = useState<ChatLine | null>(null);
-  useEffect(() => { box.current?.scrollTo(0, box.current.scrollHeight); }, [store.chat.length]);
+  // Discord-like: stick to the bottom unless the user scrolled up to read (the log is capped, so watch the last line, not the length)
+  const stick = useRef(true);
+  const last = store.chat[store.chat.length - 1];
+  useLayoutEffect(() => { const b = box.current; if (b && (stick.current || last?.from === store.s?.me)) b.scrollTop = b.scrollHeight; }, [last]);
   const pick = (c: ChatLine) => { if (c.id == null) return; setReply(c); chatInput.el?.focus(); };
   return (
     <section class="chat">
-      <div class="chat-log" ref={box}>
+      <div class="chat-log" ref={box} onScroll={e => { const b = e.currentTarget; stick.current = b.scrollHeight - b.scrollTop - b.clientHeight < 60; }}>
         {store.chat.map((c, i) => (
           <div key={c.id ?? `s${i}`} data-mid={c.id} class={c.from ? 'msg' : 'msg sys'}>
             {c.reply && <div class="mquote" onClick={() => jump(c.reply!.id)}>↪ <b style={{ color: c.reply.from ? nameColor(c.reply.from) : undefined }}>{c.reply.name}</b> {c.reply.text}</div>}
