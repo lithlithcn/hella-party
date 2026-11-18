@@ -3,7 +3,7 @@ import { CLIENT_FEATURES } from '../feature';
 import { DEBUG, send, store } from '../store';
 import { play } from '../sfx';
 
-const GROUPS: Record<string, string> = { '': 'Partie', scoring: 'Score', goal: 'Victoire', bots: 'Debug : bots' };
+const GROUPS: Record<string, string> = { '': 'Partie', scoring: 'Score', goal: 'Victoire', chain: 'Enchaînement bonus', bots: 'Debug : bots' };
 
 export function Lobby({ s }: { s: PublicState }) {
   const isLeader = s.players.find(p => p.id === s.me)?.leader;
