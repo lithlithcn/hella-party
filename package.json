@@ -1,0 +1,33 @@
+{
+  "name": "hella-party",
+  "version": "1.0.0",
+  "scripts": {
+    "gen": "node scripts/gen.mjs",
+    "build": "npm run gen && vite build",
+    "dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "check": "npm run gen && tsc --noEmit",
+    "sim": "node scripts/sim.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lithlithcn/hella-party.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lithlithcn/hella-party/issues"
+  },
+  "homepage": "https://github.com/lithlithcn/hella-party#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261117.1",
+    "@preact/preset-vite": "^2.10.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "wrangler": "^4.164.0",
+    "ws": "^8.23.0"
+  },
+  "dependencies": {
+    "preact": "^11.2.0"
+  },
+  "private": true,
+  "type": "module"
+}

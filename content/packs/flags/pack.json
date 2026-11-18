@@ -1,0 +1,2479 @@
+{
+ "id": "flags",
+ "name": "Drapeaux",
+ "prompt": "Quel est ce pays ?",
+ "questions": [
+  {
+   "id": "ad",
+   "type": "image",
+   "src": "ad.webp",
+   "answer": "Andorre",
+   "exact": [
+    "Andorre",
+    "Andorra"
+   ]
+  },
+  {
+   "id": "ae",
+   "type": "image",
+   "src": "ae.webp",
+   "answer": "Émirats arabes unis",
+   "exact": [
+    "Émirats arabes unis",
+    "United Arab Emirates",
+    "Emirats",
+    "UAE"
+   ]
+  },
+  {
+   "id": "af",
+   "type": "image",
+   "src": "af.webp",
+   "answer": "Afghanistan",
+   "exact": [
+    "Afghanistan"
+   ]
+  },
+  {
+   "id": "ag",
+   "type": "image",
+   "src": "ag.webp",
+   "answer": "Antigua-et-Barbuda",
+   "exact": [
+    "Antigua-et-Barbuda",
+    "Antigua & Barbuda"
+   ]
+  },
+  {
+   "id": "ai",
+   "type": "image",
+   "src": "ai.webp",
+   "answer": "Anguilla",
+   "exact": [
+    "Anguilla"
+   ]
+  },
+  {
+   "id": "al",
+   "type": "image",
+   "src": "al.webp",
+   "answer": "Albanie",
+   "exact": [
+    "Albanie",
+    "Albania"
+   ]
+  },
+  {
+   "id": "am",
+   "type": "image",
+   "src": "am.webp",
+   "answer": "Arménie",
+   "exact": [
+    "Arménie",
+    "Armenia"
+   ]
+  },
+  {
+   "id": "ao",
+   "type": "image",
+   "src": "ao.webp",
+   "answer": "Angola",
+   "exact": [
+    "Angola"
+   ]
+  },
+  {
+   "id": "aq",
+   "type": "image",
+   "src": "aq.webp",
+   "answer": "Antarctique",
+   "exact": [
+    "Antarctique",
+    "Antarctica"
+   ]
+  },
+  {
+   "id": "ar",
+   "type": "image",
+   "src": "ar.webp",
+   "answer": "Argentine",
+   "exact": [
+    "Argentine",
+    "Argentina"
+   ]
+  },
+  {
+   "id": "as",
+   "type": "image",
+   "src": "as.webp",
+   "answer": "Samoa américaines",
+   "exact": [
+    "Samoa américaines",
+    "American Samoa"
+   ]
+  },
+  {
+   "id": "at",
+   "type": "image",
+   "src": "at.webp",
+   "answer": "Autriche",
+   "exact": [
+    "Autriche",
+    "Austria"
+   ]
+  },
+  {
+   "id": "au",
+   "type": "image",
+   "src": "au.webp",
+   "answer": "Australie",
+   "exact": [
+    "Australie",
+    "Australia"
+   ]
+  },
+  {
+   "id": "aw",
+   "type": "image",
+   "src": "aw.webp",
+   "answer": "Aruba",
+   "exact": [
+    "Aruba"
+   ]
+  },
+  {
+   "id": "ax",
+   "type": "image",
+   "src": "ax.webp",
+   "answer": "Îles Åland",
+   "exact": [
+    "Îles Åland",
+    "Åland Islands"
+   ]
+  },
+  {
+   "id": "az",
+   "type": "image",
+   "src": "az.webp",
+   "answer": "Azerbaïdjan",
+   "exact": [
+    "Azerbaïdjan",
+    "Azerbaijan"
+   ]
+  },
+  {
+   "id": "ba",
+   "type": "image",
+   "src": "ba.webp",
+   "answer": "Bosnie-Herzégovine",
+   "exact": [
+    "Bosnie-Herzégovine",
+    "Bosnia & Herzegovina",
+    "Bosnie"
+   ]
+  },
+  {
+   "id": "bb",
+   "type": "image",
+   "src": "bb.webp",
+   "answer": "Barbade",
+   "exact": [
+    "Barbade",
+    "Barbados"
+   ]
+  },
+  {
+   "id": "bd",
+   "type": "image",
+   "src": "bd.webp",
+   "answer": "Bangladesh",
+   "exact": [
+    "Bangladesh"
+   ]
+  },
+  {
+   "id": "be",
+   "type": "image",
+   "src": "be.webp",
+   "answer": "Belgique",
+   "exact": [
+    "Belgique",
+    "Belgium"
+   ]
+  },
+  {
+   "id": "bf",
+   "type": "image",
+   "src": "bf.webp",
+   "answer": "Burkina Faso",
+   "exact": [
+    "Burkina Faso"
+   ]
+  },
+  {
+   "id": "bg",
+   "type": "image",
+   "src": "bg.webp",
+   "answer": "Bulgarie",
+   "exact": [
+    "Bulgarie",
+    "Bulgaria"
+   ]
+  },
+  {
+   "id": "bh",
+   "type": "image",
+   "src": "bh.webp",
+   "answer": "Bahreïn",
+   "exact": [
+    "Bahreïn",
+    "Bahrain"
+   ]
+  },
+  {
+   "id": "bi",
+   "type": "image",
+   "src": "bi.webp",
+   "answer": "Burundi",
+   "exact": [
+    "Burundi"
+   ]
+  },
+  {
+   "id": "bj",
+   "type": "image",
+   "src": "bj.webp",
+   "answer": "Bénin",
+   "exact": [
+    "Bénin",
+    "Benin"
+   ]
+  },
+  {
+   "id": "bl",
+   "type": "image",
+   "src": "bl.webp",
+   "answer": "Saint-Barthélemy",
+   "exact": [
+    "Saint-Barthélemy",
+    "St. Barthélemy"
+   ]
+  },
+  {
+   "id": "bm",
+   "type": "image",
+   "src": "bm.webp",
+   "answer": "Bermudes",
+   "exact": [
+    "Bermudes",
+    "Bermuda"
+   ]
+  },
+  {
+   "id": "bn",
+   "type": "image",
+   "src": "bn.webp",
+   "answer": "Brunei",
+   "exact": [
+    "Brunei"
+   ]
+  },
+  {
+   "id": "bo",
+   "type": "image",
+   "src": "bo.webp",
+   "answer": "Bolivie",
+   "exact": [
+    "Bolivie",
+    "Bolivia"
+   ]
+  },
+  {
+   "id": "bq",
+   "type": "image",
+   "src": "bq.webp",
+   "answer": "Pays-Bas caribéens",
+   "exact": [
+    "Pays-Bas caribéens",
+    "Caribbean Netherlands"
+   ]
+  },
+  {
+   "id": "br",
+   "type": "image",
+   "src": "br.webp",
+   "answer": "Brésil",
+   "exact": [
+    "Brésil",
+    "Brazil"
+   ]
+  },
+  {
+   "id": "bs",
+   "type": "image",
+   "src": "bs.webp",
+   "answer": "Bahamas",
+   "exact": [
+    "Bahamas"
+   ]
+  },
+  {
+   "id": "bt",
+   "type": "image",
+   "src": "bt.webp",
+   "answer": "Bhoutan",
+   "exact": [
+    "Bhoutan",
+    "Bhutan"
+   ]
+  },
+  {
+   "id": "bv",
+   "type": "image",
+   "src": "bv.webp",
+   "answer": "Île Bouvet",
+   "exact": [
+    "Île Bouvet",
+    "Bouvet Island"
+   ]
+  },
+  {
+   "id": "bw",
+   "type": "image",
+   "src": "bw.webp",
+   "answer": "Botswana",
+   "exact": [
+    "Botswana"
+   ]
+  },
+  {
+   "id": "by",
+   "type": "image",
+   "src": "by.webp",
+   "answer": "Biélorussie",
+   "exact": [
+    "Biélorussie",
+    "Belarus"
+   ]
+  },
+  {
+   "id": "bz",
+   "type": "image",
+   "src": "bz.webp",
+   "answer": "Belize",
+   "exact": [
+    "Belize"
+   ]
+  },
+  {
+   "id": "ca",
+   "type": "image",
+   "src": "ca.webp",
+   "answer": "Canada",
+   "exact": [
+    "Canada"
+   ]
+  },
+  {
+   "id": "cc",
+   "type": "image",
+   "src": "cc.webp",
+   "answer": "Îles Cocos",
+   "exact": [
+    "Îles Cocos",
+    "Cocos (Keeling) Islands"
+   ]
+  },
+  {
+   "id": "cd",
+   "type": "image",
+   "src": "cd.webp",
+   "answer": "Congo-Kinshasa",
+   "exact": [
+    "Congo-Kinshasa",
+    "Congo - Kinshasa",
+    "RDC",
+    "Congo Kinshasa"
+   ]
+  },
+  {
+   "id": "cf",
+   "type": "image",
+   "src": "cf.webp",
+   "answer": "République centrafricaine",
+   "exact": [
+    "République centrafricaine",
+    "Central African Republic"
+   ]
+  },
+  {
+   "id": "cg",
+   "type": "image",
+   "src": "cg.webp",
+   "answer": "Congo-Brazzaville",
+   "exact": [
+    "Congo-Brazzaville",
+    "Congo - Brazzaville",
+    "Congo Brazzaville"
+   ]
+  },
+  {
+   "id": "ch",
+   "type": "image",
+   "src": "ch.webp",
+   "answer": "Suisse",
+   "exact": [
+    "Suisse",
+    "Switzerland"
+   ]
+  },
+  {
+   "id": "ci",
+   "type": "image",
+   "src": "ci.webp",
+   "answer": "Côte d’Ivoire",
+   "exact": [
+    "Côte d’Ivoire",
+    "Côte d Ivoire",
+    "Ivory Coast"
+   ]
+  },
+  {
+   "id": "ck",
+   "type": "image",
+   "src": "ck.webp",
+   "answer": "Îles Cook",
+   "exact": [
+    "Îles Cook",
+    "Cook Islands"
+   ]
+  },
+  {
+   "id": "cl",
+   "type": "image",
+   "src": "cl.webp",
+   "answer": "Chili",
+   "exact": [
+    "Chili",
+    "Chile"
+   ]
+  },
+  {
+   "id": "cm",
+   "type": "image",
+   "src": "cm.webp",
+   "answer": "Cameroun",
+   "exact": [
+    "Cameroun",
+    "Cameroon"
+   ]
+  },
+  {
+   "id": "cn",
+   "type": "image",
+   "src": "cn.webp",
+   "answer": "Chine",
+   "exact": [
+    "Chine",
+    "China"
+   ]
+  },
+  {
+   "id": "co",
+   "type": "image",
+   "src": "co.webp",
+   "answer": "Colombie",
+   "exact": [
+    "Colombie",
+    "Colombia"
+   ]
+  },
+  {
+   "id": "cr",
+   "type": "image",
+   "src": "cr.webp",
+   "answer": "Costa Rica",
+   "exact": [
+    "Costa Rica"
+   ]
+  },
+  {
+   "id": "cu",
+   "type": "image",
+   "src": "cu.webp",
+   "answer": "Cuba",
+   "exact": [
+    "Cuba"
+   ]
+  },
+  {
+   "id": "cv",
+   "type": "image",
+   "src": "cv.webp",
+   "answer": "Cap-Vert",
+   "exact": [
+    "Cap-Vert",
+    "Cape Verde"
+   ]
+  },
+  {
+   "id": "cw",
+   "type": "image",
+   "src": "cw.webp",
+   "answer": "Curaçao",
+   "exact": [
+    "Curaçao"
+   ]
+  },
+  {
+   "id": "cy",
+   "type": "image",
+   "src": "cy.webp",
+   "answer": "Chypre",
+   "exact": [
+    "Chypre",
+    "Cyprus"
+   ]
+  },
+  {
+   "id": "cz",
+   "type": "image",
+   "src": "cz.webp",
+   "answer": "Tchéquie",
+   "exact": [
+    "Tchéquie",
+    "Czechia",
+    "Czech Republic"
+   ]
+  },
+  {
+   "id": "de",
+   "type": "image",
+   "src": "de.webp",
+   "answer": "Allemagne",
+   "exact": [
+    "Allemagne",
+    "Germany"
+   ]
+  },
+  {
+   "id": "dj",
+   "type": "image",
+   "src": "dj.webp",
+   "answer": "Djibouti",
+   "exact": [
+    "Djibouti"
+   ]
+  },
+  {
+   "id": "dk",
+   "type": "image",
+   "src": "dk.webp",
+   "answer": "Danemark",
+   "exact": [
+    "Danemark",
+    "Denmark"
+   ]
+  },
+  {
+   "id": "dm",
+   "type": "image",
+   "src": "dm.webp",
+   "answer": "Dominique",
+   "exact": [
+    "Dominique",
+    "Dominica"
+   ]
+  },
+  {
+   "id": "do",
+   "type": "image",
+   "src": "do.webp",
+   "answer": "République dominicaine",
+   "exact": [
+    "République dominicaine",
+    "Dominican Republic"
+   ]
+  },
+  {
+   "id": "dz",
+   "type": "image",
+   "src": "dz.webp",
+   "answer": "Algérie",
+   "exact": [
+    "Algérie",
+    "Algeria"
+   ]
+  },
+  {
+   "id": "ec",
+   "type": "image",
+   "src": "ec.webp",
+   "answer": "Équateur",
+   "exact": [
+    "Équateur",
+    "Ecuador"
+   ]
+  },
+  {
+   "id": "ee",
+   "type": "image",
+   "src": "ee.webp",
+   "answer": "Estonie",
+   "exact": [
+    "Estonie",
+    "Estonia"
+   ]
+  },
+  {
+   "id": "eg",
+   "type": "image",
+   "src": "eg.webp",
+   "answer": "Égypte",
+   "exact": [
+    "Égypte",
+    "Egypt"
+   ]
+  },
+  {
+   "id": "eh",
+   "type": "image",
+   "src": "eh.webp",
+   "answer": "Sahara occidental",
+   "exact": [
+    "Sahara occidental",
+    "Western Sahara"
+   ]
+  },
+  {
+   "id": "er",
+   "type": "image",
+   "src": "er.webp",
+   "answer": "Érythrée",
+   "exact": [
+    "Érythrée",
+    "Eritrea"
+   ]
+  },
+  {
+   "id": "es",
+   "type": "image",
+   "src": "es.webp",
+   "answer": "Espagne",
+   "exact": [
+    "Espagne",
+    "Spain"
+   ]
+  },
+  {
+   "id": "et",
+   "type": "image",
+   "src": "et.webp",
+   "answer": "Éthiopie",
+   "exact": [
+    "Éthiopie",
+    "Ethiopia"
+   ]
+  },
+  {
+   "id": "fi",
+   "type": "image",
+   "src": "fi.webp",
+   "answer": "Finlande",
+   "exact": [
+    "Finlande",
+    "Finland"
+   ]
+  },
+  {
+   "id": "fj",
+   "type": "image",
+   "src": "fj.webp",
+   "answer": "Fidji",
+   "exact": [
+    "Fidji",
+    "Fiji"
+   ]
+  },
+  {
+   "id": "fk",
+   "type": "image",
+   "src": "fk.webp",
+   "answer": "Îles Malouines",
+   "exact": [
+    "Îles Malouines",
+    "Falkland Islands"
+   ]
+  },
+  {
+   "id": "fm",
+   "type": "image",
+   "src": "fm.webp",
+   "answer": "Micronésie",
+   "exact": [
+    "Micronésie",
+    "Micronesia"
+   ]
+  },
+  {
+   "id": "fo",
+   "type": "image",
+   "src": "fo.webp",
+   "answer": "Îles Féroé",
+   "exact": [
+    "Îles Féroé",
+    "Faroe Islands"
+   ]
+  },
+  {
+   "id": "fr",
+   "type": "image",
+   "src": "fr.webp",
+   "answer": "France",
+   "exact": [
+    "France"
+   ]
+  },
+  {
+   "id": "ga",
+   "type": "image",
+   "src": "ga.webp",
+   "answer": "Gabon",
+   "exact": [
+    "Gabon"
+   ]
+  },
+  {
+   "id": "gb-eng",
+   "type": "image",
+   "src": "gb-eng.webp",
+   "answer": "Angleterre",
+   "exact": [
+    "Angleterre",
+    "England"
+   ]
+  },
+  {
+   "id": "gb-nir",
+   "type": "image",
+   "src": "gb-nir.webp",
+   "answer": "Irlande du Nord",
+   "exact": [
+    "Irlande du Nord",
+    "Northern Ireland"
+   ]
+  },
+  {
+   "id": "gb-sct",
+   "type": "image",
+   "src": "gb-sct.webp",
+   "answer": "Écosse",
+   "exact": [
+    "Écosse",
+    "Scotland"
+   ]
+  },
+  {
+   "id": "gb-wls",
+   "type": "image",
+   "src": "gb-wls.webp",
+   "answer": "Pays de Galles",
+   "exact": [
+    "Pays de Galles",
+    "Wales"
+   ]
+  },
+  {
+   "id": "gb",
+   "type": "image",
+   "src": "gb.webp",
+   "answer": "Royaume-Uni",
+   "exact": [
+    "Royaume-Uni",
+    "United Kingdom",
+    "UK",
+    "Angleterre",
+    "Grande-Bretagne",
+    "Great Britain",
+    "England"
+   ]
+  },
+  {
+   "id": "gd",
+   "type": "image",
+   "src": "gd.webp",
+   "answer": "Grenade",
+   "exact": [
+    "Grenade",
+    "Grenada"
+   ]
+  },
+  {
+   "id": "ge",
+   "type": "image",
+   "src": "ge.webp",
+   "answer": "Géorgie",
+   "exact": [
+    "Géorgie",
+    "Georgia"
+   ]
+  },
+  {
+   "id": "gf",
+   "type": "image",
+   "src": "gf.webp",
+   "answer": "Guyane française",
+   "exact": [
+    "Guyane française",
+    "French Guiana"
+   ]
+  },
+  {
+   "id": "gg",
+   "type": "image",
+   "src": "gg.webp",
+   "answer": "Guernesey",
+   "exact": [
+    "Guernesey",
+    "Guernsey"
+   ]
+  },
+  {
+   "id": "gh",
+   "type": "image",
+   "src": "gh.webp",
+   "answer": "Ghana",
+   "exact": [
+    "Ghana"
+   ]
+  },
+  {
+   "id": "gi",
+   "type": "image",
+   "src": "gi.webp",
+   "answer": "Gibraltar",
+   "exact": [
+    "Gibraltar"
+   ]
+  },
+  {
+   "id": "gl",
+   "type": "image",
+   "src": "gl.webp",
+   "answer": "Groenland",
+   "exact": [
+    "Groenland",
+    "Greenland"
+   ]
+  },
+  {
+   "id": "gm",
+   "type": "image",
+   "src": "gm.webp",
+   "answer": "Gambie",
+   "exact": [
+    "Gambie",
+    "Gambia"
+   ]
+  },
+  {
+   "id": "gn",
+   "type": "image",
+   "src": "gn.webp",
+   "answer": "Guinée",
+   "exact": [
+    "Guinée",
+    "Guinea"
+   ]
+  },
+  {
+   "id": "gp",
+   "type": "image",
+   "src": "gp.webp",
+   "answer": "Guadeloupe",
+   "exact": [
+    "Guadeloupe"
+   ]
+  },
+  {
+   "id": "gq",
+   "type": "image",
+   "src": "gq.webp",
+   "answer": "Guinée équatoriale",
+   "exact": [
+    "Guinée équatoriale",
+    "Equatorial Guinea"
+   ]
+  },
+  {
+   "id": "gr",
+   "type": "image",
+   "src": "gr.webp",
+   "answer": "Grèce",
+   "exact": [
+    "Grèce",
+    "Greece"
+   ]
+  },
+  {
+   "id": "gs",
+   "type": "image",
+   "src": "gs.webp",
+   "answer": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+   "exact": [
+    "Géorgie du Sud-et-les Îles Sandwich du Sud",
+    "South Georgia & South Sandwich Islands"
+   ]
+  },
+  {
+   "id": "gt",
+   "type": "image",
+   "src": "gt.webp",
+   "answer": "Guatemala",
+   "exact": [
+    "Guatemala"
+   ]
+  },
+  {
+   "id": "gu",
+   "type": "image",
+   "src": "gu.webp",
+   "answer": "Guam",
+   "exact": [
+    "Guam"
+   ]
+  },
+  {
+   "id": "gw",
+   "type": "image",
+   "src": "gw.webp",
+   "answer": "Guinée-Bissau",
+   "exact": [
+    "Guinée-Bissau",
+    "Guinea-Bissau"
+   ]
+  },
+  {
+   "id": "gy",
+   "type": "image",
+   "src": "gy.webp",
+   "answer": "Guyana",
+   "exact": [
+    "Guyana"
+   ]
+  },
+  {
+   "id": "hk",
+   "type": "image",
+   "src": "hk.webp",
+   "answer": "R.A.S. chinoise de Hong Kong",
+   "exact": [
+    "R.A.S. chinoise de Hong Kong",
+    "Hong Kong SAR China"
+   ]
+  },
+  {
+   "id": "hm",
+   "type": "image",
+   "src": "hm.webp",
+   "answer": "Îles Heard-et-MacDonald",
+   "exact": [
+    "Îles Heard-et-MacDonald",
+    "Heard & McDonald Islands"
+   ]
+  },
+  {
+   "id": "hn",
+   "type": "image",
+   "src": "hn.webp",
+   "answer": "Honduras",
+   "exact": [
+    "Honduras"
+   ]
+  },
+  {
+   "id": "hr",
+   "type": "image",
+   "src": "hr.webp",
+   "answer": "Croatie",
+   "exact": [
+    "Croatie",
+    "Croatia"
+   ]
+  },
+  {
+   "id": "ht",
+   "type": "image",
+   "src": "ht.webp",
+   "answer": "Haïti",
+   "exact": [
+    "Haïti",
+    "Haiti"
+   ]
+  },
+  {
+   "id": "hu",
+   "type": "image",
+   "src": "hu.webp",
+   "answer": "Hongrie",
+   "exact": [
+    "Hongrie",
+    "Hungary"
+   ]
+  },
+  {
+   "id": "id",
+   "type": "image",
+   "src": "id.webp",
+   "answer": "Indonésie",
+   "exact": [
+    "Indonésie",
+    "Indonesia"
+   ]
+  },
+  {
+   "id": "ie",
+   "type": "image",
+   "src": "ie.webp",
+   "answer": "Irlande",
+   "exact": [
+    "Irlande",
+    "Ireland"
+   ]
+  },
+  {
+   "id": "il",
+   "type": "image",
+   "src": "il.webp",
+   "answer": "Israël",
+   "exact": [
+    "Israël",
+    "Israel"
+   ]
+  },
+  {
+   "id": "im",
+   "type": "image",
+   "src": "im.webp",
+   "answer": "Île de Man",
+   "exact": [
+    "Île de Man",
+    "Isle of Man"
+   ]
+  },
+  {
+   "id": "in",
+   "type": "image",
+   "src": "in.webp",
+   "answer": "Inde",
+   "exact": [
+    "Inde",
+    "India"
+   ]
+  },
+  {
+   "id": "io",
+   "type": "image",
+   "src": "io.webp",
+   "answer": "Territoire britannique de l’océan Indien",
+   "exact": [
+    "Territoire britannique de l’océan Indien",
+    "British Indian Ocean Territory"
+   ]
+  },
+  {
+   "id": "iq",
+   "type": "image",
+   "src": "iq.webp",
+   "answer": "Irak",
+   "exact": [
+    "Irak",
+    "Iraq"
+   ]
+  },
+  {
+   "id": "ir",
+   "type": "image",
+   "src": "ir.webp",
+   "answer": "Iran",
+   "exact": [
+    "Iran"
+   ]
+  },
+  {
+   "id": "is",
+   "type": "image",
+   "src": "is.webp",
+   "answer": "Islande",
+   "exact": [
+    "Islande",
+    "Iceland"
+   ]
+  },
+  {
+   "id": "it",
+   "type": "image",
+   "src": "it.webp",
+   "answer": "Italie",
+   "exact": [
+    "Italie",
+    "Italy"
+   ]
+  },
+  {
+   "id": "je",
+   "type": "image",
+   "src": "je.webp",
+   "answer": "Jersey",
+   "exact": [
+    "Jersey"
+   ]
+  },
+  {
+   "id": "jm",
+   "type": "image",
+   "src": "jm.webp",
+   "answer": "Jamaïque",
+   "exact": [
+    "Jamaïque",
+    "Jamaica"
+   ]
+  },
+  {
+   "id": "jo",
+   "type": "image",
+   "src": "jo.webp",
+   "answer": "Jordanie",
+   "exact": [
+    "Jordanie",
+    "Jordan"
+   ]
+  },
+  {
+   "id": "jp",
+   "type": "image",
+   "src": "jp.webp",
+   "answer": "Japon",
+   "exact": [
+    "Japon",
+    "Japan"
+   ]
+  },
+  {
+   "id": "ke",
+   "type": "image",
+   "src": "ke.webp",
+   "answer": "Kenya",
+   "exact": [
+    "Kenya"
+   ]
+  },
+  {
+   "id": "kg",
+   "type": "image",
+   "src": "kg.webp",
+   "answer": "Kirghizstan",
+   "exact": [
+    "Kirghizstan",
+    "Kyrgyzstan"
+   ]
+  },
+  {
+   "id": "kh",
+   "type": "image",
+   "src": "kh.webp",
+   "answer": "Cambodge",
+   "exact": [
+    "Cambodge",
+    "Cambodia"
+   ]
+  },
+  {
+   "id": "ki",
+   "type": "image",
+   "src": "ki.webp",
+   "answer": "Kiribati",
+   "exact": [
+    "Kiribati"
+   ]
+  },
+  {
+   "id": "km",
+   "type": "image",
+   "src": "km.webp",
+   "answer": "Comores",
+   "exact": [
+    "Comores",
+    "Comoros"
+   ]
+  },
+  {
+   "id": "kn",
+   "type": "image",
+   "src": "kn.webp",
+   "answer": "Saint-Christophe-et-Niévès",
+   "exact": [
+    "Saint-Christophe-et-Niévès",
+    "St. Kitts & Nevis"
+   ]
+  },
+  {
+   "id": "kp",
+   "type": "image",
+   "src": "kp.webp",
+   "answer": "Corée du Nord",
+   "exact": [
+    "Corée du Nord",
+    "North Korea"
+   ]
+  },
+  {
+   "id": "kr",
+   "type": "image",
+   "src": "kr.webp",
+   "answer": "Corée du Sud",
+   "exact": [
+    "Corée du Sud",
+    "South Korea",
+    "Corée",
+    "Korea"
+   ]
+  },
+  {
+   "id": "kw",
+   "type": "image",
+   "src": "kw.webp",
+   "answer": "Koweït",
+   "exact": [
+    "Koweït",
+    "Kuwait"
+   ]
+  },
+  {
+   "id": "ky",
+   "type": "image",
+   "src": "ky.webp",
+   "answer": "Îles Caïmans",
+   "exact": [
+    "Îles Caïmans",
+    "Cayman Islands"
+   ]
+  },
+  {
+   "id": "kz",
+   "type": "image",
+   "src": "kz.webp",
+   "answer": "Kazakhstan",
+   "exact": [
+    "Kazakhstan"
+   ]
+  },
+  {
+   "id": "la",
+   "type": "image",
+   "src": "la.webp",
+   "answer": "Laos",
+   "exact": [
+    "Laos"
+   ]
+  },
+  {
+   "id": "lb",
+   "type": "image",
+   "src": "lb.webp",
+   "answer": "Liban",
+   "exact": [
+    "Liban",
+    "Lebanon"
+   ]
+  },
+  {
+   "id": "lc",
+   "type": "image",
+   "src": "lc.webp",
+   "answer": "Sainte-Lucie",
+   "exact": [
+    "Sainte-Lucie",
+    "St. Lucia"
+   ]
+  },
+  {
+   "id": "li",
+   "type": "image",
+   "src": "li.webp",
+   "answer": "Liechtenstein",
+   "exact": [
+    "Liechtenstein"
+   ]
+  },
+  {
+   "id": "lk",
+   "type": "image",
+   "src": "lk.webp",
+   "answer": "Sri Lanka",
+   "exact": [
+    "Sri Lanka"
+   ]
+  },
+  {
+   "id": "lr",
+   "type": "image",
+   "src": "lr.webp",
+   "answer": "Liberia",
+   "exact": [
+    "Liberia"
+   ]
+  },
+  {
+   "id": "ls",
+   "type": "image",
+   "src": "ls.webp",
+   "answer": "Lesotho",
+   "exact": [
+    "Lesotho"
+   ]
+  },
+  {
+   "id": "lt",
+   "type": "image",
+   "src": "lt.webp",
+   "answer": "Lituanie",
+   "exact": [
+    "Lituanie",
+    "Lithuania"
+   ]
+  },
+  {
+   "id": "lu",
+   "type": "image",
+   "src": "lu.webp",
+   "answer": "Luxembourg",
+   "exact": [
+    "Luxembourg"
+   ]
+  },
+  {
+   "id": "lv",
+   "type": "image",
+   "src": "lv.webp",
+   "answer": "Lettonie",
+   "exact": [
+    "Lettonie",
+    "Latvia"
+   ]
+  },
+  {
+   "id": "ly",
+   "type": "image",
+   "src": "ly.webp",
+   "answer": "Libye",
+   "exact": [
+    "Libye",
+    "Libya"
+   ]
+  },
+  {
+   "id": "ma",
+   "type": "image",
+   "src": "ma.webp",
+   "answer": "Maroc",
+   "exact": [
+    "Maroc",
+    "Morocco"
+   ]
+  },
+  {
+   "id": "mc",
+   "type": "image",
+   "src": "mc.webp",
+   "answer": "Monaco",
+   "exact": [
+    "Monaco"
+   ]
+  },
+  {
+   "id": "md",
+   "type": "image",
+   "src": "md.webp",
+   "answer": "Moldavie",
+   "exact": [
+    "Moldavie",
+    "Moldova"
+   ]
+  },
+  {
+   "id": "me",
+   "type": "image",
+   "src": "me.webp",
+   "answer": "Monténégro",
+   "exact": [
+    "Monténégro",
+    "Montenegro"
+   ]
+  },
+  {
+   "id": "mf",
+   "type": "image",
+   "src": "mf.webp",
+   "answer": "Saint-Martin",
+   "exact": [
+    "Saint-Martin",
+    "St. Martin"
+   ]
+  },
+  {
+   "id": "mg",
+   "type": "image",
+   "src": "mg.webp",
+   "answer": "Madagascar",
+   "exact": [
+    "Madagascar"
+   ]
+  },
+  {
+   "id": "mh",
+   "type": "image",
+   "src": "mh.webp",
+   "answer": "Îles Marshall",
+   "exact": [
+    "Îles Marshall",
+    "Marshall Islands"
+   ]
+  },
+  {
+   "id": "mk",
+   "type": "image",
+   "src": "mk.webp",
+   "answer": "Macédoine du Nord",
+   "exact": [
+    "Macédoine du Nord",
+    "North Macedonia",
+    "Macédoine"
+   ]
+  },
+  {
+   "id": "ml",
+   "type": "image",
+   "src": "ml.webp",
+   "answer": "Mali",
+   "exact": [
+    "Mali"
+   ]
+  },
+  {
+   "id": "mm",
+   "type": "image",
+   "src": "mm.webp",
+   "answer": "Myanmar (Birmanie)",
+   "exact": [
+    "Myanmar (Birmanie)",
+    "Myanmar (Burma)"
+   ]
+  },
+  {
+   "id": "mn",
+   "type": "image",
+   "src": "mn.webp",
+   "answer": "Mongolie",
+   "exact": [
+    "Mongolie",
+    "Mongolia"
+   ]
+  },
+  {
+   "id": "mo",
+   "type": "image",
+   "src": "mo.webp",
+   "answer": "R.A.S. chinoise de Macao",
+   "exact": [
+    "R.A.S. chinoise de Macao",
+    "Macao SAR China"
+   ]
+  },
+  {
+   "id": "mp",
+   "type": "image",
+   "src": "mp.webp",
+   "answer": "Îles Mariannes du Nord",
+   "exact": [
+    "Îles Mariannes du Nord",
+    "Northern Mariana Islands"
+   ]
+  },
+  {
+   "id": "mq",
+   "type": "image",
+   "src": "mq.webp",
+   "answer": "Martinique",
+   "exact": [
+    "Martinique"
+   ]
+  },
+  {
+   "id": "mr",
+   "type": "image",
+   "src": "mr.webp",
+   "answer": "Mauritanie",
+   "exact": [
+    "Mauritanie",
+    "Mauritania"
+   ]
+  },
+  {
+   "id": "ms",
+   "type": "image",
+   "src": "ms.webp",
+   "answer": "Montserrat",
+   "exact": [
+    "Montserrat"
+   ]
+  },
+  {
+   "id": "mt",
+   "type": "image",
+   "src": "mt.webp",
+   "answer": "Malte",
+   "exact": [
+    "Malte",
+    "Malta"
+   ]
+  },
+  {
+   "id": "mu",
+   "type": "image",
+   "src": "mu.webp",
+   "answer": "Maurice",
+   "exact": [
+    "Maurice",
+    "Mauritius"
+   ]
+  },
+  {
+   "id": "mv",
+   "type": "image",
+   "src": "mv.webp",
+   "answer": "Maldives",
+   "exact": [
+    "Maldives"
+   ]
+  },
+  {
+   "id": "mw",
+   "type": "image",
+   "src": "mw.webp",
+   "answer": "Malawi",
+   "exact": [
+    "Malawi"
+   ]
+  },
+  {
+   "id": "mx",
+   "type": "image",
+   "src": "mx.webp",
+   "answer": "Mexique",
+   "exact": [
+    "Mexique",
+    "Mexico"
+   ]
+  },
+  {
+   "id": "my",
+   "type": "image",
+   "src": "my.webp",
+   "answer": "Malaisie",
+   "exact": [
+    "Malaisie",
+    "Malaysia"
+   ]
+  },
+  {
+   "id": "mz",
+   "type": "image",
+   "src": "mz.webp",
+   "answer": "Mozambique",
+   "exact": [
+    "Mozambique"
+   ]
+  },
+  {
+   "id": "na",
+   "type": "image",
+   "src": "na.webp",
+   "answer": "Namibie",
+   "exact": [
+    "Namibie",
+    "Namibia"
+   ]
+  },
+  {
+   "id": "nc",
+   "type": "image",
+   "src": "nc.webp",
+   "answer": "Nouvelle-Calédonie",
+   "exact": [
+    "Nouvelle-Calédonie",
+    "New Caledonia"
+   ]
+  },
+  {
+   "id": "ne",
+   "type": "image",
+   "src": "ne.webp",
+   "answer": "Niger",
+   "exact": [
+    "Niger"
+   ]
+  },
+  {
+   "id": "nf",
+   "type": "image",
+   "src": "nf.webp",
+   "answer": "Île Norfolk",
+   "exact": [
+    "Île Norfolk",
+    "Norfolk Island"
+   ]
+  },
+  {
+   "id": "ng",
+   "type": "image",
+   "src": "ng.webp",
+   "answer": "Nigeria",
+   "exact": [
+    "Nigeria"
+   ]
+  },
+  {
+   "id": "ni",
+   "type": "image",
+   "src": "ni.webp",
+   "answer": "Nicaragua",
+   "exact": [
+    "Nicaragua"
+   ]
+  },
+  {
+   "id": "nl",
+   "type": "image",
+   "src": "nl.webp",
+   "answer": "Pays-Bas",
+   "exact": [
+    "Pays-Bas",
+    "Netherlands",
+    "Hollande",
+    "Holland"
+   ]
+  },
+  {
+   "id": "no",
+   "type": "image",
+   "src": "no.webp",
+   "answer": "Norvège",
+   "exact": [
+    "Norvège",
+    "Norway"
+   ]
+  },
+  {
+   "id": "nr",
+   "type": "image",
+   "src": "nr.webp",
+   "answer": "Nauru",
+   "exact": [
+    "Nauru"
+   ]
+  },
+  {
+   "id": "nu",
+   "type": "image",
+   "src": "nu.webp",
+   "answer": "Niue",
+   "exact": [
+    "Niue"
+   ]
+  },
+  {
+   "id": "nz",
+   "type": "image",
+   "src": "nz.webp",
+   "answer": "Nouvelle-Zélande",
+   "exact": [
+    "Nouvelle-Zélande",
+    "New Zealand"
+   ]
+  },
+  {
+   "id": "om",
+   "type": "image",
+   "src": "om.webp",
+   "answer": "Oman",
+   "exact": [
+    "Oman"
+   ]
+  },
+  {
+   "id": "pa",
+   "type": "image",
+   "src": "pa.webp",
+   "answer": "Panama",
+   "exact": [
+    "Panama"
+   ]
+  },
+  {
+   "id": "pe",
+   "type": "image",
+   "src": "pe.webp",
+   "answer": "Pérou",
+   "exact": [
+    "Pérou",
+    "Peru"
+   ]
+  },
+  {
+   "id": "pf",
+   "type": "image",
+   "src": "pf.webp",
+   "answer": "Polynésie française",
+   "exact": [
+    "Polynésie française",
+    "French Polynesia"
+   ]
+  },
+  {
+   "id": "pg",
+   "type": "image",
+   "src": "pg.webp",
+   "answer": "Papouasie-Nouvelle-Guinée",
+   "exact": [
+    "Papouasie-Nouvelle-Guinée",
+    "Papua New Guinea"
+   ]
+  },
+  {
+   "id": "ph",
+   "type": "image",
+   "src": "ph.webp",
+   "answer": "Philippines",
+   "exact": [
+    "Philippines"
+   ]
+  },
+  {
+   "id": "pk",
+   "type": "image",
+   "src": "pk.webp",
+   "answer": "Pakistan",
+   "exact": [
+    "Pakistan"
+   ]
+  },
+  {
+   "id": "pl",
+   "type": "image",
+   "src": "pl.webp",
+   "answer": "Pologne",
+   "exact": [
+    "Pologne",
+    "Poland"
+   ]
+  },
+  {
+   "id": "pm",
+   "type": "image",
+   "src": "pm.webp",
+   "answer": "Saint-Pierre-et-Miquelon",
+   "exact": [
+    "Saint-Pierre-et-Miquelon",
+    "St. Pierre & Miquelon"
+   ]
+  },
+  {
+   "id": "pn",
+   "type": "image",
+   "src": "pn.webp",
+   "answer": "Îles Pitcairn",
+   "exact": [
+    "Îles Pitcairn",
+    "Pitcairn Islands"
+   ]
+  },
+  {
+   "id": "pr",
+   "type": "image",
+   "src": "pr.webp",
+   "answer": "Porto Rico",
+   "exact": [
+    "Porto Rico",
+    "Puerto Rico"
+   ]
+  },
+  {
+   "id": "ps",
+   "type": "image",
+   "src": "ps.webp",
+   "answer": "Territoires palestiniens",
+   "exact": [
+    "Territoires palestiniens",
+    "Palestinian Territories",
+    "Palestine"
+   ]
+  },
+  {
+   "id": "pt",
+   "type": "image",
+   "src": "pt.webp",
+   "answer": "Portugal",
+   "exact": [
+    "Portugal"
+   ]
+  },
+  {
+   "id": "pw",
+   "type": "image",
+   "src": "pw.webp",
+   "answer": "Palaos",
+   "exact": [
+    "Palaos",
+    "Palau"
+   ]
+  },
+  {
+   "id": "py",
+   "type": "image",
+   "src": "py.webp",
+   "answer": "Paraguay",
+   "exact": [
+    "Paraguay"
+   ]
+  },
+  {
+   "id": "qa",
+   "type": "image",
+   "src": "qa.webp",
+   "answer": "Qatar",
+   "exact": [
+    "Qatar"
+   ]
+  },
+  {
+   "id": "re",
+   "type": "image",
+   "src": "re.webp",
+   "answer": "La Réunion",
+   "exact": [
+    "La Réunion",
+    "Réunion"
+   ]
+  },
+  {
+   "id": "ro",
+   "type": "image",
+   "src": "ro.webp",
+   "answer": "Roumanie",
+   "exact": [
+    "Roumanie",
+    "Romania"
+   ]
+  },
+  {
+   "id": "rs",
+   "type": "image",
+   "src": "rs.webp",
+   "answer": "Serbie",
+   "exact": [
+    "Serbie",
+    "Serbia"
+   ]
+  },
+  {
+   "id": "ru",
+   "type": "image",
+   "src": "ru.webp",
+   "answer": "Russie",
+   "exact": [
+    "Russie",
+    "Russia"
+   ]
+  },
+  {
+   "id": "rw",
+   "type": "image",
+   "src": "rw.webp",
+   "answer": "Rwanda",
+   "exact": [
+    "Rwanda"
+   ]
+  },
+  {
+   "id": "sa",
+   "type": "image",
+   "src": "sa.webp",
+   "answer": "Arabie saoudite",
+   "exact": [
+    "Arabie saoudite",
+    "Saudi Arabia"
+   ]
+  },
+  {
+   "id": "sb",
+   "type": "image",
+   "src": "sb.webp",
+   "answer": "Îles Salomon",
+   "exact": [
+    "Îles Salomon",
+    "Solomon Islands"
+   ]
+  },
+  {
+   "id": "sc",
+   "type": "image",
+   "src": "sc.webp",
+   "answer": "Seychelles",
+   "exact": [
+    "Seychelles"
+   ]
+  },
+  {
+   "id": "sd",
+   "type": "image",
+   "src": "sd.webp",
+   "answer": "Soudan",
+   "exact": [
+    "Soudan",
+    "Sudan"
+   ]
+  },
+  {
+   "id": "se",
+   "type": "image",
+   "src": "se.webp",
+   "answer": "Suède",
+   "exact": [
+    "Suède",
+    "Sweden"
+   ]
+  },
+  {
+   "id": "sg",
+   "type": "image",
+   "src": "sg.webp",
+   "answer": "Singapour",
+   "exact": [
+    "Singapour",
+    "Singapore"
+   ]
+  },
+  {
+   "id": "sh",
+   "type": "image",
+   "src": "sh.webp",
+   "answer": "Sainte-Hélène",
+   "exact": [
+    "Sainte-Hélène",
+    "St. Helena"
+   ]
+  },
+  {
+   "id": "si",
+   "type": "image",
+   "src": "si.webp",
+   "answer": "Slovénie",
+   "exact": [
+    "Slovénie",
+    "Slovenia"
+   ]
+  },
+  {
+   "id": "sj",
+   "type": "image",
+   "src": "sj.webp",
+   "answer": "Svalbard et Jan Mayen",
+   "exact": [
+    "Svalbard et Jan Mayen",
+    "Svalbard & Jan Mayen"
+   ]
+  },
+  {
+   "id": "sk",
+   "type": "image",
+   "src": "sk.webp",
+   "answer": "Slovaquie",
+   "exact": [
+    "Slovaquie",
+    "Slovakia"
+   ]
+  },
+  {
+   "id": "sl",
+   "type": "image",
+   "src": "sl.webp",
+   "answer": "Sierra Leone",
+   "exact": [
+    "Sierra Leone"
+   ]
+  },
+  {
+   "id": "sm",
+   "type": "image",
+   "src": "sm.webp",
+   "answer": "Saint-Marin",
+   "exact": [
+    "Saint-Marin",
+    "San Marino"
+   ]
+  },
+  {
+   "id": "sn",
+   "type": "image",
+   "src": "sn.webp",
+   "answer": "Sénégal",
+   "exact": [
+    "Sénégal",
+    "Senegal"
+   ]
+  },
+  {
+   "id": "so",
+   "type": "image",
+   "src": "so.webp",
+   "answer": "Somalie",
+   "exact": [
+    "Somalie",
+    "Somalia"
+   ]
+  },
+  {
+   "id": "sr",
+   "type": "image",
+   "src": "sr.webp",
+   "answer": "Suriname",
+   "exact": [
+    "Suriname"
+   ]
+  },
+  {
+   "id": "ss",
+   "type": "image",
+   "src": "ss.webp",
+   "answer": "Soudan du Sud",
+   "exact": [
+    "Soudan du Sud",
+    "South Sudan"
+   ]
+  },
+  {
+   "id": "st",
+   "type": "image",
+   "src": "st.webp",
+   "answer": "Sao Tomé-et-Principe",
+   "exact": [
+    "Sao Tomé-et-Principe",
+    "São Tomé & Príncipe"
+   ]
+  },
+  {
+   "id": "sv",
+   "type": "image",
+   "src": "sv.webp",
+   "answer": "Salvador",
+   "exact": [
+    "Salvador",
+    "El Salvador"
+   ]
+  },
+  {
+   "id": "sx",
+   "type": "image",
+   "src": "sx.webp",
+   "answer": "Saint-Martin (partie néerlandaise)",
+   "exact": [
+    "Saint-Martin (partie néerlandaise)",
+    "Sint Maarten"
+   ]
+  },
+  {
+   "id": "sy",
+   "type": "image",
+   "src": "sy.webp",
+   "answer": "Syrie",
+   "exact": [
+    "Syrie",
+    "Syria"
+   ]
+  },
+  {
+   "id": "sz",
+   "type": "image",
+   "src": "sz.webp",
+   "answer": "Eswatini",
+   "exact": [
+    "Eswatini"
+   ]
+  },
+  {
+   "id": "tc",
+   "type": "image",
+   "src": "tc.webp",
+   "answer": "Îles Turques-et-Caïques",
+   "exact": [
+    "Îles Turques-et-Caïques",
+    "Turks & Caicos Islands"
+   ]
+  },
+  {
+   "id": "td",
+   "type": "image",
+   "src": "td.webp",
+   "answer": "Tchad",
+   "exact": [
+    "Tchad",
+    "Chad"
+   ]
+  },
+  {
+   "id": "tf",
+   "type": "image",
+   "src": "tf.webp",
+   "answer": "Terres australes françaises",
+   "exact": [
+    "Terres australes françaises",
+    "French Southern Territories"
+   ]
+  },
+  {
+   "id": "tg",
+   "type": "image",
+   "src": "tg.webp",
+   "answer": "Togo",
+   "exact": [
+    "Togo"
+   ]
+  },
+  {
+   "id": "th",
+   "type": "image",
+   "src": "th.webp",
+   "answer": "Thaïlande",
+   "exact": [
+    "Thaïlande",
+    "Thailand"
+   ]
+  },
+  {
+   "id": "tj",
+   "type": "image",
+   "src": "tj.webp",
+   "answer": "Tadjikistan",
+   "exact": [
+    "Tadjikistan",
+    "Tajikistan"
+   ]
+  },
+  {
+   "id": "tk",
+   "type": "image",
+   "src": "tk.webp",
+   "answer": "Tokelau",
+   "exact": [
+    "Tokelau"
+   ]
+  },
+  {
+   "id": "tl",
+   "type": "image",
+   "src": "tl.webp",
+   "answer": "Timor oriental",
+   "exact": [
+    "Timor oriental",
+    "Timor-Leste"
+   ]
+  },
+  {
+   "id": "tm",
+   "type": "image",
+   "src": "tm.webp",
+   "answer": "Turkménistan",
+   "exact": [
+    "Turkménistan",
+    "Turkmenistan"
+   ]
+  },
+  {
+   "id": "tn",
+   "type": "image",
+   "src": "tn.webp",
+   "answer": "Tunisie",
+   "exact": [
+    "Tunisie",
+    "Tunisia"
+   ]
+  },
+  {
+   "id": "to",
+   "type": "image",
+   "src": "to.webp",
+   "answer": "Tonga",
+   "exact": [
+    "Tonga"
+   ]
+  },
+  {
+   "id": "tr",
+   "type": "image",
+   "src": "tr.webp",
+   "answer": "Turquie",
+   "exact": [
+    "Turquie",
+    "Türkiye"
+   ]
+  },
+  {
+   "id": "tt",
+   "type": "image",
+   "src": "tt.webp",
+   "answer": "Trinité-et-Tobago",
+   "exact": [
+    "Trinité-et-Tobago",
+    "Trinidad & Tobago"
+   ]
+  },
+  {
+   "id": "tv",
+   "type": "image",
+   "src": "tv.webp",
+   "answer": "Tuvalu",
+   "exact": [
+    "Tuvalu"
+   ]
+  },
+  {
+   "id": "tw",
+   "type": "image",
+   "src": "tw.webp",
+   "answer": "Taïwan",
+   "exact": [
+    "Taïwan",
+    "Taiwan"
+   ]
+  },
+  {
+   "id": "tz",
+   "type": "image",
+   "src": "tz.webp",
+   "answer": "Tanzanie",
+   "exact": [
+    "Tanzanie",
+    "Tanzania"
+   ]
+  },
+  {
+   "id": "ua",
+   "type": "image",
+   "src": "ua.webp",
+   "answer": "Ukraine",
+   "exact": [
+    "Ukraine"
+   ]
+  },
+  {
+   "id": "ug",
+   "type": "image",
+   "src": "ug.webp",
+   "answer": "Ouganda",
+   "exact": [
+    "Ouganda",
+    "Uganda"
+   ]
+  },
+  {
+   "id": "um",
+   "type": "image",
+   "src": "um.webp",
+   "answer": "Îles mineures éloignées des États-Unis",
+   "exact": [
+    "Îles mineures éloignées des États-Unis",
+    "U.S. Outlying Islands"
+   ]
+  },
+  {
+   "id": "us",
+   "type": "image",
+   "src": "us.webp",
+   "answer": "États-Unis",
+   "exact": [
+    "États-Unis",
+    "United States",
+    "USA",
+    "US",
+    "Amérique",
+    "Etats-Unis d Amérique",
+    "America"
+   ]
+  },
+  {
+   "id": "uy",
+   "type": "image",
+   "src": "uy.webp",
+   "answer": "Uruguay",
+   "exact": [
+    "Uruguay"
+   ]
+  },
+  {
+   "id": "uz",
+   "type": "image",
+   "src": "uz.webp",
+   "answer": "Ouzbékistan",
+   "exact": [
+    "Ouzbékistan",
+    "Uzbekistan"
+   ]
+  },
+  {
+   "id": "va",
+   "type": "image",
+   "src": "va.webp",
+   "answer": "État de la Cité du Vatican",
+   "exact": [
+    "État de la Cité du Vatican",
+    "Vatican City",
+    "Vatican"
+   ]
+  },
+  {
+   "id": "vc",
+   "type": "image",
+   "src": "vc.webp",
+   "answer": "Saint-Vincent-et-les Grenadines",
+   "exact": [
+    "Saint-Vincent-et-les Grenadines",
+    "St. Vincent & Grenadines"
+   ]
+  },
+  {
+   "id": "ve",
+   "type": "image",
+   "src": "ve.webp",
+   "answer": "Venezuela",
+   "exact": [
+    "Venezuela"
+   ]
+  },
+  {
+   "id": "vg",
+   "type": "image",
+   "src": "vg.webp",
+   "answer": "Îles Vierges britanniques",
+   "exact": [
+    "Îles Vierges britanniques",
+    "British Virgin Islands"
+   ]
+  },
+  {
+   "id": "vi",
+   "type": "image",
+   "src": "vi.webp",
+   "answer": "Îles Vierges des États-Unis",
+   "exact": [
+    "Îles Vierges des États-Unis",
+    "U.S. Virgin Islands"
+   ]
+  },
+  {
+   "id": "vn",
+   "type": "image",
+   "src": "vn.webp",
+   "answer": "Viêt Nam",
+   "exact": [
+    "Viêt Nam",
+    "Vietnam"
+   ]
+  },
+  {
+   "id": "vu",
+   "type": "image",
+   "src": "vu.webp",
+   "answer": "Vanuatu",
+   "exact": [
+    "Vanuatu"
+   ]
+  },
+  {
+   "id": "wf",
+   "type": "image",
+   "src": "wf.webp",
+   "answer": "Wallis-et-Futuna",
+   "exact": [
+    "Wallis-et-Futuna",
+    "Wallis & Futuna"
+   ]
+  },
+  {
+   "id": "ws",
+   "type": "image",
+   "src": "ws.webp",
+   "answer": "Samoa",
+   "exact": [
+    "Samoa"
+   ]
+  },
+  {
+   "id": "xk",
+   "type": "image",
+   "src": "xk.webp",
+   "answer": "Kosovo",
+   "exact": [
+    "Kosovo"
+   ]
+  },
+  {
+   "id": "ye",
+   "type": "image",
+   "src": "ye.webp",
+   "answer": "Yémen",
+   "exact": [
+    "Yémen",
+    "Yemen"
+   ]
+  },
+  {
+   "id": "yt",
+   "type": "image",
+   "src": "yt.webp",
+   "answer": "Mayotte",
+   "exact": [
+    "Mayotte"
+   ]
+  },
+  {
+   "id": "za",
+   "type": "image",
+   "src": "za.webp",
+   "answer": "Afrique du Sud",
+   "exact": [
+    "Afrique du Sud",
+    "South Africa"
+   ]
+  },
+  {
+   "id": "zm",
+   "type": "image",
+   "src": "zm.webp",
+   "answer": "Zambie",
+   "exact": [
+    "Zambie",
+    "Zambia"
+   ]
+  },
+  {
+   "id": "zw",
+   "type": "image",
+   "src": "zw.webp",
+   "answer": "Zimbabwe",
+   "exact": [
+    "Zimbabwe"
+   ]
+  }
+ ]
+}
