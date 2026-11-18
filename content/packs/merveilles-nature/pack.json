@@ -678,6 +678,565 @@
     "facile"
    ],
    "src": "wiki:en:Mont-Saint-Michel"
+  },
+  {
+   "id": "lac-de-garde",
+   "answer": "Lac de Garde",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Lake_Garda"
+  },
+  {
+   "id": "lac-leman",
+   "answer": "Lac Léman",
+   "exact": [
+    "lac leman"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Lake_Geneva"
+  },
+  {
+   "id": "lac-titicaca",
+   "answer": "Lac Titicaca",
+   "exact": [
+    "titicaca"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Lake_Titicaca"
+  },
+  {
+   "id": "grands-lacs",
+   "answer": "Grands Lacs",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Great_Lakes"
+  },
+  {
+   "id": "mer-de-nuages",
+   "answer": "Mer de nuages",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Sea_of_clouds"
+  },
+  {
+   "id": "desert-d-atacama",
+   "answer": "Désert d'Atacama",
+   "exact": [
+    "atacama"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Atacama_Desert"
+  },
+  {
+   "id": "death-valley",
+   "answer": "Death Valley",
+   "exact": [
+    "vallee de la mort"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Death_Valley"
+  },
+  {
+   "id": "monument-valley",
+   "answer": "Monument Valley",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Monument_Valley"
+  },
+  {
+   "id": "antelope-canyon",
+   "answer": "Antelope Canyon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Antelope_Canyon"
+  },
+  {
+   "id": "yosemite",
+   "answer": "Yosemite",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Yosemite_National_Park"
+  },
+  {
+   "id": "mont-cervin",
+   "answer": "Mont Cervin",
+   "exact": [
+    "cervin",
+    "matterhorn"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Matterhorn"
+  },
+  {
+   "id": "dolomites",
+   "answer": "Dolomites",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Dolomites"
+  },
+  {
+   "id": "mont-ararat",
+   "answer": "Mont Ararat",
+   "exact": [
+    "ararat"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Mount_Ararat"
+  },
+  {
+   "id": "k2",
+   "answer": "K2",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:K2"
+  },
+  {
+   "id": "aconcagua",
+   "answer": "Aconcagua",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Aconcagua"
+  },
+  {
+   "id": "amazone",
+   "answer": "Amazone",
+   "exact": [
+    "fleuve amazone"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Amazon_River"
+  },
+  {
+   "id": "mississippi",
+   "answer": "Mississippi",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Mississippi_River"
+  },
+  {
+   "id": "seine",
+   "answer": "Seine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Seine"
+  },
+  {
+   "id": "rhin",
+   "answer": "Rhin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Rhine"
+  },
+  {
+   "id": "gange",
+   "answer": "Gange",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Ganges"
+  },
+  {
+   "id": "mekong",
+   "answer": "Mékong",
+   "exact": [
+    "mekong"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Mekong"
+  },
+  {
+   "id": "chutes-d-iguazu",
+   "answer": "Chutes d'Iguazú",
+   "exact": [
+    "iguazu"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Iguazu_Falls"
+  },
+  {
+   "id": "angel-falls",
+   "answer": "Angel Falls",
+   "exact": [
+    "salto angel"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Angel_Falls"
+  },
+  {
+   "id": "grotte-de-lascaux",
+   "answer": "Grotte de Lascaux",
+   "exact": [
+    "lascaux"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Lascaux"
+  },
+  {
+   "id": "grotte-de-glace",
+   "answer": "Grotte de glace",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Ice_cave"
+  },
+  {
+   "id": "foret-de-sequoias",
+   "answer": "Forêt de séquoias",
+   "exact": [
+    "sequoia"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Sequoia_sempervirens"
+  },
+  {
+   "id": "baobab",
+   "answer": "Baobab",
+   "exact": [
+    "baobab"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Adansonia"
+  },
+  {
+   "id": "cerisiers-en-fleurs",
+   "answer": "Cerisiers en fleurs",
+   "exact": [
+    "sakura"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Cherry_blossom"
+  },
+  {
+   "id": "champs-de-lavande",
+   "answer": "Champs de lavande",
+   "exact": [
+    "lavande"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Lavandula"
+  },
+  {
+   "id": "tulipes",
+   "answer": "Tulipes",
+   "exact": [
+    "tulipe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Tulip"
+  },
+  {
+   "id": "savane",
+   "answer": "Savane",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Savanna"
+  },
+  {
+   "id": "toundra",
+   "answer": "Toundra",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Tundra"
+  },
+  {
+   "id": "jungle",
+   "answer": "Jungle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Jungle"
+  },
+  {
+   "id": "plage-de-sable-blanc",
+   "answer": "Plage de sable blanc",
+   "exact": [
+    "plage"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Beach"
+  },
+  {
+   "id": "falaise",
+   "answer": "Falaise",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Cliff"
+  },
+  {
+   "id": "arche-naturelle",
+   "answer": "Arche naturelle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Natural_arch"
+  },
+  {
+   "id": "lagon",
+   "answer": "Lagon",
+   "exact": [
+    "lagon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Lagoon"
+  },
+  {
+   "id": "ile-maurice",
+   "answer": "Île Maurice",
+   "exact": [
+    "maurice"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Mauritius"
+  },
+  {
+   "id": "maldives",
+   "answer": "Maldives",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Maldives"
+  },
+  {
+   "id": "seychelles",
+   "answer": "Seychelles",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Seychelles"
+  },
+  {
+   "id": "hawai",
+   "answer": "Hawaï",
+   "exact": [
+    "hawaii"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Hawaii"
+  },
+  {
+   "id": "patagonie",
+   "answer": "Patagonie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Patagonia"
+  },
+  {
+   "id": "grand-bleu",
+   "answer": "Grand Bleu",
+   "exact": [
+    "great blue hole"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Great_Blue_Hole"
   }
  ]
 }

@@ -786,6 +786,788 @@
    ],
    "type": "text",
    "text": "🇲🇳 Mongolie"
+  },
+  {
+   "id": "abou-dabi",
+   "answer": "Abou Dabi",
+   "exact": [
+    "abu dhabi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇦🇪 Émirats arabes unis"
+  },
+  {
+   "id": "doha",
+   "answer": "Doha",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇶🇦 Qatar"
+  },
+  {
+   "id": "amman",
+   "answer": "Amman",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇯🇴 Jordanie"
+  },
+  {
+   "id": "damas",
+   "answer": "Damas",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇸🇾 Syrie"
+  },
+  {
+   "id": "kaboul",
+   "answer": "Kaboul",
+   "exact": [
+    "kaboul"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇦🇫 Afghanistan"
+  },
+  {
+   "id": "islamabad",
+   "answer": "Islamabad",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇵🇰 Pakistan"
+  },
+  {
+   "id": "dacca",
+   "answer": "Dacca",
+   "exact": [
+    "dhaka"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇧🇩 Bangladesh"
+  },
+  {
+   "id": "katmandou",
+   "answer": "Katmandou",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇳🇵 Népal"
+  },
+  {
+   "id": "colombo",
+   "answer": "Colombo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇱🇰 Sri Lanka (capitale commerciale)"
+  },
+  {
+   "id": "kuala-lumpur",
+   "answer": "Kuala Lumpur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇲🇾 Malaisie"
+  },
+  {
+   "id": "singapour",
+   "answer": "Singapour",
+   "exact": [
+    "singapore"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "capitales",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🇸🇬 Singapour"
+  },
+  {
+   "id": "jakarta",
+   "answer": "Jakarta",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇮🇩 Indonésie"
+  },
+  {
+   "id": "manille",
+   "answer": "Manille",
+   "exact": [
+    "manila"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇵🇭 Philippines"
+  },
+  {
+   "id": "taipei",
+   "answer": "Taipei",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇹🇼 Taïwan"
+  },
+  {
+   "id": "pyongyang",
+   "answer": "Pyongyang",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇰🇵 Corée du Nord"
+  },
+  {
+   "id": "luxembourg",
+   "answer": "Luxembourg",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "capitales",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🇱🇺 Luxembourg"
+  },
+  {
+   "id": "monaco",
+   "answer": "Monaco",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "capitales",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🇲🇨 Monaco"
+  },
+  {
+   "id": "andorre-la-vieille",
+   "answer": "Andorre-la-Vieille",
+   "exact": [
+    "andorre la vieille"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇦🇩 Andorre"
+  },
+  {
+   "id": "saint-marin",
+   "answer": "Saint-Marin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇸🇲 Saint-Marin"
+  },
+  {
+   "id": "la-valette",
+   "answer": "La Valette",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇲🇹 Malte"
+  },
+  {
+   "id": "bratislava",
+   "answer": "Bratislava",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇸🇰 Slovaquie"
+  },
+  {
+   "id": "ljubljana",
+   "answer": "Ljubljana",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇸🇮 Slovénie"
+  },
+  {
+   "id": "zagreb",
+   "answer": "Zagreb",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇭🇷 Croatie"
+  },
+  {
+   "id": "belgrade",
+   "answer": "Belgrade",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇷🇸 Serbie"
+  },
+  {
+   "id": "sarajevo",
+   "answer": "Sarajevo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇧🇦 Bosnie-Herzégovine"
+  },
+  {
+   "id": "sofia",
+   "answer": "Sofia",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇧🇬 Bulgarie"
+  },
+  {
+   "id": "bucarest",
+   "answer": "Bucarest",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇷🇴 Roumanie"
+  },
+  {
+   "id": "chisinau",
+   "answer": "Chișinău",
+   "exact": [
+    "chisinau"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇲🇩 Moldavie"
+  },
+  {
+   "id": "minsk",
+   "answer": "Minsk",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇧🇾 Biélorussie"
+  },
+  {
+   "id": "vilnius",
+   "answer": "Vilnius",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇱🇹 Lituanie"
+  },
+  {
+   "id": "riga",
+   "answer": "Riga",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇱🇻 Lettonie"
+  },
+  {
+   "id": "tallinn",
+   "answer": "Tallinn",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇪🇪 Estonie"
+  },
+  {
+   "id": "tbilissi",
+   "answer": "Tbilissi",
+   "exact": [
+    "tbilisi"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇬🇪 Géorgie"
+  },
+  {
+   "id": "erevan",
+   "answer": "Erevan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇦🇲 Arménie"
+  },
+  {
+   "id": "bakou",
+   "answer": "Bakou",
+   "exact": [
+    "baku"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇦🇿 Azerbaïdjan"
+  },
+  {
+   "id": "astana",
+   "answer": "Astana",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇰🇿 Kazakhstan"
+  },
+  {
+   "id": "tachkent",
+   "answer": "Tachkent",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇺🇿 Ouzbékistan"
+  },
+  {
+   "id": "accra",
+   "answer": "Accra",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇬🇭 Ghana"
+  },
+  {
+   "id": "abuja",
+   "answer": "Abuja",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇳🇬 Nigeria"
+  },
+  {
+   "id": "yaounde",
+   "answer": "Yaoundé",
+   "exact": [
+    "yaounde"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇨🇲 Cameroun"
+  },
+  {
+   "id": "libreville",
+   "answer": "Libreville",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇬🇦 Gabon"
+  },
+  {
+   "id": "brazzaville",
+   "answer": "Brazzaville",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇨🇬 Congo"
+  },
+  {
+   "id": "addis-abeba",
+   "answer": "Addis-Abeba",
+   "exact": [
+    "addis abeba"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇪🇹 Éthiopie"
+  },
+  {
+   "id": "antananarivo",
+   "answer": "Antananarivo",
+   "exact": [
+    "tana"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇲🇬 Madagascar"
+  },
+  {
+   "id": "ouagadougou",
+   "answer": "Ouagadougou",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇧🇫 Burkina Faso"
+  },
+  {
+   "id": "niamey",
+   "answer": "Niamey",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇳🇪 Niger"
+  },
+  {
+   "id": "conakry",
+   "answer": "Conakry",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇬🇳 Guinée"
+  },
+  {
+   "id": "nouakchott",
+   "answer": "Nouakchott",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇲🇷 Mauritanie"
+  },
+  {
+   "id": "tripoli",
+   "answer": "Tripoli",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇱🇾 Libye"
+  },
+  {
+   "id": "khartoum",
+   "answer": "Khartoum",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇸🇩 Soudan"
+  },
+  {
+   "id": "caracas",
+   "answer": "Caracas",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇻🇪 Venezuela"
+  },
+  {
+   "id": "quito",
+   "answer": "Quito",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇪🇨 Équateur"
+  },
+  {
+   "id": "la-paz",
+   "answer": "La Paz",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇧🇴 Bolivie"
+  },
+  {
+   "id": "montevideo",
+   "answer": "Montevideo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇺🇾 Uruguay"
+  },
+  {
+   "id": "asuncion",
+   "answer": "Asuncion",
+   "exact": [
+    "asuncion"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇵🇾 Paraguay"
+  },
+  {
+   "id": "kingston",
+   "answer": "Kingston",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇯🇲 Jamaïque"
+  },
+  {
+   "id": "port-au-prince",
+   "answer": "Port-au-Prince",
+   "exact": [
+    "port au prince"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "capitales",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🇭🇹 Haïti"
+  },
+  {
+   "id": "panama",
+   "answer": "Panama",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "capitales",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🇵🇦 Panama"
   }
  ]
 }

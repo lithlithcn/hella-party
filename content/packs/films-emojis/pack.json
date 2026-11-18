@@ -794,6 +794,897 @@
    ],
    "type": "text",
    "text": "🚕🇫🇷💨👮"
+  },
+  {
+   "id": "le-roi-lion-2",
+   "answer": "Le Roi Lion 2",
+   "exact": [
+    "roi lion 2"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🦁🦁👑🌅2️⃣"
+  },
+  {
+   "id": "toy-story-3",
+   "answer": "Toy Story 3",
+   "exact": [
+    "toy story 3"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🤠🚀🗑️🔥"
+  },
+  {
+   "id": "monstres-et-cie",
+   "answer": "Monstres et Cie",
+   "exact": [
+    "monstres et compagnie",
+    "monsters inc"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👹🚪😱👧"
+  },
+  {
+   "id": "la-haut",
+   "answer": "Là-haut",
+   "exact": [
+    "la haut",
+    "up"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎈🏠👴👦"
+  },
+  {
+   "id": "wall-e",
+   "answer": "WALL-E",
+   "exact": [
+    "wall e"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🤖🌍🌱🧹"
+  },
+  {
+   "id": "zootopie",
+   "answer": "Zootopie",
+   "exact": [
+    "zootopia"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐰🦊🚓🏙️"
+  },
+  {
+   "id": "raiponce",
+   "answer": "Raiponce",
+   "exact": [
+    "tangled"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👸💇‍♀️🏰🍳"
+  },
+  {
+   "id": "vaiana",
+   "answer": "Vaiana",
+   "exact": [
+    "moana"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🌊🛶🐓🏝️"
+  },
+  {
+   "id": "encanto",
+   "answer": "Encanto",
+   "exact": [
+    "encanto"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦋🏠🕯️🇨🇴"
+  },
+  {
+   "id": "dragons",
+   "answer": "Dragons",
+   "exact": [
+    "how to train your dragon",
+    "dragons"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐉🖤👦🏝️"
+  },
+  {
+   "id": "madagascar",
+   "answer": "Madagascar",
+   "exact": [
+    "madagascar"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦁🦓🦒🦛"
+  },
+  {
+   "id": "rio",
+   "answer": "Rio",
+   "exact": [
+    "rio"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦜💙🇧🇷🎉"
+  },
+  {
+   "id": "l-age-de-glace",
+   "answer": "L'Âge de glace",
+   "exact": [
+    "age de glace",
+    "ice age"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐿️🥜❄️🦣"
+  },
+  {
+   "id": "les-indestructibles",
+   "answer": "Les Indestructibles",
+   "exact": [
+    "indestructibles",
+    "the incredibles"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👨‍👩‍👧‍👦🦸🔴⚫"
+  },
+  {
+   "id": "mulan",
+   "answer": "Mulan",
+   "exact": [
+    "mulan"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🗡️👩🐉🇨🇳"
+  },
+  {
+   "id": "pocahontas",
+   "answer": "Pocahontas",
+   "exact": [
+    "pocahontas"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🍃🪶🏹🌊"
+  },
+  {
+   "id": "hercule",
+   "answer": "Hercule",
+   "exact": [
+    "hercule"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💪⚡🏛️🐴"
+  },
+  {
+   "id": "tarzan",
+   "answer": "Tarzan",
+   "exact": [
+    "tarzan"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦍👦🌴🗣️"
+  },
+  {
+   "id": "bambi",
+   "answer": "Bambi",
+   "exact": [
+    "bambi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦌❄️🐇🌸"
+  },
+  {
+   "id": "dumbo",
+   "answer": "Dumbo",
+   "exact": [
+    "dumbo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐘👂🎪✈️"
+  },
+  {
+   "id": "pinocchio",
+   "answer": "Pinocchio",
+   "exact": [
+    "pinocchio"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🪵👃🦗⭐"
+  },
+  {
+   "id": "peter-pan",
+   "answer": "Peter Pan",
+   "exact": [
+    "peter pan"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧚‍♀️🏴‍☠️⏰🐊"
+  },
+  {
+   "id": "les-101-dalmatiens",
+   "answer": "Les 101 Dalmatiens",
+   "exact": [
+    "101 dalmatiens"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐶⚫⚪💯"
+  },
+  {
+   "id": "le-bossu-de-notre-dame",
+   "answer": "Le Bossu de Notre-Dame",
+   "exact": [
+    "bossu de notre dame"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🔔⛪🧝‍♂️💃"
+  },
+  {
+   "id": "lilo-et-stitch",
+   "answer": "Lilo et Stitch",
+   "exact": [
+    "lilo et stitch"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👧👽🌺🏄‍♀️"
+  },
+  {
+   "id": "le-grinch",
+   "answer": "Le Grinch",
+   "exact": [
+    "grinch"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🟢🎄😈🎁"
+  },
+  {
+   "id": "maman-j-ai-rate-l-avion",
+   "answer": "Maman, j'ai raté l'avion",
+   "exact": [
+    "maman j ai rate l avion",
+    "home alone"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏠👦🎄🪤"
+  },
+  {
+   "id": "harry-potter-et-la-chambre-des-secrets",
+   "answer": "Harry Potter et la Chambre des secrets",
+   "exact": [
+    "chambre des secrets"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "⚡🐍🧙‍♂️🚗"
+  },
+  {
+   "id": "les-animaux-fantastiques",
+   "answer": "Les Animaux fantastiques",
+   "exact": [
+    "animaux fantastiques"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🧳🦄🧙‍♂️🗽"
+  },
+  {
+   "id": "le-hobbit",
+   "answer": "Le Hobbit",
+   "exact": [
+    "le hobbit"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💍🐉🏔️🧔"
+  },
+  {
+   "id": "charlie-et-la-chocolaterie",
+   "answer": "Charlie et la Chocolaterie",
+   "exact": [
+    "charlie et la chocolaterie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🍫🎩🏭🎫"
+  },
+  {
+   "id": "alice-au-pays-des-merveilles",
+   "answer": "Alice au pays des merveilles",
+   "exact": [
+    "alice au pays des merveilles"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👧🐇⏰🎩"
+  },
+  {
+   "id": "le-magicien-d-oz",
+   "answer": "Le Magicien d'Oz",
+   "exact": [
+    "magicien d oz"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👠🌪️🦁🤖"
+  },
+  {
+   "id": "mary-poppins",
+   "answer": "Mary Poppins",
+   "exact": [
+    "mary poppins"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "☂️👒🧹🎶"
+  },
+  {
+   "id": "jumanji",
+   "answer": "Jumanji",
+   "exact": [
+    "jumanji"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎲🐘🌴🦏"
+  },
+  {
+   "id": "sos-fantomes",
+   "answer": "SOS Fantômes",
+   "exact": [
+    "ghostbusters",
+    "sos fantomes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👻🚫🔫🚒"
+  },
+  {
+   "id": "men-in-black",
+   "answer": "Men in Black",
+   "exact": [
+    "men in black",
+    "mib"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🕶️👽🔫🖤"
+  },
+  {
+   "id": "independence-day",
+   "answer": "Independence Day",
+   "exact": [
+    "independence day"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🛸💥🏛️🇺🇸"
+  },
+  {
+   "id": "king-kong",
+   "answer": "King Kong",
+   "exact": [
+    "king kong"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦍🏙️👩✈️"
+  },
+  {
+   "id": "godzilla",
+   "answer": "Godzilla",
+   "exact": [
+    "godzilla"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦖🌊🏙️🇯🇵"
+  },
+  {
+   "id": "transformers",
+   "answer": "Transformers",
+   "exact": [
+    "transformers"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🚗🤖💥🌍"
+  },
+  {
+   "id": "pacific-rim",
+   "answer": "Pacific Rim",
+   "exact": [
+    "pacific rim"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🤖🐲🌊👊"
+  },
+  {
+   "id": "avatar-2",
+   "answer": "Avatar 2",
+   "exact": [
+    "avatar la voie de l eau"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🔵🌊🐋🪐"
+  },
+  {
+   "id": "iron-man",
+   "answer": "Iron Man",
+   "exact": [
+    "iron man"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦾🔴🟡💥"
+  },
+  {
+   "id": "black-panther",
+   "answer": "Black Panther",
+   "exact": [
+    "black panther"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐾👑🇰🇪💜"
+  },
+  {
+   "id": "thor",
+   "answer": "Thor",
+   "exact": [
+    "thor"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⚡🔨👑🌈"
+  },
+  {
+   "id": "doctor-strange",
+   "answer": "Doctor Strange",
+   "exact": [
+    "doctor strange"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔮🌀🧙‍♂️🏙️"
+  },
+  {
+   "id": "les-gardiens-de-la-galaxie",
+   "answer": "Les Gardiens de la Galaxie",
+   "exact": [
+    "gardiens de la galaxie",
+    "guardians of the galaxy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🚀🦝🌳🎧"
+  },
+  {
+   "id": "deadpool",
+   "answer": "Deadpool",
+   "exact": [
+    "deadpool"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔴⚔️😂🦄"
+  },
+  {
+   "id": "wonder-woman",
+   "answer": "Wonder Woman",
+   "exact": [
+    "wonder woman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👸🛡️⚔️🪢"
+  },
+  {
+   "id": "superman",
+   "answer": "Superman",
+   "exact": [
+    "superman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦸‍♂️🔴🔵🏙️"
+  },
+  {
+   "id": "le-seigneur-des-anneaux-le-retour-du-roi",
+   "answer": "Le Seigneur des anneaux : Le Retour du roi",
+   "exact": [
+    "retour du roi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💍🌋👑🦅"
+  },
+  {
+   "id": "indiana-jones",
+   "answer": "Indiana Jones",
+   "exact": [
+    "indiana jones"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "films",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🤠🐍💎🏛️"
+  },
+  {
+   "id": "les-goonies",
+   "answer": "Les Goonies",
+   "exact": [
+    "goonies"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🗺️🏴‍☠️👦💎"
+  },
+  {
+   "id": "les-bronzes",
+   "answer": "Les Bronzés",
+   "exact": [
+    "les bronzes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏖️⛷️😎🇫🇷"
+  },
+  {
+   "id": "la-grande-vadrouille",
+   "answer": "La Grande Vadrouille",
+   "exact": [
+    "grande vadrouille"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "films",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "✈️🪂🇫🇷🪖"
+  },
+  {
+   "id": "le-corniaud",
+   "answer": "Le Corniaud",
+   "exact": [
+    "le corniaud"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "films",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🚗💎🍑🇮🇹"
+  },
+  {
+   "id": "les-tuche",
+   "answer": "Les Tuche",
+   "exact": [
+    "les tuche"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💰🍟🇫🇷👨‍👩‍👧‍👦"
+  },
+  {
+   "id": "qu-est-ce-qu-on-a-fait-au-bon-dieu",
+   "answer": "Qu'est-ce qu'on a fait au Bon Dieu ?",
+   "exact": [
+    "qu est ce qu on a fait au bon dieu"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💒👨‍👩‍👧‍👧🌍😅"
+  },
+  {
+   "id": "les-profs",
+   "answer": "Les Profs",
+   "exact": [
+    "les profs"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👨‍🏫📚😴🇫🇷"
+  },
+  {
+   "id": "taxi-2",
+   "answer": "Taxi 2",
+   "exact": [
+    "taxi 2"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "films",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🚕🥷🇯🇵🇫🇷"
+  },
+  {
+   "id": "le-grand-bain",
+   "answer": "Le Grand Bain",
+   "exact": [
+    "le grand bain"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "films",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🏊‍♂️👨‍👨‍👦🩱🇫🇷"
+  },
+  {
+   "id": "le-petit-nicolas",
+   "answer": "Le Petit Nicolas",
+   "exact": [
+    "le petit nicolas"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "films",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👦🏫⚽🇫🇷"
   }
  ]
 }

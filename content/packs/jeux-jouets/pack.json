@@ -674,6 +674,632 @@
     "facile"
    ],
    "src": "wiki:en:Table_football"
+  },
+  {
+   "id": "hungry-hippos",
+   "answer": "Hungry Hippos",
+   "exact": [
+    "hippos gloutons"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Hungry_Hungry_Hippos"
+  },
+  {
+   "id": "docteur-maboul",
+   "answer": "Docteur Maboul",
+   "exact": [
+    "operation"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Operation_(game)"
+  },
+  {
+   "id": "pictionary",
+   "answer": "Pictionary",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Pictionary"
+  },
+  {
+   "id": "time-s-up",
+   "answer": "Time's Up",
+   "exact": [
+    "times up"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Time's_Up!"
+  },
+  {
+   "id": "dixit",
+   "answer": "Dixit",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Dixit_(board_game)"
+  },
+  {
+   "id": "les-loups-garous-de-thiercelieux",
+   "answer": "Les Loups-garous de Thiercelieux",
+   "exact": [
+    "loups garous"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:The_Werewolves_of_Millers_Hollow"
+  },
+  {
+   "id": "skyjo",
+   "answer": "Skyjo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:Skyjo"
+  },
+  {
+   "id": "6-qui-prend",
+   "answer": "6 qui prend",
+   "exact": [
+    "six qui prend"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:6_nimmt!"
+  },
+  {
+   "id": "taboo",
+   "answer": "Taboo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Taboo_(game)"
+  },
+  {
+   "id": "risk",
+   "answer": "Risk",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Risk_(game)"
+  },
+  {
+   "id": "stratego",
+   "answer": "Stratego",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:Stratego"
+  },
+  {
+   "id": "mastermind",
+   "answer": "Mastermind",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Mastermind_(board_game)"
+  },
+  {
+   "id": "othello",
+   "answer": "Othello",
+   "exact": [
+    "reversi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Reversi"
+  },
+  {
+   "id": "tarot",
+   "answer": "Tarot",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:French_tarot"
+  },
+  {
+   "id": "belote",
+   "answer": "Belote",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:Belote"
+  },
+  {
+   "id": "poker",
+   "answer": "Poker",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Poker"
+  },
+  {
+   "id": "mahjong",
+   "answer": "Mahjong",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Mahjong"
+  },
+  {
+   "id": "sudoku",
+   "answer": "Sudoku",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Sudoku"
+  },
+  {
+   "id": "mots-croises",
+   "answer": "Mots croisés",
+   "exact": [
+    "mots croises"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Crossword"
+  },
+  {
+   "id": "labyrinthe",
+   "answer": "Labyrinthe",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Labyrinth_(board_game)"
+  },
+  {
+   "id": "kerplunk",
+   "answer": "Kerplunk",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:KerPlunk"
+  },
+  {
+   "id": "tour-de-cartes",
+   "answer": "Tour de cartes",
+   "exact": [
+    "chateau de cartes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:House_of_cards"
+  },
+  {
+   "id": "lego-technic",
+   "answer": "Lego Technic",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Lego_Technic"
+  },
+  {
+   "id": "lego-duplo",
+   "answer": "Lego Duplo",
+   "exact": [
+    "duplo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Lego_Duplo"
+  },
+  {
+   "id": "meccano",
+   "answer": "Meccano",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Meccano"
+  },
+  {
+   "id": "k-nex",
+   "answer": "K'nex",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:K'Nex"
+  },
+  {
+   "id": "polly-pocket",
+   "answer": "Polly Pocket",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Polly_Pocket"
+  },
+  {
+   "id": "monster-high",
+   "answer": "Monster High",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Monster_High"
+  },
+  {
+   "id": "bratz",
+   "answer": "Bratz",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Bratz"
+  },
+  {
+   "id": "my-little-pony",
+   "answer": "My Little Pony",
+   "exact": [
+    "mon petit poney"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:My_Little_Pony"
+  },
+  {
+   "id": "transformers-jouet",
+   "answer": "Transformers (jouet)",
+   "exact": [
+    "transformers"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Transformers"
+  },
+  {
+   "id": "action-man",
+   "answer": "Action Man",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Action_Man"
+  },
+  {
+   "id": "petshop",
+   "answer": "Petshop",
+   "exact": [
+    "littlest pet shop"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Littlest_Pet_Shop"
+  },
+  {
+   "id": "beyblade",
+   "answer": "Beyblade",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Beyblade"
+  },
+  {
+   "id": "bakugan",
+   "answer": "Bakugan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Bakugan_Battle_Brawlers"
+  },
+  {
+   "id": "gormiti",
+   "answer": "Gormiti",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:Gormiti"
+  },
+  {
+   "id": "toupie-hand-spinner",
+   "answer": "Toupie Hand Spinner",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Fidget_spinner"
+  },
+  {
+   "id": "squishy",
+   "answer": "Squishy",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Squishy_(toy)"
+  },
+  {
+   "id": "rubik-s-snake",
+   "answer": "Rubik's Snake",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:Rubik's_Snake"
+  },
+  {
+   "id": "slinky",
+   "answer": "Slinky",
+   "exact": [
+    "ressort"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Slinky"
+  },
+  {
+   "id": "boule-a-neige",
+   "answer": "Boule à neige",
+   "exact": [
+    "boule a neige"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Snow_globe"
+  },
+  {
+   "id": "kaleidoscope",
+   "answer": "Kaléidoscope",
+   "exact": [
+    "kaleidoscope"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Kaleidoscope"
+  },
+  {
+   "id": "game-boy",
+   "answer": "Game Boy",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Game_Boy"
+  },
+  {
+   "id": "tricycle",
+   "answer": "Tricycle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Tricycle"
+  },
+  {
+   "id": "balancoire",
+   "answer": "Balançoire",
+   "exact": [
+    "balancoire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Swing_(seat)"
+  },
+  {
+   "id": "toboggan",
+   "answer": "Toboggan",
+   "exact": [
+    "toboggan"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Playground_slide"
+  },
+  {
+   "id": "trampoline",
+   "answer": "Trampoline",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Trampoline"
+  },
+  {
+   "id": "pistolet-a-eau",
+   "answer": "Pistolet à eau",
+   "exact": [
+    "pistolet a eau"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Water_gun"
+  },
+  {
+   "id": "ballon-sauteur",
+   "answer": "Ballon sauteur",
+   "exact": [
+    "ballon sauteur"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux",
+    "jouets",
+    "difficile"
+   ],
+   "src": "wiki:en:Space_hopper"
   }
  ]
 }

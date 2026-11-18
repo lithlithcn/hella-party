@@ -719,6 +719,656 @@
    ],
    "type": "text",
    "text": "📓🍎✍️💀"
+  },
+  {
+   "id": "bob-l-eponge",
+   "answer": "Bob l'éponge",
+   "exact": [
+    "bob l eponge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧽🍍⭐🦀"
+  },
+  {
+   "id": "rick-et-morty",
+   "answer": "Rick et Morty",
+   "exact": [
+    "rick et morty"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧪👴👦🌀"
+  },
+  {
+   "id": "south-park",
+   "answer": "South Park",
+   "exact": [
+    "south park"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "❄️🧒🧒🧒🧒🏔️"
+  },
+  {
+   "id": "family-guy",
+   "answer": "Family Guy",
+   "exact": [
+    "family guy",
+    "les griffin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👨‍👩‍👧‍👦🐶👶🍼"
+  },
+  {
+   "id": "the-last-of-us",
+   "answer": "The Last of Us",
+   "exact": [
+    "the last of us"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🍄🧟‍♂️👨‍👧🚶"
+  },
+  {
+   "id": "house-of-the-dragon",
+   "answer": "House of the Dragon",
+   "exact": [
+    "house of the dragon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🐉👑🔥🪑"
+  },
+  {
+   "id": "les-anneaux-de-pouvoir",
+   "answer": "Les Anneaux de pouvoir",
+   "exact": [
+    "anneaux de pouvoir"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "💍🧝‍♀️⛰️🌋"
+  },
+  {
+   "id": "loki",
+   "answer": "Loki",
+   "exact": [
+    "loki"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐍⏳🟢🧥"
+  },
+  {
+   "id": "wandavision",
+   "answer": "WandaVision",
+   "exact": [
+    "wandavision"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "📺👩‍❤️‍👨🧠✨"
+  },
+  {
+   "id": "cobra-kai",
+   "answer": "Cobra Kai",
+   "exact": [
+    "cobra kai"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐍🥋🤼‍♂️📼"
+  },
+  {
+   "id": "the-umbrella-academy",
+   "answer": "The Umbrella Academy",
+   "exact": [
+    "umbrella academy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "☂️👨‍👩‍👧‍👦⏳🌍"
+  },
+  {
+   "id": "lucifer",
+   "answer": "Lucifer",
+   "exact": [
+    "lucifer"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "😈🔥🕵️‍♂️🇺🇸"
+  },
+  {
+   "id": "riverdale",
+   "answer": "Riverdale",
+   "exact": [
+    "riverdale"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🍔🏫🔦🌲"
+  },
+  {
+   "id": "gossip-girl",
+   "answer": "Gossip Girl",
+   "exact": [
+    "gossip girl"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💋📱🗽👗"
+  },
+  {
+   "id": "13-reasons-why",
+   "answer": "13 Reasons Why",
+   "exact": [
+    "13 reasons why"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "📼1️⃣3️⃣🏫"
+  },
+  {
+   "id": "elite",
+   "answer": "Elite",
+   "exact": [
+    "elite"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏫💰🔪🇪🇸"
+  },
+  {
+   "id": "you",
+   "answer": "You",
+   "exact": [
+    "you"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "📚👀🔪❤️"
+  },
+  {
+   "id": "le-jeu-de-la-dame",
+   "answer": "Le Jeu de la dame",
+   "exact": [
+    "jeu de la dame",
+    "queens gambit"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "♟️👩🏻‍🦰💊🏆"
+  },
+  {
+   "id": "chernobyl",
+   "answer": "Chernobyl",
+   "exact": [
+    "chernobyl"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "☢️🏭🇺🇦🧪"
+  },
+  {
+   "id": "mr-robot",
+   "answer": "Mr. Robot",
+   "exact": [
+    "mr robot"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "💻🎭🕶️🔐"
+  },
+  {
+   "id": "twin-peaks",
+   "answer": "Twin Peaks",
+   "exact": [
+    "twin peaks"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🌲☕🥧🦉"
+  },
+  {
+   "id": "the-sopranos",
+   "answer": "The Sopranos",
+   "exact": [
+    "soprano",
+    "les soprano"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🍝🔫🛋️🇮🇹"
+  },
+  {
+   "id": "the-wire",
+   "answer": "The Wire",
+   "exact": [
+    "the wire"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🚓📞💊🏙️"
+  },
+  {
+   "id": "brooklyn-nine-nine",
+   "answer": "Brooklyn Nine-Nine",
+   "exact": [
+    "brooklyn 99",
+    "brooklyn nine nine"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🚓😂🍕🗽"
+  },
+  {
+   "id": "parks-and-recreation",
+   "answer": "Parks and Recreation",
+   "exact": [
+    "parks and recreation"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🏞️🧇😂🏛️"
+  },
+  {
+   "id": "modern-family",
+   "answer": "Modern Family",
+   "exact": [
+    "modern family"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👨‍👩‍👧‍👦🏠📹😂"
+  },
+  {
+   "id": "hero-corp",
+   "answer": "Hero Corp",
+   "exact": [
+    "hero corp"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🦸‍♂️🏘️🇫🇷😂"
+  },
+  {
+   "id": "camera-cafe",
+   "answer": "Caméra Café",
+   "exact": [
+    "camera cafe"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "☕🤖😂🏢"
+  },
+  {
+   "id": "scenes-de-menages",
+   "answer": "Scènes de ménages",
+   "exact": [
+    "scenes de menages"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👫🏠🍽️😂"
+  },
+  {
+   "id": "un-gars-une-fille",
+   "answer": "Un gars, une fille",
+   "exact": [
+    "un gars une fille"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👨👩🐻🇫🇷"
+  },
+  {
+   "id": "les-mysteres-de-l-amour",
+   "answer": "Les Mystères de l'amour",
+   "exact": [
+    "mysteres de l amour"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "❤️🌊🇫🇷📺"
+  },
+  {
+   "id": "josephine-ange-gardien",
+   "answer": "Joséphine, ange gardien",
+   "exact": [
+    "josephine ange gardien"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👼🔔👩🇫🇷"
+  },
+  {
+   "id": "camping-paradis",
+   "answer": "Camping Paradis",
+   "exact": [
+    "camping paradis"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "⛺☀️🏕️🇫🇷"
+  },
+  {
+   "id": "totally-spies",
+   "answer": "Totally Spies",
+   "exact": [
+    "totally spies"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👩‍🦰👱‍♀️👩🏽‍🦱🕵️‍♀️"
+  },
+  {
+   "id": "ninjago",
+   "answer": "Ninjago",
+   "exact": [
+    "ninjago"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🥷🧱🐉⚡"
+  },
+  {
+   "id": "miraculous",
+   "answer": "Miraculous",
+   "exact": [
+    "miraculous",
+    "ladybug"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐞🐈‍⬛🗼✨"
+  },
+  {
+   "id": "one-piece",
+   "answer": "One Piece",
+   "exact": [
+    "one piece"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏴‍☠️👒🍖"
+  },
+  {
+   "id": "dragon-ball",
+   "answer": "Dragon Ball",
+   "exact": [
+    "dragon ball"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐉🟠⭐☁️"
+  },
+  {
+   "id": "pokemon",
+   "answer": "Pokémon",
+   "exact": [
+    "pokemon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⚡🐭⚪🔴"
+  },
+  {
+   "id": "bridgerton",
+   "answer": "Bridgerton",
+   "exact": [
+    "bridgerton",
+    "la chronique des bridgerton"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👗💌🎩🐝"
+  },
+  {
+   "id": "outer-banks",
+   "answer": "Outer Banks",
+   "exact": [
+    "outer banks"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏝️💰🛥️🧭"
+  },
+  {
+   "id": "shogun",
+   "answer": "Shōgun",
+   "exact": [
+    "shogun"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🏯⚔️🇯🇵⛵"
+  },
+  {
+   "id": "the-bear",
+   "answer": "The Bear",
+   "exact": [
+    "the bear"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "👨‍🍳🥪🔥🍽️"
+  },
+  {
+   "id": "severance",
+   "answer": "Severance",
+   "exact": [
+    "severance"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🏢🧠🔀🖥️"
+  },
+  {
+   "id": "fallout",
+   "answer": "Fallout",
+   "exact": [
+    "fallout"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "☢️🧑‍🚀🏚️🍺"
+  },
+  {
+   "id": "wednesday",
+   "answer": "Wednesday",
+   "exact": [
+    "wednesday"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🖤✋🎻🏫"
   }
  ]
 }

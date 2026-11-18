@@ -746,6 +746,886 @@
     "difficile"
    ],
    "src": "wiki:en:Armadillo"
+  },
+  {
+   "id": "ours-brun",
+   "answer": "Ours brun",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Brown_bear"
+  },
+  {
+   "id": "panthere-noire",
+   "answer": "Panthère noire",
+   "exact": [
+    "panthere noire",
+    "panthere"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Black_panther"
+  },
+  {
+   "id": "leopard",
+   "answer": "Léopard",
+   "exact": [
+    "leopard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Leopard"
+  },
+  {
+   "id": "jaguar",
+   "answer": "Jaguar",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Jaguar"
+  },
+  {
+   "id": "puma",
+   "answer": "Puma",
+   "exact": [
+    "cougar"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Cougar"
+  },
+  {
+   "id": "hyene",
+   "answer": "Hyène",
+   "exact": [
+    "hyene"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Spotted_hyena"
+  },
+  {
+   "id": "chacal",
+   "answer": "Chacal",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Golden_jackal"
+  },
+  {
+   "id": "bison",
+   "answer": "Bison",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:American_bison"
+  },
+  {
+   "id": "elan",
+   "answer": "Élan",
+   "exact": [
+    "elan",
+    "orignal"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Moose"
+  },
+  {
+   "id": "cerf",
+   "answer": "Cerf",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Red_deer"
+  },
+  {
+   "id": "renne",
+   "answer": "Renne",
+   "exact": [
+    "caribou"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Reindeer"
+  },
+  {
+   "id": "chevre",
+   "answer": "Chèvre",
+   "exact": [
+    "chevre"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Goat"
+  },
+  {
+   "id": "ane",
+   "answer": "Âne",
+   "exact": [
+    "ane"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Donkey"
+  },
+  {
+   "id": "canard",
+   "answer": "Canard",
+   "exact": [
+    "colvert"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Mallard"
+  },
+  {
+   "id": "oie",
+   "answer": "Oie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Domestic_goose"
+  },
+  {
+   "id": "cygne",
+   "answer": "Cygne",
+   "exact": [
+    "cygne"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Mute_swan"
+  },
+  {
+   "id": "pigeon",
+   "answer": "Pigeon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Rock_dove"
+  },
+  {
+   "id": "corbeau",
+   "answer": "Corbeau",
+   "exact": [
+    "corbeau freux"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Common_raven"
+  },
+  {
+   "id": "moineau",
+   "answer": "Moineau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:House_sparrow"
+  },
+  {
+   "id": "pelican",
+   "answer": "Pélican",
+   "exact": [
+    "pelican"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Pelican"
+  },
+  {
+   "id": "autruche",
+   "answer": "Autruche",
+   "exact": [
+    "autruche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Common_ostrich"
+  },
+  {
+   "id": "colibri",
+   "answer": "Colibri",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Hummingbird"
+  },
+  {
+   "id": "pic-vert",
+   "answer": "Pic-vert",
+   "exact": [
+    "pic vert"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:European_green_woodpecker"
+  },
+  {
+   "id": "martin-pecheur",
+   "answer": "Martin-pêcheur",
+   "exact": [
+    "martin pecheur"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Common_kingfisher"
+  },
+  {
+   "id": "chauve-souris",
+   "answer": "Chauve-souris",
+   "exact": [
+    "chauve souris"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Bat"
+  },
+  {
+   "id": "grenouille",
+   "answer": "Grenouille",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Frog"
+  },
+  {
+   "id": "crapaud",
+   "answer": "Crapaud",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Common_toad"
+  },
+  {
+   "id": "serpent",
+   "answer": "Serpent",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Snake"
+  },
+  {
+   "id": "cobra",
+   "answer": "Cobra",
+   "exact": [
+    "cobra royal"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:King_cobra"
+  },
+  {
+   "id": "python",
+   "answer": "Python",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Python_(genus)"
+  },
+  {
+   "id": "iguane",
+   "answer": "Iguane",
+   "exact": [
+    "iguane"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Green_iguana"
+  },
+  {
+   "id": "lezard",
+   "answer": "Lézard",
+   "exact": [
+    "lezard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Lizard"
+  },
+  {
+   "id": "gecko",
+   "answer": "Gecko",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Gecko"
+  },
+  {
+   "id": "tortue-terrestre",
+   "answer": "Tortue terrestre",
+   "exact": [
+    "tortue"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Tortoise"
+  },
+  {
+   "id": "requin-marteau",
+   "answer": "Requin-marteau",
+   "exact": [
+    "requin marteau"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Hammerhead_shark"
+  },
+  {
+   "id": "orque",
+   "answer": "Orque",
+   "exact": [
+    "epaulard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Orca"
+  },
+  {
+   "id": "raie-manta",
+   "answer": "Raie manta",
+   "exact": [
+    "raie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Manta_ray"
+  },
+  {
+   "id": "poisson-clown",
+   "answer": "Poisson-clown",
+   "exact": [
+    "poisson clown",
+    "nemo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Clownfish"
+  },
+  {
+   "id": "piranha",
+   "answer": "Piranha",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Piranha"
+  },
+  {
+   "id": "saumon",
+   "answer": "Saumon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Salmon"
+  },
+  {
+   "id": "homard",
+   "answer": "Homard",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Lobster"
+  },
+  {
+   "id": "crabe",
+   "answer": "Crabe",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Crab"
+  },
+  {
+   "id": "crevette",
+   "answer": "Crevette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Shrimp"
+  },
+  {
+   "id": "etoile-de-mer",
+   "answer": "Étoile de mer",
+   "exact": [
+    "etoile de mer"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Starfish"
+  },
+  {
+   "id": "oursin",
+   "answer": "Oursin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Sea_urchin"
+  },
+  {
+   "id": "calamar",
+   "answer": "Calamar",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Squid"
+  },
+  {
+   "id": "scorpion",
+   "answer": "Scorpion",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Scorpion"
+  },
+  {
+   "id": "araignee",
+   "answer": "Araignée",
+   "exact": [
+    "araignee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Spider"
+  },
+  {
+   "id": "tarentule",
+   "answer": "Tarentule",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Tarantula"
+  },
+  {
+   "id": "fourmi",
+   "answer": "Fourmi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Ant"
+  },
+  {
+   "id": "libellule",
+   "answer": "Libellule",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Dragonfly"
+  },
+  {
+   "id": "sauterelle",
+   "answer": "Sauterelle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Grasshopper"
+  },
+  {
+   "id": "mante-religieuse",
+   "answer": "Mante religieuse",
+   "exact": [
+    "mante"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Mantis"
+  },
+  {
+   "id": "limace",
+   "answer": "Limace",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Slug"
+  },
+  {
+   "id": "ver-de-terre",
+   "answer": "Ver de terre",
+   "exact": [
+    "lombric"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Earthworm"
+  },
+  {
+   "id": "chenille",
+   "answer": "Chenille",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Caterpillar"
+  },
+  {
+   "id": "hamster",
+   "answer": "Hamster",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Hamster"
+  },
+  {
+   "id": "cochon-d-inde",
+   "answer": "Cochon d'Inde",
+   "exact": [
+    "cobaye"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Guinea_pig"
+  },
+  {
+   "id": "souris",
+   "answer": "Souris",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:House_mouse"
+  },
+  {
+   "id": "rat",
+   "answer": "Rat",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Brown_rat"
+  },
+  {
+   "id": "furet",
+   "answer": "Furet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Ferret"
+  },
+  {
+   "id": "taupe",
+   "answer": "Taupe",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:European_mole"
+  },
+  {
+   "id": "blaireau",
+   "answer": "Blaireau",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:European_badger"
+  },
+  {
+   "id": "lemurien",
+   "answer": "Lémurien",
+   "exact": [
+    "maki",
+    "lemurien"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Ring-tailed_lemur"
+  },
+  {
+   "id": "babouin",
+   "answer": "Babouin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Baboon"
+  },
+  {
+   "id": "chimpanze",
+   "answer": "Chimpanzé",
+   "exact": [
+    "chimpanze"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Chimpanzee"
+  },
+  {
+   "id": "tapir",
+   "answer": "Tapir",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Tapir"
+  },
+  {
+   "id": "capybara",
+   "answer": "Capybara",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Capybara"
+  },
+  {
+   "id": "fennec",
+   "answer": "Fennec",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Fennec_fox"
+  },
+  {
+   "id": "pangolin",
+   "answer": "Pangolin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Pangolin"
+  },
+  {
+   "id": "wombat",
+   "answer": "Wombat",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Wombat"
+  },
+  {
+   "id": "quokka",
+   "answer": "Quokka",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Quokka"
+  },
+  {
+   "id": "narval",
+   "answer": "Narval",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Narwhal"
+  },
+  {
+   "id": "lamantin",
+   "answer": "Lamantin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Manatee"
   }
  ]
 }

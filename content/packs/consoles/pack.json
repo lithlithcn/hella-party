@@ -423,6 +423,275 @@
     "moyen"
    ],
    "src": "wiki:en:Meta_Quest_3"
+  },
+  {
+   "id": "nintendo-dsi",
+   "answer": "Nintendo DSi",
+   "exact": [
+    "dsi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Nintendo_DSi"
+  },
+  {
+   "id": "game-boy-color",
+   "answer": "Game Boy Color",
+   "exact": [
+    "gbc"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Game_Boy_Color"
+  },
+  {
+   "id": "game-boy-advance-sp",
+   "answer": "Game Boy Advance SP",
+   "exact": [
+    "gba sp"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Game_Boy_Advance_SP"
+  },
+  {
+   "id": "new-nintendo-3ds",
+   "answer": "New Nintendo 3DS",
+   "exact": [
+    "new 3ds"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:New_Nintendo_3DS"
+  },
+  {
+   "id": "nintendo-switch-lite",
+   "answer": "Nintendo Switch Lite",
+   "exact": [
+    "switch lite"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_Switch_Lite"
+  },
+  {
+   "id": "nintendo-switch-oled",
+   "answer": "Nintendo Switch OLED",
+   "exact": [
+    "switch oled"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Nintendo_Switch_OLED_Model"
+  },
+  {
+   "id": "playstation-4-pro",
+   "answer": "PlayStation 4 Pro",
+   "exact": [
+    "ps4 pro"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:PlayStation_4_Pro"
+  },
+  {
+   "id": "playstation-vr",
+   "answer": "PlayStation VR",
+   "exact": [
+    "psvr"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:PlayStation_VR"
+  },
+  {
+   "id": "xbox-series-s",
+   "answer": "Xbox Series S",
+   "exact": [
+    "series s"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Xbox_Series_X_and_Series_S"
+  },
+  {
+   "id": "kinect",
+   "answer": "Kinect",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Kinect"
+  },
+  {
+   "id": "wiimote",
+   "answer": "Wiimote",
+   "exact": [
+    "wii remote",
+    "manette wii"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Wii_Remote"
+  },
+  {
+   "id": "sega-saturn",
+   "answer": "Sega Saturn",
+   "exact": [
+    "saturn"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:Sega_Saturn"
+  },
+  {
+   "id": "sega-master-system",
+   "answer": "Sega Master System",
+   "exact": [
+    "master system"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:Master_System"
+  },
+  {
+   "id": "neo-geo",
+   "answer": "Neo Geo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:Neo_Geo_(system)"
+  },
+  {
+   "id": "atari-lynx",
+   "answer": "Atari Lynx",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:Atari_Lynx"
+  },
+  {
+   "id": "nintendo-game-watch",
+   "answer": "Nintendo Game & Watch",
+   "exact": [
+    "game and watch"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Game_&_Watch"
+  },
+  {
+   "id": "turbografx-16",
+   "answer": "TurboGrafx-16",
+   "exact": [
+    "pc engine"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:TurboGrafx-16"
+  },
+  {
+   "id": "psp-go",
+   "answer": "PSP Go",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:PSP_Go"
+  },
+  {
+   "id": "ouya",
+   "answer": "Ouya",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:Ouya"
+  },
+  {
+   "id": "famicom",
+   "answer": "Famicom",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:Family_Computer"
   }
  ]
 }

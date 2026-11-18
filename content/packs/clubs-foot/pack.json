@@ -732,6 +732,671 @@
     "difficile"
    ],
    "src": "wiki:en:Club_Brugge_KV"
+  },
+  {
+   "id": "fc-lorient",
+   "answer": "FC Lorient",
+   "exact": [
+    "lorient"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:FC_Lorient"
+  },
+  {
+   "id": "angers-sco",
+   "answer": "Angers SCO",
+   "exact": [
+    "angers"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Angers_SCO"
+  },
+  {
+   "id": "aj-auxerre",
+   "answer": "AJ Auxerre",
+   "exact": [
+    "auxerre"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:AJ_Auxerre"
+  },
+  {
+   "id": "le-havre-ac",
+   "answer": "Le Havre AC",
+   "exact": [
+    "le havre"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Le_Havre_AC"
+  },
+  {
+   "id": "fc-metz",
+   "answer": "FC Metz",
+   "exact": [
+    "metz"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:FC_Metz"
+  },
+  {
+   "id": "stade-malherbe-caen",
+   "answer": "Stade Malherbe Caen",
+   "exact": [
+    "caen"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Stade_Malherbe_Caen"
+  },
+  {
+   "id": "sc-bastia",
+   "answer": "SC Bastia",
+   "exact": [
+    "bastia"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:SC_Bastia"
+  },
+  {
+   "id": "ea-guingamp",
+   "answer": "EA Guingamp",
+   "exact": [
+    "guingamp"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:En_Avant_Guingamp"
+  },
+  {
+   "id": "paris-fc",
+   "answer": "Paris FC",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Paris_FC"
+  },
+  {
+   "id": "red-star",
+   "answer": "Red Star",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Red_Star_F.C."
+  },
+  {
+   "id": "west-ham",
+   "answer": "West Ham",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:West_Ham_United_F.C."
+  },
+  {
+   "id": "everton",
+   "answer": "Everton",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:Everton_F.C."
+  },
+  {
+   "id": "leicester-city",
+   "answer": "Leicester City",
+   "exact": [
+    "leicester"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:Leicester_City_F.C."
+  },
+  {
+   "id": "leeds-united",
+   "answer": "Leeds United",
+   "exact": [
+    "leeds"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:Leeds_United_F.C."
+  },
+  {
+   "id": "brighton",
+   "answer": "Brighton",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Brighton_&_Hove_Albion_F.C."
+  },
+  {
+   "id": "nottingham-forest",
+   "answer": "Nottingham Forest",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Nottingham_Forest_F.C."
+  },
+  {
+   "id": "wolverhampton",
+   "answer": "Wolverhampton",
+   "exact": [
+    "wolves"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Wolverhampton_Wanderers_F.C."
+  },
+  {
+   "id": "real-sociedad",
+   "answer": "Real Sociedad",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Real_Sociedad"
+  },
+  {
+   "id": "athletic-bilbao",
+   "answer": "Athletic Bilbao",
+   "exact": [
+    "bilbao"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:Athletic_Bilbao"
+  },
+  {
+   "id": "villarreal",
+   "answer": "Villarreal",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Villarreal_CF"
+  },
+  {
+   "id": "real-betis",
+   "answer": "Real Betis",
+   "exact": [
+    "betis"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Real_Betis"
+  },
+  {
+   "id": "lazio-rome",
+   "answer": "Lazio Rome",
+   "exact": [
+    "lazio"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:SS_Lazio"
+  },
+  {
+   "id": "atalanta",
+   "answer": "Atalanta",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Atalanta_BC"
+  },
+  {
+   "id": "fiorentina",
+   "answer": "Fiorentina",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:ACF_Fiorentina"
+  },
+  {
+   "id": "schalke-04",
+   "answer": "Schalke 04",
+   "exact": [
+    "schalke"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "foot",
+    "moyen"
+   ],
+   "src": "wiki:en:FC_Schalke_04"
+  },
+  {
+   "id": "vfb-stuttgart",
+   "answer": "VfB Stuttgart",
+   "exact": [
+    "stuttgart"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:VfB_Stuttgart"
+  },
+  {
+   "id": "eintracht-francfort",
+   "answer": "Eintracht Francfort",
+   "exact": [
+    "francfort"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Eintracht_Frankfurt"
+  },
+  {
+   "id": "feyenoord",
+   "answer": "Feyenoord",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Feyenoord"
+  },
+  {
+   "id": "anderlecht",
+   "answer": "Anderlecht",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:R.S.C._Anderlecht"
+  },
+  {
+   "id": "standard-de-liege",
+   "answer": "Standard de Liège",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Standard_Liège"
+  },
+  {
+   "id": "fenerbahce",
+   "answer": "Fenerbahçe",
+   "exact": [
+    "fenerbahce"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Fenerbahçe_S.K._(football)"
+  },
+  {
+   "id": "besiktas",
+   "answer": "Beşiktaş",
+   "exact": [
+    "besiktas"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Beşiktaş_J.K._(football)"
+  },
+  {
+   "id": "olympiakos",
+   "answer": "Olympiakos",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Olympiacos_F.C."
+  },
+  {
+   "id": "rangers",
+   "answer": "Rangers",
+   "exact": [
+    "glasgow rangers"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Rangers_F.C."
+  },
+  {
+   "id": "red-bull-salzbourg",
+   "answer": "Red Bull Salzbourg",
+   "exact": [
+    "salzbourg"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:FC_Red_Bull_Salzburg"
+  },
+  {
+   "id": "shakhtar-donetsk",
+   "answer": "Shakhtar Donetsk",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:FC_Shakhtar_Donetsk"
+  },
+  {
+   "id": "dynamo-kiev",
+   "answer": "Dynamo Kiev",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:FC_Dynamo_Kyiv"
+  },
+  {
+   "id": "zenith-saint-petersbourg",
+   "answer": "Zénith Saint-Pétersbourg",
+   "exact": [
+    "zenith"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:FC_Zenit_Saint_Petersburg"
+  },
+  {
+   "id": "al-hilal",
+   "answer": "Al-Hilal",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Al_Hilal_SFC"
+  },
+  {
+   "id": "al-ittihad",
+   "answer": "Al-Ittihad",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Ittihad_FC"
+  },
+  {
+   "id": "wydad-casablanca",
+   "answer": "Wydad Casablanca",
+   "exact": [
+    "wydad"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Wydad_AC"
+  },
+  {
+   "id": "raja-casablanca",
+   "answer": "Raja Casablanca",
+   "exact": [
+    "raja"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Raja_CA"
+  },
+  {
+   "id": "al-ahly",
+   "answer": "Al Ahly",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Al_Ahly_SC"
+  },
+  {
+   "id": "esperance-de-tunis",
+   "answer": "Espérance de Tunis",
+   "exact": [
+    "esperance"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Espérance_Sportive_de_Tunis"
+  },
+  {
+   "id": "corinthians",
+   "answer": "Corinthians",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Sport_Club_Corinthians_Paulista"
+  },
+  {
+   "id": "sao-paulo-fc",
+   "answer": "São Paulo FC",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:São_Paulo_FC"
+  },
+  {
+   "id": "palmeiras",
+   "answer": "Palmeiras",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Sociedade_Esportiva_Palmeiras"
+  },
+  {
+   "id": "club-america",
+   "answer": "Club América",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Club_América"
+  },
+  {
+   "id": "new-york-city-fc",
+   "answer": "New York City FC",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:New_York_City_FC"
+  },
+  {
+   "id": "seattle-sounders",
+   "answer": "Seattle Sounders",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "foot",
+    "difficile"
+   ],
+   "src": "wiki:en:Seattle_Sounders_FC"
+  },
+  {
+   "id": "equipe-de-france",
+   "answer": "Équipe de France",
+   "exact": [
+    "les bleus",
+    "france"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "foot",
+    "facile"
+   ],
+   "src": "wiki:en:France_national_football_team"
   }
  ]
 }

@@ -650,6 +650,419 @@
     "difficile"
    ],
    "src": "wiki:en:Polo_(sport)"
+  },
+  {
+   "id": "mma",
+   "answer": "MMA",
+   "exact": [
+    "ufc",
+    "arts martiaux mixtes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Mixed_martial_arts"
+  },
+  {
+   "id": "karate",
+   "answer": "Karaté",
+   "exact": [
+    "karate"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Karate"
+  },
+  {
+   "id": "taekwondo",
+   "answer": "Taekwondo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Taekwondo"
+  },
+  {
+   "id": "lutte",
+   "answer": "Lutte",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Wrestling"
+  },
+  {
+   "id": "gymnastique",
+   "answer": "Gymnastique",
+   "exact": [
+    "poutre"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Balance_beam"
+  },
+  {
+   "id": "athletisme",
+   "answer": "Athlétisme",
+   "exact": [
+    "course",
+    "athletisme"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Track_and_field"
+  },
+  {
+   "id": "marathon",
+   "answer": "Marathon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Marathon"
+  },
+  {
+   "id": "triathlon",
+   "answer": "Triathlon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Triathlon"
+  },
+  {
+   "id": "aviron",
+   "answer": "Aviron",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Rowing_(sport)"
+  },
+  {
+   "id": "voile",
+   "answer": "Voile",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Sailing"
+  },
+  {
+   "id": "planche-a-voile",
+   "answer": "Planche à voile",
+   "exact": [
+    "windsurf"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Windsurfing"
+  },
+  {
+   "id": "kitesurf",
+   "answer": "Kitesurf",
+   "exact": [
+    "kite"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Kiteboarding"
+  },
+  {
+   "id": "wakeboard",
+   "answer": "Wakeboard",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "difficile"
+   ],
+   "src": "wiki:en:Wakeboarding"
+  },
+  {
+   "id": "ski-nautique",
+   "answer": "Ski nautique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Water_skiing"
+  },
+  {
+   "id": "rafting",
+   "answer": "Rafting",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Rafting"
+  },
+  {
+   "id": "biathlon",
+   "answer": "Biathlon",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "difficile"
+   ],
+   "src": "wiki:en:Biathlon"
+  },
+  {
+   "id": "saut-a-ski",
+   "answer": "Saut à ski",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Ski_jumping"
+  },
+  {
+   "id": "luge",
+   "answer": "Luge",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "difficile"
+   ],
+   "src": "wiki:en:Luge"
+  },
+  {
+   "id": "patinage-de-vitesse",
+   "answer": "Patinage de vitesse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "difficile"
+   ],
+   "src": "wiki:en:Speed_skating"
+  },
+  {
+   "id": "bmx",
+   "answer": "BMX",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:BMX"
+  },
+  {
+   "id": "vtt",
+   "answer": "VTT",
+   "exact": [
+    "vtt"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Mountain_bike"
+  },
+  {
+   "id": "motocross",
+   "answer": "Motocross",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Motocross"
+  },
+  {
+   "id": "rallye",
+   "answer": "Rallye",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Rallying"
+  },
+  {
+   "id": "golf-balle",
+   "answer": "Golf (balle)",
+   "exact": [
+    "golf"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Golf_ball"
+  },
+  {
+   "id": "basket-panier",
+   "answer": "Basket (panier)",
+   "exact": [
+    "panier de basket"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Basketball_court"
+  },
+  {
+   "id": "tennis-balle",
+   "answer": "Tennis (balle)",
+   "exact": [
+    "balle de tennis"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Tennis_ball"
+  },
+  {
+   "id": "rugby-poteaux",
+   "answer": "Rugby (poteaux)",
+   "exact": [
+    "ovalie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Rugby_union"
+  },
+  {
+   "id": "football-cage",
+   "answer": "Football (cage)",
+   "exact": [
+    "terrain de foot"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Football_pitch"
+  },
+  {
+   "id": "coupe-du-monde",
+   "answer": "Coupe du monde",
+   "exact": [
+    "trophee coupe du monde"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:FIFA_World_Cup_Trophy"
+  },
+  {
+   "id": "ballon-d-or",
+   "answer": "Ballon d'Or",
+   "exact": [
+    "ballon d or"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Ballon_d'Or"
+  },
+  {
+   "id": "medaille-d-or",
+   "answer": "Médaille d'or",
+   "exact": [
+    "medaille"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Gold_medal"
+  },
+  {
+   "id": "anneaux-olympiques",
+   "answer": "Anneaux olympiques",
+   "exact": [
+    "jeux olympiques",
+    "jo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Olympic_symbols"
+  },
+  {
+   "id": "tour-de-france",
+   "answer": "Tour de France",
+   "exact": [
+    "maillot jaune"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Tour_de_France"
+  },
+  {
+   "id": "roland-garros",
+   "answer": "Roland-Garros",
+   "exact": [
+    "roland garros"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:French_Open"
   }
  ]
 }

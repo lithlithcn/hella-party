@@ -770,6 +770,664 @@
    ],
    "type": "text",
    "text": "🚀📦👾🪙 · Ramasse de la ferraille sur des lunes hantées"
+  },
+  {
+   "id": "super-mario-odyssey",
+   "answer": "Super Mario Odyssey",
+   "exact": [
+    "mario odyssey"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧢🗺️🦖📸 · Mario lance sa casquette pour posséder des ennemis"
+  },
+  {
+   "id": "luigi-s-mansion",
+   "answer": "Luigi's Mansion",
+   "exact": [
+    "luigis mansion"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👻🔦🏚️🟢 · Le frère trouillard aspire des fantômes"
+  },
+  {
+   "id": "mario-party",
+   "answer": "Mario Party",
+   "exact": [
+    "mario party"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎲⭐🎉🏆 · Plateau de jeu et mini-jeux entre amis"
+  },
+  {
+   "id": "zelda-breath-of-the-wild",
+   "answer": "Zelda : Breath of the Wild",
+   "exact": [
+    "breath of the wild",
+    "botw",
+    "zelda"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🗡️🏔️🍎🪂 · Un monde ouvert à Hyrule, on peut tout escalader"
+  },
+  {
+   "id": "hearthstone",
+   "answer": "Hearthstone",
+   "exact": [
+    "hearthstone"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🃏🔥🍺🧙 · Jeu de cartes dans l'univers Warcraft"
+  },
+  {
+   "id": "world-of-warcraft",
+   "answer": "World of Warcraft",
+   "exact": [
+    "wow",
+    "world of warcraft"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐲⚔️🧝‍♀️🌍 · Le MMORPG le plus célèbre"
+  },
+  {
+   "id": "counter-strike",
+   "answer": "Counter-Strike",
+   "exact": [
+    "cs",
+    "csgo",
+    "counter strike",
+    "cs2"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💣🔫🧑‍✈️🛡️ · Terroristes contre antiterroristes, désamorce la bombe"
+  },
+  {
+   "id": "apex-legends",
+   "answer": "Apex Legends",
+   "exact": [
+    "apex"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏹🪂👑🛡️ · Battle royale avec des « légendes »"
+  },
+  {
+   "id": "pubg",
+   "answer": "PUBG",
+   "exact": [
+    "pubg"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🍳🪂🏆🔫 · Le battle royale où la poêle protège des balles"
+  },
+  {
+   "id": "overwatch",
+   "answer": "Overwatch",
+   "exact": [
+    "overwatch"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦸‍♀️🎯⏱️🛡️ · FPS en équipe de héros de Blizzard"
+  },
+  {
+   "id": "skyrim",
+   "answer": "Skyrim",
+   "exact": [
+    "skyrim"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐉🗡️🏹🦵 · « J'étais un aventurier, puis j'ai pris une flèche dans le genou »"
+  },
+  {
+   "id": "fallout",
+   "answer": "Fallout",
+   "exact": [
+    "fallout"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "☢️🧑‍🚀🏚️🥫 · Survivre après l'apocalypse nucléaire, sortir d'un abri"
+  },
+  {
+   "id": "resident-evil",
+   "answer": "Resident Evil",
+   "exact": [
+    "resident evil"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧟‍♂️🏚️🔫🌿 · Survival horror avec des zombies et des herbes"
+  },
+  {
+   "id": "silent-hill",
+   "answer": "Silent Hill",
+   "exact": [
+    "silent hill"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🌫️🔺🔪🏚️ · Une ville brumeuse et un monstre à tête pyramidale"
+  },
+  {
+   "id": "uncharted",
+   "answer": "Uncharted",
+   "exact": [
+    "uncharted"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🗺️🧗‍♂️💰🔫 · Nathan Drake chasseur de trésors"
+  },
+  {
+   "id": "god-of-war",
+   "answer": "God of War",
+   "exact": [
+    "god of war"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🪓👨‍👦❄️⚡ · Kratos et son fils Atreus"
+  },
+  {
+   "id": "spider-man-jeu",
+   "answer": "Spider-Man (jeu)",
+   "exact": [
+    "spider man",
+    "spiderman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🕷️🏙️🕸️🎮 · Se balancer dans New York sur PlayStation"
+  },
+  {
+   "id": "final-fantasy",
+   "answer": "Final Fantasy",
+   "exact": [
+    "final fantasy",
+    "ff"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🗡️💎🐤✨ · Série de RPG japonais avec des Chocobos"
+  },
+  {
+   "id": "kingdom-hearts",
+   "answer": "Kingdom Hearts",
+   "exact": [
+    "kingdom hearts"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🗝️🐭🦆🖤 · Sora, Donald et Dingo dans les mondes Disney"
+  },
+  {
+   "id": "metal-gear-solid",
+   "answer": "Metal Gear Solid",
+   "exact": [
+    "mgs",
+    "metal gear"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "📦🕵️‍♂️❗🐍 · Se cacher dans un carton"
+  },
+  {
+   "id": "dark-souls",
+   "answer": "Dark Souls",
+   "exact": [
+    "dark souls"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🔥⚔️💀😭 · « You died » encore et encore"
+  },
+  {
+   "id": "bloodborne",
+   "answer": "Bloodborne",
+   "exact": [
+    "bloodborne"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🩸🌕🎩⚔️ · Chasseur dans une ville gothique, de FromSoftware"
+  },
+  {
+   "id": "sekiro",
+   "answer": "Sekiro",
+   "exact": [
+    "sekiro"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🥷🗡️🌸💀 · Shinobi manchot qui pare tout"
+  },
+  {
+   "id": "monster-hunter",
+   "answer": "Monster Hunter",
+   "exact": [
+    "monster hunter"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🐉🗡️🍖🏕️ · Chasser des monstres géants pour se faire de l'équipement"
+  },
+  {
+   "id": "diablo",
+   "answer": "Diablo",
+   "exact": [
+    "diablo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "😈🗡️💎🔥 · Hack'n slash en enfer"
+  },
+  {
+   "id": "age-of-empires",
+   "answer": "Age of Empires",
+   "exact": [
+    "age of empires",
+    "aoe"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏰⚔️🐎🌾 · Construire une civilisation et faire la guerre"
+  },
+  {
+   "id": "simcity",
+   "answer": "SimCity",
+   "exact": [
+    "simcity"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏙️🏗️🚦💰 · Construire et gérer une ville"
+  },
+  {
+   "id": "plants-vs-zombies",
+   "answer": "Plants vs. Zombies",
+   "exact": [
+    "plantes contre zombies",
+    "pvz"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🌻🧟‍♂️🌱🏡 · Des plantes défendent ta maison"
+  },
+  {
+   "id": "poppy-playtime",
+   "answer": "Poppy Playtime",
+   "exact": [
+    "poppy playtime"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧸🏭🖐️🔵 · Huggy Wuggy dans une usine de jouets"
+  },
+  {
+   "id": "phasmophobia",
+   "answer": "Phasmophobia",
+   "exact": [
+    "phasmophobia"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👻📻🌡️🔦 · Chasseurs de fantômes en coop"
+  },
+  {
+   "id": "overcooked",
+   "answer": "Overcooked",
+   "exact": [
+    "overcooked"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👨‍🍳🔥🍅⏰ · Cuisine chaotique en coop"
+  },
+  {
+   "id": "palworld",
+   "answer": "Palworld",
+   "exact": [
+    "palworld"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🐾🔫🏭🦊 · « Pokémon avec des fusils »"
+  },
+  {
+   "id": "hogwarts-legacy",
+   "answer": "Hogwarts Legacy",
+   "exact": [
+    "hogwarts legacy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🧙‍♂️🏰🪄🦉 · Élève à Poudlard au XIXe siècle"
+  },
+  {
+   "id": "tekken",
+   "answer": "Tekken",
+   "exact": [
+    "tekken"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👊🦵🐻🥋 · Jeu de combat 3D de Namco, King Iron Fist"
+  },
+  {
+   "id": "mortal-kombat",
+   "answer": "Mortal Kombat",
+   "exact": [
+    "mortal kombat",
+    "mk"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐉💀🥷❄️ · « Finish him ! »"
+  },
+  {
+   "id": "gran-turismo",
+   "answer": "Gran Turismo",
+   "exact": [
+    "gran turismo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏎️🏁📸🇯🇵 · Le simulateur de conduite de PlayStation"
+  },
+  {
+   "id": "forza-horizon",
+   "answer": "Forza Horizon",
+   "exact": [
+    "forza"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏎️🌄🎉🇲🇽 · Festival de courses en monde ouvert"
+  },
+  {
+   "id": "need-for-speed",
+   "answer": "Need for Speed",
+   "exact": [
+    "need for speed",
+    "nfs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🚗🚓💨🏁 · Courses de rue et poursuites de police"
+  },
+  {
+   "id": "trackmania",
+   "answer": "Trackmania",
+   "exact": [
+    "trackmania"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏎️🔄🏁⏱️ · Course contre la montre sur des circuits fous, jeu français"
+  },
+  {
+   "id": "guitar-hero",
+   "answer": "Guitar Hero",
+   "exact": [
+    "guitar hero"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎸🟢🔴🟡 · Jouer de la guitare en plastique en rythme"
+  },
+  {
+   "id": "rayman",
+   "answer": "Rayman",
+   "exact": [
+    "rayman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧑‍🦲🫲🫱🌳 · Un héros sans bras ni jambes, jeu français"
+  },
+  {
+   "id": "crash-bandicoot",
+   "answer": "Crash Bandicoot",
+   "exact": [
+    "crash",
+    "crash bandicoot"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦊🍎📦💥 · Marsupial orange qui casse des caisses"
+  },
+  {
+   "id": "spyro",
+   "answer": "Spyro",
+   "exact": [
+    "spyro"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐉💜🔥💎 · Petit dragon violet"
+  },
+  {
+   "id": "tomb-raider",
+   "answer": "Tomb Raider",
+   "exact": [
+    "tomb raider"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏛️🔫🧗‍♀️💎 · Lara Croft exploratrice"
+  },
+  {
+   "id": "wolfenstein",
+   "answer": "Wolfenstein",
+   "exact": [
+    "wolfenstein"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🔫🏰🪖💥 · Un des tout premiers FPS"
+  },
+  {
+   "id": "doom",
+   "answer": "Doom",
+   "exact": [
+    "doom"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👹🔫🔥🪖 · Massacre de démons sur Mars"
   }
  ]
 }

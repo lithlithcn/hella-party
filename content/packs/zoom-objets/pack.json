@@ -701,6 +701,674 @@
     "moyen"
    ],
    "src": "wiki:en:Razor"
+  },
+  {
+   "id": "tire-bouchon",
+   "answer": "Tire-bouchon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Corkscrew"
+  },
+  {
+   "id": "ouvre-boite",
+   "answer": "Ouvre-boîte",
+   "exact": [
+    "ouvre boite"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Can_opener"
+  },
+  {
+   "id": "fouet",
+   "answer": "Fouet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Whisk"
+  },
+  {
+   "id": "rape",
+   "answer": "Râpe",
+   "exact": [
+    "rape"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Grater"
+  },
+  {
+   "id": "passoire",
+   "answer": "Passoire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Colander"
+  },
+  {
+   "id": "rouleau-a-patisserie",
+   "answer": "Rouleau à pâtisserie",
+   "exact": [
+    "rouleau"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Rolling_pin"
+  },
+  {
+   "id": "spatule",
+   "answer": "Spatule",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Spatula"
+  },
+  {
+   "id": "louche",
+   "answer": "Louche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Ladle_(spoon)"
+  },
+  {
+   "id": "casserole",
+   "answer": "Casserole",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Saucepan"
+  },
+  {
+   "id": "poele",
+   "answer": "Poêle",
+   "exact": [
+    "poele"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Frying_pan"
+  },
+  {
+   "id": "theiere",
+   "answer": "Théière",
+   "exact": [
+    "theiere"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Teapot"
+  },
+  {
+   "id": "cafetiere",
+   "answer": "Cafetière",
+   "exact": [
+    "cafetiere"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Coffeemaker"
+  },
+  {
+   "id": "bouilloire",
+   "answer": "Bouilloire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Kettle"
+  },
+  {
+   "id": "mixeur",
+   "answer": "Mixeur",
+   "exact": [
+    "blender"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Blender"
+  },
+  {
+   "id": "assiette",
+   "answer": "Assiette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Plate_(dishware)"
+  },
+  {
+   "id": "verre",
+   "answer": "Verre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Drinking_glass"
+  },
+  {
+   "id": "baguettes-chinoises",
+   "answer": "Baguettes chinoises",
+   "exact": [
+    "baguettes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Chopsticks"
+  },
+  {
+   "id": "paille",
+   "answer": "Paille",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Drinking_straw"
+  },
+  {
+   "id": "coton-tige",
+   "answer": "Coton-tige",
+   "exact": [
+    "coton tige"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Cotton_swab"
+  },
+  {
+   "id": "pince-a-epiler",
+   "answer": "Pince à épiler",
+   "exact": [
+    "pince a epiler"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Tweezers"
+  },
+  {
+   "id": "coupe-ongles",
+   "answer": "Coupe-ongles",
+   "exact": [
+    "coupe ongle"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Nail_clipper"
+  },
+  {
+   "id": "seche-cheveux",
+   "answer": "Sèche-cheveux",
+   "exact": [
+    "seche cheveux"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Hair_dryer"
+  },
+  {
+   "id": "fer-a-lisser",
+   "answer": "Fer à lisser",
+   "exact": [
+    "lisseur"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Hair_iron"
+  },
+  {
+   "id": "dentifrice",
+   "answer": "Dentifrice",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Toothpaste"
+  },
+  {
+   "id": "rouge-a-levres",
+   "answer": "Rouge à lèvres",
+   "exact": [
+    "rouge a levres"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Lipstick"
+  },
+  {
+   "id": "parfum",
+   "answer": "Parfum",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Perfume"
+  },
+  {
+   "id": "miroir",
+   "answer": "Miroir",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Mirror"
+  },
+  {
+   "id": "oreiller",
+   "answer": "Oreiller",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Pillow"
+  },
+  {
+   "id": "couverture",
+   "answer": "Couverture",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Blanket"
+  },
+  {
+   "id": "cintre",
+   "answer": "Cintre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Clothes_hanger"
+  },
+  {
+   "id": "pince-a-linge",
+   "answer": "Pince à linge",
+   "exact": [
+    "pince a linge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Clothespin"
+  },
+  {
+   "id": "bouton-de-porte",
+   "answer": "Bouton de porte",
+   "exact": [
+    "poignee de porte"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Door_handle"
+  },
+  {
+   "id": "prise-electrique",
+   "answer": "Prise électrique",
+   "exact": [
+    "prise"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:AC_power_plugs_and_sockets"
+  },
+  {
+   "id": "interrupteur",
+   "answer": "Interrupteur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Light_switch"
+  },
+  {
+   "id": "chargeur",
+   "answer": "Chargeur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Battery_charger"
+  },
+  {
+   "id": "pile",
+   "answer": "Pile",
+   "exact": [
+    "piles"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:AA_battery"
+  },
+  {
+   "id": "cable-usb",
+   "answer": "Câble USB",
+   "exact": [
+    "cable usb"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:USB"
+  },
+  {
+   "id": "ecouteurs",
+   "answer": "Écouteurs",
+   "exact": [
+    "ecouteurs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Earphone"
+  },
+  {
+   "id": "smartphone",
+   "answer": "Smartphone",
+   "exact": [
+    "telephone",
+    "portable"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Smartphone"
+  },
+  {
+   "id": "tablette",
+   "answer": "Tablette",
+   "exact": [
+    "ipad"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Tablet_computer"
+  },
+  {
+   "id": "ecran",
+   "answer": "Écran",
+   "exact": [
+    "ecran",
+    "moniteur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Computer_monitor"
+  },
+  {
+   "id": "imprimante",
+   "answer": "Imprimante",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Printer_(computing)"
+  },
+  {
+   "id": "enveloppe",
+   "answer": "Enveloppe",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Envelope"
+  },
+  {
+   "id": "timbre",
+   "answer": "Timbre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Postage_stamp"
+  },
+  {
+   "id": "post-it",
+   "answer": "Post-it",
+   "exact": [
+    "post it"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Post-it_note"
+  },
+  {
+   "id": "scotch",
+   "answer": "Scotch",
+   "exact": [
+    "ruban adhesif"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Adhesive_tape"
+  },
+  {
+   "id": "punaise",
+   "answer": "Punaise",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Drawing_pin"
+  },
+  {
+   "id": "taille-crayon",
+   "answer": "Taille-crayon",
+   "exact": [
+    "taille crayon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Pencil_sharpener"
+  },
+  {
+   "id": "surligneur",
+   "answer": "Surligneur",
+   "exact": [
+    "stabilo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Highlighter"
+  },
+  {
+   "id": "compas",
+   "answer": "Compas",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Compass_(drawing_tool)"
+  },
+  {
+   "id": "livre",
+   "answer": "Livre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Book"
   }
  ]
 }

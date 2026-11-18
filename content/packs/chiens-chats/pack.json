@@ -633,6 +633,426 @@
     "difficile"
    ],
    "src": "wiki:en:Exotic_Shorthair"
+  },
+  {
+   "id": "bouvier-bernois",
+   "answer": "Bouvier bernois",
+   "exact": [
+    "bernese"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Bernese_Mountain_Dog"
+  },
+  {
+   "id": "terre-neuve",
+   "answer": "Terre-neuve",
+   "exact": [
+    "terre neuve"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Newfoundland_dog"
+  },
+  {
+   "id": "cavalier-king-charles",
+   "answer": "Cavalier King Charles",
+   "exact": [
+    "king charles"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Cavalier_King_Charles_Spaniel"
+  },
+  {
+   "id": "bichon-frise",
+   "answer": "Bichon frisé",
+   "exact": [
+    "bichon frise"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Bichon_Frise"
+  },
+  {
+   "id": "spitz-nain",
+   "answer": "Spitz nain",
+   "exact": [
+    "pomeranian",
+    "loulou de pomeranie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Pomeranian_dog"
+  },
+  {
+   "id": "schnauzer",
+   "answer": "Schnauzer",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Miniature_Schnauzer"
+  },
+  {
+   "id": "boxer",
+   "answer": "Boxer",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Boxer_(dog)"
+  },
+  {
+   "id": "cane-corso",
+   "answer": "Cane Corso",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Cane_Corso"
+  },
+  {
+   "id": "shar-pei",
+   "answer": "Shar-Pei",
+   "exact": [
+    "sharpei"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Shar_Pei"
+  },
+  {
+   "id": "dogue-de-bordeaux",
+   "answer": "Dogue de Bordeaux",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Dogue_de_Bordeaux"
+  },
+  {
+   "id": "lhassa-apso",
+   "answer": "Lhassa Apso",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Lhasa_Apso"
+  },
+  {
+   "id": "westie",
+   "answer": "Westie",
+   "exact": [
+    "west highland"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:West_Highland_White_Terrier"
+  },
+  {
+   "id": "bull-terrier",
+   "answer": "Bull Terrier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Bull_Terrier"
+  },
+  {
+   "id": "setter-irlandais",
+   "answer": "Setter irlandais",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Irish_Setter"
+  },
+  {
+   "id": "braque",
+   "answer": "Braque",
+   "exact": [
+    "weimaraner"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Weimaraner"
+  },
+  {
+   "id": "epagneul-breton",
+   "answer": "Épagneul breton",
+   "exact": [
+    "epagneul breton"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Brittany_dog"
+  },
+  {
+   "id": "malamute",
+   "answer": "Malamute",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Alaskan_Malamute"
+  },
+  {
+   "id": "chien-loup-tcheque",
+   "answer": "Chien-loup tchèque",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Czechoslovakian_Wolfdog"
+  },
+  {
+   "id": "berger-blanc-suisse",
+   "answer": "Berger blanc suisse",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Berger_Blanc_Suisse"
+  },
+  {
+   "id": "colley",
+   "answer": "Colley",
+   "exact": [
+    "lassie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Rough_Collie"
+  },
+  {
+   "id": "pinscher-nain",
+   "answer": "Pinscher nain",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Miniature_Pinscher"
+  },
+  {
+   "id": "papillon-chien",
+   "answer": "Papillon (chien)",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Papillon_dog"
+  },
+  {
+   "id": "whippet",
+   "answer": "Whippet",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Whippet"
+  },
+  {
+   "id": "chat-europeen",
+   "answer": "Chat européen",
+   "exact": [
+    "chat de gouttiere"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:European_Shorthair"
+  },
+  {
+   "id": "siberian",
+   "answer": "Siberian",
+   "exact": [
+    "chat siberien"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Siberian_cat"
+  },
+  {
+   "id": "savannah",
+   "answer": "Savannah",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Savannah_cat"
+  },
+  {
+   "id": "devon-rex",
+   "answer": "Devon Rex",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Devon_Rex"
+  },
+  {
+   "id": "angora-turc",
+   "answer": "Angora turc",
+   "exact": [
+    "angora"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Turkish_Angora"
+  },
+  {
+   "id": "chat-calico",
+   "answer": "Chat calico",
+   "exact": [
+    "calico"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:Calico_cat"
+  },
+  {
+   "id": "chat-blanc",
+   "answer": "Chat blanc",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "moyen"
+   ],
+   "src": "wiki:en:White_cat"
+  },
+  {
+   "id": "chaton",
+   "answer": "Chaton",
+   "exact": [
+    "chaton"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Kitten"
+  },
+  {
+   "id": "chiot",
+   "answer": "Chiot",
+   "exact": [
+    "chiot"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "facile"
+   ],
+   "src": "wiki:en:Puppy"
+  },
+  {
+   "id": "chat-sauvage",
+   "answer": "Chat sauvage",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:European_wildcat"
+  },
+  {
+   "id": "lynx-roux",
+   "answer": "Lynx roux",
+   "exact": [
+    "bobcat"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Bobcat"
+  },
+  {
+   "id": "serval",
+   "answer": "Serval",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "difficile"
+   ],
+   "src": "wiki:en:Serval"
   }
  ]
 }

@@ -617,6 +617,606 @@
     "difficile"
    ],
    "src": "wiki:en:Darkseid"
+  },
+  {
+   "id": "iron-spider",
+   "answer": "Iron Spider",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Iron_Spider"
+  },
+  {
+   "id": "spider-gwen",
+   "answer": "Spider-Gwen",
+   "exact": [
+    "gwen stacy",
+    "spider woman"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Spider-Woman_(Gwen_Stacy)"
+  },
+  {
+   "id": "moon-knight",
+   "answer": "Moon Knight",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Moon_Knight"
+  },
+  {
+   "id": "ghost-rider",
+   "answer": "Ghost Rider",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Ghost_Rider"
+  },
+  {
+   "id": "punisher",
+   "answer": "Punisher",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Punisher"
+  },
+  {
+   "id": "blade",
+   "answer": "Blade",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Blade_(character)"
+  },
+  {
+   "id": "star-lord",
+   "answer": "Star-Lord",
+   "exact": [
+    "star lord"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Star-Lord"
+  },
+  {
+   "id": "gamora",
+   "answer": "Gamora",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Gamora"
+  },
+  {
+   "id": "drax",
+   "answer": "Drax",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Drax_the_Destroyer"
+  },
+  {
+   "id": "mantis",
+   "answer": "Mantis",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Mantis_(Marvel_Comics)"
+  },
+  {
+   "id": "nebula",
+   "answer": "Nebula",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Nebula_(Marvel_Comics)"
+  },
+  {
+   "id": "shang-chi",
+   "answer": "Shang-Chi",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Shang-Chi"
+  },
+  {
+   "id": "hulk-rouge",
+   "answer": "Hulk rouge",
+   "exact": [
+    "red hulk"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Thunderbolt_Ross"
+  },
+  {
+   "id": "she-hulk",
+   "answer": "She-Hulk",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:She-Hulk"
+  },
+  {
+   "id": "wasp",
+   "answer": "Wasp",
+   "exact": [
+    "la guepe"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Wasp_(character)"
+  },
+  {
+   "id": "war-machine",
+   "answer": "War Machine",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:War_Machine"
+  },
+  {
+   "id": "falcon",
+   "answer": "Falcon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Falcon_(Marvel_Comics)"
+  },
+  {
+   "id": "winter-soldier",
+   "answer": "Winter Soldier",
+   "exact": [
+    "bucky"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Bucky_Barnes"
+  },
+  {
+   "id": "professeur-xavier",
+   "answer": "Professeur Xavier",
+   "exact": [
+    "professor x"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Professor_X"
+  },
+  {
+   "id": "jean-grey",
+   "answer": "Jean Grey",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Jean_Grey"
+  },
+  {
+   "id": "malicia",
+   "answer": "Malicia",
+   "exact": [
+    "rogue"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Rogue_(Marvel_Comics)"
+  },
+  {
+   "id": "diablo",
+   "answer": "Diablo",
+   "exact": [
+    "nightcrawler"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Nightcrawler_(character)"
+  },
+  {
+   "id": "colossus",
+   "answer": "Colossus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Colossus_(character)"
+  },
+  {
+   "id": "les-4-fantastiques",
+   "answer": "Les 4 Fantastiques",
+   "exact": [
+    "quatre fantastiques"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Fantastic_Four"
+  },
+  {
+   "id": "la-chose",
+   "answer": "La Chose",
+   "exact": [
+    "the thing"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Thing_(Marvel_Comics)"
+  },
+  {
+   "id": "la-torche",
+   "answer": "La Torche",
+   "exact": [
+    "human torch"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Human_Torch"
+  },
+  {
+   "id": "docteur-fatalis",
+   "answer": "Docteur Fatalis",
+   "exact": [
+    "doctor doom"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Doctor_Doom"
+  },
+  {
+   "id": "kang",
+   "answer": "Kang",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Kang_the_Conqueror"
+  },
+  {
+   "id": "le-caid",
+   "answer": "Le Caïd",
+   "exact": [
+    "kingpin"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Kingpin_(character)"
+  },
+  {
+   "id": "carnage",
+   "answer": "Carnage",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Carnage_(character)"
+  },
+  {
+   "id": "mysterio",
+   "answer": "Mysterio",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Mysterio"
+  },
+  {
+   "id": "l-homme-sable",
+   "answer": "L'Homme-Sable",
+   "exact": [
+    "sandman"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Sandman_(Marvel_Comics)"
+  },
+  {
+   "id": "le-vautour",
+   "answer": "Le Vautour",
+   "exact": [
+    "vulture"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Vulture_(Marvel_Comics)"
+  },
+  {
+   "id": "batgirl",
+   "answer": "Batgirl",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Batgirl"
+  },
+  {
+   "id": "nightwing",
+   "answer": "Nightwing",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Nightwing"
+  },
+  {
+   "id": "double-face",
+   "answer": "Double-Face",
+   "exact": [
+    "two face"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Two-Face"
+  },
+  {
+   "id": "le-sphinx",
+   "answer": "Le Sphinx",
+   "exact": [
+    "riddler"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Riddler"
+  },
+  {
+   "id": "l-epouvantail",
+   "answer": "L'Épouvantail",
+   "exact": [
+    "scarecrow"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Scarecrow_(DC_Comics)"
+  },
+  {
+   "id": "mister-freeze",
+   "answer": "Mister Freeze",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Mr._Freeze"
+  },
+  {
+   "id": "black-adam",
+   "answer": "Black Adam",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Black_Adam"
+  },
+  {
+   "id": "zatanna",
+   "answer": "Zatanna",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Zatanna"
+  },
+  {
+   "id": "martian-manhunter",
+   "answer": "Martian Manhunter",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Martian_Manhunter"
+  },
+  {
+   "id": "booster-gold",
+   "answer": "Booster Gold",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Booster_Gold"
+  },
+  {
+   "id": "sinestro",
+   "answer": "Sinestro",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Sinestro"
+  },
+  {
+   "id": "doomsday",
+   "answer": "Doomsday",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Doomsday_(DC_Comics)"
+  },
+  {
+   "id": "brainiac",
+   "answer": "Brainiac",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Brainiac_(character)"
+  },
+  {
+   "id": "static-shock",
+   "answer": "Static Shock",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Static_(DC_Comics)"
+  },
+  {
+   "id": "invincible",
+   "answer": "Invincible",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Invincible_(character)"
+  },
+  {
+   "id": "homelander",
+   "answer": "Homelander",
+   "exact": [
+    "le protecteur"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Homelander"
+  },
+  {
+   "id": "hellboy",
+   "answer": "Hellboy",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Hellboy_(character)"
+  },
+  {
+   "id": "spawn",
+   "answer": "Spawn",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Spawn_(character)"
   }
  ]
 }

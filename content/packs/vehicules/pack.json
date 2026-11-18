@@ -696,6 +696,576 @@
     "difficile"
    ],
    "src": "wiki:en:McLaren_F1"
+  },
+  {
+   "id": "renault-5",
+   "answer": "Renault 5",
+   "exact": [
+    "r5"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Renault_5"
+  },
+  {
+   "id": "renault-megane",
+   "answer": "Renault Mégane",
+   "exact": [
+    "megane"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Renault_Mégane"
+  },
+  {
+   "id": "peugeot-3008",
+   "answer": "Peugeot 3008",
+   "exact": [
+    "3008"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Peugeot_3008"
+  },
+  {
+   "id": "citroen-c3",
+   "answer": "Citroën C3",
+   "exact": [
+    "c3"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Citroën_C3"
+  },
+  {
+   "id": "dacia-sandero",
+   "answer": "Dacia Sandero",
+   "exact": [
+    "sandero"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Dacia_Sandero"
+  },
+  {
+   "id": "toyota-yaris",
+   "answer": "Toyota Yaris",
+   "exact": [
+    "yaris"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Toyota_Yaris"
+  },
+  {
+   "id": "ford-fiesta",
+   "answer": "Ford Fiesta",
+   "exact": [
+    "fiesta"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Ford_Fiesta"
+  },
+  {
+   "id": "ford-model-t",
+   "answer": "Ford Model T",
+   "exact": [
+    "ford t"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Ford_Model_T"
+  },
+  {
+   "id": "ford-gt",
+   "answer": "Ford GT",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Ford_GT"
+  },
+  {
+   "id": "chevrolet-corvette",
+   "answer": "Chevrolet Corvette",
+   "exact": [
+    "corvette"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Chevrolet_Corvette"
+  },
+  {
+   "id": "dodge-challenger",
+   "answer": "Dodge Challenger",
+   "exact": [
+    "challenger"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Dodge_Challenger"
+  },
+  {
+   "id": "lamborghini-countach",
+   "answer": "Lamborghini Countach",
+   "exact": [
+    "countach"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Lamborghini_Countach"
+  },
+  {
+   "id": "lamborghini-urus",
+   "answer": "Lamborghini Urus",
+   "exact": [
+    "urus"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Lamborghini_Urus"
+  },
+  {
+   "id": "ferrari-laferrari",
+   "answer": "Ferrari LaFerrari",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:LaFerrari"
+  },
+  {
+   "id": "koenigsegg",
+   "answer": "Koenigsegg",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Koenigsegg_Jesko"
+  },
+  {
+   "id": "pagani-zonda",
+   "answer": "Pagani Zonda",
+   "exact": [
+    "zonda"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Pagani_Zonda"
+  },
+  {
+   "id": "aston-martin-db5",
+   "answer": "Aston Martin DB5",
+   "exact": [
+    "db5"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Aston_Martin_DB5"
+  },
+  {
+   "id": "rolls-royce-phantom",
+   "answer": "Rolls-Royce Phantom",
+   "exact": [
+    "phantom"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Rolls-Royce_Phantom_(2003)"
+  },
+  {
+   "id": "cybertruck",
+   "answer": "Cybertruck",
+   "exact": [
+    "tesla cybertruck"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Tesla_Cybertruck"
+  },
+  {
+   "id": "tesla-model-s",
+   "answer": "Tesla Model S",
+   "exact": [
+    "model s"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Tesla_Model_S"
+  },
+  {
+   "id": "volkswagen-combi",
+   "answer": "Volkswagen Combi",
+   "exact": [
+    "combi",
+    "van vw"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Volkswagen_Type_2"
+  },
+  {
+   "id": "hummer-h1",
+   "answer": "Hummer H1",
+   "exact": [
+    "humvee"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Humvee"
+  },
+  {
+   "id": "land-rover-defender",
+   "answer": "Land Rover Defender",
+   "exact": [
+    "defender"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Land_Rover_Defender"
+  },
+  {
+   "id": "suzuki-jimny",
+   "answer": "Suzuki Jimny",
+   "exact": [
+    "jimny"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:Suzuki_Jimny"
+  },
+  {
+   "id": "bus-a-imperiale",
+   "answer": "Bus à impériale",
+   "exact": [
+    "bus londonien"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Double-decker_bus"
+  },
+  {
+   "id": "tramway",
+   "answer": "Tramway",
+   "exact": [
+    "tram"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Tram"
+  },
+  {
+   "id": "telepherique",
+   "answer": "Téléphérique",
+   "exact": [
+    "telepherique"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Aerial_lift"
+  },
+  {
+   "id": "funiculaire",
+   "answer": "Funiculaire",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Funicular"
+  },
+  {
+   "id": "gondole",
+   "answer": "Gondole",
+   "exact": [
+    "gondole"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Gondola"
+  },
+  {
+   "id": "pirogue",
+   "answer": "Pirogue",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Dugout_canoe"
+  },
+  {
+   "id": "jet-ski",
+   "answer": "Jet-ski",
+   "exact": [
+    "jet ski"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Personal_water_craft"
+  },
+  {
+   "id": "hovercraft",
+   "answer": "Hovercraft",
+   "exact": [
+    "aeroglisseur"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Hovercraft"
+  },
+  {
+   "id": "voilier",
+   "answer": "Voilier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Sailboat"
+  },
+  {
+   "id": "porte-avions",
+   "answer": "Porte-avions",
+   "exact": [
+    "porte avions"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Aircraft_carrier"
+  },
+  {
+   "id": "drone",
+   "answer": "Drone",
+   "exact": [
+    "drone"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Unmanned_aerial_vehicle"
+  },
+  {
+   "id": "planeur",
+   "answer": "Planeur",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Glider_(sailplane)"
+  },
+  {
+   "id": "dirigeable",
+   "answer": "Dirigeable",
+   "exact": [
+    "zeppelin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Airship"
+  },
+  {
+   "id": "airbus-a380",
+   "answer": "Airbus A380",
+   "exact": [
+    "a380"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Airbus_A380"
+  },
+  {
+   "id": "boeing-747",
+   "answer": "Boeing 747",
+   "exact": [
+    "747"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Boeing_747"
+  },
+  {
+   "id": "ski-doo",
+   "answer": "Ski-Doo",
+   "exact": [
+    "motoneige"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Snowmobile"
+  },
+  {
+   "id": "camion-poubelle",
+   "answer": "Camion-poubelle",
+   "exact": [
+    "camion poubelle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Garbage_truck"
+  },
+  {
+   "id": "bulldozer",
+   "answer": "Bulldozer",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Bulldozer"
+  },
+  {
+   "id": "grue",
+   "answer": "Grue",
+   "exact": [
+    "grue"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Crane_(machine)"
+  },
+  {
+   "id": "pelleteuse",
+   "answer": "Pelleteuse",
+   "exact": [
+    "pelle mecanique"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Excavator"
+  },
+  {
+   "id": "segway",
+   "answer": "Segway",
+   "exact": [
+    "gyropode"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Segway"
   }
  ]
 }

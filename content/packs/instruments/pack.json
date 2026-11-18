@@ -531,6 +531,374 @@
     "facile"
    ],
    "src": "wiki:en:Microphone"
+  },
+  {
+   "id": "guitare-acoustique",
+   "answer": "Guitare acoustique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Acoustic_guitar"
+  },
+  {
+   "id": "piano-a-queue",
+   "answer": "Piano à queue",
+   "exact": [
+    "piano a queue"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Grand_piano"
+  },
+  {
+   "id": "clavier-electronique",
+   "answer": "Clavier électronique",
+   "exact": [
+    "clavier"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Electronic_keyboard"
+  },
+  {
+   "id": "tambour",
+   "answer": "Tambour",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Drum"
+  },
+  {
+   "id": "timbales",
+   "answer": "Timbales",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Timpani"
+  },
+  {
+   "id": "cymbale",
+   "answer": "Cymbale",
+   "exact": [
+    "cymbales"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Cymbal"
+  },
+  {
+   "id": "gong",
+   "answer": "Gong",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Gong"
+  },
+  {
+   "id": "carillon",
+   "answer": "Carillon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Wind_chime"
+  },
+  {
+   "id": "cloche",
+   "answer": "Cloche",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Bell"
+  },
+  {
+   "id": "sifflet",
+   "answer": "Sifflet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Whistle"
+  },
+  {
+   "id": "kazoo",
+   "answer": "Kazoo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Kazoo"
+  },
+  {
+   "id": "mandoline",
+   "answer": "Mandoline",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Mandolin"
+  },
+  {
+   "id": "balalaika",
+   "answer": "Balalaïka",
+   "exact": [
+    "balalaika"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:en:Balalaika"
+  },
+  {
+   "id": "koto",
+   "answer": "Koto",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:en:Koto_(instrument)"
+  },
+  {
+   "id": "guzheng",
+   "answer": "Guzheng",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:en:Guzheng"
+  },
+  {
+   "id": "darbouka",
+   "answer": "Darbouka",
+   "exact": [
+    "derbouka"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Goblet_drum"
+  },
+  {
+   "id": "bongo",
+   "answer": "Bongo",
+   "exact": [
+    "bongos"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Bongo_drum"
+  },
+  {
+   "id": "cajon",
+   "answer": "Cajón",
+   "exact": [
+    "cajon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Cajón"
+  },
+  {
+   "id": "marimba",
+   "answer": "Marimba",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Marimba"
+  },
+  {
+   "id": "glockenspiel",
+   "answer": "Glockenspiel",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:en:Glockenspiel"
+  },
+  {
+   "id": "viole",
+   "answer": "Viole",
+   "exact": [
+    "alto"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:en:Viola"
+  },
+  {
+   "id": "clavecin",
+   "answer": "Clavecin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:en:Harpsichord"
+  },
+  {
+   "id": "vuvuzela",
+   "answer": "Vuvuzela",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Vuvuzela"
+  },
+  {
+   "id": "tambour-d-aisselle",
+   "answer": "Tambour d'aisselle",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:en:Talking_drum"
+  },
+  {
+   "id": "lyre",
+   "answer": "Lyre",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Lyre"
+  },
+  {
+   "id": "metronome",
+   "answer": "Métronome",
+   "exact": [
+    "metronome"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Metronome"
+  },
+  {
+   "id": "partition",
+   "answer": "Partition",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Sheet_music"
+  },
+  {
+   "id": "ampli",
+   "answer": "Ampli",
+   "exact": [
+    "amplificateur"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Guitar_amplifier"
+  },
+  {
+   "id": "platine-vinyle",
+   "answer": "Platine vinyle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Phonograph"
   }
  ]
 }

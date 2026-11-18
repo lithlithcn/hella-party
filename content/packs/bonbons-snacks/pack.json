@@ -656,6 +656,597 @@
     "moyen"
    ],
    "src": "wiki:en:Kinder_Joy"
+  },
+  {
+   "id": "kinder-delice",
+   "answer": "Kinder Délice",
+   "exact": [
+    "kinder delice"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Kinder_Delice"
+  },
+  {
+   "id": "kinder-country",
+   "answer": "Kinder Country",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Kinder_Country"
+  },
+  {
+   "id": "milky-way",
+   "answer": "Milky Way",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Milky_Way_(chocolate_bar)"
+  },
+  {
+   "id": "galaxy",
+   "answer": "Galaxy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:en:Galaxy_(chocolate)"
+  },
+  {
+   "id": "lion",
+   "answer": "Lion",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Lion_(chocolate_bar)"
+  },
+  {
+   "id": "crunch",
+   "answer": "Crunch",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Nestlé_Crunch"
+  },
+  {
+   "id": "daim",
+   "answer": "Daim",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Daim_bar"
+  },
+  {
+   "id": "maltesers",
+   "answer": "Maltesers",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Maltesers"
+  },
+  {
+   "id": "raffaello",
+   "answer": "Raffaello",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Raffaello_(confectionery)"
+  },
+  {
+   "id": "mon-cheri",
+   "answer": "Mon Chéri",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:en:Mon_Chéri"
+  },
+  {
+   "id": "lindt",
+   "answer": "Lindt",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Lindt_&_Sprüngli"
+  },
+  {
+   "id": "cote-d-or",
+   "answer": "Côte d'Or",
+   "exact": [
+    "cote d or"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Côte_d'Or_(chocolate)"
+  },
+  {
+   "id": "poulain",
+   "answer": "Poulain",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:fr:Poulain_(chocolat)"
+  },
+  {
+   "id": "banania",
+   "answer": "Banania",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Banania"
+  },
+  {
+   "id": "ovomaltine",
+   "answer": "Ovomaltine",
+   "exact": [
+    "ovaltine"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Ovaltine"
+  },
+  {
+   "id": "kinder-pingui",
+   "answer": "Kinder Pingui",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:en:Kinder_Pingui"
+  },
+  {
+   "id": "petit-lu",
+   "answer": "Petit Lu",
+   "exact": [
+    "petit beurre"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:fr:Petit-beurre"
+  },
+  {
+   "id": "pim-s",
+   "answer": "Pim's",
+   "exact": [
+    "pims"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:fr:Pim's"
+  },
+  {
+   "id": "choco-bn",
+   "answer": "Choco BN",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:fr:BN_(biscuit)"
+  },
+  {
+   "id": "napolitain",
+   "answer": "Napolitain",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Napolitain_(gâteau)"
+  },
+  {
+   "id": "savane",
+   "answer": "Savane",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Savane_(gâteau)"
+  },
+  {
+   "id": "chips-vico",
+   "answer": "Chips Vico",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Vico_(entreprise)"
+  },
+  {
+   "id": "curly",
+   "answer": "Curly",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:fr:Curly_(biscuit_apéritif)"
+  },
+  {
+   "id": "benenuts",
+   "answer": "Bénénuts",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Benenuts"
+  },
+  {
+   "id": "monaco-biscuit",
+   "answer": "Monaco (biscuit)",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Monaco_(biscuit)"
+  },
+  {
+   "id": "cheetos",
+   "answer": "Cheetos",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "marques",
+    "facile"
+   ],
+   "src": "wiki:en:Cheetos"
+  },
+  {
+   "id": "takis",
+   "answer": "Takis",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Takis"
+  },
+  {
+   "id": "bugles",
+   "answer": "Bugles",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:en:Bugles_(snack)"
+  },
+  {
+   "id": "smiths",
+   "answer": "Smiths",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Smith's_(chips)"
+  },
+  {
+   "id": "ours-d-or",
+   "answer": "Ours d'or",
+   "exact": [
+    "oursons",
+    "gummy bear"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "marques",
+    "facile"
+   ],
+   "src": "wiki:en:Gummy_bear"
+  },
+  {
+   "id": "fraises-tagada",
+   "answer": "Fraises Tagada",
+   "exact": [
+    "tagada"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "marques",
+    "facile"
+   ],
+   "src": "wiki:fr:Fraise_Tagada"
+  },
+  {
+   "id": "car-en-sac",
+   "answer": "Car en Sac",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Car_en_sac"
+  },
+  {
+   "id": "tetes-brulees",
+   "answer": "Têtes Brûlées",
+   "exact": [
+    "tetes brulees"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:fr:Têtes_Brûlées"
+  },
+  {
+   "id": "krema",
+   "answer": "Krema",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Krema"
+  },
+  {
+   "id": "hollywood-chewing-gum",
+   "answer": "Hollywood Chewing-gum",
+   "exact": [
+    "hollywood"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:fr:Hollywood_Chewing_Gum"
+  },
+  {
+   "id": "airheads",
+   "answer": "Airheads",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:en:Airheads_(candy)"
+  },
+  {
+   "id": "jelly-belly",
+   "answer": "Jelly Belly",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Jelly_Belly"
+  },
+  {
+   "id": "starburst",
+   "answer": "Starburst",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:en:Starburst_(confectionery)"
+  },
+  {
+   "id": "reese-s",
+   "answer": "Reese's",
+   "exact": [
+    "reeses"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Reese's_Peanut_Butter_Cups"
+  },
+  {
+   "id": "hershey-s",
+   "answer": "Hershey's",
+   "exact": [
+    "hersheys"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:The_Hershey_Company"
+  },
+  {
+   "id": "twinkie",
+   "answer": "Twinkie",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:en:Twinkie"
+  },
+  {
+   "id": "dr-pepper",
+   "answer": "Dr Pepper",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Dr_Pepper"
+  },
+  {
+   "id": "7-up",
+   "answer": "7 Up",
+   "exact": [
+    "seven up"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:7_Up"
+  },
+  {
+   "id": "capri-sun",
+   "answer": "Capri-Sun",
+   "exact": [
+    "capri sun"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "marques",
+    "facile"
+   ],
+   "src": "wiki:en:Capri-Sun"
+  },
+  {
+   "id": "lipton-ice-tea",
+   "answer": "Lipton Ice Tea",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "marques",
+    "facile"
+   ],
+   "src": "wiki:en:Lipton"
+  },
+  {
+   "id": "perrier",
+   "answer": "Perrier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "marques",
+    "moyen"
+   ],
+   "src": "wiki:en:Perrier"
+  },
+  {
+   "id": "tropico",
+   "answer": "Tropico",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "marques",
+    "difficile"
+   ],
+   "src": "wiki:fr:Tropico_(boisson)"
   }
  ]
 }

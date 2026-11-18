@@ -365,6 +365,252 @@
     "facile"
    ],
    "src": "wiki:en:Fossil"
+  },
+  {
+   "id": "gallimimus",
+   "answer": "Gallimimus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Gallimimus"
+  },
+  {
+   "id": "compsognathus",
+   "answer": "Compsognathus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Compsognathus"
+  },
+  {
+   "id": "baryonyx",
+   "answer": "Baryonyx",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Baryonyx"
+  },
+  {
+   "id": "giganotosaure",
+   "answer": "Giganotosaure",
+   "exact": [
+    "giganotosaurus"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Giganotosaurus"
+  },
+  {
+   "id": "argentinosaure",
+   "answer": "Argentinosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Argentinosaurus"
+  },
+  {
+   "id": "ichtyosaure",
+   "answer": "Ichtyosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Ichthyosaur"
+  },
+  {
+   "id": "quetzalcoatlus",
+   "answer": "Quetzalcoatlus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Quetzalcoatlus"
+  },
+  {
+   "id": "deinonychus",
+   "answer": "Deinonychus",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Deinonychus"
+  },
+  {
+   "id": "pachyrhinosaure",
+   "answer": "Pachyrhinosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Pachyrhinosaurus"
+  },
+  {
+   "id": "therizinosaure",
+   "answer": "Thérizinosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Therizinosaurus"
+  },
+  {
+   "id": "ours-des-cavernes",
+   "answer": "Ours des cavernes",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Cave_bear"
+  },
+  {
+   "id": "homme-de-neandertal",
+   "answer": "Homme de Néandertal",
+   "exact": [
+    "neandertal"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Neanderthal"
+  },
+  {
+   "id": "dodo",
+   "answer": "Dodo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Dodo"
+  },
+  {
+   "id": "mammouth-squelette",
+   "answer": "Mammouth (squelette)",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Mammoth"
+  },
+  {
+   "id": "paraceratherium",
+   "answer": "Paraceratherium",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Paraceratherium"
+  },
+  {
+   "id": "megatherium",
+   "answer": "Mégathérium",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Megatherium"
+  },
+  {
+   "id": "elasmosaure",
+   "answer": "Élasmosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Elasmosaurus"
+  },
+  {
+   "id": "brontosaure",
+   "answer": "Brontosaure",
+   "exact": [
+    "brontosaurus"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Brontosaurus"
+  },
+  {
+   "id": "oviraptor",
+   "answer": "Oviraptor",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Oviraptor"
+  },
+  {
+   "id": "microraptor",
+   "answer": "Microraptor",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Microraptor"
   }
  ]
 }

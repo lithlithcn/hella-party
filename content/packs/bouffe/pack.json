@@ -755,6 +755,838 @@
     "difficile"
    ],
    "src": "wiki:en:Bibimbap"
+  },
+  {
+   "id": "sandwich",
+   "answer": "Sandwich",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Sandwich"
+  },
+  {
+   "id": "pizza-4-fromages",
+   "answer": "Pizza 4 fromages",
+   "exact": [
+    "quatre fromages"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Quattro_formaggi"
+  },
+  {
+   "id": "steak-frites",
+   "answer": "Steak frites",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Steak_frites"
+  },
+  {
+   "id": "poulet-roti",
+   "answer": "Poulet rôti",
+   "exact": [
+    "poulet roti"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Roast_chicken"
+  },
+  {
+   "id": "coq-au-vin",
+   "answer": "Coq au vin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Coq_au_vin"
+  },
+  {
+   "id": "b-uf-bourguignon",
+   "answer": "Bœuf bourguignon",
+   "exact": [
+    "boeuf bourguignon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Beef_bourguignon"
+  },
+  {
+   "id": "blanquette-de-veau",
+   "answer": "Blanquette de veau",
+   "exact": [
+    "blanquette"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Blanquette_de_veau"
+  },
+  {
+   "id": "pot-au-feu",
+   "answer": "Pot-au-feu",
+   "exact": [
+    "pot au feu"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Pot-au-feu"
+  },
+  {
+   "id": "gratin-dauphinois",
+   "answer": "Gratin dauphinois",
+   "exact": [
+    "gratin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Gratin_dauphinois"
+  },
+  {
+   "id": "hachis-parmentier",
+   "answer": "Hachis parmentier",
+   "exact": [
+    "parmentier"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Hachis_Parmentier"
+  },
+  {
+   "id": "bouillabaisse",
+   "answer": "Bouillabaisse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Bouillabaisse"
+  },
+  {
+   "id": "cassoulet",
+   "answer": "Cassoulet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Cassoulet"
+  },
+  {
+   "id": "choucroute",
+   "answer": "Choucroute",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Choucroute_garnie"
+  },
+  {
+   "id": "tartiflette",
+   "answer": "Tartiflette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Tartiflette"
+  },
+  {
+   "id": "aligot",
+   "answer": "Aligot",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "difficile"
+   ],
+   "src": "wiki:en:Aligot"
+  },
+  {
+   "id": "moules-frites",
+   "answer": "Moules-frites",
+   "exact": [
+    "moules frites"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Moules-frites"
+  },
+  {
+   "id": "huitres",
+   "answer": "Huîtres",
+   "exact": [
+    "huitres"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Oyster"
+  },
+  {
+   "id": "escargots",
+   "answer": "Escargots",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Escargot"
+  },
+  {
+   "id": "foie-gras",
+   "answer": "Foie gras",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Foie_gras"
+  },
+  {
+   "id": "camembert",
+   "answer": "Camembert",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Camembert"
+  },
+  {
+   "id": "roquefort",
+   "answer": "Roquefort",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Roquefort"
+  },
+  {
+   "id": "comte",
+   "answer": "Comté",
+   "exact": [
+    "comte"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Comté_cheese"
+  },
+  {
+   "id": "brie",
+   "answer": "Brie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Brie"
+  },
+  {
+   "id": "mozzarella",
+   "answer": "Mozzarella",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Mozzarella"
+  },
+  {
+   "id": "parmesan",
+   "answer": "Parmesan",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Parmigiano_Reggiano"
+  },
+  {
+   "id": "risotto",
+   "answer": "Risotto",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Risotto"
+  },
+  {
+   "id": "gnocchi",
+   "answer": "Gnocchi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Gnocchi"
+  },
+  {
+   "id": "ravioli",
+   "answer": "Ravioli",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Ravioli"
+  },
+  {
+   "id": "carbonara",
+   "answer": "Carbonara",
+   "exact": [
+    "pates carbonara"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Carbonara"
+  },
+  {
+   "id": "bolognaise",
+   "answer": "Bolognaise",
+   "exact": [
+    "spaghetti bolognaise"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Bolognese_sauce"
+  },
+  {
+   "id": "pesto",
+   "answer": "Pesto",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Pesto"
+  },
+  {
+   "id": "bruschetta",
+   "answer": "Bruschetta",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Bruschetta"
+  },
+  {
+   "id": "focaccia",
+   "answer": "Focaccia",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Focaccia"
+  },
+  {
+   "id": "calzone",
+   "answer": "Calzone",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Calzone"
+  },
+  {
+   "id": "fish-and-chips",
+   "answer": "Fish and chips",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Fish_and_chips"
+  },
+  {
+   "id": "english-breakfast",
+   "answer": "English breakfast",
+   "exact": [
+    "petit dejeuner anglais"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Full_breakfast"
+  },
+  {
+   "id": "chili-con-carne",
+   "answer": "Chili con carne",
+   "exact": [
+    "chili"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Chili_con_carne"
+  },
+  {
+   "id": "nachos",
+   "answer": "Nachos",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Nachos"
+  },
+  {
+   "id": "quesadilla",
+   "answer": "Quesadilla",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Quesadilla"
+  },
+  {
+   "id": "fajitas",
+   "answer": "Fajitas",
+   "exact": [
+    "fajita"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Fajita"
+  },
+  {
+   "id": "enchiladas",
+   "answer": "Enchiladas",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Enchilada"
+  },
+  {
+   "id": "ceviche",
+   "answer": "Ceviche",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "difficile"
+   ],
+   "src": "wiki:en:Ceviche"
+  },
+  {
+   "id": "empanada",
+   "answer": "Empanada",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Empanada"
+  },
+  {
+   "id": "hot-pot",
+   "answer": "Hot pot",
+   "exact": [
+    "fondue chinoise"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Hot_pot"
+  },
+  {
+   "id": "canard-laque",
+   "answer": "Canard laqué",
+   "exact": [
+    "canard laque"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Peking_duck"
+  },
+  {
+   "id": "riz-cantonais",
+   "answer": "Riz cantonais",
+   "exact": [
+    "riz frit"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Yangzhou_fried_rice"
+  },
+  {
+   "id": "nouilles-sautees",
+   "answer": "Nouilles sautées",
+   "exact": [
+    "chow mein"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Chow_mein"
+  },
+  {
+   "id": "onigiri",
+   "answer": "Onigiri",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Onigiri"
+  },
+  {
+   "id": "tempura",
+   "answer": "Tempura",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Tempura"
+  },
+  {
+   "id": "takoyaki",
+   "answer": "Takoyaki",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Takoyaki"
+  },
+  {
+   "id": "okonomiyaki",
+   "answer": "Okonomiyaki",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "difficile"
+   ],
+   "src": "wiki:en:Okonomiyaki"
+  },
+  {
+   "id": "curry",
+   "answer": "Curry",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Curry"
+  },
+  {
+   "id": "butter-chicken",
+   "answer": "Butter chicken",
+   "exact": [
+    "poulet au beurre"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Butter_chicken"
+  },
+  {
+   "id": "naan",
+   "answer": "Naan",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Naan"
+  },
+  {
+   "id": "tandoori",
+   "answer": "Tandoori",
+   "exact": [
+    "poulet tandoori"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Tandoori_chicken"
+  },
+  {
+   "id": "shawarma",
+   "answer": "Shawarma",
+   "exact": [
+    "chawarma"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Shawarma"
+  },
+  {
+   "id": "mezze",
+   "answer": "Mezze",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Meze"
+  },
+  {
+   "id": "taboule",
+   "answer": "Taboulé",
+   "exact": [
+    "taboule"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Tabbouleh"
+  },
+  {
+   "id": "brochettes",
+   "answer": "Brochettes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Kebab"
+  },
+  {
+   "id": "harira",
+   "answer": "Harira",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "difficile"
+   ],
+   "src": "wiki:en:Harira"
+  },
+  {
+   "id": "chorba",
+   "answer": "Chorba",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "difficile"
+   ],
+   "src": "wiki:en:Chorba"
+  },
+  {
+   "id": "jollof-rice",
+   "answer": "Jollof rice",
+   "exact": [
+    "riz jollof"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "difficile"
+   ],
+   "src": "wiki:en:Jollof_rice"
+  },
+  {
+   "id": "poulet-yassa",
+   "answer": "Poulet yassa",
+   "exact": [
+    "yassa"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "difficile"
+   ],
+   "src": "wiki:en:Yassa_(food)"
+  },
+  {
+   "id": "attieke",
+   "answer": "Attiéké",
+   "exact": [
+    "attieke"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "difficile"
+   ],
+   "src": "wiki:en:Attiéké"
+  },
+  {
+   "id": "banh-mi",
+   "answer": "Bánh mì",
+   "exact": [
+    "banh mi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Bánh_mì"
+  },
+  {
+   "id": "gaspacho",
+   "answer": "Gaspacho",
+   "exact": [
+    "gazpacho"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Gazpacho"
+  },
+  {
+   "id": "paella-valenciana",
+   "answer": "Paella valenciana",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Paella"
+  },
+  {
+   "id": "tortilla-espagnole",
+   "answer": "Tortilla espagnole",
+   "exact": [
+    "tortilla"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Spanish_omelette"
+  },
+  {
+   "id": "uf-au-plat",
+   "answer": "Œuf au plat",
+   "exact": [
+    "oeuf au plat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "facile"
+   ],
+   "src": "wiki:en:Fried_egg"
+  },
+  {
+   "id": "soupe-miso",
+   "answer": "Soupe miso",
+   "exact": [
+    "miso"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "moyen"
+   ],
+   "src": "wiki:en:Miso_soup"
   }
  ]
 }

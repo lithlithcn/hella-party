@@ -548,6 +548,370 @@
     "difficile"
    ],
    "src": "wiki:en:Olympus_Mons"
+  },
+  {
+   "id": "phobos",
+   "answer": "Phobos",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Phobos_(moon)"
+  },
+  {
+   "id": "europe",
+   "answer": "Europe",
+   "exact": [
+    "europa"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Europa_(moon)"
+  },
+  {
+   "id": "titan",
+   "answer": "Titan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Titan_(moon)"
+  },
+  {
+   "id": "io",
+   "answer": "Io",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Io_(moon)"
+  },
+  {
+   "id": "ganymede",
+   "answer": "Ganymède",
+   "exact": [
+    "ganymede"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Ganymede_(moon)"
+  },
+  {
+   "id": "ceres",
+   "answer": "Cérès",
+   "exact": [
+    "ceres"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Ceres_(dwarf_planet)"
+  },
+  {
+   "id": "soleil-couchant",
+   "answer": "Soleil couchant",
+   "exact": [
+    "coucher de soleil"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Sunset"
+  },
+  {
+   "id": "croissant-de-lune",
+   "answer": "Croissant de lune",
+   "exact": [
+    "phase de la lune"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Lunar_phase"
+  },
+  {
+   "id": "pleine-lune",
+   "answer": "Pleine lune",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Full_moon"
+  },
+  {
+   "id": "meteore",
+   "answer": "Météore",
+   "exact": [
+    "pluie d etoiles filantes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Meteor_shower"
+  },
+  {
+   "id": "planetarium",
+   "answer": "Planétarium",
+   "exact": [
+    "planetarium"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Planetarium"
+  },
+  {
+   "id": "telescope",
+   "answer": "Télescope",
+   "exact": [
+    "telescope"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Telescope"
+  },
+  {
+   "id": "radiotelescope",
+   "answer": "Radiotélescope",
+   "exact": [
+    "antenne"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Radio_telescope"
+  },
+  {
+   "id": "combinaison-spatiale",
+   "answer": "Combinaison spatiale",
+   "exact": [
+    "scaphandre"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Space_suit"
+  },
+  {
+   "id": "laika",
+   "answer": "Laika",
+   "exact": [
+    "chienne laika"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Laika"
+  },
+  {
+   "id": "soyouz",
+   "answer": "Soyouz",
+   "exact": [
+    "soyuz"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Soyuz_(spacecraft)"
+  },
+  {
+   "id": "ariane-5",
+   "answer": "Ariane 5",
+   "exact": [
+    "ariane"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Ariane_5"
+  },
+  {
+   "id": "starship",
+   "answer": "Starship",
+   "exact": [
+    "spacex starship"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:SpaceX_Starship"
+  },
+  {
+   "id": "voyager",
+   "answer": "Voyager",
+   "exact": [
+    "voyager 1"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Voyager_1"
+  },
+  {
+   "id": "systeme-solaire",
+   "answer": "Système solaire",
+   "exact": [
+    "systeme solaire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Solar_System"
+  },
+  {
+   "id": "nebuleuse-du-crabe",
+   "answer": "Nébuleuse du Crabe",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Crab_Nebula"
+  },
+  {
+   "id": "piliers-de-la-creation",
+   "answer": "Piliers de la création",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Pillars_of_Creation"
+  },
+  {
+   "id": "quasar",
+   "answer": "Quasar",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Quasar"
+  },
+  {
+   "id": "etoile",
+   "answer": "Étoile",
+   "exact": [
+    "etoile"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Star"
+  },
+  {
+   "id": "naine-blanche",
+   "answer": "Naine blanche",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:White_dwarf"
+  },
+  {
+   "id": "ovni",
+   "answer": "Ovni",
+   "exact": [
+    "ovni",
+    "ufo",
+    "soucoupe volante"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Unidentified_flying_object"
+  },
+  {
+   "id": "alien",
+   "answer": "Alien",
+   "exact": [
+    "extraterrestre"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Extraterrestrial_life"
   }
  ]
 }

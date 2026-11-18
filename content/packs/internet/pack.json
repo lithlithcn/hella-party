@@ -1646,6 +1646,885 @@
    ],
    "type": "text",
    "text": "Le symbole # sur les réseaux"
+  },
+  {
+   "id": "minecraft-creeper",
+   "answer": "Minecraft Creeper",
+   "exact": [
+    "creeper"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Creeper_(Minecraft)"
+  },
+  {
+   "id": "pepe-the-frog",
+   "answer": "Pepe the Frog",
+   "exact": [
+    "pepe"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Pepe_the_Frog"
+  },
+  {
+   "id": "shrek",
+   "answer": "Shrek",
+   "exact": [
+    "shrek"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Shrek_(character)"
+  },
+  {
+   "id": "twitch",
+   "answer": "Twitch",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Twitch_(service)"
+  },
+  {
+   "id": "discord",
+   "answer": "Discord",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Discord"
+  },
+  {
+   "id": "reddit",
+   "answer": "Reddit",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Reddit"
+  },
+  {
+   "id": "4chan",
+   "answer": "4chan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:4chan"
+  },
+  {
+   "id": "youtube-rewind",
+   "answer": "YouTube Rewind",
+   "exact": [
+    "rewind"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:YouTube_Rewind"
+  },
+  {
+   "id": "wikipedia",
+   "answer": "Wikipédia",
+   "exact": [
+    "wikipedia"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Wikipedia"
+  },
+  {
+   "id": "emoji",
+   "answer": "Emoji",
+   "exact": [
+    "emojis"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Emoji"
+  },
+  {
+   "id": "pikachu-surpris",
+   "answer": "Pikachu surpris",
+   "exact": [
+    "pikachu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Pikachu"
+  },
+  {
+   "id": "vaporwave",
+   "answer": "Vaporwave",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Vaporwave"
+  },
+  {
+   "id": "y2k",
+   "answer": "Y2K",
+   "exact": [
+    "an 2000",
+    "y2k"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Y2K_aesthetic"
+  },
+  {
+   "id": "chat-gpt",
+   "answer": "Chat GPT",
+   "exact": [
+    "chatgpt"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:ChatGPT"
+  },
+  {
+   "id": "qr-code",
+   "answer": "QR code",
+   "exact": [
+    "qr code"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:QR_code"
+  },
+  {
+   "id": "wi-fi",
+   "answer": "Wi-Fi",
+   "exact": [
+    "wifi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Wi-Fi"
+  },
+  {
+   "id": "bluetooth",
+   "answer": "Bluetooth",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Bluetooth"
+  },
+  {
+   "id": "firefox",
+   "answer": "Firefox",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Firefox"
+  },
+  {
+   "id": "flash-player",
+   "answer": "Flash Player",
+   "exact": [
+    "flash"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Adobe_Flash_Player"
+  },
+  {
+   "id": "internet-explorer",
+   "answer": "Internet Explorer",
+   "exact": [
+    "ie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Internet_Explorer"
+  },
+  {
+   "id": "windows-95",
+   "answer": "Windows 95",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Windows_95"
+  },
+  {
+   "id": "mac-os",
+   "answer": "Mac OS",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Classic_Mac_OS"
+  },
+  {
+   "id": "tetris",
+   "answer": "Tetris",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Tetris"
+  },
+  {
+   "id": "pixel-art",
+   "answer": "Pixel art",
+   "exact": [
+    "pixel art"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'art des petits carrés de couleur"
+  },
+  {
+   "id": "loading",
+   "answer": "Loading…",
+   "exact": [
+    "chargement",
+    "loading"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le cercle qui tourne quand ça charge"
+  },
+  {
+   "id": "spam",
+   "answer": "Spam",
+   "exact": [
+    "spam"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Les messages non désirés qui envahissent ta boîte mail"
+  },
+  {
+   "id": "troll",
+   "answer": "Troll",
+   "exact": [
+    "troll"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Celui qui embête les gens en ligne pour le plaisir"
+  },
+  {
+   "id": "cringe",
+   "answer": "Cringe",
+   "exact": [
+    "cringe",
+    "malaisant"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un truc gênant à regarder"
+  },
+  {
+   "id": "clickbait",
+   "answer": "Clickbait",
+   "exact": [
+    "clickbait",
+    "putaclic"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Vous n'allez pas croire ce qui se passe à la fin ! »"
+  },
+  {
+   "id": "unboxing",
+   "answer": "Unboxing",
+   "exact": [
+    "unboxing"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Vidéo où on déballe un produit"
+  },
+  {
+   "id": "asmr",
+   "answer": "ASMR",
+   "exact": [
+    "asmr"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Chuchotements et bruits qui donnent des frissons"
+  },
+  {
+   "id": "mukbang",
+   "answer": "Mukbang",
+   "exact": [
+    "mukbang"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Vidéo où quelqu'un mange beaucoup devant la caméra"
+  },
+  {
+   "id": "let-s-play",
+   "answer": "Let's Play",
+   "exact": [
+    "lets play"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Vidéo où on joue à un jeu en commentant"
+  },
+  {
+   "id": "tier-list",
+   "answer": "Tier list",
+   "exact": [
+    "tier list"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Classement S, A, B, C, D de n'importe quoi"
+  },
+  {
+   "id": "reaction",
+   "answer": "Reaction",
+   "exact": [
+    "reaction",
+    "react"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Vidéo où quelqu'un réagit à une autre vidéo"
+  },
+  {
+   "id": "story",
+   "answer": "Story",
+   "exact": [
+    "story",
+    "stories"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Photo ou vidéo qui disparaît après 24 h"
+  },
+  {
+   "id": "live",
+   "answer": "Live",
+   "exact": [
+    "live",
+    "direct"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Diffusion en direct"
+  },
+  {
+   "id": "influenceur",
+   "answer": "Influenceur",
+   "exact": [
+    "influenceur",
+    "influenceuse"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Personne qui a beaucoup d'abonnés et fait de la pub"
+  },
+  {
+   "id": "hashtag-challenge",
+   "answer": "Hashtag challenge",
+   "exact": [
+    "challenge",
+    "tiktok challenge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Défi viral sur TikTok avec un mot-clé"
+  },
+  {
+   "id": "shitpost",
+   "answer": "Shitpost",
+   "exact": [
+    "shitpost"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Publication volontairement nulle et absurde pour faire rire"
+  },
+  {
+   "id": "brainrot",
+   "answer": "Brainrot",
+   "exact": [
+    "brainrot"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Contenu si absurde qu'il « pourrit le cerveau »"
+  },
+  {
+   "id": "copypasta",
+   "answer": "Copypasta",
+   "exact": [
+    "copypasta"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un long texte copié-collé partout pour rire"
+  },
+  {
+   "id": "cursed-image",
+   "answer": "Cursed image",
+   "exact": [
+    "cursed image",
+    "image maudite"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Une image bizarre qui met mal à l'aise"
+  },
+  {
+   "id": "f",
+   "answer": "F",
+   "exact": [
+    "f",
+    "press f"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Appuie sur … pour présenter tes respects"
+  },
+  {
+   "id": "bruh",
+   "answer": "Bruh",
+   "exact": [
+    "bruh"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Expression d'exaspération (« … moment »)"
+  },
+  {
+   "id": "skill-issue",
+   "answer": "Skill issue",
+   "exact": [
+    "skill issue"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "« C'est pas le jeu, c'est toi qui es nul »"
+  },
+  {
+   "id": "touch-grass",
+   "answer": "Touch grass",
+   "exact": [
+    "touch grass"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "« Va toucher de l'herbe », sors de chez toi"
+  },
+  {
+   "id": "pov",
+   "answer": "POV",
+   "exact": [
+    "pov"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Point of view » : vidéo en vue subjective"
+  },
+  {
+   "id": "glow-up",
+   "answer": "Glow up",
+   "exact": [
+    "glow up"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Grosse transformation physique en mieux"
+  },
+  {
+   "id": "main-character",
+   "answer": "Main character",
+   "exact": [
+    "main character"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Agir comme le héros de sa propre vie"
+  },
+  {
+   "id": "captcha-je-ne-suis-pas-un-robot",
+   "answer": "Captcha « Je ne suis pas un robot »",
+   "exact": [
+    "captcha"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "☑️🤖❌"
+  },
+  {
+   "id": "wordle",
+   "answer": "Wordle",
+   "exact": [
+    "wordle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Trouve le mot de 5 lettres en 6 essais"
+  },
+  {
+   "id": "geoguessr",
+   "answer": "GeoGuessr",
+   "exact": [
+    "geoguessr"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Deviner où tu es dans le monde avec Street View"
+  },
+  {
+   "id": "google-street-view",
+   "answer": "Google Street View",
+   "exact": [
+    "street view"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Se balader dans les rues depuis son ordi"
+  },
+  {
+   "id": "akinator",
+   "answer": "Akinator",
+   "exact": [
+    "akinator"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le génie qui devine ton personnage en posant des questions"
+  },
+  {
+   "id": "cookie-clicker",
+   "answer": "Cookie Clicker",
+   "exact": [
+    "cookie clicker"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Cliquer sur un cookie géant à l'infini"
+  },
+  {
+   "id": "agar-io",
+   "answer": "Agar.io",
+   "exact": [
+    "agario"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Une cellule qui mange les autres pour grossir"
+  },
+  {
+   "id": "slither-io",
+   "answer": "Slither.io",
+   "exact": [
+    "slitherio"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un serpent en ligne qui mange des boules"
+  },
+  {
+   "id": "miniclip",
+   "answer": "Miniclip",
+   "exact": [
+    "miniclip"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le site de petits jeux flash des années 2000"
+  },
+  {
+   "id": "jeux-fr",
+   "answer": "Jeux.fr",
+   "exact": [
+    "jeux fr"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Le site de jeux en ligne français des années 2000"
+  },
+  {
+   "id": "skyblog",
+   "answer": "Skyblog",
+   "exact": [
+    "skyblog"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Les blogs des ados français des années 2000"
+  },
+  {
+   "id": "fortnite-default-dance",
+   "answer": "Fortnite Default Dance",
+   "exact": [
+    "default dance"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🕺🎮🤪 · La danse de base de Fortnite"
+  },
+  {
+   "id": "floss",
+   "answer": "Floss",
+   "exact": [
+    "floss",
+    "flossing"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "La danse où on balance les bras devant et derrière soi"
+  },
+  {
+   "id": "dab",
+   "answer": "Dab",
+   "exact": [
+    "dab"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le geste : tête dans le coude, bras tendu"
+  },
+  {
+   "id": "planking",
+   "answer": "Planking",
+   "exact": [
+    "planking"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Se mettre à plat ventre, raide comme une planche, n'importe où"
   }
  ]
 }

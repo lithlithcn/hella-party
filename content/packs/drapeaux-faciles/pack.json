@@ -3,7 +3,7 @@
  "version": 1,
  "author": "Hella Party",
  "id": "drapeaux-faciles",
- "name": "Drapeaux (faciles)",
+ "name": "Drapeaux (faciles & moyens)",
  "emoji": "🏁",
  "prompt": "Quel est ce pays ?",
  "tags": [
@@ -660,6 +660,688 @@
     "facile"
    ],
    "difficulty": 1
+  },
+  {
+   "id": "ad",
+   "src": "/packs/flags/ad.webp",
+   "answer": "Andorre",
+   "exact": [
+    "Andorra"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ae",
+   "src": "/packs/flags/ae.webp",
+   "answer": "Émirats arabes unis",
+   "exact": [
+    "United Arab Emirates",
+    "Emirats",
+    "UAE"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "af",
+   "src": "/packs/flags/af.webp",
+   "answer": "Afghanistan",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "al",
+   "src": "/packs/flags/al.webp",
+   "answer": "Albanie",
+   "exact": [
+    "Albania"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "am",
+   "src": "/packs/flags/am.webp",
+   "answer": "Arménie",
+   "exact": [
+    "Armenia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ao",
+   "src": "/packs/flags/ao.webp",
+   "answer": "Angola",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "az",
+   "src": "/packs/flags/az.webp",
+   "answer": "Azerbaïdjan",
+   "exact": [
+    "Azerbaijan"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ba",
+   "src": "/packs/flags/ba.webp",
+   "answer": "Bosnie-Herzégovine",
+   "exact": [
+    "Bosnia & Herzegovina",
+    "Bosnie"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bd",
+   "src": "/packs/flags/bd.webp",
+   "answer": "Bangladesh",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bf",
+   "src": "/packs/flags/bf.webp",
+   "answer": "Burkina Faso",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bg",
+   "src": "/packs/flags/bg.webp",
+   "answer": "Bulgarie",
+   "exact": [
+    "Bulgaria"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bo",
+   "src": "/packs/flags/bo.webp",
+   "answer": "Bolivie",
+   "exact": [
+    "Bolivia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bw",
+   "src": "/packs/flags/bw.webp",
+   "answer": "Botswana",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "by",
+   "src": "/packs/flags/by.webp",
+   "answer": "Biélorussie",
+   "exact": [
+    "Belarus"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "cg",
+   "src": "/packs/flags/cg.webp",
+   "answer": "Congo-Brazzaville",
+   "exact": [
+    "Congo - Brazzaville",
+    "Congo Brazzaville"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "cr",
+   "src": "/packs/flags/cr.webp",
+   "answer": "Costa Rica",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "do",
+   "src": "/packs/flags/do.webp",
+   "answer": "République dominicaine",
+   "exact": [
+    "Dominican Republic"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ec",
+   "src": "/packs/flags/ec.webp",
+   "answer": "Équateur",
+   "exact": [
+    "Ecuador"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ee",
+   "src": "/packs/flags/ee.webp",
+   "answer": "Estonie",
+   "exact": [
+    "Estonia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "et",
+   "src": "/packs/flags/et.webp",
+   "answer": "Éthiopie",
+   "exact": [
+    "Ethiopia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ga",
+   "src": "/packs/flags/ga.webp",
+   "answer": "Gabon",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ge",
+   "src": "/packs/flags/ge.webp",
+   "answer": "Géorgie",
+   "exact": [
+    "Georgia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "gn",
+   "src": "/packs/flags/gn.webp",
+   "answer": "Guinée",
+   "exact": [
+    "Guinea"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "hr",
+   "src": "/packs/flags/hr.webp",
+   "answer": "Croatie",
+   "exact": [
+    "Croatia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ht",
+   "src": "/packs/flags/ht.webp",
+   "answer": "Haïti",
+   "exact": [
+    "Haiti"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "hu",
+   "src": "/packs/flags/hu.webp",
+   "answer": "Hongrie",
+   "exact": [
+    "Hungary"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "id",
+   "src": "/packs/flags/id.webp",
+   "answer": "Indonésie",
+   "exact": [
+    "Indonesia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "il",
+   "src": "/packs/flags/il.webp",
+   "answer": "Israël",
+   "exact": [
+    "Israel"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "iq",
+   "src": "/packs/flags/iq.webp",
+   "answer": "Irak",
+   "exact": [
+    "Iraq"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ir",
+   "src": "/packs/flags/ir.webp",
+   "answer": "Iran",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "is",
+   "src": "/packs/flags/is.webp",
+   "answer": "Islande",
+   "exact": [
+    "Iceland"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "jo",
+   "src": "/packs/flags/jo.webp",
+   "answer": "Jordanie",
+   "exact": [
+    "Jordan"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "kp",
+   "src": "/packs/flags/kp.webp",
+   "answer": "Corée du Nord",
+   "exact": [
+    "North Korea"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "kw",
+   "src": "/packs/flags/kw.webp",
+   "answer": "Koweït",
+   "exact": [
+    "Kuwait"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "kz",
+   "src": "/packs/flags/kz.webp",
+   "answer": "Kazakhstan",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "lk",
+   "src": "/packs/flags/lk.webp",
+   "answer": "Sri Lanka",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "lt",
+   "src": "/packs/flags/lt.webp",
+   "answer": "Lituanie",
+   "exact": [
+    "Lithuania"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "lu",
+   "src": "/packs/flags/lu.webp",
+   "answer": "Luxembourg",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "lv",
+   "src": "/packs/flags/lv.webp",
+   "answer": "Lettonie",
+   "exact": [
+    "Latvia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ly",
+   "src": "/packs/flags/ly.webp",
+   "answer": "Libye",
+   "exact": [
+    "Libya"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "mc",
+   "src": "/packs/flags/mc.webp",
+   "answer": "Monaco",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "md",
+   "src": "/packs/flags/md.webp",
+   "answer": "Moldavie",
+   "exact": [
+    "Moldova"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "me",
+   "src": "/packs/flags/me.webp",
+   "answer": "Monténégro",
+   "exact": [
+    "Montenegro"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "mg",
+   "src": "/packs/flags/mg.webp",
+   "answer": "Madagascar",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "mk",
+   "src": "/packs/flags/mk.webp",
+   "answer": "Macédoine du Nord",
+   "exact": [
+    "North Macedonia",
+    "Macédoine"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "mm",
+   "src": "/packs/flags/mm.webp",
+   "answer": "Myanmar (Birmanie)",
+   "exact": [
+    "Myanmar (Burma)"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "mn",
+   "src": "/packs/flags/mn.webp",
+   "answer": "Mongolie",
+   "exact": [
+    "Mongolia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "my",
+   "src": "/packs/flags/my.webp",
+   "answer": "Malaisie",
+   "exact": [
+    "Malaysia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "mz",
+   "src": "/packs/flags/mz.webp",
+   "answer": "Mozambique",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "na",
+   "src": "/packs/flags/na.webp",
+   "answer": "Namibie",
+   "exact": [
+    "Namibia"
+   ],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ne",
+   "src": "/packs/flags/ne.webp",
+   "answer": "Niger",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "om",
+   "src": "/packs/flags/om.webp",
+   "answer": "Oman",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "pa",
+   "src": "/packs/flags/pa.webp",
+   "answer": "Panama",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "ph",
+   "src": "/packs/flags/ph.webp",
+   "answer": "Philippines",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "pk",
+   "src": "/packs/flags/pk.webp",
+   "answer": "Pakistan",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "moyen"
+   ],
+   "difficulty": 2
   }
  ]
 }

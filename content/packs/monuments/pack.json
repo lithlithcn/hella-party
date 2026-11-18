@@ -708,6 +708,790 @@
     "difficile"
    ],
    "src": "wiki:Pont_Charles"
+  },
+  {
+   "id": "tour-montparnasse",
+   "answer": "Tour Montparnasse",
+   "exact": [
+    "montparnasse"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Tour_Montparnasse"
+  },
+  {
+   "id": "pantheon-de-paris",
+   "answer": "Panthéon de Paris",
+   "exact": [
+    "pantheon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Panthéon"
+  },
+  {
+   "id": "les-invalides",
+   "answer": "Les Invalides",
+   "exact": [
+    "invalides"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Les_Invalides"
+  },
+  {
+   "id": "place-de-la-concorde",
+   "answer": "Place de la Concorde",
+   "exact": [
+    "obelisque",
+    "concorde"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Place_de_la_Concorde"
+  },
+  {
+   "id": "opera-garnier",
+   "answer": "Opéra Garnier",
+   "exact": [
+    "opera garnier",
+    "palais garnier"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Palais_Garnier"
+  },
+  {
+   "id": "pont-alexandre-iii",
+   "answer": "Pont Alexandre-III",
+   "exact": [
+    "pont alexandre 3"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Pont_Alexandre_III"
+  },
+  {
+   "id": "la-defense",
+   "answer": "La Défense",
+   "exact": [
+    "grande arche"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:La_Défense"
+  },
+  {
+   "id": "chateau-de-chenonceau",
+   "answer": "Château de Chenonceau",
+   "exact": [
+    "chenonceau"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Château_de_Chenonceau"
+  },
+  {
+   "id": "carcassonne",
+   "answer": "Carcassonne",
+   "exact": [
+    "cite de carcassonne"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Cité_de_Carcassonne"
+  },
+  {
+   "id": "palais-des-papes",
+   "answer": "Palais des Papes",
+   "exact": [
+    "avignon"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Palais_des_Papes"
+  },
+  {
+   "id": "chateau-frontenac",
+   "answer": "Château Frontenac",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Château_Frontenac"
+  },
+  {
+   "id": "big-ben-elizabeth-tower",
+   "answer": "Big Ben (Elizabeth Tower)",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Big_Ben"
+  },
+  {
+   "id": "buckingham-palace",
+   "answer": "Buckingham Palace",
+   "exact": [
+    "palais de buckingham"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Buckingham_Palace"
+  },
+  {
+   "id": "london-eye",
+   "answer": "London Eye",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:London_Eye"
+  },
+  {
+   "id": "chateau-d-edimbourg",
+   "answer": "Château d'Édimbourg",
+   "exact": [
+    "edimbourg"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Edinburgh_Castle"
+  },
+  {
+   "id": "fontaine-de-trevi",
+   "answer": "Fontaine de Trevi",
+   "exact": [
+    "trevi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Trevi_Fountain"
+  },
+  {
+   "id": "pantheon-de-rome",
+   "answer": "Panthéon de Rome",
+   "exact": [
+    "pantheon rome"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Pantheon,_Rome"
+  },
+  {
+   "id": "cathedrale-de-milan",
+   "answer": "Cathédrale de Milan",
+   "exact": [
+    "duomo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Milan_Cathedral"
+  },
+  {
+   "id": "venise",
+   "answer": "Venise",
+   "exact": [
+    "grand canal",
+    "venice"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Grand_Canal_(Venice)"
+  },
+  {
+   "id": "basilique-saint-marc",
+   "answer": "Basilique Saint-Marc",
+   "exact": [
+    "saint marc"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:St_Mark's_Basilica"
+  },
+  {
+   "id": "parc-guell",
+   "answer": "Parc Güell",
+   "exact": [
+    "parc guell"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Park_Güell"
+  },
+  {
+   "id": "moulins-de-la-mancha",
+   "answer": "Moulins de La Mancha",
+   "exact": [
+    "moulins"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Consuegra"
+  },
+  {
+   "id": "tour-de-belem",
+   "answer": "Tour de Belém",
+   "exact": [
+    "belem"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Belém_Tower"
+  },
+  {
+   "id": "manneken-pis",
+   "answer": "Manneken-Pis",
+   "exact": [
+    "manneken pis"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Manneken_Pis"
+  },
+  {
+   "id": "moulins-de-kinderdijk",
+   "answer": "Moulins de Kinderdijk",
+   "exact": [
+    "kinderdijk"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Kinderdijk"
+  },
+  {
+   "id": "cathedrale-de-cologne",
+   "answer": "Cathédrale de Cologne",
+   "exact": [
+    "cologne"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Cologne_Cathedral"
+  },
+  {
+   "id": "mur-de-berlin",
+   "answer": "Mur de Berlin",
+   "exact": [
+    "mur de berlin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Berlin_Wall"
+  },
+  {
+   "id": "reichstag",
+   "answer": "Reichstag",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Reichstag_building"
+  },
+  {
+   "id": "place-rouge",
+   "answer": "Place Rouge",
+   "exact": [
+    "place rouge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Red_Square"
+  },
+  {
+   "id": "cathedrale-saint-basile",
+   "answer": "Cathédrale Saint-Basile",
+   "exact": [
+    "saint basile"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Saint_Basil's_Cathedral"
+  },
+  {
+   "id": "parthenon",
+   "answer": "Parthénon",
+   "exact": [
+    "parthenon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Parthenon"
+  },
+  {
+   "id": "mosquee-bleue",
+   "answer": "Mosquée bleue",
+   "exact": [
+    "mosquee bleue"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Sultan_Ahmed_Mosque"
+  },
+  {
+   "id": "pyramide-de-khephren",
+   "answer": "Pyramide de Khéphren",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Pyramid_of_Khafre"
+  },
+  {
+   "id": "sphinx-de-gizeh",
+   "answer": "Sphinx de Gizeh",
+   "exact": [
+    "sphinx"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Great_Sphinx_of_Giza"
+  },
+  {
+   "id": "abou-simbel",
+   "answer": "Abou Simbel",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Abu_Simbel"
+  },
+  {
+   "id": "mosquee-hassan-ii",
+   "answer": "Mosquée Hassan-II",
+   "exact": [
+    "hassan 2"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Hassan_II_Mosque"
+  },
+  {
+   "id": "kaaba",
+   "answer": "Kaaba",
+   "exact": [
+    "la mecque"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Kaaba"
+  },
+  {
+   "id": "dome-du-rocher",
+   "answer": "Dôme du Rocher",
+   "exact": [
+    "dome du rocher"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Dome_of_the_Rock"
+  },
+  {
+   "id": "mur-des-lamentations",
+   "answer": "Mur des Lamentations",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Western_Wall"
+  },
+  {
+   "id": "statue-de-bouddha-de-leshan",
+   "answer": "Statue de Bouddha de Leshan",
+   "exact": [
+    "bouddha de leshan"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Leshan_Giant_Buddha"
+  },
+  {
+   "id": "pagode-de-tokyo-senso-ji",
+   "answer": "Pagode de Tokyo (Senso-ji)",
+   "exact": [
+    "senso ji"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Sensō-ji"
+  },
+  {
+   "id": "torii-d-itsukushima",
+   "answer": "Torii d'Itsukushima",
+   "exact": [
+    "itsukushima"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Itsukushima_Shrine"
+  },
+  {
+   "id": "tokyo-skytree",
+   "answer": "Tokyo Skytree",
+   "exact": [
+    "skytree"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Tokyo_Skytree"
+  },
+  {
+   "id": "tour-de-tokyo",
+   "answer": "Tour de Tokyo",
+   "exact": [
+    "tokyo tower"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Tokyo_Tower"
+  },
+  {
+   "id": "shanghai-tower",
+   "answer": "Shanghai Tower",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Shanghai_Tower"
+  },
+  {
+   "id": "gateway-of-india",
+   "answer": "Gateway of India",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Gateway_of_India"
+  },
+  {
+   "id": "lotus-temple",
+   "answer": "Lotus Temple",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Lotus_Temple"
+  },
+  {
+   "id": "statue-of-unity",
+   "answer": "Statue of Unity",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Statue_of_Unity"
+  },
+  {
+   "id": "maison-blanche",
+   "answer": "Maison-Blanche",
+   "exact": [
+    "maison blanche",
+    "white house"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:White_House"
+  },
+  {
+   "id": "capitole",
+   "answer": "Capitole",
+   "exact": [
+    "capitol"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:United_States_Capitol"
+  },
+  {
+   "id": "lincoln-memorial",
+   "answer": "Lincoln Memorial",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Lincoln_Memorial"
+  },
+  {
+   "id": "times-square",
+   "answer": "Times Square",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Times_Square"
+  },
+  {
+   "id": "pont-de-brooklyn",
+   "answer": "Pont de Brooklyn",
+   "exact": [
+    "brooklyn bridge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Brooklyn_Bridge"
+  },
+  {
+   "id": "one-world-trade-center",
+   "answer": "One World Trade Center",
+   "exact": [
+    "freedom tower"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:One_World_Trade_Center"
+  },
+  {
+   "id": "chrysler-building",
+   "answer": "Chrysler Building",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Chrysler_Building"
+  },
+  {
+   "id": "gateway-arch",
+   "answer": "Gateway Arch",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Gateway_Arch"
+  },
+  {
+   "id": "pain-de-sucre",
+   "answer": "Pain de Sucre",
+   "exact": [
+    "pao de acucar"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Sugarloaf_Mountain"
+  },
+  {
+   "id": "teotihuacan",
+   "answer": "Teotihuacan",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Teotihuacan"
   }
  ]
 }

@@ -666,6 +666,416 @@
     "facile"
    ],
    "src": "wiki:en:Flip_phone"
+  },
+  {
+   "id": "discman",
+   "answer": "Discman",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Discman"
+  },
+  {
+   "id": "lecteur-mp3",
+   "answer": "Lecteur MP3",
+   "exact": [
+    "mp3"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Portable_media_player"
+  },
+  {
+   "id": "nintendo-game-watch",
+   "answer": "Nintendo Game & Watch",
+   "exact": [
+    "game and watch"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Game_&_Watch"
+  },
+  {
+   "id": "telecarte",
+   "answer": "Télécarte",
+   "exact": [
+    "telecarte"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Telephone_card"
+  },
+  {
+   "id": "annuaire",
+   "answer": "Annuaire",
+   "exact": [
+    "pages jaunes",
+    "bottin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Telephone_directory"
+  },
+  {
+   "id": "encyclopedie",
+   "answer": "Encyclopédie",
+   "exact": [
+    "encyclopedie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Encyclopedia"
+  },
+  {
+   "id": "atlas",
+   "answer": "Atlas",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Atlas"
+  },
+  {
+   "id": "carte-routiere",
+   "answer": "Carte routière",
+   "exact": [
+    "carte"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Road_map"
+  },
+  {
+   "id": "reveil-a-cloches",
+   "answer": "Réveil à cloches",
+   "exact": [
+    "reveil"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Alarm_clock"
+  },
+  {
+   "id": "montre-a-gousset",
+   "answer": "Montre à gousset",
+   "exact": [
+    "montre a gousset"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Pocket_watch"
+  },
+  {
+   "id": "machine-a-coudre",
+   "answer": "Machine à coudre",
+   "exact": [
+    "machine a coudre"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Sewing_machine"
+  },
+  {
+   "id": "moulin-a-cafe",
+   "answer": "Moulin à café",
+   "exact": [
+    "moulin a cafe"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Coffee_grinder"
+  },
+  {
+   "id": "lampe-a-petrole",
+   "answer": "Lampe à pétrole",
+   "exact": [
+    "lampe a petrole"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Kerosene_lamp"
+  },
+  {
+   "id": "fer-a-repasser",
+   "answer": "Fer à repasser",
+   "exact": [
+    "fer a repasser"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Clothes_iron"
+  },
+  {
+   "id": "projecteur-de-diapositives",
+   "answer": "Projecteur de diapositives",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Slide_projector"
+  },
+  {
+   "id": "bobine-de-film",
+   "answer": "Bobine de film",
+   "exact": [
+    "pellicule cinema"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Film_stock"
+  },
+  {
+   "id": "retroprojecteur",
+   "answer": "Rétroprojecteur",
+   "exact": [
+    "retroprojecteur"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Overhead_projector"
+  },
+  {
+   "id": "tableau-noir",
+   "answer": "Tableau noir",
+   "exact": [
+    "tableau a craie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Blackboard"
+  },
+  {
+   "id": "cartable",
+   "answer": "Cartable",
+   "exact": [
+    "sac d ecole"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Backpack"
+  },
+  {
+   "id": "plumier",
+   "answer": "Plumier",
+   "exact": [
+    "trousse"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Pencil_case"
+  },
+  {
+   "id": "encrier",
+   "answer": "Encrier",
+   "exact": [
+    "plume et encre"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Inkwell"
+  },
+  {
+   "id": "craie",
+   "answer": "Craie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Chalk"
+  },
+  {
+   "id": "boulier",
+   "answer": "Boulier",
+   "exact": [
+    "abaque"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Abacus"
+  },
+  {
+   "id": "sablier",
+   "answer": "Sablier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Hourglass"
+  },
+  {
+   "id": "telephone-portable-a-antenne",
+   "answer": "Téléphone portable à antenne",
+   "exact": [
+    "startac"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Motorola_StarTAC"
+  },
+  {
+   "id": "nintendo-power-glove",
+   "answer": "Nintendo Power Glove",
+   "exact": [
+    "power glove"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Power_Glove"
+  },
+  {
+   "id": "gameboy-camera",
+   "answer": "Gameboy Camera",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Game_Boy_Camera"
+  },
+  {
+   "id": "pokedex-jouet",
+   "answer": "Pokédex (jouet)",
+   "exact": [
+    "pokedex"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Pokédex"
+  },
+  {
+   "id": "bandes-dessinees",
+   "answer": "Bandes dessinées",
+   "exact": [
+    "bd",
+    "bande dessinee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Comics"
+  },
+  {
+   "id": "chewing-gum-malabar",
+   "answer": "Chewing-gum Malabar",
+   "exact": [
+    "malabar"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:fr:Malabar_(confiserie)"
   }
  ]
 }

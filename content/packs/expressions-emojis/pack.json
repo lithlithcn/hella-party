@@ -792,6 +792,801 @@
    ],
    "type": "text",
    "text": "🧼🗣️"
+  },
+  {
+   "id": "avoir-les-dents-longues",
+   "answer": "Avoir les dents longues",
+   "exact": [
+    "avoir les dents longues"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦷📏"
+  },
+  {
+   "id": "faire-la-tete",
+   "answer": "Faire la tête",
+   "exact": [
+    "faire la tete"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😠🗿"
+  },
+  {
+   "id": "etre-au-taquet",
+   "answer": "Être au taquet",
+   "exact": [
+    "etre au taquet"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💯🔝"
+  },
+  {
+   "id": "avoir-une-faim-de-loup",
+   "answer": "Avoir une faim de loup",
+   "exact": [
+    "avoir une faim de loup"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😋🐺"
+  },
+  {
+   "id": "dormir-comme-un-loir",
+   "answer": "Dormir comme un loir",
+   "exact": [
+    "dormir comme un loir"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😴🐭"
+  },
+  {
+   "id": "malin-comme-un-singe",
+   "answer": "Malin comme un singe",
+   "exact": [
+    "malin comme un singe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧠🐒"
+  },
+  {
+   "id": "fort-comme-un-b-uf",
+   "answer": "Fort comme un bœuf",
+   "exact": [
+    "fort comme un boeuf"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💪🐂"
+  },
+  {
+   "id": "bavard-comme-une-pie",
+   "answer": "Bavard comme une pie",
+   "exact": [
+    "bavard comme une pie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🗣️🐦"
+  },
+  {
+   "id": "ruse-comme-un-renard",
+   "answer": "Rusé comme un renard",
+   "exact": [
+    "ruse comme un renard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧠🦊"
+  },
+  {
+   "id": "tetu-comme-une-mule",
+   "answer": "Têtu comme une mule",
+   "exact": [
+    "tetu comme une mule"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😤🫏"
+  },
+  {
+   "id": "avoir-un-c-ur-d-artichaut",
+   "answer": "Avoir un cœur d'artichaut",
+   "exact": [
+    "coeur d artichaut"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "❤️🌿"
+  },
+  {
+   "id": "jeter-l-argent-par-les-fenetres",
+   "answer": "Jeter l'argent par les fenêtres",
+   "exact": [
+    "jeter l argent par les fenetres"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💸🪟"
+  },
+  {
+   "id": "couper-la-poire-en-deux",
+   "answer": "Couper la poire en deux",
+   "exact": [
+    "couper la poire en deux"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "✂️🍐"
+  },
+  {
+   "id": "etre-haut-comme-trois-pommes",
+   "answer": "Être haut comme trois pommes",
+   "exact": [
+    "haut comme trois pommes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "📏🍎🍎🍎"
+  },
+  {
+   "id": "mettre-son-grain-de-sel",
+   "answer": "Mettre son grain de sel",
+   "exact": [
+    "mettre son grain de sel"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧂👃"
+  },
+  {
+   "id": "avoir-les-jambes-en-coton",
+   "answer": "Avoir les jambes en coton",
+   "exact": [
+    "avoir les jambes en coton"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🦵☁️"
+  },
+  {
+   "id": "prendre-ses-jambes-a-son-cou",
+   "answer": "Prendre ses jambes à son cou",
+   "exact": [
+    "prendre ses jambes a son cou"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦵🏃‍♂️💨"
+  },
+  {
+   "id": "avoir-le-c-ur-gros",
+   "answer": "Avoir le cœur gros",
+   "exact": [
+    "avoir le coeur gros"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "❤️🎈😢"
+  },
+  {
+   "id": "ca-ne-mange-pas-de-pain",
+   "answer": "Ça ne mange pas de pain",
+   "exact": [
+    "ca ne mange pas de pain"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🙅‍♂️🍞"
+  },
+  {
+   "id": "ce-n-est-pas-la-mer-a-boire",
+   "answer": "Ce n'est pas la mer à boire",
+   "exact": [
+    "c est pas la mer a boire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🌊🥤🙅"
+  },
+  {
+   "id": "faire-chou-blanc",
+   "answer": "Faire chou blanc",
+   "exact": [
+    "faire chou blanc"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🥬⚪"
+  },
+  {
+   "id": "tirer-le-diable-par-la-queue",
+   "answer": "Tirer le diable par la queue",
+   "exact": [
+    "tirer le diable par la queue"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "expressions",
+    "français",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "😈🪢💸"
+  },
+  {
+   "id": "avoir-un-coup-de-foudre",
+   "answer": "Avoir un coup de foudre",
+   "exact": [
+    "coup de foudre"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⚡❤️"
+  },
+  {
+   "id": "etre-sur-son-petit-nuage",
+   "answer": "Être sur son petit nuage",
+   "exact": [
+    "etre sur son petit nuage"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "☁️😊"
+  },
+  {
+   "id": "mettre-la-puce-a-l-oreille",
+   "answer": "Mettre la puce à l'oreille",
+   "exact": [
+    "mettre la puce a l oreille"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦟👂"
+  },
+  {
+   "id": "se-lever-du-pied-gauche",
+   "answer": "Se lever du pied gauche",
+   "exact": [
+    "se lever du pied gauche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦶⬅️😠"
+  },
+  {
+   "id": "avoir-le-moral-dans-les-chaussettes",
+   "answer": "Avoir le moral dans les chaussettes",
+   "exact": [
+    "moral dans les chaussettes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😞🧦"
+  },
+  {
+   "id": "il-n-y-a-pas-le-feu-au-lac",
+   "answer": "Il n'y a pas le feu au lac",
+   "exact": [
+    "pas le feu au lac"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔥❌🏞️"
+  },
+  {
+   "id": "etre-dans-de-beaux-draps",
+   "answer": "Être dans de beaux draps",
+   "exact": [
+    "etre dans de beaux draps"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "😬🛏️"
+  },
+  {
+   "id": "une-goutte-d-eau-dans-l-ocean",
+   "answer": "Une goutte d'eau dans l'océan",
+   "exact": [
+    "goutte d eau dans l ocean"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💧🌊"
+  },
+  {
+   "id": "ne-pas-avoir-la-langue-dans-sa-poche",
+   "answer": "Ne pas avoir la langue dans sa poche",
+   "exact": [
+    "pas la langue dans sa poche"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👅👖❌"
+  },
+  {
+   "id": "mettre-les-bouchees-doubles",
+   "answer": "Mettre les bouchées doubles",
+   "exact": [
+    "mettre les bouchees doubles"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🍽️✌️"
+  },
+  {
+   "id": "avoir-du-chien",
+   "answer": "Avoir du chien",
+   "exact": [
+    "avoir du chien"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "expressions",
+    "français",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🐕✨"
+  },
+  {
+   "id": "etre-une-tete-de-mule",
+   "answer": "Être une tête de mule",
+   "exact": [
+    "tete de mule"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧠🫏"
+  },
+  {
+   "id": "poser-une-colle",
+   "answer": "Poser une colle",
+   "exact": [
+    "poser une colle"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🧴❓"
+  },
+  {
+   "id": "faire-la-sourde-oreille",
+   "answer": "Faire la sourde oreille",
+   "exact": [
+    "faire la sourde oreille"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🙉👂"
+  },
+  {
+   "id": "avoir-la-langue-bien-pendue",
+   "answer": "Avoir la langue bien pendue",
+   "exact": [
+    "langue bien pendue"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👅⬇️🗣️"
+  },
+  {
+   "id": "se-mettre-le-doigt-dans-l-il",
+   "answer": "Se mettre le doigt dans l'œil",
+   "exact": [
+    "mettre le doigt dans l oeil"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "☝️👁️"
+  },
+  {
+   "id": "avoir-l-eau-a-la-bouche",
+   "answer": "Avoir l'eau à la bouche",
+   "exact": [
+    "avoir l eau a la bouche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💧👄🍰"
+  },
+  {
+   "id": "etre-soupe-au-lait",
+   "answer": "Être soupe au lait",
+   "exact": [
+    "soupe au lait"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "expressions",
+    "français",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🍲🥛😠"
+  },
+  {
+   "id": "rouler-sur-l-or",
+   "answer": "Rouler sur l'or",
+   "exact": [
+    "rouler sur l or"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🛞🪙"
+  },
+  {
+   "id": "avoir-le-compas-dans-l-il",
+   "answer": "Avoir le compas dans l'œil",
+   "exact": [
+    "compas dans l oeil"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "expressions",
+    "français",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "📐👁️"
+  },
+  {
+   "id": "faire-les-quatre-cents-coups",
+   "answer": "Faire les quatre cents coups",
+   "exact": [
+    "faire les 400 coups"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "4️⃣0️⃣0️⃣👊"
+  },
+  {
+   "id": "ne-pas-y-aller-avec-le-dos-de-la-cuillere",
+   "answer": "Ne pas y aller avec le dos de la cuillère",
+   "exact": [
+    "dos de la cuillere"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "expressions",
+    "français",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🙅🔙🥄"
+  },
+  {
+   "id": "mettre-les-voiles",
+   "answer": "Mettre les voiles",
+   "exact": [
+    "mettre les voiles"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "⛵🏃"
+  },
+  {
+   "id": "battre-le-fer-tant-qu-il-est-chaud",
+   "answer": "Battre le fer tant qu'il est chaud",
+   "exact": [
+    "battre le fer tant qu il est chaud"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🔨🔥⏳"
+  },
+  {
+   "id": "les-doigts-dans-le-nez",
+   "answer": "Les doigts dans le nez",
+   "exact": [
+    "les doigts dans le nez"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "☝️👃😎"
+  },
+  {
+   "id": "avoir-un-trou-de-memoire",
+   "answer": "Avoir un trou de mémoire",
+   "exact": [
+    "trou de memoire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🕳️🧠"
+  },
+  {
+   "id": "etre-sur-les-nerfs",
+   "answer": "Être sur les nerfs",
+   "exact": [
+    "etre sur les nerfs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😤⚡"
+  },
+  {
+   "id": "tomber-des-nues",
+   "answer": "Tomber des nues",
+   "exact": [
+    "tomber des nues"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "expressions",
+    "français",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "⬇️☁️😲"
+  },
+  {
+   "id": "avoir-le-vent-en-poupe",
+   "answer": "Avoir le vent en poupe",
+   "exact": [
+    "vent en poupe"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "expressions",
+    "français",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "💨⛵"
+  },
+  {
+   "id": "casser-sa-pipe",
+   "answer": "Casser sa pipe",
+   "exact": [
+    "casser sa pipe"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💔🚬"
+  },
+  {
+   "id": "couter-la-peau-des-fesses",
+   "answer": "Coûter la peau des fesses",
+   "exact": [
+    "couter la peau des fesses"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💸🍑"
   }
  ]
 }

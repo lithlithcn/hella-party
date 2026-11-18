@@ -739,6 +739,692 @@
    ],
    "type": "text",
    "text": "🛡️🔫💪🎶 (David Guetta)"
+  },
+  {
+   "id": "rasputin",
+   "answer": "Rasputin",
+   "exact": [
+    "rasputin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🧔🇷🇺💃🕺 (Boney M.)"
+  },
+  {
+   "id": "never-gonna-give-you-up",
+   "answer": "Never Gonna Give You Up",
+   "exact": [
+    "never gonna give you up"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🙅‍♂️👋💔🎶 (Rick Astley)"
+  },
+  {
+   "id": "take-on-me",
+   "answer": "Take On Me",
+   "exact": [
+    "take on me"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🖊️👫📝🎹 (a-ha)"
+  },
+  {
+   "id": "don-t-stop-me-now",
+   "answer": "Don't Stop Me Now",
+   "exact": [
+    "dont stop me now"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🛑🙅‍♂️🚀🎹 (Queen)"
+  },
+  {
+   "id": "another-one-bites-the-dust",
+   "answer": "Another One Bites the Dust",
+   "exact": [
+    "another one bites the dust"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "☝️🦷💨🎸 (Queen)"
+  },
+  {
+   "id": "i-will-survive",
+   "answer": "I Will Survive",
+   "exact": [
+    "i will survive"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💪💃🪩🎶 (Gloria Gaynor)"
+  },
+  {
+   "id": "ymca",
+   "answer": "YMCA",
+   "exact": [
+    "ymca"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🙆‍♂️🕺👷‍♂️👮 (Village People)"
+  },
+  {
+   "id": "mamma-mia",
+   "answer": "Mamma Mia",
+   "exact": [
+    "mamma mia"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👩‍👧🇬🇷💃🎶 (ABBA)"
+  },
+  {
+   "id": "eye-of-the-tiger",
+   "answer": "Eye of the Tiger",
+   "exact": [
+    "eye of the tiger"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👁️🐯🥊🎸 (Survivor)"
+  },
+  {
+   "id": "beat-it",
+   "answer": "Beat It",
+   "exact": [
+    "beat it"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👊🕺🎸🧥 (Michael Jackson)"
+  },
+  {
+   "id": "highway-to-hell",
+   "answer": "Highway to Hell",
+   "exact": [
+    "highway to hell"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🛣️🔥😈🎸 (AC/DC)"
+  },
+  {
+   "id": "wonderwall",
+   "answer": "Wonderwall",
+   "exact": [
+    "wonderwall"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧱✨🎸🇬🇧 (Oasis)"
+  },
+  {
+   "id": "seven-nation-army",
+   "answer": "Seven Nation Army",
+   "exact": [
+    "seven nation army"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "7️⃣🪖🎸🎵 (The White Stripes)"
+  },
+  {
+   "id": "mr-brightside",
+   "answer": "Mr. Brightside",
+   "exact": [
+    "mr brightside"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🕴️☀️💔🎸 (The Killers)"
+  },
+  {
+   "id": "pompeii",
+   "answer": "Pompeii",
+   "exact": [
+    "pompeii"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🌋🏛️🎶🥁 (Bastille)"
+  },
+  {
+   "id": "counting-stars",
+   "answer": "Counting Stars",
+   "exact": [
+    "counting stars"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔢⭐💸🎶 (OneRepublic)"
+  },
+  {
+   "id": "believer",
+   "answer": "Believer",
+   "exact": [
+    "believer"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🙏🔥💪🎶 (Imagine Dragons)"
+  },
+  {
+   "id": "radioactive",
+   "answer": "Radioactive",
+   "exact": [
+    "radioactive"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "☢️🦠🎶🥁 (Imagine Dragons)"
+  },
+  {
+   "id": "thunder",
+   "answer": "Thunder",
+   "exact": [
+    "thunder"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⚡🌩️🎶 (Imagine Dragons)"
+  },
+  {
+   "id": "viva-la-vida",
+   "answer": "Viva la Vida",
+   "exact": [
+    "viva la vida"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👑🌍🎻🎶 (Coldplay)"
+  },
+  {
+   "id": "yellow",
+   "answer": "Yellow",
+   "exact": [
+    "yellow"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💛⭐🎸🎶 (Coldplay)"
+  },
+  {
+   "id": "sweet-caroline",
+   "answer": "Sweet Caroline",
+   "exact": [
+    "sweet caroline"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👩🍬🎶👏 (Neil Diamond)"
+  },
+  {
+   "id": "hotel-california",
+   "answer": "Hotel California",
+   "exact": [
+    "hotel california"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏨🌴🎸🌅 (Eagles)"
+  },
+  {
+   "id": "stayin-alive",
+   "answer": "Stayin' Alive",
+   "exact": [
+    "stayin alive"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🕺🪩💃🎶 (Bee Gees)"
+  },
+  {
+   "id": "someone-like-you",
+   "answer": "Someone Like You",
+   "exact": [
+    "someone like you"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👤💔🎹🎶 (Adele)"
+  },
+  {
+   "id": "perfect",
+   "answer": "Perfect",
+   "exact": [
+    "perfect"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💯💍💃🎶 (Ed Sheeran)"
+  },
+  {
+   "id": "roar",
+   "answer": "Roar",
+   "exact": [
+    "roar"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦁🐯💪🎶 (Katy Perry)"
+  },
+  {
+   "id": "firework",
+   "answer": "Firework",
+   "exact": [
+    "firework"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎆✨💥🎶 (Katy Perry)"
+  },
+  {
+   "id": "call-me-maybe",
+   "answer": "Call Me Maybe",
+   "exact": [
+    "call me maybe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "📞🤙❓🎶 (Carly Rae Jepsen)"
+  },
+  {
+   "id": "baby",
+   "answer": "Baby",
+   "exact": [
+    "baby"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👶💕🎶🎤 (Justin Bieber)"
+  },
+  {
+   "id": "sorry",
+   "answer": "Sorry",
+   "exact": [
+    "sorry"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🙏😔💃🎶 (Justin Bieber)"
+  },
+  {
+   "id": "dynamite",
+   "answer": "Dynamite",
+   "exact": [
+    "dynamite"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧨💥🇰🇷🕺 (BTS)"
+  },
+  {
+   "id": "diamonds",
+   "answer": "Diamonds",
+   "exact": [
+    "diamonds"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💎✨🌌🎶 (Rihanna)"
+  },
+  {
+   "id": "halo",
+   "answer": "Halo",
+   "exact": [
+    "halo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😇💫🎶🎤 (Beyoncé)"
+  },
+  {
+   "id": "lose-yourself",
+   "answer": "Lose Yourself",
+   "exact": [
+    "lose yourself"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎤🍝🧢🔥 (Eminem)"
+  },
+  {
+   "id": "without-me",
+   "answer": "Without Me",
+   "exact": [
+    "without me"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦸‍♂️🙅‍♂️🎤🎶 (Eminem)"
+  },
+  {
+   "id": "in-the-end",
+   "answer": "In the End",
+   "exact": [
+    "in the end"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⏳🔚🎤🎸 (Linkin Park)"
+  },
+  {
+   "id": "numb",
+   "answer": "Numb",
+   "exact": [
+    "numb"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😶🧊🎸🎶 (Linkin Park)"
+  },
+  {
+   "id": "mon-amie-la-rose",
+   "answer": "Mon amie la rose",
+   "exact": [
+    "mon amie la rose"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🌹👩‍🦳🇫🇷🎶 (Françoise Hardy)"
+  },
+  {
+   "id": "ces-soirees-la",
+   "answer": "Ces soirées-là",
+   "exact": [
+    "ces soirees la"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🪩🌃🕺🇫🇷 (Yannick)"
+  },
+  {
+   "id": "les-demons-de-minuit",
+   "answer": "Les Démons de minuit",
+   "exact": [
+    "les demons de minuit"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "😈🕛🕺🎷 (Images)"
+  },
+  {
+   "id": "joe-le-taxi",
+   "answer": "Joe le taxi",
+   "exact": [
+    "joe le taxi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🚕🎷🌃🇫🇷 (Vanessa Paradis)"
+  },
+  {
+   "id": "l-aventurier",
+   "answer": "L'Aventurier",
+   "exact": [
+    "l aventurier"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🗺️🕵️‍♂️🎸🇫🇷 (Indochine)"
+  },
+  {
+   "id": "bande-organisee",
+   "answer": "Bande organisée",
+   "exact": [
+    "bande organisee"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🔫👥🇫🇷🎤 (13 Organisé)"
+  },
+  {
+   "id": "balance-ton-quoi",
+   "answer": "Balance ton quoi",
+   "exact": [
+    "balance ton quoi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⚖️🤷‍♀️💃🇧🇪 (Angèle)"
+  },
+  {
+   "id": "petit-genie",
+   "answer": "Petit génie",
+   "exact": [
+    "petit genie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🧒🧠✨🎤 (Jungeli)"
+  },
+  {
+   "id": "andalouse",
+   "answer": "Andalouse",
+   "exact": [
+    "andalouse"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💃🌹🇪🇸🎶 (Kendji Girac)"
+  },
+  {
+   "id": "je-veux",
+   "answer": "Je veux",
+   "exact": [
+    "je veux"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🙋‍♀️💸❌🎶 (Zaz)"
+  },
+  {
+   "id": "tout-oublier",
+   "answer": "Tout oublier",
+   "exact": [
+    "tout oublier"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🧠🚫😂🎶 (Angèle)"
   }
  ]
 }
