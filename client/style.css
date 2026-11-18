@@ -85,7 +85,7 @@ input:focus { border-color: var(--cyan); }
 .q-prompt { font-size: 1.4em; font-weight: 700; text-align: center; }
 .q-round { font-family: 'Bungee'; color: var(--pink); margin-right: .3em; }
 .q-media { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 200px; width: 100%; }
-.q-image { max-width: 100%; max-height: 42vh; border-radius: 12px; box-shadow: 0 10px 40px #0008; animation: fade-in .3s ease-out; }
+.q-image { max-width: 100%; max-height: 42vh; object-fit: contain; border-radius: 12px; box-shadow: 0 10px 40px #0008; animation: fade-in .3s ease-out; }
 @keyframes fade-in { from { opacity: 0; } }
 .q-text { font-size: 2em; font-weight: 700; text-align: center; }
 .q-audio { display: flex; flex-direction: column; align-items: center; gap: 16px; }
@@ -222,3 +222,4 @@ img.avatar { object-fit: cover; display: block; }
 .reply-bar span { flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .reply-bar button { background: none; border: 0; color: inherit; cursor: pointer; }
 @media (min-width: 861px) { .players { max-height: 42vh; overflow-y: auto; padding-bottom: 14px; } }
+@media (min-width: 861px) { .q-image { height: min(58vh, 640px); width: auto; max-height: none; } }

@@ -20,7 +20,7 @@ export class Library extends DurableObject {
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
-      CREATE TABLE IF NOT EXISTS wiki3 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
+      CREATE TABLE IF NOT EXISTS wiki4 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
 
   // ── RPC (called by Room and the Worker) ──
@@ -53,33 +53,40 @@ export class Library extends DurableObject {
     return { ok: true };
   }
 
-  /** wiki:Title → playable image URL, shared by all rooms (table wiki3, kind = how it was resolved, for /api/wiki-stats):
+  /** wiki:Title → playable image URL, shared by all rooms (table wiki4, kind = how it was resolved, for /api/wiki-stats):
    *  'stored' = downloaded once by the server, served from /api/media (best);
    *  'direct' = the server could not download it, players load Wikimedia's own thumbnail;
    *  'none'   = the article has no image → the question is skipped. Transient errors are not cached. */
   async wiki(src: string): Promise<string | null> {
-    const row = this.sql.exec<{ url: string | null; kind: string; at: number }>('SELECT url, kind, at FROM wiki3 WHERE src = ?', src).toArray()[0];
+    const row = this.sql.exec<{ url: string | null; kind: string; at: number }>('SELECT url, kind, at FROM wiki4 WHERE src = ?', src).toArray()[0];
     if (row && (row.kind === 'stored' || Date.now() - row.at < (row.kind === 'direct' ? 3_600_000 : 86_400_000))) return row.url;
     const m = src.match(/^wiki:(?:([a-z]{2,3}):)?(.+)$/);
     if (!m) return null;
     const lang = m[1] ?? 'fr', title = encodeURIComponent(m[2].trim().replace(/ /g, '_'));
     const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)', 'api-user-agent': 'HellaParty/1.0' };
-    let thumb: string | undefined, info = '', transient = false;
+    let thumb: string | undefined, big: string | undefined, info = '', transient = false;
     for (const l of [lang, lang === 'fr' ? 'en' : 'fr']) {
       const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${title}`, { headers: UA }).catch(e => { info += `summary ${l}: ${e}; `; return null; });
       if (!r || r.status === 429 || r.status >= 500) { transient = true; if (r) info += `summary ${l}: ${r.status}; `; continue; }
       if (!r.ok) { info += `summary ${l}: ${r.status}; `; continue; }
       const j: any = await r.json().catch(() => null);
       thumb = j?.thumbnail?.source;
+      // summary thumbnails are ~320px: ask for 960px (a standard Wikimedia step), or the original if smaller (not SVG)
+      const o = j?.originalimage;
+      if (thumb && o?.width > 960 && /\/\d+px-/.test(thumb)) big = thumb.replace(/\/\d+px-/, '/960px-');
+      else if (o?.source && o.width > 330 && !/\.svg$/i.test(o.source)) big = o.source;
       if (thumb) break;
       info += `summary ${l}: no image; `;
     }
     if (!thumb) {
-      if (!transient) this.sql.exec('INSERT OR REPLACE INTO wiki3 VALUES (?, ?, ?, ?, ?)', src, null, 'none', info, Date.now());
+      if (!transient) this.sql.exec('INSERT OR REPLACE INTO wiki4 VALUES (?, ?, ?, ?, ?)', src, null, 'none', info, Date.now());
       return null;
     }
     // try to store a copy (thumbnail as given = a size Wikimedia always serves)
-    const img = await fetch(thumb, { headers: UA }).catch(e => { info += `img: ${e}; `; return null; });
+    let img = big ? await fetch(big, { headers: UA }).catch(() => null) : null;
+    if (img?.ok && Number(img.headers.get('content-length') ?? 0) > 1_500_000) img = null; // too heavy for phones
+    if (!img?.ok) img = await fetch(thumb, { headers: UA }).catch(e => { info += `img: ${e}; `; return null; });
+    else thumb = big!;
     if (img?.ok) {
       const type = img.headers.get('content-type') ?? '';
       const bytes = await img.arrayBuffer();
@@ -87,13 +94,13 @@ export class Library extends DurableObject {
         const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(b => b.toString(16).padStart(2, '0')).join('');
         await this.putMedia(hash, type, bytes);
         const url = `/api/media/${hash}.${type.split('/')[1].replace('jpeg', 'jpg').replace(/[^a-z0-9]/g, '')}`;
-        this.sql.exec('INSERT OR REPLACE INTO wiki3 VALUES (?, ?, ?, ?, ?)', src, url, 'stored', null, Date.now());
+        this.sql.exec('INSERT OR REPLACE INTO wiki4 VALUES (?, ?, ?, ?, ?)', src, url, 'stored', null, Date.now());
         return url;
       }
       info += `img: bad type/size ${type} ${bytes.byteLength}; `;
     } else if (img) info += `img: ${img.status}; `;
     // could not copy it: let players load the thumbnail straight from Wikimedia (they report back if it fails)
-    this.sql.exec('INSERT OR REPLACE INTO wiki3 VALUES (?, ?, ?, ?, ?)', src, thumb, 'direct', info, Date.now());
+    this.sql.exec('INSERT OR REPLACE INTO wiki4 VALUES (?, ?, ?, ?, ?)', src, thumb, 'direct', info, Date.now());
     return thumb;
   }
 
@@ -104,8 +111,8 @@ export class Library extends DurableObject {
   reports() { return this.sql.exec('SELECT key, reason, n, at FROM reports ORDER BY n DESC, at DESC LIMIT 500').toArray(); }
 
   wikiStats() {
-    const counts = this.sql.exec<{ kind: string; n: number }>('SELECT kind, COUNT(*) AS n FROM wiki3 GROUP BY kind').toArray();
-    const samples = this.sql.exec<{ src: string; kind: string; info: string }>("SELECT src, kind, info FROM wiki3 WHERE kind != 'stored' ORDER BY at DESC LIMIT 30").toArray();
+    const counts = this.sql.exec<{ kind: string; n: number }>('SELECT kind, COUNT(*) AS n FROM wiki4 GROUP BY kind').toArray();
+    const samples = this.sql.exec<{ src: string; kind: string; info: string }>("SELECT src, kind, info FROM wiki4 WHERE kind != 'stored' ORDER BY at DESC LIMIT 30").toArray();
     return { counts, samples };
   }
 
