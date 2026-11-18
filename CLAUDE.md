@@ -54,4 +54,4 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - `npm run dev` (wrangler dev on :8787) then `npm run sim` in another shell: plays a full game with bots and fails on any server error.
 
 ## Deploy
-Push to `main` → GitHub Action builds and `wrangler deploy`s (needs repo secret `CLOUDFLARE_API_TOKEN`). Live: https://hella-party.<account>.workers.dev
+Push to `main` → Cloudflare Workers Builds (repo connected in the dashboard) runs `npm run build` + `npx wrangler deploy`. GitHub Action only type-checks. Live: https://hella-party.arietbatiment5.workers.dev
