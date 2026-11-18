@@ -2525,6 +2525,1898 @@
    ],
    "type": "text",
    "text": "Se mettre à plat ventre, raide comme une planche, n'importe où"
+  },
+  {
+   "id": "bad-luck-brian",
+   "answer": "Bad Luck Brian",
+   "exact": [
+    "bad luck brian"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un ado roux avec un pull à carreaux et un appareil dentaire, à qui tout rate"
+  },
+  {
+   "id": "forever-alone",
+   "answer": "Forever Alone",
+   "exact": [
+    "forever alone"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le visage triste qui pleure tout seul (rage comic)"
+  },
+  {
+   "id": "me-gusta",
+   "answer": "Me Gusta",
+   "exact": [
+    "me gusta"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le visage bizarre et satisfait des rage comics"
+  },
+  {
+   "id": "y-u-no",
+   "answer": "Y U NO",
+   "exact": [
+    "y u no"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le bonhomme qui lève les bras en criant « Y U NO… »"
+  },
+  {
+   "id": "philosoraptor",
+   "answer": "Philosoraptor",
+   "exact": [
+    "philosoraptor"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Un dinosaure qui se pose des questions philosophiques"
+  },
+  {
+   "id": "ermahgerd",
+   "answer": "Ermahgerd",
+   "exact": [
+    "ermahgerd"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Une fille avec des livres qui crie son excitation en mal prononçant"
+  },
+  {
+   "id": "overly-attached-girlfriend",
+   "answer": "Overly Attached Girlfriend",
+   "exact": [
+    "overly attached girlfriend"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "La copine aux grands yeux beaucoup trop collante"
+  },
+  {
+   "id": "ancient-aliens",
+   "answer": "Ancient Aliens",
+   "exact": [
+    "ancient aliens",
+    "aliens"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Je ne dis pas que c'est les aliens… mais c'est les aliens »"
+  },
+  {
+   "id": "disaster-girl",
+   "answer": "Disaster Girl",
+   "exact": [
+    "disaster girl"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Une petite fille qui sourit devant une maison en feu"
+  },
+  {
+   "id": "two-buttons",
+   "answer": "Two Buttons",
+   "exact": [
+    "two buttons",
+    "deux boutons"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un super-héros qui transpire devant deux boutons"
+  },
+  {
+   "id": "expanding-brain",
+   "answer": "Expanding Brain",
+   "exact": [
+    "expanding brain",
+    "galaxy brain"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Plus l'idée est absurde, plus le cerveau brille"
+  },
+  {
+   "id": "mocking-spongebob",
+   "answer": "Mocking SpongeBob",
+   "exact": [
+    "mocking spongebob",
+    "bob l eponge moqueur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Bob l'éponge qui imite quelqu'un en tApAnT cOmMe ÇA"
+  },
+  {
+   "id": "spider-man-pointing",
+   "answer": "Spider-Man pointing",
+   "exact": [
+    "spiderman pointing",
+    "spider man qui se pointent"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Deux Spider-Man qui se pointent du doigt"
+  },
+  {
+   "id": "crying-jordan",
+   "answer": "Crying Jordan",
+   "exact": [
+    "crying jordan"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le visage en larmes d'un basketteur légendaire, utilisé pour toute défaite"
+  },
+  {
+   "id": "arthur-s-fist",
+   "answer": "Arthur's Fist",
+   "exact": [
+    "arthur fist",
+    "poing d arthur"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le poing serré d'Arthur le tamanoir, signe d'énervement"
+  },
+  {
+   "id": "kermit-sipping-tea",
+   "answer": "Kermit Sipping Tea",
+   "exact": [
+    "kermit tea",
+    "but that s none of my business"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "La grenouille du Muppet Show qui boit son thé : « mais ça ne me regarde pas »"
+  },
+  {
+   "id": "evil-kermit",
+   "answer": "Evil Kermit",
+   "exact": [
+    "evil kermit"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Kermit face à son double en capuche noire qui lui souffle de faire des bêtises"
+  },
+  {
+   "id": "roll-safe",
+   "answer": "Roll Safe",
+   "exact": [
+    "roll safe"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un homme qui se tape la tempe : une idée « intelligente » complètement nulle"
+  },
+  {
+   "id": "blinking-guy",
+   "answer": "Blinking Guy",
+   "exact": [
+    "blinking guy",
+    "blinking white guy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un homme qui cligne des yeux, choqué par ce qu'il vient de lire"
+  },
+  {
+   "id": "confused-math-lady",
+   "answer": "Confused Math Lady",
+   "exact": [
+    "math lady",
+    "confused math lady"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Une femme entourée d'équations, complètement perdue"
+  },
+  {
+   "id": "monkey-puppet",
+   "answer": "Monkey Puppet",
+   "exact": [
+    "monkey puppet"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Une marionnette de singe qui détourne le regard, gênée"
+  },
+  {
+   "id": "side-eye-chloe",
+   "answer": "Side-eye Chloe",
+   "exact": [
+    "side eye chloe"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Une petite fille qui regarde de côté, sceptique"
+  },
+  {
+   "id": "hide-yo-kids",
+   "answer": "Hide Yo Kids",
+   "exact": [
+    "hide yo kids"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "« Cachez vos enfants, cachez vos femmes »"
+  },
+  {
+   "id": "chuck-norris-facts",
+   "answer": "Chuck Norris facts",
+   "exact": [
+    "chuck norris facts",
+    "chuck norris"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Des blagues sur un acteur invincible : « Il a compté jusqu'à l'infini. Deux fois. »"
+  },
+  {
+   "id": "keanu-you-re-breathtaking",
+   "answer": "Keanu « You're breathtaking »",
+   "exact": [
+    "you re breathtaking",
+    "keanu"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "La star d'un film d'action pointe le public du doigt"
+  },
+  {
+   "id": "bernie-mittens",
+   "answer": "Bernie Mittens",
+   "exact": [
+    "bernie mittens",
+    "bernie"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Un sénateur américain assis avec de grosses moufles"
+  },
+  {
+   "id": "sad-pablo-escobar",
+   "answer": "Sad Pablo Escobar",
+   "exact": [
+    "sad pablo"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Un homme seul qui attend sur une balançoire, en trois images"
+  },
+  {
+   "id": "elmo-en-feu",
+   "answer": "Elmo en feu",
+   "exact": [
+    "elmo fire",
+    "elmo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Elmo les bras levés devant des flammes"
+  },
+  {
+   "id": "panik-kalm",
+   "answer": "Panik Kalm",
+   "exact": [
+    "panik kalm panik",
+    "panik kalm"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La même tête trois fois : panique, calme, panique"
+  },
+  {
+   "id": "trade-offer",
+   "answer": "Trade Offer",
+   "exact": [
+    "trade offer"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "« J'ai une offre : tu reçois… / je reçois… »"
+  },
+  {
+   "id": "among-us-emergency-meeting",
+   "answer": "Among Us Emergency Meeting",
+   "exact": [
+    "emergency meeting"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Réunion d'urgence ! » en plein milieu de la partie"
+  },
+  {
+   "id": "sheesh",
+   "answer": "Sheesh",
+   "exact": [
+    "sheesh"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'expression étirée quand un truc est impressionnant"
+  },
+  {
+   "id": "gigachad-vs-virgin",
+   "answer": "GigaChad vs Virgin",
+   "exact": [
+    "virgin vs chad"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le mec cool contre le mec ringard en dessin"
+  },
+  {
+   "id": "doomer",
+   "answer": "Doomer",
+   "exact": [
+    "doomer"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Un Wojak en bonnet noir, déprimé, qui fume la nuit"
+  },
+  {
+   "id": "bloomer",
+   "answer": "Bloomer",
+   "exact": [
+    "bloomer"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Le Wojak optimiste et souriant"
+  },
+  {
+   "id": "npc-wojak",
+   "answer": "NPC Wojak",
+   "exact": [
+    "npc wojak"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le visage gris sans expression qui répète ce qu'il entend"
+  },
+  {
+   "id": "soyjak",
+   "answer": "Soyjak",
+   "exact": [
+    "soyjak",
+    "soy jak"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le personnage à lunettes qui ouvre la bouche en pointant du doigt"
+  },
+  {
+   "id": "trollge",
+   "answer": "Trollge",
+   "exact": [
+    "trollge"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "La version sombre et creepy du Trollface"
+  },
+  {
+   "id": "mr-incredible-becoming-uncanny",
+   "answer": "Mr. Incredible Becoming Uncanny",
+   "exact": [
+    "becoming uncanny",
+    "mr incredible uncanny"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "M. Indestructible devient de plus en plus effrayant"
+  },
+  {
+   "id": "mr-incredible-becoming-canny",
+   "answer": "Mr. Incredible Becoming Canny",
+   "exact": [
+    "becoming canny"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "M. Indestructible de plus en plus heureux"
+  },
+  {
+   "id": "gru-s-plan",
+   "answer": "Gru's Plan",
+   "exact": [
+    "gru s plan",
+    "plan de gru"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Gru présente son plan, mais la 3e étape tourne mal"
+  },
+  {
+   "id": "they-don-t-know",
+   "answer": "They don't know",
+   "exact": [
+    "they don t know"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un mec seul dans un coin de soirée qui pense « ils savent pas que… »"
+  },
+  {
+   "id": "buff-doge-vs-cheems",
+   "answer": "Buff Doge vs Cheems",
+   "exact": [
+    "buff doge",
+    "cheems"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le chien musclé du passé contre le chien faible d'aujourd'hui"
+  },
+  {
+   "id": "cheems",
+   "answer": "Cheems",
+   "exact": [
+    "cheems"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le shiba qui parle avec des « m » partout"
+  },
+  {
+   "id": "bonk",
+   "answer": "Bonk",
+   "exact": [
+    "bonk"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le chien qui frappe avec une batte"
+  },
+  {
+   "id": "swole-doge",
+   "answer": "Swole Doge",
+   "exact": [
+    "swole doge"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le shiba bodybuildé"
+  },
+  {
+   "id": "walter-white-falling",
+   "answer": "Walter White Falling",
+   "exact": [
+    "walter white falling"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Le prof de chimie de Breaking Bad qui tombe en arrière"
+  },
+  {
+   "id": "big-brain",
+   "answer": "Big Brain",
+   "exact": [
+    "big brain"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le geste de se tapoter la tête pour une idée de génie"
+  },
+  {
+   "id": "dog-water",
+   "answer": "Dog Water",
+   "exact": [
+    "dog water"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Insulte de gamer pour quelqu'un de nul"
+  },
+  {
+   "id": "zesty",
+   "answer": "Zesty",
+   "exact": [
+    "zesty"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Quelqu'un de très expressif, avec trop de « flair »"
+  },
+  {
+   "id": "delulu",
+   "answer": "Delulu",
+   "exact": [
+    "delulu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Être complètement dans ses illusions"
+  },
+  {
+   "id": "slay",
+   "answer": "Slay",
+   "exact": [
+    "slay"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Réussir quelque chose avec style"
+  },
+  {
+   "id": "bussin",
+   "answer": "Bussin",
+   "exact": [
+    "bussin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Quand la nourriture est trop bonne"
+  },
+  {
+   "id": "no-cap",
+   "answer": "No cap",
+   "exact": [
+    "no cap"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Sans mentir »"
+  },
+  {
+   "id": "cap",
+   "answer": "Cap",
+   "exact": [
+    "cap"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Mensonge ! »"
+  },
+  {
+   "id": "lowkey",
+   "answer": "Lowkey",
+   "exact": [
+    "lowkey"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Discrètement, un peu"
+  },
+  {
+   "id": "highkey",
+   "answer": "Highkey",
+   "exact": [
+    "highkey"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Clairement, à fond"
+  },
+  {
+   "id": "w",
+   "answer": "W",
+   "exact": [
+    "w",
+    "win"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Une victoire, un truc génial"
+  },
+  {
+   "id": "l",
+   "answer": "L",
+   "exact": [
+    "l",
+    "loss"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Une défaite, un truc nul"
+  },
+  {
+   "id": "ratio-l",
+   "answer": "Ratio + L",
+   "exact": [
+    "ratio l"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "La réponse méchante d'Internet à un message raté"
+  },
+  {
+   "id": "goat",
+   "answer": "GOAT",
+   "exact": [
+    "goat",
+    "greatest of all time"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le meilleur de tous les temps"
+  },
+  {
+   "id": "main-character-energy",
+   "answer": "Main character energy",
+   "exact": [
+    "main character energy"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Agir comme si tu étais le héros du film"
+  },
+  {
+   "id": "ick",
+   "answer": "Ick",
+   "exact": [
+    "ick",
+    "the ick"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le petit détail qui te dégoûte d'une personne"
+  },
+  {
+   "id": "situationship",
+   "answer": "Situationship",
+   "exact": [
+    "situationship"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Une relation floue entre l'amitié et le couple"
+  },
+  {
+   "id": "red-flag",
+   "answer": "Red flag",
+   "exact": [
+    "red flag",
+    "drapeau rouge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un signe qu'il faut fuir"
+  },
+  {
+   "id": "green-flag",
+   "answer": "Green flag",
+   "exact": [
+    "green flag"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un bon signe chez quelqu'un"
+  },
+  {
+   "id": "gatekeep",
+   "answer": "Gatekeep",
+   "exact": [
+    "gatekeep"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Garder un bon plan secret pour soi"
+  },
+  {
+   "id": "girl-dinner",
+   "answer": "Girl dinner",
+   "exact": [
+    "girl dinner"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un repas fait de petites choses picorées"
+  },
+  {
+   "id": "roman-empire",
+   "answer": "Roman Empire",
+   "exact": [
+    "roman empire",
+    "empire romain"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le sujet auquel tu penses tout le temps"
+  },
+  {
+   "id": "mid",
+   "answer": "Mid",
+   "exact": [
+    "mid"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Moyen, pas ouf"
+  },
+  {
+   "id": "glazing",
+   "answer": "Glazing",
+   "exact": [
+    "glazing",
+    "glaze"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Complimenter quelqu'un beaucoup trop"
+  },
+  {
+   "id": "yapping",
+   "answer": "Yapping",
+   "exact": [
+    "yapping",
+    "yap"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Parler beaucoup pour ne rien dire"
+  },
+  {
+   "id": "looksmaxxing",
+   "answer": "Looksmaxxing",
+   "exact": [
+    "looksmaxxing"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Tout faire pour devenir plus beau"
+  },
+  {
+   "id": "mogging",
+   "answer": "Mogging",
+   "exact": [
+    "mogging",
+    "mog"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Être tellement mieux que quelqu'un qu'on l'écrase"
+  },
+  {
+   "id": "skibidi",
+   "answer": "Skibidi",
+   "exact": [
+    "skibidi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le mot qui veut tout et rien dire, venu d'une série de toilettes chantantes"
+  },
+  {
+   "id": "sus",
+   "answer": "Sus",
+   "exact": [
+    "sus"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Suspect, louche (venu d'Among Us)"
+  },
+  {
+   "id": "cringe-compilation",
+   "answer": "Cringe compilation",
+   "exact": [
+    "cringe compilation"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un enchaînement de vidéos gênantes"
+  },
+  {
+   "id": "pookie",
+   "answer": "Pookie",
+   "exact": [
+    "pookie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un petit surnom affectueux"
+  },
+  {
+   "id": "rizzler",
+   "answer": "Rizzler",
+   "exact": [
+    "rizzler"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Celui qui a énormément de rizz"
+  },
+  {
+   "id": "unspoken-rizz",
+   "answer": "Unspoken rizz",
+   "exact": [
+    "unspoken rizz"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Séduire sans dire un mot"
+  },
+  {
+   "id": "c-est-l-heure-du-du-du-duel",
+   "answer": "C'est l'heure du du-du-duel",
+   "exact": [
+    "du du duel",
+    "c est l heure du duel"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le cri de Yugi avant chaque combat de cartes"
+  },
+  {
+   "id": "wesh-alors",
+   "answer": "Wesh alors",
+   "exact": [
+    "wesh alors"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Une expression de surprise devenue culte"
+  },
+  {
+   "id": "askip",
+   "answer": "Askip",
+   "exact": [
+    "askip"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« À ce qu'il paraît »"
+  },
+  {
+   "id": "cheh",
+   "answer": "Cheh",
+   "exact": [
+    "cheh"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Ce qu'on dit à quelqu'un qui l'a bien cherché"
+  },
+  {
+   "id": "frerot",
+   "answer": "Frérot",
+   "exact": [
+    "frerot",
+    "frero"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Ton pote proche"
+  },
+  {
+   "id": "wallah",
+   "answer": "Wallah",
+   "exact": [
+    "wallah",
+    "wallay"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Je te jure »"
+  },
+  {
+   "id": "starfoullah",
+   "answer": "Starfoullah",
+   "exact": [
+    "starfoullah"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Expression pour dire « pardon, c'est abusé »"
+  },
+  {
+   "id": "crari",
+   "answer": "Crari",
+   "exact": [
+    "crari"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "« Comme si », se la raconter"
+  },
+  {
+   "id": "genance",
+   "answer": "Gênance",
+   "exact": [
+    "genance"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Une situation très gênante"
+  },
+  {
+   "id": "malaise",
+   "answer": "Malaise",
+   "exact": [
+    "malaise",
+    "malaisant"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le mot pour une situation gênante (souvent en vidéo)"
+  },
+  {
+   "id": "j-ai-le-seum",
+   "answer": "J'ai le seum",
+   "exact": [
+    "le seum",
+    "seum"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Être dégoûté, frustré"
+  },
+  {
+   "id": "ca-passe-creme",
+   "answer": "Ça passe crème",
+   "exact": [
+    "ca passe creme"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Ça passe tranquille, sans problème"
+  },
+  {
+   "id": "bg",
+   "answer": "Bg",
+   "exact": [
+    "bg",
+    "beau gosse"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Beau gosse"
+  },
+  {
+   "id": "tkt",
+   "answer": "Tkt",
+   "exact": [
+    "tkt"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« T'inquiète »"
+  },
+  {
+   "id": "mdr",
+   "answer": "Mdr",
+   "exact": [
+    "mdr"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Mort de rire »"
+  },
+  {
+   "id": "ptdr",
+   "answer": "Ptdr",
+   "exact": [
+    "ptdr"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Pété de rire »"
+  },
+  {
+   "id": "jpp",
+   "answer": "Jpp",
+   "exact": [
+    "jpp"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« J'en peux plus »"
+  },
+  {
+   "id": "oklm",
+   "answer": "Oklm",
+   "exact": [
+    "oklm"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Au calme »"
+  },
+  {
+   "id": "wsh",
+   "answer": "Wsh",
+   "exact": [
+    "wsh",
+    "wesh"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Wesh » en abrégé"
+  },
+  {
+   "id": "ah",
+   "answer": "Ah !",
+   "exact": [
+    "ah",
+    "ah koh lanta"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "L'exclamation devenue un mème de l'animateur de Koh-Lanta"
+  },
+  {
+   "id": "le-cri-de-tarzan",
+   "answer": "Le cri de Tarzan",
+   "exact": [
+    "cri de tarzan"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "AAAAAHH-AAAAH (le cri que tout le monde imite)"
+  },
+  {
+   "id": "minecraft-steve",
+   "answer": "Minecraft Steve",
+   "exact": [
+    "steve"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Steve_(Minecraft)"
+  },
+  {
+   "id": "pac-man-fantomes",
+   "answer": "Pac-Man fantômes",
+   "exact": [
+    "fantomes pac man",
+    "blinky"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Ghosts_(Pac-Man)"
+  },
+  {
+   "id": "speedrun-any",
+   "answer": "Speedrun any%",
+   "exact": [
+    "any%",
+    "any percent"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Finir le jeu le plus vite possible, par tous les moyens"
+  },
+  {
+   "id": "glitch",
+   "answer": "Glitch",
+   "exact": [
+    "glitch",
+    "bug"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un bug dans un jeu qui fait des trucs bizarres"
+  },
+  {
+   "id": "lag",
+   "answer": "Lag",
+   "exact": [
+    "lag"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Quand le jeu rame et que tout se fige"
+  },
+  {
+   "id": "ping",
+   "answer": "Ping",
+   "exact": [
+    "ping"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le temps de réponse de ta connexion en jeu"
+  },
+  {
+   "id": "tryhard",
+   "answer": "Tryhard",
+   "exact": [
+    "tryhard"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Quelqu'un qui joue beaucoup trop sérieusement"
+  },
+  {
+   "id": "smurf",
+   "answer": "Smurf",
+   "exact": [
+    "smurf"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Un très bon joueur sur un compte débutant"
+  },
+  {
+   "id": "camper",
+   "answer": "Camper",
+   "exact": [
+    "camper",
+    "campeur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le joueur qui reste caché au même endroit"
+  },
+  {
+   "id": "spawn-kill",
+   "answer": "Spawn kill",
+   "exact": [
+    "spawn kill"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Tuer quelqu'un dès qu'il réapparaît"
+  },
+  {
+   "id": "loot-box",
+   "answer": "Loot box",
+   "exact": [
+    "loot box",
+    "lootbox"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La caisse payante au contenu aléatoire"
+  },
+  {
+   "id": "battle-pass",
+   "answer": "Battle pass",
+   "exact": [
+    "battle pass",
+    "passe de combat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le passe de combat qu'on débloque niveau par niveau"
+  },
+  {
+   "id": "victory-royale",
+   "answer": "Victory Royale",
+   "exact": [
+    "victory royale",
+    "top 1"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'écran quand tu gagnes une partie de Fortnite"
+  },
+  {
+   "id": "chicken-dinner",
+   "answer": "Chicken Dinner",
+   "exact": [
+    "chicken dinner"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "« Winner winner… » quand tu gagnes sur PUBG"
+  },
+  {
+   "id": "gamer-chair",
+   "answer": "Gamer chair",
+   "exact": [
+    "chaise gamer"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La chaise de gamer rouge et noire"
+  },
+  {
+   "id": "rgb",
+   "answer": "RGB",
+   "exact": [
+    "rgb"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Toutes les lumières de couleur sur un PC gamer"
+  },
+  {
+   "id": "pc-master-race",
+   "answer": "PC Master Race",
+   "exact": [
+    "pc master race"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "L'idée que le PC est supérieur aux consoles"
+  },
+  {
+   "id": "respawn",
+   "answer": "Respawn",
+   "exact": [
+    "respawn"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Réapparaître après être mort"
+  },
+  {
+   "id": "boss-final",
+   "answer": "Boss final",
+   "exact": [
+    "boss final",
+    "boss"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'ennemi le plus dur à la fin du jeu"
+  },
+  {
+   "id": "easter-egg-konami",
+   "answer": "Easter egg Konami",
+   "exact": [
+    "konami"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "↑↑↓↓←→←→BA"
+  },
+  {
+   "id": "crack",
+   "answer": "Crack",
+   "exact": [
+    "crack"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Version piratée d'un jeu"
+  },
+  {
+   "id": "mod",
+   "answer": "Mod",
+   "exact": [
+    "mod",
+    "mods"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un ajout fait par les fans dans un jeu"
+  },
+  {
+   "id": "fan-art",
+   "answer": "Fan art",
+   "exact": [
+    "fan art",
+    "fanart"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un dessin fait par un fan"
+  },
+  {
+   "id": "cosplay",
+   "answer": "Cosplay",
+   "exact": [
+    "cosplay"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Se déguiser en personnage"
+  },
+  {
+   "id": "otaku",
+   "answer": "Otaku",
+   "exact": [
+    "otaku"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Fan d'animés et de mangas"
+  },
+  {
+   "id": "weeb",
+   "answer": "Weeb",
+   "exact": [
+    "weeb"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Quelqu'un obsédé par la culture japonaise"
+  },
+  {
+   "id": "kawaii",
+   "answer": "Kawaii",
+   "exact": [
+    "kawaii"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Mignon » en japonais"
+  },
+  {
+   "id": "senpai",
+   "answer": "Senpai",
+   "exact": [
+    "senpai"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Celui qu'on admire (« notice me … »)"
+  },
+  {
+   "id": "isekai",
+   "answer": "Isekai",
+   "exact": [
+    "isekai"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un héros réincarné dans un autre monde (genre d'animé)"
+  },
+  {
+   "id": "shonen",
+   "answer": "Shōnen",
+   "exact": [
+    "shonen"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le genre d'animé d'action pour ados (Naruto, One Piece…)"
+  },
+  {
+   "id": "filler",
+   "answer": "Filler",
+   "exact": [
+    "filler",
+    "fillers"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Les épisodes inutiles d'un animé"
   }
  ]
 }

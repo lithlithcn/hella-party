@@ -326,7 +326,7 @@ export class Game {
     this.fx(id, 'answer', { ok: true, grade, delta, notes: ctx.notes });
     this.fx(null, 'found', { id, grade });
     this.emit('answer', { player: p, grade, ms, points, delta });
-    if (this.active.every(pl => this.found.get(pl.id)?.grade === 'exact')) this.skipPhase();
+    if (this.active.every(pl => this.found.has(pl.id))) this.skipPhase(); // everyone found → reveal now
     this.io.sync();
   }
 

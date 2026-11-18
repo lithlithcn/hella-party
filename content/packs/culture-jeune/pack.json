@@ -1,0 +1,1367 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "culture-jeune",
+ "name": "Trucs de jeunes",
+ "emoji": "🧃",
+ "prompt": "C'est quoi ?",
+ "tags": [
+  "jeunes",
+  "internet"
+ ],
+ "questions": [
+  {
+   "id": "labubu",
+   "answer": "Labubu",
+   "exact": [
+    "labubu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Labubu"
+  },
+  {
+   "id": "stanley-cup-gourde",
+   "answer": "Stanley Cup (gourde)",
+   "exact": [
+    "stanley",
+    "gourde stanley"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Stanley_(brand)"
+  },
+  {
+   "id": "crocs",
+   "answer": "Crocs",
+   "exact": [
+    "crocs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Crocs"
+  },
+  {
+   "id": "airpods",
+   "answer": "AirPods",
+   "exact": [
+    "airpods",
+    "ecouteurs apple"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:AirPods"
+  },
+  {
+   "id": "iphone",
+   "answer": "iPhone",
+   "exact": [
+    "iphone"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:IPhone"
+  },
+  {
+   "id": "nintendo-switch",
+   "answer": "Nintendo Switch",
+   "exact": [
+    "switch"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_Switch"
+  },
+  {
+   "id": "playstation-5",
+   "answer": "PlayStation 5",
+   "exact": [
+    "ps5"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation_5"
+  },
+  {
+   "id": "prime-boisson",
+   "answer": "Prime (boisson)",
+   "exact": [
+    "prime"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Prime_Hydration"
+  },
+  {
+   "id": "bubble-tea",
+   "answer": "Bubble tea",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Bubble_tea"
+  },
+  {
+   "id": "squishmallows",
+   "answer": "Squishmallows",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Squishmallows"
+  },
+  {
+   "id": "air-jordan",
+   "answer": "Air Jordan",
+   "exact": [
+    "jordan",
+    "jordans"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Air_Jordan"
+  },
+  {
+   "id": "nike-air-force-1",
+   "answer": "Nike Air Force 1",
+   "exact": [
+    "af1",
+    "air force one"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Nike_Air_Force_1"
+  },
+  {
+   "id": "nike-tn",
+   "answer": "Nike TN",
+   "exact": [
+    "tn",
+    "requin",
+    "air max plus"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Nike_Air_Max_Plus"
+  },
+  {
+   "id": "adidas-samba",
+   "answer": "Adidas Samba",
+   "exact": [
+    "samba"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Adidas_Samba"
+  },
+  {
+   "id": "yeezy",
+   "answer": "Yeezy",
+   "exact": [
+    "yeezy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Adidas_Yeezy"
+  },
+  {
+   "id": "converse-all-star",
+   "answer": "Converse All Star",
+   "exact": [
+    "converse",
+    "all star"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Chuck_Taylor_All-Stars"
+  },
+  {
+   "id": "doudoune-the-north-face",
+   "answer": "Doudoune The North Face",
+   "exact": [
+    "north face",
+    "doudoune"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:The_North_Face"
+  },
+  {
+   "id": "sac-banane",
+   "answer": "Sac banane",
+   "exact": [
+    "banane",
+    "sacoche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Waist_bag"
+  },
+  {
+   "id": "lacoste-sacoche",
+   "answer": "Lacoste (sacoche)",
+   "exact": [
+    "lacoste",
+    "sacoche lacoste"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Lacoste"
+  },
+  {
+   "id": "ring-light",
+   "answer": "Ring light",
+   "exact": [
+    "ring light",
+    "anneau lumineux"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Ring_light"
+  },
+  {
+   "id": "perche-a-selfie",
+   "answer": "Perche à selfie",
+   "exact": [
+    "perche selfie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Selfie_stick"
+  },
+  {
+   "id": "gopro",
+   "answer": "GoPro",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:GoPro"
+  },
+  {
+   "id": "trottinette-electrique",
+   "answer": "Trottinette électrique",
+   "exact": [
+    "trottinette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Electric_kick_scooter"
+  },
+  {
+   "id": "hoverboard",
+   "answer": "Hoverboard",
+   "exact": [
+    "hoverboard",
+    "gyropode"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Self-balancing_scooter"
+  },
+  {
+   "id": "fidget-spinner",
+   "answer": "Fidget spinner",
+   "exact": [
+    "hand spinner"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Fidget_spinner"
+  },
+  {
+   "id": "pop-it",
+   "answer": "Pop It",
+   "exact": [
+    "pop it"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Pop_It"
+  },
+  {
+   "id": "tamagotchi",
+   "answer": "Tamagotchi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Tamagotchi"
+  },
+  {
+   "id": "polaroid",
+   "answer": "Polaroid",
+   "exact": [
+    "polaroid"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Instant_camera"
+  },
+  {
+   "id": "vinyle",
+   "answer": "Vinyle",
+   "exact": [
+    "vinyle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Phonograph_record"
+  },
+  {
+   "id": "manette-ps5",
+   "answer": "Manette PS5",
+   "exact": [
+    "dualsense",
+    "manette"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:DualSense"
+  },
+  {
+   "id": "steam-deck",
+   "answer": "Steam Deck",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Steam_Deck"
+  },
+  {
+   "id": "kinder-bueno",
+   "answer": "Kinder Bueno",
+   "exact": [
+    "bueno"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Kinder_Bueno"
+  },
+  {
+   "id": "takis",
+   "answer": "Takis",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Takis"
+  },
+  {
+   "id": "monster-energy",
+   "answer": "Monster Energy",
+   "exact": [
+    "monster"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Monster_Energy"
+  },
+  {
+   "id": "red-bull",
+   "answer": "Red Bull",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Red_Bull"
+  },
+  {
+   "id": "ramen-instantanes",
+   "answer": "Ramen instantanés",
+   "exact": [
+    "nouilles instantanees",
+    "cup noodles"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Instant_noodle"
+  },
+  {
+   "id": "buldak",
+   "answer": "Buldak",
+   "exact": [
+    "samyang",
+    "nouilles piquantes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Buldak"
+  },
+  {
+   "id": "mochi-glace",
+   "answer": "Mochi glacé",
+   "exact": [
+    "mochi"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Mochi_ice_cream"
+  },
+  {
+   "id": "dubai-chocolate",
+   "answer": "Dubai chocolate",
+   "exact": [
+    "chocolat de dubai"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Dubai_chocolate"
+  },
+  {
+   "id": "smash-burger",
+   "answer": "Smash burger",
+   "exact": [
+    "smashburger"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Smash_burger"
+  },
+  {
+   "id": "tacos-francais",
+   "answer": "Tacos français",
+   "exact": [
+    "tacos francais",
+    "tacos"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:French_tacos"
+  },
+  {
+   "id": "o-tacos",
+   "answer": "O'Tacos",
+   "exact": [
+    "otacos"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:fr:O'Tacos"
+  },
+  {
+   "id": "nutella",
+   "answer": "Nutella",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Nutella"
+  },
+  {
+   "id": "snapchat",
+   "answer": "Snapchat",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Snapchat"
+  },
+  {
+   "id": "tiktok",
+   "answer": "TikTok",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:TikTok"
+  },
+  {
+   "id": "instagram",
+   "answer": "Instagram",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Instagram"
+  },
+  {
+   "id": "discord",
+   "answer": "Discord",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Discord"
+  },
+  {
+   "id": "twitch",
+   "answer": "Twitch",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Twitch_(service)"
+  },
+  {
+   "id": "bereal",
+   "answer": "BeReal",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:BeReal"
+  },
+  {
+   "id": "duolingo",
+   "answer": "Duolingo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Duolingo"
+  },
+  {
+   "id": "spotify",
+   "answer": "Spotify",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Spotify"
+  },
+  {
+   "id": "roblox",
+   "answer": "Roblox",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Roblox"
+  },
+  {
+   "id": "brawl-stars",
+   "answer": "Brawl Stars",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Brawl_Stars"
+  },
+  {
+   "id": "clash-royale",
+   "answer": "Clash Royale",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Clash_Royale"
+  },
+  {
+   "id": "fortnite",
+   "answer": "Fortnite",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Fortnite_Battle_Royale"
+  },
+  {
+   "id": "minecraft",
+   "answer": "Minecraft",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Minecraft"
+  },
+  {
+   "id": "among-us",
+   "answer": "Among Us",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Among_Us"
+  },
+  {
+   "id": "genshin-impact",
+   "answer": "Genshin Impact",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Genshin_Impact"
+  },
+  {
+   "id": "valorant",
+   "answer": "Valorant",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Valorant"
+  },
+  {
+   "id": "ea-sports-fc",
+   "answer": "EA Sports FC",
+   "exact": [
+    "fifa",
+    "fc"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:EA_Sports_FC_24"
+  },
+  {
+   "id": "flamme-snapchat",
+   "answer": "Flamme Snapchat",
+   "exact": [
+    "flamme",
+    "streak",
+    "flammes snap"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔥 + un nombre à côté du nom de ton pote : vous vous envoyez des snaps chaque jour"
+  },
+  {
+   "id": "story",
+   "answer": "Story",
+   "exact": [
+    "story"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Photo ou vidéo qui disparaît en 24 h"
+  },
+  {
+   "id": "live-tiktok",
+   "answer": "Live TikTok",
+   "exact": [
+    "live",
+    "live tiktok"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un direct où on t'envoie des cadeaux virtuels"
+  },
+  {
+   "id": "for-you-page",
+   "answer": "For You Page",
+   "exact": [
+    "fyp",
+    "pour toi",
+    "for you"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La page « Pour toi » de TikTok"
+  },
+  {
+   "id": "trend",
+   "answer": "Trend",
+   "exact": [
+    "trend",
+    "tendance"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un défi ou une danse que tout le monde reproduit"
+  },
+  {
+   "id": "lip-sync",
+   "answer": "Lip sync",
+   "exact": [
+    "lip sync",
+    "playback"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Faire semblant de chanter sur une musique"
+  },
+  {
+   "id": "get-ready-with-me",
+   "answer": "Get Ready With Me",
+   "exact": [
+    "grwm",
+    "get ready with me"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Vidéo où on se prépare en parlant"
+  },
+  {
+   "id": "day-in-my-life",
+   "answer": "Day in my life",
+   "exact": [
+    "day in my life"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Vidéo qui montre une journée de ta vie"
+  },
+  {
+   "id": "haul",
+   "answer": "Haul",
+   "exact": [
+    "haul"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Vidéo où on montre tout ce qu'on a acheté"
+  },
+  {
+   "id": "asmr-mukbang",
+   "answer": "ASMR mukbang",
+   "exact": [
+    "mukbang"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Manger devant la caméra avec des bruits de bouche"
+  },
+  {
+   "id": "prank",
+   "answer": "Prank",
+   "exact": [
+    "prank",
+    "canular"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Une blague filmée"
+  },
+  {
+   "id": "storytime",
+   "answer": "Storytime",
+   "exact": [
+    "storytime"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Raconter une histoire vécue face caméra"
+  },
+  {
+   "id": "drill",
+   "answer": "Drill",
+   "exact": [
+    "drill"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Genre de rap sombre venu de Chicago puis de Londres"
+  },
+  {
+   "id": "jersey",
+   "answer": "Jersey",
+   "exact": [
+    "jersey",
+    "jersey club"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Genre musical rapide venu du New Jersey, très présent sur TikTok"
+  },
+  {
+   "id": "afro",
+   "answer": "Afro",
+   "exact": [
+    "afro",
+    "afrobeat",
+    "afrobeats"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Genre musical festif venu d'Afrique (afrobeats)"
+  },
+  {
+   "id": "phonk",
+   "answer": "Phonk",
+   "exact": [
+    "phonk"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Musique sombre aux basses saturées, très utilisée dans les edits"
+  },
+  {
+   "id": "edit",
+   "answer": "Edit",
+   "exact": [
+    "edit",
+    "edits"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Montage vidéo stylé d'un perso ou d'un sportif avec une musique"
+  },
+  {
+   "id": "lo-fi",
+   "answer": "Lo-fi",
+   "exact": [
+    "lofi",
+    "lo fi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Musique calme « pour étudier » avec une fille qui écrit"
+  },
+  {
+   "id": "k-pop",
+   "answer": "K-pop",
+   "exact": [
+    "kpop",
+    "k pop"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La pop coréenne (BTS, Blackpink…)"
+  },
+  {
+   "id": "fancam",
+   "answer": "Fancam",
+   "exact": [
+    "fancam"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeunes",
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Vidéo d'un fan qui filme son idole"
+  },
+  {
+   "id": "stan",
+   "answer": "Stan",
+   "exact": [
+    "stan"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Fan beaucoup trop obsédé"
+  },
+  {
+   "id": "hype",
+   "answer": "Hype",
+   "exact": [
+    "hype"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'excitation autour d'un truc"
+  },
+  {
+   "id": "collab",
+   "answer": "Collab",
+   "exact": [
+    "collab",
+    "collaboration"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Une collaboration entre deux créateurs ou marques"
+  },
+  {
+   "id": "drop",
+   "answer": "Drop",
+   "exact": [
+    "drop"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "La sortie en quantité limitée d'un produit"
+  },
+  {
+   "id": "resell",
+   "answer": "Resell",
+   "exact": [
+    "resell"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Racheter des sneakers pour les revendre plus cher"
+  },
+  {
+   "id": "vinted",
+   "answer": "Vinted",
+   "exact": [
+    "vinted"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'appli pour revendre ses vêtements"
+  },
+  {
+   "id": "shein",
+   "answer": "Shein",
+   "exact": [
+    "shein"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le site de vêtements pas chers venu de Chine"
+  },
+  {
+   "id": "temu",
+   "answer": "Temu",
+   "exact": [
+    "temu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'appli de produits ultra pas chers"
+  },
+  {
+   "id": "bac",
+   "answer": "Bac",
+   "exact": [
+    "bac",
+    "baccalaureat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'examen de fin de lycée"
+  },
+  {
+   "id": "brevet",
+   "answer": "Brevet",
+   "exact": [
+    "brevet"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'examen de fin de 3e"
+  },
+  {
+   "id": "parcoursup",
+   "answer": "Parcoursup",
+   "exact": [
+    "parcoursup"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La plateforme pour choisir ses études après le bac"
+  },
+  {
+   "id": "pronote",
+   "answer": "Pronote",
+   "exact": [
+    "pronote"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'appli pour voir ses notes et ses devoirs"
+  },
+  {
+   "id": "grand-oral",
+   "answer": "Grand oral",
+   "exact": [
+    "grand oral"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeunes",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "L'épreuve orale du bac où on présente un sujet"
+  },
+  {
+   "id": "cantine",
+   "answer": "Cantine",
+   "exact": [
+    "cantine",
+    "self"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Là où on mange à l'école"
+  },
+  {
+   "id": "le-cdi",
+   "answer": "Le CDI",
+   "exact": [
+    "cdi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeunes",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La bibliothèque du collège ou du lycée"
+  }
+ ]
+}

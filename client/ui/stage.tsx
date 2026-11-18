@@ -46,9 +46,10 @@ function Timer({ name, startedAt, endsAt }: { name: string; startedAt: number; e
   const sec = Math.ceil(left / 1000);
   useEffect(() => { if (name === 'question' && sec <= 5 && sec > 0) sfx.tick(); }, [sec]);
   const [start] = useState(() => left / total); // fraction remaining when mounted (late joiners)
+  const [dur] = useState(left);                   // fixed once: changing animation-duration later desyncs the bar
   return (
     <div class={`timer ${name === 'question' && left < total / 4 ? 'hurry' : ''}`}>
-      <i style={{ transform: `scaleX(${start})`, animation: `timer-shrink ${left}ms linear forwards`, ['--from' as any]: start }} />
+      <i style={{ transform: `scaleX(${start})`, animation: `timer-shrink ${dur}ms linear forwards`, ['--from' as any]: start }} />
       <span>{sec}</span>
     </div>
   );

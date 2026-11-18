@@ -21,8 +21,7 @@ export const SOUND_EVENTS = [
   { id: 'h3inStack', label: 'H3in : charge' },
   { id: 'heavyHit', label: 'Gros coup' },
   { id: 'explosion', label: 'Explosion' },
-  { id: 'musicLobby', label: 'Musique du lobby (boucle)', music: true },
-  { id: 'musicGame', label: 'Musique pendant la partie (boucle)', music: true },
+  { id: 'music', label: 'Musique de fond (boucle)', music: true },
 ] as const;
 export type SoundId = (typeof SOUND_EVENTS)[number]['id'] | (string & {});
 
@@ -31,9 +30,12 @@ const buffers = new Map<string, Promise<AudioBuffer | null>>();
 const overrides = new Map<string, string>(); // id → blob URL
 const DEFAULTS = new Set<string>(SOUND_EVENTS.filter(e => !('music' in e)).map(e => e.id));
 
+/** Two separate volumes (0..1), saved per device. Defaults are deliberately low: the device volume does the rest. */
 export const volume = {
-  get: () => +(localStorage.getItem('hp.vol') ?? 0.7),
-  set: (v: number) => { localStorage.setItem('hp.vol', String(v)); if (music) music.volume = v * 0.5; },
+  get: () => +(localStorage.getItem('hp.vol.sfx') ?? 0.5),
+  set: (v: number) => localStorage.setItem('hp.vol.sfx', String(v)),
+  music: () => +(localStorage.getItem('hp.vol.music') ?? 0.3),
+  setMusic: (v: number) => { localStorage.setItem('hp.vol.music', String(v)); if (music) music.volume = v; },
 };
 
 function ac() {
@@ -70,17 +72,28 @@ export async function play(id: SoundId, gain = 1) {
 
 export const playRandom = (...ids: SoundId[]) => play(ids[Math.floor(Math.random() * ids.length)]);
 
-let music: HTMLAudioElement | null = null, musicId = '';
-/** Loop a music event (only if the player set one in the Studio). Pass null to stop. */
-export function setMusic(id: SoundId | null) {
-  if (id === musicId) return;
-  musicId = id ?? '';
-  music?.pause(); music = null;
-  const u = id && overrides.get(id);
-  if (!u) return;
-  music = new Audio(u); music.loop = true; music.volume = volume.get() * 0.5;
-  music.play().catch(() => addEventListener('pointerdown', () => music?.play(), { once: true }));
+// ── Background music: always on, streamed (no decoding into memory). Each loop alternates
+//    normal → sped up ×1.042 → slowed ×0.958 (tempo AND pitch, like a record). Override: Studio "music".
+let music: HTMLAudioElement | null = null;
+const RATES = [1, 1.042, 0.958];
+let loop = 0;
+export function startMusic() {
+  if (music) return;
+  const a = new Audio(overrides.get('music') ?? '/sfx/music.mp3');
+  music = a;
+  a.preload = 'auto';
+  a.volume = volume.music();
+  (a as any).preservesPitch = false; (a as any).mozPreservesPitch = false; (a as any).webkitPreservesPitch = false;
+  a.addEventListener('ended', () => { loop = (loop + 1) % RATES.length; a.playbackRate = RATES[loop]; a.currentTime = 0; a.play().catch(() => {}); });
+  const go = () => a.play().catch(() => {});
+  go();
+  // browsers only allow sound after a first tap / key
+  const unlock = () => { if (a.paused) go(); };
+  addEventListener('pointerdown', unlock, { once: true });
+  addEventListener('keydown', unlock, { once: true });
 }
+/** Back-compat no-op (music used to depend on the room status). */
+export function setMusic(_: SoundId | null) {}
 
 /** Load this device's overrides (Studio → Sons du jeu → "utiliser sur cet appareil"). */
 export async function loadOverrides() {

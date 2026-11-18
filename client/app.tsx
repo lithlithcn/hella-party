@@ -3,7 +3,8 @@ import { CLIENT_FEATURES } from './feature';
 import { connect, DEBUG, identity, onFx, send, useStore } from './store';
 import { Avatar, Logo } from './ui/util';
 import { AvatarEditor, myAvatar } from './ui/avatar-editor';
-import { setMusic, volume } from './sfx';
+import { startMusic, volume } from './sfx';
+startMusic();
 import { lazy, Suspense } from 'preact/compat';
 
 const Studio = lazy(() => import('./studio/studio'));
@@ -56,6 +57,7 @@ function Home({ code, onName, go }: { code: string | null; onName: (n: string) =
         )}
       </div>
       <a class="btn ghost studio-link" href="/studio">🎨 Studio : crée tes propres packs</a>
+      <VolumeMenu />
       <Version />
     </main>
   );
@@ -79,8 +81,6 @@ function Room({ code }: { code: string }) {
 
   const s = st.s;
   const me = s?.players.find(p => p.id === s.me);
-  useEffect(() => { setMusic(s?.status === 'lobby' ? 'musicLobby' : s?.status === 'playing' ? 'musicGame' : null); }, [s?.status]);
-  useEffect(() => () => setMusic(null), []);
   return (
     <div class="room">
       <header class="topbar">
@@ -88,7 +88,7 @@ function Room({ code }: { code: string }) {
         {s && <span class="code" title="Copier le lien" onClick={() => navigator.clipboard?.writeText(location.href)}>{code}</span>}
         <span class={`dot ${st.online ? 'on' : ''}`} title={st.online ? 'Connecté' : 'Reconnexion…'} />
         <span class="grow" />
-        <input class="vol" type="range" min="0" max="1" step="0.05" defaultValue={String(volume.get())} title="Volume" onInput={e => volume.set(+(e.target as HTMLInputElement).value)} />
+        <VolumeMenu />
         {me?.leader && s?.status === 'playing' && <button class="btn ghost small" onClick={() => send({ t: 'stop' })}>Arrêter</button>}
       </header>
       {s ? (
@@ -130,4 +130,20 @@ function Version() {
   const [v, setV] = useState<{ commit: string; built: string } | null>(null);
   useEffect(() => { fetch('/api/version').then(r => r.json() as Promise<any>).then(setV).catch(() => {}); }, []);
   return v ? <small class="muted version">version {v.commit} · {new Date(v.built).toLocaleString('fr-FR')}</small> : null;
+}
+
+/** 🔊 button → two sliders: music / sound effects. */
+function VolumeMenu() {
+  const [open, setOpen] = useState(false);
+  return (
+    <span class="volmenu">
+      <button class="btn ghost small" onClick={() => setOpen(o => !o)} title="Volume">🔊</button>
+      {open && (
+        <div class="volpop">
+          <label>🎵 Musique<input type="range" min="0" max="1" step="0.05" defaultValue={String(volume.music())} onInput={e => volume.setMusic(+(e.target as HTMLInputElement).value)} /></label>
+          <label>💥 Effets<input type="range" min="0" max="1" step="0.05" defaultValue={String(volume.get())} onInput={e => volume.set(+(e.target as HTMLInputElement).value)} /></label>
+        </div>
+      )}
+    </span>
+  );
 }
