@@ -3,7 +3,7 @@
  "version": 1,
  "author": "Hella Party",
  "id": "films-emojis",
- "name": "Films en émojis",
+ "name": "Films (émojis + indice)",
  "emoji": "🎬",
  "prompt": "Quel film ?",
  "tags": [
@@ -22,7 +22,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🚢🧊💔🎻"
+   "text": "🚢🧊💔🎻",
+   "data": {
+    "clue": "Film 1997 · un paquebot géant coule après avoir heurté un iceberg"
+   }
   },
   {
    "id": "le-roi-lion",
@@ -37,7 +40,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦁👑🌅🐗"
+   "text": "🦁👑🌅🐗",
+   "data": {
+    "clue": "Disney 1994 · un lionceau doit reprendre le trône de son père"
+   }
   },
   {
    "id": "star-wars",
@@ -51,7 +57,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "⭐⚔️🌌🤖"
+   "text": "⭐⚔️🌌🤖",
+   "data": {
+    "clue": "Saga spatiale · Jedi, sabres laser et Dark Vador"
+   }
   },
   {
    "id": "harry-potter",
@@ -65,7 +74,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "⚡🧙‍♂️🦉🧹"
+   "text": "⚡🧙‍♂️🦉🧹",
+   "data": {
+    "clue": "Saga · un jeune sorcier à lunettes à l'école Poudlard"
+   }
   },
   {
    "id": "le-seigneur-des-anneaux",
@@ -80,7 +92,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💍🌋🧙‍♂️🧝"
+   "text": "💍🌋🧙‍♂️🧝",
+   "data": {
+    "clue": "Saga · un hobbit doit détruire un anneau maléfique"
+   }
   },
   {
    "id": "jurassic-park",
@@ -95,7 +110,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦖🏝️🚙🧬"
+   "text": "🦖🏝️🚙🧬",
+   "data": {
+    "clue": "Film 1993 · un parc rempli de dinosaures clonés"
+   }
   },
   {
    "id": "retour-vers-le-futur",
@@ -109,7 +127,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🚗⚡⏰🕰️"
+   "text": "🚗⚡⏰🕰️",
+   "data": {
+    "clue": "Film 1985 · voyage dans le temps en DeLorean"
+   }
   },
   {
    "id": "matrix",
@@ -123,7 +144,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💊🕶️💻🐇"
+   "text": "💊🕶️💻🐇",
+   "data": {
+    "clue": "Film 1999 · pilule rouge ou pilule bleue, le monde est une simulation"
+   }
   },
   {
    "id": "les-dents-de-la-mer",
@@ -137,7 +161,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦈🌊🏖️😱"
+   "text": "🦈🌊🏖️😱",
+   "data": {
+    "clue": "Film 1975 · un requin terrorise une plage"
+   }
   },
   {
    "id": "e-t",
@@ -152,7 +179,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👽🚲🌕☝️"
+   "text": "👽🚲🌕☝️",
+   "data": {
+    "clue": "Film 1982 · un petit extraterrestre veut « téléphoner maison »"
+   }
   },
   {
    "id": "toy-story",
@@ -166,7 +196,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🤠🚀🧸👦"
+   "text": "🤠🚀🧸👦",
+   "data": {
+    "clue": "Pixar 1995 · des jouets prennent vie (Woody et Buzz)"
+   }
   },
   {
    "id": "la-reine-des-neiges",
@@ -181,7 +214,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "❄️👸⛄🏰"
+   "text": "❄️👸⛄🏰",
+   "data": {
+    "clue": "Disney 2013 · deux sœurs, une a des pouvoirs de glace"
+   }
   },
   {
    "id": "avengers",
@@ -195,7 +231,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🛡️🔨🦾💎"
+   "text": "🛡️🔨🦾💎",
+   "data": {
+    "clue": "Marvel · les super-héros s'unissent contre Loki"
+   }
   },
   {
    "id": "spider-man",
@@ -209,7 +248,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🕷️🕸️🏙️🦸"
+   "text": "🕷️🕸️🏙️🦸",
+   "data": {
+    "clue": "Super-héros · un ado mordu par une araignée"
+   }
   },
   {
    "id": "le-parrain",
@@ -224,7 +266,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🍊🐴🔫🇮🇹"
+   "text": "🍊🐴🔫🇮🇹",
+   "data": {
+    "clue": "Film 1972 · la famille mafieuse Corleone"
+   }
   },
   {
    "id": "forrest-gump",
@@ -238,7 +283,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏃‍♂️🍫🦐🪶"
+   "text": "🏃‍♂️🍫🦐🪶",
+   "data": {
+    "clue": "Film 1994 · « La vie c'est comme une boîte de chocolats »"
+   }
   },
   {
    "id": "inception",
@@ -252,7 +300,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🌀🛌🏙️🎲"
+   "text": "🌀🛌🏙️🎲",
+   "data": {
+    "clue": "Film 2010 · voler des idées dans les rêves"
+   }
   },
   {
    "id": "interstellar",
@@ -266,7 +317,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🚀🌌🕳️⏳"
+   "text": "🚀🌌🕳️⏳",
+   "data": {
+    "clue": "Film 2014 · astronautes à travers un trou de ver pour sauver l'humanité"
+   }
   },
   {
    "id": "intouchables",
@@ -280,7 +334,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "♿🤝🎶🇫🇷"
+   "text": "♿🤝🎶🇫🇷",
+   "data": {
+    "clue": "Film français 2011 · un riche tétraplégique et son aide à domicile"
+   }
   },
   {
    "id": "bienvenue-chez-les-ch-tis",
@@ -295,7 +352,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "📮🥶🧀🍺"
+   "text": "📮🥶🧀🍺",
+   "data": {
+    "clue": "Film français 2008 · un postier muté dans le Nord"
+   }
   },
   {
    "id": "asterix-et-obelix-mission-cleopatre",
@@ -309,7 +369,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏛️🐫👑🥊"
+   "text": "🏛️🐫👑🥊",
+   "data": {
+    "clue": "Film français 2002 · construire un palais pour Cléopâtre"
+   }
   },
   {
    "id": "amelie-poulain",
@@ -324,7 +387,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👩🏻‍🦰🥄🍮📷"
+   "text": "👩🏻‍🦰🥄🍮📷",
+   "data": {
+    "clue": "Film français 2001 · une serveuse de Montmartre aide les gens en secret"
+   }
   },
   {
    "id": "les-visiteurs",
@@ -338,7 +404,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "⚔️🏰⏳🚗"
+   "text": "⚔️🏰⏳🚗",
+   "data": {
+    "clue": "Film français 1993 · un chevalier du Moyen Âge arrive en 1992"
+   }
   },
   {
    "id": "shrek",
@@ -352,7 +421,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🟢👹🫏🧅"
+   "text": "🟢👹🫏🧅",
+   "data": {
+    "clue": "DreamWorks 2001 · un ogre vert et un âne bavard"
+   }
   },
   {
    "id": "le-monde-de-nemo",
@@ -367,7 +439,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐠🔍🌊🐢"
+   "text": "🐠🔍🌊🐢",
+   "data": {
+    "clue": "Pixar 2003 · un père poisson-clown cherche son fils"
+   }
   },
   {
    "id": "ratatouille",
@@ -381,7 +456,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐀👨‍🍳🍲🗼"
+   "text": "🐀👨‍🍳🍲🗼",
+   "data": {
+    "clue": "Pixar 2007 · un rat cuisinier à Paris"
+   }
   },
   {
    "id": "les-minions",
@@ -396,7 +474,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🍌💛👓🗣️"
+   "text": "🍌💛👓🗣️",
+   "data": {
+    "clue": "DreamWorks/Illumination · des petits êtres jaunes qui adorent les bananes"
+   }
   },
   {
    "id": "coco",
@@ -410,7 +491,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💀🎸🌼🇲🇽"
+   "text": "💀🎸🌼🇲🇽",
+   "data": {
+    "clue": "Pixar 2017 · un garçon au pays des morts, fête mexicaine"
+   }
   },
   {
    "id": "vice-versa",
@@ -425,7 +509,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "😀😢😡🤢😱"
+   "text": "😀😢😡🤢😱",
+   "data": {
+    "clue": "Pixar 2015 · les émotions dans la tête d'une petite fille"
+   }
   },
   {
    "id": "barbie",
@@ -439,7 +526,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💖👱‍♀️🏖️🚗"
+   "text": "💖👱‍♀️🏖️🚗",
+   "data": {
+    "clue": "Film 2023 · la poupée la plus célèbre quitte son monde rose"
+   }
   },
   {
    "id": "joker",
@@ -453,7 +543,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🃏🤡🪜🔫"
+   "text": "🃏🤡🪜🔫",
+   "data": {
+    "clue": "Film 2019 · l'origine du méchant clown de Gotham"
+   }
   },
   {
    "id": "batman",
@@ -468,7 +561,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦇🌃🦹‍♂️🚓"
+   "text": "🦇🌃🦹‍♂️🚓",
+   "data": {
+    "clue": "Super-héros · l'homme chauve-souris de Gotham"
+   }
   },
   {
    "id": "fast-furious",
@@ -482,7 +578,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🚗💨🏁👨‍👩‍👦"
+   "text": "🚗💨🏁👨‍👩‍👦",
+   "data": {
+    "clue": "Saga · courses de voitures et « la famille »"
+   }
   },
   {
    "id": "pirates-des-caraibes",
@@ -496,7 +595,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏴‍☠️⚓🦜💀"
+   "text": "🏴‍☠️⚓🦜💀",
+   "data": {
+    "clue": "Saga · le capitaine Jack Sparrow"
+   }
   },
   {
    "id": "mission-impossible",
@@ -510,7 +612,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🕵️‍♂️💣🚁📼"
+   "text": "🕵️‍♂️💣🚁📼",
+   "data": {
+    "clue": "Saga · espion, masques et missions impossibles"
+   }
   },
   {
    "id": "top-gun",
@@ -524,7 +629,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "✈️🕶️🏍️🇺🇸"
+   "text": "✈️🕶️🏍️🇺🇸",
+   "data": {
+    "clue": "Film · pilotes de chasse de l'US Navy"
+   }
   },
   {
    "id": "rocky",
@@ -538,7 +646,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🥊🏃‍♂️🥩🎵"
+   "text": "🥊🏃‍♂️🥩🎵",
+   "data": {
+    "clue": "Film 1976 · un boxeur monte les marches en courant"
+   }
   },
   {
    "id": "terminator",
@@ -552,7 +663,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🤖🔫🕶️⏳"
+   "text": "🤖🔫🕶️⏳",
+   "data": {
+    "clue": "Film · un robot venu du futur (« I'll be back »)"
+   }
   },
   {
    "id": "gladiator",
@@ -566,7 +680,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "⚔️🏟️🌾🐯"
+   "text": "⚔️🏟️🌾🐯",
+   "data": {
+    "clue": "Film 2000 · un général romain devenu gladiateur"
+   }
   },
   {
    "id": "hunger-games",
@@ -580,7 +697,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏹🔥🐦🎯"
+   "text": "🏹🔥🐦🎯",
+   "data": {
+    "clue": "Saga · des jeunes s'affrontent dans une arène télévisée"
+   }
   },
   {
    "id": "twilight",
@@ -594,7 +714,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧛‍♂️🐺🍎🌲"
+   "text": "🧛‍♂️🐺🍎🌲",
+   "data": {
+    "clue": "Saga · une lycéenne, un vampire et un loup-garou"
+   }
   },
   {
    "id": "kung-fu-panda",
@@ -608,7 +731,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐼🥋🥟🐉"
+   "text": "🐼🥋🥟🐉",
+   "data": {
+    "clue": "DreamWorks · un panda maladroit devient maître du kung-fu"
+   }
   },
   {
    "id": "cars",
@@ -622,7 +748,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏎️⚡🏁🛣️"
+   "text": "🏎️⚡🏁🛣️",
+   "data": {
+    "clue": "Pixar 2006 · une voiture de course bloquée dans une petite ville"
+   }
   },
   {
    "id": "le-livre-de-la-jungle",
@@ -637,7 +766,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐻🐯👦🌴"
+   "text": "🐻🐯👦🌴",
+   "data": {
+    "clue": "Disney · un petit garçon élevé dans la jungle"
+   }
   },
   {
    "id": "aladdin",
@@ -651,7 +783,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧞‍♂️🪔🐒🪄"
+   "text": "🧞‍♂️🪔🐒🪄",
+   "data": {
+    "clue": "Disney · un génie dans une lampe exauce trois vœux"
+   }
   },
   {
    "id": "la-belle-et-la-bete",
@@ -665,7 +800,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🌹🐺👸📚"
+   "text": "🌹🐺👸📚",
+   "data": {
+    "clue": "Disney · une jeune femme prisonnière d'un prince maudit"
+   }
   },
   {
    "id": "blanche-neige",
@@ -679,7 +817,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🍎👸⛏️👴🏻"
+   "text": "🍎👸⛏️👴🏻",
+   "data": {
+    "clue": "Disney 1937 · une princesse, une pomme empoisonnée et sept nains"
+   }
   },
   {
    "id": "cendrillon",
@@ -693,7 +834,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👠🎃🕛👸"
+   "text": "👠🎃🕛👸",
+   "data": {
+    "clue": "Disney · une pantoufle de verre perdue à minuit"
+   }
   },
   {
    "id": "la-petite-sirene",
@@ -707,7 +851,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧜‍♀️🦀🐟🔱"
+   "text": "🧜‍♀️🦀🐟🔱",
+   "data": {
+    "clue": "Disney · une sirène rêve de vivre sur terre"
+   }
   },
   {
    "id": "ghostbusters",
@@ -722,7 +869,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👻🚫🔫🚑"
+   "text": "👻🚫🔫🚑",
+   "data": {
+    "clue": "Film 1984 · chasseurs de fantômes à New York"
+   }
   },
   {
    "id": "avatar",
@@ -736,7 +886,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🔵🌳🐉🪐"
+   "text": "🔵🌳🐉🪐",
+   "data": {
+    "clue": "Film 2009 · des humains sur une planète peuplée d'êtres bleus"
+   }
   },
   {
    "id": "dune",
@@ -750,7 +903,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🏜️🪱🌶️👁️"
+   "text": "🏜️🪱🌶️👁️",
+   "data": {
+    "clue": "Film 2021 · une planète désertique et des vers géants"
+   }
   },
   {
    "id": "oppenheimer",
@@ -764,7 +920,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "💣☢️🎩🇺🇸"
+   "text": "💣☢️🎩🇺🇸",
+   "data": {
+    "clue": "Film 2023 · le père de la bombe atomique"
+   }
   },
   {
    "id": "le-labyrinthe",
@@ -779,7 +938,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🧱🌀🏃‍♂️🪲"
+   "text": "🧱🌀🏃‍♂️🪲",
+   "data": {
+    "clue": "Film · des ados coincés au milieu d'un labyrinthe géant"
+   }
   },
   {
    "id": "taxi",
@@ -793,7 +955,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🚕🇫🇷💨👮"
+   "text": "🚕🇫🇷💨👮",
+   "data": {
+    "clue": "Film français 1998 · un chauffeur de taxi marseillais ultra rapide"
+   }
   },
   {
    "id": "le-roi-lion-2",
@@ -807,7 +972,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🦁🦁👑🌅2️⃣"
+   "text": "🦁🦁👑🌅2️⃣",
+   "data": {
+    "clue": "Disney · la fille de Simba et la troupe de Scar"
+   }
   },
   {
    "id": "toy-story-3",
@@ -821,7 +989,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🤠🚀🗑️🔥"
+   "text": "🤠🚀🗑️🔥",
+   "data": {
+    "clue": "Pixar 2010 · Andy part à la fac, les jouets à la garderie"
+   }
   },
   {
    "id": "monstres-et-cie",
@@ -836,7 +1007,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👹🚪😱👧"
+   "text": "👹🚪😱👧",
+   "data": {
+    "clue": "Pixar 2001 · des monstres qui font peur aux enfants pour l'énergie"
+   }
   },
   {
    "id": "la-haut",
@@ -851,7 +1025,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🎈🏠👴👦"
+   "text": "🎈🏠👴👦",
+   "data": {
+    "clue": "Pixar 2009 · une maison qui s'envole avec des ballons"
+   }
   },
   {
    "id": "wall-e",
@@ -865,7 +1042,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🤖🌍🌱🧹"
+   "text": "🤖🌍🌱🧹",
+   "data": {
+    "clue": "Pixar 2008 · un petit robot nettoie une Terre abandonnée"
+   }
   },
   {
    "id": "zootopie",
@@ -879,7 +1059,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐰🦊🚓🏙️"
+   "text": "🐰🦊🚓🏙️",
+   "data": {
+    "clue": "Disney 2016 · une lapine policière et un renard arnaqueur"
+   }
   },
   {
    "id": "raiponce",
@@ -893,7 +1076,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👸💇‍♀️🏰🍳"
+   "text": "👸💇‍♀️🏰🍳",
+   "data": {
+    "clue": "Disney 2010 · une princesse aux cheveux immenses dans une tour"
+   }
   },
   {
    "id": "vaiana",
@@ -907,7 +1093,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🌊🛶🐓🏝️"
+   "text": "🌊🛶🐓🏝️",
+   "data": {
+    "clue": "Disney 2016 · une jeune fille traverse l'océan avec un demi-dieu"
+   }
   },
   {
    "id": "encanto",
@@ -921,7 +1110,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦋🏠🕯️🇨🇴"
+   "text": "🦋🏠🕯️🇨🇴",
+   "data": {
+    "clue": "Disney 2021 · une famille colombienne aux pouvoirs magiques"
+   }
   },
   {
    "id": "dragons",
@@ -936,7 +1128,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐉🖤👦🏝️"
+   "text": "🐉🖤👦🏝️",
+   "data": {
+    "clue": "DreamWorks 2010 · un jeune viking apprivoise un dragon noir"
+   }
   },
   {
    "id": "madagascar",
@@ -950,7 +1145,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦁🦓🦒🦛"
+   "text": "🦁🦓🦒🦛",
+   "data": {
+    "clue": "DreamWorks 2005 · des animaux du zoo de New York sur une île"
+   }
   },
   {
    "id": "rio",
@@ -964,7 +1162,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦜💙🇧🇷🎉"
+   "text": "🦜💙🇧🇷🎉",
+   "data": {
+    "clue": "Film 2011 · un perroquet bleu à Rio de Janeiro"
+   }
   },
   {
    "id": "l-age-de-glace",
@@ -979,7 +1180,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐿️🥜❄️🦣"
+   "text": "🐿️🥜❄️🦣",
+   "data": {
+    "clue": "Film 2002 · un mammouth, un paresseux, un tigre et un écureuil avec un gland"
+   }
   },
   {
    "id": "les-indestructibles",
@@ -994,7 +1198,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👨‍👩‍👧‍👦🦸🔴⚫"
+   "text": "👨‍👩‍👧‍👦🦸🔴⚫",
+   "data": {
+    "clue": "Pixar 2004 · une famille de super-héros"
+   }
   },
   {
    "id": "mulan",
@@ -1008,7 +1215,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🗡️👩🐉🇨🇳"
+   "text": "🗡️👩🐉🇨🇳",
+   "data": {
+    "clue": "Disney · une jeune fille se déguise en soldat pour sauver son père"
+   }
   },
   {
    "id": "pocahontas",
@@ -1022,7 +1232,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🍃🪶🏹🌊"
+   "text": "🍃🪶🏹🌊",
+   "data": {
+    "clue": "Disney · une princesse amérindienne et un colon anglais"
+   }
   },
   {
    "id": "hercule",
@@ -1036,7 +1249,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💪⚡🏛️🐴"
+   "text": "💪⚡🏛️🐴",
+   "data": {
+    "clue": "Disney · le fils de Zeus devient un héros"
+   }
   },
   {
    "id": "tarzan",
@@ -1050,7 +1266,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦍👦🌴🗣️"
+   "text": "🦍👦🌴🗣️",
+   "data": {
+    "clue": "Disney · un homme élevé par des gorilles"
+   }
   },
   {
    "id": "bambi",
@@ -1064,7 +1283,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦌❄️🐇🌸"
+   "text": "🦌❄️🐇🌸",
+   "data": {
+    "clue": "Disney · un faon dans la forêt"
+   }
   },
   {
    "id": "dumbo",
@@ -1078,7 +1300,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐘👂🎪✈️"
+   "text": "🐘👂🎪✈️",
+   "data": {
+    "clue": "Disney · un éléphanteau vole grâce à ses grandes oreilles"
+   }
   },
   {
    "id": "pinocchio",
@@ -1092,7 +1317,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🪵👃🦗⭐"
+   "text": "🪵👃🦗⭐",
+   "data": {
+    "clue": "Disney · une marionnette dont le nez s'allonge quand elle ment"
+   }
   },
   {
    "id": "peter-pan",
@@ -1106,7 +1334,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧚‍♀️🏴‍☠️⏰🐊"
+   "text": "🧚‍♀️🏴‍☠️⏰🐊",
+   "data": {
+    "clue": "Disney · le garçon qui ne voulait pas grandir"
+   }
   },
   {
    "id": "les-101-dalmatiens",
@@ -1120,7 +1351,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐶⚫⚪💯"
+   "text": "🐶⚫⚪💯",
+   "data": {
+    "clue": "Disney · Cruella veut faire un manteau avec des chiots"
+   }
   },
   {
    "id": "le-bossu-de-notre-dame",
@@ -1134,7 +1368,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🔔⛪🧝‍♂️💃"
+   "text": "🔔⛪🧝‍♂️💃",
+   "data": {
+    "clue": "Disney · le sonneur de cloches Quasimodo"
+   }
   },
   {
    "id": "lilo-et-stitch",
@@ -1148,7 +1385,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👧👽🌺🏄‍♀️"
+   "text": "👧👽🌺🏄‍♀️",
+   "data": {
+    "clue": "Disney 2002 · une fillette hawaïenne adopte un alien bleu"
+   }
   },
   {
    "id": "le-grinch",
@@ -1162,7 +1402,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🟢🎄😈🎁"
+   "text": "🟢🎄😈🎁",
+   "data": {
+    "clue": "Film · une créature verte qui déteste Noël"
+   }
   },
   {
    "id": "maman-j-ai-rate-l-avion",
@@ -1177,7 +1420,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏠👦🎄🪤"
+   "text": "🏠👦🎄🪤",
+   "data": {
+    "clue": "Film 1990 · un enfant oublié seul à la maison à Noël"
+   }
   },
   {
    "id": "harry-potter-et-la-chambre-des-secrets",
@@ -1191,7 +1437,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "⚡🐍🧙‍♂️🚗"
+   "text": "⚡🐍🧙‍♂️🚗",
+   "data": {
+    "clue": "Harry Potter 2 · un serpent géant et une voiture volante"
+   }
   },
   {
    "id": "les-animaux-fantastiques",
@@ -1205,7 +1454,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🧳🦄🧙‍♂️🗽"
+   "text": "🧳🦄🧙‍♂️🗽",
+   "data": {
+    "clue": "Univers Harry Potter · une valise pleine de créatures magiques"
+   }
   },
   {
    "id": "le-hobbit",
@@ -1219,7 +1471,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💍🐉🏔️🧔"
+   "text": "💍🐉🏔️🧔",
+   "data": {
+    "clue": "Film · Bilbon part avec des nains reprendre une montagne à un dragon"
+   }
   },
   {
    "id": "charlie-et-la-chocolaterie",
@@ -1233,7 +1488,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🍫🎩🏭🎫"
+   "text": "🍫🎩🏭🎫",
+   "data": {
+    "clue": "Film · un ticket d'or pour visiter l'usine de Willy Wonka"
+   }
   },
   {
    "id": "alice-au-pays-des-merveilles",
@@ -1247,7 +1505,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👧🐇⏰🎩"
+   "text": "👧🐇⏰🎩",
+   "data": {
+    "clue": "Disney · une fille suit un lapin blanc pressé"
+   }
   },
   {
    "id": "le-magicien-d-oz",
@@ -1261,7 +1522,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👠🌪️🦁🤖"
+   "text": "👠🌪️🦁🤖",
+   "data": {
+    "clue": "Film 1939 · une tornade, des chaussures rouges et un chemin de briques jaunes"
+   }
   },
   {
    "id": "mary-poppins",
@@ -1275,7 +1539,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "☂️👒🧹🎶"
+   "text": "☂️👒🧹🎶",
+   "data": {
+    "clue": "Disney 1964 · une nounou magique qui vole avec son parapluie"
+   }
   },
   {
    "id": "jumanji",
@@ -1289,7 +1556,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🎲🐘🌴🦏"
+   "text": "🎲🐘🌴🦏",
+   "data": {
+    "clue": "Film · un jeu de société qui libère la jungle"
+   }
   },
   {
    "id": "sos-fantomes",
@@ -1304,7 +1574,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👻🚫🔫🚒"
+   "text": "👻🚫🔫🚒",
+   "data": {
+    "clue": "Film 1984 · chasseurs de fantômes à New York"
+   }
   },
   {
    "id": "men-in-black",
@@ -1319,7 +1592,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🕶️👽🔫🖤"
+   "text": "🕶️👽🔫🖤",
+   "data": {
+    "clue": "Film 1997 · des agents en costume noir surveillent les aliens"
+   }
   },
   {
    "id": "independence-day",
@@ -1333,7 +1609,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🛸💥🏛️🇺🇸"
+   "text": "🛸💥🏛️🇺🇸",
+   "data": {
+    "clue": "Film 1996 · des vaisseaux aliens attaquent la Terre"
+   }
   },
   {
    "id": "king-kong",
@@ -1347,7 +1626,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦍🏙️👩✈️"
+   "text": "🦍🏙️👩✈️",
+   "data": {
+    "clue": "Film · un gorille géant au sommet d'un gratte-ciel"
+   }
   },
   {
    "id": "godzilla",
@@ -1361,7 +1643,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦖🌊🏙️🇯🇵"
+   "text": "🦖🌊🏙️🇯🇵",
+   "data": {
+    "clue": "Film · un monstre géant sort de la mer au Japon"
+   }
   },
   {
    "id": "transformers",
@@ -1375,7 +1660,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🚗🤖💥🌍"
+   "text": "🚗🤖💥🌍",
+   "data": {
+    "clue": "Film · des robots qui se transforment en voitures"
+   }
   },
   {
    "id": "pacific-rim",
@@ -1389,7 +1677,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🤖🐲🌊👊"
+   "text": "🤖🐲🌊👊",
+   "data": {
+    "clue": "Film 2013 · des robots géants contre des monstres marins"
+   }
   },
   {
    "id": "avatar-2",
@@ -1403,7 +1694,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🔵🌊🐋🪐"
+   "text": "🔵🌊🐋🪐",
+   "data": {
+    "clue": "Film 2022 · la suite, chez les peuples de l'océan"
+   }
   },
   {
    "id": "iron-man",
@@ -1417,7 +1711,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦾🔴🟡💥"
+   "text": "🦾🔴🟡💥",
+   "data": {
+    "clue": "Marvel 2008 · un milliardaire dans une armure rouge et or"
+   }
   },
   {
    "id": "black-panther",
@@ -1431,7 +1728,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐾👑🇰🇪💜"
+   "text": "🐾👑🇰🇪💜",
+   "data": {
+    "clue": "Marvel 2018 · le roi du Wakanda"
+   }
   },
   {
    "id": "thor",
@@ -1445,7 +1745,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "⚡🔨👑🌈"
+   "text": "⚡🔨👑🌈",
+   "data": {
+    "clue": "Marvel · le dieu du tonnerre et son marteau"
+   }
   },
   {
    "id": "doctor-strange",
@@ -1459,7 +1762,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🔮🌀🧙‍♂️🏙️"
+   "text": "🔮🌀🧙‍♂️🏙️",
+   "data": {
+    "clue": "Marvel · un chirurgien devenu sorcier"
+   }
   },
   {
    "id": "les-gardiens-de-la-galaxie",
@@ -1474,7 +1780,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🚀🦝🌳🎧"
+   "text": "🚀🦝🌳🎧",
+   "data": {
+    "clue": "Marvel · une équipe avec un raton laveur et un arbre qui parle"
+   }
   },
   {
    "id": "deadpool",
@@ -1488,7 +1797,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🔴⚔️😂🦄"
+   "text": "🔴⚔️😂🦄",
+   "data": {
+    "clue": "Marvel · un anti-héros en rouge qui parle au spectateur"
+   }
   },
   {
    "id": "wonder-woman",
@@ -1502,7 +1814,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👸🛡️⚔️🪢"
+   "text": "👸🛡️⚔️🪢",
+   "data": {
+    "clue": "DC · une princesse amazone guerrière"
+   }
   },
   {
    "id": "superman",
@@ -1516,7 +1831,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦸‍♂️🔴🔵🏙️"
+   "text": "🦸‍♂️🔴🔵🏙️",
+   "data": {
+    "clue": "DC · l'homme d'acier venu de Krypton"
+   }
   },
   {
    "id": "le-seigneur-des-anneaux-le-retour-du-roi",
@@ -1530,7 +1848,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "💍🌋👑🦅"
+   "text": "💍🌋👑🦅",
+   "data": {
+    "clue": "Le Seigneur des anneaux 3 · la bataille finale et le retour d'Aragorn"
+   }
   },
   {
    "id": "indiana-jones",
@@ -1544,7 +1865,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🤠🐍💎🏛️"
+   "text": "🤠🐍💎🏛️",
+   "data": {
+    "clue": "Film · un archéologue aventurier au chapeau et au fouet"
+   }
   },
   {
    "id": "les-goonies",
@@ -1558,7 +1882,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🗺️🏴‍☠️👦💎"
+   "text": "🗺️🏴‍☠️👦💎",
+   "data": {
+    "clue": "Film 1985 · des enfants cherchent le trésor d'un pirate"
+   }
   },
   {
    "id": "les-bronzes",
@@ -1572,7 +1899,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🏖️⛷️😎🇫🇷"
+   "text": "🏖️⛷️😎🇫🇷",
+   "data": {
+    "clue": "Film français 1978 · des vacanciers au Club Med"
+   }
   },
   {
    "id": "la-grande-vadrouille",
@@ -1586,7 +1916,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "✈️🪂🇫🇷🪖"
+   "text": "✈️🪂🇫🇷🪖",
+   "data": {
+    "clue": "Film français 1966 · deux Français aident des aviateurs anglais"
+   }
   },
   {
    "id": "le-corniaud",
@@ -1600,7 +1933,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🚗💎🍑🇮🇹"
+   "text": "🚗💎🍑🇮🇹",
+   "data": {
+    "clue": "Film français 1965 · un voyage en voiture remplie de contrebande"
+   }
   },
   {
    "id": "les-tuche",
@@ -1614,7 +1950,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "💰🍟🇫🇷👨‍👩‍👧‍👦"
+   "text": "💰🍟🇫🇷👨‍👩‍👧‍👦",
+   "data": {
+    "clue": "Film français 2011 · une famille modeste gagne au loto"
+   }
   },
   {
    "id": "qu-est-ce-qu-on-a-fait-au-bon-dieu",
@@ -1628,7 +1967,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "💒👨‍👩‍👧‍👧🌍😅"
+   "text": "💒👨‍👩‍👧‍👧🌍😅",
+   "data": {
+    "clue": "Film français 2014 · quatre filles épousent des hommes d'origines différentes"
+   }
   },
   {
    "id": "les-profs",
@@ -1642,7 +1984,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👨‍🏫📚😴🇫🇷"
+   "text": "👨‍🏫📚😴🇫🇷",
+   "data": {
+    "clue": "Film français 2013 · les pires profs dans le pire lycée"
+   }
   },
   {
    "id": "taxi-2",
@@ -1656,7 +2001,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🚕🥷🇯🇵🇫🇷"
+   "text": "🚕🥷🇯🇵🇫🇷",
+   "data": {
+    "clue": "Film français 2000 · le taxi marseillais contre des ninjas"
+   }
   },
   {
    "id": "le-grand-bain",
@@ -1670,7 +2018,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🏊‍♂️👨‍👨‍👦🩱🇫🇷"
+   "text": "🏊‍♂️👨‍👨‍👦🩱🇫🇷",
+   "data": {
+    "clue": "Film français 2018 · des hommes font de la natation synchronisée"
+   }
   },
   {
    "id": "le-petit-nicolas",
@@ -1684,7 +2035,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👦🏫⚽🇫🇷"
+   "text": "👦🏫⚽🇫🇷",
+   "data": {
+    "clue": "Film français 2009 · la vie d'un écolier des années 60"
+   }
   }
  ]
 }

@@ -12,6 +12,8 @@ export default {
       const code = Array.from({ length: 4 }, () => LETTERS[Math.floor(Math.random() * LETTERS.length)]).join('');
       return Response.json({ code });
     }
+    if (p === '/api/version') return Response.json((await import('./_gen/version')).VERSION);
+    if (p === '/api/wiki-stats') return Response.json(await library(env).wikiStats());
     if (p === '/api/wiki-check') { // debug: every wiki: image source of built-in packs (page /check)
       const { PACKS } = await import('./packs');
       return Response.json(Object.values(PACKS).flatMap(pk => pk.questions.filter(q => q.src?.startsWith('wiki:')).map(q => ({ pack: pk.id, answer: q.answer, src: q.src }))));

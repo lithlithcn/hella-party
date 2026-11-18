@@ -3,7 +3,7 @@
  "version": 1,
  "author": "Hella Party",
  "id": "series-emojis",
- "name": "Séries en émojis",
+ "name": "Séries (émojis + indice)",
  "emoji": "📺",
  "prompt": "Quelle série ?",
  "tags": [
@@ -22,7 +22,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🚲👦🔦🙃🧇"
+   "text": "🚲👦🔦🙃🧇",
+   "data": {
+    "clue": "Série Netflix · des enfants à vélo face au Monde à l'envers"
+   }
   },
   {
    "id": "la-casa-de-papel",
@@ -37,7 +40,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💰🎭🔴🇪🇸"
+   "text": "💰🎭🔴🇪🇸",
+   "data": {
+    "clue": "Série espagnole · des braqueurs en combinaison rouge et masque de Dalí"
+   }
   },
   {
    "id": "game-of-thrones",
@@ -52,7 +58,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐉👑❄️⚔️"
+   "text": "🐉👑❄️⚔️",
+   "data": {
+    "clue": "Série · des familles se battent pour le Trône de fer"
+   }
   },
   {
    "id": "breaking-bad",
@@ -66,7 +75,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧪💎👨‍🔬🚐"
+   "text": "🧪💎👨‍🔬🚐",
+   "data": {
+    "clue": "Série · un prof de chimie devient fabricant de drogue"
+   }
   },
   {
    "id": "squid-game",
@@ -80,7 +92,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦑🟢🔺⭕🟥"
+   "text": "🦑🟢🔺⭕🟥",
+   "data": {
+    "clue": "Série coréenne · des jeux d'enfants mortels pour de l'argent"
+   }
   },
   {
    "id": "the-walking-dead",
@@ -95,7 +110,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧟‍♂️🔫🤠🏚️"
+   "text": "🧟‍♂️🔫🤠🏚️",
+   "data": {
+    "clue": "Série · des survivants face aux zombies"
+   }
   },
   {
    "id": "friends",
@@ -109,7 +127,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "☕🛋️👫🦞"
+   "text": "☕🛋️👫🦞",
+   "data": {
+    "clue": "Série · six amis à New York et leur café"
+   }
   },
   {
    "id": "mercredi",
@@ -124,7 +145,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🖤✋🎻🏫"
+   "text": "🖤✋🎻🏫",
+   "data": {
+    "clue": "Série Netflix · la fille de la famille Addams"
+   }
   },
   {
    "id": "lupin",
@@ -138,7 +162,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🎩💎📖🇫🇷"
+   "text": "🎩💎📖🇫🇷",
+   "data": {
+    "clue": "Série française · un gentleman cambrioleur inspiré d'Arsène Lupin"
+   }
   },
   {
    "id": "kaamelott",
@@ -152,7 +179,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "⚔️👑🍖😤"
+   "text": "⚔️👑🍖😤",
+   "data": {
+    "clue": "Série française · le roi Arthur et ses chevaliers pas très doués"
+   }
   },
   {
    "id": "les-simpson",
@@ -167,7 +197,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🍩💛📺👨‍👩‍👧‍👦"
+   "text": "🍩💛📺👨‍👩‍👧‍👦",
+   "data": {
+    "clue": "Série animée · la famille jaune de Springfield"
+   }
   },
   {
    "id": "the-office",
@@ -181,7 +214,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "📎🏢📹😐"
+   "text": "📎🏢📹😐",
+   "data": {
+    "clue": "Série · le quotidien absurde d'un bureau, filmé comme un documentaire"
+   }
   },
   {
    "id": "sherlock",
@@ -195,7 +231,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🔍🎻🕵️‍♂️🇬🇧"
+   "text": "🔍🎻🕵️‍♂️🇬🇧",
+   "data": {
+    "clue": "Série britannique · le détective à Londres de nos jours"
+   }
   },
   {
    "id": "peaky-blinders",
@@ -209,7 +248,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧢🪒🥃🇬🇧"
+   "text": "🧢🪒🥃🇬🇧",
+   "data": {
+    "clue": "Série britannique · un gang de Birmingham avec des lames dans la casquette"
+   }
   },
   {
    "id": "prison-break",
@@ -223,7 +265,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧑‍🦲🗺️⛓️🚪"
+   "text": "🧑‍🦲🗺️⛓️🚪",
+   "data": {
+    "clue": "Série · un homme se fait enfermer pour faire évader son frère"
+   }
   },
   {
    "id": "the-witcher",
@@ -238,7 +283,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐺⚔️🧙‍♀️🪙"
+   "text": "🐺⚔️🧙‍♀️🪙",
+   "data": {
+    "clue": "Série · Geralt, chasseur de monstres"
+   }
   },
   {
    "id": "the-mandalorian",
@@ -252,7 +300,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🪖👶🟢🚀"
+   "text": "🪖👶🟢🚀",
+   "data": {
+    "clue": "Série Star Wars · un chasseur de primes protège Grogu"
+   }
   },
   {
    "id": "lost",
@@ -266,7 +317,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "✈️🏝️🔢🐻‍❄️"
+   "text": "✈️🏝️🔢🐻‍❄️",
+   "data": {
+    "clue": "Série · des survivants d'un crash d'avion sur une île mystérieuse"
+   }
   },
   {
    "id": "grey-s-anatomy",
@@ -280,7 +334,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏥🩺❤️👩‍⚕️"
+   "text": "🏥🩺❤️👩‍⚕️",
+   "data": {
+    "clue": "Série · des médecins dans un hôpital de Seattle"
+   }
   },
   {
    "id": "dr-house",
@@ -295,7 +352,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🩺💊🦯🧠"
+   "text": "🩺💊🦯🧠",
+   "data": {
+    "clue": "Série · un médecin génial mais odieux, avec une canne"
+   }
   },
   {
    "id": "bref",
@@ -309,7 +369,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🛏️🗣️⏩🇫🇷"
+   "text": "🛏️🗣️⏩🇫🇷",
+   "data": {
+    "clue": "Série française · des épisodes très courts racontés à toute vitesse"
+   }
   },
   {
    "id": "plus-belle-la-vie",
@@ -324,7 +387,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🌞🏘️📺🇫🇷"
+   "text": "🌞🏘️📺🇫🇷",
+   "data": {
+    "clue": "Série française · la vie d'un quartier de Marseille"
+   }
   },
   {
    "id": "engrenages",
@@ -338,7 +404,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🚓⚖️🇫🇷🕵️"
+   "text": "🚓⚖️🇫🇷🕵️",
+   "data": {
+    "clue": "Série française · police et justice à Paris"
+   }
   },
   {
    "id": "narcos",
@@ -352,7 +421,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💊🇨🇴💵🔫"
+   "text": "💊🇨🇴💵🔫",
+   "data": {
+    "clue": "Série · la traque de Pablo Escobar"
+   }
   },
   {
    "id": "dark",
@@ -366,7 +438,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "⏳🌲🕳️🇩🇪"
+   "text": "⏳🌲🕳️🇩🇪",
+   "data": {
+    "clue": "Série allemande · voyages dans le temps dans une petite ville"
+   }
   },
   {
    "id": "black-mirror",
@@ -380,7 +455,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "📱🖤🪞😨"
+   "text": "📱🖤🪞😨",
+   "data": {
+    "clue": "Série · les dérives sombres de la technologie"
+   }
   },
   {
    "id": "the-boys",
@@ -394,7 +472,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🦸‍♂️🩸🇺🇸😈"
+   "text": "🦸‍♂️🩸🇺🇸😈",
+   "data": {
+    "clue": "Série · des super-héros corrompus et ceux qui les combattent"
+   }
   },
   {
    "id": "arcane",
@@ -408,7 +489,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "⚙️💥👭🧪"
+   "text": "⚙️💥👭🧪",
+   "data": {
+    "clue": "Série animée · Jinx et Vi, l'univers de League of Legends"
+   }
   },
   {
    "id": "one-piece-live",
@@ -422,7 +506,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏴‍☠️👒🍖🌊"
+   "text": "🏴‍☠️👒🍖🌊",
+   "data": {
+    "clue": "Série Netflix · Luffy et son équipage de pirates en vrais acteurs"
+   }
   },
   {
    "id": "emily-in-paris",
@@ -436,7 +523,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🗼👠🥐📱"
+   "text": "🗼👠🥐📱",
+   "data": {
+    "clue": "Série Netflix · une Américaine travaille dans le marketing à Paris"
+   }
   },
   {
    "id": "le-bureau-des-legendes",
@@ -450,7 +540,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🕵️🇫🇷🗺️📂"
+   "text": "🕵️🇫🇷🗺️📂",
+   "data": {
+    "clue": "Série française · les agents secrets de la DGSE"
+   }
   },
   {
    "id": "valide",
@@ -464,7 +557,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🎤💸🇫🇷🔥"
+   "text": "🎤💸🇫🇷🔥",
+   "data": {
+    "clue": "Série française · un jeune rappeur devient une star"
+   }
   },
   {
    "id": "skam",
@@ -478,7 +574,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "📱🏫🇳🇴💬"
+   "text": "📱🏫🇳🇴💬",
+   "data": {
+    "clue": "Série · le quotidien d'ados au lycée, racontée en messages"
+   }
   },
   {
    "id": "les-bracelets-rouges",
@@ -492,7 +591,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🏥🔴👦🫶"
+   "text": "🏥🔴👦🫶",
+   "data": {
+    "clue": "Série · des ados hospitalisés deviennent amis"
+   }
   },
   {
    "id": "doctor-who",
@@ -506,7 +608,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "📞🟦⏳👽"
+   "text": "📞🟦⏳👽",
+   "data": {
+    "clue": "Série britannique · un voyageur du temps dans une cabine téléphonique bleue"
+   }
   },
   {
    "id": "westworld",
@@ -520,7 +625,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🤠🤖🎹🐎"
+   "text": "🤠🤖🎹🐎",
+   "data": {
+    "clue": "Série · un parc d'attractions western peuplé de robots"
+   }
   },
   {
    "id": "better-call-saul",
@@ -534,7 +642,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "⚖️📞🦗💼"
+   "text": "⚖️📞🦗💼",
+   "data": {
+    "clue": "Série · l'histoire de l'avocat de Breaking Bad"
+   }
   },
   {
    "id": "ozark",
@@ -548,7 +659,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "💵🛥️🏞️🔫"
+   "text": "💵🛥️🏞️🔫",
+   "data": {
+    "clue": "Série · une famille blanchit de l'argent sur un lac"
+   }
   },
   {
    "id": "the-crown",
@@ -562,7 +676,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👑🇬🇧🫖🏰"
+   "text": "👑🇬🇧🫖🏰",
+   "data": {
+    "clue": "Série · la reine Élisabeth II"
+   }
   },
   {
    "id": "vikings",
@@ -576,7 +693,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🪓🛶⚔️❄️"
+   "text": "🪓🛶⚔️❄️",
+   "data": {
+    "clue": "Série · les raids des Vikings"
+   }
   },
   {
    "id": "alice-in-borderland",
@@ -590,7 +710,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🃏🗼🇯🇵🎲"
+   "text": "🃏🗼🇯🇵🎲",
+   "data": {
+    "clue": "Série japonaise · des jeux mortels dans un Tokyo vide"
+   }
   },
   {
    "id": "desperate-housewives",
@@ -604,7 +727,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🏡👠🔪☕"
+   "text": "🏡👠🔪☕",
+   "data": {
+    "clue": "Série · des femmes au foyer et les secrets de leur quartier"
+   }
   },
   {
    "id": "how-i-met-your-mother",
@@ -619,7 +745,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🎷👔🍺🗽"
+   "text": "🎷👔🍺🗽",
+   "data": {
+    "clue": "Série · un père raconte comment il a rencontré leur mère"
+   }
   },
   {
    "id": "the-big-bang-theory",
@@ -634,7 +763,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🔬🛋️🎮🍕"
+   "text": "🔬🛋️🎮🍕",
+   "data": {
+    "clue": "Série · des scientifiques geeks et leur voisine"
+   }
   },
   {
    "id": "malcolm",
@@ -648,7 +780,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👦🧠📺👩‍👦‍👦"
+   "text": "👦🧠📺👩‍👦‍👦",
+   "data": {
+    "clue": "Série · un garçon surdoué dans une famille chaotique"
+   }
   },
   {
    "id": "h",
@@ -662,7 +797,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🏥😂🇫🇷🩺"
+   "text": "🏥😂🇫🇷🩺",
+   "data": {
+    "clue": "Série française · un hôpital et des employés farfelus"
+   }
   },
   {
    "id": "fais-pas-ci-fais-pas-ca",
@@ -676,7 +814,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👨‍👩‍👧‍👦🙄🏠🇫🇷"
+   "text": "👨‍👩‍👧‍👦🙄🏠🇫🇷",
+   "data": {
+    "clue": "Série française · deux familles très différentes voisines"
+   }
   },
   {
    "id": "avatar-le-dernier-maitre-de-l-air",
@@ -690,7 +831,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "💧🌍🔥🌪️"
+   "text": "💧🌍🔥🌪️",
+   "data": {
+    "clue": "Série animée · le maître des 4 éléments"
+   }
   },
   {
    "id": "naruto-shippuden",
@@ -704,7 +848,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🍥🦊🥷🍜"
+   "text": "🍥🦊🥷🍜",
+   "data": {
+    "clue": "Animé · un ninja orange qui rêve de devenir Hokage"
+   }
   },
   {
    "id": "death-note",
@@ -718,7 +865,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "📓🍎✍️💀"
+   "text": "📓🍎✍️💀",
+   "data": {
+    "clue": "Animé · un cahier qui tue ceux dont on écrit le nom"
+   }
   },
   {
    "id": "bob-l-eponge",
@@ -732,7 +882,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧽🍍⭐🦀"
+   "text": "🧽🍍⭐🦀",
+   "data": {
+    "clue": "Série animée · une éponge qui vit dans un ananas sous la mer"
+   }
   },
   {
    "id": "rick-et-morty",
@@ -746,7 +899,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🧪👴👦🌀"
+   "text": "🧪👴👦🌀",
+   "data": {
+    "clue": "Série animée · un scientifique fou et son petit-fils"
+   }
   },
   {
    "id": "south-park",
@@ -760,7 +916,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "❄️🧒🧒🧒🧒🏔️"
+   "text": "❄️🧒🧒🧒🧒🏔️",
+   "data": {
+    "clue": "Série animée · quatre gamins vulgaires dans une petite ville"
+   }
   },
   {
    "id": "family-guy",
@@ -775,7 +934,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👨‍👩‍👧‍👦🐶👶🍼"
+   "text": "👨‍👩‍👧‍👦🐶👶🍼",
+   "data": {
+    "clue": "Série animée · Peter Griffin et son bébé qui veut dominer le monde"
+   }
   },
   {
    "id": "the-last-of-us",
@@ -789,7 +951,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🍄🧟‍♂️👨‍👧🚶"
+   "text": "🍄🧟‍♂️👨‍👧🚶",
+   "data": {
+    "clue": "Série · un homme protège une ado dans un monde infecté"
+   }
   },
   {
    "id": "house-of-the-dragon",
@@ -803,7 +968,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🐉👑🔥🪑"
+   "text": "🐉👑🔥🪑",
+   "data": {
+    "clue": "Série · les Targaryen, 200 ans avant Game of Thrones"
+   }
   },
   {
    "id": "les-anneaux-de-pouvoir",
@@ -817,7 +985,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "💍🧝‍♀️⛰️🌋"
+   "text": "💍🧝‍♀️⛰️🌋",
+   "data": {
+    "clue": "Série · l'univers du Seigneur des anneaux, bien avant les films"
+   }
   },
   {
    "id": "loki",
@@ -831,7 +1002,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐍⏳🟢🧥"
+   "text": "🐍⏳🟢🧥",
+   "data": {
+    "clue": "Série Marvel · le dieu de la malice et le temps"
+   }
   },
   {
    "id": "wandavision",
@@ -845,7 +1019,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "📺👩‍❤️‍👨🧠✨"
+   "text": "📺👩‍❤️‍👨🧠✨",
+   "data": {
+    "clue": "Série Marvel · une sitcom étrange avec Wanda et Vision"
+   }
   },
   {
    "id": "cobra-kai",
@@ -859,7 +1036,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐍🥋🤼‍♂️📼"
+   "text": "🐍🥋🤼‍♂️📼",
+   "data": {
+    "clue": "Série · la suite de Karaté Kid, 30 ans après"
+   }
   },
   {
    "id": "the-umbrella-academy",
@@ -873,7 +1053,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "☂️👨‍👩‍👧‍👦⏳🌍"
+   "text": "☂️👨‍👩‍👧‍👦⏳🌍",
+   "data": {
+    "clue": "Série · des enfants aux pouvoirs adoptés, l'apocalypse arrive"
+   }
   },
   {
    "id": "lucifer",
@@ -887,7 +1070,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "😈🔥🕵️‍♂️🇺🇸"
+   "text": "😈🔥🕵️‍♂️🇺🇸",
+   "data": {
+    "clue": "Série · le diable devient consultant pour la police"
+   }
   },
   {
    "id": "riverdale",
@@ -901,7 +1087,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🍔🏫🔦🌲"
+   "text": "🍔🏫🔦🌲",
+   "data": {
+    "clue": "Série · des lycéens et des meurtres dans une petite ville"
+   }
   },
   {
    "id": "gossip-girl",
@@ -915,7 +1104,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "💋📱🗽👗"
+   "text": "💋📱🗽👗",
+   "data": {
+    "clue": "Série · une blogueuse anonyme et des jeunes riches de New York"
+   }
   },
   {
    "id": "13-reasons-why",
@@ -929,7 +1121,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "📼1️⃣3️⃣🏫"
+   "text": "📼1️⃣3️⃣🏫",
+   "data": {
+    "clue": "Série · des cassettes laissées par une lycéenne"
+   }
   },
   {
    "id": "elite",
@@ -943,7 +1138,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🏫💰🔪🇪🇸"
+   "text": "🏫💰🔪🇪🇸",
+   "data": {
+    "clue": "Série espagnole · des lycéens riches, des boursiers et un meurtre"
+   }
   },
   {
    "id": "you",
@@ -957,7 +1155,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "📚👀🔪❤️"
+   "text": "📚👀🔪❤️",
+   "data": {
+    "clue": "Série · un libraire obsédé par les femmes qu'il aime"
+   }
   },
   {
    "id": "le-jeu-de-la-dame",
@@ -972,7 +1173,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "♟️👩🏻‍🦰💊🏆"
+   "text": "♟️👩🏻‍🦰💊🏆",
+   "data": {
+    "clue": "Série · une orpheline prodige des échecs"
+   }
   },
   {
    "id": "chernobyl",
@@ -986,7 +1190,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "☢️🏭🇺🇦🧪"
+   "text": "☢️🏭🇺🇦🧪",
+   "data": {
+    "clue": "Mini-série · la catastrophe nucléaire de 1986"
+   }
   },
   {
    "id": "mr-robot",
@@ -1000,7 +1207,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "💻🎭🕶️🔐"
+   "text": "💻🎭🕶️🔐",
+   "data": {
+    "clue": "Série · un hacker qui veut faire tomber une multinationale"
+   }
   },
   {
    "id": "twin-peaks",
@@ -1014,7 +1224,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🌲☕🥧🦉"
+   "text": "🌲☕🥧🦉",
+   "data": {
+    "clue": "Série · un agent du FBI enquête dans une ville étrange"
+   }
   },
   {
    "id": "the-sopranos",
@@ -1029,7 +1242,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🍝🔫🛋️🇮🇹"
+   "text": "🍝🔫🛋️🇮🇹",
+   "data": {
+    "clue": "Série · un chef mafieux va chez la psy"
+   }
   },
   {
    "id": "the-wire",
@@ -1043,7 +1259,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🚓📞💊🏙️"
+   "text": "🚓📞💊🏙️",
+   "data": {
+    "clue": "Série · la police et les trafics de Baltimore"
+   }
   },
   {
    "id": "brooklyn-nine-nine",
@@ -1058,7 +1277,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🚓😂🍕🗽"
+   "text": "🚓😂🍕🗽",
+   "data": {
+    "clue": "Série · un commissariat déjanté à New York"
+   }
   },
   {
    "id": "parks-and-recreation",
@@ -1072,7 +1294,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🏞️🧇😂🏛️"
+   "text": "🏞️🧇😂🏛️",
+   "data": {
+    "clue": "Série · le service des parcs d'une petite ville"
+   }
   },
   {
    "id": "modern-family",
@@ -1086,7 +1311,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👨‍👩‍👧‍👦🏠📹😂"
+   "text": "👨‍👩‍👧‍👦🏠📹😂",
+   "data": {
+    "clue": "Série · trois familles liées, filmées comme un documentaire"
+   }
   },
   {
    "id": "hero-corp",
@@ -1100,7 +1328,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🦸‍♂️🏘️🇫🇷😂"
+   "text": "🦸‍♂️🏘️🇫🇷😂",
+   "data": {
+    "clue": "Série française · des super-héros à la retraite dans un village"
+   }
   },
   {
    "id": "camera-cafe",
@@ -1114,7 +1345,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "☕🤖😂🏢"
+   "text": "☕🤖😂🏢",
+   "data": {
+    "clue": "Série française · les employés autour de la machine à café"
+   }
   },
   {
    "id": "scenes-de-menages",
@@ -1128,7 +1362,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👫🏠🍽️😂"
+   "text": "👫🏠🍽️😂",
+   "data": {
+    "clue": "Série française · des couples dans leurs disputes du quotidien"
+   }
   },
   {
    "id": "un-gars-une-fille",
@@ -1142,7 +1379,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👨👩🐻🇫🇷"
+   "text": "👨👩🐻🇫🇷",
+   "data": {
+    "clue": "Série française · le couple Jean et Loulou"
+   }
   },
   {
    "id": "les-mysteres-de-l-amour",
@@ -1156,7 +1396,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "❤️🌊🇫🇷📺"
+   "text": "❤️🌊🇫🇷📺",
+   "data": {
+    "clue": "Série française · la suite d'Hélène et les Garçons"
+   }
   },
   {
    "id": "josephine-ange-gardien",
@@ -1170,7 +1413,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👼🔔👩🇫🇷"
+   "text": "👼🔔👩🇫🇷",
+   "data": {
+    "clue": "Série française · un ange gardien qui claque des doigts"
+   }
   },
   {
    "id": "camping-paradis",
@@ -1184,7 +1430,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "⛺☀️🏕️🇫🇷"
+   "text": "⛺☀️🏕️🇫🇷",
+   "data": {
+    "clue": "Série française · un camping de vacances et ses histoires"
+   }
   },
   {
    "id": "totally-spies",
@@ -1198,7 +1447,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "👩‍🦰👱‍♀️👩🏽‍🦱🕵️‍♀️"
+   "text": "👩‍🦰👱‍♀️👩🏽‍🦱🕵️‍♀️",
+   "data": {
+    "clue": "Série animée · trois espionnes lycéennes à Beverly Hills"
+   }
   },
   {
    "id": "ninjago",
@@ -1212,7 +1464,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🥷🧱🐉⚡"
+   "text": "🥷🧱🐉⚡",
+   "data": {
+    "clue": "Série animée Lego · des ninjas aux pouvoirs élémentaires"
+   }
   },
   {
    "id": "miraculous",
@@ -1227,7 +1482,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐞🐈‍⬛🗼✨"
+   "text": "🐞🐈‍⬛🗼✨",
+   "data": {
+    "clue": "Série animée · Ladybug et Chat Noir protègent Paris"
+   }
   },
   {
    "id": "one-piece",
@@ -1241,7 +1499,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🏴‍☠️👒🍖"
+   "text": "🏴‍☠️👒🍖",
+   "data": {
+    "clue": "Animé · Luffy, le pirate au corps élastique"
+   }
   },
   {
    "id": "dragon-ball",
@@ -1255,7 +1516,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "🐉🟠⭐☁️"
+   "text": "🐉🟠⭐☁️",
+   "data": {
+    "clue": "Animé · Goku cherche les 7 boules de cristal"
+   }
   },
   {
    "id": "pokemon",
@@ -1269,7 +1533,10 @@
     "facile"
    ],
    "type": "text",
-   "text": "⚡🐭⚪🔴"
+   "text": "⚡🐭⚪🔴",
+   "data": {
+    "clue": "Animé · Sacha et Pikachu"
+   }
   },
   {
    "id": "bridgerton",
@@ -1284,7 +1551,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "👗💌🎩🐝"
+   "text": "👗💌🎩🐝",
+   "data": {
+    "clue": "Série · romance et scandales dans la haute société londonienne"
+   }
   },
   {
    "id": "outer-banks",
@@ -1298,7 +1568,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "🏝️💰🛥️🧭"
+   "text": "🏝️💰🛥️🧭",
+   "data": {
+    "clue": "Série · des ados chassent un trésor sur une île"
+   }
   },
   {
    "id": "shogun",
@@ -1312,7 +1585,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🏯⚔️🇯🇵⛵"
+   "text": "🏯⚔️🇯🇵⛵",
+   "data": {
+    "clue": "Série · un navigateur anglais dans le Japon féodal"
+   }
   },
   {
    "id": "the-bear",
@@ -1326,7 +1602,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "👨‍🍳🥪🔥🍽️"
+   "text": "👨‍🍳🥪🔥🍽️",
+   "data": {
+    "clue": "Série · un chef reprend la sandwicherie familiale"
+   }
   },
   {
    "id": "severance",
@@ -1340,7 +1619,10 @@
     "difficile"
    ],
    "type": "text",
-   "text": "🏢🧠🔀🖥️"
+   "text": "🏢🧠🔀🖥️",
+   "data": {
+    "clue": "Série · des employés dont la mémoire est coupée entre travail et vie privée"
+   }
   },
   {
    "id": "fallout",
@@ -1354,21 +1636,10 @@
     "moyen"
    ],
    "type": "text",
-   "text": "☢️🧑‍🚀🏚️🍺"
-  },
-  {
-   "id": "wednesday",
-   "answer": "Wednesday",
-   "exact": [
-    "wednesday"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "séries",
-    "facile"
-   ],
-   "type": "text",
-   "text": "🖤✋🎻🏫"
+   "text": "☢️🧑‍🚀🏚️🍺",
+   "data": {
+    "clue": "Série · une jeune femme sort de son abri antiatomique"
+   }
   }
  ]
 }

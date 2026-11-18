@@ -39,7 +39,7 @@ function Home({ code, onName, go }: { code: string | null; onName: (n: string) =
   return (
     <main class="home">
       <Logo big />
-      <p class="tagline">Reconnais. Mise. Maudis tes potes.</p>
+      <p class="tagline">iviks</p>
       <div class="home-card">
         <button class="avatar-btn" onClick={() => setEditAv(true)} title="Photo de profil">
           <Avatar id={identity.id} name={name || '?'} size={84} src={av} /><span>📷</span>
@@ -56,6 +56,7 @@ function Home({ code, onName, go }: { code: string | null; onName: (n: string) =
         )}
       </div>
       <a class="btn ghost studio-link" href="/studio">🎨 Studio : crée tes propres packs</a>
+      <Version />
     </main>
   );
 }
@@ -122,4 +123,11 @@ function WikiCheck() {
       <div class="check-grid">{rows.map(r => <figure><img src={r.url ?? ''} loading="lazy" /><figcaption>{r.url === null ? '❌ ' : ''}{r.answer}</figcaption></figure>)}</div>
     </main>
   );
+}
+
+/** Deployed version (commit + build time) — tells at a glance whether the latest update is live. */
+function Version() {
+  const [v, setV] = useState<{ commit: string; built: string } | null>(null);
+  useEffect(() => { fetch('/api/version').then(r => r.json() as Promise<any>).then(setV).catch(() => {}); }, []);
+  return v ? <small class="muted version">version {v.commit} · {new Date(v.built).toLocaleString('fr-FR')}</small> : null;
 }

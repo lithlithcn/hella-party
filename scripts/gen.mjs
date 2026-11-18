@@ -22,4 +22,5 @@ for (const id of packs) {
   const src = path.join(root, 'content/packs', id, 'media');
   if (fs.existsSync(src)) fs.cpSync(src, path.join(root, 'client/public/packs', id), { recursive: true });
 }
+fs.writeFileSync(path.join(gen, 'version.ts'), `export const VERSION = ${JSON.stringify({ commit: (process.env.WORKERS_CI_COMMIT_SHA ?? 'local').slice(0, 7), built: new Date().toISOString() })};\n`);
 console.log(`gen: ${features.length} features [${features}], ${packs.length} packs [${packs}]`);

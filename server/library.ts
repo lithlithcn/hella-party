@@ -19,7 +19,7 @@ export class Library extends DurableObject {
     this.sql.exec(`CREATE TABLE IF NOT EXISTS packs (id TEXT PRIMARY KEY, json TEXT NOT NULL, key TEXT NOT NULL, info TEXT NOT NULL, updated INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
-      CREATE TABLE IF NOT EXISTS wiki2 (src TEXT PRIMARY KEY, url TEXT, at INTEGER NOT NULL);`);
+      CREATE TABLE IF NOT EXISTS wiki3 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
 
   // ── RPC (called by Room and the Worker) ──
@@ -52,40 +52,54 @@ export class Library extends DurableObject {
     return { ok: true };
   }
 
-  /** wiki:Title → image downloaded ONCE by the server and stored here (/api/media/<hash>), shared by all rooms.
-   *  Only images the server really fetched are returned, so players never get a broken image. Failures retried after a day. */
+  /** wiki:Title → playable image URL, shared by all rooms (table wiki3, kind = how it was resolved, for /api/wiki-stats):
+   *  'stored' = downloaded once by the server, served from /api/media (best);
+   *  'direct' = the server could not download it, players load Wikimedia's own thumbnail;
+   *  'none'   = the article has no image → the question is skipped. Transient errors are not cached. */
   async wiki(src: string): Promise<string | null> {
-    const row = this.sql.exec<{ url: string | null; at: number }>('SELECT url, at FROM wiki2 WHERE src = ?', src).toArray()[0];
-    if (row && (row.url || Date.now() - row.at < 86_400_000)) return row.url;
+    const row = this.sql.exec<{ url: string | null; kind: string; at: number }>('SELECT url, kind, at FROM wiki3 WHERE src = ?', src).toArray()[0];
+    if (row && (row.kind === 'stored' || Date.now() - row.at < (row.kind === 'direct' ? 3_600_000 : 86_400_000))) return row.url;
     const m = src.match(/^wiki:(?:([a-z]{2,3}):)?(.+)$/);
     if (!m) return null;
     const lang = m[1] ?? 'fr', title = encodeURIComponent(m[2].trim().replace(/ /g, '_'));
-    const UA = { 'user-agent': 'HellaParty/1.0 (party quiz game between friends)' };
-    let url: string | null = null, transient = false;
+    const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)', 'api-user-agent': 'HellaParty/1.0' };
+    let thumb: string | undefined, info = '', transient = false;
     for (const l of [lang, lang === 'fr' ? 'en' : 'fr']) {
-      const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${title}`, { headers: UA }).catch(() => null);
-      if (!r || r.status === 429 || r.status >= 500) { transient = true; continue; }
-      if (!r.ok) continue;
+      const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${title}`, { headers: UA }).catch(e => { info += `summary ${l}: ${e}; `; return null; });
+      if (!r || r.status === 429 || r.status >= 500) { transient = true; if (r) info += `summary ${l}: ${r.status}; `; continue; }
+      if (!r.ok) { info += `summary ${l}: ${r.status}; `; continue; }
       const j: any = await r.json().catch(() => null);
-      const thumb: string | undefined = j?.thumbnail?.source;
-      // 500px is a standard Wikimedia thumbnail width; then the given thumbnail; then a reasonably small original
-      const candidates = [thumb?.replace(/\/(\d+)px-/, '/500px-'), thumb, (j?.originalimage?.width ?? 9999) <= 1600 ? j?.originalimage?.source : undefined].filter(Boolean) as string[];
-      for (const c of [...new Set(candidates)]) {
-        const img = await fetch(c, { headers: UA }).catch(() => null);
-        if (!img) { transient = true; continue; }
-        if (!img.ok) { if (img.status === 429) transient = true; continue; }
-        const type = img.headers.get('content-type') ?? '';
-        const bytes = await img.arrayBuffer();
-        if (!type.startsWith('image/') || bytes.byteLength > 3_000_000 || bytes.byteLength < 200) continue;
+      thumb = j?.thumbnail?.source;
+      if (thumb) break;
+      info += `summary ${l}: no image; `;
+    }
+    if (!thumb) {
+      if (!transient) this.sql.exec('INSERT OR REPLACE INTO wiki3 VALUES (?, ?, ?, ?, ?)', src, null, 'none', info, Date.now());
+      return null;
+    }
+    // try to store a copy (thumbnail as given = a size Wikimedia always serves)
+    const img = await fetch(thumb, { headers: UA }).catch(e => { info += `img: ${e}; `; return null; });
+    if (img?.ok) {
+      const type = img.headers.get('content-type') ?? '';
+      const bytes = await img.arrayBuffer();
+      if (type.startsWith('image/') && bytes.byteLength > 200 && bytes.byteLength <= 3_000_000) {
         const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(b => b.toString(16).padStart(2, '0')).join('');
         await this.putMedia(hash, type, bytes);
-        url = `/api/media/${hash}.${type.split('/')[1].replace('jpeg', 'jpg').replace(/[^a-z0-9]/g, '')}`;
-        break;
+        const url = `/api/media/${hash}.${type.split('/')[1].replace('jpeg', 'jpg').replace(/[^a-z0-9]/g, '')}`;
+        this.sql.exec('INSERT OR REPLACE INTO wiki3 VALUES (?, ?, ?, ?, ?)', src, url, 'stored', null, Date.now());
+        return url;
       }
-      if (url) break;
-    }
-    if (url || !transient) this.sql.exec('INSERT OR REPLACE INTO wiki2 (src, url, at) VALUES (?, ?, ?)', src, url, Date.now());
-    return url;
+      info += `img: bad type/size ${type} ${bytes.byteLength}; `;
+    } else if (img) info += `img: ${img.status}; `;
+    // could not copy it: let players load the thumbnail straight from Wikimedia (they report back if it fails)
+    this.sql.exec('INSERT OR REPLACE INTO wiki3 VALUES (?, ?, ?, ?, ?)', src, thumb, 'direct', info, Date.now());
+    return thumb;
+  }
+
+  wikiStats() {
+    const counts = this.sql.exec<{ kind: string; n: number }>('SELECT kind, COUNT(*) AS n FROM wiki3 GROUP BY kind').toArray();
+    const samples = this.sql.exec<{ src: string; kind: string; info: string }>("SELECT src, kind, info FROM wiki3 WHERE kind != 'stored' ORDER BY at DESC LIMIT 30").toArray();
+    return { counts, samples };
   }
 
   hasMedia(hash: string) { return this.sql.exec('SELECT 1 FROM media_meta WHERE hash = ?', hash).toArray().length > 0; }

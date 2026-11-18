@@ -29,7 +29,7 @@ export interface QueuedPhase { name: string; ms: number; data?: any; onEnd?: () 
 const CORE_SETTINGS: SettingDef[] = [
   { key: 'answerTime', label: 'Temps de réponse (s)', type: 'number', default: 20, min: 5, max: 60, step: 1 },
   { key: 'revealTime', label: 'Temps de révélation (s)', type: 'number', default: 4, min: 2, max: 15, step: 1 },
-  { key: 'mediaEffects', label: 'Effets zoom / flou / pixel', type: 'bool', default: true },
+  { key: 'mediaEffects', label: 'Effets zoom / flou / pixel', type: 'bool', default: false },
   { key: 'maxDifficulty', label: 'Difficulté max', type: 'select', default: 2, options: [{ value: 1, label: 'Facile' }, { value: 2, label: 'Moyen' }, { value: 3, label: 'Tout (même niche)' }] },
   { key: 'packs', label: 'Packs', type: 'packs', default: Object.keys(PACKS).filter(id => id !== 'flags') },
 ];
