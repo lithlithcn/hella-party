@@ -3,18 +3,28 @@
  "version": 1,
  "author": "Hella Party",
  "id": "dessins-animes",
- "name": "Dessins animés",
+ "name": "Dessins animés (par personnage)",
  "emoji": "📺",
- "prompt": "Quel est ce dessin animé ?",
+ "prompt": "De quel dessin animé / film vient ce personnage ?",
  "tags": [
   "dessin animé"
  ],
- "opts": {
-  "reveal": "unpixelate"
- },
  "questions": [
   {
    "id": "bob-l-eponge",
+   "answer": "Bob l'éponge",
+   "exact": [
+    "spongebob"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:SpongeBob_SquarePants_(character)"
+  },
+  {
+   "id": "bob-l-eponge-patrick",
    "answer": "Bob l'éponge",
    "exact": [
     "bob l eponge",
@@ -25,13 +35,28 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:SpongeBob_SquarePants"
+   "src": "wiki:en:Patrick_Star",
+   "explain": "C'était Patrick"
+  },
+  {
+   "id": "bob-l-eponge-carlo",
+   "answer": "Bob l'éponge",
+   "exact": [
+    "bob l eponge",
+    "spongebob"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Squidward_Tentacles",
+   "explain": "C'était Carlo"
   },
   {
    "id": "les-simpson",
    "answer": "Les Simpson",
    "exact": [
-    "simpson",
     "simpsons"
    ],
    "difficulty": 1,
@@ -39,33 +64,33 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:The_Simpsons"
+   "src": "wiki:en:Homer_Simpson"
   },
   {
-   "id": "tom-et-jerry",
-   "answer": "Tom et Jerry",
+   "id": "les-simpson-bart",
+   "answer": "Les Simpson",
    "exact": [
-    "tom and jerry"
+    "simpsons",
+    "les simpson"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Tom_and_Jerry"
+   "src": "wiki:en:Bart_Simpson",
+   "explain": "C'était Bart"
   },
   {
    "id": "scooby-doo",
    "answer": "Scooby-Doo",
-   "exact": [
-    "scooby doo"
-   ],
+   "exact": [],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Scooby-Doo"
+   "src": "wiki:en:Scooby-Doo_(character)"
   },
   {
    "id": "looney-tunes",
@@ -78,13 +103,41 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Looney_Tunes"
+   "src": "wiki:en:Bugs_Bunny"
+  },
+  {
+   "id": "looney-tunes-titi",
+   "answer": "Looney Tunes",
+   "exact": [
+    "looney tunes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Tweety",
+   "explain": "C'était Titi"
+  },
+  {
+   "id": "tom-et-jerry",
+   "answer": "Tom et Jerry",
+   "exact": [
+    "tom and jerry"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Tom_Cat"
   },
   {
    "id": "mickey-mouse",
    "answer": "Mickey Mouse",
    "exact": [
-    "mickey"
+    "mickey",
+    "disney"
    ],
    "difficulty": 1,
    "tags": [
@@ -94,431 +147,17 @@
    "src": "wiki:en:Mickey_Mouse"
   },
   {
-   "id": "totally-spies",
-   "answer": "Totally Spies",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Totally_Spies!"
-  },
-  {
-   "id": "code-lyoko",
-   "answer": "Code Lyoko",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Code_Lyoko"
-  },
-  {
-   "id": "oggy-et-les-cafards",
-   "answer": "Oggy et les Cafards",
+   "id": "lilo-et-stitch",
+   "answer": "Lilo et Stitch",
    "exact": [
-    "oggy"
+    "stitch"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Oggy_and_the_Cockroaches"
-  },
-  {
-   "id": "titeuf",
-   "answer": "Titeuf",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Titeuf"
-  },
-  {
-   "id": "miraculous",
-   "answer": "Miraculous",
-   "exact": [
-    "ladybug",
-    "miraculous ladybug"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Miraculous:_Tales_of_Ladybug_&_Cat_Noir"
-  },
-  {
-   "id": "les-lapins-cretins",
-   "answer": "Les Lapins Crétins",
-   "exact": [
-    "lapins cretins",
-    "rabbids"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Rabbids_Invasion"
-  },
-  {
-   "id": "les-schtroumpfs",
-   "answer": "Les Schtroumpfs",
-   "exact": [
-    "schtroumpfs",
-    "smurfs"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Smurfs_(1981_TV_series)"
-  },
-  {
-   "id": "asterix",
-   "answer": "Astérix",
-   "exact": [
-    "asterix et obelix"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Asterix"
-  },
-  {
-   "id": "tintin",
-   "answer": "Tintin",
-   "exact": [
-    "les aventures de tintin"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Adventures_of_Tintin_(TV_series)"
-  },
-  {
-   "id": "lucky-luke",
-   "answer": "Lucky Luke",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Lucky_Luke"
-  },
-  {
-   "id": "barbapapa",
-   "answer": "Barbapapa",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Barbapapa"
-  },
-  {
-   "id": "pat-patrouille",
-   "answer": "Pat' Patrouille",
-   "exact": [
-    "paw patrol",
-    "pat patrouille"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:PAW_Patrol"
-  },
-  {
-   "id": "peppa-pig",
-   "answer": "Peppa Pig",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Peppa_Pig"
-  },
-  {
-   "id": "dora-l-exploratrice",
-   "answer": "Dora l'exploratrice",
-   "exact": [
-    "dora"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Dora_the_Explorer"
-  },
-  {
-   "id": "les-razmoket",
-   "answer": "Les Razmoket",
-   "exact": [
-    "rugrats",
-    "razmoket"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Rugrats"
-  },
-  {
-   "id": "phineas-et-ferb",
-   "answer": "Phinéas et Ferb",
-   "exact": [
-    "phineas et ferb",
-    "phineas and ferb"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Phineas_and_Ferb"
-  },
-  {
-   "id": "gravity-falls",
-   "answer": "Gravity Falls",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Gravity_Falls"
-  },
-  {
-   "id": "adventure-time",
-   "answer": "Adventure Time",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Adventure_Time"
-  },
-  {
-   "id": "le-monde-incroyable-de-gumball",
-   "answer": "Le Monde incroyable de Gumball",
-   "exact": [
-    "gumball"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Amazing_World_of_Gumball"
-  },
-  {
-   "id": "rick-et-morty",
-   "answer": "Rick et Morty",
-   "exact": [
-    "rick and morty"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Rick_and_Morty"
-  },
-  {
-   "id": "avatar-le-dernier-maitre-de-l-air",
-   "answer": "Avatar, le dernier maître de l'air",
-   "exact": [
-    "avatar",
-    "avatar le dernier maitre de l air"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Avatar:_The_Last_Airbender"
-  },
-  {
-   "id": "ben-10",
-   "answer": "Ben 10",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Ben_10"
-  },
-  {
-   "id": "kim-possible",
-   "answer": "Kim Possible",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Kim_Possible"
-  },
-  {
-   "id": "les-supers-nanas",
-   "answer": "Les Supers Nanas",
-   "exact": [
-    "powerpuff girls",
-    "supers nanas"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Powerpuff_Girls"
-  },
-  {
-   "id": "le-laboratoire-de-dexter",
-   "answer": "Le Laboratoire de Dexter",
-   "exact": [
-    "dexter"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Dexter's_Laboratory"
-  },
-  {
-   "id": "courage-le-chien-froussard",
-   "answer": "Courage, le chien froussard",
-   "exact": [
-    "courage"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Courage_the_Cowardly_Dog"
-  },
-  {
-   "id": "les-griffin",
-   "answer": "Les Griffin",
-   "exact": [
-    "family guy",
-    "griffin"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Family_Guy"
-  },
-  {
-   "id": "south-park",
-   "answer": "South Park",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:South_Park"
-  },
-  {
-   "id": "futurama",
-   "answer": "Futurama",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Futurama"
-  },
-  {
-   "id": "les-tortues-ninja",
-   "answer": "Les Tortues Ninja",
-   "exact": [
-    "tortues ninja",
-    "tmnt"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Teenage_Mutant_Ninja_Turtles"
-  },
-  {
-   "id": "garfield",
-   "answer": "Garfield",
-   "exact": [
-    "garfield"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Garfield_and_Friends"
-  },
-  {
-   "id": "bluey",
-   "answer": "Bluey",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Bluey_(TV_series)"
-  },
-  {
-   "id": "winnie-l-ourson",
-   "answer": "Winnie l'ourson",
-   "exact": [
-    "winnie",
-    "winnie the pooh"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Winnie-the-Pooh"
-  },
-  {
-   "id": "les-pingouins-de-madagascar",
-   "answer": "Les Pingouins de Madagascar",
-   "exact": [
-    "pingouins de madagascar"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Penguins_of_Madagascar"
+   "src": "wiki:en:Stitch_(Lilo_&_Stitch)"
   },
   {
    "id": "le-roi-lion",
@@ -532,13 +171,26 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:The_Lion_King"
+   "src": "wiki:en:Simba"
+  },
+  {
+   "id": "le-roi-lion-scar",
+   "answer": "Le Roi lion",
+   "exact": [
+    "roi lion"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Scar_(The_Lion_King)",
+   "explain": "C'était Scar"
   },
   {
    "id": "la-reine-des-neiges",
    "answer": "La Reine des neiges",
    "exact": [
-    "reine des neiges",
     "frozen"
    ],
    "difficulty": 1,
@@ -546,18 +198,48 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Frozen_(2013_film)"
+   "src": "wiki:en:Elsa_(Frozen)"
   },
   {
-   "id": "toy-story",
-   "answer": "Toy Story",
-   "exact": [],
+   "id": "la-reine-des-neiges-olaf",
+   "answer": "La Reine des neiges",
+   "exact": [
+    "frozen"
+   ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Toy_Story"
+   "src": "wiki:en:Olaf_(Frozen)",
+   "explain": "C'était Olaf"
+  },
+  {
+   "id": "toy-story",
+   "answer": "Toy Story",
+   "exact": [
+    "buzz"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Buzz_Lightyear"
+  },
+  {
+   "id": "toy-story-woody",
+   "answer": "Toy Story",
+   "exact": [
+    "toy story"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Sheriff_Woody",
+   "explain": "C'était Woody"
   },
   {
    "id": "shrek",
@@ -568,71 +250,62 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Shrek"
+   "src": "wiki:en:Shrek_(character)"
   },
   {
    "id": "le-monde-de-nemo",
    "answer": "Le Monde de Nemo",
    "exact": [
     "nemo",
-    "finding nemo"
+    "dory"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Finding_Nemo"
-  },
-  {
-   "id": "les-indestructibles",
-   "answer": "Les Indestructibles",
-   "exact": [
-    "the incredibles"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Incredibles"
+   "src": "wiki:en:Dory_(Finding_Nemo)"
   },
   {
    "id": "moi-moche-et-mechant",
    "answer": "Moi, moche et méchant",
    "exact": [
     "minions",
-    "despicable me",
-    "moi moche et mechant"
+    "despicable me"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Despicable_Me"
-  },
-  {
-   "id": "cars",
-   "answer": "Cars",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Cars_(film)"
+   "src": "wiki:en:Minions_(Despicable_Me)"
   },
   {
    "id": "kung-fu-panda",
    "answer": "Kung Fu Panda",
-   "exact": [],
+   "exact": [
+    "po"
+   ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Kung_Fu_Panda"
+   "src": "wiki:en:Po_(Kung_Fu_Panda)"
+  },
+  {
+   "id": "dragons",
+   "answer": "Dragons",
+   "exact": [
+    "krokmou",
+    "how to train your dragon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Toothless_(How_to_Train_Your_Dragon)"
   },
   {
    "id": "l-age-de-glace",
@@ -646,761 +319,20 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Ice_Age_(2002_film)"
+   "src": "wiki:en:Scrat"
   },
   {
-   "id": "coco",
-   "answer": "Coco",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Coco_(2017_film)"
-  },
-  {
-   "id": "vice-versa",
-   "answer": "Vice-Versa",
+   "id": "cars",
+   "answer": "Cars",
    "exact": [
-    "vice versa",
-    "inside out"
+    "flash mcqueen"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Inside_Out_(2015_film)"
-  },
-  {
-   "id": "spider-man-new-generation",
-   "answer": "Spider-Man : New Generation",
-   "exact": [
-    "spider verse",
-    "into the spider verse"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Spider-Man:_Into_the_Spider-Verse"
-  },
-  {
-   "id": "les-zinzins-de-l-espace",
-   "answer": "Les Zinzins de l'espace",
-   "exact": [
-    "zinzins de l espace"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Space_Goofs"
-  },
-  {
-   "id": "martin-matin",
-   "answer": "Martin Matin",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Martin_Morning"
-  },
-  {
-   "id": "il-etait-une-fois-la-vie",
-   "answer": "Il était une fois… la Vie",
-   "exact": [
-    "il etait une fois la vie"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Once_Upon_a_Time..._Life"
-  },
-  {
-   "id": "hey-arnold",
-   "answer": "Hey Arnold!",
-   "exact": [
-    "hey arnold"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Hey_Arnold!"
-  },
-  {
-   "id": "ed-edd-et-eddy",
-   "answer": "Ed, Edd et Eddy",
-   "exact": [
-    "ed edd eddy"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Ed,_Edd_n_Eddy"
-  },
-  {
-   "id": "danny-fantome",
-   "answer": "Danny Fantôme",
-   "exact": [
-    "danny phantom"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Danny_Phantom"
-  },
-  {
-   "id": "johnny-bravo",
-   "answer": "Johnny Bravo",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Johnny_Bravo"
-  },
-  {
-   "id": "babar",
-   "answer": "Babar",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Babar_the_Elephant"
-  },
-  {
-   "id": "mickey-mouse-club-house",
-   "answer": "Mickey Mouse Club House",
-   "exact": [
-    "la maison de mickey"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Mickey_Mouse_Clubhouse"
-  },
-  {
-   "id": "ducktales",
-   "answer": "DuckTales",
-   "exact": [
-    "la bande a picsou"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:DuckTales"
-  },
-  {
-   "id": "chip-n-dale",
-   "answer": "Chip 'n Dale",
-   "exact": [
-    "tic et tac"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Chip_'n_Dale:_Rescue_Rangers"
-  },
-  {
-   "id": "darkwing-duck",
-   "answer": "Darkwing Duck",
-   "exact": [
-    "myster mask"
-   ],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Darkwing_Duck"
-  },
-  {
-   "id": "gargoyles",
-   "answer": "Gargoyles",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Gargoyles_(TV_series)"
-  },
-  {
-   "id": "les-aventures-de-winnie-l-ourson",
-   "answer": "Les Aventures de Winnie l'ourson",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:The_New_Adventures_of_Winnie_the_Pooh"
-  },
-  {
-   "id": "lilo-et-stitch",
-   "answer": "Lilo et Stitch",
-   "exact": [
-    "lilo et stitch"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Lilo_&_Stitch"
-  },
-  {
-   "id": "les-bisounours",
-   "answer": "Les Bisounours",
-   "exact": [
-    "bisounours"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Care_Bears"
-  },
-  {
-   "id": "les-minikeums",
-   "answer": "Les Minikeums",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:fr:Les_Minikeums"
-  },
-  {
-   "id": "inspecteur-gadget",
-   "answer": "Inspecteur Gadget",
-   "exact": [
-    "inspecteur gadget"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Inspector_Gadget"
-  },
-  {
-   "id": "sonic-x",
-   "answer": "Sonic X",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Sonic_X"
-  },
-  {
-   "id": "pokemon",
-   "answer": "Pokémon",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Pokémon_(TV_series)"
-  },
-  {
-   "id": "les-triples",
-   "answer": "Les Triplés",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:The_Triplets_(TV_series)"
-  },
-  {
-   "id": "robotboy",
-   "answer": "Robotboy",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Robotboy"
-  },
-  {
-   "id": "foot-2-rue",
-   "answer": "Foot 2 Rue",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Foot_2_Rue"
-  },
-  {
-   "id": "galactik-football",
-   "answer": "Galactik Football",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Galactik_Football"
-  },
-  {
-   "id": "wakfu",
-   "answer": "Wakfu",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Wakfu_(TV_series)"
-  },
-  {
-   "id": "ladybug-et-chat-noir",
-   "answer": "Ladybug et Chat Noir",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Miraculous:_Tales_of_Ladybug_&_Cat_Noir"
-  },
-  {
-   "id": "zig-et-sharko",
-   "answer": "Zig et Sharko",
-   "exact": [
-    "zig and sharko"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Zig_&_Sharko"
-  },
-  {
-   "id": "les-as-de-la-jungle",
-   "answer": "Les As de la jungle",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:The_Jungle_Bunch"
-  },
-  {
-   "id": "le-petit-prince",
-   "answer": "Le Petit Prince",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:The_Little_Prince_(2010_TV_series)"
-  },
-  {
-   "id": "petit-ours-brun",
-   "answer": "Petit Ours Brun",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:fr:Petit_Ours_Brun"
-  },
-  {
-   "id": "t-choupi",
-   "answer": "T'choupi",
-   "exact": [
-    "tchoupi"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:fr:T'choupi"
-  },
-  {
-   "id": "trotro",
-   "answer": "Trotro",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:fr:Trotro"
-  },
-  {
-   "id": "caillou",
-   "answer": "Caillou",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Caillou"
-  },
-  {
-   "id": "arthur",
-   "answer": "Arthur",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Arthur_(TV_series)"
-  },
-  {
-   "id": "franklin",
-   "answer": "Franklin",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Franklin_(TV_series)"
-  },
-  {
-   "id": "les-mysterieuses-cites-d-or",
-   "answer": "Les Mystérieuses Cités d'or",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Mysterious_Cities_of_Gold"
-  },
-  {
-   "id": "ulysse-31",
-   "answer": "Ulysse 31",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Ulysses_31"
-  },
-  {
-   "id": "les-maitres-de-l-univers",
-   "answer": "Les Maîtres de l'univers",
-   "exact": [
-    "he man"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:He-Man_and_the_Masters_of_the_Universe"
-  },
-  {
-   "id": "transformers",
-   "answer": "Transformers",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:The_Transformers_(TV_series)"
-  },
-  {
-   "id": "g-i-joe",
-   "answer": "G.I. Joe",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:G.I._Joe:_A_Real_American_Hero_(1983_TV_series)"
-  },
-  {
-   "id": "les-animaniacs",
-   "answer": "Les Animaniacs",
-   "exact": [
-    "animaniacs"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Animaniacs"
-  },
-  {
-   "id": "les-tiny-toons",
-   "answer": "Les Tiny Toons",
-   "exact": [
-    "tiny toons"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Tiny_Toon_Adventures"
-  },
-  {
-   "id": "cow-and-chicken",
-   "answer": "Cow and Chicken",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Cow_and_Chicken"
-  },
-  {
-   "id": "samurai-jack",
-   "answer": "Samurai Jack",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Samurai_Jack"
-  },
-  {
-   "id": "steven-universe",
-   "answer": "Steven Universe",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Steven_Universe"
-  },
-  {
-   "id": "regular-show",
-   "answer": "Regular Show",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Regular_Show"
-  },
-  {
-   "id": "le-monde-de-bobby",
-   "answer": "Le Monde de Bobby",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Bobby's_World"
-  },
-  {
-   "id": "les-simpsons-le-film",
-   "answer": "Les Simpsons (le film)",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:The_Simpsons_Movie"
-  },
-  {
-   "id": "bob-s-burgers",
-   "answer": "Bob's Burgers",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Bob's_Burgers"
-  },
-  {
-   "id": "american-dad",
-   "answer": "American Dad",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:American_Dad!"
-  },
-  {
-   "id": "les-razmoket-a-paris",
-   "answer": "Les Razmoket à Paris",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Rugrats_in_Paris:_The_Movie"
-  },
-  {
-   "id": "teen-titans",
-   "answer": "Teen Titans",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Teen_Titans_(TV_series)"
-  },
-  {
-   "id": "batman-la-serie-animee",
-   "answer": "Batman, la série animée",
-   "exact": [
-    "batman animated"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Batman:_The_Animated_Series"
-  },
-  {
-   "id": "spider-man-1994",
-   "answer": "Spider-Man (1994)",
-   "exact": [
-    "spiderman"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Spider-Man:_The_Animated_Series"
-  },
-  {
-   "id": "x-men-1992",
-   "answer": "X-Men (1992)",
-   "exact": [
-    "x-men"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:X-Men:_The_Animated_Series"
-  },
-  {
-   "id": "les-tortues-ninja-1987",
-   "answer": "Les Tortues Ninja (1987)",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Teenage_Mutant_Ninja_Turtles_(1987_TV_series)"
-  },
-  {
-   "id": "bienvenue-chez-les-loud",
-   "answer": "Bienvenue chez les Loud",
-   "exact": [
-    "the loud house"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Loud_House"
-  },
-  {
-   "id": "les-thunderman",
-   "answer": "Les Thunderman",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:The_Thundermans"
-  },
-  {
-   "id": "la-ligue-des-justiciers",
-   "answer": "La Ligue des justiciers",
-   "exact": [
-    "justice league"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Justice_League_(TV_series)"
-  },
-  {
-   "id": "rio",
-   "answer": "Rio",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Rio_(2011_film)"
-  },
-  {
-   "id": "madagascar",
-   "answer": "Madagascar",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Madagascar_(2005_film)"
+   "src": "wiki:en:Lightning_McQueen"
   },
   {
    "id": "monstres-et-cie",
@@ -1413,47 +345,356 @@
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Monsters,_Inc."
+   "src": "wiki:en:Mike_Wazowski"
   },
   {
-   "id": "la-haut",
-   "answer": "Là-haut",
+   "id": "aladdin",
+   "answer": "Aladdin",
    "exact": [
-    "up",
-    "la haut"
+    "genie"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Up_(2009_film)"
+   "src": "wiki:en:Genie_(Aladdin)"
   },
   {
-   "id": "wall-e",
-   "answer": "WALL-E",
+   "id": "la-petite-sirene",
+   "answer": "La Petite Sirène",
    "exact": [
-    "wall e"
+    "ariel"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:WALL-E"
+   "src": "wiki:en:Ariel_(The_Little_Mermaid)"
   },
   {
-   "id": "zootopie",
-   "answer": "Zootopie",
+   "id": "le-livre-de-la-jungle",
+   "answer": "Le Livre de la jungle",
    "exact": [
-    "zootopia"
+    "baloo"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Zootopia"
+   "src": "wiki:en:Baloo"
+  },
+  {
+   "id": "winnie-l-ourson",
+   "answer": "Winnie l'ourson",
+   "exact": [
+    "winnie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Winnie-the-Pooh"
+  },
+  {
+   "id": "garfield",
+   "answer": "Garfield",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Garfield_(character)"
+  },
+  {
+   "id": "peanuts-snoopy",
+   "answer": "Peanuts",
+   "exact": [
+    "snoopy",
+    "peanuts"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Snoopy",
+   "explain": "C'était Snoopy"
+  },
+  {
+   "id": "popeye",
+   "answer": "Popeye",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Popeye"
+  },
+  {
+   "id": "asterix",
+   "answer": "Astérix",
+   "exact": [
+    "asterix et obelix"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Asterix_(character)"
+  },
+  {
+   "id": "tintin",
+   "answer": "Tintin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Tintin_(character)"
+  },
+  {
+   "id": "les-schtroumpfs",
+   "answer": "Les Schtroumpfs",
+   "exact": [
+    "schtroumpfs",
+    "smurfs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Papa_Smurf"
+  },
+  {
+   "id": "lucky-luke",
+   "answer": "Lucky Luke",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Lucky_Luke_(character)"
+  },
+  {
+   "id": "peppa-pig",
+   "answer": "Peppa Pig",
+   "exact": [
+    "peppa"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Peppa_Pig_(character)"
+  },
+  {
+   "id": "rick-et-morty",
+   "answer": "Rick et Morty",
+   "exact": [
+    "rick and morty"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Rick_Sanchez"
+  },
+  {
+   "id": "les-griffin",
+   "answer": "Les Griffin",
+   "exact": [
+    "family guy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Peter_Griffin"
+  },
+  {
+   "id": "south-park",
+   "answer": "South Park",
+   "exact": [
+    "cartman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Eric_Cartman"
+  },
+  {
+   "id": "futurama",
+   "answer": "Futurama",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Bender_(Futurama)"
+  },
+  {
+   "id": "gravity-falls",
+   "answer": "Gravity Falls",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "dessin animé",
+    "difficile"
+   ],
+   "src": "wiki:en:Bill_Cipher"
+  },
+  {
+   "id": "adventure-time",
+   "answer": "Adventure Time",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Finn_the_Human"
+  },
+  {
+   "id": "avatar-le-dernier-maitre-de-l-air",
+   "answer": "Avatar, le dernier maître de l'air",
+   "exact": [
+    "avatar"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Aang"
+  },
+  {
+   "id": "ben-10",
+   "answer": "Ben 10",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Ben_Tennyson"
+  },
+  {
+   "id": "les-tortues-ninja",
+   "answer": "Les Tortues Ninja",
+   "exact": [
+    "tortues ninja",
+    "tmnt"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Leonardo_(Teenage_Mutant_Ninja_Turtles)"
+  },
+  {
+   "id": "kim-possible",
+   "answer": "Kim Possible",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Kim_Possible_(character)"
+  },
+  {
+   "id": "johnny-bravo",
+   "answer": "Johnny Bravo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Johnny_Bravo_(character)"
+  },
+  {
+   "id": "hello-kitty",
+   "answer": "Hello Kitty",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Hello_Kitty"
+  },
+  {
+   "id": "pinocchio",
+   "answer": "Pinocchio",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Pinocchio"
+  },
+  {
+   "id": "bambi",
+   "answer": "Bambi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Bambi"
+  },
+  {
+   "id": "dumbo",
+   "answer": "Dumbo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "facile"
+   ],
+   "src": "wiki:en:Dumbo"
+  },
+  {
+   "id": "mulan",
+   "answer": "Mulan",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Fa_Mulan"
+  },
+  {
+   "id": "la-belle-et-la-bete",
+   "answer": "La Belle et la Bête",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Belle_(Beauty_and_the_Beast)"
   },
   {
    "id": "raiponce",
@@ -1461,12 +702,12 @@
    "exact": [
     "tangled"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "tags": [
     "dessin animé",
-    "facile"
+    "moyen"
    ],
-   "src": "wiki:en:Tangled"
+   "src": "wiki:en:Rapunzel_(Disney)"
   },
   {
    "id": "vaiana",
@@ -1474,108 +715,38 @@
    "exact": [
     "moana"
    ],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Moana_(2016_film)"
-  },
-  {
-   "id": "encanto",
-   "answer": "Encanto",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "dessin animé",
-    "facile"
-   ],
-   "src": "wiki:en:Encanto"
-  },
-  {
-   "id": "les-croods",
-   "answer": "Les Croods",
-   "exact": [],
    "difficulty": 2,
    "tags": [
     "dessin animé",
     "moyen"
    ],
-   "src": "wiki:en:The_Croods"
+   "src": "wiki:en:Moana_(character)"
   },
   {
-   "id": "dragons",
-   "answer": "Dragons",
+   "id": "le-grinch",
+   "answer": "Le Grinch",
    "exact": [
-    "how to train your dragon"
+    "grinch"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:How_to_Train_Your_Dragon_(2010_film)"
+   "src": "wiki:en:The_Grinch"
   },
   {
-   "id": "le-gang-des-dalton",
-   "answer": "Le Gang des Dalton",
+   "id": "miraculous",
+   "answer": "Miraculous",
    "exact": [
-    "les dalton"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Les_Dalton"
-  },
-  {
-   "id": "kirikou",
-   "answer": "Kirikou",
-   "exact": [
-    "kirikou et la sorciere"
+    "ladybug"
    ],
    "difficulty": 1,
    "tags": [
     "dessin animé",
     "facile"
    ],
-   "src": "wiki:en:Kirikou_and_the_Sorceress"
-  },
-  {
-   "id": "persepolis",
-   "answer": "Persepolis",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Persepolis_(film)"
-  },
-  {
-   "id": "ernest-et-celestine",
-   "answer": "Ernest et Célestine",
-   "exact": [
-    "ernest et celestine"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "dessin animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Ernest_&_Celestine"
-  },
-  {
-   "id": "les-triplettes-de-belleville",
-   "answer": "Les Triplettes de Belleville",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "dessin animé",
-    "difficile"
-   ],
-   "src": "wiki:en:The_Triplets_of_Belleville"
+   "src": "wiki:en:Miraculous:_Tales_of_Ladybug_&_Cat_Noir"
   }
  ]
 }

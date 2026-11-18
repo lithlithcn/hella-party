@@ -74,7 +74,7 @@ function Question({ s }: { s: PublicState }) {
         <div class="reveal">
           <div class="reveal-answer">{r.answer}</div>
           {r.explain && <div class="reveal-explain">{r.explain}</div>}
-          {q?.src?.startsWith('wiki:') && <small class="credit">Image : Wikipédia / Wikimedia Commons</small>}
+          {q && <Report qkey={q.id} />}
           <div class="reveal-finders">
             {r.finders.length === 0 && <span class="muted">Personne n'a trouvé 😶</span>}
             {r.finders.map((f, i) => (
@@ -147,5 +147,24 @@ function AnswerBox({ s }: { s: PublicState }) {
       <input ref={ref} onKeyDown={onKey} autocomplete="off" autocapitalize="off" autoCorrect="off" spellcheck={false} maxLength={100} enterKeyHint="send"
         tabIndex={open ? 0 : -1} placeholder={done ? 'Trouvé ! ✓' : 'Tape ta réponse…'} />
     </form>
+  );
+}
+
+/** 🚩 on the reveal: tells us which questions are bad (GET /api/reports). */
+function Report({ qkey }: { qkey: string }) {
+  const [open, setOpen] = useState(false);
+  const [done, setDone] = useState(false);
+  useEffect(() => { setOpen(false); setDone(false); }, [qkey]);
+  const send = (reason: string) => { fetch('/api/report', { method: 'POST', body: JSON.stringify({ key: qkey, reason }) }); setDone(true); };
+  if (done) return <small class="muted report">Merci, signalé ✓</small>;
+  return (
+    <span class="report">
+      <button class="btn ghost small" onClick={() => setOpen(o => !o)}>🚩 Signaler</button>
+      {open && <>
+        <button class="btn ghost small" onClick={() => send('réponse visible')}>La réponse est écrite sur l'image</button>
+        <button class="btn ghost small" onClick={() => send('image fausse')}>Image fausse / cassée</button>
+        <button class="btn ghost small" onClick={() => send('trop dur')}>Trop dur / pas connu</button>
+      </>}
+    </span>
   );
 }

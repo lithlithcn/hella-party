@@ -3,37 +3,38 @@
  "version": 1,
  "author": "Hella Party",
  "id": "animes",
- "name": "Animés",
+ "name": "Animés (par personnage)",
  "emoji": "🍥",
- "prompt": "Quel est cet animé ?",
+ "prompt": "De quel animé vient ce personnage ?",
  "tags": [
   "animé"
  ],
- "opts": {
-  "reveal": "unpixelate"
- },
  "questions": [
   {
    "id": "naruto",
    "answer": "Naruto",
-   "exact": [],
+   "exact": [
+    "naruto shippuden"
+   ],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Naruto"
+   "src": "wiki:en:Naruto_Uzumaki"
   },
   {
    "id": "one-piece",
    "answer": "One Piece",
-   "exact": [],
+   "exact": [
+    "luffy"
+   ],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:One_Piece"
+   "src": "wiki:en:Monkey_D._Luffy"
   },
   {
    "id": "dragon-ball",
@@ -48,7 +49,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Dragon_Ball"
+   "src": "wiki:en:Goku"
   },
   {
    "id": "pokemon",
@@ -61,7 +62,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Pokémon_(TV_series)"
+   "src": "wiki:en:Ash_Ketchum"
   },
   {
    "id": "l-attaque-des-titans",
@@ -69,7 +70,6 @@
    "exact": [
     "attack on titan",
     "snk",
-    "shingeki no kyojin",
     "attaque des titans"
    ],
    "difficulty": 1,
@@ -77,7 +77,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Attack_on_Titan"
+   "src": "wiki:en:Eren_Yeager"
   },
   {
    "id": "death-note",
@@ -88,21 +88,20 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Death_Note"
+   "src": "wiki:en:Light_Yagami"
   },
   {
    "id": "my-hero-academia",
    "answer": "My Hero Academia",
    "exact": [
-    "mha",
-    "boku no hero academia"
+    "mha"
    ],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:My_Hero_Academia"
+   "src": "wiki:en:Izuku_Midoriya"
   },
   {
    "id": "demon-slayer",
@@ -115,7 +114,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Demon_Slayer:_Kimetsu_no_Yaiba"
+   "src": "wiki:en:Tanjiro_Kamado"
   },
   {
    "id": "jujutsu-kaisen",
@@ -128,35 +127,33 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Jujutsu_Kaisen"
+   "src": "wiki:en:Satoru_Gojo"
   },
   {
    "id": "fullmetal-alchemist",
    "answer": "Fullmetal Alchemist",
    "exact": [
-    "fma",
-    "fullmetal alchemist brotherhood"
+    "fma"
    ],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Fullmetal_Alchemist"
+   "src": "wiki:en:Edward_Elric"
   },
   {
    "id": "hunter-x-hunter",
    "answer": "Hunter x Hunter",
    "exact": [
-    "hxh",
-    "hunter hunter"
+    "hxh"
    ],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Hunter_×_Hunter"
+   "src": "wiki:en:Gon_Freecss"
   },
   {
    "id": "bleach",
@@ -167,7 +164,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Bleach_(manga)"
+   "src": "wiki:en:Ichigo_Kurosaki"
   },
   {
    "id": "sailor-moon",
@@ -178,7 +175,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Sailor_Moon"
+   "src": "wiki:en:Sailor_Moon_(character)"
   },
   {
    "id": "one-punch-man",
@@ -191,7 +188,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:One-Punch_Man"
+   "src": "wiki:en:Saitama_(One-Punch_Man)"
   },
   {
    "id": "tokyo-ghoul",
@@ -202,7 +199,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Tokyo_Ghoul"
+   "src": "wiki:en:Ken_Kaneki"
   },
   {
    "id": "spy-x-family",
@@ -215,7 +212,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Spy_×_Family"
+   "src": "wiki:en:Anya_Forger"
   },
   {
    "id": "chainsaw-man",
@@ -226,86 +223,57 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Chainsaw_Man"
+   "src": "wiki:en:Denji_(Chainsaw_Man)"
   },
   {
    "id": "mon-voisin-totoro",
    "answer": "Mon voisin Totoro",
    "exact": [
-    "totoro",
-    "my neighbor totoro"
+    "totoro"
    ],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:My_Neighbor_Totoro"
+   "src": "wiki:en:Totoro"
   },
   {
-   "id": "le-voyage-de-chihiro",
-   "answer": "Le Voyage de Chihiro",
+   "id": "jojo-s-bizarre-adventure",
+   "answer": "JoJo's Bizarre Adventure",
    "exact": [
-    "chihiro",
-    "spirited away"
+    "jojo"
    ],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Spirited_Away"
+   "src": "wiki:en:Jotaro_Kujo"
   },
   {
-   "id": "princesse-mononoke",
-   "answer": "Princesse Mononoké",
+   "id": "neon-genesis-evangelion",
+   "answer": "Neon Genesis Evangelion",
    "exact": [
-    "mononoke"
+    "evangelion"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "tags": [
     "animé",
-    "facile"
+    "moyen"
    ],
-   "src": "wiki:en:Princess_Mononoke"
+   "src": "wiki:en:Shinji_Ikari"
   },
   {
-   "id": "le-chateau-ambulant",
-   "answer": "Le Château ambulant",
-   "exact": [
-    "chateau ambulant",
-    "howl"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Howl's_Moving_Castle_(film)"
-  },
-  {
-   "id": "your-name",
-   "answer": "Your Name",
-   "exact": [
-    "kimi no na wa"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Your_Name"
-  },
-  {
-   "id": "doraemon",
-   "answer": "Doraemon",
+   "id": "cowboy-bebop",
+   "answer": "Cowboy Bebop",
    "exact": [],
-   "difficulty": 1,
+   "difficulty": 2,
    "tags": [
     "animé",
-    "facile"
+    "moyen"
    ],
-   "src": "wiki:en:Doraemon"
+   "src": "wiki:en:Spike_Spiegel"
   },
   {
    "id": "detective-conan",
@@ -319,59 +287,31 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Case_Closed"
+   "src": "wiki:en:Jimmy_Kudo"
   },
   {
-   "id": "olive-et-tom",
-   "answer": "Olive et Tom",
-   "exact": [
-    "captain tsubasa"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Captain_Tsubasa"
-  },
-  {
-   "id": "les-chevaliers-du-zodiaque",
-   "answer": "Les Chevaliers du Zodiaque",
-   "exact": [
-    "saint seiya",
-    "chevaliers du zodiaque"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Saint_Seiya"
-  },
-  {
-   "id": "yu-gi-oh",
-   "answer": "Yu-Gi-Oh!",
-   "exact": [
-    "yugioh",
-    "yu gi oh"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Yu-Gi-Oh!"
-  },
-  {
-   "id": "beyblade",
-   "answer": "Beyblade",
+   "id": "doraemon",
+   "answer": "Doraemon",
    "exact": [],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Beyblade"
+   "src": "wiki:en:Doraemon_(character)"
+  },
+  {
+   "id": "yu-gi-oh",
+   "answer": "Yu-Gi-Oh!",
+   "exact": [
+    "yugioh"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Yugi_Mutou"
   },
   {
    "id": "digimon",
@@ -384,18 +324,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Digimon_Adventure"
-  },
-  {
-   "id": "inazuma-eleven",
-   "answer": "Inazuma Eleven",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Inazuma_Eleven"
+   "src": "wiki:en:Agumon"
   },
   {
    "id": "fairy-tail",
@@ -406,7 +335,7 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Fairy_Tail"
+   "src": "wiki:en:Natsu_Dragneel"
   },
   {
    "id": "sword-art-online",
@@ -419,314 +348,24 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Sword_Art_Online"
+   "src": "wiki:en:Kirito_(Sword_Art_Online)"
   },
   {
    "id": "black-clover",
    "answer": "Black Clover",
    "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Black_Clover"
-  },
-  {
-   "id": "solo-leveling",
-   "answer": "Solo Leveling",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Solo_Leveling"
-  },
-  {
-   "id": "blue-lock",
-   "answer": "Blue Lock",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Blue_Lock"
-  },
-  {
-   "id": "haikyu",
-   "answer": "Haikyu!!",
-   "exact": [
-    "haikyu"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Haikyu!!"
-  },
-  {
-   "id": "dr-stone",
-   "answer": "Dr. Stone",
-   "exact": [
-    "dr stone"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Dr._Stone"
-  },
-  {
-   "id": "jojo-s-bizarre-adventure",
-   "answer": "JoJo's Bizarre Adventure",
-   "exact": [
-    "jojo"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:JoJo's_Bizarre_Adventure"
-  },
-  {
-   "id": "neon-genesis-evangelion",
-   "answer": "Neon Genesis Evangelion",
-   "exact": [
-    "evangelion",
-    "eva"
-   ],
    "difficulty": 2,
    "tags": [
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Neon_Genesis_Evangelion"
+   "src": "wiki:en:Asta_(Black_Clover)"
   },
   {
-   "id": "cowboy-bebop",
-   "answer": "Cowboy Bebop",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Cowboy_Bebop"
-  },
-  {
-   "id": "akira",
-   "answer": "Akira",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Akira_(1988_film)"
-  },
-  {
-   "id": "code-geass",
-   "answer": "Code Geass",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Code_Geass"
-  },
-  {
-   "id": "ken-le-survivant",
-   "answer": "Ken le Survivant",
+   "id": "dragon-ball-vegeta",
+   "answer": "Dragon Ball",
    "exact": [
-    "hokuto no ken",
-    "ken le survivant"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Fist_of_the_North_Star"
-  },
-  {
-   "id": "nicky-larson",
-   "answer": "Nicky Larson",
-   "exact": [
-    "city hunter"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:City_Hunter"
-  },
-  {
-   "id": "les-mysterieuses-cites-d-or",
-   "answer": "Les Mystérieuses Cités d'or",
-   "exact": [
-    "cites d or"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:The_Mysterious_Cities_of_Gold"
-  },
-  {
-   "id": "kuroko-s-basket",
-   "answer": "Kuroko's Basket",
-   "exact": [
-    "kuroko"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Kuroko's_Basketball"
-  },
-  {
-   "id": "mob-psycho-100",
-   "answer": "Mob Psycho 100",
-   "exact": [
-    "mob psycho"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Mob_Psycho_100"
-  },
-  {
-   "id": "vinland-saga",
-   "answer": "Vinland Saga",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Vinland_Saga"
-  },
-  {
-   "id": "frieren",
-   "answer": "Frieren",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Frieren"
-  },
-  {
-   "id": "oshi-no-ko",
-   "answer": "Oshi no Ko",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Oshi_no_Ko"
-  },
-  {
-   "id": "steins-gate",
-   "answer": "Steins;Gate",
-   "exact": [
-    "steins gate"
-   ],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Steins;Gate_(TV_series)"
-  },
-  {
-   "id": "made-in-abyss",
-   "answer": "Made in Abyss",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Made_in_Abyss"
-  },
-  {
-   "id": "re-zero",
-   "answer": "Re:Zero",
-   "exact": [
-    "rezero",
-    "re zero"
-   ],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Re:Zero_−_Starting_Life_in_Another_World"
-  },
-  {
-   "id": "gintama",
-   "answer": "Gintama",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Gintama"
-  },
-  {
-   "id": "hellsing",
-   "answer": "Hellsing",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Hellsing"
-  },
-  {
-   "id": "naruto-shippuden",
-   "answer": "Naruto Shippuden",
-   "exact": [
-    "naruto shippuden"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Naruto:_Shippuden"
-  },
-  {
-   "id": "boruto",
-   "answer": "Boruto",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Boruto:_Naruto_Next_Generations"
-  },
-  {
-   "id": "dragon-ball-z",
-   "answer": "Dragon Ball Z",
-   "exact": [
+    "dragon ball",
     "dbz"
    ],
    "difficulty": 1,
@@ -734,415 +373,244 @@
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Dragon_Ball_Z"
+   "src": "wiki:en:Vegeta",
+   "explain": "C'était Vegeta"
   },
   {
-   "id": "dragon-ball-super",
-   "answer": "Dragon Ball Super",
+   "id": "naruto-sasuke",
+   "answer": "Naruto",
    "exact": [
-    "dbs"
+    "naruto"
    ],
    "difficulty": 1,
    "tags": [
     "animé",
     "facile"
    ],
-   "src": "wiki:en:Dragon_Ball_Super"
+   "src": "wiki:en:Sasuke_Uchiha",
+   "explain": "C'était Sasuke"
   },
   {
-   "id": "pokemon-horizons",
-   "answer": "Pokémon : Horizons",
+   "id": "naruto-kakashi",
+   "answer": "Naruto",
    "exact": [
-    "pokemon horizons"
+    "naruto"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Kakashi_Hatake",
+   "explain": "C'était Kakashi"
+  },
+  {
+   "id": "one-piece-zoro",
+   "answer": "One Piece",
+   "exact": [
+    "one piece"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Roronoa_Zoro",
+   "explain": "C'était Zoro"
+  },
+  {
+   "id": "one-piece-sanji",
+   "answer": "One Piece",
+   "exact": [
+    "one piece"
    ],
    "difficulty": 2,
    "tags": [
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Pokémon_Horizons:_The_Series"
+   "src": "wiki:en:Sanji_(One_Piece)",
+   "explain": "C'était Sanji"
   },
   {
-   "id": "tokyo-revengers",
-   "answer": "Tokyo Revengers",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Tokyo_Revengers"
-  },
-  {
-   "id": "the-promised-neverland",
-   "answer": "The Promised Neverland",
+   "id": "dragon-ball-freezer",
+   "answer": "Dragon Ball",
    "exact": [
-    "promised neverland"
+    "dragon ball",
+    "dbz"
    ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Promised_Neverland"
-  },
-  {
-   "id": "assassination-classroom",
-   "answer": "Assassination Classroom",
-   "exact": [],
    "difficulty": 2,
    "tags": [
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Assassination_Classroom"
+   "src": "wiki:en:Frieza",
+   "explain": "C'était Freezer"
   },
   {
-   "id": "dandadan",
-   "answer": "Dandadan",
-   "exact": [],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Dandadan"
-  },
-  {
-   "id": "kaiju-no-8",
-   "answer": "Kaiju No. 8",
+   "id": "dragon-ball-piccolo",
+   "answer": "Dragon Ball",
    "exact": [
-    "kaiju 8"
+    "dragon ball",
+    "dbz"
    ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Kaiju_No._8"
-  },
-  {
-   "id": "hell-s-paradise",
-   "answer": "Hell's Paradise",
-   "exact": [],
    "difficulty": 2,
    "tags": [
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Hell's_Paradise:_Jigokuraku"
+   "src": "wiki:en:Piccolo_(Dragon_Ball)",
+   "explain": "C'était Piccolo"
   },
   {
-   "id": "bungo-stray-dogs",
-   "answer": "Bungo Stray Dogs",
-   "exact": [],
+   "id": "l-attaque-des-titans-levi",
+   "answer": "L'Attaque des Titans",
+   "exact": [
+    "attack on titan",
+    "snk",
+    "attaque des titans"
+   ],
    "difficulty": 2,
    "tags": [
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Bungo_Stray_Dogs"
+   "src": "wiki:en:Levi_Ackerman",
+   "explain": "C'était Levi"
   },
   {
-   "id": "toradora",
-   "answer": "Toradora!",
+   "id": "death-note-l",
+   "answer": "Death Note",
    "exact": [
-    "toradora"
+    "death note"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:L_(Death_Note)",
+   "explain": "C'était L"
+  },
+  {
+   "id": "death-note-ryuk",
+   "answer": "Death Note",
+   "exact": [
+    "death note"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Ryuk",
+   "explain": "C'était Ryuk"
+  },
+  {
+   "id": "pokemon-pikachu",
+   "answer": "Pokémon",
+   "exact": [
+    "pokemon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Pikachu",
+   "explain": "C'était Pikachu"
+  },
+  {
+   "id": "hunter-x-hunter-killua",
+   "answer": "Hunter x Hunter",
+   "exact": [
+    "hxh"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Killua_Zoldyck",
+   "explain": "C'était Killua"
+  },
+  {
+   "id": "fullmetal-alchemist-alphonse",
+   "answer": "Fullmetal Alchemist",
+   "exact": [
+    "fma"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:Alphonse_Elric",
+   "explain": "C'était Alphonse"
+  },
+  {
+   "id": "my-hero-academia-all-might",
+   "answer": "My Hero Academia",
+   "exact": [
+    "mha"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animé",
+    "moyen"
+   ],
+   "src": "wiki:en:All_Might",
+   "explain": "C'était All Might"
+  },
+  {
+   "id": "demon-slayer-nezuko",
+   "answer": "Demon Slayer",
+   "exact": [
+    "kimetsu no yaiba"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animé",
+    "facile"
+   ],
+   "src": "wiki:en:Nezuko_Kamado",
+   "explain": "C'était Nezuko"
+  },
+  {
+   "id": "sailor-moon-luna",
+   "answer": "Sailor Moon",
+   "exact": [
+    "sailor moon"
    ],
    "difficulty": 3,
    "tags": [
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Toradora!"
+   "src": "wiki:en:Luna_(Sailor_Moon)",
+   "explain": "C'était Luna"
   },
   {
-   "id": "clannad",
-   "answer": "Clannad",
+   "id": "code-geass",
+   "answer": "Code Geass",
    "exact": [],
    "difficulty": 3,
    "tags": [
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Clannad_(visual_novel)"
+   "src": "wiki:en:Lelouch_Lamperouge"
   },
   {
-   "id": "violet-evergarden",
-   "answer": "Violet Evergarden",
+   "id": "inuyasha",
+   "answer": "Inuyasha",
    "exact": [],
    "difficulty": 2,
    "tags": [
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Violet_Evergarden"
-  },
-  {
-   "id": "your-lie-in-april",
-   "answer": "Your Lie in April",
-   "exact": [
-    "shigatsu"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Your_Lie_in_April"
-  },
-  {
-   "id": "a-silent-voice",
-   "answer": "A Silent Voice",
-   "exact": [
-    "koe no katachi"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:A_Silent_Voice_(film)"
-  },
-  {
-   "id": "suzume",
-   "answer": "Suzume",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Suzume_(film)"
-  },
-  {
-   "id": "les-enfants-du-temps",
-   "answer": "Les Enfants du temps",
-   "exact": [
-    "weathering with you"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Weathering_with_You"
-  },
-  {
-   "id": "ponyo-sur-la-falaise",
-   "answer": "Ponyo sur la falaise",
-   "exact": [
-    "ponyo"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Ponyo"
-  },
-  {
-   "id": "kiki-la-petite-sorciere",
-   "answer": "Kiki la petite sorcière",
-   "exact": [
-    "kiki"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:Kiki's_Delivery_Service"
-  },
-  {
-   "id": "le-garcon-et-le-heron",
-   "answer": "Le Garçon et le Héron",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:The_Boy_and_the_Heron"
-  },
-  {
-   "id": "nausicaa",
-   "answer": "Nausicaä",
-   "exact": [
-    "nausicaa"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Nausicaä_of_the_Valley_of_the_Wind_(film)"
-  },
-  {
-   "id": "le-chateau-dans-le-ciel",
-   "answer": "Le Château dans le ciel",
-   "exact": [
-    "laputa"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Castle_in_the_Sky"
-  },
-  {
-   "id": "porco-rosso",
-   "answer": "Porco Rosso",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Porco_Rosso"
-  },
-  {
-   "id": "le-tombeau-des-lucioles",
-   "answer": "Le Tombeau des lucioles",
-   "exact": [
-    "tombeau des lucioles"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Grave_of_the_Fireflies"
-  },
-  {
-   "id": "perfect-blue",
-   "answer": "Perfect Blue",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Perfect_Blue"
-  },
-  {
-   "id": "ghost-in-the-shell",
-   "answer": "Ghost in the Shell",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Ghost_in_the_Shell_(1995_film)"
-  },
-  {
-   "id": "dragon-ball-gt",
-   "answer": "Dragon Ball GT",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Dragon_Ball_GT"
-  },
-  {
-   "id": "captain-harlock",
-   "answer": "Captain Harlock",
-   "exact": [
-    "albator"
-   ],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Space_Pirate_Captain_Harlock"
-  },
-  {
-   "id": "goldorak",
-   "answer": "Goldorak",
-   "exact": [
-    "grendizer"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:UFO_Robo_Grendizer"
-  },
-  {
-   "id": "candy-candy",
-   "answer": "Candy Candy",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Candy_Candy"
-  },
-  {
-   "id": "gundam",
-   "answer": "Gundam",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Mobile_Suit_Gundam"
-  },
-  {
-   "id": "lupin-iii",
-   "answer": "Lupin III",
-   "exact": [
-    "edgar de la cambriole"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Lupin_III"
-  },
-  {
-   "id": "initial-d",
-   "answer": "Initial D",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Initial_D"
-  },
-  {
-   "id": "great-teacher-onizuka",
-   "answer": "Great Teacher Onizuka",
-   "exact": [
-    "gto"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Great_Teacher_Onizuka"
-  },
-  {
-   "id": "slam-dunk",
-   "answer": "Slam Dunk",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Slam_Dunk_(manga)"
+   "src": "wiki:en:Inuyasha_(character)"
   },
   {
    "id": "ranma",
@@ -1150,223 +618,66 @@
    "exact": [
     "ranma"
    ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Ranma_½"
-  },
-  {
-   "id": "dr-slump",
-   "answer": "Dr. Slump",
-   "exact": [],
    "difficulty": 3,
    "tags": [
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Dr._Slump"
+   "src": "wiki:en:Ranma_Saotome"
   },
   {
-   "id": "sakura-chasseuse-de-cartes",
-   "answer": "Sakura, chasseuse de cartes",
+   "id": "captain-tsubasa",
+   "answer": "Captain Tsubasa",
    "exact": [
-    "cardcaptor sakura"
+    "olive et tom"
    ],
    "difficulty": 2,
    "tags": [
     "animé",
     "moyen"
    ],
-   "src": "wiki:en:Cardcaptor_Sakura"
+   "src": "wiki:en:Tsubasa_Ozora"
   },
   {
-   "id": "yu-yu-hakusho",
-   "answer": "Yu Yu Hakusho",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:YuYu_Hakusho"
-  },
-  {
-   "id": "rurouni-kenshin",
-   "answer": "Rurouni Kenshin",
+   "id": "saint-seiya",
+   "answer": "Saint Seiya",
    "exact": [
-    "kenshin le vagabond"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Rurouni_Kenshin"
-  },
-  {
-   "id": "black-butler",
-   "answer": "Black Butler",
-   "exact": [
-    "kuroshitsuji"
-   ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Black_Butler"
-  },
-  {
-   "id": "noragami",
-   "answer": "Noragami",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Noragami"
-  },
-  {
-   "id": "fire-force",
-   "answer": "Fire Force",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Fire_Force"
-  },
-  {
-   "id": "the-seven-deadly-sins",
-   "answer": "The Seven Deadly Sins",
-   "exact": [
-    "seven deadly sins",
-    "nanatsu no taizai"
-   ],
-   "difficulty": 1,
-   "tags": [
-    "animé",
-    "facile"
-   ],
-   "src": "wiki:en:The_Seven_Deadly_Sins_(manga)"
-  },
-  {
-   "id": "hajime-no-ippo",
-   "answer": "Hajime no Ippo",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "animé",
-    "difficile"
-   ],
-   "src": "wiki:en:Hajime_no_Ippo"
-  },
-  {
-   "id": "berserk",
-   "answer": "Berserk",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Berserk_(manga)"
-  },
-  {
-   "id": "bocchi-the-rock",
-   "answer": "Bocchi the Rock!",
-   "exact": [
-    "bocchi"
+    "chevaliers du zodiaque"
    ],
    "difficulty": 3,
    "tags": [
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Bocchi_the_Rock!"
+   "src": "wiki:en:Pegasus_Seiya"
   },
   {
-   "id": "cyberpunk-edgerunners",
-   "answer": "Cyberpunk: Edgerunners",
+   "id": "astro-boy",
+   "answer": "Astro Boy",
    "exact": [
-    "edgerunners"
+    "astro"
    ],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Cyberpunk:_Edgerunners"
-  },
-  {
-   "id": "sakamoto-days",
-   "answer": "Sakamoto Days",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Sakamoto_Days"
-  },
-  {
-   "id": "mashle",
-   "answer": "Mashle",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Mashle"
-  },
-  {
-   "id": "shaman-king",
-   "answer": "Shaman King",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Shaman_King"
-  },
-  {
-   "id": "bakugan",
-   "answer": "Bakugan",
-   "exact": [],
-   "difficulty": 2,
-   "tags": [
-    "animé",
-    "moyen"
-   ],
-   "src": "wiki:en:Bakugan_Battle_Brawlers"
-  },
-  {
-   "id": "lycoris-recoil",
-   "answer": "Lycoris Recoil",
-   "exact": [],
    "difficulty": 3,
    "tags": [
     "animé",
     "difficile"
    ],
-   "src": "wiki:en:Lycoris_Recoil"
+   "src": "wiki:en:Astro_Boy_(character)"
   },
   {
-   "id": "kill-la-kill",
-   "answer": "Kill la Kill",
-   "exact": [],
-   "difficulty": 3,
+   "id": "ghibli-le-voyage-de-chihiro",
+   "answer": "Ghibli : Le Voyage de Chihiro",
+   "exact": [
+    "chihiro",
+    "le voyage de chihiro",
+    "spirited away"
+   ],
+   "difficulty": 2,
    "tags": [
     "animé",
-    "difficile"
+    "moyen"
    ],
-   "src": "wiki:en:Kill_la_Kill"
+   "src": "wiki:en:No-Face"
   }
  ]
 }

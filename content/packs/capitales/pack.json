@@ -23,8 +23,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇫🇷 France"
+   "type": "image",
+   "src": "/packs/flags/fr.webp",
+   "prompt": "Capitale de ce pays ? (France)"
   },
   {
    "id": "londres",
@@ -39,8 +40,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇬🇧 Royaume-Uni"
+   "type": "image",
+   "src": "/packs/flags/gb.webp",
+   "prompt": "Capitale de ce pays ? (Royaume-Uni)"
   },
   {
    "id": "berlin",
@@ -52,8 +54,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇩🇪 Allemagne"
+   "type": "image",
+   "src": "/packs/flags/de.webp",
+   "prompt": "Capitale de ce pays ? (Allemagne)"
   },
   {
    "id": "madrid",
@@ -65,8 +68,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇪🇸 Espagne"
+   "type": "image",
+   "src": "/packs/flags/es.webp",
+   "prompt": "Capitale de ce pays ? (Espagne)"
   },
   {
    "id": "rome",
@@ -80,8 +84,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇮🇹 Italie"
+   "type": "image",
+   "src": "/packs/flags/it.webp",
+   "prompt": "Capitale de ce pays ? (Italie)"
   },
   {
    "id": "lisbonne",
@@ -95,8 +100,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇵🇹 Portugal"
+   "type": "image",
+   "src": "/packs/flags/pt.webp",
+   "prompt": "Capitale de ce pays ? (Portugal)"
   },
   {
    "id": "bruxelles",
@@ -108,8 +114,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇧🇪 Belgique"
+   "type": "image",
+   "src": "/packs/flags/be.webp",
+   "prompt": "Capitale de ce pays ? (Belgique)"
   },
   {
    "id": "amsterdam",
@@ -121,8 +128,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇳🇱 Pays-Bas"
+   "type": "image",
+   "src": "/packs/flags/nl.webp",
+   "prompt": "Capitale de ce pays ? (Pays-Bas)"
   },
   {
    "id": "berne",
@@ -136,8 +144,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇨🇭 Suisse"
+   "type": "image",
+   "src": "/packs/flags/ch.webp",
+   "prompt": "Capitale de ce pays ? (Suisse)"
   },
   {
    "id": "vienne",
@@ -151,8 +160,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇦🇹 Autriche"
+   "type": "image",
+   "src": "/packs/flags/at.webp",
+   "prompt": "Capitale de ce pays ? (Autriche)"
   },
   {
    "id": "athenes",
@@ -166,8 +176,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇬🇷 Grèce"
+   "type": "image",
+   "src": "/packs/flags/gr.webp",
+   "prompt": "Capitale de ce pays ? (Grèce)"
   },
   {
    "id": "moscou",
@@ -182,8 +193,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇷🇺 Russie"
+   "type": "image",
+   "src": "/packs/flags/ru.webp",
+   "prompt": "Capitale de ce pays ? (Russie)"
   },
   {
    "id": "washington",
@@ -197,8 +209,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇺🇸 États-Unis"
+   "type": "image",
+   "src": "/packs/flags/us.webp",
+   "prompt": "Capitale de ce pays ? (États-Unis)"
   },
   {
    "id": "ottawa",
@@ -210,8 +223,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇨🇦 Canada"
+   "type": "image",
+   "src": "/packs/flags/ca.webp",
+   "prompt": "Capitale de ce pays ? (Canada)"
   },
   {
    "id": "mexico",
@@ -223,8 +237,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇲🇽 Mexique"
+   "type": "image",
+   "src": "/packs/flags/mx.webp",
+   "prompt": "Capitale de ce pays ? (Mexique)"
   },
   {
    "id": "brasilia",
@@ -238,8 +253,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇧🇷 Brésil"
+   "type": "image",
+   "src": "/packs/flags/br.webp",
+   "prompt": "Capitale de ce pays ? (Brésil)"
   },
   {
    "id": "buenos-aires",
@@ -251,8 +267,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇦🇷 Argentine"
+   "type": "image",
+   "src": "/packs/flags/ar.webp",
+   "prompt": "Capitale de ce pays ? (Argentine)"
   },
   {
    "id": "tokyo",
@@ -264,8 +281,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇯🇵 Japon"
+   "type": "image",
+   "src": "/packs/flags/jp.webp",
+   "prompt": "Capitale de ce pays ? (Japon)"
   },
   {
    "id": "pekin",
@@ -280,8 +298,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇨🇳 Chine"
+   "type": "image",
+   "src": "/packs/flags/cn.webp",
+   "prompt": "Capitale de ce pays ? (Chine)"
   },
   {
    "id": "seoul",
@@ -295,8 +314,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇰🇷 Corée du Sud"
+   "type": "image",
+   "src": "/packs/flags/kr.webp",
+   "prompt": "Capitale de ce pays ? (Corée du Sud)"
   },
   {
    "id": "new-delhi",
@@ -310,8 +330,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇮🇳 Inde"
+   "type": "image",
+   "src": "/packs/flags/in.webp",
+   "prompt": "Capitale de ce pays ? (Inde)"
   },
   {
    "id": "canberra",
@@ -323,8 +344,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇦🇺 Australie"
+   "type": "image",
+   "src": "/packs/flags/au.webp",
+   "prompt": "Capitale de ce pays ? (Australie)"
   },
   {
    "id": "le-caire",
@@ -339,8 +361,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇪🇬 Égypte"
+   "type": "image",
+   "src": "/packs/flags/eg.webp",
+   "prompt": "Capitale de ce pays ? (Égypte)"
   },
   {
    "id": "rabat",
@@ -352,8 +375,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇲🇦 Maroc"
+   "type": "image",
+   "src": "/packs/flags/ma.webp",
+   "prompt": "Capitale de ce pays ? (Maroc)"
   },
   {
    "id": "alger",
@@ -365,8 +389,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇩🇿 Algérie"
+   "type": "image",
+   "src": "/packs/flags/dz.webp",
+   "prompt": "Capitale de ce pays ? (Algérie)"
   },
   {
    "id": "tunis",
@@ -378,8 +403,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇹🇳 Tunisie"
+   "type": "image",
+   "src": "/packs/flags/tn.webp",
+   "prompt": "Capitale de ce pays ? (Tunisie)"
   },
   {
    "id": "dakar",
@@ -391,8 +417,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇸🇳 Sénégal"
+   "type": "image",
+   "src": "/packs/flags/sn.webp",
+   "prompt": "Capitale de ce pays ? (Sénégal)"
   },
   {
    "id": "yamoussoukro",
@@ -406,8 +433,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇨🇮 Côte d'Ivoire (capitale officielle)"
+   "type": "image",
+   "src": "/packs/flags/ci.webp",
+   "prompt": "Capitale de ce pays ? (Côte d'Ivoire (capitale officielle))"
   },
   {
    "id": "nairobi",
@@ -419,8 +447,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇰🇪 Kenya"
+   "type": "image",
+   "src": "/packs/flags/ke.webp",
+   "prompt": "Capitale de ce pays ? (Kenya)"
   },
   {
    "id": "pretoria",
@@ -432,8 +461,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇿🇦 Afrique du Sud"
+   "type": "image",
+   "src": "/packs/flags/za.webp",
+   "prompt": "Capitale de ce pays ? (Afrique du Sud)"
   },
   {
    "id": "ankara",
@@ -445,8 +475,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇹🇷 Turquie"
+   "type": "image",
+   "src": "/packs/flags/tr.webp",
+   "prompt": "Capitale de ce pays ? (Turquie)"
   },
   {
    "id": "varsovie",
@@ -461,8 +492,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇵🇱 Pologne"
+   "type": "image",
+   "src": "/packs/flags/pl.webp",
+   "prompt": "Capitale de ce pays ? (Pologne)"
   },
   {
    "id": "stockholm",
@@ -474,8 +506,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇸🇪 Suède"
+   "type": "image",
+   "src": "/packs/flags/se.webp",
+   "prompt": "Capitale de ce pays ? (Suède)"
   },
   {
    "id": "oslo",
@@ -487,8 +520,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇳🇴 Norvège"
+   "type": "image",
+   "src": "/packs/flags/no.webp",
+   "prompt": "Capitale de ce pays ? (Norvège)"
   },
   {
    "id": "copenhague",
@@ -503,8 +537,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇩🇰 Danemark"
+   "type": "image",
+   "src": "/packs/flags/dk.webp",
+   "prompt": "Capitale de ce pays ? (Danemark)"
   },
   {
    "id": "helsinki",
@@ -516,8 +551,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇫🇮 Finlande"
+   "type": "image",
+   "src": "/packs/flags/fi.webp",
+   "prompt": "Capitale de ce pays ? (Finlande)"
   },
   {
    "id": "dublin",
@@ -529,8 +565,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇮🇪 Irlande"
+   "type": "image",
+   "src": "/packs/flags/ie.webp",
+   "prompt": "Capitale de ce pays ? (Irlande)"
   },
   {
    "id": "prague",
@@ -542,8 +579,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇨🇿 Tchéquie"
+   "type": "image",
+   "src": "/packs/flags/cz.webp",
+   "prompt": "Capitale de ce pays ? (Tchéquie)"
   },
   {
    "id": "budapest",
@@ -555,8 +593,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇭🇺 Hongrie"
+   "type": "image",
+   "src": "/packs/flags/hu.webp",
+   "prompt": "Capitale de ce pays ? (Hongrie)"
   },
   {
    "id": "kiev",
@@ -571,8 +610,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇺🇦 Ukraine"
+   "type": "image",
+   "src": "/packs/flags/ua.webp",
+   "prompt": "Capitale de ce pays ? (Ukraine)"
   },
   {
    "id": "bangkok",
@@ -584,8 +624,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇹🇭 Thaïlande"
+   "type": "image",
+   "src": "/packs/flags/th.webp",
+   "prompt": "Capitale de ce pays ? (Thaïlande)"
   },
   {
    "id": "hanoi",
@@ -599,8 +640,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇻🇳 Viêt Nam"
+   "type": "image",
+   "src": "/packs/flags/vn.webp",
+   "prompt": "Capitale de ce pays ? (Viêt Nam)"
   },
   {
    "id": "riyad",
@@ -615,8 +657,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇸🇦 Arabie saoudite"
+   "type": "image",
+   "src": "/packs/flags/sa.webp",
+   "prompt": "Capitale de ce pays ? (Arabie saoudite)"
   },
   {
    "id": "teheran",
@@ -630,8 +673,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇮🇷 Iran"
+   "type": "image",
+   "src": "/packs/flags/ir.webp",
+   "prompt": "Capitale de ce pays ? (Iran)"
   },
   {
    "id": "bagdad",
@@ -646,8 +690,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇮🇶 Irak"
+   "type": "image",
+   "src": "/packs/flags/iq.webp",
+   "prompt": "Capitale de ce pays ? (Irak)"
   },
   {
    "id": "beyrouth",
@@ -662,8 +707,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇱🇧 Liban"
+   "type": "image",
+   "src": "/packs/flags/lb.webp",
+   "prompt": "Capitale de ce pays ? (Liban)"
   },
   {
    "id": "bamako",
@@ -675,8 +721,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇲🇱 Mali"
+   "type": "image",
+   "src": "/packs/flags/ml.webp",
+   "prompt": "Capitale de ce pays ? (Mali)"
   },
   {
    "id": "kinshasa",
@@ -688,8 +735,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇨🇩 RD Congo"
+   "type": "image",
+   "src": "/packs/flags/cd.webp",
+   "prompt": "Capitale de ce pays ? (RD Congo)"
   },
   {
    "id": "lima",
@@ -701,8 +749,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇵🇪 Pérou"
+   "type": "image",
+   "src": "/packs/flags/pe.webp",
+   "prompt": "Capitale de ce pays ? (Pérou)"
   },
   {
    "id": "santiago",
@@ -714,8 +763,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇨🇱 Chili"
+   "type": "image",
+   "src": "/packs/flags/cl.webp",
+   "prompt": "Capitale de ce pays ? (Chili)"
   },
   {
    "id": "bogota",
@@ -727,8 +777,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇨🇴 Colombie"
+   "type": "image",
+   "src": "/packs/flags/co.webp",
+   "prompt": "Capitale de ce pays ? (Colombie)"
   },
   {
    "id": "la-havane",
@@ -743,8 +794,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇨🇺 Cuba"
+   "type": "image",
+   "src": "/packs/flags/cu.webp",
+   "prompt": "Capitale de ce pays ? (Cuba)"
   },
   {
    "id": "reykjavik",
@@ -756,8 +808,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇮🇸 Islande"
+   "type": "image",
+   "src": "/packs/flags/is.webp",
+   "prompt": "Capitale de ce pays ? (Islande)"
   },
   {
    "id": "wellington",
@@ -769,8 +822,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇳🇿 Nouvelle-Zélande"
+   "type": "image",
+   "src": "/packs/flags/nz.webp",
+   "prompt": "Capitale de ce pays ? (Nouvelle-Zélande)"
   },
   {
    "id": "oulan-bator",
@@ -784,8 +838,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇲🇳 Mongolie"
+   "type": "image",
+   "src": "/packs/flags/mn.webp",
+   "prompt": "Capitale de ce pays ? (Mongolie)"
   },
   {
    "id": "abou-dabi",
@@ -799,8 +854,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇦🇪 Émirats arabes unis"
+   "type": "image",
+   "src": "/packs/flags/ae.webp",
+   "prompt": "Capitale de ce pays ? (Émirats arabes unis)"
   },
   {
    "id": "doha",
@@ -812,8 +868,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇶🇦 Qatar"
+   "type": "image",
+   "src": "/packs/flags/qa.webp",
+   "prompt": "Capitale de ce pays ? (Qatar)"
   },
   {
    "id": "amman",
@@ -825,8 +882,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇯🇴 Jordanie"
+   "type": "image",
+   "src": "/packs/flags/jo.webp",
+   "prompt": "Capitale de ce pays ? (Jordanie)"
   },
   {
    "id": "damas",
@@ -838,8 +896,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇸🇾 Syrie"
+   "type": "image",
+   "src": "/packs/flags/sy.webp",
+   "prompt": "Capitale de ce pays ? (Syrie)"
   },
   {
    "id": "kaboul",
@@ -853,8 +912,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇦🇫 Afghanistan"
+   "type": "image",
+   "src": "/packs/flags/af.webp",
+   "prompt": "Capitale de ce pays ? (Afghanistan)"
   },
   {
    "id": "islamabad",
@@ -866,8 +926,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇵🇰 Pakistan"
+   "type": "image",
+   "src": "/packs/flags/pk.webp",
+   "prompt": "Capitale de ce pays ? (Pakistan)"
   },
   {
    "id": "dacca",
@@ -881,21 +942,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇧🇩 Bangladesh"
-  },
-  {
-   "id": "katmandou",
-   "answer": "Katmandou",
-   "exact": [],
-   "difficulty": 3,
-   "tags": [
-    "géographie",
-    "capitales",
-    "difficile"
-   ],
-   "type": "text",
-   "text": "🇳🇵 Népal"
+   "type": "image",
+   "src": "/packs/flags/bd.webp",
+   "prompt": "Capitale de ce pays ? (Bangladesh)"
   },
   {
    "id": "colombo",
@@ -907,8 +956,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇱🇰 Sri Lanka (capitale commerciale)"
+   "type": "image",
+   "src": "/packs/flags/lk.webp",
+   "prompt": "Capitale de ce pays ? (Sri Lanka (capitale commerciale))"
   },
   {
    "id": "kuala-lumpur",
@@ -920,8 +970,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇲🇾 Malaisie"
+   "type": "image",
+   "src": "/packs/flags/my.webp",
+   "prompt": "Capitale de ce pays ? (Malaisie)"
   },
   {
    "id": "singapour",
@@ -935,8 +986,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇸🇬 Singapour"
+   "type": "image",
+   "src": "/packs/flags/sg.webp",
+   "prompt": "Capitale de ce pays ? (Singapour)"
   },
   {
    "id": "jakarta",
@@ -948,8 +1000,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇮🇩 Indonésie"
+   "type": "image",
+   "src": "/packs/flags/id.webp",
+   "prompt": "Capitale de ce pays ? (Indonésie)"
   },
   {
    "id": "manille",
@@ -963,8 +1016,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇵🇭 Philippines"
+   "type": "image",
+   "src": "/packs/flags/ph.webp",
+   "prompt": "Capitale de ce pays ? (Philippines)"
   },
   {
    "id": "taipei",
@@ -976,8 +1030,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇹🇼 Taïwan"
+   "type": "image",
+   "src": "/packs/flags/tw.webp",
+   "prompt": "Capitale de ce pays ? (Taïwan)"
   },
   {
    "id": "pyongyang",
@@ -989,8 +1044,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇰🇵 Corée du Nord"
+   "type": "image",
+   "src": "/packs/flags/kp.webp",
+   "prompt": "Capitale de ce pays ? (Corée du Nord)"
   },
   {
    "id": "luxembourg",
@@ -1002,8 +1058,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇱🇺 Luxembourg"
+   "type": "image",
+   "src": "/packs/flags/lu.webp",
+   "prompt": "Capitale de ce pays ? (Luxembourg)"
   },
   {
    "id": "monaco",
@@ -1015,8 +1072,9 @@
     "capitales",
     "facile"
    ],
-   "type": "text",
-   "text": "🇲🇨 Monaco"
+   "type": "image",
+   "src": "/packs/flags/mc.webp",
+   "prompt": "Capitale de ce pays ? (Monaco)"
   },
   {
    "id": "andorre-la-vieille",
@@ -1030,8 +1088,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇦🇩 Andorre"
+   "type": "image",
+   "src": "/packs/flags/ad.webp",
+   "prompt": "Capitale de ce pays ? (Andorre)"
   },
   {
    "id": "saint-marin",
@@ -1043,8 +1102,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇸🇲 Saint-Marin"
+   "type": "image",
+   "src": "/packs/flags/sm.webp",
+   "prompt": "Capitale de ce pays ? (Saint-Marin)"
   },
   {
    "id": "la-valette",
@@ -1056,8 +1116,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇲🇹 Malte"
+   "type": "image",
+   "src": "/packs/flags/mt.webp",
+   "prompt": "Capitale de ce pays ? (Malte)"
   },
   {
    "id": "bratislava",
@@ -1069,8 +1130,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇸🇰 Slovaquie"
+   "type": "image",
+   "src": "/packs/flags/sk.webp",
+   "prompt": "Capitale de ce pays ? (Slovaquie)"
   },
   {
    "id": "ljubljana",
@@ -1082,8 +1144,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇸🇮 Slovénie"
+   "type": "image",
+   "src": "/packs/flags/si.webp",
+   "prompt": "Capitale de ce pays ? (Slovénie)"
   },
   {
    "id": "zagreb",
@@ -1095,8 +1158,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇭🇷 Croatie"
+   "type": "image",
+   "src": "/packs/flags/hr.webp",
+   "prompt": "Capitale de ce pays ? (Croatie)"
   },
   {
    "id": "belgrade",
@@ -1108,8 +1172,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇷🇸 Serbie"
+   "type": "image",
+   "src": "/packs/flags/rs.webp",
+   "prompt": "Capitale de ce pays ? (Serbie)"
   },
   {
    "id": "sarajevo",
@@ -1121,8 +1186,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇧🇦 Bosnie-Herzégovine"
+   "type": "image",
+   "src": "/packs/flags/ba.webp",
+   "prompt": "Capitale de ce pays ? (Bosnie-Herzégovine)"
   },
   {
    "id": "sofia",
@@ -1134,8 +1200,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇧🇬 Bulgarie"
+   "type": "image",
+   "src": "/packs/flags/bg.webp",
+   "prompt": "Capitale de ce pays ? (Bulgarie)"
   },
   {
    "id": "bucarest",
@@ -1147,8 +1214,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇷🇴 Roumanie"
+   "type": "image",
+   "src": "/packs/flags/ro.webp",
+   "prompt": "Capitale de ce pays ? (Roumanie)"
   },
   {
    "id": "chisinau",
@@ -1162,8 +1230,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇲🇩 Moldavie"
+   "type": "image",
+   "src": "/packs/flags/md.webp",
+   "prompt": "Capitale de ce pays ? (Moldavie)"
   },
   {
    "id": "minsk",
@@ -1175,8 +1244,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇧🇾 Biélorussie"
+   "type": "image",
+   "src": "/packs/flags/by.webp",
+   "prompt": "Capitale de ce pays ? (Biélorussie)"
   },
   {
    "id": "vilnius",
@@ -1188,8 +1258,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇱🇹 Lituanie"
+   "type": "image",
+   "src": "/packs/flags/lt.webp",
+   "prompt": "Capitale de ce pays ? (Lituanie)"
   },
   {
    "id": "riga",
@@ -1201,8 +1272,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇱🇻 Lettonie"
+   "type": "image",
+   "src": "/packs/flags/lv.webp",
+   "prompt": "Capitale de ce pays ? (Lettonie)"
   },
   {
    "id": "tallinn",
@@ -1214,8 +1286,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇪🇪 Estonie"
+   "type": "image",
+   "src": "/packs/flags/ee.webp",
+   "prompt": "Capitale de ce pays ? (Estonie)"
   },
   {
    "id": "tbilissi",
@@ -1229,8 +1302,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇬🇪 Géorgie"
+   "type": "image",
+   "src": "/packs/flags/ge.webp",
+   "prompt": "Capitale de ce pays ? (Géorgie)"
   },
   {
    "id": "erevan",
@@ -1242,8 +1316,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇦🇲 Arménie"
+   "type": "image",
+   "src": "/packs/flags/am.webp",
+   "prompt": "Capitale de ce pays ? (Arménie)"
   },
   {
    "id": "bakou",
@@ -1257,8 +1332,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇦🇿 Azerbaïdjan"
+   "type": "image",
+   "src": "/packs/flags/az.webp",
+   "prompt": "Capitale de ce pays ? (Azerbaïdjan)"
   },
   {
    "id": "astana",
@@ -1270,8 +1346,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇰🇿 Kazakhstan"
+   "type": "image",
+   "src": "/packs/flags/kz.webp",
+   "prompt": "Capitale de ce pays ? (Kazakhstan)"
   },
   {
    "id": "tachkent",
@@ -1283,8 +1360,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇺🇿 Ouzbékistan"
+   "type": "image",
+   "src": "/packs/flags/uz.webp",
+   "prompt": "Capitale de ce pays ? (Ouzbékistan)"
   },
   {
    "id": "accra",
@@ -1296,8 +1374,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇬🇭 Ghana"
+   "type": "image",
+   "src": "/packs/flags/gh.webp",
+   "prompt": "Capitale de ce pays ? (Ghana)"
   },
   {
    "id": "abuja",
@@ -1309,8 +1388,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇳🇬 Nigeria"
+   "type": "image",
+   "src": "/packs/flags/ng.webp",
+   "prompt": "Capitale de ce pays ? (Nigeria)"
   },
   {
    "id": "yaounde",
@@ -1324,8 +1404,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇨🇲 Cameroun"
+   "type": "image",
+   "src": "/packs/flags/cm.webp",
+   "prompt": "Capitale de ce pays ? (Cameroun)"
   },
   {
    "id": "libreville",
@@ -1337,8 +1418,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇬🇦 Gabon"
+   "type": "image",
+   "src": "/packs/flags/ga.webp",
+   "prompt": "Capitale de ce pays ? (Gabon)"
   },
   {
    "id": "brazzaville",
@@ -1350,8 +1432,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇨🇬 Congo"
+   "type": "image",
+   "src": "/packs/flags/cg.webp",
+   "prompt": "Capitale de ce pays ? (Congo)"
   },
   {
    "id": "addis-abeba",
@@ -1365,8 +1448,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇪🇹 Éthiopie"
+   "type": "image",
+   "src": "/packs/flags/et.webp",
+   "prompt": "Capitale de ce pays ? (Éthiopie)"
   },
   {
    "id": "antananarivo",
@@ -1380,8 +1464,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇲🇬 Madagascar"
+   "type": "image",
+   "src": "/packs/flags/mg.webp",
+   "prompt": "Capitale de ce pays ? (Madagascar)"
   },
   {
    "id": "ouagadougou",
@@ -1393,8 +1478,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇧🇫 Burkina Faso"
+   "type": "image",
+   "src": "/packs/flags/bf.webp",
+   "prompt": "Capitale de ce pays ? (Burkina Faso)"
   },
   {
    "id": "niamey",
@@ -1406,8 +1492,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇳🇪 Niger"
+   "type": "image",
+   "src": "/packs/flags/ne.webp",
+   "prompt": "Capitale de ce pays ? (Niger)"
   },
   {
    "id": "conakry",
@@ -1419,8 +1506,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇬🇳 Guinée"
+   "type": "image",
+   "src": "/packs/flags/gn.webp",
+   "prompt": "Capitale de ce pays ? (Guinée)"
   },
   {
    "id": "nouakchott",
@@ -1432,8 +1520,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇲🇷 Mauritanie"
+   "type": "image",
+   "src": "/packs/flags/mr.webp",
+   "prompt": "Capitale de ce pays ? (Mauritanie)"
   },
   {
    "id": "tripoli",
@@ -1445,8 +1534,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇱🇾 Libye"
+   "type": "image",
+   "src": "/packs/flags/ly.webp",
+   "prompt": "Capitale de ce pays ? (Libye)"
   },
   {
    "id": "khartoum",
@@ -1458,8 +1548,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇸🇩 Soudan"
+   "type": "image",
+   "src": "/packs/flags/sd.webp",
+   "prompt": "Capitale de ce pays ? (Soudan)"
   },
   {
    "id": "caracas",
@@ -1471,8 +1562,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇻🇪 Venezuela"
+   "type": "image",
+   "src": "/packs/flags/ve.webp",
+   "prompt": "Capitale de ce pays ? (Venezuela)"
   },
   {
    "id": "quito",
@@ -1484,8 +1576,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇪🇨 Équateur"
+   "type": "image",
+   "src": "/packs/flags/ec.webp",
+   "prompt": "Capitale de ce pays ? (Équateur)"
   },
   {
    "id": "la-paz",
@@ -1497,8 +1590,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇧🇴 Bolivie"
+   "type": "image",
+   "src": "/packs/flags/bo.webp",
+   "prompt": "Capitale de ce pays ? (Bolivie)"
   },
   {
    "id": "montevideo",
@@ -1510,8 +1604,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇺🇾 Uruguay"
+   "type": "image",
+   "src": "/packs/flags/uy.webp",
+   "prompt": "Capitale de ce pays ? (Uruguay)"
   },
   {
    "id": "asuncion",
@@ -1525,8 +1620,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇵🇾 Paraguay"
+   "type": "image",
+   "src": "/packs/flags/py.webp",
+   "prompt": "Capitale de ce pays ? (Paraguay)"
   },
   {
    "id": "kingston",
@@ -1538,8 +1634,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇯🇲 Jamaïque"
+   "type": "image",
+   "src": "/packs/flags/jm.webp",
+   "prompt": "Capitale de ce pays ? (Jamaïque)"
   },
   {
    "id": "port-au-prince",
@@ -1553,8 +1650,9 @@
     "capitales",
     "difficile"
    ],
-   "type": "text",
-   "text": "🇭🇹 Haïti"
+   "type": "image",
+   "src": "/packs/flags/ht.webp",
+   "prompt": "Capitale de ce pays ? (Haïti)"
   },
   {
    "id": "panama",
@@ -1566,8 +1664,9 @@
     "capitales",
     "moyen"
    ],
-   "type": "text",
-   "text": "🇵🇦 Panama"
+   "type": "image",
+   "src": "/packs/flags/pa.webp",
+   "prompt": "Capitale de ce pays ? (Panama)"
   }
  ]
 }

@@ -13,6 +13,8 @@ export default {
       return Response.json({ code });
     }
     if (p === '/api/version') return Response.json((await import('./_gen/version')).VERSION);
+    if (p === '/api/report' && req.method === 'POST') { const b = await req.json<any>().catch(() => ({})); if (b.key && b.reason) await library(env).report(String(b.key), String(b.reason)); return Response.json({ ok: true }); }
+    if (p === '/api/reports') return Response.json(await library(env).reports());
     if (p === '/api/wiki-stats') return Response.json(await library(env).wikiStats());
     if (p === '/api/wiki-check') { // debug: every wiki: image source of built-in packs (page /check)
       const { PACKS } = await import('./packs');

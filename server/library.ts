@@ -19,6 +19,7 @@ export class Library extends DurableObject {
     this.sql.exec(`CREATE TABLE IF NOT EXISTS packs (id TEXT PRIMARY KEY, json TEXT NOT NULL, key TEXT NOT NULL, info TEXT NOT NULL, updated INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
+      CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
       CREATE TABLE IF NOT EXISTS wiki3 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
 
@@ -95,6 +96,12 @@ export class Library extends DurableObject {
     this.sql.exec('INSERT OR REPLACE INTO wiki3 VALUES (?, ?, ?, ?, ?)', src, thumb, 'direct', info, Date.now());
     return thumb;
   }
+
+  /** Players flag a bad question from the reveal screen (🚩). Read with GET /api/reports. */
+  report(key: string, reason: string) {
+    this.sql.exec('INSERT INTO reports (key, reason, n, at) VALUES (?, ?, 1, ?) ON CONFLICT(key, reason) DO UPDATE SET n = n + 1, at = excluded.at', key.slice(0, 120), reason.slice(0, 40), Date.now());
+  }
+  reports() { return this.sql.exec('SELECT key, reason, n, at FROM reports ORDER BY n DESC, at DESC LIMIT 500').toArray(); }
 
   wikiStats() {
     const counts = this.sql.exec<{ kind: string; n: number }>('SELECT kind, COUNT(*) AS n FROM wiki3 GROUP BY kind').toArray();

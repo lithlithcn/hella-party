@@ -1,0 +1,707 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "jeux-par-perso",
+ "name": "Jeux vidéo (par personnage)",
+ "emoji": "🕹️",
+ "prompt": "De quel jeu vient ce personnage ?",
+ "tags": [
+  "jeux vidéo"
+ ],
+ "questions": [
+  {
+   "id": "super-mario",
+   "answer": "Super Mario",
+   "exact": [
+    "mario",
+    "super mario bros"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Mario"
+  },
+  {
+   "id": "super-mario-luigi",
+   "answer": "Super Mario",
+   "exact": [
+    "mario",
+    "super mario"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Luigi",
+   "explain": "C'était Luigi"
+  },
+  {
+   "id": "the-legend-of-zelda",
+   "answer": "The Legend of Zelda",
+   "exact": [
+    "zelda"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Link_(The_Legend_of_Zelda)"
+  },
+  {
+   "id": "pokemon",
+   "answer": "Pokémon",
+   "exact": [
+    "pokemon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Pikachu"
+  },
+  {
+   "id": "sonic",
+   "answer": "Sonic",
+   "exact": [
+    "sonic the hedgehog"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Sonic_the_Hedgehog_(character)"
+  },
+  {
+   "id": "minecraft",
+   "answer": "Minecraft",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Creeper_(Minecraft)"
+  },
+  {
+   "id": "pac-man",
+   "answer": "Pac-Man",
+   "exact": [
+    "pacman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Pac-Man_(character)"
+  },
+  {
+   "id": "kirby",
+   "answer": "Kirby",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Kirby_(character)"
+  },
+  {
+   "id": "donkey-kong",
+   "answer": "Donkey Kong",
+   "exact": [
+    "dk"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Donkey_Kong_(character)"
+  },
+  {
+   "id": "tomb-raider",
+   "answer": "Tomb Raider",
+   "exact": [
+    "lara croft"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Lara_Croft"
+  },
+  {
+   "id": "halo",
+   "answer": "Halo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Master_Chief_(Halo)"
+  },
+  {
+   "id": "god-of-war",
+   "answer": "God of War",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Kratos_(God_of_War)"
+  },
+  {
+   "id": "crash-bandicoot",
+   "answer": "Crash Bandicoot",
+   "exact": [
+    "crash"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Crash_Bandicoot_(character)"
+  },
+  {
+   "id": "spyro",
+   "answer": "Spyro",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Spyro_(character)"
+  },
+  {
+   "id": "rayman",
+   "answer": "Rayman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Rayman_(character)"
+  },
+  {
+   "id": "street-fighter",
+   "answer": "Street Fighter",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Ryu_(Street_Fighter)"
+  },
+  {
+   "id": "mortal-kombat",
+   "answer": "Mortal Kombat",
+   "exact": [
+    "mk"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Scorpion_(Mortal_Kombat)"
+  },
+  {
+   "id": "final-fantasy-vii",
+   "answer": "Final Fantasy VII",
+   "exact": [
+    "final fantasy",
+    "ff7"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Cloud_Strife"
+  },
+  {
+   "id": "metal-gear-solid",
+   "answer": "Metal Gear Solid",
+   "exact": [
+    "metal gear",
+    "mgs"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Solid_Snake"
+  },
+  {
+   "id": "resident-evil",
+   "answer": "Resident Evil",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Leon_S._Kennedy"
+  },
+  {
+   "id": "the-last-of-us",
+   "answer": "The Last of Us",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Ellie_(The_Last_of_Us)"
+  },
+  {
+   "id": "uncharted",
+   "answer": "Uncharted",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Nathan_Drake"
+  },
+  {
+   "id": "portal",
+   "answer": "Portal",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:GLaDOS"
+  },
+  {
+   "id": "half-life",
+   "answer": "Half-Life",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Gordon_Freeman"
+  },
+  {
+   "id": "doom",
+   "answer": "Doom",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Doomguy"
+  },
+  {
+   "id": "animal-crossing",
+   "answer": "Animal Crossing",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Tom_Nook"
+  },
+  {
+   "id": "splatoon",
+   "answer": "Splatoon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Inkling"
+  },
+  {
+   "id": "metroid",
+   "answer": "Metroid",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Samus_Aran"
+  },
+  {
+   "id": "mega-man",
+   "answer": "Mega Man",
+   "exact": [
+    "megaman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Mega_Man_(character)"
+  },
+  {
+   "id": "assassin-s-creed",
+   "answer": "Assassin's Creed",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Ezio_Auditore_da_Firenze"
+  },
+  {
+   "id": "red-dead-redemption-2",
+   "answer": "Red Dead Redemption 2",
+   "exact": [
+    "red dead"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Arthur_Morgan_(Red_Dead)"
+  },
+  {
+   "id": "the-witcher",
+   "answer": "The Witcher",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Geralt_of_Rivia"
+  },
+  {
+   "id": "undertale",
+   "answer": "Undertale",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Sans_(Undertale)"
+  },
+  {
+   "id": "five-nights-at-freddy-s",
+   "answer": "Five Nights at Freddy's",
+   "exact": [
+    "fnaf"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Five_Nights_at_Freddy's"
+  },
+  {
+   "id": "cuphead",
+   "answer": "Cuphead",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Cuphead"
+  },
+  {
+   "id": "bayonetta",
+   "answer": "Bayonetta",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Bayonetta_(character)"
+  },
+  {
+   "id": "devil-may-cry",
+   "answer": "Devil May Cry",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Dante_(Devil_May_Cry)"
+  },
+  {
+   "id": "kingdom-hearts",
+   "answer": "Kingdom Hearts",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Sora_(Kingdom_Hearts)"
+  },
+  {
+   "id": "ratchet-clank",
+   "answer": "Ratchet & Clank",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Ratchet_(Ratchet_&_Clank)"
+  },
+  {
+   "id": "sly-cooper",
+   "answer": "Sly Cooper",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Sly_Cooper_(character)"
+  },
+  {
+   "id": "professeur-layton",
+   "answer": "Professeur Layton",
+   "exact": [
+    "layton"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Professor_Layton_(character)"
+  },
+  {
+   "id": "ace-attorney",
+   "answer": "Ace Attorney",
+   "exact": [
+    "phoenix wright"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Phoenix_Wright"
+  },
+  {
+   "id": "hitman",
+   "answer": "Hitman",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Agent_47"
+  },
+  {
+   "id": "league-of-legends",
+   "answer": "League of Legends",
+   "exact": [
+    "lol"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Jinx_(League_of_Legends)"
+  },
+  {
+   "id": "silent-hill",
+   "answer": "Silent Hill",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Pyramid_Head"
+  },
+  {
+   "id": "super-mario-bowser",
+   "answer": "Super Mario",
+   "exact": [
+    "mario"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Bowser_(character)",
+   "explain": "C'était Bowser"
+  },
+  {
+   "id": "super-mario-yoshi",
+   "answer": "Super Mario",
+   "exact": [
+    "mario"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Yoshi",
+   "explain": "C'était Yoshi"
+  },
+  {
+   "id": "super-mario-wario",
+   "answer": "Super Mario",
+   "exact": [
+    "mario",
+    "warioware"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Wario",
+   "explain": "C'était Wario"
+  },
+  {
+   "id": "pokemon-dracaufeu",
+   "answer": "Pokémon",
+   "exact": [
+    "pokemon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Charizard",
+   "explain": "C'était Dracaufeu"
+  },
+  {
+   "id": "pokemon-mewtwo",
+   "answer": "Pokémon",
+   "exact": [
+    "pokemon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Mewtwo",
+   "explain": "C'était Mewtwo"
+  },
+  {
+   "id": "sonic-tails",
+   "answer": "Sonic",
+   "exact": [
+    "sonic"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Tails_(Sonic_the_Hedgehog)",
+   "explain": "C'était Tails"
+  },
+  {
+   "id": "sonic-eggman",
+   "answer": "Sonic",
+   "exact": [
+    "sonic"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Doctor_Eggman",
+   "explain": "C'était Eggman"
+  },
+  {
+   "id": "final-fantasy-sephiroth",
+   "answer": "Final Fantasy",
+   "exact": [
+    "final fantasy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Sephiroth",
+   "explain": "C'était Sephiroth"
+  },
+  {
+   "id": "tekken",
+   "answer": "Tekken",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Heihachi_Mishima"
+  },
+  {
+   "id": "star-fox",
+   "answer": "Star Fox",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Fox_McCloud"
+  },
+  {
+   "id": "f-zero",
+   "answer": "F-Zero",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Captain_Falcon"
+  },
+  {
+   "id": "earthbound",
+   "answer": "EarthBound",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Ness_(EarthBound)"
+  }
+ ]
+}

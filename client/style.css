@@ -210,3 +210,4 @@ img.avatar { object-fit: cover; display: block; }
 .q-clue { font-size: 1.15em; color: var(--text); background: #0005; padding: .4em .9em; border-radius: 12px; max-width: 600px; }
 .version { opacity: .5; font-size: .75em; }
 .volmenu { position: relative; } .volpop { position: absolute; right: 0; top: 110%; z-index: 50; background: var(--panel2); border: 2px solid var(--line); border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; gap: 8px; min-width: 200px; } .volpop label { display: flex; flex-direction: column; gap: 4px; font-size: .9em; } .volpop input { accent-color: var(--pink); }
+.report { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 6px; }
