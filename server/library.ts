@@ -18,7 +18,8 @@ export class Library extends DurableObject {
     super(ctx, env);
     this.sql.exec(`CREATE TABLE IF NOT EXISTS packs (id TEXT PRIMARY KEY, json TEXT NOT NULL, key TEXT NOT NULL, info TEXT NOT NULL, updated INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
-      CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);`);
+      CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
+      CREATE TABLE IF NOT EXISTS wiki (src TEXT PRIMARY KEY, url TEXT, at INTEGER NOT NULL);`);
   }
 
   // ── RPC (called by Room and the Worker) ──
@@ -49,6 +50,26 @@ export class Library extends DurableObject {
     if (!old || old.key !== key) return { ok: false };
     this.sql.exec('DELETE FROM packs WHERE id = ?', id);
     return { ok: true };
+  }
+
+  /** wiki:Title → image URL, cached for every room (failures retried after a day). */
+  async wiki(src: string): Promise<string | null> {
+    const row = this.sql.exec<{ url: string | null; at: number }>('SELECT url, at FROM wiki WHERE src = ?', src).toArray()[0];
+    if (row && (row.url || Date.now() - row.at < 86_400_000)) return row.url;
+    const m = src.match(/^wiki:(?:([a-z]{2,3}):)?(.+)$/);
+    if (!m) return null;
+    const lang = m[1] ?? 'fr', title = encodeURIComponent(m[2].trim().replace(/ /g, '_'));
+    let url: string | null = null, transient = false;
+    for (const l of [lang, lang === 'fr' ? 'en' : 'fr']) {
+      const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${title}`, { headers: { 'user-agent': 'HellaParty/1.0 (party quiz game between friends)' } }).catch(() => null);
+      if (!r || r.status === 429 || r.status >= 500) { transient = true; continue; }
+      if (!r.ok) continue;
+      const j: any = await r.json().catch(() => null);
+      url = j?.thumbnail?.source?.replace(/\/(\d+)px-/, '/640px-') ?? j?.originalimage?.source ?? null;
+      if (url) break;
+    }
+    if (url || !transient) this.sql.exec('INSERT OR REPLACE INTO wiki (src, url, at) VALUES (?, ?, ?)', src, url, Date.now());
+    return url;
   }
 
   hasMedia(hash: string) { return this.sql.exec('SELECT 1 FROM media_meta WHERE hash = ?', hash).toArray().length > 0; }

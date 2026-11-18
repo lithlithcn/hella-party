@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'preact/hooks';
-import { clipMedia, type QProps, useProgress, visualStyle } from './common';
+import { clipMedia, type QProps, reportMediaError, useProgress, visualStyle } from './common';
 
 export default function Video({ q, phase, clear }: QProps) {
   const ref = useRef<HTMLVideoElement>(null);
@@ -10,7 +10,7 @@ export default function Video({ q, phase, clear }: QProps) {
   const hidden = o.hideVideo && !clear;
   return (
     <div class="q-frame">
-      <video ref={ref} class="q-image" src={q.src} playsInline preload="auto" style={hidden ? { display: 'none' } : v.style} />
+      <video ref={ref} class="q-image" src={q.src} playsInline preload="auto" onError={() => reportMediaError()} style={hidden ? { display: 'none' } : v.style} />
       {hidden && <div class="q-audio-wave">{Array.from({ length: 14 }, (_, i) => <i style={{ animationDelay: `${i * 0.07}s` }} />)}</div>}
     </div>
   );

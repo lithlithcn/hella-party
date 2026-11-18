@@ -2,6 +2,7 @@
 // Pure DOM/CSS (see "impact" section in style.css). strength 0..1.
 const root = document.documentElement;
 let kick = 0;
+const LOW = matchMedia('(pointer: coarse), (max-width: 860px)').matches; // phones: fewer particles
 
 export function impact(strength = 1, origin?: Element | null, color?: string) {
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) strength *= 0.3;
@@ -21,7 +22,7 @@ export function impact(strength = 1, origin?: Element | null, color?: string) {
   layer.style.setProperty('--c', color ?? 'var(--lime)');
   layer.style.setProperty('--s', String(strength));
   let html = '<i class="fx-flash"></i><i class="fx-ring"></i><i class="fx-ring r2"></i>';
-  const n = Math.round(14 + 30 * strength);
+  const n = Math.round((LOW ? 6 : 14) + (LOW ? 10 : 30) * strength);
   for (let i = 0; i < n; i++) {
     const a = Math.random() * Math.PI * 2, d = (120 + Math.random() * 380) * (0.5 + strength);
     html += `<b style="--dx:${(Math.cos(a) * d).toFixed(0)}px;--dy:${(Math.sin(a) * d).toFixed(0)}px;--h:${Math.floor(Math.random() * 360)};--d:${(0.5 + Math.random() * 0.7).toFixed(2)}s"></b>`;

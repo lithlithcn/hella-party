@@ -63,6 +63,8 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - Studio "Publier en ligne" → uploads media (sha-256, dedup) to /api/media/<hash>, then PUT /api/packs/<slug(name)> with a per-device key (localStorage) — same name by someone else is refused.
 - Room fetches the library list (cached 10 s) for the lobby, loads selected library packs at `start` into `game.extra`.
 - Media sources: file in media/, absolute URL, or `wiki:Title` / `wiki:en:Title` = lead image of a Wikipedia article, resolved in the browser (client/question-types/common.ts resolveWiki). Built-in image packs use wiki: (zero repo weight). `/check` page lists broken wiki images.
+- wiki: images are resolved SERVER-side before a question is asked (Room io.prepare → Library.wiki, SQLite cache shared by all rooms). Unresolvable → question skipped; the next question is prepared during the reveal and clients get fx 'preload'. If every connected human reports {t:'mediaError'} the question is replaced silently (engine.mediaError).
+- Perf (mobile): background animates only transform/opacity/filter on its own layers; no backdrop-filter / big blur on phones. Never animate a CSS custom property on :root (restyles the whole page every frame).
 - Avatars: 128px WebP data URL, sent in hello / {t:'avatar'}; Room relays them separately from state (never inside the state snapshot).
 
 ## Debug

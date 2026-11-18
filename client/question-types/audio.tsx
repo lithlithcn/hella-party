@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'preact/hooks';
-import { clipMedia, type QProps } from './common';
+import { clipMedia, type QProps, reportMediaError } from './common';
 
 export default function Audio({ q, clear }: QProps) {
   const ref = useRef<HTMLAudioElement>(null);
@@ -9,7 +9,7 @@ export default function Audio({ q, clear }: QProps) {
   return (
     <div class="q-audio">
       <div class="q-audio-wave" onClick={replay} title="Rejouer">{Array.from({ length: 14 }, (_, i) => <i style={{ animationDelay: `${i * 0.07}s` }} />)}</div>
-      <audio ref={ref} src={q.src} preload="auto" />
+      <audio ref={ref} src={q.src} preload="auto" onError={() => reportMediaError()} />
       <button class="btn ghost small" onClick={replay}>🔁 Réécouter</button>
       {q.text && <div class="q-caption">{q.text}</div>}
     </div>

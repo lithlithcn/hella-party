@@ -23,6 +23,11 @@ export class Room extends DurableObject<Env> {
         queueMicrotask(() => { this.dirty = false; this.flush(); });
       },
       send: (to, msg) => this.send(to, msg),
+      prepare: async q => {
+        if (!q.src?.startsWith('wiki:')) return q;
+        const url = await library(this.env).wiki(q.src);
+        return url ? { ...q, src: url } : null;
+      },
     }));
   }
 
@@ -107,6 +112,7 @@ export class Room extends DurableObject<Env> {
     game.guard(`msg.${m.t}`, () => {
       switch (m.t) {
         case 'answer': return game.answer(id, String(m.text).slice(0, 100));
+        case 'mediaError': return game.mediaError(id);
         case 'chat': {
           const text = String(m.text).trim().slice(0, 300);
           if (text) this.send(null, { t: 'chat', from: id, name: game.players.get(id)?.name ?? '?', text });

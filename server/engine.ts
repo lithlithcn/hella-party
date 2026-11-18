@@ -20,6 +20,8 @@ export interface Player {
 export interface IO {
   sync(): void;                                   // schedule a state broadcast
   send(to: string | null, msg: ServerMsg): void;  // null = everyone
+  /** Make a question playable (e.g. resolve wiki: images). null = unusable → skipped. */
+  prepare?(q: Question): Promise<Question | null>;
 }
 
 export interface QueuedPhase { name: string; ms: number; data?: any; onEnd?: () => void }
@@ -161,7 +163,7 @@ export class Game {
     const packs = this.packQuestions();
     if (!packs.length) return this.fx(this.leaderId, 'error', { msg: 'Aucun pack sélectionné' });
     for (const p of this.list) p.score = 0;
-    this.status = 'playing'; this.round = 0; this.winners = []; this.used.clear(); this.history = []; this.forced = [];
+    this.status = 'playing'; this.round = 0; this.winners = []; this.used.clear(); this.history = []; this.forced = []; this.prepared = null;
     this.initFeatures();
     this.emit('gameStart', {});
     this.nextRound();
@@ -200,9 +202,49 @@ export class Game {
     });
   }
 
-  private startQuestion() {
-    const q = this.forced.shift() ?? this.pick();
+  private prepared: Question | null = null;
+  private mediaFails = new Set<string>();
+
+  /** Next playable question: forced ones first, then the preloaded one, then random picks (unusable ones skipped). */
+  private async nextQuestion(usePrepared = true): Promise<Question | null> {
+    if (usePrepared && !this.forced.length && this.prepared) { const q = this.prepared; this.prepared = null; return q; }
+    for (let i = 0; i < 10; i++) {
+      const c = this.forced.shift() ?? this.pick();
+      if (!c) return null;
+      const ok = this.io.prepare ? await this.io.prepare(c).catch(() => c) : c;
+      if (ok) return ok;
+      this.record('skip', { key: c.key, src: c.src });
+    }
+    return null;
+  }
+
+  /** During the reveal, pick + resolve the next question and tell clients to preload its image. */
+  private async prepareNext() {
+    if (this.forced.length) return;
+    const q = await this.nextQuestion(false);
+    if (this.status !== 'playing' || !q) return;
+    this.prepared = q;
+    if (q.type === 'image' && q.src) this.fx(null, 'preload', { src: q.src });
+  }
+
+  /** Every connected human failed to load the media → replace the question silently. */
+  mediaError(id: string) {
+    if (this.phase?.name !== 'question' || !this.question) return;
+    this.mediaFails.add(id);
+    const humans = this.humans.filter(h => h.connected);
+    if (!humans.every(h => this.mediaFails.has(h.id))) return;
+    this.record('skip', { key: this.question.key, reason: 'media failed on clients' });
+    for (const [pid, f] of this.found) { const p = this.players.get(pid); if (p) p.score -= f.points; }
+    this.round--; this.history.pop();
+    this.clearPhase();
+    this.startQuestion();
+  }
+
+  private async startQuestion() {
+    const q = await this.nextQuestion();
+    if (this.status !== 'playing') return;
     if (!q) return this.endGame();
+    this.mediaFails.clear();
     this.question = q; this.round++; this.history.push(q); this.found.clear(); this.guesses.clear();
     this.setPhase('question', (q.time || this.setting<number>('answerTime')) * 1000, undefined, () => this.endQuestion());
     this.emit('questionStart', {});
@@ -219,6 +261,7 @@ export class Game {
     const names = this.reveal.finders.map(f => `${this.players.get(f.id)?.name ?? '?'} (${(f.ms / 1000).toFixed(1)} s)`);
     this.chat(`✅ ${q.answer}${names.length ? ` — trouvé par ${names.join(', ')}` : ' — personne n\'a trouvé'}`);
     this.setPhase('reveal', this.setting<number>('revealTime') * 1000, undefined, () => this.nextRound());
+    this.prepareNext();
   }
 
   pack(id: string) { return PACKS[id] ?? this.extra[id]; }

@@ -41,6 +41,9 @@ export function resolveWiki(src: string): Promise<string | undefined> {
   }
   return p;
 }
+/** Tell the server this client can't show the media (if nobody can, the question is skipped). */
+export const reportMediaError = () => import('../store').then(m => m.send({ t: 'mediaError' }));
+
 export const isWiki = (src?: string) => !!src && src.startsWith('wiki:');
 
 /** Media URL, resolving wiki: sources. */

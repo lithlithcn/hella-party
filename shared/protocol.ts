@@ -71,6 +71,7 @@ export type ClientMsg =
   | { t: 'hello'; id: string; name: string; avatar?: string }
   | { t: 'avatar'; data: string | null }
   | { t: 'packs' }  // refresh the pack list (library)
+  | { t: 'mediaError' } // this client could not load the question's media
   | { t: 'answer'; text: string }
   | { t: 'chat'; text: string }
   | { t: 'start' }

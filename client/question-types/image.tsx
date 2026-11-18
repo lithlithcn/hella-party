@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { type QProps, useProgress, useSrc, visualStyle } from './common';
+import { type QProps, reportMediaError, useProgress, useSrc, visualStyle } from './common';
 
 export default function Image({ q, phase, clear }: QProps) {
   const o = q.opts ?? {};
@@ -7,14 +7,17 @@ export default function Image({ q, phase, clear }: QProps) {
   const v = visualStyle(o, progress, clear);
   const src = useSrc(q.src);
   const [fallback, setFallback] = useState(false);
-  if (src === null) return <div class="q-frame q-loading">🖼️❓<small>Image indisponible{q.hint ? '' : ' — devine avec la catégorie !'}</small></div>;
+  const [dead, setDead] = useState(false);
+  useEffect(() => { setFallback(false); setDead(false); }, [src]);
+  useEffect(() => { if (src === null) reportMediaError(); }, [src]);
+  if (src === null || dead) return <div class="q-frame q-loading">🖼️❓<small>Image indisponible{q.hint ? '' : ' — devine avec la catégorie !'}</small></div>;
   if (!src) return <div class="q-frame q-loading">⏳</div>;
   const url = fallback ? src.replace(/\/640px-/, '/330px-') : src;
   return (
     <div class="q-frame q-frame-col">
       {v.pixel > 0.01
         ? <Pixelated src={url} amount={v.pixel} style={v.style} />
-        : <img class="q-image" src={url} alt="" draggable={false} style={v.style} onError={() => !fallback && setFallback(true)} />}
+        : <img class="q-image" src={url} alt="" draggable={false} style={v.style} onError={() => { if (!fallback && /\/640px-/.test(src)) setFallback(true); else { setDead(true); reportMediaError(); } }} />}
       {q.text && <div class="q-caption q-caption-over">{q.text}</div>}
     </div>
   );
