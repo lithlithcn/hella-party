@@ -60,7 +60,8 @@ export class Game {
   settings: Record<string, any> = Object.fromEntries(SETTING_DEFS.map(d => [d.key, d.default]));
   question: Question | null = null;
   found = new Map<string, Found>();
-  guesses = new Map<string, string>();
+  /** Speech bubble under each card: wrong guesses, and free messages once found / during the reveal (`after`). */
+  guesses = new Map<string, { text: string; after: boolean }>();
   /** Library packs loaded for this room (by Room before start). */
   extra: Record<string, import('./packs').Pack> = {};
   /** Ids of library packs that may be selected. */
@@ -310,15 +311,34 @@ export class Game {
   }
 
   // ───────────── answers ─────────────
+  private visibleGuess(pid: string, viewer: string | null) {
+    const g = this.guesses.get(pid);
+    if (!g) return undefined;
+    // no spoilers: a finder's messages stay hidden from players who haven't found yet (until the reveal)
+    if (g.after && this.phase?.name === 'question' && pid !== viewer && !(viewer && this.found.has(viewer))) return undefined;
+    return g.text;
+  }
+
+  /** Free text in the player's bubble (after finding, or during the reveal). Hidden from players still searching. */
+  say(id: string, text: string) {
+    const ph = this.phase?.name;
+    if (!this.players.get(id) || (ph !== 'reveal' && !(ph === 'question' && this.found.has(id)))) return;
+    const t = text.trim().slice(0, 120);
+    if (!t) return;
+    this.guesses.set(id, { text: t, after: true });
+    this.io.sync();
+  }
+
   answer(id: string, text: string) {
     const p = this.players.get(id);
     const q = this.question;
     if (!p || !q || this.phase?.name !== 'question') return;
-    const grade = judge(text, q);
     const prev = this.found.get(id);
+    if (prev?.grade === 'exact') return this.say(id, text); // already found: the answer box becomes a bubble
+    const grade = judge(text, q);
     if (!grade) {
       this.fx(id, 'answer', { ok: false });
-      if (!this.found.has(id)) this.guesses.set(id, text.trim().slice(0, 40));
+      this.guesses.set(id, { text: text.trim().slice(0, 120), after: !!prev });
       this.emit('wrongAnswer', { player: p, text });
       this.io.sync();
       return;
@@ -379,7 +399,7 @@ export class Game {
       players: this.list.map(p => ({
         id: p.id, name: p.name, score: p.score, connected: p.connected, bot: p.bot,
         leader: p.id === this.leaderId, found: this.found.get(p.id) ?? null,
-        guess: this.guesses.get(p.id), av: this.avatarVersion.get(p.id),
+        guess: this.visibleGuess(p.id, me), av: this.avatarVersion.get(p.id),
       })),
       settings: this.settings, winners: this.winners, f,
     };

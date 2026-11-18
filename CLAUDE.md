@@ -67,6 +67,7 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - Perf (must run on the weakest phones): static background; correct answer = white flash (opacity) + hue-rotate +15° (client/ui/fx.ts). No backdrop-filter, no blur filters, no infinite animations, never animate a custom property on :root. Timer bar = one CSS animation; unblur/unzoom = one CSS transition; JS-stepped effects (pixelate/spotlight) at 4 fps max.
 - Room setting `mediaEffects` (bool) strips zoom/blur/pixel/reveal opts from questions.
 - Answer box is a <form> (Enter on phones submits, focus stays); during the reveal it collapses and focus moves to the chat input BEFORE render (store.focusHandoff) so the phone keyboard stays open.
+- Bubbles under player cards (engine.guesses): wrong guesses; once a player has the exact answer the answer box sends `say` (shown only to finders until the reveal); during the reveal chat lines also go to the bubble. 3 lines max (line-clamp).
 - Chat: player messages get a server id; `{t:'chat', reply:id}` quotes a recent one (Room keeps last 200). Name colour = hue(playerId).
 - Big rooms (>8 sockets): state snapshots are batched every 40 ms (50 players answering at once = 1 snapshot, not 50).
 - Avatars: 128px WebP data URL, sent in hello / {t:'avatar'}; Room relays them separately from state (never inside the state snapshot).

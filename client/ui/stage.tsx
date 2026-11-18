@@ -145,7 +145,7 @@ function AnswerBox({ s }: { s: PublicState }) {
   return (
     <form class={`answer ${fb} ${open ? '' : 'collapsed'}`} onSubmit={submit} onAnimationEnd={() => setFb(x => (x === 'bad' ? '' : x))}>
       <input ref={ref} onKeyDown={onKey} autocomplete="off" autocapitalize="off" autoCorrect="off" spellcheck={false} maxLength={100} enterKeyHint="send"
-        tabIndex={open ? 0 : -1} placeholder={done ? 'Trouvé ! ✓' : 'Tape ta réponse…'} />
+        tabIndex={open ? 0 : -1} placeholder={done ? 'Trouvé ✓ — écris un message…' : 'Tape ta réponse…'} />
     </form>
   );
 }

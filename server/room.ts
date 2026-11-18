@@ -120,6 +120,7 @@ export class Room extends DurableObject<Env> {
         case 'chat': {
           const text = String(m.text).trim().slice(0, 300);
           if (!text) return;
+          if (game.phase?.name === 'reveal') game.say(id, text); // during the reveal, chat also shows in the bubble
           const msg = { id: ++this.chatSeq, from: id, name: game.players.get(id)?.name ?? '?', text };
           const q = typeof m.reply === 'number' ? this.chatLog.get(m.reply) : undefined;
           this.chatLog.set(msg.id, msg); if (this.chatLog.size > 200) this.chatLog.delete(this.chatLog.keys().next().value!);
