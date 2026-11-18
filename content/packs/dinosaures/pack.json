@@ -1,0 +1,370 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "dinosaures",
+ "name": "Dinosaures & préhistoire",
+ "emoji": "🦖",
+ "prompt": "Quel animal préhistorique ?",
+ "tags": [
+  "animaux",
+  "dinosaures"
+ ],
+ "questions": [
+  {
+   "id": "tyrannosaure",
+   "answer": "Tyrannosaure",
+   "exact": [
+    "t rex",
+    "tyrannosaurus rex",
+    "trex"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Tyrannosaurus"
+  },
+  {
+   "id": "triceratops",
+   "answer": "Tricératops",
+   "exact": [
+    "triceratops"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Triceratops"
+  },
+  {
+   "id": "velociraptor",
+   "answer": "Vélociraptor",
+   "exact": [
+    "raptor",
+    "velociraptor"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Velociraptor"
+  },
+  {
+   "id": "brachiosaure",
+   "answer": "Brachiosaure",
+   "exact": [
+    "brachiosaurus"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Brachiosaurus"
+  },
+  {
+   "id": "stegosaure",
+   "answer": "Stégosaure",
+   "exact": [
+    "stegosaurus"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Stegosaurus"
+  },
+  {
+   "id": "pteranodon",
+   "answer": "Ptéranodon",
+   "exact": [
+    "pteranodon",
+    "pterodactyle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Pteranodon"
+  },
+  {
+   "id": "diplodocus",
+   "answer": "Diplodocus",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Diplodocus"
+  },
+  {
+   "id": "ankylosaure",
+   "answer": "Ankylosaure",
+   "exact": [
+    "ankylosaurus"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Ankylosaurus"
+  },
+  {
+   "id": "spinosaure",
+   "answer": "Spinosaure",
+   "exact": [
+    "spinosaurus"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Spinosaurus"
+  },
+  {
+   "id": "parasaurolophus",
+   "answer": "Parasaurolophus",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Parasaurolophus"
+  },
+  {
+   "id": "allosaure",
+   "answer": "Allosaure",
+   "exact": [
+    "allosaurus"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Allosaurus"
+  },
+  {
+   "id": "mammouth",
+   "answer": "Mammouth",
+   "exact": [
+    "mammouth laineux"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Woolly_mammoth"
+  },
+  {
+   "id": "tigre-a-dents-de-sabre",
+   "answer": "Tigre à dents de sabre",
+   "exact": [
+    "smilodon",
+    "dents de sabre"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Smilodon"
+  },
+  {
+   "id": "mosasaure",
+   "answer": "Mosasaure",
+   "exact": [
+    "mosasaurus"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Mosasaurus"
+  },
+  {
+   "id": "megalodon",
+   "answer": "Mégalodon",
+   "exact": [
+    "megalodon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Megalodon"
+  },
+  {
+   "id": "dimetrodon",
+   "answer": "Dimétrodon",
+   "exact": [
+    "dimetrodon"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Dimetrodon"
+  },
+  {
+   "id": "pachycephalosaure",
+   "answer": "Pachycéphalosaure",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Pachycephalosaurus"
+  },
+  {
+   "id": "iguanodon",
+   "answer": "Iguanodon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Iguanodon"
+  },
+  {
+   "id": "archeopteryx",
+   "answer": "Archéoptéryx",
+   "exact": [
+    "archeopteryx"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Archaeopteryx"
+  },
+  {
+   "id": "dilophosaure",
+   "answer": "Dilophosaure",
+   "exact": [
+    "dilophosaurus"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Dilophosaurus"
+  },
+  {
+   "id": "ammonite",
+   "answer": "Ammonite",
+   "exact": [
+    "ammonites"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Ammonoidea"
+  },
+  {
+   "id": "trilobite",
+   "answer": "Trilobite",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Trilobite"
+  },
+  {
+   "id": "rhinoceros-laineux",
+   "answer": "Rhinocéros laineux",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Woolly_rhinoceros"
+  },
+  {
+   "id": "carnotaure",
+   "answer": "Carnotaure",
+   "exact": [
+    "carnotaurus"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "difficile"
+   ],
+   "src": "wiki:en:Carnotaurus"
+  },
+  {
+   "id": "plesiosaure",
+   "answer": "Plésiosaure",
+   "exact": [
+    "plesiosaure"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "moyen"
+   ],
+   "src": "wiki:en:Plesiosauria"
+  },
+  {
+   "id": "fossile",
+   "answer": "Fossile",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "animaux",
+    "dinosaures",
+    "facile"
+   ],
+   "src": "wiki:en:Fossil"
+  }
+ ]
+}

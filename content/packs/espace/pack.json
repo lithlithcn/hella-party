@@ -1,0 +1,553 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "espace",
+ "name": "Espace & astronomie",
+ "emoji": "🪐",
+ "prompt": "C'est quoi ?",
+ "tags": [
+  "espace",
+  "sciences"
+ ],
+ "questions": [
+  {
+   "id": "soleil",
+   "answer": "Soleil",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Sun"
+  },
+  {
+   "id": "lune",
+   "answer": "Lune",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Moon"
+  },
+  {
+   "id": "terre",
+   "answer": "Terre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Earth"
+  },
+  {
+   "id": "mars",
+   "answer": "Mars",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Mars"
+  },
+  {
+   "id": "jupiter",
+   "answer": "Jupiter",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Jupiter"
+  },
+  {
+   "id": "saturne",
+   "answer": "Saturne",
+   "exact": [
+    "saturne"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Saturn"
+  },
+  {
+   "id": "venus",
+   "answer": "Vénus",
+   "exact": [
+    "venus"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Venus"
+  },
+  {
+   "id": "mercure",
+   "answer": "Mercure",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Mercury_(planet)"
+  },
+  {
+   "id": "uranus",
+   "answer": "Uranus",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Uranus"
+  },
+  {
+   "id": "neptune",
+   "answer": "Neptune",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Neptune"
+  },
+  {
+   "id": "pluton",
+   "answer": "Pluton",
+   "exact": [
+    "pluton"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Pluto"
+  },
+  {
+   "id": "station-spatiale-internationale",
+   "answer": "Station spatiale internationale",
+   "exact": [
+    "iss",
+    "station spatiale"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:International_Space_Station"
+  },
+  {
+   "id": "telescope-hubble",
+   "answer": "Télescope Hubble",
+   "exact": [
+    "hubble"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Hubble_Space_Telescope"
+  },
+  {
+   "id": "voie-lactee",
+   "answer": "Voie lactée",
+   "exact": [
+    "voie lactee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Milky_Way"
+  },
+  {
+   "id": "trou-noir",
+   "answer": "Trou noir",
+   "exact": [
+    "trou noir"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Black_hole"
+  },
+  {
+   "id": "comete",
+   "answer": "Comète",
+   "exact": [
+    "comete"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Comet"
+  },
+  {
+   "id": "fusee",
+   "answer": "Fusée",
+   "exact": [
+    "fusee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Rocket"
+  },
+  {
+   "id": "navette-spatiale",
+   "answer": "Navette spatiale",
+   "exact": [
+    "navette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Space_Shuttle"
+  },
+  {
+   "id": "astronaute",
+   "answer": "Astronaute",
+   "exact": [
+    "cosmonaute"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Astronaut"
+  },
+  {
+   "id": "meteorite",
+   "answer": "Météorite",
+   "exact": [
+    "meteorite"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Meteorite"
+  },
+  {
+   "id": "galaxie-d-andromede",
+   "answer": "Galaxie d'Andromède",
+   "exact": [
+    "andromede"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Andromeda_Galaxy"
+  },
+  {
+   "id": "nebuleuse",
+   "answer": "Nébuleuse",
+   "exact": [
+    "nebuleuse"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Nebula"
+  },
+  {
+   "id": "ceinture-d-asteroides",
+   "answer": "Ceinture d'astéroïdes",
+   "exact": [
+    "asteroides"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Asteroid_belt"
+  },
+  {
+   "id": "rover-martien",
+   "answer": "Rover martien",
+   "exact": [
+    "curiosity"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Curiosity_(rover)"
+  },
+  {
+   "id": "spoutnik",
+   "answer": "Spoutnik",
+   "exact": [
+    "sputnik"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Sputnik_1"
+  },
+  {
+   "id": "apollo-11",
+   "answer": "Apollo 11",
+   "exact": [
+    "apollo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Apollo_11"
+  },
+  {
+   "id": "falcon-9",
+   "answer": "Falcon 9",
+   "exact": [
+    "spacex"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Falcon_9"
+  },
+  {
+   "id": "james-webb",
+   "answer": "James Webb",
+   "exact": [
+    "jwst",
+    "telescope james webb"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:James_Webb_Space_Telescope"
+  },
+  {
+   "id": "satellite",
+   "answer": "Satellite",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Satellite"
+  },
+  {
+   "id": "etoile-filante",
+   "answer": "Étoile filante",
+   "exact": [
+    "etoile filante"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Meteoroid"
+  },
+  {
+   "id": "grande-ourse",
+   "answer": "Grande Ourse",
+   "exact": [
+    "grande ourse"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Ursa_Major"
+  },
+  {
+   "id": "constellation-d-orion",
+   "answer": "Constellation d'Orion",
+   "exact": [
+    "orion"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Orion_(constellation)"
+  },
+  {
+   "id": "eclipse-lunaire",
+   "answer": "Éclipse lunaire",
+   "exact": [
+    "eclipse de lune"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Lunar_eclipse"
+  },
+  {
+   "id": "anneaux-de-saturne",
+   "answer": "Anneaux de Saturne",
+   "exact": [
+    "anneaux"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Rings_of_Saturn"
+  },
+  {
+   "id": "grande-tache-rouge",
+   "answer": "Grande Tache rouge",
+   "exact": [
+    "tache rouge"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Great_Red_Spot"
+  },
+  {
+   "id": "big-bang",
+   "answer": "Big Bang",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "espace",
+    "sciences",
+    "facile"
+   ],
+   "src": "wiki:en:Big_Bang"
+  },
+  {
+   "id": "supernova",
+   "answer": "Supernova",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "espace",
+    "sciences",
+    "moyen"
+   ],
+   "src": "wiki:en:Supernova"
+  },
+  {
+   "id": "exoplanete",
+   "answer": "Exoplanète",
+   "exact": [
+    "exoplanete"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Exoplanet"
+  },
+  {
+   "id": "tchouri",
+   "answer": "Tchouri",
+   "exact": [
+    "67p"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:67P/Churyumov–Gerasimenko"
+  },
+  {
+   "id": "olympus-mons",
+   "answer": "Olympus Mons",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "espace",
+    "sciences",
+    "difficile"
+   ],
+   "src": "wiki:en:Olympus_Mons"
+  }
+ ]
+}

@@ -155,7 +155,8 @@
     "internet",
     "difficile"
    ],
-   "src": "wiki:en:Dat_Boi"
+   "type": "text",
+   "text": "« Here come … » : une grenouille sur un monocycle"
   },
   {
    "id": "moo-deng",
@@ -249,7 +250,8 @@
     "internet",
     "facile"
    ],
-   "src": "wiki:en:Stonks"
+   "type": "text",
+   "text": "Un bonhomme en costume devant une flèche de bourse qui monte (faute d'orthographe volontaire)"
   },
   {
    "id": "amogus",

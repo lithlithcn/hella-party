@@ -309,7 +309,7 @@
     "géographie",
     "facile"
    ],
-   "src": "wiki:Christ_Rédempteur_(Rio_de_Janeiro)"
+   "src": "wiki:en:Christ_the_Redeemer_(statue)"
   },
   {
    "id": "louvre",
@@ -439,13 +439,13 @@
    "id": "pont-du-gard",
    "answer": "Pont du Gard",
    "exact": [],
-   "difficulty": 1,
+   "difficulty": 2,
    "tags": [
     "monuments",
     "géographie",
     "facile"
    ],
-   "src": "wiki:2"
+   "src": "wiki:Pont_du_Gard"
   },
   {
    "id": "petra",

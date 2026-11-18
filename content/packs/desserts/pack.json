@@ -1,0 +1,678 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "desserts",
+ "name": "Desserts & pâtisseries",
+ "emoji": "🍰",
+ "prompt": "Quel dessert ?",
+ "tags": [
+  "bouffe",
+  "desserts"
+ ],
+ "questions": [
+  {
+   "id": "tarte-aux-pommes",
+   "answer": "Tarte aux pommes",
+   "exact": [
+    "tarte aux pommes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Apple_pie"
+  },
+  {
+   "id": "fondant-au-chocolat",
+   "answer": "Fondant au chocolat",
+   "exact": [
+    "gateau au chocolat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Chocolate_cake"
+  },
+  {
+   "id": "mousse-au-chocolat",
+   "answer": "Mousse au chocolat",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Chocolate_mousse"
+  },
+  {
+   "id": "creme-brulee",
+   "answer": "Crème brûlée",
+   "exact": [
+    "creme brulee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Crème_brûlée"
+  },
+  {
+   "id": "tiramisu",
+   "answer": "Tiramisu",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Tiramisu"
+  },
+  {
+   "id": "macaron",
+   "answer": "Macaron",
+   "exact": [
+    "macarons"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Macaron"
+  },
+  {
+   "id": "eclair",
+   "answer": "Éclair",
+   "exact": [
+    "eclair"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Éclair"
+  },
+  {
+   "id": "paris-brest",
+   "answer": "Paris-Brest",
+   "exact": [
+    "paris brest"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Paris–Brest"
+  },
+  {
+   "id": "mille-feuille",
+   "answer": "Mille-feuille",
+   "exact": [
+    "millefeuille"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Mille-feuille"
+  },
+  {
+   "id": "profiteroles",
+   "answer": "Profiteroles",
+   "exact": [
+    "profiterole"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Profiterole"
+  },
+  {
+   "id": "crepe",
+   "answer": "Crêpe",
+   "exact": [
+    "crepe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Crêpe"
+  },
+  {
+   "id": "gaufre",
+   "answer": "Gaufre",
+   "exact": [
+    "gaufres"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Waffle"
+  },
+  {
+   "id": "churros",
+   "answer": "Churros",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Churro"
+  },
+  {
+   "id": "donut",
+   "answer": "Donut",
+   "exact": [
+    "beignet",
+    "doughnut"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Doughnut"
+  },
+  {
+   "id": "cupcake",
+   "answer": "Cupcake",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Cupcake"
+  },
+  {
+   "id": "muffin",
+   "answer": "Muffin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Muffin"
+  },
+  {
+   "id": "cookie",
+   "answer": "Cookie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Chocolate_chip_cookie"
+  },
+  {
+   "id": "brownie",
+   "answer": "Brownie",
+   "exact": [
+    "brownies"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Chocolate_brownie"
+  },
+  {
+   "id": "cheesecake",
+   "answer": "Cheesecake",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Cheesecake"
+  },
+  {
+   "id": "pancakes",
+   "answer": "Pancakes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Pancake"
+  },
+  {
+   "id": "glace",
+   "answer": "Glace",
+   "exact": [
+    "creme glacee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Ice_cream"
+  },
+  {
+   "id": "sorbet",
+   "answer": "Sorbet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Sorbet"
+  },
+  {
+   "id": "banana-split",
+   "answer": "Banana split",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Banana_split"
+  },
+  {
+   "id": "ile-flottante",
+   "answer": "Île flottante",
+   "exact": [
+    "ile flottante"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Floating_island_(dessert)"
+  },
+  {
+   "id": "creme-caramel",
+   "answer": "Crème caramel",
+   "exact": [
+    "flan"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Crème_caramel"
+  },
+  {
+   "id": "tarte-au-citron",
+   "answer": "Tarte au citron",
+   "exact": [
+    "tarte citron meringuee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Lemon_tart"
+  },
+  {
+   "id": "foret-noire",
+   "answer": "Forêt-Noire",
+   "exact": [
+    "foret noire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Black_Forest_gâteau"
+  },
+  {
+   "id": "fraisier",
+   "answer": "Fraisier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Fraisier"
+  },
+  {
+   "id": "opera",
+   "answer": "Opéra",
+   "exact": [
+    "gateau opera"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Opera_cake"
+  },
+  {
+   "id": "kouign-amann",
+   "answer": "Kouign-amann",
+   "exact": [
+    "kouign amann"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Kouign-amann"
+  },
+  {
+   "id": "canele",
+   "answer": "Canelé",
+   "exact": [
+    "canele"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Canelé"
+  },
+  {
+   "id": "madeleine",
+   "answer": "Madeleine",
+   "exact": [
+    "madeleines"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Madeleine_(cake)"
+  },
+  {
+   "id": "financier",
+   "answer": "Financier",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Financier_(cake)"
+  },
+  {
+   "id": "baba-au-rhum",
+   "answer": "Baba au rhum",
+   "exact": [
+    "baba"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Rum_baba"
+  },
+  {
+   "id": "saint-honore",
+   "answer": "Saint-Honoré",
+   "exact": [
+    "saint honore"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Gâteau_St._Honoré"
+  },
+  {
+   "id": "galette-des-rois",
+   "answer": "Galette des rois",
+   "exact": [
+    "galette"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:King_cake"
+  },
+  {
+   "id": "buche-de-noel",
+   "answer": "Bûche de Noël",
+   "exact": [
+    "buche de noel"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Yule_log_(cake)"
+  },
+  {
+   "id": "baklava",
+   "answer": "Baklava",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Baklava"
+  },
+  {
+   "id": "mochi",
+   "answer": "Mochi",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Mochi"
+  },
+  {
+   "id": "panna-cotta",
+   "answer": "Panna cotta",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Panna_cotta"
+  },
+  {
+   "id": "cannoli",
+   "answer": "Cannoli",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Cannoli"
+  },
+  {
+   "id": "pastel-de-nata",
+   "answer": "Pastel de nata",
+   "exact": [
+    "pasteis de nata"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Pastel_de_nata"
+  },
+  {
+   "id": "strudel",
+   "answer": "Strudel",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Strudel"
+  },
+  {
+   "id": "pavlova",
+   "answer": "Pavlova",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Pavlova_(cake)"
+  },
+  {
+   "id": "tarte-tatin",
+   "answer": "Tarte Tatin",
+   "exact": [
+    "tatin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Tarte_Tatin"
+  },
+  {
+   "id": "crumble",
+   "answer": "Crumble",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Crumble"
+  },
+  {
+   "id": "riz-au-lait",
+   "answer": "Riz au lait",
+   "exact": [
+    "riz au lait"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Rice_pudding"
+  },
+  {
+   "id": "barbe-a-papa",
+   "answer": "Barbe à papa",
+   "exact": [
+    "barbe a papa"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Cotton_candy"
+  },
+  {
+   "id": "pomme-d-amour",
+   "answer": "Pomme d'amour",
+   "exact": [
+    "pomme d amour"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "facile"
+   ],
+   "src": "wiki:en:Candy_apple"
+  },
+  {
+   "id": "chouquette",
+   "answer": "Chouquette",
+   "exact": [
+    "chouquettes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "desserts",
+    "moyen"
+   ],
+   "src": "wiki:en:Chouquette"
+  }
+ ]
+}

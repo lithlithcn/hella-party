@@ -1,0 +1,428 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "consoles",
+ "name": "Consoles de jeu",
+ "emoji": "🎮",
+ "prompt": "Quelle console ?",
+ "tags": [
+  "jeux vidéo",
+  "consoles"
+ ],
+ "questions": [
+  {
+   "id": "nintendo-switch",
+   "answer": "Nintendo Switch",
+   "exact": [
+    "switch"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_Switch"
+  },
+  {
+   "id": "nintendo-switch-2",
+   "answer": "Nintendo Switch 2",
+   "exact": [
+    "switch 2"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_Switch_2"
+  },
+  {
+   "id": "playstation-5",
+   "answer": "PlayStation 5",
+   "exact": [
+    "ps5"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation_5"
+  },
+  {
+   "id": "playstation-4",
+   "answer": "PlayStation 4",
+   "exact": [
+    "ps4"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation_4"
+  },
+  {
+   "id": "playstation-3",
+   "answer": "PlayStation 3",
+   "exact": [
+    "ps3"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation_3"
+  },
+  {
+   "id": "playstation-2",
+   "answer": "PlayStation 2",
+   "exact": [
+    "ps2"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation_2"
+  },
+  {
+   "id": "playstation",
+   "answer": "PlayStation",
+   "exact": [
+    "ps1",
+    "psx",
+    "playstation 1"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation_(console)"
+  },
+  {
+   "id": "xbox-series-x",
+   "answer": "Xbox Series X",
+   "exact": [
+    "series x",
+    "xbox series"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Xbox_Series_X_and_Series_S"
+  },
+  {
+   "id": "xbox-one",
+   "answer": "Xbox One",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Xbox_One"
+  },
+  {
+   "id": "xbox-360",
+   "answer": "Xbox 360",
+   "exact": [
+    "360"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Xbox_360"
+  },
+  {
+   "id": "xbox",
+   "answer": "Xbox",
+   "exact": [
+    "xbox originale"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Xbox_(console)"
+  },
+  {
+   "id": "wii",
+   "answer": "Wii",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Wii"
+  },
+  {
+   "id": "wii-u",
+   "answer": "Wii U",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Wii_U"
+  },
+  {
+   "id": "gamecube",
+   "answer": "GameCube",
+   "exact": [
+    "gamecube"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:GameCube"
+  },
+  {
+   "id": "nintendo-64",
+   "answer": "Nintendo 64",
+   "exact": [
+    "n64"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_64"
+  },
+  {
+   "id": "super-nintendo",
+   "answer": "Super Nintendo",
+   "exact": [
+    "snes",
+    "super nes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Super_Nintendo_Entertainment_System"
+  },
+  {
+   "id": "nes",
+   "answer": "NES",
+   "exact": [
+    "nes",
+    "nintendo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_Entertainment_System"
+  },
+  {
+   "id": "game-boy",
+   "answer": "Game Boy",
+   "exact": [
+    "gameboy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Game_Boy"
+  },
+  {
+   "id": "game-boy-advance",
+   "answer": "Game Boy Advance",
+   "exact": [
+    "gba"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Game_Boy_Advance"
+  },
+  {
+   "id": "nintendo-ds",
+   "answer": "Nintendo DS",
+   "exact": [
+    "ds"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_DS"
+  },
+  {
+   "id": "nintendo-3ds",
+   "answer": "Nintendo 3DS",
+   "exact": [
+    "3ds"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_3DS"
+  },
+  {
+   "id": "psp",
+   "answer": "PSP",
+   "exact": [
+    "playstation portable"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation_Portable"
+  },
+  {
+   "id": "ps-vita",
+   "answer": "PS Vita",
+   "exact": [
+    "vita"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:PlayStation_Vita"
+  },
+  {
+   "id": "steam-deck",
+   "answer": "Steam Deck",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "facile"
+   ],
+   "src": "wiki:en:Steam_Deck"
+  },
+  {
+   "id": "sega-mega-drive",
+   "answer": "Sega Mega Drive",
+   "exact": [
+    "megadrive",
+    "genesis"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Sega_Genesis"
+  },
+  {
+   "id": "dreamcast",
+   "answer": "Dreamcast",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Dreamcast"
+  },
+  {
+   "id": "atari-2600",
+   "answer": "Atari 2600",
+   "exact": [
+    "atari"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Atari_2600"
+  },
+  {
+   "id": "game-gear",
+   "answer": "Game Gear",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Game_Gear"
+  },
+  {
+   "id": "virtual-boy",
+   "answer": "Virtual Boy",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "difficile"
+   ],
+   "src": "wiki:en:Virtual_Boy"
+  },
+  {
+   "id": "meta-quest",
+   "answer": "Meta Quest",
+   "exact": [
+    "oculus",
+    "casque vr"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "consoles",
+    "moyen"
+   ],
+   "src": "wiki:en:Meta_Quest_3"
+  }
+ ]
+}

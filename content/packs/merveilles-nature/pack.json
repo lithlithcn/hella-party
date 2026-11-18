@@ -1,0 +1,683 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "merveilles-nature",
+ "name": "Merveilles de la nature",
+ "emoji": "🏔️",
+ "prompt": "C'est où / c'est quoi ?",
+ "tags": [
+  "géographie",
+  "nature"
+ ],
+ "questions": [
+  {
+   "id": "grand-canyon",
+   "answer": "Grand Canyon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Grand_Canyon"
+  },
+  {
+   "id": "chutes-du-niagara",
+   "answer": "Chutes du Niagara",
+   "exact": [
+    "niagara"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Niagara_Falls"
+  },
+  {
+   "id": "mont-everest",
+   "answer": "Mont Everest",
+   "exact": [
+    "everest"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Mount_Everest"
+  },
+  {
+   "id": "mont-fuji",
+   "answer": "Mont Fuji",
+   "exact": [
+    "fuji"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Mount_Fuji"
+  },
+  {
+   "id": "grande-barriere-de-corail",
+   "answer": "Grande Barrière de corail",
+   "exact": [
+    "barriere de corail"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Great_Barrier_Reef"
+  },
+  {
+   "id": "sahara",
+   "answer": "Sahara",
+   "exact": [
+    "desert du sahara"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Sahara"
+  },
+  {
+   "id": "amazonie",
+   "answer": "Amazonie",
+   "exact": [
+    "foret amazonienne"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Amazon_rainforest"
+  },
+  {
+   "id": "chutes-victoria",
+   "answer": "Chutes Victoria",
+   "exact": [
+    "victoria falls"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Victoria_Falls"
+  },
+  {
+   "id": "uluru",
+   "answer": "Uluru",
+   "exact": [
+    "ayers rock"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Uluru"
+  },
+  {
+   "id": "aurore-boreale",
+   "answer": "Aurore boréale",
+   "exact": [
+    "aurore boreale",
+    "aurores boreales"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Aurora"
+  },
+  {
+   "id": "mont-blanc",
+   "answer": "Mont Blanc",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Mont_Blanc"
+  },
+  {
+   "id": "volcan",
+   "answer": "Volcan",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Volcano"
+  },
+  {
+   "id": "arc-en-ciel",
+   "answer": "Arc-en-ciel",
+   "exact": [
+    "arc en ciel"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Rainbow"
+  },
+  {
+   "id": "iceberg",
+   "answer": "Iceberg",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Iceberg"
+  },
+  {
+   "id": "geyser",
+   "answer": "Geyser",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Geyser"
+  },
+  {
+   "id": "glacier",
+   "answer": "Glacier",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Glacier"
+  },
+  {
+   "id": "cascade",
+   "answer": "Cascade",
+   "exact": [
+    "chute d eau"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Waterfall"
+  },
+  {
+   "id": "oasis",
+   "answer": "Oasis",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Oasis"
+  },
+  {
+   "id": "recif-corallien",
+   "answer": "Récif corallien",
+   "exact": [
+    "corail"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Coral_reef"
+  },
+  {
+   "id": "dune-du-pilat",
+   "answer": "Dune du Pilat",
+   "exact": [
+    "dune du pyla"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Dune_of_Pilat"
+  },
+  {
+   "id": "gorges-du-verdon",
+   "answer": "Gorges du Verdon",
+   "exact": [
+    "verdon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Verdon_Gorge"
+  },
+  {
+   "id": "etretat",
+   "answer": "Étretat",
+   "exact": [
+    "etretat"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Étretat"
+  },
+  {
+   "id": "mer-morte",
+   "answer": "Mer Morte",
+   "exact": [
+    "mer morte"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Dead_Sea"
+  },
+  {
+   "id": "kilimandjaro",
+   "answer": "Kilimandjaro",
+   "exact": [
+    "kilimanjaro"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Mount_Kilimanjaro"
+  },
+  {
+   "id": "vesuve",
+   "answer": "Vésuve",
+   "exact": [
+    "vesuve"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Mount_Vesuvius"
+  },
+  {
+   "id": "etna",
+   "answer": "Etna",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Mount_Etna"
+  },
+  {
+   "id": "yellowstone",
+   "answer": "Yellowstone",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Yellowstone_National_Park"
+  },
+  {
+   "id": "baie-d-halong",
+   "answer": "Baie d'Halong",
+   "exact": [
+    "ha long",
+    "halong"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Hạ_Long_Bay"
+  },
+  {
+   "id": "salar-d-uyuni",
+   "answer": "Salar d'Uyuni",
+   "exact": [
+    "uyuni"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Salar_de_Uyuni"
+  },
+  {
+   "id": "cappadoce",
+   "answer": "Cappadoce",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Cappadocia"
+  },
+  {
+   "id": "pamukkale",
+   "answer": "Pamukkale",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Pamukkale"
+  },
+  {
+   "id": "tornade",
+   "answer": "Tornade",
+   "exact": [
+    "tornade"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Tornado"
+  },
+  {
+   "id": "eclair",
+   "answer": "Éclair",
+   "exact": [
+    "foudre",
+    "eclair"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Lightning"
+  },
+  {
+   "id": "eclipse-solaire",
+   "answer": "Éclipse solaire",
+   "exact": [
+    "eclipse"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Solar_eclipse"
+  },
+  {
+   "id": "atoll",
+   "answer": "Atoll",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Atoll"
+  },
+  {
+   "id": "fjord",
+   "answer": "Fjord",
+   "exact": [
+    "fjords"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Fjord"
+  },
+  {
+   "id": "mangrove",
+   "answer": "Mangrove",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Mangrove"
+  },
+  {
+   "id": "banquise",
+   "answer": "Banquise",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Sea_ice"
+  },
+  {
+   "id": "cratere",
+   "answer": "Cratère",
+   "exact": [
+    "cratere"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Impact_crater"
+  },
+  {
+   "id": "chaussee-des-geants",
+   "answer": "Chaussée des Géants",
+   "exact": [
+    "chaussee des geants"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Giant's_Causeway"
+  },
+  {
+   "id": "montagnes-de-zhangjiajie",
+   "answer": "Montagnes de Zhangjiajie",
+   "exact": [
+    "zhangjiajie",
+    "avatar"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Zhangjiajie_National_Forest_Park"
+  },
+  {
+   "id": "lac-baikal",
+   "answer": "Lac Baïkal",
+   "exact": [
+    "baikal"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "géographie",
+    "nature",
+    "difficile"
+   ],
+   "src": "wiki:en:Lake_Baikal"
+  },
+  {
+   "id": "bora-bora",
+   "answer": "Bora-Bora",
+   "exact": [
+    "bora bora"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Bora_Bora"
+  },
+  {
+   "id": "galapagos",
+   "answer": "Galápagos",
+   "exact": [
+    "galapagos"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "géographie",
+    "nature",
+    "moyen"
+   ],
+   "src": "wiki:en:Galápagos_Islands"
+  },
+  {
+   "id": "islande",
+   "answer": "Islande",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Iceland"
+  },
+  {
+   "id": "antarctique",
+   "answer": "Antarctique",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Antarctica"
+  },
+  {
+   "id": "himalaya",
+   "answer": "Himalaya",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Himalayas"
+  },
+  {
+   "id": "alpes",
+   "answer": "Alpes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Alps"
+  },
+  {
+   "id": "nil",
+   "answer": "Nil",
+   "exact": [
+    "le nil"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Nile"
+  },
+  {
+   "id": "mont-saint-michel",
+   "answer": "Mont Saint-Michel",
+   "exact": [
+    "mont saint michel"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "géographie",
+    "nature",
+    "facile"
+   ],
+   "src": "wiki:en:Mont-Saint-Michel"
+  }
+ ]
+}

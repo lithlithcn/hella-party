@@ -1,0 +1,679 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "jeux-jouets",
+ "name": "Jeux de société & jouets",
+ "emoji": "🎲",
+ "prompt": "C'est quoi ce jeu / jouet ?",
+ "tags": [
+  "jeux",
+  "jouets"
+ ],
+ "questions": [
+  {
+   "id": "monopoly",
+   "answer": "Monopoly",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Monopoly_(game)"
+  },
+  {
+   "id": "uno",
+   "answer": "Uno",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Uno_(card_game)"
+  },
+  {
+   "id": "lego",
+   "answer": "Lego",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Lego"
+  },
+  {
+   "id": "rubik-s-cube",
+   "answer": "Rubik's Cube",
+   "exact": [
+    "rubik"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Rubik's_Cube"
+  },
+  {
+   "id": "jenga",
+   "answer": "Jenga",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Jenga"
+  },
+  {
+   "id": "puissance-4",
+   "answer": "Puissance 4",
+   "exact": [
+    "connect four",
+    "puissance quatre"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Connect_Four"
+  },
+  {
+   "id": "echecs",
+   "answer": "Échecs",
+   "exact": [
+    "echecs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Chess"
+  },
+  {
+   "id": "dames",
+   "answer": "Dames",
+   "exact": [
+    "jeu de dames"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Draughts"
+  },
+  {
+   "id": "scrabble",
+   "answer": "Scrabble",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Scrabble"
+  },
+  {
+   "id": "cluedo",
+   "answer": "Cluedo",
+   "exact": [
+    "clue"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Cluedo"
+  },
+  {
+   "id": "twister",
+   "answer": "Twister",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Twister_(game)"
+  },
+  {
+   "id": "qui-est-ce",
+   "answer": "Qui est-ce ?",
+   "exact": [
+    "qui est ce",
+    "guess who"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Guess_Who?"
+  },
+  {
+   "id": "dobble",
+   "answer": "Dobble",
+   "exact": [
+    "spot it"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Dobble"
+  },
+  {
+   "id": "les-aventuriers-du-rail",
+   "answer": "Les Aventuriers du Rail",
+   "exact": [
+    "ticket to ride"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Ticket_to_Ride_(board_game)"
+  },
+  {
+   "id": "catan",
+   "answer": "Catan",
+   "exact": [
+    "colons de catane"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Catan"
+  },
+  {
+   "id": "trivial-pursuit",
+   "answer": "Trivial Pursuit",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Trivial_Pursuit"
+  },
+  {
+   "id": "jeu-de-l-oie",
+   "answer": "Jeu de l'oie",
+   "exact": [
+    "jeu de l oie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Game_of_the_Goose"
+  },
+  {
+   "id": "mikado",
+   "answer": "Mikado",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Mikado_(game)"
+  },
+  {
+   "id": "dominos",
+   "answer": "Dominos",
+   "exact": [
+    "domino"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Dominoes"
+  },
+  {
+   "id": "bataille-navale",
+   "answer": "Bataille navale",
+   "exact": [
+    "battleship"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Battleship_(game)"
+  },
+  {
+   "id": "mille-bornes",
+   "answer": "Mille Bornes",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Mille_Bornes"
+  },
+  {
+   "id": "loto",
+   "answer": "Loto",
+   "exact": [
+    "bingo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Bingo_(American_version)"
+  },
+  {
+   "id": "backgammon",
+   "answer": "Backgammon",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Backgammon"
+  },
+  {
+   "id": "go",
+   "answer": "Go",
+   "exact": [
+    "jeu de go"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Go_(game)"
+  },
+  {
+   "id": "jeu-de-cartes",
+   "answer": "Jeu de cartes",
+   "exact": [
+    "cartes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Playing_card"
+  },
+  {
+   "id": "barbie",
+   "answer": "Barbie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Barbie"
+  },
+  {
+   "id": "playmobil",
+   "answer": "Playmobil",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Playmobil"
+  },
+  {
+   "id": "hot-wheels",
+   "answer": "Hot Wheels",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Hot_Wheels"
+  },
+  {
+   "id": "nerf",
+   "answer": "Nerf",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Nerf"
+  },
+  {
+   "id": "yo-yo",
+   "answer": "Yo-yo",
+   "exact": [
+    "yoyo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Yo-yo"
+  },
+  {
+   "id": "toupie",
+   "answer": "Toupie",
+   "exact": [
+    "beyblade"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Top"
+  },
+  {
+   "id": "bilboquet",
+   "answer": "Bilboquet",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Cup-and-ball"
+  },
+  {
+   "id": "tamagotchi",
+   "answer": "Tamagotchi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Tamagotchi"
+  },
+  {
+   "id": "furby",
+   "answer": "Furby",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Furby"
+  },
+  {
+   "id": "ours-en-peluche",
+   "answer": "Ours en peluche",
+   "exact": [
+    "nounours",
+    "peluche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Teddy_bear"
+  },
+  {
+   "id": "slime",
+   "answer": "Slime",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Slime_(toy)"
+  },
+  {
+   "id": "fidget-spinner",
+   "answer": "Fidget spinner",
+   "exact": [
+    "hand spinner"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Fidget_spinner"
+  },
+  {
+   "id": "pop-it",
+   "answer": "Pop It",
+   "exact": [
+    "pop it"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Pop_It"
+  },
+  {
+   "id": "pate-a-modeler",
+   "answer": "Pâte à modeler",
+   "exact": [
+    "play doh",
+    "pate a modeler"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Play-Doh"
+  },
+  {
+   "id": "kapla",
+   "answer": "Kapla",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Kapla"
+  },
+  {
+   "id": "etch-a-sketch",
+   "answer": "Etch A Sketch",
+   "exact": [
+    "telecran"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Etch_A_Sketch"
+  },
+  {
+   "id": "cerf-volant",
+   "answer": "Cerf-volant",
+   "exact": [
+    "cerf volant"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Kite"
+  },
+  {
+   "id": "trottinette",
+   "answer": "Trottinette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Kick_scooter"
+  },
+  {
+   "id": "billes",
+   "answer": "Billes",
+   "exact": [
+    "bille"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Marble_(toy)"
+  },
+  {
+   "id": "corde-a-sauter",
+   "answer": "Corde à sauter",
+   "exact": [
+    "corde a sauter"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Skipping_rope"
+  },
+  {
+   "id": "poupee-russe",
+   "answer": "Poupée russe",
+   "exact": [
+    "matriochka",
+    "matryoshka"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Matryoshka_doll"
+  },
+  {
+   "id": "pokemon-cartes",
+   "answer": "Pokémon (cartes)",
+   "exact": [
+    "cartes pokemon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Pokémon_Trading_Card_Game"
+  },
+  {
+   "id": "yu-gi-oh-cartes",
+   "answer": "Yu-Gi-Oh! (cartes)",
+   "exact": [
+    "cartes yugioh"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux",
+    "jouets",
+    "moyen"
+   ],
+   "src": "wiki:en:Yu-Gi-Oh!_Trading_Card_Game"
+  },
+  {
+   "id": "puzzle",
+   "answer": "Puzzle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Jigsaw_puzzle"
+  },
+  {
+   "id": "baby-foot",
+   "answer": "Baby-foot",
+   "exact": [
+    "babyfoot",
+    "baby foot"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux",
+    "jouets",
+    "facile"
+   ],
+   "src": "wiki:en:Table_football"
+  }
+ ]
+}

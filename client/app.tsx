@@ -113,7 +113,8 @@ function WikiCheck() {
   const bad = rows.filter(r => r.url === null);
   return (
     <main class="check">
-      <h2>Images Wikipédia : {rows.length} · ❌ {bad.length}</h2>
+      <a class="btn small" href="/">← Retour au jeu</a>
+      <h2>Page de diagnostic (pas le jeu) — images Wikipédia : {rows.length} · ❌ {bad.length}{rows.some(r => r.url === undefined) ? ' · vérification en cours…' : ''}</h2>
       {bad.length > 0 && <pre>{bad.map(r => `${r.pack} | ${r.answer} | ${r.src}`).join('\n')}</pre>}
       <div class="check-grid">{rows.map(r => <figure><img src={r.url ?? ''} loading="lazy" /><figcaption>{r.url === null ? '❌ ' : ''}{r.answer}</figcaption></figure>)}</div>
     </main>

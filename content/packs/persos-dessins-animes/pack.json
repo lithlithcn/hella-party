@@ -1,0 +1,739 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "persos-dessins-animes",
+ "name": "Personnages de dessins animés",
+ "emoji": "🐭",
+ "prompt": "Qui est-ce ?",
+ "tags": [
+  "dessin animé",
+  "personnages"
+ ],
+ "questions": [
+  {
+   "id": "mickey-mouse",
+   "answer": "Mickey Mouse",
+   "exact": [
+    "mickey"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Mickey_Mouse"
+  },
+  {
+   "id": "donald-duck",
+   "answer": "Donald Duck",
+   "exact": [
+    "donald"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Donald_Duck"
+  },
+  {
+   "id": "dingo",
+   "answer": "Dingo",
+   "exact": [
+    "goofy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Goofy"
+  },
+  {
+   "id": "minnie-mouse",
+   "answer": "Minnie Mouse",
+   "exact": [
+    "minnie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Minnie_Mouse"
+  },
+  {
+   "id": "stitch",
+   "answer": "Stitch",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Stitch_(Lilo_&_Stitch)"
+  },
+  {
+   "id": "simba",
+   "answer": "Simba",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Simba"
+  },
+  {
+   "id": "elsa",
+   "answer": "Elsa",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Elsa_(Frozen)"
+  },
+  {
+   "id": "olaf",
+   "answer": "Olaf",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Olaf_(Frozen)"
+  },
+  {
+   "id": "buzz-l-eclair",
+   "answer": "Buzz l'Éclair",
+   "exact": [
+    "buzz",
+    "buzz l eclair"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Buzz_Lightyear"
+  },
+  {
+   "id": "woody",
+   "answer": "Woody",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Sheriff_Woody"
+  },
+  {
+   "id": "bob-l-eponge",
+   "answer": "Bob l'éponge",
+   "exact": [
+    "spongebob",
+    "bob"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:SpongeBob_SquarePants_(character)"
+  },
+  {
+   "id": "patrick-etoile",
+   "answer": "Patrick Étoile",
+   "exact": [
+    "patrick"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Patrick_Star"
+  },
+  {
+   "id": "homer-simpson",
+   "answer": "Homer Simpson",
+   "exact": [
+    "homer"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Homer_Simpson"
+  },
+  {
+   "id": "bart-simpson",
+   "answer": "Bart Simpson",
+   "exact": [
+    "bart"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Bart_Simpson"
+  },
+  {
+   "id": "lisa-simpson",
+   "answer": "Lisa Simpson",
+   "exact": [
+    "lisa"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Lisa_Simpson"
+  },
+  {
+   "id": "scooby-doo",
+   "answer": "Scooby-Doo",
+   "exact": [
+    "scooby doo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Scooby-Doo_(character)"
+  },
+  {
+   "id": "bugs-bunny",
+   "answer": "Bugs Bunny",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Bugs_Bunny"
+  },
+  {
+   "id": "titi",
+   "answer": "Titi",
+   "exact": [
+    "tweety"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Tweety"
+  },
+  {
+   "id": "daffy-duck",
+   "answer": "Daffy Duck",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Daffy_Duck"
+  },
+  {
+   "id": "bip-bip",
+   "answer": "Bip Bip",
+   "exact": [
+    "road runner",
+    "bip bip et coyote"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Wile_E._Coyote_and_the_Road_Runner"
+  },
+  {
+   "id": "garfield",
+   "answer": "Garfield",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Garfield_(character)"
+  },
+  {
+   "id": "snoopy",
+   "answer": "Snoopy",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Snoopy"
+  },
+  {
+   "id": "winnie-l-ourson",
+   "answer": "Winnie l'ourson",
+   "exact": [
+    "winnie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Winnie-the-Pooh"
+  },
+  {
+   "id": "tigrou",
+   "answer": "Tigrou",
+   "exact": [
+    "tigger"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Tigger"
+  },
+  {
+   "id": "nemo",
+   "answer": "Nemo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Nemo_(Finding_Nemo)"
+  },
+  {
+   "id": "shrek",
+   "answer": "Shrek",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Shrek_(character)"
+  },
+  {
+   "id": "l-ane",
+   "answer": "L'Âne",
+   "exact": [
+    "ane",
+    "donkey"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Donkey_(Shrek)"
+  },
+  {
+   "id": "popeye",
+   "answer": "Popeye",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Popeye"
+  },
+  {
+   "id": "betty-boop",
+   "answer": "Betty Boop",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Betty_Boop"
+  },
+  {
+   "id": "asterix",
+   "answer": "Astérix",
+   "exact": [
+    "asterix"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Asterix_(character)"
+  },
+  {
+   "id": "obelix",
+   "answer": "Obélix",
+   "exact": [
+    "obelix"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Obelix"
+  },
+  {
+   "id": "tintin",
+   "answer": "Tintin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Tintin_(character)"
+  },
+  {
+   "id": "milou",
+   "answer": "Milou",
+   "exact": [
+    "snowy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Snowy_(character)"
+  },
+  {
+   "id": "lucky-luke",
+   "answer": "Lucky Luke",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Lucky_Luke_(character)"
+  },
+  {
+   "id": "schtroumpf",
+   "answer": "Schtroumpf",
+   "exact": [
+    "schtroumpfs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:The_Smurfs"
+  },
+  {
+   "id": "gargamel",
+   "answer": "Gargamel",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Gargamel"
+  },
+  {
+   "id": "peppa-pig",
+   "answer": "Peppa Pig",
+   "exact": [
+    "peppa"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Peppa_Pig_(character)"
+  },
+  {
+   "id": "pikachu",
+   "answer": "Pikachu",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Pikachu"
+  },
+  {
+   "id": "hello-kitty",
+   "answer": "Hello Kitty",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Hello_Kitty"
+  },
+  {
+   "id": "sonic",
+   "answer": "Sonic",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Sonic_the_Hedgehog_(character)"
+  },
+  {
+   "id": "rick-sanchez",
+   "answer": "Rick Sanchez",
+   "exact": [
+    "rick"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Rick_Sanchez"
+  },
+  {
+   "id": "morty",
+   "answer": "Morty",
+   "exact": [
+    "morty smith"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Morty_Smith"
+  },
+  {
+   "id": "peter-griffin",
+   "answer": "Peter Griffin",
+   "exact": [
+    "peter"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Peter_Griffin"
+  },
+  {
+   "id": "eric-cartman",
+   "answer": "Eric Cartman",
+   "exact": [
+    "cartman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Eric_Cartman"
+  },
+  {
+   "id": "ariel",
+   "answer": "Ariel",
+   "exact": [
+    "la petite sirene"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Ariel_(The_Little_Mermaid)"
+  },
+  {
+   "id": "raiponce",
+   "answer": "Raiponce",
+   "exact": [
+    "rapunzel"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Rapunzel_(Disney)"
+  },
+  {
+   "id": "vaiana",
+   "answer": "Vaiana",
+   "exact": [
+    "moana"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Moana_(character)"
+  },
+  {
+   "id": "aladdin",
+   "answer": "Aladdin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Aladdin_(Disney_character)"
+  },
+  {
+   "id": "le-genie",
+   "answer": "Le Génie",
+   "exact": [
+    "genie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "moyen"
+   ],
+   "src": "wiki:en:Genie_(Aladdin)"
+  },
+  {
+   "id": "pinocchio",
+   "answer": "Pinocchio",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Pinocchio"
+  },
+  {
+   "id": "bambi",
+   "answer": "Bambi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Bambi"
+  },
+  {
+   "id": "dumbo",
+   "answer": "Dumbo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Dumbo"
+  },
+  {
+   "id": "totoro",
+   "answer": "Totoro",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Totoro"
+  },
+  {
+   "id": "ladybug",
+   "answer": "Ladybug",
+   "exact": [
+    "marinette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Miraculous:_Tales_of_Ladybug_&_Cat_Noir"
+  },
+  {
+   "id": "bluey",
+   "answer": "Bluey",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "dessin animé",
+    "personnages",
+    "facile"
+   ],
+   "src": "wiki:en:Bluey_(TV_series)"
+  }
+ ]
+}

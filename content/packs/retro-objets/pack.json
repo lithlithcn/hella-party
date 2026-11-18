@@ -1,0 +1,671 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "retro-objets",
+ "name": "Objets rétro & nostalgie",
+ "emoji": "📼",
+ "prompt": "C'est quoi cet objet ?",
+ "tags": [
+  "rétro",
+  "objets"
+ ],
+ "questions": [
+  {
+   "id": "cassette-audio",
+   "answer": "Cassette audio",
+   "exact": [
+    "cassette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Cassette_tape"
+  },
+  {
+   "id": "vhs",
+   "answer": "VHS",
+   "exact": [
+    "cassette video"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:VHS"
+  },
+  {
+   "id": "disquette",
+   "answer": "Disquette",
+   "exact": [
+    "floppy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Floppy_disk"
+  },
+  {
+   "id": "walkman",
+   "answer": "Walkman",
+   "exact": [
+    "baladeur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Walkman"
+  },
+  {
+   "id": "game-boy",
+   "answer": "Game Boy",
+   "exact": [
+    "gameboy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Game_Boy"
+  },
+  {
+   "id": "minitel",
+   "answer": "Minitel",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Minitel"
+  },
+  {
+   "id": "telephone-a-cadran",
+   "answer": "Téléphone à cadran",
+   "exact": [
+    "telephone a cadran"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Rotary_dial"
+  },
+  {
+   "id": "polaroid",
+   "answer": "Polaroid",
+   "exact": [
+    "appareil polaroid"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Instant_camera"
+  },
+  {
+   "id": "tourne-disque",
+   "answer": "Tourne-disque",
+   "exact": [
+    "platine vinyle",
+    "tourne disque"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Phonograph"
+  },
+  {
+   "id": "vinyle",
+   "answer": "Vinyle",
+   "exact": [
+    "disque vinyle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Phonograph_record"
+  },
+  {
+   "id": "cd",
+   "answer": "CD",
+   "exact": [
+    "cd",
+    "disque compact"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Compact_disc"
+  },
+  {
+   "id": "dvd",
+   "answer": "DVD",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:DVD"
+  },
+  {
+   "id": "minidisc",
+   "answer": "Minidisc",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:MiniDisc"
+  },
+  {
+   "id": "tamagotchi",
+   "answer": "Tamagotchi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Tamagotchi"
+  },
+  {
+   "id": "ipod",
+   "answer": "iPod",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:IPod"
+  },
+  {
+   "id": "nokia-3310",
+   "answer": "Nokia 3310",
+   "exact": [
+    "3310"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Nokia_3310"
+  },
+  {
+   "id": "blackberry",
+   "answer": "BlackBerry",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:BlackBerry"
+  },
+  {
+   "id": "machine-a-ecrire",
+   "answer": "Machine à écrire",
+   "exact": [
+    "machine a ecrire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Typewriter"
+  },
+  {
+   "id": "television-cathodique",
+   "answer": "Télévision cathodique",
+   "exact": [
+    "tele cathodique",
+    "crt"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Cathode-ray_tube"
+  },
+  {
+   "id": "radio-cassette",
+   "answer": "Radio-cassette",
+   "exact": [
+    "boombox",
+    "ghetto blaster"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Boombox"
+  },
+  {
+   "id": "cle-usb",
+   "answer": "Clé USB",
+   "exact": [
+    "cle usb"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:USB_flash_drive"
+  },
+  {
+   "id": "pellicule-photo",
+   "answer": "Pellicule photo",
+   "exact": [
+    "pellicule"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Photographic_film"
+  },
+  {
+   "id": "diapositive",
+   "answer": "Diapositive",
+   "exact": [
+    "diapo"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Reversal_film"
+  },
+  {
+   "id": "bipeur",
+   "answer": "Bipeur",
+   "exact": [
+    "pager",
+    "tatoo"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Pager"
+  },
+  {
+   "id": "calculatrice-casio",
+   "answer": "Calculatrice Casio",
+   "exact": [
+    "casio"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Casio_graphic_calculators"
+  },
+  {
+   "id": "cabine-telephonique",
+   "answer": "Cabine téléphonique",
+   "exact": [
+    "cabine telephonique"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Telephone_booth"
+  },
+  {
+   "id": "juke-box",
+   "answer": "Juke-box",
+   "exact": [
+    "jukebox"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Jukebox"
+  },
+  {
+   "id": "borne-d-arcade",
+   "answer": "Borne d'arcade",
+   "exact": [
+    "arcade",
+    "borne arcade"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Arcade_cabinet"
+  },
+  {
+   "id": "gramophone",
+   "answer": "Gramophone",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Gramophone_record"
+  },
+  {
+   "id": "lampe-a-lave",
+   "answer": "Lampe à lave",
+   "exact": [
+    "lava lamp"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Lava_lamp"
+  },
+  {
+   "id": "rubik-s-cube",
+   "answer": "Rubik's Cube",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Rubik's_Cube"
+  },
+  {
+   "id": "boule-disco",
+   "answer": "Boule disco",
+   "exact": [
+    "boule a facettes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Disco_ball"
+  },
+  {
+   "id": "patins-a-roulettes",
+   "answer": "Patins à roulettes",
+   "exact": [
+    "patins"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Roller_skates"
+  },
+  {
+   "id": "camescope",
+   "answer": "Caméscope",
+   "exact": [
+    "camescope"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Camcorder"
+  },
+  {
+   "id": "fax",
+   "answer": "Fax",
+   "exact": [
+    "telecopieur"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Fax"
+  },
+  {
+   "id": "modem",
+   "answer": "Modem",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Modem"
+  },
+  {
+   "id": "souris-a-boule",
+   "answer": "Souris à boule",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Ball_mouse"
+  },
+  {
+   "id": "ecran-crt",
+   "answer": "Écran CRT",
+   "exact": [
+    "ecran"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Computer_monitor"
+  },
+  {
+   "id": "magnetoscope",
+   "answer": "Magnétoscope",
+   "exact": [
+    "magnetoscope"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Videocassette_recorder"
+  },
+  {
+   "id": "montre-casio",
+   "answer": "Montre Casio",
+   "exact": [
+    "casio f91w"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Casio_F-91W"
+  },
+  {
+   "id": "furby",
+   "answer": "Furby",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Furby"
+  },
+  {
+   "id": "game-boy-color",
+   "answer": "Game Boy Color",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Game_Boy_Color"
+  },
+  {
+   "id": "nintendo-64",
+   "answer": "Nintendo 64",
+   "exact": [
+    "n64"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_64"
+  },
+  {
+   "id": "playstation-1",
+   "answer": "PlayStation 1",
+   "exact": [
+    "ps1",
+    "psx"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation_(console)"
+  },
+  {
+   "id": "sega-mega-drive",
+   "answer": "Sega Mega Drive",
+   "exact": [
+    "megadrive",
+    "genesis"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Sega_Genesis"
+  },
+  {
+   "id": "atari-2600",
+   "answer": "Atari 2600",
+   "exact": [
+    "atari"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "rétro",
+    "objets",
+    "moyen"
+   ],
+   "src": "wiki:en:Atari_2600"
+  },
+  {
+   "id": "kodak-instamatic",
+   "answer": "Kodak Instamatic",
+   "exact": [
+    "instamatic"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "rétro",
+    "objets",
+    "difficile"
+   ],
+   "src": "wiki:en:Kodak_Instamatic"
+  },
+  {
+   "id": "telephone-a-clapet",
+   "answer": "Téléphone à clapet",
+   "exact": [
+    "clapet"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "rétro",
+    "objets",
+    "facile"
+   ],
+   "src": "wiki:en:Flip_phone"
+  }
+ ]
+}

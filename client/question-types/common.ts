@@ -4,19 +4,39 @@ import type { MediaOpts } from '../../shared/pack';
 import { useNow } from '../ui/util';
 import { useEffect, useState } from 'preact/hooks';
 
-// "wiki:Pizza" / "wiki:en:Pizza" → lead image of that Wikipedia article (resolved in the player's browser, cached).
+// "wiki:Pizza" / "wiki:en:Pizza" → lead image of that Wikipedia article (resolved in the player's browser).
+// Requests go through a small queue (max 4 at once) with retries: Wikipedia answers 429 when hammered.
 const wikiCache = new Map<string, Promise<string | undefined>>();
+let running = 0;
+const waiting: (() => void)[] = [];
+async function limited<T>(fn: () => Promise<T>): Promise<T> {
+  if (running >= 4) await new Promise<void>(r => waiting.push(r));
+  running++;
+  try { return await fn(); } finally { running--; waiting.shift()?.(); }
+}
+async function summary(lang: string, title: string): Promise<string | undefined | 'retry'> {
+  const r = await fetch(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${title}`).catch(() => null);
+  if (!r || r.status === 429 || r.status >= 500) return 'retry';
+  if (!r.ok) return undefined;
+  const j: any = await r.json().catch(() => null);
+  return j?.thumbnail?.source?.replace(/\/(\d+)px-/, '/640px-') ?? j?.originalimage?.source;
+}
+async function lookup(lang: string, title: string) {
+  for (let i = 0; i < 4; i++) {
+    const u = await limited(() => summary(lang, title));
+    if (u !== 'retry') return u;
+    await new Promise(r => setTimeout(r, 400 * 2 ** i));
+  }
+  return undefined;
+}
 export function resolveWiki(src: string): Promise<string | undefined> {
   let p = wikiCache.get(src);
   if (!p) {
     const m = src.match(/^wiki:(?:([a-z]{2,3}):)?(.+)$/)!;
     const lang = m[1] ?? 'fr', title = encodeURIComponent(m[2].trim().replace(/ /g, '_'));
-    const one = (l: string) => fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${title}`)
-      .then(r => (r.ok ? r.json() : null))
-      .then((j: any) => j?.thumbnail?.source?.replace(/\/(\d+)px-/, '/640px-') ?? j?.originalimage?.source)
-      .catch(() => undefined);
     // same title on the other language as a fallback (titles are often identical)
-    p = one(lang).then(u => u ?? one(lang === 'fr' ? 'en' : 'fr'));
+    p = lookup(lang, title).then(u => u ?? lookup(lang === 'fr' ? 'en' : 'fr', title));
+    p.then(u => { if (!u) wikiCache.delete(src); }); // don't remember failures
     wikiCache.set(src, p);
   }
   return p;

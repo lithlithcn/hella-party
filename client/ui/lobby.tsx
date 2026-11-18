@@ -50,6 +50,11 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
     const mine = store.packs.filter(p => p.custom);
     return (
       <div class="packs-block">
+        <div class="packs-sub">
+          <button type="button" class="btn ghost small" onClick={() => set(d.key, store.packs.filter(p => !p.custom && p.id !== 'flags').map(p => p.id))}>Tout cocher</button>
+          <button type="button" class="btn ghost small" onClick={() => set(d.key, [])}>Tout décocher</button>
+          <small class="muted">{(v ?? []).length} packs · {store.packs.filter(p => (v ?? []).includes(p.id)).reduce((n, p) => n + p.count, 0)} questions</small>
+        </div>
         <div class="packs">{store.packs.filter(p => !p.custom).map(chip)}</div>
         <div class="packs-sub">
           <b>Packs du Studio</b>

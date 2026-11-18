@@ -1,0 +1,536 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "instruments",
+ "name": "Instruments de musique",
+ "emoji": "🎸",
+ "prompt": "Quel instrument ?",
+ "tags": [
+  "musique",
+  "instruments"
+ ],
+ "questions": [
+  {
+   "id": "guitare",
+   "answer": "Guitare",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Guitar"
+  },
+  {
+   "id": "guitare-electrique",
+   "answer": "Guitare électrique",
+   "exact": [
+    "guitare electrique"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Electric_guitar"
+  },
+  {
+   "id": "piano",
+   "answer": "Piano",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Piano"
+  },
+  {
+   "id": "violon",
+   "answer": "Violon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Violin"
+  },
+  {
+   "id": "batterie",
+   "answer": "Batterie",
+   "exact": [
+    "batterie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Drum_kit"
+  },
+  {
+   "id": "trompette",
+   "answer": "Trompette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Trumpet"
+  },
+  {
+   "id": "saxophone",
+   "answer": "Saxophone",
+   "exact": [
+    "saxo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Saxophone"
+  },
+  {
+   "id": "flute-traversiere",
+   "answer": "Flûte traversière",
+   "exact": [
+    "flute"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Western_concert_flute"
+  },
+  {
+   "id": "harpe",
+   "answer": "Harpe",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Harp"
+  },
+  {
+   "id": "accordeon",
+   "answer": "Accordéon",
+   "exact": [
+    "accordeon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Accordion"
+  },
+  {
+   "id": "violoncelle",
+   "answer": "Violoncelle",
+   "exact": [
+    "violoncelle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Cello"
+  },
+  {
+   "id": "clarinette",
+   "answer": "Clarinette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Clarinet"
+  },
+  {
+   "id": "ukulele",
+   "answer": "Ukulélé",
+   "exact": [
+    "ukulele"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Ukulele"
+  },
+  {
+   "id": "harmonica",
+   "answer": "Harmonica",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Harmonica"
+  },
+  {
+   "id": "xylophone",
+   "answer": "Xylophone",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Xylophone"
+  },
+  {
+   "id": "tambourin",
+   "answer": "Tambourin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Tambourine"
+  },
+  {
+   "id": "triangle",
+   "answer": "Triangle",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Triangle_(musical_instrument)"
+  },
+  {
+   "id": "basse",
+   "answer": "Basse",
+   "exact": [
+    "guitare basse"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Bass_guitar"
+  },
+  {
+   "id": "contrebasse",
+   "answer": "Contrebasse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Double_bass"
+  },
+  {
+   "id": "trombone",
+   "answer": "Trombone",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Trombone"
+  },
+  {
+   "id": "tuba",
+   "answer": "Tuba",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Tuba"
+  },
+  {
+   "id": "cor",
+   "answer": "Cor",
+   "exact": [
+    "cor d harmonie"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:French_horn"
+  },
+  {
+   "id": "banjo",
+   "answer": "Banjo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Banjo"
+  },
+  {
+   "id": "djembe",
+   "answer": "Djembé",
+   "exact": [
+    "djembe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Djembe"
+  },
+  {
+   "id": "maracas",
+   "answer": "Maracas",
+   "exact": [
+    "maraca"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Maraca"
+  },
+  {
+   "id": "cornemuse",
+   "answer": "Cornemuse",
+   "exact": [
+    "cornemuse"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Bagpipes"
+  },
+  {
+   "id": "orgue",
+   "answer": "Orgue",
+   "exact": [
+    "orgue"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Pipe_organ"
+  },
+  {
+   "id": "synthetiseur",
+   "answer": "Synthétiseur",
+   "exact": [
+    "synthe",
+    "synthetiseur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Synthesizer"
+  },
+  {
+   "id": "flute-a-bec",
+   "answer": "Flûte à bec",
+   "exact": [
+    "flute a bec"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Recorder_(musical_instrument)"
+  },
+  {
+   "id": "castagnettes",
+   "answer": "Castagnettes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Castanets"
+  },
+  {
+   "id": "sitar",
+   "answer": "Sitar",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Sitar"
+  },
+  {
+   "id": "oud",
+   "answer": "Oud",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Oud"
+  },
+  {
+   "id": "hautbois",
+   "answer": "Hautbois",
+   "exact": [
+    "hautbois"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Oboe"
+  },
+  {
+   "id": "basson",
+   "answer": "Basson",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Bassoon"
+  },
+  {
+   "id": "kalimba",
+   "answer": "Kalimba",
+   "exact": [
+    "kalimba"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Mbira"
+  },
+  {
+   "id": "didgeridoo",
+   "answer": "Didgeridoo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Didgeridoo"
+  },
+  {
+   "id": "steel-drum",
+   "answer": "Steel drum",
+   "exact": [
+    "steelpan"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:Steelpan"
+  },
+  {
+   "id": "theremin",
+   "answer": "Theremin",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "musique",
+    "instruments",
+    "difficile"
+   ],
+   "src": "wiki:en:Theremin"
+  },
+  {
+   "id": "platine-dj",
+   "answer": "Platine DJ",
+   "exact": [
+    "table de mixage"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "musique",
+    "instruments",
+    "moyen"
+   ],
+   "src": "wiki:en:DJ_mixer"
+  },
+  {
+   "id": "micro",
+   "answer": "Micro",
+   "exact": [
+    "microphone"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "musique",
+    "instruments",
+    "facile"
+   ],
+   "src": "wiki:en:Microphone"
+  }
+ ]
+}
