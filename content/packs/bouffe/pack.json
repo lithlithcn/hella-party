@@ -1,0 +1,532 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "bouffe",
+ "name": "Bouffe du monde",
+ "emoji": "🍕",
+ "prompt": "C'est quoi ce plat ?",
+ "tags": [
+  "bouffe"
+ ],
+ "questions": [
+  {
+   "id": "pizza",
+   "src": "wiki:Pizza",
+   "answer": "Pizza",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "sushi",
+   "src": "wiki:Sushi",
+   "answer": "Sushi",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "croissant",
+   "src": "wiki:Croissant",
+   "answer": "Croissant",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "hamburger",
+   "src": "wiki:Hamburger",
+   "answer": "Hamburger",
+   "exact": [
+    "burger"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "couscous",
+   "src": "wiki:Couscous",
+   "answer": "Couscous",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "paella",
+   "src": "wiki:Paella",
+   "answer": "Paella",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "lasagnes",
+   "src": "wiki:Lasagnes",
+   "answer": "Lasagnes",
+   "exact": [
+    "lasagne"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "ratatouille",
+   "src": "wiki:Ratatouille",
+   "answer": "Ratatouille",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "tajine",
+   "src": "wiki:Tajine",
+   "answer": "Tajine",
+   "exact": [
+    "tagine"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "ramen",
+   "src": "wiki:Ramen",
+   "answer": "Ramen",
+   "exact": [
+    "ramens"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "kebab",
+   "src": "wiki:Kebab",
+   "answer": "Kebab",
+   "exact": [
+    "doner",
+    "döner kebab",
+    "grec"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "falafel",
+   "src": "wiki:Falafel",
+   "answer": "Falafel",
+   "exact": [
+    "falafels"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "guacamole",
+   "src": "wiki:Guacamole",
+   "answer": "Guacamole",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "macaron",
+   "src": "wiki:Macaron",
+   "answer": "Macaron",
+   "exact": [
+    "macarons"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "eclair",
+   "src": "wiki:Éclair_(pâtisserie)",
+   "answer": "Éclair",
+   "exact": [
+    "eclair au chocolat"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "tiramisu",
+   "src": "wiki:Tiramisu",
+   "answer": "Tiramisu",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "churros",
+   "src": "wiki:Churros",
+   "answer": "Churros",
+   "exact": [
+    "churro"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "pho",
+   "src": "wiki:Phở",
+   "answer": "Phở",
+   "exact": [
+    "pho",
+    "soupe pho"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "dim-sum",
+   "src": "wiki:Dim sum",
+   "answer": "Dim sum",
+   "exact": [
+    "dimsum"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "burrito",
+   "src": "wiki:Burrito",
+   "answer": "Burrito",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "raclette",
+   "src": "wiki:Raclette",
+   "answer": "Raclette",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "gaufre",
+   "src": "wiki:Gaufre",
+   "answer": "Gaufre",
+   "exact": [
+    "gaufres",
+    "waffle"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "bagel",
+   "src": "wiki:Bagel",
+   "answer": "Bagel",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "donut",
+   "src": "wiki:Doughnut",
+   "answer": "Donut",
+   "exact": [
+    "doughnut",
+    "beignet"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "nem",
+   "src": "wiki:Nem",
+   "answer": "Nem",
+   "exact": [
+    "nems",
+    "rouleau impérial"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "biryani",
+   "src": "wiki:Biryani",
+   "answer": "Biryani",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "brioche",
+   "src": "wiki:Brioche",
+   "answer": "Brioche",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "mochi",
+   "src": "wiki:Mochi",
+   "answer": "Mochi",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "baklava",
+   "src": "wiki:Baklava",
+   "answer": "Baklava",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "houmous",
+   "src": "wiki:Houmous",
+   "answer": "Houmous",
+   "exact": [
+    "hummus",
+    "houmos"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "kimchi",
+   "src": "wiki:Kimchi",
+   "answer": "Kimchi",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "poutine",
+   "src": "wiki:Poutine",
+   "answer": "Poutine",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "src": "wiki:Cheesecake",
+   "answer": "Cheesecake",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "panna-cotta",
+   "src": "wiki:Panna cotta",
+   "answer": "Panna cotta",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "gyoza",
+   "src": "wiki:Gyoza",
+   "answer": "Gyoza",
+   "exact": [
+    "gyozas"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "samoussa",
+   "src": "wiki:Samoussa",
+   "answer": "Samoussa",
+   "exact": [
+    "samosa",
+    "samoussas"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "pad-thai",
+   "src": "wiki:Pad thaï",
+   "answer": "Pad thaï",
+   "exact": [
+    "pad thai"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "crepe",
+   "src": "wiki:Crêpe",
+   "answer": "Crêpe",
+   "exact": [
+    "crepes"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "mafe",
+   "src": "wiki:Mafé",
+   "answer": "Mafé",
+   "exact": [
+    "mafe"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "tacos",
+   "src": "wiki:Tacos_(Mexique)",
+   "answer": "Tacos",
+   "exact": [
+    "taco"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "frites",
+   "src": "wiki:Frite",
+   "answer": "Frites",
+   "exact": [
+    "frite",
+    "french fries"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "spaghetti",
+   "src": "wiki:Spaghetti",
+   "answer": "Spaghetti",
+   "exact": [
+    "spaghettis",
+    "pates"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "pain-au-chocolat",
+   "src": "wiki:Pain au chocolat",
+   "answer": "Pain au chocolat",
+   "exact": [
+    "chocolatine"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "fondue-savoyarde",
+   "src": "wiki:Fondue savoyarde",
+   "answer": "Fondue savoyarde",
+   "exact": [
+    "fondue"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "omelette",
+   "src": "wiki:Omelette",
+   "answer": "Omelette",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "soupe-a-l-oignon",
+   "src": "wiki:Soupe à l'oignon",
+   "answer": "Soupe à l'oignon",
+   "exact": [
+    "soupe a l oignon"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "pastilla",
+   "src": "wiki:Pastilla",
+   "answer": "Pastilla",
+   "exact": [],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "tarte-tatin",
+   "src": "wiki:Tarte Tatin",
+   "answer": "Tarte Tatin",
+   "exact": [
+    "tatin"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "creme-brulee",
+   "src": "wiki:Crème brûlée",
+   "answer": "Crème brûlée",
+   "exact": [
+    "creme brulee"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  },
+  {
+   "id": "mille-feuille",
+   "src": "wiki:Mille-feuille",
+   "answer": "Mille-feuille",
+   "exact": [
+    "millefeuille"
+   ],
+   "tags": [
+    "bouffe"
+   ]
+  }
+ ]
+}

@@ -49,6 +49,18 @@ export function PackEditor({ pack, change, optimize, allTags }: Props) {
     set({ questions: [...pack.questions, ...added] });
     setSel(added[0].id);
   };
+  const [links, setLinks] = useState<string | null>(null);
+  const addLinks = () => {
+    const added = (links ?? '').split('\n').map(l => l.split('|').map(x => x.trim())).filter(([u]) => /^(https?:\/\/|wiki:)/.test(u ?? '')).map(([url, answer, alts, tg]) => {
+      const t: QuestionType = /\.(mp3|ogg|wav|m4a|flac|opus)(\?|$)/i.test(url) ? 'audio' : /\.(mp4|webm|mov)(\?|$)/i.test(url) ? 'video' : 'image';
+      const auto = url.startsWith('wiki:') ? url.replace(/^wiki:([a-z]{2,3}:)?/, '').replace(/_/g, ' ') : answerFromFile(decodeURIComponent(url.split('/').pop()?.split('?')[0] ?? 'q'));
+      const q = newQuestion(answer || auto, t);
+      q.src = url; q.exact = (alts ?? '').split(',').map(s => s.trim()).filter(Boolean); q.tags = (tg ?? '').split(',').map(s => s.trim()).filter(Boolean);
+      return q;
+    });
+    if (added.length) { set({ questions: [...pack.questions, ...added] }); setSel(added[0].id); }
+    setLinks(null);
+  };
   const addBlank = (type: QuestionType) => {
     const q = newQuestion('', type);
     if (type === 'script') q.script = SCRIPT_TEMPLATE;
@@ -84,7 +96,14 @@ export function PackEditor({ pack, change, optimize, allTags }: Props) {
           <Drop onFiles={addFiles} multiple accept="image/*,audio/*,video/*">
             ⬇️ Glisse des images / sons / vidéos ici <small>(1 fichier = 1 question, réponse = nom du fichier)</small>
           </Drop>
-          <div class="add-row">{TYPES.map(([t, l]) => <button class="btn ghost small" onClick={() => addBlank(t)}>+ {l}</button>)}</div>
+          <div class="add-row">{TYPES.map(([t, l]) => <button class="btn ghost small" onClick={() => addBlank(t)}>+ {l}</button>)}<button class="btn ghost small" onClick={() => setLinks(links === null ? '' : null)}>🔗 Ajouter par liens</button></div>
+          {links !== null && (
+            <div class="links-box">
+              <small class="muted">Une question par ligne : <code>lien | réponse | autres réponses, séparées, par virgules | tags</code> — seul le lien est obligatoire. Astuce : <code>wiki:Pizza</code> prend l'image de l'article Wikipédia « Pizza » (<code>wiki:en:…</code> pour l'anglais). Images, sons (.mp3/.ogg…) et vidéos (.mp4/.webm). Un lien ne prend aucune place dans le pack.</small>
+              <Text area value={links} set={setLinks} placeholder={'https://upload.wikimedia.org/…/Pizza.jpg | Pizza | pizza margherita | bouffe, facile'} />
+              <button class="btn small" onClick={addLinks}>Ajouter</button>
+            </div>
+          )}
           <div class="add-row">
             <input placeholder="🔎 Chercher…" value={search} onInput={e => setSearch((e.target as HTMLInputElement).value)} />
             <select value={tag} onChange={e => setTag((e.target as HTMLSelectElement).value)}>
@@ -98,7 +117,7 @@ export function PackEditor({ pack, change, optimize, allTags }: Props) {
             const u = q.type !== 'audio' ? mediaUrlSync(pack.id, q.src) : undefined;
             return (
               <div key={q.id} class={`qrow ${q.id === sel ? 'on' : ''}`} onClick={() => setSel(q.id)}>
-                <div class="qthumb">{u && (q.type ?? 'image') === 'image' ? <img src={u} /> : ICON[q.type ?? 'image']}</div>
+                <div class="qthumb">{u && !u.startsWith('wiki:') && (q.type ?? 'image') === 'image' ? <img src={u} /> : u?.startsWith('wiki:') ? '🌐' : ICON[q.type ?? 'image']}</div>
                 <div class="qmain">
                   <b>{q.answer || <i class="muted">sans réponse</i>}</b>
                   <small>{[...(q.tags ?? []), q.effect && `✨${q.effect}`, q.difficulty && '★'.repeat(q.difficulty)].filter(Boolean).join(' · ')}</small>
@@ -145,7 +164,7 @@ function QuestionEditor({ pack, q, set, optimize, allTags }: { pack: PackFile; q
               <Drop onFiles={replaceMedia} accept={type === 'audio' ? 'audio/*' : type === 'video' ? 'video/*' : type === 'image' ? 'image/*' : undefined}>
                 {q.src ? `📎 ${q.src} — cliquer / glisser pour remplacer` : '📎 Choisir ou glisser un fichier'}
               </Drop>
-              <Text value={/^https?:/.test(q.src ?? '') ? q.src : ''} set={v => set({ src: v || undefined })} placeholder="…ou une URL https://" />
+              <Text value={/^(https?:|wiki:)/.test(q.src ?? '') ? q.src : ''} set={v => set({ src: v || undefined })} placeholder="…ou une URL https:// ou wiki:Titre_de_l'article" />
             </Field>
           )}
           {(type === 'text' || type === 'audio') && <Field label={type === 'text' ? 'Texte à afficher' : 'Légende (optionnel)'} wide><Text area value={q.text} set={v => set({ text: v })} placeholder={type === 'text' ? 'Une citation, une définition, un emoji 🍕🍍…' : ''} /></Field>}

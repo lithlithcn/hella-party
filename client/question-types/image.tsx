@@ -1,15 +1,19 @@
-import { useEffect, useRef } from 'preact/hooks';
-import { type QProps, useProgress, visualStyle } from './common';
+import { useEffect, useRef, useState } from 'preact/hooks';
+import { type QProps, useProgress, useSrc, visualStyle } from './common';
 
 export default function Image({ q, phase, clear }: QProps) {
   const o = q.opts ?? {};
   const progress = useProgress(phase, !!o.reveal && o.reveal !== 'none', clear);
   const v = visualStyle(o, progress, clear);
+  const src = useSrc(q.src);
+  const [fallback, setFallback] = useState(false);
+  if (!src) return <div class="q-frame q-loading">⏳</div>;
+  const url = fallback ? src.replace(/\/640px-/, '/330px-') : src;
   return (
     <div class="q-frame">
       {v.pixel > 0.01
-        ? <Pixelated src={q.src!} amount={v.pixel} style={v.style} />
-        : <img class="q-image" src={q.src} alt="" draggable={false} style={v.style} />}
+        ? <Pixelated src={url} amount={v.pixel} style={v.style} />
+        : <img class="q-image" src={url} alt="" draggable={false} style={v.style} onError={() => !fallback && setFallback(true)} />}
     </div>
   );
 }

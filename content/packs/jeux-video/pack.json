@@ -1,0 +1,527 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "jeux-video",
+ "name": "Jeux vidéo (émojis + indices)",
+ "emoji": "🎮",
+ "prompt": "Quel est ce jeu vidéo ?",
+ "tags": [
+  "jeux vidéo"
+ ],
+ "questions": [
+  {
+   "id": "super-mario-bros",
+   "type": "text",
+   "text": "🍄🧔🔴 · Plombier qui saute sur des champignons",
+   "answer": "Super Mario Bros.",
+   "exact": [
+    "mario",
+    "super mario",
+    "super mario bros"
+   ],
+   "hint": "Nintendo, 1985",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "the-legend-of-zelda",
+   "type": "text",
+   "text": "🗡️🛡️🧝 · Un héros en vert qui sauve une princesse",
+   "answer": "The Legend of Zelda",
+   "exact": [
+    "zelda"
+   ],
+   "hint": "Hyrule",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "pokemon",
+   "type": "text",
+   "text": "⚡🐭🔴⚪ · Attrapez-les tous",
+   "answer": "Pokémon",
+   "exact": [
+    "pokemon"
+   ],
+   "hint": "Pikachu",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "minecraft",
+   "type": "text",
+   "text": "⛏️🟫🧟 · Des cubes, des creepers et du crafting",
+   "answer": "Minecraft",
+   "exact": [
+    "minecraft"
+   ],
+   "hint": "Steve",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "fortnite",
+   "type": "text",
+   "text": "🪂🏗️🕺 · Battle royale avec construction et danses",
+   "answer": "Fortnite",
+   "exact": [
+    "fortnite"
+   ],
+   "hint": "Le bus",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "tetris",
+   "type": "text",
+   "text": "🟦🟨🟥 · Des pièces qui tombent, complète les lignes",
+   "answer": "Tetris",
+   "exact": [
+    "tetris"
+   ],
+   "hint": "Russie, 1984",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "pac-man",
+   "type": "text",
+   "text": "🟡👻🍒 · Mange des pac-gommes et fuis les fantômes",
+   "answer": "Pac-Man",
+   "exact": [
+    "pacman",
+    "pac man"
+   ],
+   "hint": "Arcade, 1980",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "sonic-the-hedgehog",
+   "type": "text",
+   "text": "🦔💨💍 · Un hérisson bleu très rapide",
+   "answer": "Sonic the Hedgehog",
+   "exact": [
+    "sonic"
+   ],
+   "hint": "SEGA",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "grand-theft-auto",
+   "type": "text",
+   "text": "🚗💰🚓 · Monde ouvert, voitures volées et étoiles de police",
+   "answer": "Grand Theft Auto",
+   "exact": [
+    "gta",
+    "gta v",
+    "gta 5"
+   ],
+   "hint": "Los Santos",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "among-us",
+   "type": "text",
+   "text": "🚀🔪👨‍🚀 · Trouve l'imposteur dans le vaisseau",
+   "answer": "Among Us",
+   "exact": [
+    "among us"
+   ],
+   "hint": "Sus",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "call-of-duty",
+   "type": "text",
+   "text": "🔫🪖💥 · FPS militaire très populaire",
+   "answer": "Call of Duty",
+   "exact": [
+    "cod",
+    "call of duty"
+   ],
+   "hint": "Warzone",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "ea-sports-fc",
+   "type": "text",
+   "text": "⚽🎮🏆 · Le jeu de foot de EA (ex-FIFA)",
+   "answer": "EA Sports FC",
+   "exact": [
+    "fifa",
+    "fc 25",
+    "ea fc"
+   ],
+   "hint": "Ultimate Team",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "league-of-legends",
+   "type": "text",
+   "text": "🧙‍♂️🗺️🏰 · MOBA à 5 contre 5 sur la Faille de l'invocateur",
+   "answer": "League of Legends",
+   "exact": [
+    "lol",
+    "league of legends"
+   ],
+   "hint": "Riot Games",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "street-fighter",
+   "type": "text",
+   "text": "👊🔥🥋 · « Hadouken ! »",
+   "answer": "Street Fighter",
+   "exact": [
+    "street fighter",
+    "sf"
+   ],
+   "hint": "Ryu et Ken",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "super-smash-bros",
+   "type": "text",
+   "text": "💥🎮⭐ · Les persos Nintendo se battent pour éjecter l'adversaire",
+   "answer": "Super Smash Bros.",
+   "exact": [
+    "smash",
+    "smash bros",
+    "super smash bros"
+   ],
+   "hint": "Ultimate",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "animal-crossing",
+   "type": "text",
+   "text": "🏝️🦝🍑 · Vie paisible sur une île, dette envers un raton laveur",
+   "answer": "Animal Crossing",
+   "exact": [
+    "animal crossing"
+   ],
+   "hint": "Tom Nook",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "les-sims",
+   "type": "text",
+   "text": "🏠💎👪 · Simule la vie de petits personnages qui parlent simlish",
+   "answer": "Les Sims",
+   "exact": [
+    "sims",
+    "the sims"
+   ],
+   "hint": "Le losange vert",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "clash-royale",
+   "type": "text",
+   "text": "👑🏰🃏 · Duels de cartes sur mobile",
+   "answer": "Clash Royale",
+   "exact": [
+    "clash royale"
+   ],
+   "hint": "Supercell",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "candy-crush",
+   "type": "text",
+   "text": "🍬🍭🍫 · Aligne trois bonbons",
+   "answer": "Candy Crush",
+   "exact": [
+    "candy crush saga"
+   ],
+   "hint": "King",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "rocket-league",
+   "type": "text",
+   "text": "🚗⚽🚀 · Du foot avec des voitures",
+   "answer": "Rocket League",
+   "exact": [
+    "rocket league"
+   ],
+   "hint": "Psyonix",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "valorant",
+   "type": "text",
+   "text": "🎯🧑‍🚀🔫 · FPS tactique de Riot avec des agents",
+   "answer": "Valorant",
+   "exact": [
+    "valorant"
+   ],
+   "hint": "Spike",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "fall-guys",
+   "type": "text",
+   "text": "🫘🏃‍♂️👑 · Des haricots qui courent sur des parcours d'obstacles",
+   "answer": "Fall Guys",
+   "exact": [
+    "fall guys"
+   ],
+   "hint": "Couronne",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "mario-kart",
+   "type": "text",
+   "text": "🏎️🍌🐢 · Courses avec des carapaces bleues",
+   "answer": "Mario Kart",
+   "exact": [
+    "mario kart"
+   ],
+   "hint": "Arc-en-ciel",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "donkey-kong",
+   "type": "text",
+   "text": "🦍🛢️🍌 · Un gorille qui lance des tonneaux",
+   "answer": "Donkey Kong",
+   "exact": [
+    "donkey kong",
+    "dk"
+   ],
+   "hint": "Jumpman",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "kirby",
+   "type": "text",
+   "text": "🩷⭐😋 · Une boule rose qui avale ses ennemis",
+   "answer": "Kirby",
+   "exact": [
+    "kirby"
+   ],
+   "hint": "Dream Land",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "halo",
+   "type": "text",
+   "text": "🪖🟢🌌 · Master Chief contre les Covenants",
+   "answer": "Halo",
+   "exact": [
+    "halo"
+   ],
+   "hint": "Xbox",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "portal",
+   "type": "text",
+   "text": "🔵🟠🎂 · Des portails et un gâteau qui est un mensonge",
+   "answer": "Portal",
+   "exact": [
+    "portal"
+   ],
+   "hint": "GLaDOS",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "elden-ring",
+   "type": "text",
+   "text": "💍🐎⚔️ · Monde ouvert très difficile, Sans-éclat",
+   "answer": "Elden Ring",
+   "exact": [
+    "elden ring"
+   ],
+   "hint": "FromSoftware",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "hollow-knight",
+   "type": "text",
+   "text": "🪲🗡️🕳️ · Un petit chevalier insecte dans Hallownest",
+   "answer": "Hollow Knight",
+   "exact": [
+    "hollow knight"
+   ],
+   "hint": "Metroidvania",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "undertale",
+   "type": "text",
+   "text": "💛🐐💀 · RPG où l'on peut épargner tout le monde",
+   "answer": "Undertale",
+   "exact": [
+    "undertale"
+   ],
+   "hint": "Sans et Papyrus",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "rivals-of-aether",
+   "type": "text",
+   "text": "🔥💧🌪️ · Jeu de combat de plateforme indé, Zetterburn et Orcane",
+   "answer": "Rivals of Aether",
+   "exact": [
+    "rivals",
+    "roa",
+    "rivals of aether"
+   ],
+   "hint": "Inspiré de Melee",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "celeste",
+   "type": "text",
+   "text": "🏔️🍓💨 · Gravir une montagne avec des dashs",
+   "answer": "Celeste",
+   "exact": [
+    "celeste"
+   ],
+   "hint": "Madeline",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "stardew-valley",
+   "type": "text",
+   "text": "🌾🐔🎣 · Reprendre la ferme de son grand-père",
+   "answer": "Stardew Valley",
+   "exact": [
+    "stardew",
+    "stardew valley"
+   ],
+   "hint": "Pelican Town",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "roblox",
+   "type": "text",
+   "text": "🧱🧑‍🤝‍🧑🎮 · Plateforme où l'on joue aux jeux des autres, « oof »",
+   "answer": "Roblox",
+   "exact": [
+    "roblox"
+   ],
+   "hint": "Robux",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "space-invaders",
+   "type": "text",
+   "text": "👾🚀🛸 · Des aliens qui descendent ligne par ligne",
+   "answer": "Space Invaders",
+   "exact": [
+    "space invaders"
+   ],
+   "hint": "Arcade, 1978",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "angry-birds",
+   "type": "text",
+   "text": "🐦😡🐷 · Lance-pierre et oiseaux en colère",
+   "answer": "Angry Birds",
+   "exact": [
+    "angry birds"
+   ],
+   "hint": "Rovio",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "subway-surfers",
+   "type": "text",
+   "text": "🚇🏃🛹 · Fuis le gardien sur les rails",
+   "answer": "Subway Surfers",
+   "exact": [
+    "subway surfers",
+    "subway surfer"
+   ],
+   "hint": "Mobile",
+   "tags": [
+    "jeux vidéo"
+   ]
+  },
+  {
+   "id": "geometry-dash",
+   "type": "text",
+   "text": "🟨🔺🎵 · Un cube qui saute en rythme",
+   "answer": "Geometry Dash",
+   "exact": [
+    "geometry dash",
+    "gd"
+   ],
+   "hint": "Jump !",
+   "tags": [
+    "jeux vidéo"
+   ]
+  }
+ ]
+}

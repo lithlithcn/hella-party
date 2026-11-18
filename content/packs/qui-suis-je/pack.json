@@ -1,0 +1,493 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "qui-suis-je",
+ "name": "Qui suis-je ? (célébrités)",
+ "emoji": "🕵️",
+ "prompt": "Qui suis-je ?",
+ "tags": [
+  "célébrités"
+ ],
+ "questions": [
+  {
+   "id": "albert-einstein",
+   "type": "text",
+   "text": "Physicien · E = mc² · Langue tirée sur une photo célèbre",
+   "answer": "Albert Einstein",
+   "exact": [
+    "einstein"
+   ],
+   "hint": "Relativité",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "napoleon-bonaparte",
+   "type": "text",
+   "text": "Empereur des Français · Né en Corse · Mort à Sainte-Hélène",
+   "answer": "Napoléon Bonaparte",
+   "exact": [
+    "napoleon",
+    "bonaparte"
+   ],
+   "hint": "Austerlitz",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "marie-curie",
+   "type": "text",
+   "text": "Deux prix Nobel · Radioactivité · Polonaise naturalisée française",
+   "answer": "Marie Curie",
+   "exact": [
+    "curie"
+   ],
+   "hint": "Radium",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "leonard-de-vinci",
+   "type": "text",
+   "text": "Peintre de la Joconde · Inventeur · Renaissance italienne",
+   "answer": "Léonard de Vinci",
+   "exact": [
+    "leonard de vinci",
+    "de vinci",
+    "leonardo da vinci"
+   ],
+   "hint": "Mona Lisa",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "mozart",
+   "type": "text",
+   "text": "Compositeur autrichien · Enfant prodige · La Flûte enchantée",
+   "answer": "Mozart",
+   "exact": [
+    "wolfgang amadeus mozart"
+   ],
+   "hint": "Wolfgang Amadeus",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "pablo-picasso",
+   "type": "text",
+   "text": "Peintre espagnol · Cubisme · Guernica",
+   "answer": "Pablo Picasso",
+   "exact": [
+    "picasso"
+   ],
+   "hint": "Période bleue",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "victor-hugo",
+   "type": "text",
+   "text": "Écrivain français · Les Misérables · Notre-Dame de Paris",
+   "answer": "Victor Hugo",
+   "exact": [
+    "hugo"
+   ],
+   "hint": "Exilé à Guernesey",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "moliere",
+   "type": "text",
+   "text": "Dramaturge français · Le Malade imaginaire · Le Bourgeois gentilhomme",
+   "answer": "Molière",
+   "exact": [
+    "moliere"
+   ],
+   "hint": "La « langue de … »",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "william-shakespeare",
+   "type": "text",
+   "text": "Dramaturge anglais · Roméo et Juliette · Hamlet",
+   "answer": "William Shakespeare",
+   "exact": [
+    "shakespeare"
+   ],
+   "hint": "« To be or not to be »",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "isaac-newton",
+   "type": "text",
+   "text": "Physicien anglais · Gravitation · Une pomme sur la tête",
+   "answer": "Isaac Newton",
+   "exact": [
+    "newton"
+   ],
+   "hint": "Lois du mouvement",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "neil-armstrong",
+   "type": "text",
+   "text": "Premier humain à marcher sur la Lune · Apollo 11 · 1969",
+   "answer": "Neil Armstrong",
+   "exact": [
+    "armstrong"
+   ],
+   "hint": "« Un petit pas pour l'homme »",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "thomas-pesquet",
+   "type": "text",
+   "text": "Astronaute français · Station spatiale internationale · Photos de la Terre",
+   "answer": "Thomas Pesquet",
+   "exact": [
+    "pesquet"
+   ],
+   "hint": "ESA",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "charlie-chaplin",
+   "type": "text",
+   "text": "Acteur du cinéma muet · Charlot · Chapeau melon et canne",
+   "answer": "Charlie Chaplin",
+   "exact": [
+    "chaplin",
+    "charlot"
+   ],
+   "hint": "Les Temps modernes",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "walt-disney",
+   "type": "text",
+   "text": "Créateur de Mickey · Studio d'animation · Parcs d'attractions",
+   "answer": "Walt Disney",
+   "exact": [
+    "disney"
+   ],
+   "hint": "Blanche-Neige (1937)",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "steve-jobs",
+   "type": "text",
+   "text": "Cofondateur d'Apple · Col roulé noir · iPhone",
+   "answer": "Steve Jobs",
+   "exact": [
+    "jobs"
+   ],
+   "hint": "Pixar",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "elon-musk",
+   "type": "text",
+   "text": "Tesla · SpaceX · A racheté Twitter",
+   "answer": "Elon Musk",
+   "exact": [
+    "musk"
+   ],
+   "hint": "Né en Afrique du Sud",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "michael-jackson",
+   "type": "text",
+   "text": "Roi de la pop · Moonwalk · Thriller",
+   "answer": "Michael Jackson",
+   "exact": [
+    "mj",
+    "jackson"
+   ],
+   "hint": "Un seul gant",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "freddie-mercury",
+   "type": "text",
+   "text": "Chanteur de Queen · Bohemian Rhapsody · Moustache iconique",
+   "answer": "Freddie Mercury",
+   "exact": [
+    "mercury"
+   ],
+   "hint": "We Are the Champions",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "bob-marley",
+   "type": "text",
+   "text": "Roi du reggae · Jamaïque · No Woman, No Cry",
+   "answer": "Bob Marley",
+   "exact": [
+    "marley"
+   ],
+   "hint": "The Wailers",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "elvis-presley",
+   "type": "text",
+   "text": "Le King du rock · Banane gominée · Graceland",
+   "answer": "Elvis Presley",
+   "exact": [
+    "elvis",
+    "presley"
+   ],
+   "hint": "Jailhouse Rock",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "beyonce",
+   "type": "text",
+   "text": "Ex-Destiny's Child · Single Ladies · Queen B",
+   "answer": "Beyoncé",
+   "exact": [
+    "beyonce"
+   ],
+   "hint": "Mariée à Jay-Z",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "rihanna",
+   "type": "text",
+   "text": "Chanteuse de la Barbade · Umbrella · Marque Fenty",
+   "answer": "Rihanna",
+   "exact": [
+    "riri"
+   ],
+   "hint": "Diamonds",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "aya-nakamura",
+   "type": "text",
+   "text": "Chanteuse franco-malienne · Djadja · Pookie",
+   "answer": "Aya Nakamura",
+   "exact": [
+    "aya"
+   ],
+   "hint": "Artiste francophone la plus écoutée",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "zinedine-zidane",
+   "type": "text",
+   "text": "Champion du monde 1998 · Coup de tête en 2006 · Entraîneur du Real Madrid",
+   "answer": "Zinédine Zidane",
+   "exact": [
+    "zidane",
+    "zizou",
+    "zinedine zidane"
+   ],
+   "hint": "Zizou",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "kylian-mbappe",
+   "type": "text",
+   "text": "Champion du monde 2018 à 19 ans · Bondy · Real Madrid",
+   "answer": "Kylian Mbappé",
+   "exact": [
+    "mbappe",
+    "kylian"
+   ],
+   "hint": "Tortue Ninja",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "lionel-messi",
+   "type": "text",
+   "text": "Argentin · 8 Ballons d'or · Champion du monde 2022",
+   "answer": "Lionel Messi",
+   "exact": [
+    "messi"
+   ],
+   "hint": "La Pulga",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "cristiano-ronaldo",
+   "type": "text",
+   "text": "Portugais · « Siuuu » · Meilleur buteur de l'histoire",
+   "answer": "Cristiano Ronaldo",
+   "exact": [
+    "ronaldo",
+    "cr7"
+   ],
+   "hint": "CR7",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "usain-bolt",
+   "type": "text",
+   "text": "L'homme le plus rapide du monde · 9,58 s au 100 m · Jamaïque",
+   "answer": "Usain Bolt",
+   "exact": [
+    "bolt"
+   ],
+   "hint": "La pose de l'éclair",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "michael-jordan",
+   "type": "text",
+   "text": "Légende de la NBA · Chicago Bulls · Air Jordan",
+   "answer": "Michael Jordan",
+   "exact": [
+    "jordan"
+   ],
+   "hint": "Numéro 23",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "serena-williams",
+   "type": "text",
+   "text": "Tenniswoman américaine · 23 titres du Grand Chelem · Sœur de Venus",
+   "answer": "Serena Williams",
+   "exact": [
+    "serena"
+   ],
+   "hint": "Raquette",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "teddy-riner",
+   "type": "text",
+   "text": "Judoka français · Multiple champion du monde et olympique · Plus de 2 m",
+   "answer": "Teddy Riner",
+   "exact": [
+    "riner"
+   ],
+   "hint": "Judo",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "tony-parker",
+   "type": "text",
+   "text": "Basketteur français · San Antonio Spurs · 4 titres NBA",
+   "answer": "Tony Parker",
+   "exact": [
+    "parker"
+   ],
+   "hint": "TP",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "omar-sy",
+   "type": "text",
+   "text": "Acteur français · Intouchables · Lupin sur Netflix",
+   "answer": "Omar Sy",
+   "exact": [
+    "omar"
+   ],
+   "hint": "Omar et Fred",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "squeezie",
+   "type": "text",
+   "text": "Youtubeur français · GP Explorer · Ex-chaîne de jeux vidéo",
+   "answer": "Squeezie",
+   "exact": [
+    "lucas hauchard"
+   ],
+   "hint": "Lucas Hauchard",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "nelson-mandela",
+   "type": "text",
+   "text": "Président de l'Afrique du Sud · 27 ans de prison · Lutte contre l'apartheid",
+   "answer": "Nelson Mandela",
+   "exact": [
+    "mandela",
+    "madiba"
+   ],
+   "hint": "Madiba",
+   "tags": [
+    "célébrités"
+   ]
+  },
+  {
+   "id": "cleopatre",
+   "type": "text",
+   "text": "Dernière reine d'Égypte ptolémaïque · Jules César · Marc Antoine",
+   "answer": "Cléopâtre",
+   "exact": [
+    "cleopatre"
+   ],
+   "hint": "Un serpent",
+   "tags": [
+    "célébrités"
+   ]
+  }
+ ]
+}

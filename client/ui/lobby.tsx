@@ -35,19 +35,29 @@ export function Lobby({ s }: { s: PublicState }) {
 }
 
 function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any) => void }) {
-  if (d.type === 'packs') return (
-    <div class="packs">
-      {store.packs.map(p => {
-        const on = (v ?? []).includes(p.id);
-        return (
-          <label key={p.id} class={`pack ${on ? 'on' : ''}`}>
-            <input type="checkbox" checked={on} onChange={() => set(d.key, on ? v.filter((x: string) => x !== p.id) : [...(v ?? []), p.id])} />
-            {p.name} <small>{p.count}</small>
-          </label>
-        );
-      })}
-    </div>
-  );
+  if (d.type === 'packs') {
+    const chip = (p: (typeof store.packs)[number]) => {
+      const on = (v ?? []).includes(p.id);
+      return (
+        <label key={p.id} class={`pack ${on ? 'on' : ''}`} title={[p.author && `par ${p.author}`, p.tags?.join(', ')].filter(Boolean).join(' · ')}>
+          <input type="checkbox" checked={on} onChange={() => set(d.key, on ? v.filter((x: string) => x !== p.id) : [...(v ?? []), p.id])} />
+          {p.emoji} {p.name} <small>{p.count}</small>
+        </label>
+      );
+    };
+    const mine = store.packs.filter(p => p.custom);
+    return (
+      <div class="packs-block">
+        <div class="packs">{store.packs.filter(p => !p.custom).map(chip)}</div>
+        <div class="packs-sub">
+          <b>Packs du Studio</b>
+          <button type="button" class="btn ghost small" onClick={() => send({ t: 'packs' })} title="Actualiser">🔄</button>
+          <a class="btn ghost small" href="/studio" target="_blank">🎨 Créer</a>
+        </div>
+        <div class="packs">{mine.length ? mine.map(chip) : <small class="muted">Publie un pack depuis le Studio pour le voir ici.</small>}</div>
+      </div>
+    );
+  }
   return (
     <label class="setting">
       <span>{d.label}</span>

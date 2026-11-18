@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'preact/hooks';
 import { CLIENT_FEATURES } from './feature';
 import { connect, DEBUG, identity, onFx, send, useStore } from './store';
-import { Logo } from './ui/util';
+import { Avatar, Logo } from './ui/util';
+import { AvatarEditor, myAvatar } from './ui/avatar-editor';
 import { setMusic, volume } from './sfx';
 import { lazy, Suspense } from 'preact/compat';
 
@@ -16,6 +17,7 @@ export function App() {
   const [name, setName] = useState(identity.name);
   useEffect(() => { const f = () => setCode(codeFromPath()); addEventListener('popstate', f); return () => removeEventListener('popstate', f); }, []);
   const go = (c: string) => { history.pushState(null, '', `/${c}${location.search}`); setCode(c); };
+  if (location.pathname === '/check') return <WikiCheck />;
   if (location.pathname.startsWith('/studio')) return <Suspense fallback={<div class="loading">Chargement du Studio…</div>}><Studio /></Suspense>;
   if (!code || !name) return <Home code={code} onName={n => { identity.name = n; setName(n); }} go={go} />;
   return <Room code={code} />;
@@ -24,6 +26,8 @@ export function App() {
 function Home({ code, onName, go }: { code: string | null; onName: (n: string) => void; go: (c: string) => void }) {
   const [name, setName] = useState(identity.name);
   const [join, setJoin] = useState('');
+  const [av, setAv] = useState(myAvatar.get());
+  const [editAv, setEditAv] = useState(false);
   const create = async () => {
     if (!name.trim()) return;
     onName(name.trim());
@@ -34,6 +38,10 @@ function Home({ code, onName, go }: { code: string | null; onName: (n: string) =
       <Logo big />
       <p class="tagline">Reconnais. Mise. Maudis tes potes.</p>
       <div class="home-card">
+        <button class="avatar-btn" onClick={() => setEditAv(true)} title="Photo de profil">
+          <Avatar id={identity.id} name={name || '?'} size={84} src={av} /><span>📷</span>
+        </button>
+        {editAv && <AvatarEditor onClose={() => setEditAv(false)} onDone={d => { myAvatar.set(d); setAv(d); setEditAv(false); }} />}
         <input class="big-input" placeholder="Ton pseudo" maxLength={20} value={name} autofocus
           onInput={e => setName((e.target as HTMLInputElement).value)} onKeyDown={e => e.key === 'Enter' && create()} />
         <button class="btn big" onClick={create}>{code ? `Rejoindre ${code}` : 'Créer une salle'}</button>
@@ -88,5 +96,26 @@ function Room({ code }: { code: string }) {
       ) : <div class="loading">Connexion…</div>}
       {DEBUG && s && <pre class="debug">{JSON.stringify({ ...s, now: undefined }, null, 1)}<a href={`/log/${code}`} target="_blank">/log/{code}</a></pre>}
     </div>
+  );
+}
+
+/** Debug page: shows every wiki: image of the built-in packs, failures first. */
+function WikiCheck() {
+  const [rows, setRows] = useState<{ pack: string; answer: string; src: string; url?: string | null }[]>([]);
+  useEffect(() => {
+    fetch('/api/wiki-check').then(r => r.json() as Promise<any[]>).then(async list => {
+      setRows(list);
+      const { resolveWiki } = await import('./question-types/common');
+      const out = await Promise.all(list.map(async r => ({ ...r, url: (await resolveWiki(r.src)) ?? null })));
+      setRows(out.sort((a, b) => Number(!!a.url) - Number(!!b.url)));
+    });
+  }, []);
+  const bad = rows.filter(r => r.url === null);
+  return (
+    <main class="check">
+      <h2>Images Wikipédia : {rows.length} · ❌ {bad.length}</h2>
+      {bad.length > 0 && <pre>{bad.map(r => `${r.pack} | ${r.answer} | ${r.src}`).join('\n')}</pre>}
+      <div class="check-grid">{rows.map(r => <figure><img src={r.url ?? ''} loading="lazy" /><figcaption>{r.url === null ? '❌ ' : ''}{r.answer}</figcaption></figure>)}</div>
+    </main>
   );
 }

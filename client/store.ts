@@ -10,6 +10,7 @@ export const store = {
   defs: [] as SettingDef[],
   packs: [] as PackInfo[],
   chat: [] as ChatLine[],
+  avatars: {} as Record<string, string>, // player id → data URL
   offset: 0,          // serverNow - Date.now()
   online: false,
 };
@@ -45,11 +46,14 @@ export function connect(code: string) {
   ws?.close();
   const sock = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws/${code}`);
   ws = sock;
-  sock.onopen = () => { retry = 0; store.online = true; send({ t: 'hello', id: identity.id, name: identity.name }); changed(); };
+  sock.onopen = () => { retry = 0; store.online = true; send({ t: 'hello', id: identity.id, name: identity.name, avatar: localStorage.getItem('hp.avatar') ?? undefined }); changed(); };
   sock.onmessage = ev => {
     const m: ServerMsg = JSON.parse(ev.data);
     switch (m.t) {
       case 'welcome': store.defs = m.defs; store.packs = m.packs; break;
+      case 'packs': store.packs = m.packs; break;
+      case 'avatars': store.avatars = m.map; break;
+      case 'avatar': store.avatars = { ...store.avatars }; if (m.data) store.avatars[m.id] = m.data; else delete store.avatars[m.id]; break;
       case 'state': store.s = m.s; store.offset = m.s.now - Date.now(); break;
       case 'chat': store.chat = [...store.chat.slice(-150), m]; if (m.from) play('chat', 0.6); break;
       case 'fx': if (m.kind === 'join') play('join', 0.7); if (m.kind === 'error') play('invalid'); fxListeners.forEach(l => l(m)); if (m.kind === 'error' && DEBUG) store.chat = [...store.chat, { from: null, name: '', text: `⚠ ${m.data?.where ?? ''} ${m.data?.msg}` }]; break;

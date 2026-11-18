@@ -66,7 +66,7 @@ async function shrinkImage(file: Blob, max: number, quality: number): Promise<Bl
 const urls = new Map<string, string>();
 export async function mediaUrl(packId: string, name?: string): Promise<string | undefined> {
   if (!name) return undefined;
-  if (/^(https?:|\/|blob:|data:)/.test(name)) return name;
+  if (/^(https?:|\/|blob:|data:|wiki:)/.test(name)) return name;
   const k = fileKey(packId, name);
   if (urls.has(k)) return urls.get(k);
   const b: Blob | undefined = await db.get('files', k);
@@ -75,7 +75,7 @@ export async function mediaUrl(packId: string, name?: string): Promise<string | 
   urls.set(k, u);
   return u;
 }
-export const mediaUrlSync = (packId: string, name?: string) => (name ? urls.get(fileKey(packId, name)) : undefined);
+export const mediaUrlSync = (packId: string, name?: string) => (!name ? undefined : /^(https?:|\/|blob:|data:|wiki:)/.test(name) ? name : urls.get(fileKey(packId, name)));
 
 /** Media files referenced by the pack (src + names used in scripts via api.asset/image/sound). */
 export async function packFiles(p: PackFile): Promise<string[]> {

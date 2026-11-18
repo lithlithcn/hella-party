@@ -14,7 +14,7 @@ const download = (data: Uint8Array, name: string) => {
 };
 
 /** Only keep files that the pack actually uses (src, sounds, or names mentioned in scripts/data). */
-function usedFiles(p: PackFile, all: string[]) {
+export function usedFiles(p: PackFile, all: string[]) {
   const text = JSON.stringify(p.questions.map(q => [q.script, q.data, q.text]));
   return all.filter(f => p.questions.some(q => q.src === f) || Object.values(p.sounds ?? {}).includes(f) || text.includes(f));
 }

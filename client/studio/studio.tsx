@@ -8,6 +8,7 @@ import { mediaUrlSync, newPack, packs } from './model';
 import { PackEditor } from './pack-editor';
 import { SoundsEditor } from './sounds';
 import { exportPacks, importZip } from './zip';
+import { packSize, publish, publishedId, unpublish } from './publish';
 import { Check } from './widgets';
 import './studio.css';
 
@@ -18,6 +19,9 @@ export default function Studio() {
   const [saved, setSaved] = useState(true);
   const [optimize, setOptimize] = useState(localStorage.getItem('hp.optimize') !== '0');
   const timer = useRef<any>(null);
+  const [pub, setPub] = useState('');
+  const [size, setSize] = useState(0);
+  useEffect(() => { if (cur) packSize(cur).then(setSize); }, [cur?.id, cur?.questions.length]);
 
   const reload = async (selectId?: string) => {
     const l = await packs.list();
@@ -69,7 +73,14 @@ export default function Studio() {
               {!list.length && <p class="muted">Pas encore de pack.</p>}
             </div>
             {cur && <>
-              <button class="btn" onClick={() => exportPacks([cur])}>📦 Exporter « {cur.name} »</button>
+              <small class="muted">Fichiers : {(size / 1e6).toFixed(1)} Mo{size > 20e6 ? ' — lourd : préfère des liens (URL) pour les gros médias' : ''}</small>
+              <button class="btn" disabled={!!pub && pub.endsWith('…')} onClick={async () => {
+                try { await packs.save(cur); const id = await publish(cur, setPub); setPub(`✅ Publié ! Choisis « ${cur.name} » dans les réglages de ta salle (id : ${id}).`); }
+                catch (e: any) { setPub(`❌ ${e.message ?? e}`); }
+              }}>🌐 Publier en ligne</button>
+              {localStorage.getItem(`hp.published.${cur.id}`) && <button class="btn ghost small" onClick={async () => { if (confirm('Retirer ce pack du jeu en ligne ?')) { await unpublish(cur); setPub('Pack retiré du jeu en ligne.'); } }}>Retirer du jeu en ligne</button>}
+              {pub && <small class="pub-msg">{pub}</small>}
+              <button class="btn ghost small" onClick={() => exportPacks([cur])}>📦 Exporter en .zip (pour GitHub)</button>
               <button class="btn ghost small" onClick={async () => { if (confirm(`Supprimer définitivement « ${cur.name} » et ses fichiers ?`)) { await packs.remove(cur.id); setCur(null); reload(); } }}>🗑 Supprimer ce pack</button>
             </>}
             {list.length > 1 && <button class="btn ghost small" onClick={() => exportPacks(list)}>📦 Tout exporter ({list.length})</button>}
@@ -78,8 +89,9 @@ export default function Studio() {
               <summary>Comment ajouter mon pack au jeu ?</summary>
               <ol>
                 <li>Crée tes questions ici (tout est sauvegardé sur cet appareil).</li>
-                <li>Clique sur « Exporter » : tu obtiens un fichier <code>.hellapack.zip</code>.</li>
-                <li>Envoie ce fichier à Claude : il l'ajoute au dépôt GitHub et le pack apparaît dans le jeu pour tout le monde.</li>
+                <li><b>Publier en ligne</b> : le pack est tout de suite jouable, il apparaît dans les réglages de n'importe quelle salle (« Packs du Studio »). Republie après chaque modification.</li>
+                <li><b>Exporter en .zip</b> : pour l'ajouter pour toujours au dépôt GitHub (envoie le fichier à Claude).</li>
+                <li>Pour des packs légers : utilise des liens (URL) au lieu de fichiers, avec « Ajouter par liens ».</li>
               </ol>
             </details>
           </aside>

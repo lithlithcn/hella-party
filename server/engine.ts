@@ -4,7 +4,7 @@ import { GRADE_RANK, type Found, type Grade, type PackInfo, type Phase, type Pub
 import { judge } from '../shared/answer';
 import type { GameEvents, ScoreCtx, ServerFeature } from './feature';
 import { FEATURES } from './_gen/features';
-import { PACKS, type Question } from './packs';
+import { PACK_META, PACKS, type Question } from './packs';
 
 export type { Question };
 
@@ -27,7 +27,7 @@ export interface QueuedPhase { name: string; ms: number; data?: any; onEnd?: () 
 const CORE_SETTINGS: SettingDef[] = [
   { key: 'answerTime', label: 'Temps de réponse (s)', type: 'number', default: 20, min: 5, max: 60, step: 1 },
   { key: 'revealTime', label: 'Temps de révélation (s)', type: 'number', default: 4, min: 2, max: 15, step: 1 },
-  { key: 'packs', label: 'Packs', type: 'packs', default: Object.keys(PACKS) },
+  { key: 'packs', label: 'Packs', type: 'packs', default: Object.keys(PACKS).filter(id => id !== 'flags') },
 ];
 
 export const SETTING_DEFS: SettingDef[] = [
@@ -35,13 +35,13 @@ export const SETTING_DEFS: SettingDef[] = [
   ...FEATURES.flatMap(f => (f.settings ?? []).map(s => ({ ...s, key: `${f.id}.${s.key}`, feature: f.id }))),
 ];
 
-export const PACK_INFO: PackInfo[] = Object.values(PACKS).map(p => ({ id: p.id, name: p.name, count: p.questions.length }));
+export const PACK_INFO: PackInfo[] = Object.values(PACKS).map(p => ({ id: p.id, name: p.name, count: p.questions.length, ...PACK_META[p.id] }));
 
 const SCORE_STEPS = FEATURES.flatMap(f => (f.score ?? []).map(s => ({ ...s, f }))).sort((a, b) => a.order - b.order);
 
 function publicQuestion(q: Question): PublicQuestion {
-  const { answer, exact, partial, explain, key, pack, id, time, ...pub } = q;
-  return { ...pub, id: key, assets: `/packs/${pack}/` };
+  const { answer, exact, partial, explain, key, pack, id, time, media, ...pub } = q;
+  return { ...pub, id: key, assets: media ?? `/packs/${pack}/` };
 }
 
 export class Game {
@@ -53,6 +53,12 @@ export class Game {
   settings: Record<string, any> = Object.fromEntries(SETTING_DEFS.map(d => [d.key, d.default]));
   question: Question | null = null;
   found = new Map<string, Found>();
+  guesses = new Map<string, string>();
+  /** Library packs loaded for this room (by Room before start). */
+  extra: Record<string, import('./packs').Pack> = {};
+  /** Ids of library packs that may be selected. */
+  libraryIds = new Set<string>();
+  avatarVersion = new Map<string, number>();
   reveal: PublicState['reveal'] = null;
   winners: string[] = [];
   /** Feature state slices, keyed by feature id. */
@@ -196,7 +202,7 @@ export class Game {
   private startQuestion() {
     const q = this.forced.shift() ?? this.pick();
     if (!q) return this.endGame();
-    this.question = q; this.round++; this.history.push(q); this.found.clear();
+    this.question = q; this.round++; this.history.push(q); this.found.clear(); this.guesses.clear();
     this.setPhase('question', (q.time || this.setting<number>('answerTime')) * 1000, undefined, () => this.endQuestion());
     this.emit('questionStart', {});
   }
@@ -209,12 +215,17 @@ export class Game {
       answer: q.answer, src: q.type === 'image' ? q.src : undefined, explain: q.explain,
       finders: [...this.found].map(([id, f]) => ({ id, ...f })).sort((a, b) => a.ms - b.ms),
     };
+    const names = this.reveal.finders.map(f => `${this.players.get(f.id)?.name ?? '?'} (${(f.ms / 1000).toFixed(1)} s)`);
+    this.chat(`✅ ${q.answer}${names.length ? ` — trouvé par ${names.join(', ')}` : ' — personne n\'a trouvé'}`);
     this.setPhase('reveal', this.setting<number>('revealTime') * 1000, undefined, () => this.nextRound());
   }
 
+  pack(id: string) { return PACKS[id] ?? this.extra[id]; }
+  packExists(id: string) { return !!PACKS[id] || this.libraryIds.has(id); }
+
   private packQuestions(): Question[] {
     const ids: string[] = this.setting('packs') ?? [];
-    return ids.flatMap(id => PACKS[id]?.questions ?? []);
+    return ids.flatMap(id => this.pack(id)?.questions ?? []);
   }
 
   private pick(): Question | null {
@@ -250,7 +261,9 @@ export class Game {
     const prev = this.found.get(id);
     if (!grade) {
       this.fx(id, 'answer', { ok: false });
+      if (!this.found.has(id)) this.guesses.set(id, text.trim().slice(0, 40));
       this.emit('wrongAnswer', { player: p, text });
+      this.io.sync();
       return;
     }
     if (prev && GRADE_RANK[prev.grade] >= GRADE_RANK[grade]) return this.fx(id, 'answer', { ok: false, already: true });
@@ -260,6 +273,7 @@ export class Game {
     const delta = Math.max(0, points - (prev?.points ?? 0));
     p.score += delta;
     this.found.set(id, { grade, ms, points: Math.max(points, prev?.points ?? 0) });
+    this.guesses.delete(id);
     this.fx(id, 'answer', { ok: true, grade, delta, notes: ctx.notes });
     this.fx(null, 'found', { id, grade });
     this.emit('answer', { player: p, grade, ms, points, delta });
@@ -281,7 +295,7 @@ export class Game {
       const d = SETTING_DEFS.find(x => x.key === k); if (!d) continue;
       if (d.type === 'number') this.settings[k] = Math.min(d.max ?? Infinity, Math.max(d.min ?? -Infinity, Number(v) || 0));
       else if (d.type === 'bool') this.settings[k] = !!v;
-      else if (d.type === 'packs') this.settings[k] = (Array.isArray(v) ? v : []).filter((id: string) => PACKS[id]);
+      else if (d.type === 'packs') this.settings[k] = (Array.isArray(v) ? v : []).filter((id: string) => this.packExists(id));
       else if (d.options?.some(o => o.value === v)) this.settings[k] = v;
     }
     this.io.sync();
@@ -308,6 +322,7 @@ export class Game {
       players: this.list.map(p => ({
         id: p.id, name: p.name, score: p.score, connected: p.connected, bot: p.bot,
         leader: p.id === this.leaderId, found: this.found.get(p.id) ?? null,
+        guess: this.guesses.get(p.id), av: this.avatarVersion.get(p.id),
       })),
       settings: this.settings, winners: this.winners, f,
     };

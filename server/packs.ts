@@ -8,20 +8,23 @@ export interface Question extends Omit<PackQuestion, "type"> {
   pack: string;
   type: string;       // client/question-types/<type>.tsx
   prompt: string;
+  media?: Record<string, string>; // library packs: file name → URL (for scripts)
 }
 
 export interface Pack { id: string; name: string; tags: string[]; questions: Question[] }
 
-const media = (pack: string, src?: string) => (src && !/^(https?:|\/)/.test(src) ? `/packs/${pack}/${src}` : src);
+const media = (pack: string, src?: string) => (src && !/^(https?:|\/|wiki:)/.test(src) ? `/packs/${pack}/${src}` : src);
 
-export const PACKS: Record<string, Pack> = Object.fromEntries(
-  (RAW_PACKS as PackFile[]).map(p => [p.id, {
-    id: p.id,
-    name: p.name,
-    tags: p.tags ?? [],
+export function resolvePack(p: PackFile & { media?: Record<string, string> }): Pack {
+  const map = p.media;
+  return {
+    id: p.id, name: p.name, tags: p.tags ?? [],
     questions: p.questions.map(q => ({
       ...q, key: `${p.id}/${q.id}`, pack: p.id, type: q.type ?? 'image', prompt: q.prompt || p.prompt,
-      src: media(p.id, q.src), exact: [q.answer, ...(q.exact ?? [])],
+      src: map && q.src && map[q.src] ? map[q.src] : media(p.id, q.src), exact: [q.answer, ...(q.exact ?? [])], media: map,
     })),
-  }]),
-);
+  };
+}
+
+export const PACKS: Record<string, Pack> = Object.fromEntries((RAW_PACKS as PackFile[]).map(p => [p.id, resolvePack(p)]));
+export const PACK_META = Object.fromEntries((RAW_PACKS as PackFile[]).map(p => [p.id, { emoji: p.emoji, author: p.author, tags: p.tags }]));

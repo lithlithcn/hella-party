@@ -6,6 +6,7 @@ import { CLIENT_FEATURES } from '../feature';
 import { onFx, send, store } from '../store';
 import { play, sfx } from '../sfx';
 import { fmtMs, useNow } from './util';
+import { impact } from './fx';
 import { Lobby } from './lobby';
 
 export const QT: Record<string, FunctionComponent<QProps>> = Object.fromEntries(
@@ -67,6 +68,7 @@ function Question({ s }: { s: PublicState }) {
         <div class="reveal">
           <div class="reveal-answer">{r.answer}</div>
           {r.explain && <div class="reveal-explain">{r.explain}</div>}
+          {q?.src?.startsWith('wiki:') && <small class="credit">Image : Wikipédia / Wikimedia Commons</small>}
           <div class="reveal-finders">
             {r.finders.length === 0 && <span class="muted">Personne n'a trouvé 😶</span>}
             {r.finders.map((f, i) => (
@@ -105,7 +107,12 @@ function AnswerBox({ s }: { s: PublicState }) {
         const cls = d.ok ? (d.grade === 'exact' ? 'ok' : 'partial') : 'bad';
         (d.ok ? (d.grade === 'exact' ? sfx.correct : sfx.partial) : sfx.wrong)();
         setFb(''); requestAnimationFrame(() => setFb(cls));
-      } else if (m.kind === 'found' && m.data.id !== store.s?.me) sfx.other();
+      } else if (m.kind === 'found') {
+        const mine = m.data.id === store.s?.me;
+        if (!mine) sfx.other();
+        const c = m.data.grade === 'exact' ? 'var(--lime)' : m.data.grade === 'partial' ? 'var(--yellow)' : 'var(--cyan)';
+        impact(mine ? 1 : 0.6, document.querySelector(`[data-pid="${m.data.id}"]`), c);
+      }
     });
   }, []);
 

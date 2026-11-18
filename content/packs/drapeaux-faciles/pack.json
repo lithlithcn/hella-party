@@ -1,0 +1,603 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "drapeaux-faciles",
+ "name": "Drapeaux (faciles)",
+ "emoji": "🏁",
+ "prompt": "Quel est ce pays ?",
+ "tags": [
+  "géographie",
+  "drapeaux",
+  "facile"
+ ],
+ "questions": [
+  {
+   "id": "ar",
+   "src": "/packs/flags/ar.webp",
+   "answer": "Argentine",
+   "exact": [
+    "Argentina"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "at",
+   "src": "/packs/flags/at.webp",
+   "answer": "Autriche",
+   "exact": [
+    "Austria"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "au",
+   "src": "/packs/flags/au.webp",
+   "answer": "Australie",
+   "exact": [
+    "Australia"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "be",
+   "src": "/packs/flags/be.webp",
+   "answer": "Belgique",
+   "exact": [
+    "Belgium"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "br",
+   "src": "/packs/flags/br.webp",
+   "answer": "Brésil",
+   "exact": [
+    "Brazil"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ca",
+   "src": "/packs/flags/ca.webp",
+   "answer": "Canada",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "cd",
+   "src": "/packs/flags/cd.webp",
+   "answer": "Congo-Kinshasa",
+   "exact": [
+    "Congo - Kinshasa",
+    "RDC",
+    "Congo Kinshasa"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ch",
+   "src": "/packs/flags/ch.webp",
+   "answer": "Suisse",
+   "exact": [
+    "Switzerland"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ci",
+   "src": "/packs/flags/ci.webp",
+   "answer": "Côte d’Ivoire",
+   "exact": [
+    "Côte d Ivoire",
+    "Ivory Coast"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "cl",
+   "src": "/packs/flags/cl.webp",
+   "answer": "Chili",
+   "exact": [
+    "Chile"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "cm",
+   "src": "/packs/flags/cm.webp",
+   "answer": "Cameroun",
+   "exact": [
+    "Cameroon"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "cn",
+   "src": "/packs/flags/cn.webp",
+   "answer": "Chine",
+   "exact": [
+    "China"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "co",
+   "src": "/packs/flags/co.webp",
+   "answer": "Colombie",
+   "exact": [
+    "Colombia"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "cu",
+   "src": "/packs/flags/cu.webp",
+   "answer": "Cuba",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "de",
+   "src": "/packs/flags/de.webp",
+   "answer": "Allemagne",
+   "exact": [
+    "Germany"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "dk",
+   "src": "/packs/flags/dk.webp",
+   "answer": "Danemark",
+   "exact": [
+    "Denmark"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "dz",
+   "src": "/packs/flags/dz.webp",
+   "answer": "Algérie",
+   "exact": [
+    "Algeria"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "eg",
+   "src": "/packs/flags/eg.webp",
+   "answer": "Égypte",
+   "exact": [
+    "Egypt"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "es",
+   "src": "/packs/flags/es.webp",
+   "answer": "Espagne",
+   "exact": [
+    "Spain"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "fi",
+   "src": "/packs/flags/fi.webp",
+   "answer": "Finlande",
+   "exact": [
+    "Finland"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "fr",
+   "src": "/packs/flags/fr.webp",
+   "answer": "France",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "gb",
+   "src": "/packs/flags/gb.webp",
+   "answer": "Royaume-Uni",
+   "exact": [
+    "United Kingdom",
+    "UK",
+    "Angleterre",
+    "Grande-Bretagne",
+    "Great Britain",
+    "England"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "gh",
+   "src": "/packs/flags/gh.webp",
+   "answer": "Ghana",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "gr",
+   "src": "/packs/flags/gr.webp",
+   "answer": "Grèce",
+   "exact": [
+    "Greece"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ie",
+   "src": "/packs/flags/ie.webp",
+   "answer": "Irlande",
+   "exact": [
+    "Ireland"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "in",
+   "src": "/packs/flags/in.webp",
+   "answer": "Inde",
+   "exact": [
+    "India"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "it",
+   "src": "/packs/flags/it.webp",
+   "answer": "Italie",
+   "exact": [
+    "Italy"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "jm",
+   "src": "/packs/flags/jm.webp",
+   "answer": "Jamaïque",
+   "exact": [
+    "Jamaica"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "jp",
+   "src": "/packs/flags/jp.webp",
+   "answer": "Japon",
+   "exact": [
+    "Japan"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ke",
+   "src": "/packs/flags/ke.webp",
+   "answer": "Kenya",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "kr",
+   "src": "/packs/flags/kr.webp",
+   "answer": "Corée du Sud",
+   "exact": [
+    "South Korea",
+    "Corée",
+    "Korea"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "lb",
+   "src": "/packs/flags/lb.webp",
+   "answer": "Liban",
+   "exact": [
+    "Lebanon"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ml",
+   "src": "/packs/flags/ml.webp",
+   "answer": "Mali",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "mx",
+   "src": "/packs/flags/mx.webp",
+   "answer": "Mexique",
+   "exact": [
+    "Mexico"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ng",
+   "src": "/packs/flags/ng.webp",
+   "answer": "Nigeria",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "nl",
+   "src": "/packs/flags/nl.webp",
+   "answer": "Pays-Bas",
+   "exact": [
+    "Netherlands",
+    "Hollande",
+    "Holland"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "no",
+   "src": "/packs/flags/no.webp",
+   "answer": "Norvège",
+   "exact": [
+    "Norway"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "nz",
+   "src": "/packs/flags/nz.webp",
+   "answer": "Nouvelle-Zélande",
+   "exact": [
+    "New Zealand"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "pe",
+   "src": "/packs/flags/pe.webp",
+   "answer": "Pérou",
+   "exact": [
+    "Peru"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "pl",
+   "src": "/packs/flags/pl.webp",
+   "answer": "Pologne",
+   "exact": [
+    "Poland"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "pt",
+   "src": "/packs/flags/pt.webp",
+   "answer": "Portugal",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ru",
+   "src": "/packs/flags/ru.webp",
+   "answer": "Russie",
+   "exact": [
+    "Russia"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "se",
+   "src": "/packs/flags/se.webp",
+   "answer": "Suède",
+   "exact": [
+    "Sweden"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "sn",
+   "src": "/packs/flags/sn.webp",
+   "answer": "Sénégal",
+   "exact": [
+    "Senegal"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "tn",
+   "src": "/packs/flags/tn.webp",
+   "answer": "Tunisie",
+   "exact": [
+    "Tunisia"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "tr",
+   "src": "/packs/flags/tr.webp",
+   "answer": "Turquie",
+   "exact": [
+    "Türkiye"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "ua",
+   "src": "/packs/flags/ua.webp",
+   "answer": "Ukraine",
+   "exact": [],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "us",
+   "src": "/packs/flags/us.webp",
+   "answer": "États-Unis",
+   "exact": [
+    "United States",
+    "USA",
+    "US",
+    "Amérique",
+    "Etats-Unis d Amérique",
+    "America"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  },
+  {
+   "id": "za",
+   "src": "/packs/flags/za.webp",
+   "answer": "Afrique du Sud",
+   "exact": [
+    "South Africa"
+   ],
+   "tags": [
+    "drapeau",
+    "facile"
+   ]
+  }
+ ]
+}

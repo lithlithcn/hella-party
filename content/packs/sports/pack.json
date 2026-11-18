@@ -1,0 +1,279 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "sports",
+ "name": "Sports (le matos)",
+ "emoji": "⚽",
+ "prompt": "Quel sport ?",
+ "tags": [
+  "sport"
+ ],
+ "questions": [
+  {
+   "id": "football",
+   "src": "wiki:Ballon_de_football",
+   "answer": "Football",
+   "exact": [
+    "foot",
+    "soccer"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "basket-ball",
+   "src": "wiki:Ballon_de_basket-ball",
+   "answer": "Basket-ball",
+   "exact": [
+    "basket",
+    "basketball"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "tennis",
+   "src": "wiki:Raquette_de_tennis",
+   "answer": "Tennis",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "golf",
+   "src": "wiki:Club_de_golf",
+   "answer": "Golf",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "baseball",
+   "src": "wiki:Balle_de_baseball",
+   "answer": "Baseball",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "rugby",
+   "src": "wiki:Ballon_de_rugby",
+   "answer": "Rugby",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "badminton",
+   "src": "wiki:Volant_(badminton)",
+   "answer": "Badminton",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "patinage",
+   "src": "wiki:Patin_à_glace",
+   "answer": "Patinage",
+   "exact": [
+    "patin a glace",
+    "patinage artistique"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "surf",
+   "src": "wiki:Planche_de_surf",
+   "answer": "Surf",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "skateboard",
+   "src": "wiki:Skateboard",
+   "answer": "Skateboard",
+   "exact": [
+    "skate"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "boxe",
+   "src": "wiki:Gant_de_boxe",
+   "answer": "Boxe",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "ski",
+   "src": "wiki:Ski",
+   "answer": "Ski",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "flechettes",
+   "src": "wiki:Fléchettes",
+   "answer": "Fléchettes",
+   "exact": [
+    "flechettes"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "ping-pong",
+   "src": "wiki:Raquette_de_tennis_de_table",
+   "answer": "Ping-pong",
+   "exact": [
+    "tennis de table",
+    "ping pong"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "petanque",
+   "src": "wiki:Boule_de_pétanque",
+   "answer": "Pétanque",
+   "exact": [
+    "petanque",
+    "boules"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "bowling",
+   "src": "wiki:Quille_(jeu)",
+   "answer": "Bowling",
+   "exact": [
+    "quilles"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "halterophilie",
+   "src": "wiki:Haltère",
+   "answer": "Haltérophilie",
+   "exact": [
+    "halteres",
+    "musculation",
+    "muscu"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "hockey-sur-glace",
+   "src": "wiki:Palet_(hockey_sur_glace)",
+   "answer": "Hockey sur glace",
+   "exact": [
+    "hockey"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "volley-ball",
+   "src": "wiki:Ballon_de_volley-ball",
+   "answer": "Volley-ball",
+   "exact": [
+    "volley"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "cricket",
+   "src": "wiki:Batte_de_cricket",
+   "answer": "Cricket",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "billard",
+   "src": "wiki:Boule_de_billard",
+   "answer": "Billard",
+   "exact": [],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "escrime",
+   "src": "wiki:Fleuret",
+   "answer": "Escrime",
+   "exact": [
+    "fleuret"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "tir-a-l-arc",
+   "src": "wiki:Arc_(arme)",
+   "answer": "Tir à l'arc",
+   "exact": [
+    "tir a l arc",
+    "arc"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "echecs",
+   "src": "wiki:Pièce_d'échecs",
+   "answer": "Échecs",
+   "exact": [
+    "echecs",
+    "chess"
+   ],
+   "tags": [
+    "sport"
+   ]
+  },
+  {
+   "id": "football-americain",
+   "src": "wiki:Ballon_de_football_américain",
+   "answer": "Football américain",
+   "exact": [
+    "foot us",
+    "football americain"
+   ],
+   "tags": [
+    "sport"
+   ]
+  }
+ ]
+}

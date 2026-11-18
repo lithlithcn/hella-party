@@ -25,7 +25,7 @@ for (const zip of process.argv.slice(2)) {
       const name = path.basename(k);
       fs.writeFileSync(path.join(dir, 'media', name), data); n++; bytes += data.length;
     }
-    const missing = pack.questions.filter(q => q.src && !/^(https?:|\/)/.test(q.src) && !fs.existsSync(path.join(dir, 'media', q.src))).map(q => q.src);
+    const missing = pack.questions.filter(q => q.src && !/^(https?:|\/|wiki:)/.test(q.src) && !fs.existsSync(path.join(dir, 'media', q.src))).map(q => q.src);
     console.log(`pack ${pack.id}: ${pack.questions.length} questions, ${n} files (${(bytes / 1e6).toFixed(1)} MB)${missing.length ? ` ⚠ missing: ${missing.join(', ')}` : ''}`);
   }
   for (const [k, data] of Object.entries(entries)) {

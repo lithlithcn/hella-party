@@ -12,7 +12,8 @@ server/index.ts         routes: /api/new, /ws/CODE, /log/CODE → Room DO; else 
 server/room.ts          Durable Object: sockets ↔ Game, per-viewer state broadcast (coalesced)
 server/engine.ts        Game core: players, phases, questions, answers, score pipeline, settings
 server/feature.ts       ServerFeature contract (events, score steps, actions, view, settings)
-server/packs.ts         Question type + pack loading
+server/packs.ts         Question type + pack loading (resolvePack also used for library packs)
+server/library.ts       Library DO ("main", SQLite): Studio-published packs + content-addressed chunked media (/api/packs, /api/media)
 client/feature.ts       ClientFeature contract (UI slots) — auto-registered via import.meta.glob
 client/store.ts         socket + latest snapshot; useStore(), onFx(), act()
 client/ui/*             core screens: stage (question/reveal/podium/answer box), lobby, players, chat
@@ -55,6 +56,12 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - Script questions: free JS run client-side with `api` (doc: SCRIPT_API_DOC in client/question-types/script.tsx). No sandbox on purpose (friends only).
 - New question type: `client/question-types/<type>.tsx` receiving `QProps` ({ q, phase, clear }), + add it to TYPES in client/studio/pack-editor.tsx.
 - New game sound event: add to SOUND_EVENTS in client/sfx.ts + file in client/public/sfx/.
+
+## Online library (packs from the Studio, no GitHub step)
+- Studio "Publier en ligne" → uploads media (sha-256, dedup) to /api/media/<hash>, then PUT /api/packs/<slug(name)> with a per-device key (localStorage) — same name by someone else is refused.
+- Room fetches the library list (cached 10 s) for the lobby, loads selected library packs at `start` into `game.extra`.
+- Media sources: file in media/, absolute URL, or `wiki:Title` / `wiki:en:Title` = lead image of a Wikipedia article, resolved in the browser (client/question-types/common.ts resolveWiki). Built-in image packs use wiki: (zero repo weight). `/check` page lists broken wiki images.
+- Avatars: 128px WebP data URL, sent in hello / {t:'avatar'}; Room relays them separately from state (never inside the state snapshot).
 
 ## Debug
 - `?debug` in the URL: state JSON overlay, dev settings (bots), feature errors in chat.

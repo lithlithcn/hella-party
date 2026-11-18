@@ -68,3 +68,6 @@ textarea.mono, .mono { font-family: ui-monospace, Consolas, monospace; font-size
 .sound-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 4px 0; border-bottom: 1px solid var(--line); }
 .sound-name { flex: 1; min-width: 200px; } .sound-name small { color: var(--muted); }
 .sound-row .drop { padding: 4px 12px; }
+.pub-msg { font-weight: 600; }
+.links-box { display: flex; flex-direction: column; gap: 6px; }
+.links-box textarea { min-height: 110px; font-family: ui-monospace, monospace; font-size: .85em; }

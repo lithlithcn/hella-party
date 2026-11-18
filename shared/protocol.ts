@@ -30,7 +30,7 @@ export interface PublicQuestion {
   tags?: string[];
   effect?: string;
   script?: string;
-  assets?: string;        // base URL of the pack media (for scripts)
+  assets?: string | Record<string, string>; // base URL of the pack media, or name → URL map (library packs)
   data?: any;
 }
 
@@ -44,6 +44,8 @@ export interface PublicPlayer {
   bot: boolean;
   leader: boolean;
   found: Found | null;    // for the current question
+  guess?: string;         // last wrong guess this question (shown like JKLM)
+  av?: number;            // avatar version (image sent separately, see 'avatar' msgs)
 }
 
 export interface Phase { name: string; startedAt: number; endsAt: number; data?: any }
@@ -63,10 +65,12 @@ export interface PublicState {
   f: Record<string, any>; // per-feature public slices (feature.view)
 }
 
-export interface PackInfo { id: string; name: string; count: number }
+export interface PackInfo { id: string; name: string; count: number; emoji?: string; author?: string; tags?: string[]; custom?: boolean }
 
 export type ClientMsg =
-  | { t: 'hello'; id: string; name: string }
+  | { t: 'hello'; id: string; name: string; avatar?: string }
+  | { t: 'avatar'; data: string | null }
+  | { t: 'packs' }  // refresh the pack list (library)
   | { t: 'answer'; text: string }
   | { t: 'chat'; text: string }
   | { t: 'start' }
@@ -76,6 +80,9 @@ export type ClientMsg =
 
 export type ServerMsg =
   | { t: 'welcome'; defs: SettingDef[]; packs: PackInfo[] }
+  | { t: 'packs'; packs: PackInfo[] }
+  | { t: 'avatars'; map: Record<string, string> }       // id → data URL (on join: everyone's)
+  | { t: 'avatar'; id: string; data: string | null }
   | { t: 'state'; s: PublicState }
   | { t: 'chat'; from: string | null; name: string; text: string }
   | { t: 'fx'; kind: string; f?: string; data?: any } // transient: sounds, feedback, animations
