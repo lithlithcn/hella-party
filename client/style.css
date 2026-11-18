@@ -236,3 +236,4 @@ img.avatar { object-fit: cover; display: block; }
 .pguess { white-space: normal; text-overflow: clip; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; line-clamp: 3;
   bottom: auto; top: calc(100% - 12px); line-height: 1.2; text-align: center; overflow-wrap: anywhere; z-index: 2; min-width: 3em; }
 .pguess.said { background: #e9fbe2; }
+.msg.bub { opacity: .8; } .msg.bub::before { content: '💬 '; font-size: .8em; }

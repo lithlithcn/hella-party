@@ -45,6 +45,7 @@ export interface PublicPlayer {
   leader: boolean;
   found: Found | null;    // for the current question
   guess?: string;         // last wrong guess this question (shown like JKLM)
+  color: number;          // colour slot (distinct per player in the room, see client/ui/util playerColor)
   av?: number;            // avatar version (image sent separately, see 'avatar' msgs)
 }
 
@@ -85,7 +86,7 @@ export type ServerMsg =
   | { t: 'avatars'; map: Record<string, string> }       // id → data URL (on join: everyone's)
   | { t: 'avatar'; id: string; data: string | null }
   | { t: 'state'; s: PublicState }
-  | { t: 'chat'; id?: number; from: string | null; name: string; text: string; reply?: ChatQuote }
+  | { t: 'chat'; id?: number; from: string | null; name: string; text: string; reply?: ChatQuote; bubble?: boolean }
   | { t: 'fx'; kind: string; f?: string; data?: any } // transient: sounds, feedback, animations
   | { t: 'err'; msg: string };
 

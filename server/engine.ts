@@ -15,11 +15,14 @@ export interface Player {
   connected: boolean;
   bot: boolean;
   joinedAt: number;
+  color: number;
 }
 
 export interface IO {
   sync(): void;                                   // schedule a state broadcast
   send(to: string | null, msg: ServerMsg): void;  // null = everyone
+  /** Log a player's bubble text in the chat (to = only these players, null = everyone). */
+  bubble?(from: string, text: string, to: string[] | null): void;
   /** Make a question playable (e.g. resolve wiki: images). null = unusable → skipped. */
   prepare?(q: Question): Promise<Question | null>;
 }
@@ -29,7 +32,8 @@ export interface QueuedPhase { name: string; ms: number; data?: any; onEnd?: () 
 const CORE_SETTINGS: SettingDef[] = [
   { key: 'answerTime', label: 'Temps de réponse (s)', type: 'number', default: 20, min: 5, max: 60, step: 1 },
   { key: 'revealTime', label: 'Temps de révélation (s)', type: 'number', default: 4, min: 2, max: 15, step: 1 },
-  { key: 'mediaEffects', label: 'Effets zoom / flou / pixel', type: 'bool', default: false },
+  { key: 'mediaEffects', label: 'Effets des packs (zoom…)', type: 'bool', default: false },
+  { key: 'imageReveal', label: 'Image qui se dévoile', type: 'select', default: 'none', options: [{ value: 'none', label: 'Non' }, { value: 'unpixelate', label: 'Pixelisée → nette' }, { value: 'unblur', label: 'Floue → nette' }, { value: 'unzoom', label: 'Zoomée → normale' }, { value: 'random', label: 'Au hasard' }] },
   { key: 'maxDifficulty', label: 'Difficulté max', type: 'select', default: 2, options: [{ value: 1, label: 'Facile' }, { value: 2, label: 'Moyen' }, { value: 3, label: 'Tout (même niche)' }] },
   { key: 'packs', label: 'Packs', type: 'packs', default: Object.keys(PACKS).filter(id => id !== 'flags') },
 ];
@@ -45,9 +49,15 @@ const SCORE_STEPS = FEATURES.flatMap(f => (f.score ?? []).map(s => ({ ...s, f })
 
 const VISUAL_FX = ['blur', 'pixelate', 'zoom', 'zoomX', 'zoomY', 'reveal'] as const;
 
-function publicQuestion(q: Question, effects: boolean): PublicQuestion {
+const REVEALS = ['unpixelate', 'unblur', 'unzoom'] as const;
+function publicQuestion(q: Question, effects: boolean, reveal: string): PublicQuestion {
   const { answer, exact, partial, explain, key, pack, id, time, media, ...pub } = q;
   if (!effects && pub.opts) { pub.opts = { ...pub.opts }; for (const k of VISUAL_FX) delete pub.opts[k]; }
+  // room-wide "image qui se dévoile" for image questions that don't already have a reveal
+  if (reveal !== 'none' && pub.type === 'image' && (!pub.opts?.reveal || pub.opts.reveal === 'none')) {
+    let h = 0; for (const c of key) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+    pub.opts = { ...pub.opts, reveal: reveal === 'random' ? REVEALS[h % 3] : (reveal as any) };
+  }
   return { ...pub, id: key, assets: media ?? `/packs/${pack}/` };
 }
 
@@ -140,7 +150,7 @@ export class Game {
     let p = this.players.get(id);
     if (p) { p.connected = true; p.name = name; }
     else {
-      p = { id, name, score: 0, connected: true, bot, joinedAt: this.now() };
+      p = { id, name, score: 0, connected: true, bot, joinedAt: this.now(), color: this.freeColor() };
       this.players.set(id, p);
       this.chat(`${name} a rejoint la partie`);
       this.fx(null, 'join', { id });
@@ -311,6 +321,9 @@ export class Game {
   }
 
   // ───────────── answers ─────────────
+  /** Smallest colour slot nobody in the room uses: the 12 rainbow hues are all taken before any variant. */
+  private freeColor() { const used = new Set([...this.players.values()].map(p => p.color)); let i = 0; while (used.has(i)) i++; return i; }
+
   private visibleGuess(pid: string, viewer: string | null) {
     const g = this.guesses.get(pid);
     if (!g) return undefined;
@@ -326,6 +339,7 @@ export class Game {
     const t = text.trim().slice(0, 120);
     if (!t) return;
     this.guesses.set(id, { text: t, after: true });
+    if (ph === 'question') this.io.bubble?.(id, t, [...this.found.keys()]); // finders only (no spoilers); reveal lines are already chat
     this.io.sync();
   }
 
@@ -339,6 +353,7 @@ export class Game {
     if (!grade) {
       this.fx(id, 'answer', { ok: false });
       this.guesses.set(id, { text: text.trim().slice(0, 120), after: !!prev });
+      this.io.bubble?.(id, text.trim().slice(0, 120), null);
       this.emit('wrongAnswer', { player: p, text });
       this.io.sync();
       return;
@@ -394,10 +409,10 @@ export class Game {
     for (const ft of FEATURES) if (ft.view && this.isActive(ft)) this.guard(`${ft.id}.view`, () => (f[ft.id] = ft.view!(this, me)));
     return {
       code: this.code, now: this.now(), me, status: this.status, phase: this.phase, round: this.round,
-      question: q && publicQuestion(q, this.setting('mediaEffects') !== false),
+      question: q && publicQuestion(q, this.setting('mediaEffects') !== false, this.setting<string>('imageReveal') ?? 'none'),
       reveal: this.reveal,
       players: this.list.map(p => ({
-        id: p.id, name: p.name, score: p.score, connected: p.connected, bot: p.bot,
+        id: p.id, name: p.name, score: p.score, connected: p.connected, bot: p.bot, color: p.color,
         leader: p.id === this.leaderId, found: this.found.get(p.id) ?? null,
         guess: this.visibleGuess(p.id, me), av: this.avatarVersion.get(p.id),
       })),

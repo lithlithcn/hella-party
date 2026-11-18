@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { type QProps, reportMediaError, useProgress, useSrc, visualStyle } from './common';
+import { type QProps, revealEnd, reportMediaError, useProgress, useSrc, visualStyle } from './common';
 import { serverNow } from '../store';
 
 export default function Image({ q, phase, clear }: QProps) {
@@ -8,12 +8,12 @@ export default function Image({ q, phase, clear }: QProps) {
   const cssReveal = !!phase && (o.reveal === 'unblur' || o.reveal === 'unzoom');
   const stepped = !cssReveal && !!o.reveal && o.reveal !== 'none';
   const progress = useProgress(phase, stepped, clear);
-  const [p0] = useState(() => (phase ? Math.min(1, Math.max(0, (serverNow() - phase.startedAt) / (phase.endsAt - phase.startedAt))) : 0));
+  const [p0] = useState(() => (phase ? Math.min(1, Math.max(0, (serverNow() - phase.startedAt) / Math.max(1, revealEnd(phase) - phase.startedAt))) : 0));
   const [go, setGo] = useState(false);
   useEffect(() => { if (cssReveal) { const r = requestAnimationFrame(() => requestAnimationFrame(() => setGo(true))); return () => cancelAnimationFrame(r); } }, [q.id]);
   const v = visualStyle(o, cssReveal ? (go ? 1 : p0) : progress, clear);
   if (cssReveal && go && phase && !clear) {
-    const ms = Math.max(0, phase.endsAt - serverNow());
+    const ms = Math.max(0, revealEnd(phase) - serverNow());
     v.style.transition = `filter ${ms}ms linear, transform ${ms}ms linear`;
   }
   const src = useSrc(q.src);

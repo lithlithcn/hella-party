@@ -69,8 +69,11 @@ export function useProgress(phase: Phase | null | undefined, on: boolean, clear?
   const now = useNow(250, on && !!phase && !clear);
   if (clear) return 1;
   if (!phase || !on) return 0;
-  return Math.min(1, Math.max(0, (now - phase.startedAt) / Math.max(1, phase.endsAt - phase.startedAt)));
+  return Math.min(1, Math.max(0, (now - phase.startedAt) / Math.max(1, revealEnd(phase) - phase.startedAt)));
 }
+
+/** Reveal effects (unzoom/unblur/unpixelate) finish 1 s before the timer so the last second is playable. */
+export const revealEnd = (phase: Phase) => phase.endsAt - Math.min(1000, (phase.endsAt - phase.startedAt) * 0.2);
 
 /** CSS filter/transform for image & video options. k = remaining effect strength (1 = full, 0 = none). */
 export function visualStyle(o: MediaOpts, progress: number, clear?: boolean) {

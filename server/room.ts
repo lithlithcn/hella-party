@@ -27,6 +27,7 @@ export class Room extends DurableObject<Env> {
         if (this.sockets.size > 8) setTimeout(run, 40); else queueMicrotask(run);
       },
       send: (to, msg) => this.send(to, msg),
+      bubble: (from, text, to) => this.chatLine(from, text, undefined, to, true),
       prepare: async q => {
         if (!q.src?.startsWith('wiki:')) return q;
         const url = await library(this.env).wiki(q.src);
@@ -121,10 +122,7 @@ export class Room extends DurableObject<Env> {
           const text = String(m.text).trim().slice(0, 300);
           if (!text) return;
           if (game.phase?.name === 'reveal') game.say(id, text); // during the reveal, chat also shows in the bubble
-          const msg = { id: ++this.chatSeq, from: id, name: game.players.get(id)?.name ?? '?', text };
-          const q = typeof m.reply === 'number' ? this.chatLog.get(m.reply) : undefined;
-          this.chatLog.set(msg.id, msg); if (this.chatLog.size > 200) this.chatLog.delete(this.chatLog.keys().next().value!);
-          this.send(null, { t: 'chat', ...msg, reply: q && { ...q, text: q.text.slice(0, 80) } });
+          this.chatLine(id, text, typeof m.reply === 'number' ? m.reply : undefined, null, false);
           return;
         }
         case 'stop': if (id === game.leaderId) game.stop(); return;
@@ -132,6 +130,15 @@ export class Room extends DurableObject<Env> {
         case 'action': return game.action(id, String(m.f), String(m.a), m.p);
       }
     });
+  }
+
+  /** One player chat line (normal message or a logged bubble), with an id so it can be replied to. */
+  private chatLine(from: string, text: string, reply: number | undefined, to: string[] | null, bubble: boolean) {
+    const msg = { id: ++this.chatSeq, from, name: this.game?.players.get(from)?.name ?? '?', text };
+    const q = reply !== undefined ? this.chatLog.get(reply) : undefined;
+    this.chatLog.set(msg.id, msg); if (this.chatLog.size > 200) this.chatLog.delete(this.chatLog.keys().next().value!);
+    const out: ServerMsg = { t: 'chat', ...msg, reply: q && { ...q, text: q.text.slice(0, 80) }, bubble: bubble || undefined };
+    if (!to) this.send(null, out); else for (const pid of to) this.send(pid, out);
   }
 
   private send(to: string | null, msg: ServerMsg) {

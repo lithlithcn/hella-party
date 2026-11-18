@@ -4,7 +4,7 @@ import { CLIENT_FEATURES } from '../feature';
 import { send, store } from '../store';
 import { useState } from 'preact/hooks';
 import { AvatarEditor, myAvatar } from './avatar-editor';
-import { Avatar, fmtMs, hue } from './util';
+import { Avatar, fmtMs, playerColor } from './util';
 import type { ChatLine } from '../store';
 
 export function Players({ s }: { s: PublicState }) {
@@ -12,7 +12,7 @@ export function Players({ s }: { s: PublicState }) {
   const reveal = s.phase?.name === 'reveal';
   const [edit, setEdit] = useState(false);
   return (
-    <section class={`players ${list.length > 16 ? 'tiny' : list.length > 6 ? 'compact' : ''}`}>
+    <section class={`players ${list.length > 40 ? 'tiny' : list.length > 24 ? 'compact' : ''}`}>
       {edit && <AvatarEditor onClose={() => setEdit(false)} onDone={d => { myAvatar.set(d); send({ t: 'avatar', data: d }); setEdit(false); }} />}
       {list.map(p => {
         const f = p.found;
@@ -35,7 +35,7 @@ export function Players({ s }: { s: PublicState }) {
 
 export const chatInput = { el: null as HTMLInputElement | null };
 
-const nameColor = (id: string) => `hsl(${hue(id)} 85% 68%)`;
+const nameColor = (id: string) => playerColor(id);
 const jump = (id: number) => { const el = document.querySelector(`[data-mid="${id}"]`); if (!el) return; el.scrollIntoView({ block: 'center' }); el.classList.remove('hl'); void (el as HTMLElement).offsetWidth; el.classList.add('hl'); };
 
 export function Chat() {
@@ -50,7 +50,7 @@ export function Chat() {
     <section class="chat">
       <div class="chat-log" ref={box} onScroll={e => { const b = e.currentTarget; stick.current = b.scrollHeight - b.scrollTop - b.clientHeight < 60; }}>
         {store.chat.map((c, i) => (
-          <div key={c.id ?? `s${i}`} data-mid={c.id} class={c.from ? 'msg' : 'msg sys'}>
+          <div key={c.id ?? `s${i}`} data-mid={c.id} class={c.from ? `msg ${c.bubble ? 'bub' : ''}` : 'msg sys'}>
             {c.reply && <div class="mquote" onClick={() => jump(c.reply!.id)}>↪ <b style={{ color: c.reply.from ? nameColor(c.reply.from) : undefined }}>{c.reply.name}</b> {c.reply.text}</div>}
             {c.from && <b style={{ color: nameColor(c.from) }}>{c.name} </b>}{c.text}
             {c.id != null && <button type="button" class="mreply" title="Répondre" onClick={() => pick(c)}>↩</button>}
