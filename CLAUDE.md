@@ -63,8 +63,10 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - Studio "Publier en ligne" → uploads media (sha-256, dedup) to /api/media/<hash>, then PUT /api/packs/<slug(name)> with a per-device key (localStorage) — same name by someone else is refused.
 - Room fetches the library list (cached 10 s) for the lobby, loads selected library packs at `start` into `game.extra`.
 - Media sources: file in media/, absolute URL, or `wiki:Title` / `wiki:en:Title` = lead image of a Wikipedia article, resolved in the browser (client/question-types/common.ts resolveWiki). Built-in image packs use wiki: (zero repo weight). `/check` page lists broken wiki images.
-- wiki: images are resolved SERVER-side before a question is asked (Room io.prepare → Library.wiki, SQLite cache shared by all rooms). Unresolvable → question skipped; the next question is prepared during the reveal and clients get fx 'preload'. If every connected human reports {t:'mediaError'} the question is replaced silently (engine.mediaError).
-- Perf (mobile): background animates only transform/opacity/filter on its own layers; no backdrop-filter / big blur on phones. Never animate a CSS custom property on :root (restyles the whole page every frame).
+- wiki: images are DOWNLOADED SERVER-side before a question is asked (Room io.prepare → Library.wiki: summary API → 500px thumb → stored as /api/media/<hash>, cache table wiki2 shared by all rooms). Players only ever load same-origin images. Unresolvable → question skipped; the next question is prepared during the reveal and clients get fx 'preload'. If every connected human reports {t:'mediaError'} the question is replaced silently (engine.mediaError).
+- Perf (must run on the weakest phones): static background; correct answer = white flash (opacity) + hue-rotate +15° (client/ui/fx.ts). No backdrop-filter, no blur filters, no infinite animations, never animate a custom property on :root. Timer bar = one CSS animation; unblur/unzoom = one CSS transition; JS-stepped effects (pixelate/spotlight) at 4 fps max.
+- Room setting `mediaEffects` (bool) strips zoom/blur/pixel/reveal opts from questions.
+- Answer box is a <form> (Enter on phones submits, focus stays); during the reveal it collapses and focus moves to the chat input BEFORE render (store.focusHandoff) so the phone keyboard stays open.
 - Avatars: 128px WebP data URL, sent in hello / {t:'avatar'}; Room relays them separately from state (never inside the state snapshot).
 
 ## Debug

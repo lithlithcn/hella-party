@@ -19,7 +19,7 @@ export class Library extends DurableObject {
     this.sql.exec(`CREATE TABLE IF NOT EXISTS packs (id TEXT PRIMARY KEY, json TEXT NOT NULL, key TEXT NOT NULL, info TEXT NOT NULL, updated INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
-      CREATE TABLE IF NOT EXISTS wiki (src TEXT PRIMARY KEY, url TEXT, at INTEGER NOT NULL);`);
+      CREATE TABLE IF NOT EXISTS wiki2 (src TEXT PRIMARY KEY, url TEXT, at INTEGER NOT NULL);`);
   }
 
   // ── RPC (called by Room and the Worker) ──
@@ -52,23 +52,39 @@ export class Library extends DurableObject {
     return { ok: true };
   }
 
-  /** wiki:Title → image URL, cached for every room (failures retried after a day). */
+  /** wiki:Title → image downloaded ONCE by the server and stored here (/api/media/<hash>), shared by all rooms.
+   *  Only images the server really fetched are returned, so players never get a broken image. Failures retried after a day. */
   async wiki(src: string): Promise<string | null> {
-    const row = this.sql.exec<{ url: string | null; at: number }>('SELECT url, at FROM wiki WHERE src = ?', src).toArray()[0];
+    const row = this.sql.exec<{ url: string | null; at: number }>('SELECT url, at FROM wiki2 WHERE src = ?', src).toArray()[0];
     if (row && (row.url || Date.now() - row.at < 86_400_000)) return row.url;
     const m = src.match(/^wiki:(?:([a-z]{2,3}):)?(.+)$/);
     if (!m) return null;
     const lang = m[1] ?? 'fr', title = encodeURIComponent(m[2].trim().replace(/ /g, '_'));
+    const UA = { 'user-agent': 'HellaParty/1.0 (party quiz game between friends)' };
     let url: string | null = null, transient = false;
     for (const l of [lang, lang === 'fr' ? 'en' : 'fr']) {
-      const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${title}`, { headers: { 'user-agent': 'HellaParty/1.0 (party quiz game between friends)' } }).catch(() => null);
+      const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${title}`, { headers: UA }).catch(() => null);
       if (!r || r.status === 429 || r.status >= 500) { transient = true; continue; }
       if (!r.ok) continue;
       const j: any = await r.json().catch(() => null);
-      url = j?.thumbnail?.source?.replace(/\/(\d+)px-/, '/640px-') ?? j?.originalimage?.source ?? null;
+      const thumb: string | undefined = j?.thumbnail?.source;
+      // 500px is a standard Wikimedia thumbnail width; then the given thumbnail; then a reasonably small original
+      const candidates = [thumb?.replace(/\/(\d+)px-/, '/500px-'), thumb, (j?.originalimage?.width ?? 9999) <= 1600 ? j?.originalimage?.source : undefined].filter(Boolean) as string[];
+      for (const c of [...new Set(candidates)]) {
+        const img = await fetch(c, { headers: UA }).catch(() => null);
+        if (!img) { transient = true; continue; }
+        if (!img.ok) { if (img.status === 429) transient = true; continue; }
+        const type = img.headers.get('content-type') ?? '';
+        const bytes = await img.arrayBuffer();
+        if (!type.startsWith('image/') || bytes.byteLength > 3_000_000 || bytes.byteLength < 200) continue;
+        const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(b => b.toString(16).padStart(2, '0')).join('');
+        await this.putMedia(hash, type, bytes);
+        url = `/api/media/${hash}.${type.split('/')[1].replace('jpeg', 'jpg').replace(/[^a-z0-9]/g, '')}`;
+        break;
+      }
       if (url) break;
     }
-    if (url || !transient) this.sql.exec('INSERT OR REPLACE INTO wiki (src, url, at) VALUES (?, ?, ?)', src, url, Date.now());
+    if (url || !transient) this.sql.exec('INSERT OR REPLACE INTO wiki2 (src, url, at) VALUES (?, ?, ?)', src, url, Date.now());
     return url;
   }
 

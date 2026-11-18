@@ -6,7 +6,7 @@ import { CLIENT_FEATURES } from '../feature';
 import { onFx, send, store } from '../store';
 import { play, sfx } from '../sfx';
 import { fmtMs, useNow } from './util';
-import { impact } from './fx';
+import { flash } from './fx';
 import { Lobby } from './lobby';
 
 export const QT: Record<string, FunctionComponent<QProps>> = Object.fromEntries(
@@ -16,12 +16,6 @@ export const QT: Record<string, FunctionComponent<QProps>> = Object.fromEntries(
 
 export function Stage({ s }: { s: PublicState }) {
   const ph = s.phase;
-  const now = useNow(100, !!ph);
-  const left = ph ? Math.max(0, ph.endsAt - now) : 0;
-  const frac = ph ? left / Math.max(1, ph.endsAt - ph.startedAt) : 0;
-
-  const sec = Math.ceil(left / 1000);
-  useEffect(() => { if (ph?.name === 'question' && sec <= 5 && sec > 0) sfx.tick(); }, [sec, ph?.name]);
   useEffect(() => { if (ph?.name === 'reveal') play('spawn', 0.6); }, [ph?.startedAt]);
 
   let body;
@@ -35,17 +29,28 @@ export function Stage({ s }: { s: PublicState }) {
 
   return (
     <section class={`stage phase-${ph?.name ?? 'none'}`}>
-      {ph && s.status !== 'lobby' && (
-        <div class={`timer ${frac < 0.25 && ph.name === 'question' ? 'hurry' : ''}`}>
-          <i style={{ transform: `scaleX(${frac})` }} />
-          <span>{Math.ceil(left / 1000)}</span>
-        </div>
-      )}
+      {ph && s.status !== 'lobby' && <Timer key={ph.startedAt} name={ph.name} startedAt={ph.startedAt} endsAt={ph.endsAt} />}
       <div class="stage-body">{body}</div>
       {CLIENT_FEATURES.map(f => f.Stage && <f.Stage key={f.id} s={s} />)}
       {s.status === 'playing' && <AnswerBox s={s} />}
       {s.status === 'playing' && <div class="hud">{CLIENT_FEATURES.map(f => f.Hud && <f.Hud key={f.id} s={s} />)}</div>}
     </section>
+  );
+}
+
+/** Bar = one CSS animation (GPU, no re-render). Only the seconds counter re-renders, 4×/s. */
+function Timer({ name, startedAt, endsAt }: { name: string; startedAt: number; endsAt: number }) {
+  const now = useNow(250);
+  const total = Math.max(1, endsAt - startedAt);
+  const left = Math.max(0, endsAt - now);
+  const sec = Math.ceil(left / 1000);
+  useEffect(() => { if (name === 'question' && sec <= 5 && sec > 0) sfx.tick(); }, [sec]);
+  const [start] = useState(() => left / total); // fraction remaining when mounted (late joiners)
+  return (
+    <div class={`timer ${name === 'question' && left < total / 4 ? 'hurry' : ''}`}>
+      <i style={{ transform: `scaleX(${start})`, animation: `timer-shrink ${left}ms linear forwards`, ['--from' as any]: start }} />
+      <span>{sec}</span>
+    </div>
   );
 }
 
@@ -98,6 +103,7 @@ function AnswerBox({ s }: { s: PublicState }) {
   const ref = useRef<HTMLInputElement>(null);
   const [fb, setFb] = useState('');
   const me = s.players.find(p => p.id === s.me);
+  const open = s.phase?.name === 'question';
 
   useEffect(() => {
     answerInput.el = ref.current;
@@ -108,29 +114,37 @@ function AnswerBox({ s }: { s: PublicState }) {
         (d.ok ? (d.grade === 'exact' ? sfx.correct : sfx.partial) : sfx.wrong)();
         setFb(''); requestAnimationFrame(() => setFb(cls));
       } else if (m.kind === 'found') {
-        const mine = m.data.id === store.s?.me;
-        if (!mine) sfx.other();
-        const c = m.data.grade === 'exact' ? 'var(--lime)' : m.data.grade === 'partial' ? 'var(--yellow)' : 'var(--cyan)';
-        impact(mine ? 1 : 0.6, document.querySelector(`[data-pid="${m.data.id}"]`), c);
+        if (m.data.id !== store.s?.me) sfx.other();
+        flash();
       }
     });
   }, []);
 
   useEffect(() => {
-    if (s.phase?.name === 'question' && ref.current) { ref.current.value = ''; setFb(''); ref.current.focus(); sfx.start(); }
+    if (open && ref.current) {
+      ref.current.value = ''; setFb(''); sfx.start();
+      if (!document.activeElement || document.activeElement === document.body) ref.current.focus({ preventScroll: true });
+    }
   }, [s.phase?.startedAt]);
 
+  // <form> + enterkeyhint: on phones "Enter" submits here instead of jumping to the next field (the chat)
+  const submit = (e: Event) => {
+    e.preventDefault();
+    const el = ref.current!;
+    if (el.value.trim()) { send({ t: 'answer', text: el.value }); el.value = ''; }
+    el.focus();
+  };
   const onKey = (e: KeyboardEvent) => {
     const el = e.currentTarget as HTMLInputElement;
-    if (!el.value && store.s) for (const f of CLIENT_FEATURES) if (f.onKey?.(e, store.s)) { e.preventDefault(); return; }
-    if (e.key === 'Enter' && el.value.trim()) { send({ t: 'answer', text: el.value }); el.value = ''; }
+    if (!el.value && store.s) for (const f of CLIENT_FEATURES) if (f.onKey?.(e, store.s)) e.preventDefault();
   };
 
   const done = me?.found?.grade === 'exact';
+  // stays mounted (collapsed) during the reveal so focus can move without closing the phone keyboard
   return (
-    <div class={`answer ${fb}`} onAnimationEnd={() => setFb(x => (x === 'bad' ? '' : x))}>
-      <input ref={ref} onKeyDown={onKey} autocomplete="off" autocapitalize="off" spellcheck={false} maxLength={100}
-        placeholder={done ? 'Trouvé ! ✓' : s.phase?.name === 'question' ? 'Tape ta réponse…' : 'Prochaine question…'} />
-    </div>
+    <form class={`answer ${fb} ${open ? '' : 'collapsed'}`} onSubmit={submit} onAnimationEnd={() => setFb(x => (x === 'bad' ? '' : x))}>
+      <input ref={ref} onKeyDown={onKey} autocomplete="off" autocapitalize="off" autoCorrect="off" spellcheck={false} maxLength={100} enterKeyHint="send"
+        tabIndex={open ? 0 : -1} placeholder={done ? 'Trouvé ! ✓' : 'Tape ta réponse…'} />
+    </form>
   );
 }

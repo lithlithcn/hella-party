@@ -29,6 +29,7 @@ export interface QueuedPhase { name: string; ms: number; data?: any; onEnd?: () 
 const CORE_SETTINGS: SettingDef[] = [
   { key: 'answerTime', label: 'Temps de réponse (s)', type: 'number', default: 20, min: 5, max: 60, step: 1 },
   { key: 'revealTime', label: 'Temps de révélation (s)', type: 'number', default: 4, min: 2, max: 15, step: 1 },
+  { key: 'mediaEffects', label: 'Effets zoom / flou / pixel', type: 'bool', default: true },
   { key: 'maxDifficulty', label: 'Difficulté max', type: 'select', default: 2, options: [{ value: 1, label: 'Facile' }, { value: 2, label: 'Moyen' }, { value: 3, label: 'Tout (même niche)' }] },
   { key: 'packs', label: 'Packs', type: 'packs', default: Object.keys(PACKS).filter(id => id !== 'flags') },
 ];
@@ -42,8 +43,11 @@ export const PACK_INFO: PackInfo[] = Object.values(PACKS).map(p => ({ id: p.id, 
 
 const SCORE_STEPS = FEATURES.flatMap(f => (f.score ?? []).map(s => ({ ...s, f }))).sort((a, b) => a.order - b.order);
 
-function publicQuestion(q: Question): PublicQuestion {
+const VISUAL_FX = ['blur', 'pixelate', 'zoom', 'zoomX', 'zoomY', 'reveal'] as const;
+
+function publicQuestion(q: Question, effects: boolean): PublicQuestion {
   const { answer, exact, partial, explain, key, pack, id, time, media, ...pub } = q;
+  if (!effects && pub.opts) { pub.opts = { ...pub.opts }; for (const k of VISUAL_FX) delete pub.opts[k]; }
   return { ...pub, id: key, assets: media ?? `/packs/${pack}/` };
 }
 
@@ -362,7 +366,7 @@ export class Game {
     for (const ft of FEATURES) if (ft.view && this.isActive(ft)) this.guard(`${ft.id}.view`, () => (f[ft.id] = ft.view!(this, me)));
     return {
       code: this.code, now: this.now(), me, status: this.status, phase: this.phase, round: this.round,
-      question: q && publicQuestion(q),
+      question: q && publicQuestion(q, this.setting('mediaEffects') !== false),
       reveal: this.reveal,
       players: this.list.map(p => ({
         id: p.id, name: p.name, score: p.score, connected: p.connected, bot: p.bot,

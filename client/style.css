@@ -9,51 +9,24 @@ body { overflow-x: hidden; }
 button, input, select { font: inherit; color: inherit; }
 .muted { color: var(--muted); }
 
-/* ── animated background ──
-   Perf: only transform / opacity / filter on dedicated layers are animated (GPU-composited).
-   The hue drift is a hue-rotate on the whole layer, the per-answer "kick" a second hue-rotate. */
-:root { --kick: 0deg; }
-.bg { position: fixed; inset: -10%; z-index: -1; overflow: hidden; animation: hue-drift 48s linear infinite; will-change: filter; }
-.bg-in { position: absolute; inset: 0; filter: hue-rotate(var(--kick)); transition: filter 1.4s cubic-bezier(.15, .85, .25, 1);
-  background: radial-gradient(ellipse at 50% 115%, hsl(280 90% 35% / .9), transparent 55%), linear-gradient(160deg, hsl(260 85% 14%), hsl(320 90% 20%) 50%, hsl(200 85% 15%)); }
-@keyframes hue-drift { to { filter: hue-rotate(360deg); } }
-.bg i { position: absolute; width: 60vmax; height: 60vmax; border-radius: 50%; opacity: .5; animation: float 20s ease-in-out infinite alternate; will-change: transform; }
-.bg i:nth-child(1) { background: radial-gradient(circle, hsl(330 95% 58% / .8), transparent 65%); left: -15vmax; top: -18vmax; }
-.bg i:nth-child(2) { background: radial-gradient(circle, hsl(180 95% 55% / .55), transparent 65%); right: -20vmax; top: 12vh; animation-delay: -7s; }
-.bg i:nth-child(3) { background: radial-gradient(circle, hsl(50 95% 58% / .45), transparent 65%); left: 25vw; bottom: -32vmax; animation-delay: -13s; }
-.bg i:nth-child(4) { background: radial-gradient(circle, hsl(260 95% 62% / .55), transparent 65%); left: 50vw; top: -25vmax; width: 44vmax; height: 44vmax; animation-duration: 26s; }
-.floor { position: absolute; left: -50%; right: -50%; bottom: -10%; height: 60%; transform: perspective(500px) rotateX(62deg); transform-origin: bottom; overflow: hidden;
+/* ── background ──
+   Static on purpose (works on the weakest phones). Only changes: a white flash (opacity, own layer)
+   and a hue-rotate step on .bg-in when someone finds the answer (client/ui/fx.ts). */
+.bg { position: fixed; inset: 0; z-index: -1; overflow: hidden; contain: strict; }
+.bg-in { position: absolute; inset: 0; will-change: filter;
+  background:
+    radial-gradient(circle at 15% 10%, hsl(330 95% 55% / .55), transparent 45%),
+    radial-gradient(circle at 90% 35%, hsl(185 95% 50% / .35), transparent 45%),
+    radial-gradient(ellipse at 50% 115%, hsl(280 90% 40% / .9), transparent 55%),
+    linear-gradient(160deg, hsl(260 85% 13%), hsl(320 85% 18%) 50%, hsl(205 85% 14%)); }
+.bg i { display: none; }
+.floor { position: absolute; left: -50%; right: -50%; bottom: -10%; height: 55%; transform: perspective(500px) rotateX(62deg); transform-origin: bottom;
+  background: repeating-linear-gradient(90deg, hsl(300 100% 70% / .2) 0 2px, transparent 2px 70px), repeating-linear-gradient(0deg, hsl(300 100% 70% / .2) 0 2px, transparent 2px 70px);
   -webkit-mask-image: linear-gradient(to top, #000, transparent 85%); mask-image: linear-gradient(to top, #000, transparent 85%); }
-.floor::before { content: ''; position: absolute; left: 0; right: 0; top: -70px; bottom: 0; will-change: transform; animation: floor 3s linear infinite;
-  background: repeating-linear-gradient(90deg, hsl(300 100% 70% / .22) 0 2px, transparent 2px 70px), repeating-linear-gradient(0deg, hsl(300 100% 70% / .22) 0 2px, transparent 2px 70px); }
-.bg-in::after { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 50% 50%, transparent 40%, #0009 100%); }
-@keyframes float { to { transform: translate(8vmax, 6vmax) scale(1.2); } }
-@keyframes floor { to { transform: translateY(70px); } }
-/* phones / low-power: lighter background, no backdrop blur */
-@media (pointer: coarse), (max-width: 860px) {
-  .bg i { animation: none; } .bg i:nth-child(n+3) { display: none; }
-  .floor::before { animation-duration: 5s; }
-  .stage, .home-card, .card, .chat, .pcard { backdrop-filter: none !important; }
-  .stage, .chat, .card { background: #1d1238f0; }
-}
-@media (prefers-reduced-motion: reduce) { .bg, .bg i, .floor::before { animation: none; } }
-
-/* ── impact (client/ui/fx.ts) ── */
-body.impact .bg-in, body.impact-big .bg-in { animation: bg-pulse .6s cubic-bezier(.2, .9, .3, 1); }
-body.impact-big .layout, body.impact-big .stage { animation: shake-big .45s cubic-bezier(.36, .07, .19, .97); }
-body.impact .stage { animation: thump .35s ease-out; }
-@keyframes bg-pulse { 0% { transform: scale(1); } 15% { transform: scale(1.06); } 100% { transform: scale(1); } }
-@keyframes shake-big { 10%, 90% { transform: translate(-2px, 1px); } 20%, 80% { transform: translate(5px, -3px) rotate(.3deg); } 30%, 50%, 70% { transform: translate(-9px, 4px) rotate(-.5deg); } 40%, 60% { transform: translate(9px, -4px) rotate(.5deg); } }
-@keyframes thump { 30% { transform: scale(1.015); } }
-.fx-layer { position: fixed; inset: 0; pointer-events: none; z-index: 60; overflow: hidden; }
-.fx-flash { position: absolute; inset: 0; background: radial-gradient(circle at var(--x) var(--y), #fff 0, color-mix(in srgb, var(--c) 70%, transparent) 12%, transparent 45%); opacity: 0; animation: flash .55s ease-out; mix-blend-mode: screen; }
-.fx-ring { position: absolute; left: var(--x); top: var(--y); width: 20px; height: 20px; margin: -10px; border-radius: 50%; border: 6px solid var(--c); box-shadow: 0 0 30px var(--c), inset 0 0 20px var(--c); animation: ring .8s cubic-bezier(.1, .8, .3, 1) forwards; }
-.fx-ring.r2 { animation-delay: .09s; border-width: 3px; opacity: .7; }
-.fx-layer b { position: absolute; left: var(--x); top: var(--y); width: 10px; height: 10px; border-radius: 2px; background: hsl(var(--h) 100% 62%); box-shadow: 0 0 10px hsl(var(--h) 100% 62%); animation: burst var(--d) cubic-bezier(.1, .7, .3, 1) forwards; }
-.fx-layer b:nth-child(3n) { border-radius: 50%; width: 7px; height: 7px; }
-@keyframes flash { 10% { opacity: calc(.5 + var(--s) * .5); } 100% { opacity: 0; } }
-@keyframes ring { to { transform: scale(calc(30 + var(--s) * 50)); opacity: 0; border-width: 1px; } }
-@keyframes burst { 0% { transform: translate(-50%, -50%) scale(1.4); opacity: 1; } 100% { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy) + 120px)) rotate(540deg) scale(.3); opacity: 0; } }
+.bg-flash { position: absolute; inset: 0; background: #fff; opacity: 0; will-change: opacity; pointer-events: none; }
+.bg-flash.go { animation: bg-flash .7s ease-out; }
+@keyframes bg-flash { 0% { opacity: 0; } 12% { opacity: .95; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .bg-flash.go { animation-duration: .3s; } }
 
 /* ── logo ── */
 .logo { position: relative; display: inline-flex; flex-direction: column; line-height: .9; font-family: 'Bungee', sans-serif; transform: rotate(-4deg); user-select: none; font-size: 22px; }
@@ -79,7 +52,7 @@ input:focus { border-color: var(--cyan); }
 /* ── home ── */
 .home { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; padding: 24px; }
 .tagline { color: var(--muted); font-size: 1.2em; margin: 0; }
-.home-card { display: flex; flex-direction: column; gap: 14px; background: var(--panel); padding: 28px; border-radius: 28px; border: 2px solid var(--line); width: min(420px, 100%); backdrop-filter: blur(10px); }
+.home-card { display: flex; flex-direction: column; gap: 14px; background: var(--panel); padding: 28px; border-radius: 28px; border: 2px solid var(--line); width: min(420px, 100%); }
 .big-input { font-size: 1.4em; text-align: center; }
 .join { display: flex; gap: 8px; }
 .join input { flex: 1; text-align: center; letter-spacing: .3em; font-weight: 700; text-transform: uppercase; }
@@ -101,11 +74,11 @@ input:focus { border-color: var(--cyan); }
 }
 
 /* ── stage ── */
-.stage { position: relative; display: flex; flex-direction: column; background: var(--panel); border: 2px solid var(--line); border-radius: var(--r); overflow: hidden; min-height: 420px; backdrop-filter: blur(10px); }
+.stage { position: relative; display: flex; flex-direction: column; background: var(--panel); border: 2px solid var(--line); border-radius: var(--r); overflow: hidden; min-height: 420px; }
 .stage-body { flex: 1; display: flex; align-items: center; justify-content: center; padding: 18px; min-height: 0; }
 .stage-wait { font-size: 3em; color: var(--muted); }
 .timer { position: relative; height: 10px; background: #0005; }
-.timer i { position: absolute; inset: 0; background: linear-gradient(90deg, var(--cyan), var(--lime)); transform-origin: left; transition: transform .1s linear; }
+.timer i { position: absolute; inset: 0; background: linear-gradient(90deg, var(--cyan), var(--lime)); transform-origin: left; will-change: transform; }
 .timer.hurry i { background: linear-gradient(90deg, var(--red), var(--yellow)); }
 .timer span { position: absolute; right: 10px; top: 12px; font-family: 'Bungee'; font-size: 1.4em; color: var(--yellow); }
 .question { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; gap: 14px; }
@@ -182,7 +155,7 @@ legend { color: var(--cyan); font-weight: 700; padding: 0 6px; }
 
 /* ── question extras ── */
 .q-frame { position: relative; display: flex; align-items: center; justify-content: center; max-width: 100%; overflow: hidden; border-radius: 12px; }
-.q-frame .q-image { transition: filter .1s linear, transform .1s linear; }
+
 .q-pixel { image-rendering: pixelated; width: min(640px, 100%); height: auto; }
 .q-hint { color: var(--yellow); font-weight: 600; animation: pop .3s; }
 .q-caption { color: var(--muted); }
@@ -203,7 +176,7 @@ img.avatar { object-fit: cover; display: block; }
 .clickable { cursor: pointer; }
 .avatar-btn { position: relative; align-self: center; background: none; border: 0; cursor: pointer; padding: 0; border-radius: 50%; }
 .avatar-btn span { position: absolute; right: -2px; bottom: -2px; background: var(--panel2); border-radius: 50%; width: 30px; height: 30px; display: grid; place-items: center; border: 2px solid var(--line); }
-.modal { position: fixed; inset: 0; z-index: 80; background: #0009; display: grid; place-items: center; padding: 16px; backdrop-filter: blur(4px); }
+.modal { position: fixed; inset: 0; z-index: 80; background: #0009; display: grid; place-items: center; padding: 16px; }
 .modal-card { background: var(--panel2); border: 2px solid var(--line); border-radius: 22px; padding: 18px; display: flex; flex-direction: column; gap: 10px; max-width: 100%; }
 .modal-card h3 { margin: 0; }
 .avatar-editor { align-items: center; }
@@ -226,3 +199,9 @@ img.avatar { object-fit: cover; display: block; }
 .check-grid figcaption { font-size: .8em; }
 .q-frame-col { flex-direction: column; gap: 6px; }
 .packs-field { width: 100%; }
+
+.timer i { animation-fill-mode: forwards; }
+@keyframes timer-shrink { from { transform: scaleX(var(--from, 1)); } to { transform: scaleX(0); } }
+.answer.collapsed { height: 0; padding: 0; border: 0; overflow: hidden; opacity: 0; pointer-events: none; }
+.chat-form { margin: 8px; } .chat-form .chat-input { margin: 0; width: 100%; }
+.topbar .logo-b, .topbar .logo-star { animation: none; }

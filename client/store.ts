@@ -54,7 +54,7 @@ export function connect(code: string) {
       case 'packs': store.packs = m.packs; break;
       case 'avatars': store.avatars = m.map; break;
       case 'avatar': store.avatars = { ...store.avatars }; if (m.data) store.avatars[m.id] = m.data; else delete store.avatars[m.id]; break;
-      case 'state': store.s = m.s; store.offset = m.s.now - Date.now(); break;
+      case 'state': focusHandoff(store.s?.phase?.name, m.s.phase?.name); store.s = m.s; store.offset = m.s.now - Date.now(); break;
       case 'chat': store.chat = [...store.chat.slice(-150), m]; if (m.from) play('chat', 0.6); break;
       case 'fx': if (m.kind === 'preload' && m.data?.src) new Image().src = m.data.src; if (m.kind === 'join') play('join', 0.7); if (m.kind === 'error') play('invalid'); fxListeners.forEach(l => l(m)); if (m.kind === 'error' && DEBUG) store.chat = [...store.chat, { from: null, name: '', text: `⚠ ${m.data?.where ?? ''} ${m.data?.msg}` }]; break;
       case 'err': console.warn(m.msg); break;
@@ -74,3 +74,13 @@ export function send(m: ClientMsg) {
 
 /** Shortcut for feature actions. */
 export const act = (f: string, a: string, p?: any) => send({ t: 'action', f, a, p });
+
+/** Question → reveal: answer field → chat field. Reveal/other → question: back to the answer field.
+ *  Done synchronously before rendering so focus moves between two visible fields (phone keyboard stays open). */
+export const focusTargets = { answer: () => null as HTMLInputElement | null, chat: () => null as HTMLInputElement | null };
+function focusHandoff(prev?: string, next?: string) {
+  if (prev === next) return;
+  const answer = focusTargets.answer(), chat = focusTargets.chat(), active = document.activeElement;
+  if (next === 'question') { if (answer && (active === chat ? !chat?.value : true)) answer.focus({ preventScroll: true }); }
+  else if (prev === 'question' && active === answer) chat?.focus({ preventScroll: true });
+}

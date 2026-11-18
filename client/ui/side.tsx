@@ -32,6 +32,8 @@ export function Players({ s }: { s: PublicState }) {
   );
 }
 
+export const chatInput = { el: null as HTMLInputElement | null };
+
 export function Chat() {
   const box = useRef<HTMLDivElement>(null);
   useEffect(() => { box.current?.scrollTo(0, box.current.scrollHeight); }, [store.chat.length]);
@@ -42,8 +44,9 @@ export function Chat() {
           <div key={i} class={c.from ? 'msg' : 'msg sys'}>{c.from && <b>{c.name} </b>}{c.text}</div>
         ))}
       </div>
-      <input class="chat-input" placeholder="Discuter…" maxLength={300}
-        onKeyDown={e => { const el = e.currentTarget; if (e.key === 'Enter' && el.value.trim()) { send({ t: 'chat', text: el.value }); el.value = ''; } }} />
+      <form class="chat-form" onSubmit={e => { e.preventDefault(); const el = chatInput.el!; if (el.value.trim()) { send({ t: 'chat', text: el.value }); el.value = ''; } el.focus(); }}>
+        <input class="chat-input" ref={el => { chatInput.el = el; }} placeholder="Discuter…" maxLength={300} enterKeyHint="send" autocomplete="off" />
+      </form>
     </section>
   );
 }

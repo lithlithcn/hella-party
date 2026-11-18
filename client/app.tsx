@@ -8,7 +8,10 @@ import { lazy, Suspense } from 'preact/compat';
 
 const Studio = lazy(() => import('./studio/studio'));
 import { answerInput, Stage } from './ui/stage';
-import { Chat, Players } from './ui/side';
+import { Chat, chatInput, Players } from './ui/side';
+import { focusTargets } from './store';
+focusTargets.answer = () => answerInput.el;
+focusTargets.chat = () => chatInput.el;
 
 const codeFromPath = () => location.pathname.slice(1).toUpperCase().match(/^[A-Z]{4}$/)?.[0] ?? null;
 

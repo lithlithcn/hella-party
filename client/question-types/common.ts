@@ -66,7 +66,7 @@ export const assets = {
 
 /** 0 → 1 over the phase; 1 when clear. Re-renders while running. */
 export function useProgress(phase: Phase | null | undefined, on: boolean, clear?: boolean) {
-  const now = useNow(100, on && !!phase && !clear);
+  const now = useNow(250, on && !!phase && !clear);
   if (clear) return 1;
   if (!phase || !on) return 0;
   return Math.min(1, Math.max(0, (now - phase.startedAt) / Math.max(1, phase.endsAt - phase.startedAt)));
