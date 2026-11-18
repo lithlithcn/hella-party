@@ -1,14 +1,15 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import type { FunctionComponent } from 'preact';
-import type { PublicQuestion, PublicState } from '../../shared/protocol';
+import type { PublicState } from '../../shared/protocol';
+import type { QProps } from '../question-types/common';
 import { CLIENT_FEATURES } from '../feature';
 import { onFx, send, store } from '../store';
-import { sfx } from '../sfx';
+import { play, sfx } from '../sfx';
 import { fmtMs, useNow } from './util';
 import { Lobby } from './lobby';
 
-const QT = Object.fromEntries(
-  Object.entries(import.meta.glob<{ default: FunctionComponent<{ q: PublicQuestion }> }>('../question-types/*.tsx', { eager: true }))
+export const QT: Record<string, FunctionComponent<QProps>> = Object.fromEntries(
+  Object.entries(import.meta.glob<{ default: FunctionComponent<QProps> }>('../question-types/*.tsx', { eager: true }))
     .map(([path, m]) => [path.match(/([^/]+)\.tsx$/)![1], m.default]),
 );
 
@@ -17,6 +18,10 @@ export function Stage({ s }: { s: PublicState }) {
   const now = useNow(100, !!ph);
   const left = ph ? Math.max(0, ph.endsAt - now) : 0;
   const frac = ph ? left / Math.max(1, ph.endsAt - ph.startedAt) : 0;
+
+  const sec = Math.ceil(left / 1000);
+  useEffect(() => { if (ph?.name === 'question' && sec <= 5 && sec > 0) sfx.tick(); }, [sec, ph?.name]);
+  useEffect(() => { if (ph?.name === 'reveal') play('spawn', 0.6); }, [ph?.startedAt]);
 
   let body;
   if (s.status === 'lobby') body = <Lobby s={s} />;
@@ -46,17 +51,22 @@ export function Stage({ s }: { s: PublicState }) {
 function Question({ s }: { s: PublicState }) {
   const q = s.question;
   const r = s.reveal;
+  const ph = s.phase;
+  const now = useNow(250, !!q?.hint && ph?.name === 'question');
+  const showHint = q?.hint && ph && (ph.name === 'reveal' || now - ph.startedAt > (ph.endsAt - ph.startedAt) / 2);
   const T = q ? QT[q.type] ?? QT.text : null;
   const name = (id: string) => s.players.find(p => p.id === id)?.name ?? '?';
   return (
     <div class="question">
       <div class="q-prompt"><span class="q-round">#{s.round}</span> {q?.prompt ?? 'Réponse'}</div>
       <div class="q-media">
-        {q && T ? <T q={q} /> : r?.src ? <img class="q-image" src={r.src} alt="" /> : null}
+        {q && T ? <T q={q} phase={ph?.name === 'question' ? ph : null} clear={ph?.name === 'reveal'} /> : r?.src ? <img class="q-image" src={r.src} alt="" /> : null}
       </div>
+      {showHint && !r && <div class="q-hint">💡 {q!.hint}</div>}
       {r && (
         <div class="reveal">
           <div class="reveal-answer">{r.answer}</div>
+          {r.explain && <div class="reveal-explain">{r.explain}</div>}
           <div class="reveal-finders">
             {r.finders.length === 0 && <span class="muted">Personne n'a trouvé 😶</span>}
             {r.finders.map((f, i) => (

@@ -143,3 +143,18 @@ legend { color: var(--cyan); font-weight: 700; padding: 0 6px; }
 
 .debug { position: fixed; right: 8px; bottom: 8px; max-width: 360px; max-height: 40vh; overflow: auto; font-size: 10px; background: #000c; padding: 8px; border-radius: 8px; z-index: 99; }
 .debug a { color: var(--cyan); display: block; }
+
+/* ── question extras ── */
+.q-frame { position: relative; display: flex; align-items: center; justify-content: center; max-width: 100%; overflow: hidden; border-radius: 12px; }
+.q-frame .q-image { transition: filter .1s linear, transform .1s linear; }
+.q-pixel { image-rendering: pixelated; width: min(640px, 100%); height: auto; }
+.q-hint { color: var(--yellow); font-weight: 600; animation: pop .3s; }
+.q-caption { color: var(--muted); }
+.reveal-explain { color: var(--muted); max-width: 600px; margin: 4px auto 0; }
+.q-script { display: flex; flex-direction: column; align-items: center; gap: 6px; width: 100%; }
+.q-script-root { width: 100%; display: flex; justify-content: center; }
+.q-canvas { width: min(640px, 100%); aspect-ratio: 16 / 9; border-radius: 12px; background: #0006; }
+.q-script-err { color: var(--red); font-size: .9em; }
+.studio-link { text-decoration: none; }
+.vol { width: 90px; accent-color: var(--pink); }
+@media (max-width: 860px) { .vol { width: 60px; } }

@@ -1,6 +1,7 @@
 import type { PublicState, SettingDef } from '../../shared/protocol';
 import { CLIENT_FEATURES } from '../feature';
 import { DEBUG, send, store } from '../store';
+import { play } from '../sfx';
 
 const GROUPS: Record<string, string> = { '': 'Partie', scoring: 'Score', goal: 'Victoire', bots: 'Debug : bots' };
 
@@ -8,7 +9,7 @@ export function Lobby({ s }: { s: PublicState }) {
   const isLeader = s.players.find(p => p.id === s.me)?.leader;
   const defs = store.defs.filter(d => !d.dev || DEBUG);
   const groups = [...new Set(defs.map(d => d.feature ?? ''))];
-  const set = (key: string, v: any) => send({ t: 'settings', patch: { [key]: v } });
+  const set = (key: string, v: any) => { play('select', 0.5); send({ t: 'settings', patch: { [key]: v } }); };
   const link = `${location.origin}/${s.code}`;
 
   return (
@@ -27,7 +28,7 @@ export function Lobby({ s }: { s: PublicState }) {
       </div>
       {CLIENT_FEATURES.map(f => f.Lobby && <f.Lobby key={f.id} s={s} />)}
       {isLeader
-        ? <button class="btn big" onClick={() => send({ t: 'start' })}>C'est parti !</button>
+        ? <button class="btn big" onClick={() => { play('start'); send({ t: 'start' }); }}>C'est parti !</button>
         : <p class="muted">En attente du chef de salle…</p>}
     </div>
   );

@@ -1,6 +1,6 @@
 // The game core. Knows rooms, players, phases, questions and answers — nothing else.
 // Every rule beyond that lives in /features and plugs in through server/feature.ts.
-import { GRADE_RANK, type Found, type Grade, type PackInfo, type Phase, type PublicState, type ServerMsg, type SettingDef } from '../shared/protocol';
+import { GRADE_RANK, type Found, type Grade, type PackInfo, type Phase, type PublicQuestion, type PublicState, type ServerMsg, type SettingDef } from '../shared/protocol';
 import { judge } from '../shared/answer';
 import type { GameEvents, ScoreCtx, ServerFeature } from './feature';
 import { FEATURES } from './_gen/features';
@@ -38,6 +38,11 @@ export const SETTING_DEFS: SettingDef[] = [
 export const PACK_INFO: PackInfo[] = Object.values(PACKS).map(p => ({ id: p.id, name: p.name, count: p.questions.length }));
 
 const SCORE_STEPS = FEATURES.flatMap(f => (f.score ?? []).map(s => ({ ...s, f }))).sort((a, b) => a.order - b.order);
+
+function publicQuestion(q: Question): PublicQuestion {
+  const { answer, exact, partial, explain, key, pack, id, time, ...pub } = q;
+  return { ...pub, id: key, assets: `/packs/${pack}/` };
+}
 
 export class Game {
   players = new Map<string, Player>();
@@ -124,6 +129,7 @@ export class Game {
       p = { id, name, score: 0, connected: true, bot, joinedAt: this.now() };
       this.players.set(id, p);
       this.chat(`${name} a rejoint la partie`);
+      this.fx(null, 'join', { id });
     }
     if (!bot && (!this.leaderId || !this.players.get(this.leaderId)?.connected)) this.leaderId = id;
     this.emit('playerJoin', { player: p });
@@ -191,7 +197,7 @@ export class Game {
     const q = this.forced.shift() ?? this.pick();
     if (!q) return this.endGame();
     this.question = q; this.round++; this.history.push(q); this.found.clear();
-    this.setPhase('question', this.setting<number>('answerTime') * 1000, undefined, () => this.endQuestion());
+    this.setPhase('question', (q.time || this.setting<number>('answerTime')) * 1000, undefined, () => this.endQuestion());
     this.emit('questionStart', {});
   }
 
@@ -200,7 +206,7 @@ export class Game {
     this.emit('questionEnd', {});
     if (this.status !== 'playing') return; // a feature ended the game
     this.reveal = {
-      answer: q.answer, src: q.src,
+      answer: q.answer, src: q.type === 'image' ? q.src : undefined, explain: q.explain,
       finders: [...this.found].map(([id, f]) => ({ id, ...f })).sort((a, b) => a.ms - b.ms),
     };
     this.setPhase('reveal', this.setting<number>('revealTime') * 1000, undefined, () => this.nextRound());
@@ -297,7 +303,7 @@ export class Game {
     for (const ft of FEATURES) if (ft.view && this.isActive(ft)) this.guard(`${ft.id}.view`, () => (f[ft.id] = ft.view!(this, me)));
     return {
       code: this.code, now: this.now(), me, status: this.status, phase: this.phase, round: this.round,
-      question: q && { id: q.key, type: q.type, prompt: q.prompt, src: q.src, text: q.text, data: q.data },
+      question: q && publicQuestion(q),
       reveal: this.reveal,
       players: this.list.map(p => ({
         id: p.id, name: p.name, score: p.score, connected: p.connected, bot: p.bot,

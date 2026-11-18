@@ -1,2478 +1,2664 @@
 {
+ "format": "hella-pack",
+ "version": 1,
  "id": "flags",
  "name": "Drapeaux",
+ "emoji": "🏳️",
+ "tags": [
+  "géographie",
+  "drapeaux"
+ ],
  "prompt": "Quel est ce pays ?",
  "questions": [
   {
    "id": "ad",
-   "type": "image",
    "src": "ad.webp",
    "answer": "Andorre",
    "exact": [
-    "Andorre",
     "Andorra"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ae",
-   "type": "image",
    "src": "ae.webp",
    "answer": "Émirats arabes unis",
    "exact": [
-    "Émirats arabes unis",
     "United Arab Emirates",
     "Emirats",
     "UAE"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "af",
-   "type": "image",
    "src": "af.webp",
    "answer": "Afghanistan",
-   "exact": [
-    "Afghanistan"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ag",
-   "type": "image",
    "src": "ag.webp",
    "answer": "Antigua-et-Barbuda",
    "exact": [
-    "Antigua-et-Barbuda",
     "Antigua & Barbuda"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ai",
-   "type": "image",
    "src": "ai.webp",
    "answer": "Anguilla",
-   "exact": [
-    "Anguilla"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "al",
-   "type": "image",
    "src": "al.webp",
    "answer": "Albanie",
    "exact": [
-    "Albanie",
     "Albania"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "am",
-   "type": "image",
    "src": "am.webp",
    "answer": "Arménie",
    "exact": [
-    "Arménie",
     "Armenia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ao",
-   "type": "image",
    "src": "ao.webp",
    "answer": "Angola",
-   "exact": [
-    "Angola"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "aq",
-   "type": "image",
    "src": "aq.webp",
    "answer": "Antarctique",
    "exact": [
-    "Antarctique",
     "Antarctica"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ar",
-   "type": "image",
    "src": "ar.webp",
    "answer": "Argentine",
    "exact": [
-    "Argentine",
     "Argentina"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "as",
-   "type": "image",
    "src": "as.webp",
    "answer": "Samoa américaines",
    "exact": [
-    "Samoa américaines",
     "American Samoa"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "at",
-   "type": "image",
    "src": "at.webp",
    "answer": "Autriche",
    "exact": [
-    "Autriche",
     "Austria"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "au",
-   "type": "image",
    "src": "au.webp",
    "answer": "Australie",
    "exact": [
-    "Australie",
     "Australia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "aw",
-   "type": "image",
    "src": "aw.webp",
    "answer": "Aruba",
-   "exact": [
-    "Aruba"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ax",
-   "type": "image",
    "src": "ax.webp",
    "answer": "Îles Åland",
    "exact": [
-    "Îles Åland",
     "Åland Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "az",
-   "type": "image",
    "src": "az.webp",
    "answer": "Azerbaïdjan",
    "exact": [
-    "Azerbaïdjan",
     "Azerbaijan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ba",
-   "type": "image",
    "src": "ba.webp",
    "answer": "Bosnie-Herzégovine",
    "exact": [
-    "Bosnie-Herzégovine",
     "Bosnia & Herzegovina",
     "Bosnie"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bb",
-   "type": "image",
    "src": "bb.webp",
    "answer": "Barbade",
    "exact": [
-    "Barbade",
     "Barbados"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bd",
-   "type": "image",
    "src": "bd.webp",
    "answer": "Bangladesh",
-   "exact": [
-    "Bangladesh"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "be",
-   "type": "image",
    "src": "be.webp",
    "answer": "Belgique",
    "exact": [
-    "Belgique",
     "Belgium"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bf",
-   "type": "image",
    "src": "bf.webp",
    "answer": "Burkina Faso",
-   "exact": [
-    "Burkina Faso"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bg",
-   "type": "image",
    "src": "bg.webp",
    "answer": "Bulgarie",
    "exact": [
-    "Bulgarie",
     "Bulgaria"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bh",
-   "type": "image",
    "src": "bh.webp",
    "answer": "Bahreïn",
    "exact": [
-    "Bahreïn",
     "Bahrain"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bi",
-   "type": "image",
    "src": "bi.webp",
    "answer": "Burundi",
-   "exact": [
-    "Burundi"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bj",
-   "type": "image",
    "src": "bj.webp",
    "answer": "Bénin",
    "exact": [
-    "Bénin",
     "Benin"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bl",
-   "type": "image",
    "src": "bl.webp",
    "answer": "Saint-Barthélemy",
    "exact": [
-    "Saint-Barthélemy",
     "St. Barthélemy"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bm",
-   "type": "image",
    "src": "bm.webp",
    "answer": "Bermudes",
    "exact": [
-    "Bermudes",
     "Bermuda"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bn",
-   "type": "image",
    "src": "bn.webp",
    "answer": "Brunei",
-   "exact": [
-    "Brunei"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bo",
-   "type": "image",
    "src": "bo.webp",
    "answer": "Bolivie",
    "exact": [
-    "Bolivie",
     "Bolivia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bq",
-   "type": "image",
    "src": "bq.webp",
    "answer": "Pays-Bas caribéens",
    "exact": [
-    "Pays-Bas caribéens",
     "Caribbean Netherlands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "br",
-   "type": "image",
    "src": "br.webp",
    "answer": "Brésil",
    "exact": [
-    "Brésil",
     "Brazil"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bs",
-   "type": "image",
    "src": "bs.webp",
    "answer": "Bahamas",
-   "exact": [
-    "Bahamas"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bt",
-   "type": "image",
    "src": "bt.webp",
    "answer": "Bhoutan",
    "exact": [
-    "Bhoutan",
     "Bhutan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bv",
-   "type": "image",
    "src": "bv.webp",
    "answer": "Île Bouvet",
    "exact": [
-    "Île Bouvet",
     "Bouvet Island"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bw",
-   "type": "image",
    "src": "bw.webp",
    "answer": "Botswana",
-   "exact": [
-    "Botswana"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "by",
-   "type": "image",
    "src": "by.webp",
    "answer": "Biélorussie",
    "exact": [
-    "Biélorussie",
     "Belarus"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "bz",
-   "type": "image",
    "src": "bz.webp",
    "answer": "Belize",
-   "exact": [
-    "Belize"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ca",
-   "type": "image",
    "src": "ca.webp",
    "answer": "Canada",
-   "exact": [
-    "Canada"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cc",
-   "type": "image",
    "src": "cc.webp",
    "answer": "Îles Cocos",
    "exact": [
-    "Îles Cocos",
     "Cocos (Keeling) Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cd",
-   "type": "image",
    "src": "cd.webp",
    "answer": "Congo-Kinshasa",
    "exact": [
-    "Congo-Kinshasa",
     "Congo - Kinshasa",
     "RDC",
     "Congo Kinshasa"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cf",
-   "type": "image",
    "src": "cf.webp",
    "answer": "République centrafricaine",
    "exact": [
-    "République centrafricaine",
     "Central African Republic"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cg",
-   "type": "image",
    "src": "cg.webp",
    "answer": "Congo-Brazzaville",
    "exact": [
-    "Congo-Brazzaville",
     "Congo - Brazzaville",
     "Congo Brazzaville"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ch",
-   "type": "image",
    "src": "ch.webp",
    "answer": "Suisse",
    "exact": [
-    "Suisse",
     "Switzerland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ci",
-   "type": "image",
    "src": "ci.webp",
    "answer": "Côte d’Ivoire",
    "exact": [
-    "Côte d’Ivoire",
     "Côte d Ivoire",
     "Ivory Coast"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ck",
-   "type": "image",
    "src": "ck.webp",
    "answer": "Îles Cook",
    "exact": [
-    "Îles Cook",
     "Cook Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cl",
-   "type": "image",
    "src": "cl.webp",
    "answer": "Chili",
    "exact": [
-    "Chili",
     "Chile"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cm",
-   "type": "image",
    "src": "cm.webp",
    "answer": "Cameroun",
    "exact": [
-    "Cameroun",
     "Cameroon"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cn",
-   "type": "image",
    "src": "cn.webp",
    "answer": "Chine",
    "exact": [
-    "Chine",
     "China"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "co",
-   "type": "image",
    "src": "co.webp",
    "answer": "Colombie",
    "exact": [
-    "Colombie",
     "Colombia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cr",
-   "type": "image",
    "src": "cr.webp",
    "answer": "Costa Rica",
-   "exact": [
-    "Costa Rica"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cu",
-   "type": "image",
    "src": "cu.webp",
    "answer": "Cuba",
-   "exact": [
-    "Cuba"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cv",
-   "type": "image",
    "src": "cv.webp",
    "answer": "Cap-Vert",
    "exact": [
-    "Cap-Vert",
     "Cape Verde"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cw",
-   "type": "image",
    "src": "cw.webp",
    "answer": "Curaçao",
-   "exact": [
-    "Curaçao"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cy",
-   "type": "image",
    "src": "cy.webp",
    "answer": "Chypre",
    "exact": [
-    "Chypre",
     "Cyprus"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "cz",
-   "type": "image",
    "src": "cz.webp",
    "answer": "Tchéquie",
    "exact": [
-    "Tchéquie",
     "Czechia",
     "Czech Republic"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "de",
-   "type": "image",
    "src": "de.webp",
    "answer": "Allemagne",
    "exact": [
-    "Allemagne",
     "Germany"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "dj",
-   "type": "image",
    "src": "dj.webp",
    "answer": "Djibouti",
-   "exact": [
-    "Djibouti"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "dk",
-   "type": "image",
    "src": "dk.webp",
    "answer": "Danemark",
    "exact": [
-    "Danemark",
     "Denmark"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "dm",
-   "type": "image",
    "src": "dm.webp",
    "answer": "Dominique",
    "exact": [
-    "Dominique",
     "Dominica"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "do",
-   "type": "image",
    "src": "do.webp",
    "answer": "République dominicaine",
    "exact": [
-    "République dominicaine",
     "Dominican Republic"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "dz",
-   "type": "image",
    "src": "dz.webp",
    "answer": "Algérie",
    "exact": [
-    "Algérie",
     "Algeria"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ec",
-   "type": "image",
    "src": "ec.webp",
    "answer": "Équateur",
    "exact": [
-    "Équateur",
     "Ecuador"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ee",
-   "type": "image",
    "src": "ee.webp",
    "answer": "Estonie",
    "exact": [
-    "Estonie",
     "Estonia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "eg",
-   "type": "image",
    "src": "eg.webp",
    "answer": "Égypte",
    "exact": [
-    "Égypte",
     "Egypt"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "eh",
-   "type": "image",
    "src": "eh.webp",
    "answer": "Sahara occidental",
    "exact": [
-    "Sahara occidental",
     "Western Sahara"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "er",
-   "type": "image",
    "src": "er.webp",
    "answer": "Érythrée",
    "exact": [
-    "Érythrée",
     "Eritrea"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "es",
-   "type": "image",
    "src": "es.webp",
    "answer": "Espagne",
    "exact": [
-    "Espagne",
     "Spain"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "et",
-   "type": "image",
    "src": "et.webp",
    "answer": "Éthiopie",
    "exact": [
-    "Éthiopie",
     "Ethiopia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "fi",
-   "type": "image",
    "src": "fi.webp",
    "answer": "Finlande",
    "exact": [
-    "Finlande",
     "Finland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "fj",
-   "type": "image",
    "src": "fj.webp",
    "answer": "Fidji",
    "exact": [
-    "Fidji",
     "Fiji"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "fk",
-   "type": "image",
    "src": "fk.webp",
    "answer": "Îles Malouines",
    "exact": [
-    "Îles Malouines",
     "Falkland Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "fm",
-   "type": "image",
    "src": "fm.webp",
    "answer": "Micronésie",
    "exact": [
-    "Micronésie",
     "Micronesia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "fo",
-   "type": "image",
    "src": "fo.webp",
    "answer": "Îles Féroé",
    "exact": [
-    "Îles Féroé",
     "Faroe Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "fr",
-   "type": "image",
    "src": "fr.webp",
    "answer": "France",
-   "exact": [
-    "France"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ga",
-   "type": "image",
    "src": "ga.webp",
    "answer": "Gabon",
-   "exact": [
-    "Gabon"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gb-eng",
-   "type": "image",
    "src": "gb-eng.webp",
    "answer": "Angleterre",
    "exact": [
-    "Angleterre",
     "England"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gb-nir",
-   "type": "image",
    "src": "gb-nir.webp",
    "answer": "Irlande du Nord",
    "exact": [
-    "Irlande du Nord",
     "Northern Ireland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gb-sct",
-   "type": "image",
    "src": "gb-sct.webp",
    "answer": "Écosse",
    "exact": [
-    "Écosse",
     "Scotland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gb-wls",
-   "type": "image",
    "src": "gb-wls.webp",
    "answer": "Pays de Galles",
    "exact": [
-    "Pays de Galles",
     "Wales"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gb",
-   "type": "image",
    "src": "gb.webp",
    "answer": "Royaume-Uni",
    "exact": [
-    "Royaume-Uni",
     "United Kingdom",
     "UK",
     "Angleterre",
     "Grande-Bretagne",
     "Great Britain",
     "England"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gd",
-   "type": "image",
    "src": "gd.webp",
    "answer": "Grenade",
    "exact": [
-    "Grenade",
     "Grenada"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ge",
-   "type": "image",
    "src": "ge.webp",
    "answer": "Géorgie",
    "exact": [
-    "Géorgie",
     "Georgia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gf",
-   "type": "image",
    "src": "gf.webp",
    "answer": "Guyane française",
    "exact": [
-    "Guyane française",
     "French Guiana"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gg",
-   "type": "image",
    "src": "gg.webp",
    "answer": "Guernesey",
    "exact": [
-    "Guernesey",
     "Guernsey"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gh",
-   "type": "image",
    "src": "gh.webp",
    "answer": "Ghana",
-   "exact": [
-    "Ghana"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gi",
-   "type": "image",
    "src": "gi.webp",
    "answer": "Gibraltar",
-   "exact": [
-    "Gibraltar"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gl",
-   "type": "image",
    "src": "gl.webp",
    "answer": "Groenland",
    "exact": [
-    "Groenland",
     "Greenland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gm",
-   "type": "image",
    "src": "gm.webp",
    "answer": "Gambie",
    "exact": [
-    "Gambie",
     "Gambia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gn",
-   "type": "image",
    "src": "gn.webp",
    "answer": "Guinée",
    "exact": [
-    "Guinée",
     "Guinea"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gp",
-   "type": "image",
    "src": "gp.webp",
    "answer": "Guadeloupe",
-   "exact": [
-    "Guadeloupe"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gq",
-   "type": "image",
    "src": "gq.webp",
    "answer": "Guinée équatoriale",
    "exact": [
-    "Guinée équatoriale",
     "Equatorial Guinea"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gr",
-   "type": "image",
    "src": "gr.webp",
    "answer": "Grèce",
    "exact": [
-    "Grèce",
     "Greece"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gs",
-   "type": "image",
    "src": "gs.webp",
    "answer": "Géorgie du Sud-et-les Îles Sandwich du Sud",
    "exact": [
-    "Géorgie du Sud-et-les Îles Sandwich du Sud",
     "South Georgia & South Sandwich Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gt",
-   "type": "image",
    "src": "gt.webp",
    "answer": "Guatemala",
-   "exact": [
-    "Guatemala"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gu",
-   "type": "image",
    "src": "gu.webp",
    "answer": "Guam",
-   "exact": [
-    "Guam"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gw",
-   "type": "image",
    "src": "gw.webp",
    "answer": "Guinée-Bissau",
    "exact": [
-    "Guinée-Bissau",
     "Guinea-Bissau"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "gy",
-   "type": "image",
    "src": "gy.webp",
    "answer": "Guyana",
-   "exact": [
-    "Guyana"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "hk",
-   "type": "image",
    "src": "hk.webp",
    "answer": "R.A.S. chinoise de Hong Kong",
    "exact": [
-    "R.A.S. chinoise de Hong Kong",
     "Hong Kong SAR China"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "hm",
-   "type": "image",
    "src": "hm.webp",
    "answer": "Îles Heard-et-MacDonald",
    "exact": [
-    "Îles Heard-et-MacDonald",
     "Heard & McDonald Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "hn",
-   "type": "image",
    "src": "hn.webp",
    "answer": "Honduras",
-   "exact": [
-    "Honduras"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "hr",
-   "type": "image",
    "src": "hr.webp",
    "answer": "Croatie",
    "exact": [
-    "Croatie",
     "Croatia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ht",
-   "type": "image",
    "src": "ht.webp",
    "answer": "Haïti",
    "exact": [
-    "Haïti",
     "Haiti"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "hu",
-   "type": "image",
    "src": "hu.webp",
    "answer": "Hongrie",
    "exact": [
-    "Hongrie",
     "Hungary"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "id",
-   "type": "image",
    "src": "id.webp",
    "answer": "Indonésie",
    "exact": [
-    "Indonésie",
     "Indonesia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ie",
-   "type": "image",
    "src": "ie.webp",
    "answer": "Irlande",
    "exact": [
-    "Irlande",
     "Ireland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "il",
-   "type": "image",
    "src": "il.webp",
    "answer": "Israël",
    "exact": [
-    "Israël",
     "Israel"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "im",
-   "type": "image",
    "src": "im.webp",
    "answer": "Île de Man",
    "exact": [
-    "Île de Man",
     "Isle of Man"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "in",
-   "type": "image",
    "src": "in.webp",
    "answer": "Inde",
    "exact": [
-    "Inde",
     "India"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "io",
-   "type": "image",
    "src": "io.webp",
    "answer": "Territoire britannique de l’océan Indien",
    "exact": [
-    "Territoire britannique de l’océan Indien",
     "British Indian Ocean Territory"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "iq",
-   "type": "image",
    "src": "iq.webp",
    "answer": "Irak",
    "exact": [
-    "Irak",
     "Iraq"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ir",
-   "type": "image",
    "src": "ir.webp",
    "answer": "Iran",
-   "exact": [
-    "Iran"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "is",
-   "type": "image",
    "src": "is.webp",
    "answer": "Islande",
    "exact": [
-    "Islande",
     "Iceland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "it",
-   "type": "image",
    "src": "it.webp",
    "answer": "Italie",
    "exact": [
-    "Italie",
     "Italy"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "je",
-   "type": "image",
    "src": "je.webp",
    "answer": "Jersey",
-   "exact": [
-    "Jersey"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "jm",
-   "type": "image",
    "src": "jm.webp",
    "answer": "Jamaïque",
    "exact": [
-    "Jamaïque",
     "Jamaica"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "jo",
-   "type": "image",
    "src": "jo.webp",
    "answer": "Jordanie",
    "exact": [
-    "Jordanie",
     "Jordan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "jp",
-   "type": "image",
    "src": "jp.webp",
    "answer": "Japon",
    "exact": [
-    "Japon",
     "Japan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ke",
-   "type": "image",
    "src": "ke.webp",
    "answer": "Kenya",
-   "exact": [
-    "Kenya"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "kg",
-   "type": "image",
    "src": "kg.webp",
    "answer": "Kirghizstan",
    "exact": [
-    "Kirghizstan",
     "Kyrgyzstan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "kh",
-   "type": "image",
    "src": "kh.webp",
    "answer": "Cambodge",
    "exact": [
-    "Cambodge",
     "Cambodia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ki",
-   "type": "image",
    "src": "ki.webp",
    "answer": "Kiribati",
-   "exact": [
-    "Kiribati"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "km",
-   "type": "image",
    "src": "km.webp",
    "answer": "Comores",
    "exact": [
-    "Comores",
     "Comoros"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "kn",
-   "type": "image",
    "src": "kn.webp",
    "answer": "Saint-Christophe-et-Niévès",
    "exact": [
-    "Saint-Christophe-et-Niévès",
     "St. Kitts & Nevis"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "kp",
-   "type": "image",
    "src": "kp.webp",
    "answer": "Corée du Nord",
    "exact": [
-    "Corée du Nord",
     "North Korea"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "kr",
-   "type": "image",
    "src": "kr.webp",
    "answer": "Corée du Sud",
    "exact": [
-    "Corée du Sud",
     "South Korea",
     "Corée",
     "Korea"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "kw",
-   "type": "image",
    "src": "kw.webp",
    "answer": "Koweït",
    "exact": [
-    "Koweït",
     "Kuwait"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ky",
-   "type": "image",
    "src": "ky.webp",
    "answer": "Îles Caïmans",
    "exact": [
-    "Îles Caïmans",
     "Cayman Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "kz",
-   "type": "image",
    "src": "kz.webp",
    "answer": "Kazakhstan",
-   "exact": [
-    "Kazakhstan"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "la",
-   "type": "image",
    "src": "la.webp",
    "answer": "Laos",
-   "exact": [
-    "Laos"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "lb",
-   "type": "image",
    "src": "lb.webp",
    "answer": "Liban",
    "exact": [
-    "Liban",
     "Lebanon"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "lc",
-   "type": "image",
    "src": "lc.webp",
    "answer": "Sainte-Lucie",
    "exact": [
-    "Sainte-Lucie",
     "St. Lucia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "li",
-   "type": "image",
    "src": "li.webp",
    "answer": "Liechtenstein",
-   "exact": [
-    "Liechtenstein"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "lk",
-   "type": "image",
    "src": "lk.webp",
    "answer": "Sri Lanka",
-   "exact": [
-    "Sri Lanka"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "lr",
-   "type": "image",
    "src": "lr.webp",
    "answer": "Liberia",
-   "exact": [
-    "Liberia"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ls",
-   "type": "image",
    "src": "ls.webp",
    "answer": "Lesotho",
-   "exact": [
-    "Lesotho"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "lt",
-   "type": "image",
    "src": "lt.webp",
    "answer": "Lituanie",
    "exact": [
-    "Lituanie",
     "Lithuania"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "lu",
-   "type": "image",
    "src": "lu.webp",
    "answer": "Luxembourg",
-   "exact": [
-    "Luxembourg"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "lv",
-   "type": "image",
    "src": "lv.webp",
    "answer": "Lettonie",
    "exact": [
-    "Lettonie",
     "Latvia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ly",
-   "type": "image",
    "src": "ly.webp",
    "answer": "Libye",
    "exact": [
-    "Libye",
     "Libya"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ma",
-   "type": "image",
    "src": "ma.webp",
    "answer": "Maroc",
    "exact": [
-    "Maroc",
     "Morocco"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mc",
-   "type": "image",
    "src": "mc.webp",
    "answer": "Monaco",
-   "exact": [
-    "Monaco"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "md",
-   "type": "image",
    "src": "md.webp",
    "answer": "Moldavie",
    "exact": [
-    "Moldavie",
     "Moldova"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "me",
-   "type": "image",
    "src": "me.webp",
    "answer": "Monténégro",
    "exact": [
-    "Monténégro",
     "Montenegro"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mf",
-   "type": "image",
    "src": "mf.webp",
    "answer": "Saint-Martin",
    "exact": [
-    "Saint-Martin",
     "St. Martin"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mg",
-   "type": "image",
    "src": "mg.webp",
    "answer": "Madagascar",
-   "exact": [
-    "Madagascar"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mh",
-   "type": "image",
    "src": "mh.webp",
    "answer": "Îles Marshall",
    "exact": [
-    "Îles Marshall",
     "Marshall Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mk",
-   "type": "image",
    "src": "mk.webp",
    "answer": "Macédoine du Nord",
    "exact": [
-    "Macédoine du Nord",
     "North Macedonia",
     "Macédoine"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ml",
-   "type": "image",
    "src": "ml.webp",
    "answer": "Mali",
-   "exact": [
-    "Mali"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mm",
-   "type": "image",
    "src": "mm.webp",
    "answer": "Myanmar (Birmanie)",
    "exact": [
-    "Myanmar (Birmanie)",
     "Myanmar (Burma)"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mn",
-   "type": "image",
    "src": "mn.webp",
    "answer": "Mongolie",
    "exact": [
-    "Mongolie",
     "Mongolia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mo",
-   "type": "image",
    "src": "mo.webp",
    "answer": "R.A.S. chinoise de Macao",
    "exact": [
-    "R.A.S. chinoise de Macao",
     "Macao SAR China"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mp",
-   "type": "image",
    "src": "mp.webp",
    "answer": "Îles Mariannes du Nord",
    "exact": [
-    "Îles Mariannes du Nord",
     "Northern Mariana Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mq",
-   "type": "image",
    "src": "mq.webp",
    "answer": "Martinique",
-   "exact": [
-    "Martinique"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mr",
-   "type": "image",
    "src": "mr.webp",
    "answer": "Mauritanie",
    "exact": [
-    "Mauritanie",
     "Mauritania"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ms",
-   "type": "image",
    "src": "ms.webp",
    "answer": "Montserrat",
-   "exact": [
-    "Montserrat"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mt",
-   "type": "image",
    "src": "mt.webp",
    "answer": "Malte",
    "exact": [
-    "Malte",
     "Malta"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mu",
-   "type": "image",
    "src": "mu.webp",
    "answer": "Maurice",
    "exact": [
-    "Maurice",
     "Mauritius"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mv",
-   "type": "image",
    "src": "mv.webp",
    "answer": "Maldives",
-   "exact": [
-    "Maldives"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mw",
-   "type": "image",
    "src": "mw.webp",
    "answer": "Malawi",
-   "exact": [
-    "Malawi"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mx",
-   "type": "image",
    "src": "mx.webp",
    "answer": "Mexique",
    "exact": [
-    "Mexique",
     "Mexico"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "my",
-   "type": "image",
    "src": "my.webp",
    "answer": "Malaisie",
    "exact": [
-    "Malaisie",
     "Malaysia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "mz",
-   "type": "image",
    "src": "mz.webp",
    "answer": "Mozambique",
-   "exact": [
-    "Mozambique"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "na",
-   "type": "image",
    "src": "na.webp",
    "answer": "Namibie",
    "exact": [
-    "Namibie",
     "Namibia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "nc",
-   "type": "image",
    "src": "nc.webp",
    "answer": "Nouvelle-Calédonie",
    "exact": [
-    "Nouvelle-Calédonie",
     "New Caledonia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ne",
-   "type": "image",
    "src": "ne.webp",
    "answer": "Niger",
-   "exact": [
-    "Niger"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "nf",
-   "type": "image",
    "src": "nf.webp",
    "answer": "Île Norfolk",
    "exact": [
-    "Île Norfolk",
     "Norfolk Island"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ng",
-   "type": "image",
    "src": "ng.webp",
    "answer": "Nigeria",
-   "exact": [
-    "Nigeria"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ni",
-   "type": "image",
    "src": "ni.webp",
    "answer": "Nicaragua",
-   "exact": [
-    "Nicaragua"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "nl",
-   "type": "image",
    "src": "nl.webp",
    "answer": "Pays-Bas",
    "exact": [
-    "Pays-Bas",
     "Netherlands",
     "Hollande",
     "Holland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "no",
-   "type": "image",
    "src": "no.webp",
    "answer": "Norvège",
    "exact": [
-    "Norvège",
     "Norway"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "nr",
-   "type": "image",
    "src": "nr.webp",
    "answer": "Nauru",
-   "exact": [
-    "Nauru"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "nu",
-   "type": "image",
    "src": "nu.webp",
    "answer": "Niue",
-   "exact": [
-    "Niue"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "nz",
-   "type": "image",
    "src": "nz.webp",
    "answer": "Nouvelle-Zélande",
    "exact": [
-    "Nouvelle-Zélande",
     "New Zealand"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "om",
-   "type": "image",
    "src": "om.webp",
    "answer": "Oman",
-   "exact": [
-    "Oman"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pa",
-   "type": "image",
    "src": "pa.webp",
    "answer": "Panama",
-   "exact": [
-    "Panama"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pe",
-   "type": "image",
    "src": "pe.webp",
    "answer": "Pérou",
    "exact": [
-    "Pérou",
     "Peru"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pf",
-   "type": "image",
    "src": "pf.webp",
    "answer": "Polynésie française",
    "exact": [
-    "Polynésie française",
     "French Polynesia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pg",
-   "type": "image",
    "src": "pg.webp",
    "answer": "Papouasie-Nouvelle-Guinée",
    "exact": [
-    "Papouasie-Nouvelle-Guinée",
     "Papua New Guinea"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ph",
-   "type": "image",
    "src": "ph.webp",
    "answer": "Philippines",
-   "exact": [
-    "Philippines"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pk",
-   "type": "image",
    "src": "pk.webp",
    "answer": "Pakistan",
-   "exact": [
-    "Pakistan"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pl",
-   "type": "image",
    "src": "pl.webp",
    "answer": "Pologne",
    "exact": [
-    "Pologne",
     "Poland"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pm",
-   "type": "image",
    "src": "pm.webp",
    "answer": "Saint-Pierre-et-Miquelon",
    "exact": [
-    "Saint-Pierre-et-Miquelon",
     "St. Pierre & Miquelon"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pn",
-   "type": "image",
    "src": "pn.webp",
    "answer": "Îles Pitcairn",
    "exact": [
-    "Îles Pitcairn",
     "Pitcairn Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pr",
-   "type": "image",
    "src": "pr.webp",
    "answer": "Porto Rico",
    "exact": [
-    "Porto Rico",
     "Puerto Rico"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ps",
-   "type": "image",
    "src": "ps.webp",
    "answer": "Territoires palestiniens",
    "exact": [
-    "Territoires palestiniens",
     "Palestinian Territories",
     "Palestine"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pt",
-   "type": "image",
    "src": "pt.webp",
    "answer": "Portugal",
-   "exact": [
-    "Portugal"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "pw",
-   "type": "image",
    "src": "pw.webp",
    "answer": "Palaos",
    "exact": [
-    "Palaos",
     "Palau"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "py",
-   "type": "image",
    "src": "py.webp",
    "answer": "Paraguay",
-   "exact": [
-    "Paraguay"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "qa",
-   "type": "image",
    "src": "qa.webp",
    "answer": "Qatar",
-   "exact": [
-    "Qatar"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "re",
-   "type": "image",
    "src": "re.webp",
    "answer": "La Réunion",
    "exact": [
-    "La Réunion",
     "Réunion"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ro",
-   "type": "image",
    "src": "ro.webp",
    "answer": "Roumanie",
    "exact": [
-    "Roumanie",
     "Romania"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "rs",
-   "type": "image",
    "src": "rs.webp",
    "answer": "Serbie",
    "exact": [
-    "Serbie",
     "Serbia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ru",
-   "type": "image",
    "src": "ru.webp",
    "answer": "Russie",
    "exact": [
-    "Russie",
     "Russia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "rw",
-   "type": "image",
    "src": "rw.webp",
    "answer": "Rwanda",
-   "exact": [
-    "Rwanda"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sa",
-   "type": "image",
    "src": "sa.webp",
    "answer": "Arabie saoudite",
    "exact": [
-    "Arabie saoudite",
     "Saudi Arabia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sb",
-   "type": "image",
    "src": "sb.webp",
    "answer": "Îles Salomon",
    "exact": [
-    "Îles Salomon",
     "Solomon Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sc",
-   "type": "image",
    "src": "sc.webp",
    "answer": "Seychelles",
-   "exact": [
-    "Seychelles"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sd",
-   "type": "image",
    "src": "sd.webp",
    "answer": "Soudan",
    "exact": [
-    "Soudan",
     "Sudan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "se",
-   "type": "image",
    "src": "se.webp",
    "answer": "Suède",
    "exact": [
-    "Suède",
     "Sweden"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sg",
-   "type": "image",
    "src": "sg.webp",
    "answer": "Singapour",
    "exact": [
-    "Singapour",
     "Singapore"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sh",
-   "type": "image",
    "src": "sh.webp",
    "answer": "Sainte-Hélène",
    "exact": [
-    "Sainte-Hélène",
     "St. Helena"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "si",
-   "type": "image",
    "src": "si.webp",
    "answer": "Slovénie",
    "exact": [
-    "Slovénie",
     "Slovenia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sj",
-   "type": "image",
    "src": "sj.webp",
    "answer": "Svalbard et Jan Mayen",
    "exact": [
-    "Svalbard et Jan Mayen",
     "Svalbard & Jan Mayen"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sk",
-   "type": "image",
    "src": "sk.webp",
    "answer": "Slovaquie",
    "exact": [
-    "Slovaquie",
     "Slovakia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sl",
-   "type": "image",
    "src": "sl.webp",
    "answer": "Sierra Leone",
-   "exact": [
-    "Sierra Leone"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sm",
-   "type": "image",
    "src": "sm.webp",
    "answer": "Saint-Marin",
    "exact": [
-    "Saint-Marin",
     "San Marino"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sn",
-   "type": "image",
    "src": "sn.webp",
    "answer": "Sénégal",
    "exact": [
-    "Sénégal",
     "Senegal"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "so",
-   "type": "image",
    "src": "so.webp",
    "answer": "Somalie",
    "exact": [
-    "Somalie",
     "Somalia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sr",
-   "type": "image",
    "src": "sr.webp",
    "answer": "Suriname",
-   "exact": [
-    "Suriname"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ss",
-   "type": "image",
    "src": "ss.webp",
    "answer": "Soudan du Sud",
    "exact": [
-    "Soudan du Sud",
     "South Sudan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "st",
-   "type": "image",
    "src": "st.webp",
    "answer": "Sao Tomé-et-Principe",
    "exact": [
-    "Sao Tomé-et-Principe",
     "São Tomé & Príncipe"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sv",
-   "type": "image",
    "src": "sv.webp",
    "answer": "Salvador",
    "exact": [
-    "Salvador",
     "El Salvador"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sx",
-   "type": "image",
    "src": "sx.webp",
    "answer": "Saint-Martin (partie néerlandaise)",
    "exact": [
-    "Saint-Martin (partie néerlandaise)",
     "Sint Maarten"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sy",
-   "type": "image",
    "src": "sy.webp",
    "answer": "Syrie",
    "exact": [
-    "Syrie",
     "Syria"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "sz",
-   "type": "image",
    "src": "sz.webp",
    "answer": "Eswatini",
-   "exact": [
-    "Eswatini"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tc",
-   "type": "image",
    "src": "tc.webp",
    "answer": "Îles Turques-et-Caïques",
    "exact": [
-    "Îles Turques-et-Caïques",
     "Turks & Caicos Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "td",
-   "type": "image",
    "src": "td.webp",
    "answer": "Tchad",
    "exact": [
-    "Tchad",
     "Chad"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tf",
-   "type": "image",
    "src": "tf.webp",
    "answer": "Terres australes françaises",
    "exact": [
-    "Terres australes françaises",
     "French Southern Territories"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tg",
-   "type": "image",
    "src": "tg.webp",
    "answer": "Togo",
-   "exact": [
-    "Togo"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "th",
-   "type": "image",
    "src": "th.webp",
    "answer": "Thaïlande",
    "exact": [
-    "Thaïlande",
     "Thailand"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tj",
-   "type": "image",
    "src": "tj.webp",
    "answer": "Tadjikistan",
    "exact": [
-    "Tadjikistan",
     "Tajikistan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tk",
-   "type": "image",
    "src": "tk.webp",
    "answer": "Tokelau",
-   "exact": [
-    "Tokelau"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tl",
-   "type": "image",
    "src": "tl.webp",
    "answer": "Timor oriental",
    "exact": [
-    "Timor oriental",
     "Timor-Leste"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tm",
-   "type": "image",
    "src": "tm.webp",
    "answer": "Turkménistan",
    "exact": [
-    "Turkménistan",
     "Turkmenistan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tn",
-   "type": "image",
    "src": "tn.webp",
    "answer": "Tunisie",
    "exact": [
-    "Tunisie",
     "Tunisia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "to",
-   "type": "image",
    "src": "to.webp",
    "answer": "Tonga",
-   "exact": [
-    "Tonga"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tr",
-   "type": "image",
    "src": "tr.webp",
    "answer": "Turquie",
    "exact": [
-    "Turquie",
     "Türkiye"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tt",
-   "type": "image",
    "src": "tt.webp",
    "answer": "Trinité-et-Tobago",
    "exact": [
-    "Trinité-et-Tobago",
     "Trinidad & Tobago"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tv",
-   "type": "image",
    "src": "tv.webp",
    "answer": "Tuvalu",
-   "exact": [
-    "Tuvalu"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tw",
-   "type": "image",
    "src": "tw.webp",
    "answer": "Taïwan",
    "exact": [
-    "Taïwan",
     "Taiwan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "tz",
-   "type": "image",
    "src": "tz.webp",
    "answer": "Tanzanie",
    "exact": [
-    "Tanzanie",
     "Tanzania"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ua",
-   "type": "image",
    "src": "ua.webp",
    "answer": "Ukraine",
-   "exact": [
-    "Ukraine"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ug",
-   "type": "image",
    "src": "ug.webp",
    "answer": "Ouganda",
    "exact": [
-    "Ouganda",
     "Uganda"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "um",
-   "type": "image",
    "src": "um.webp",
    "answer": "Îles mineures éloignées des États-Unis",
    "exact": [
-    "Îles mineures éloignées des États-Unis",
     "U.S. Outlying Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "us",
-   "type": "image",
    "src": "us.webp",
    "answer": "États-Unis",
    "exact": [
-    "États-Unis",
     "United States",
     "USA",
     "US",
     "Amérique",
     "Etats-Unis d Amérique",
     "America"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "uy",
-   "type": "image",
    "src": "uy.webp",
    "answer": "Uruguay",
-   "exact": [
-    "Uruguay"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "uz",
-   "type": "image",
    "src": "uz.webp",
    "answer": "Ouzbékistan",
    "exact": [
-    "Ouzbékistan",
     "Uzbekistan"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "va",
-   "type": "image",
    "src": "va.webp",
    "answer": "État de la Cité du Vatican",
    "exact": [
-    "État de la Cité du Vatican",
     "Vatican City",
     "Vatican"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "vc",
-   "type": "image",
    "src": "vc.webp",
    "answer": "Saint-Vincent-et-les Grenadines",
    "exact": [
-    "Saint-Vincent-et-les Grenadines",
     "St. Vincent & Grenadines"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ve",
-   "type": "image",
    "src": "ve.webp",
    "answer": "Venezuela",
-   "exact": [
-    "Venezuela"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "vg",
-   "type": "image",
    "src": "vg.webp",
    "answer": "Îles Vierges britanniques",
    "exact": [
-    "Îles Vierges britanniques",
     "British Virgin Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "vi",
-   "type": "image",
    "src": "vi.webp",
    "answer": "Îles Vierges des États-Unis",
    "exact": [
-    "Îles Vierges des États-Unis",
     "U.S. Virgin Islands"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "vn",
-   "type": "image",
    "src": "vn.webp",
    "answer": "Viêt Nam",
    "exact": [
-    "Viêt Nam",
     "Vietnam"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "vu",
-   "type": "image",
    "src": "vu.webp",
    "answer": "Vanuatu",
-   "exact": [
-    "Vanuatu"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "wf",
-   "type": "image",
    "src": "wf.webp",
    "answer": "Wallis-et-Futuna",
    "exact": [
-    "Wallis-et-Futuna",
     "Wallis & Futuna"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ws",
-   "type": "image",
    "src": "ws.webp",
    "answer": "Samoa",
-   "exact": [
-    "Samoa"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "xk",
-   "type": "image",
    "src": "xk.webp",
    "answer": "Kosovo",
-   "exact": [
-    "Kosovo"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "ye",
-   "type": "image",
    "src": "ye.webp",
    "answer": "Yémen",
    "exact": [
-    "Yémen",
     "Yemen"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "yt",
-   "type": "image",
    "src": "yt.webp",
    "answer": "Mayotte",
-   "exact": [
-    "Mayotte"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "za",
-   "type": "image",
    "src": "za.webp",
    "answer": "Afrique du Sud",
    "exact": [
-    "Afrique du Sud",
     "South Africa"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "zm",
-   "type": "image",
    "src": "zm.webp",
    "answer": "Zambie",
    "exact": [
-    "Zambie",
     "Zambia"
+   ],
+   "tags": [
+    "drapeau"
    ]
   },
   {
    "id": "zw",
-   "type": "image",
    "src": "zw.webp",
    "answer": "Zimbabwe",
-   "exact": [
-    "Zimbabwe"
+   "exact": [],
+   "tags": [
+    "drapeau"
    ]
   }
  ]

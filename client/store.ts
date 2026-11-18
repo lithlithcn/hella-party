@@ -1,6 +1,7 @@
 // Client state: the latest server snapshot + connection. UI reads it with useStore().
 import { useEffect, useState } from 'preact/hooks';
 import type { ClientMsg, PackInfo, PublicState, ServerMsg, SettingDef } from '../shared/protocol';
+import { play } from './sfx';
 
 export interface ChatLine { from: string | null; name: string; text: string }
 
@@ -50,8 +51,8 @@ export function connect(code: string) {
     switch (m.t) {
       case 'welcome': store.defs = m.defs; store.packs = m.packs; break;
       case 'state': store.s = m.s; store.offset = m.s.now - Date.now(); break;
-      case 'chat': store.chat = [...store.chat.slice(-150), m]; break;
-      case 'fx': fxListeners.forEach(l => l(m)); if (m.kind === 'error' && DEBUG) store.chat = [...store.chat, { from: null, name: '', text: `⚠ ${m.data?.where ?? ''} ${m.data?.msg}` }]; break;
+      case 'chat': store.chat = [...store.chat.slice(-150), m]; if (m.from) play('chat', 0.6); break;
+      case 'fx': if (m.kind === 'join') play('join', 0.7); if (m.kind === 'error') play('invalid'); fxListeners.forEach(l => l(m)); if (m.kind === 'error' && DEBUG) store.chat = [...store.chat, { from: null, name: '', text: `⚠ ${m.data?.where ?? ''} ${m.data?.msg}` }]; break;
       case 'err': console.warn(m.msg); break;
     }
     changed();

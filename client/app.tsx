@@ -2,6 +2,10 @@ import { useEffect, useState } from 'preact/hooks';
 import { CLIENT_FEATURES } from './feature';
 import { connect, DEBUG, identity, onFx, send, useStore } from './store';
 import { Logo } from './ui/util';
+import { setMusic, volume } from './sfx';
+import { lazy, Suspense } from 'preact/compat';
+
+const Studio = lazy(() => import('./studio/studio'));
 import { answerInput, Stage } from './ui/stage';
 import { Chat, Players } from './ui/side';
 
@@ -12,6 +16,7 @@ export function App() {
   const [name, setName] = useState(identity.name);
   useEffect(() => { const f = () => setCode(codeFromPath()); addEventListener('popstate', f); return () => removeEventListener('popstate', f); }, []);
   const go = (c: string) => { history.pushState(null, '', `/${c}${location.search}`); setCode(c); };
+  if (location.pathname.startsWith('/studio')) return <Suspense fallback={<div class="loading">Chargement du Studio…</div>}><Studio /></Suspense>;
   if (!code || !name) return <Home code={code} onName={n => { identity.name = n; setName(n); }} go={go} />;
   return <Room code={code} />;
 }
@@ -39,6 +44,7 @@ function Home({ code, onName, go }: { code: string | null; onName: (n: string) =
           </div>
         )}
       </div>
+      <a class="btn ghost studio-link" href="/studio">🎨 Studio : crée tes propres packs</a>
     </main>
   );
 }
@@ -61,6 +67,8 @@ function Room({ code }: { code: string }) {
 
   const s = st.s;
   const me = s?.players.find(p => p.id === s.me);
+  useEffect(() => { setMusic(s?.status === 'lobby' ? 'musicLobby' : s?.status === 'playing' ? 'musicGame' : null); }, [s?.status]);
+  useEffect(() => () => setMusic(null), []);
   return (
     <div class="room">
       <header class="topbar">
@@ -68,6 +76,7 @@ function Room({ code }: { code: string }) {
         {s && <span class="code" title="Copier le lien" onClick={() => navigator.clipboard?.writeText(location.href)}>{code}</span>}
         <span class={`dot ${st.online ? 'on' : ''}`} title={st.online ? 'Connecté' : 'Reconnexion…'} />
         <span class="grow" />
+        <input class="vol" type="range" min="0" max="1" step="0.05" defaultValue={String(volume.get())} title="Volume" onInput={e => volume.set(+(e.target as HTMLInputElement).value)} />
         {me?.leader && s?.status === 'playing' && <button class="btn ghost small" onClick={() => send({ t: 'stop' })}>Arrêter</button>}
       </header>
       {s ? (

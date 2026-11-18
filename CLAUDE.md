@@ -16,7 +16,10 @@ server/packs.ts         Question type + pack loading
 client/feature.ts       ClientFeature contract (UI slots) — auto-registered via import.meta.glob
 client/store.ts         socket + latest snapshot; useStore(), onFx(), act()
 client/ui/*             core screens: stage (question/reveal/podium/answer box), lobby, players, chat
-client/question-types/  <type>.tsx renders a question of that type (image, audio, text…)
+client/question-types/  <type>.tsx renders a question type (image, audio, video, text, script); common.ts = effects/clip helpers
+client/studio/          Studio (/studio): local editor (IndexedDB) for packs + game sounds, exports .hellapack.zip
+client/sfx.ts           game sounds (client/public/sfx/<id>.mp3), per-device overrides from the Studio, music loops
+shared/pack.ts          pack.json format (PackFile / PackQuestion / MediaOpts) — Studio writes it, server reads it
 features/<id>/          server.ts and/or client.tsx — ALL game rules beyond the core live here
 content/packs/<id>/     pack.json + media/  (media copied to client/public/packs at build)
 scripts/gen.mjs         auto-registers features/*/server.ts and content/packs/* → server/_gen (gitignored)
@@ -45,13 +48,18 @@ scripts/sim.mjs         end-to-end smoke test (needs a running server)
 Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and shown in chat with `?debug`.
 
 ## Adding content
-- Pack: `content/packs/<id>/pack.json` `{ id, name, prompt, questions: [{ id, type?, src?, text?, answer, exact[], partial?, effect?, data? }] }` + `media/`.
-- New question type: `client/question-types/<type>.tsx` receiving `{ q: PublicQuestion }`.
+- The owner makes packs in the Studio and sends `*.hellapack.zip` (or `hella-sounds.zip`). Add them with
+  `node scripts/add-pack.mjs file.zip` → `content/packs/<id>/` (pack.json + media/) and/or `client/public/sfx/<event>.mp3`. Then commit + push.
+  Check the printed summary (missing files, size). Big media (> ~5 MB) → ask before committing.
+- Format: `shared/pack.ts`. `answer` is always accepted; `exact[]` = other accepted answers. Per-question `time`, `points`, `hint`, `explain`, `effect`, `opts` (blur/zoom/pixelate/reveal, audio clip start/end/loop/rate…).
+- Script questions: free JS run client-side with `api` (doc: SCRIPT_API_DOC in client/question-types/script.tsx). No sandbox on purpose (friends only).
+- New question type: `client/question-types/<type>.tsx` receiving `QProps` ({ q, phase, clear }), + add it to TYPES in client/studio/pack-editor.tsx.
+- New game sound event: add to SOUND_EVENTS in client/sfx.ts + file in client/public/sfx/.
 
 ## Debug
 - `?debug` in the URL: state JSON overlay, dev settings (bots), feature errors in chat.
 - `/log/CODE`: settings, players, current question (with answers), feature state, last 500 events.
-- `npm run dev` (wrangler dev on :8787) then `npm run sim` in another shell: plays a full game with bots and fails on any server error.
+- `npm run dev` (wrangler dev on :8787) then `npm run sim` in another shell (`PACKS=a,b` to pick packs): plays a full game with bots and fails on any server error.
 
 ## Deploy
 Push to `main` → Cloudflare Workers Builds (repo connected in the dashboard) runs `npm run build` + `npx wrangler deploy`. GitHub Action only type-checks. Live: https://hella-party.arietbatiment5.workers.dev

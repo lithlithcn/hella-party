@@ -1,0 +1,70 @@
+.studio { min-height: 100vh; display: flex; flex-direction: column; }
+.studio-title { font-family: 'Bungee'; font-size: 1.2em; margin: 0; color: var(--yellow); }
+.tabs { display: flex; gap: 6px; }
+.tabs button { background: none; border: 2px solid var(--line); border-radius: 999px; padding: .3em .9em; cursor: pointer; }
+.tabs button.on { border-color: var(--pink); background: #ff3d9a22; }
+.studio-body { flex: 1; display: grid; grid-template-columns: 250px 1fr; gap: 14px; padding: 0 18px 18px; align-items: start; }
+@media (max-width: 900px) { .studio-body { grid-template-columns: 1fr; padding: 0 10px 10px; } .studio .topbar { flex-wrap: wrap; } }
+.card { background: var(--panel); border: 2px solid var(--line); border-radius: var(--r); padding: 14px; backdrop-filter: blur(10px); }
+.card.empty { display: grid; place-items: center; min-height: 300px; color: var(--muted); }
+.packs-side { display: flex; flex-direction: column; gap: 10px; position: sticky; top: 10px; }
+.pack-list { display: flex; flex-direction: column; gap: 6px; max-height: 45vh; overflow: auto; }
+.pack-item { display: flex; gap: 8px; align-items: center; text-align: left; background: #0004; border: 2px solid var(--line); border-left-width: 6px; border-radius: 12px; padding: 6px 10px; cursor: pointer; }
+.pack-item.on { background: #ffffff14; }
+.pack-item b { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pack-item small { color: var(--muted); }
+.file-btn { position: relative; text-align: center; }
+.file-btn input, .drop input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.help { font-size: .9em; color: var(--muted); } .help ol { padding-left: 18px; } .help summary { cursor: pointer; color: var(--cyan); }
+
+.pack-editor { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.meta-head { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; }
+.emoji-in { width: 64px; font-size: 1.8em; text-align: center; padding: .1em; }
+.title-in { flex: 1; font-size: 1.5em; font-weight: 700; }
+input[type=color] { width: 48px; height: 44px; padding: 2px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px 14px; }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.field.wide { grid-column: 1 / -1; }
+.field-label { font-size: .85em; color: var(--cyan); font-weight: 600; }
+.field-label small { color: var(--muted); cursor: help; }
+textarea { background: #0006; border: 2px solid var(--line); border-radius: 12px; padding: .5em .8em; color: inherit; font: inherit; resize: vertical; outline: none; }
+textarea.mono, .mono { font-family: ui-monospace, Consolas, monospace; font-size: .85em; line-height: 1.45; tab-size: 2; }
+.range { display: flex; align-items: center; gap: 8px; } .range input { flex: 1; accent-color: var(--pink); } .range small { min-width: 44px; color: var(--muted); }
+.range2 { display: flex; gap: 8px; } .range2 .range { flex: 1; }
+.check { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; font-size: .92em; }
+.checks { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; background: #0006; border: 2px solid var(--line); border-radius: 12px; padding: 4px 6px; }
+.chips input { flex: 1; min-width: 120px; border: 0; background: none; padding: .3em; }
+.chip { background: var(--panel2); border-radius: 999px; padding: .15em .3em .15em .7em; font-size: .9em; display: inline-flex; align-items: center; gap: 2px; }
+.chip button { background: none; border: 0; cursor: pointer; color: var(--muted); font-size: 1.1em; }
+.drop { position: relative; display: block; border: 2px dashed var(--line); border-radius: 12px; padding: 10px 14px; text-align: center; cursor: pointer; color: var(--muted); transition: .15s; }
+.drop:hover, .drop.over { border-color: var(--cyan); color: var(--text); background: #3df5ff11; }
+.toolbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 10px; }
+.toolbar .drop { padding: 18px; font-size: 1.05em; }
+.add-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.add-row input { flex: 1; min-width: 160px; }
+.qlist { display: flex; flex-direction: column; gap: 4px; max-height: 340px; overflow: auto; }
+.qrow { display: flex; gap: 10px; align-items: center; padding: 4px 8px; border-radius: 10px; cursor: pointer; border: 2px solid transparent; }
+.qrow:hover { background: #ffffff0a; } .qrow.on { border-color: var(--pink); background: #ff3d9a14; }
+.qthumb { width: 54px; height: 36px; border-radius: 6px; background: #0006; display: grid; place-items: center; overflow: hidden; flex: none; }
+.qthumb img { width: 100%; height: 100%; object-fit: cover; }
+.qmain { flex: 1; min-width: 0; display: flex; flex-direction: column; } .qmain small { color: var(--muted); }
+.qmain b { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.qbtns { display: flex; gap: 2px; } .qbtns button { background: none; border: 0; cursor: pointer; opacity: .6; padding: 4px; } .qbtns button:hover { opacity: 1; }
+.qedit { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 420px); gap: 16px; align-items: start; }
+@media (max-width: 1100px) { .qedit { grid-template-columns: 1fr; } }
+.qedit-form { display: flex; flex-direction: column; gap: 14px; }
+.opts { padding: 10px 12px; }
+.api-doc { white-space: pre-wrap; font-size: .8em; background: #0006; padding: 10px; border-radius: 10px; color: var(--muted); }
+.preview { position: sticky; top: 10px; display: flex; flex-direction: column; gap: 8px; }
+.preview-head { display: flex; gap: 10px; align-items: center; }
+.preview-stage { min-height: 300px; padding: 12px; gap: 10px; align-items: center; }
+.preview-stage .q-media { min-height: 220px; }
+.preview-stage .q-image { max-height: 260px; }
+.test-result { font-weight: 700; } .test-result.no { color: var(--red); } .test-result.exact { color: var(--lime); } .test-result.partial { color: var(--yellow); } .test-result.approx { color: var(--cyan); }
+.sounds { margin: 0 18px 18px; display: flex; flex-direction: column; gap: 12px; }
+.sounds h2 { margin: 0; }
+.sound-list { display: flex; flex-direction: column; gap: 4px; }
+.sound-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 4px 0; border-bottom: 1px solid var(--line); }
+.sound-name { flex: 1; min-width: 200px; } .sound-name small { color: var(--muted); }
+.sound-row .drop { padding: 4px 12px; }

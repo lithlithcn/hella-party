@@ -14,12 +14,23 @@ export interface SettingDef {
   dev?: boolean;          // hidden unless the client runs with ?debug
 }
 
+import type { MediaOpts } from './pack';
+
+/** A question as players see it: everything except the answers. */
 export interface PublicQuestion {
   id: string;
   type: string;           // matches client/question-types/<type>.tsx
   prompt: string;
   src?: string;
   text?: string;
+  opts?: MediaOpts;
+  hint?: string;          // client shows it at half time
+  points?: number;
+  difficulty?: number;
+  tags?: string[];
+  effect?: string;
+  script?: string;
+  assets?: string;        // base URL of the pack media (for scripts)
   data?: any;
 }
 
@@ -45,7 +56,7 @@ export interface PublicState {
   phase: Phase | null;
   round: number;
   question: PublicQuestion | null;
-  reveal: { answer: string; src?: string; finders: ({ id: string } & Found)[] } | null;
+  reveal: { answer: string; src?: string; explain?: string; finders: ({ id: string } & Found)[] } | null;
   players: PublicPlayer[];
   settings: Record<string, any>;
   winners: string[];

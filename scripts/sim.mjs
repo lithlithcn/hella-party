@@ -1,5 +1,5 @@
 // End-to-end smoke test against a running server (default: wrangler dev on :8787).
-// node scripts/sim.mjs [baseUrl]  → plays a short game: A answers right (cheats via /log), B answers wrong, 2 bots.
+// PACKS=flags,my-pack node scripts/sim.mjs [baseUrl]  → plays a short game: A answers right (cheats via /log), B answers wrong, 2 bots.
 import WebSocket from 'ws';
 
 const base = process.argv[2] ?? 'http://localhost:8787';
@@ -19,7 +19,7 @@ function client(id, name) {
 const A = client('sim-a', 'Alice'), B = client('sim-b', 'Bob');
 await sleep(500);
 if (!A.s?.players.find(p => p.id === 'sim-a')?.leader) fail('Alice should be leader');
-A.send({ t: 'settings', patch: { answerTime: 5, revealTime: 1, 'goal.score': 40, 'bots.count': 2, 'bots.skill': 50 } });
+A.send({ t: 'settings', patch: { answerTime: 5, revealTime: 1, 'goal.score': 40, 'bots.count': 2, 'bots.skill': 50, ...(process.env.PACKS ? { packs: process.env.PACKS.split(',') } : {}) } });
 await sleep(200);
 A.send({ t: 'start' });
 

@@ -13,9 +13,9 @@ export default defineFeature({
     order: 0,
     apply(g, ctx) {
       ctx.base = g.setting<number>(`scoring.${ctx.grade}`);
-      const T = g.setting<number>('answerTime') * 1000;
+      const T = (g.question?.time || g.setting<number>('answerTime')) * 1000;
       ctx.mult = g.setting('scoring.speed') ? 2 - Math.min(1, ctx.ms / T) : 1;
-      ctx.points = ctx.base * ctx.mult;
+      ctx.points = ctx.base * ctx.mult * (g.question?.points ?? 1);
     },
   }],
 });
