@@ -13,391 +13,701 @@
  "questions": [
   {
    "id": "tour-eiffel",
-   "src": "wiki:Tour Eiffel",
    "answer": "Tour Eiffel",
    "exact": [
     "eiffel"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Tour Eiffel"
   },
   {
    "id": "statue-de-la-liberte",
-   "src": "wiki:Statue de la Liberté",
    "answer": "Statue de la Liberté",
    "exact": [
     "statue de la liberte",
     "statue of liberty"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Statue de la Liberté"
   },
   {
    "id": "colisee",
-   "src": "wiki:Colisée",
    "answer": "Colisée",
    "exact": [
     "colisee",
     "colosseum"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Colisée"
   },
   {
    "id": "taj-mahal",
-   "src": "wiki:Taj Mahal",
    "answer": "Taj Mahal",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Taj Mahal"
   },
   {
-   "id": "grande-muraille",
-   "src": "wiki:Grande_Muraille",
-   "answer": "Grande Muraille",
+   "id": "grande-muraille-de-chine",
+   "answer": "Grande Muraille de Chine",
    "exact": [
-    "muraille de chine",
-    "grande muraille de chine"
+    "grande muraille",
+    "muraille de chine"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Grande_Muraille"
   },
   {
    "id": "big-ben",
-   "src": "wiki:Big Ben",
    "answer": "Big Ben",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Big Ben"
   },
   {
    "id": "machu-picchu",
-   "src": "wiki:Machu Picchu",
    "answer": "Machu Picchu",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Machu Picchu"
   },
   {
    "id": "pyramides-de-gizeh",
-   "src": "wiki:Pyramide_de_Khéops",
    "answer": "Pyramides de Gizeh",
    "exact": [
-    "pyramide de kheops",
-    "pyramides"
+    "pyramide",
+    "pyramides",
+    "pyramide de kheops"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Pyramide_de_Khéops"
   },
   {
    "id": "opera-de-sydney",
-   "src": "wiki:Opéra de Sydney",
    "answer": "Opéra de Sydney",
    "exact": [
     "opera de sydney"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Opéra de Sydney"
   },
   {
    "id": "burj-khalifa",
-   "src": "wiki:Burj Khalifa",
    "answer": "Burj Khalifa",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Burj Khalifa"
   },
   {
    "id": "tour-de-pise",
-   "src": "wiki:Tour de Pise",
    "answer": "Tour de Pise",
    "exact": [
-    "tour penchée de pise"
+    "tour penchee de pise"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Tour de Pise"
   },
   {
    "id": "arc-de-triomphe",
-   "src": "wiki:Arc_de_triomphe_de_l'Étoile",
    "answer": "Arc de triomphe",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Arc_de_triomphe_de_l'Étoile"
   },
   {
    "id": "golden-gate-bridge",
-   "src": "wiki:Golden_Gate_Bridge",
    "answer": "Golden Gate Bridge",
    "exact": [
     "golden gate"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Golden Gate Bridge"
   },
   {
    "id": "stonehenge",
-   "src": "wiki:Stonehenge",
    "answer": "Stonehenge",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
-  },
-  {
-   "id": "petra",
-   "src": "wiki:Pétra",
-   "answer": "Petra",
-   "exact": [
-    "pétra"
+    "géographie",
+    "facile"
    ],
-   "tags": [
-    "monuments",
-    "géographie"
-   ]
+   "src": "wiki:Stonehenge"
   },
   {
    "id": "chateau-de-versailles",
-   "src": "wiki:Château de Versailles",
    "answer": "Château de Versailles",
    "exact": [
     "versailles"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Château de Versailles"
   },
   {
    "id": "tower-bridge",
-   "src": "wiki:Tower Bridge",
    "answer": "Tower Bridge",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Tower Bridge"
   },
   {
    "id": "empire-state-building",
-   "src": "wiki:Empire State Building",
    "answer": "Empire State Building",
    "exact": [
     "empire state"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
-  },
-  {
-   "id": "atomium",
-   "src": "wiki:Atomium",
-   "answer": "Atomium",
-   "exact": [],
-   "tags": [
-    "monuments",
-    "géographie"
-   ]
-  },
-  {
-   "id": "pont-du-gard",
-   "src": "wiki:Pont du Gard",
-   "answer": "Pont du Gard",
-   "exact": [],
-   "tags": [
-    "monuments",
-    "géographie"
-   ]
-  },
-  {
-   "id": "chateau-de-neuschwanstein",
-   "src": "wiki:Château de Neuschwanstein",
-   "answer": "Château de Neuschwanstein",
-   "exact": [
-    "neuschwanstein"
+    "géographie",
+    "facile"
    ],
-   "tags": [
-    "monuments",
-    "géographie"
-   ]
+   "src": "wiki:Empire State Building"
   },
   {
-   "id": "tour-cn",
-   "src": "wiki:Tour CN",
-   "answer": "Tour CN",
+   "id": "mont-saint-michel",
+   "answer": "Mont-Saint-Michel",
    "exact": [
-    "cn tower"
+    "mont saint michel"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Mont-Saint-Michel"
   },
   {
-   "id": "marina-bay-sands",
-   "src": "wiki:Marina Bay Sands",
-   "answer": "Marina Bay Sands",
-   "exact": [],
-   "tags": [
-    "monuments",
-    "géographie"
-   ]
-  },
-  {
-   "id": "tours-petronas",
-   "src": "wiki:Tours Petronas",
-   "answer": "Tours Petronas",
+   "id": "notre-dame-de-paris",
+   "answer": "Notre-Dame de Paris",
    "exact": [
-    "petronas"
+    "notre dame"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Cathédrale_Notre-Dame_de_Paris"
   },
   {
-   "id": "porte-de-brandebourg",
-   "src": "wiki:Porte de Brandebourg",
-   "answer": "Porte de Brandebourg",
+   "id": "sacre-c-ur",
+   "answer": "Sacré-Cœur",
    "exact": [
-    "brandebourg"
+    "sacre coeur"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Basilique_du_Sacré-Cœur_de_Montmartre"
   },
   {
-   "id": "burj-al-arab",
-   "src": "wiki:Burj al-Arab",
-   "answer": "Burj al-Arab",
+   "id": "sagrada-familia",
+   "answer": "Sagrada Família",
    "exact": [
-    "burj al arab"
+    "sagrada familia"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Sagrada_Família"
   },
   {
-   "id": "alhambra",
-   "src": "wiki:Alhambra_(Grenade)",
-   "answer": "Alhambra",
-   "exact": [],
-   "tags": [
-    "monuments",
-    "géographie"
-   ]
-  },
-  {
-   "id": "moai",
-   "src": "wiki:Moaï",
-   "answer": "Moaï",
+   "id": "christ-redempteur",
+   "answer": "Christ Rédempteur",
    "exact": [
-    "moai",
-    "ile de paques"
+    "christ redempteur",
+    "cristo redentor"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
-  },
-  {
-   "id": "palais-de-westminster",
-   "src": "wiki:Palais de Westminster",
-   "answer": "Palais de Westminster",
-   "exact": [
-    "westminster",
-    "parlement de londres"
+    "géographie",
+    "facile"
    ],
-   "tags": [
-    "monuments",
-    "géographie"
-   ]
-  },
-  {
-   "id": "space-needle",
-   "src": "wiki:Space Needle",
-   "answer": "Space Needle",
-   "exact": [],
-   "tags": [
-    "monuments",
-    "géographie"
-   ]
+   "src": "wiki:Christ_Rédempteur_(Rio_de_Janeiro)"
   },
   {
    "id": "louvre",
-   "src": "wiki:Pyramide_du_Louvre",
    "answer": "Louvre",
    "exact": [
     "pyramide du louvre",
     "musee du louvre"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Pyramide_du_Louvre"
   },
   {
    "id": "kremlin",
-   "src": "wiki:Kremlin_de_Moscou",
    "answer": "Kremlin",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Kremlin_de_Moscou"
   },
   {
    "id": "hollywood-sign",
-   "src": "wiki:Hollywood_Sign",
    "answer": "Hollywood Sign",
    "exact": [
     "panneau hollywood",
     "hollywood"
    ],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Hollywood_Sign"
+  },
+  {
+   "id": "moai",
+   "answer": "Moaï",
+   "exact": [
+    "moai",
+    "ile de paques"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Moaï"
+  },
+  {
+   "id": "atomium",
+   "answer": "Atomium",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Atomium"
+  },
+  {
+   "id": "mont-rushmore",
+   "answer": "Mont Rushmore",
+   "exact": [
+    "rushmore"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:en:Mount_Rushmore"
   },
   {
    "id": "tour-de-londres",
-   "src": "wiki:Tour_de_Londres",
    "answer": "Tour de Londres",
    "exact": [],
+   "difficulty": 1,
    "tags": [
     "monuments",
-    "géographie"
-   ]
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Tour_de_Londres"
+  },
+  {
+   "id": "chateau-de-chambord",
+   "answer": "Château de Chambord",
+   "exact": [
+    "chambord"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Château de Chambord"
+  },
+  {
+   "id": "basilique-saint-pierre",
+   "answer": "Basilique Saint-Pierre",
+   "exact": [
+    "saint pierre de rome",
+    "vatican"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:Basilique_Saint-Pierre"
+  },
+  {
+   "id": "pont-du-gard",
+   "answer": "Pont du Gard",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "monuments",
+    "géographie",
+    "facile"
+   ],
+   "src": "wiki:2"
+  },
+  {
+   "id": "petra",
+   "answer": "Petra",
+   "exact": [
+    "petra"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Pétra"
+  },
+  {
+   "id": "chateau-de-neuschwanstein",
+   "answer": "Château de Neuschwanstein",
+   "exact": [
+    "neuschwanstein"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Château de Neuschwanstein"
+  },
+  {
+   "id": "tour-cn",
+   "answer": "Tour CN",
+   "exact": [
+    "cn tower"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Tour CN"
+  },
+  {
+   "id": "marina-bay-sands",
+   "answer": "Marina Bay Sands",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Marina Bay Sands"
+  },
+  {
+   "id": "tours-petronas",
+   "answer": "Tours Petronas",
+   "exact": [
+    "petronas"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Tours Petronas"
+  },
+  {
+   "id": "porte-de-brandebourg",
+   "answer": "Porte de Brandebourg",
+   "exact": [
+    "brandebourg"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Porte de Brandebourg"
+  },
+  {
+   "id": "burj-al-arab",
+   "answer": "Burj al-Arab",
+   "exact": [
+    "burj al arab"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Burj al-Arab"
+  },
+  {
+   "id": "alhambra",
+   "answer": "Alhambra",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Alhambra_(Grenade)"
+  },
+  {
+   "id": "palais-de-westminster",
+   "answer": "Palais de Westminster",
+   "exact": [
+    "westminster"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Palais de Westminster"
+  },
+  {
+   "id": "space-needle",
+   "answer": "Space Needle",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Space Needle"
+  },
+  {
+   "id": "acropole-d-athenes",
+   "answer": "Acropole d'Athènes",
+   "exact": [
+    "acropole",
+    "parthenon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Acropole d'Athènes"
+  },
+  {
+   "id": "angkor-vat",
+   "answer": "Angkor Vat",
+   "exact": [
+    "angkor"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Angkor Vat"
+  },
+  {
+   "id": "chichen-itza",
+   "answer": "Chichén Itzá",
+   "exact": [
+    "chichen itza"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Chichén Itzá"
+  },
+  {
+   "id": "sainte-sophie",
+   "answer": "Sainte-Sophie",
+   "exact": [
+    "sainte sophie",
+    "hagia sophia"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Sainte-Sophie_(Istanbul)"
+  },
+  {
+   "id": "mosquee-cheikh-zayed",
+   "answer": "Mosquée Cheikh Zayed",
+   "exact": [
+    "mosquee cheikh zayed"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:en:Sheikh_Zayed_Grand_Mosque"
+  },
+  {
+   "id": "temple-d-or",
+   "answer": "Temple d'Or",
+   "exact": [
+    "temple d or"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Golden_Temple"
+  },
+  {
+   "id": "pagode-shwedagon",
+   "answer": "Pagode Shwedagon",
+   "exact": [
+    "shwedagon"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:en:Shwedagon_Pagoda"
+  },
+  {
+   "id": "cite-interdite",
+   "answer": "Cité interdite",
+   "exact": [
+    "forbidden city"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "monuments",
+    "géographie",
+    "moyen"
+   ],
+   "src": "wiki:Cité_interdite"
+  },
+  {
+   "id": "pont-charles",
+   "answer": "Pont Charles",
+   "exact": [
+    "pont charles prague"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "monuments",
+    "géographie",
+    "difficile"
+   ],
+   "src": "wiki:Pont_Charles"
   }
  ]
 }

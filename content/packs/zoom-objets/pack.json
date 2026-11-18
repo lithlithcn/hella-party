@@ -1,0 +1,706 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "zoom-objets",
+ "name": "Zoom : objets du quotidien",
+ "emoji": "🔍",
+ "prompt": "C'est quoi cet objet (zoomé) ?",
+ "tags": [
+  "objets",
+  "zoom"
+ ],
+ "opts": {
+  "zoom": 5,
+  "reveal": "unzoom"
+ },
+ "questions": [
+  {
+   "id": "brosse-a-dents",
+   "answer": "Brosse à dents",
+   "exact": [
+    "brosse a dent"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Toothbrush"
+  },
+  {
+   "id": "cle",
+   "answer": "Clé",
+   "exact": [
+    "cle",
+    "cles"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Key_(lock)"
+  },
+  {
+   "id": "ciseaux",
+   "answer": "Ciseaux",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Scissors"
+  },
+  {
+   "id": "crayon",
+   "answer": "Crayon",
+   "exact": [
+    "crayon a papier"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Pencil"
+  },
+  {
+   "id": "stylo",
+   "answer": "Stylo",
+   "exact": [
+    "bic",
+    "stylo bille"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Ballpoint_pen"
+  },
+  {
+   "id": "agrafeuse",
+   "answer": "Agrafeuse",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Stapler"
+  },
+  {
+   "id": "trombone",
+   "answer": "Trombone",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Paper_clip"
+  },
+  {
+   "id": "fourchette",
+   "answer": "Fourchette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Fork"
+  },
+  {
+   "id": "cuillere",
+   "answer": "Cuillère",
+   "exact": [
+    "cuillere"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Spoon"
+  },
+  {
+   "id": "tasse",
+   "answer": "Tasse",
+   "exact": [
+    "mug"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Mug"
+  },
+  {
+   "id": "parapluie",
+   "answer": "Parapluie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Umbrella"
+  },
+  {
+   "id": "montre",
+   "answer": "Montre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Watch"
+  },
+  {
+   "id": "lunettes",
+   "answer": "Lunettes",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Glasses"
+  },
+  {
+   "id": "casque-audio",
+   "answer": "Casque audio",
+   "exact": [
+    "casque",
+    "ecouteurs"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Headphones"
+  },
+  {
+   "id": "clavier",
+   "answer": "Clavier",
+   "exact": [
+    "clavier d ordinateur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Computer_keyboard"
+  },
+  {
+   "id": "souris",
+   "answer": "Souris",
+   "exact": [
+    "souris d ordinateur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Computer_mouse"
+  },
+  {
+   "id": "telecommande",
+   "answer": "Télécommande",
+   "exact": [
+    "telecommande"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Remote_control"
+  },
+  {
+   "id": "ampoule",
+   "answer": "Ampoule",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Incandescent_light_bulb"
+  },
+  {
+   "id": "bougie",
+   "answer": "Bougie",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Candle"
+  },
+  {
+   "id": "allumette",
+   "answer": "Allumette",
+   "exact": [
+    "allumettes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Match"
+  },
+  {
+   "id": "briquet",
+   "answer": "Briquet",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Lighter"
+  },
+  {
+   "id": "cadenas",
+   "answer": "Cadenas",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Padlock"
+  },
+  {
+   "id": "boussole",
+   "answer": "Boussole",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Compass"
+  },
+  {
+   "id": "loupe",
+   "answer": "Loupe",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Magnifying_glass"
+  },
+  {
+   "id": "marteau",
+   "answer": "Marteau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Hammer"
+  },
+  {
+   "id": "tournevis",
+   "answer": "Tournevis",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Screwdriver"
+  },
+  {
+   "id": "vis",
+   "answer": "Vis",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Screw"
+  },
+  {
+   "id": "clou",
+   "answer": "Clou",
+   "exact": [
+    "clous"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Nail_(fastener)"
+  },
+  {
+   "id": "pinceau",
+   "answer": "Pinceau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Paintbrush"
+  },
+  {
+   "id": "gomme",
+   "answer": "Gomme",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Eraser"
+  },
+  {
+   "id": "regle",
+   "answer": "Règle",
+   "exact": [
+    "regle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Ruler"
+  },
+  {
+   "id": "calculatrice",
+   "answer": "Calculatrice",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Calculator"
+  },
+  {
+   "id": "de",
+   "answer": "Dé",
+   "exact": [
+    "de",
+    "des"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Dice"
+  },
+  {
+   "id": "brosse-a-cheveux",
+   "answer": "Brosse à cheveux",
+   "exact": [
+    "brosse"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Hairbrush"
+  },
+  {
+   "id": "peigne",
+   "answer": "Peigne",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Comb"
+  },
+  {
+   "id": "savon",
+   "answer": "Savon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Soap"
+  },
+  {
+   "id": "eponge",
+   "answer": "Éponge",
+   "exact": [
+    "eponge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Sponge_(tool)"
+  },
+  {
+   "id": "bouteille",
+   "answer": "Bouteille",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Bottle"
+  },
+  {
+   "id": "canette",
+   "answer": "Canette",
+   "exact": [
+    "cannette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Beverage_can"
+  },
+  {
+   "id": "chaussette",
+   "answer": "Chaussette",
+   "exact": [
+    "chaussettes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Sock"
+  },
+  {
+   "id": "piece-de-monnaie",
+   "answer": "Pièce de monnaie",
+   "exact": [
+    "piece"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Coin"
+  },
+  {
+   "id": "carte-bancaire",
+   "answer": "Carte bancaire",
+   "exact": [
+    "cb",
+    "carte bleue"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Payment_card"
+  },
+  {
+   "id": "rubik-s-cube",
+   "answer": "Rubik's Cube",
+   "exact": [
+    "rubik",
+    "rubiks cube"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Rubik's_Cube"
+  },
+  {
+   "id": "ventilateur",
+   "answer": "Ventilateur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Mechanical_fan"
+  },
+  {
+   "id": "reveil",
+   "answer": "Réveil",
+   "exact": [
+    "reveil"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Alarm_clock"
+  },
+  {
+   "id": "grille-pain",
+   "answer": "Grille-pain",
+   "exact": [
+    "grille pain"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Toaster"
+  },
+  {
+   "id": "micro-ondes",
+   "answer": "Micro-ondes",
+   "exact": [
+    "micro onde",
+    "micro-onde"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Microwave_oven"
+  },
+  {
+   "id": "manette",
+   "answer": "Manette",
+   "exact": [
+    "manette de jeu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "objets",
+    "zoom",
+    "facile"
+   ],
+   "src": "wiki:en:Gamepad"
+  },
+  {
+   "id": "fermeture-eclair",
+   "answer": "Fermeture éclair",
+   "exact": [
+    "zip"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Zipper"
+  },
+  {
+   "id": "lacets",
+   "answer": "Lacets",
+   "exact": [
+    "lacet"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Shoelaces"
+  },
+  {
+   "id": "bouton",
+   "answer": "Bouton",
+   "exact": [
+    "bouton de chemise"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Button"
+  },
+  {
+   "id": "rasoir",
+   "answer": "Rasoir",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "objets",
+    "zoom",
+    "moyen"
+   ],
+   "src": "wiki:en:Razor"
+  }
+ ]
+}

@@ -22,8 +22,10 @@
    ],
    "hint": "Nintendo, 1985",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "the-legend-of-zelda",
@@ -35,8 +37,10 @@
    ],
    "hint": "Hyrule",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "pokemon",
@@ -48,8 +52,10 @@
    ],
    "hint": "Pikachu",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "minecraft",
@@ -61,8 +67,10 @@
    ],
    "hint": "Steve",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "fortnite",
@@ -74,8 +82,10 @@
    ],
    "hint": "Le bus",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "tetris",
@@ -87,8 +97,10 @@
    ],
    "hint": "Russie, 1984",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "pac-man",
@@ -101,8 +113,10 @@
    ],
    "hint": "Arcade, 1980",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "sonic-the-hedgehog",
@@ -114,8 +128,10 @@
    ],
    "hint": "SEGA",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "grand-theft-auto",
@@ -129,8 +145,10 @@
    ],
    "hint": "Los Santos",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "among-us",
@@ -142,8 +160,10 @@
    ],
    "hint": "Sus",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "call-of-duty",
@@ -156,8 +176,10 @@
    ],
    "hint": "Warzone",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "ea-sports-fc",
@@ -171,8 +193,10 @@
    ],
    "hint": "Ultimate Team",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "league-of-legends",
@@ -185,8 +209,10 @@
    ],
    "hint": "Riot Games",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "street-fighter",
@@ -199,8 +225,10 @@
    ],
    "hint": "Ryu et Ken",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "super-smash-bros",
@@ -214,8 +242,10 @@
    ],
    "hint": "Ultimate",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "animal-crossing",
@@ -227,8 +257,10 @@
    ],
    "hint": "Tom Nook",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "les-sims",
@@ -241,8 +273,10 @@
    ],
    "hint": "Le losange vert",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "clash-royale",
@@ -254,8 +288,10 @@
    ],
    "hint": "Supercell",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "candy-crush",
@@ -267,8 +303,10 @@
    ],
    "hint": "King",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "rocket-league",
@@ -280,8 +318,10 @@
    ],
    "hint": "Psyonix",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "valorant",
@@ -293,8 +333,10 @@
    ],
    "hint": "Spike",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "fall-guys",
@@ -306,8 +348,10 @@
    ],
    "hint": "Couronne",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "mario-kart",
@@ -319,8 +363,10 @@
    ],
    "hint": "Arc-en-ciel",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "donkey-kong",
@@ -333,8 +379,10 @@
    ],
    "hint": "Jumpman",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "kirby",
@@ -346,8 +394,10 @@
    ],
    "hint": "Dream Land",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "halo",
@@ -359,8 +409,10 @@
    ],
    "hint": "Xbox",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "portal",
@@ -372,8 +424,10 @@
    ],
    "hint": "GLaDOS",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "elden-ring",
@@ -385,8 +439,10 @@
    ],
    "hint": "FromSoftware",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "hollow-knight",
@@ -398,8 +454,10 @@
    ],
    "hint": "Metroidvania",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "undertale",
@@ -411,8 +469,10 @@
    ],
    "hint": "Sans et Papyrus",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "rivals-of-aether",
@@ -426,8 +486,10 @@
    ],
    "hint": "Inspiré de Melee",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "celeste",
@@ -439,8 +501,10 @@
    ],
    "hint": "Madeline",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "stardew-valley",
@@ -453,8 +517,10 @@
    ],
    "hint": "Pelican Town",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "roblox",
@@ -466,8 +532,10 @@
    ],
    "hint": "Robux",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "space-invaders",
@@ -479,8 +547,10 @@
    ],
    "hint": "Arcade, 1978",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "angry-birds",
@@ -492,8 +562,10 @@
    ],
    "hint": "Rovio",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "subway-surfers",
@@ -506,8 +578,10 @@
    ],
    "hint": "Mobile",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "geometry-dash",
@@ -520,8 +594,182 @@
    ],
    "hint": "Jump !",
    "tags": [
-    "jeux vidéo"
-   ]
+    "jeux vidéo",
+    "facile"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "clash-of-clans",
+   "answer": "Clash of Clans",
+   "exact": [
+    "clash of clans",
+    "coc"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏰⚔️🧔‍♂️🪓 · Construis ton village et attaque les autres"
+  },
+  {
+   "id": "brawl-stars",
+   "answer": "Brawl Stars",
+   "exact": [
+    "brawl stars"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⭐🔫🏆📱 · Battle royale mobile de Supercell"
+  },
+  {
+   "id": "pokemon-go",
+   "answer": "Pokémon Go",
+   "exact": [
+    "pokemon go"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "📱🗺️⚪🔴 · Attraper des Pokémon dans la vraie rue"
+  },
+  {
+   "id": "the-witcher",
+   "answer": "The Witcher",
+   "exact": [
+    "witcher",
+    "the witcher"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐺⚔️🪙🧙‍♀️ · Geralt de Riv"
+  },
+  {
+   "id": "assassin-s-creed",
+   "answer": "Assassin's Creed",
+   "exact": [
+    "assassin s creed",
+    "ac"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦅🗡️🧥🏛️ · Saut de la foi dans une botte de foin"
+  },
+  {
+   "id": "just-dance",
+   "answer": "Just Dance",
+   "exact": [
+    "just dance"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💃🕺📺🎵 · Danse en imitant le danseur à l'écran"
+  },
+  {
+   "id": "wii-sports",
+   "answer": "Wii Sports",
+   "exact": [
+    "wii sports"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎳🎾🏌️📺 · Bowling et tennis avec la Wiimote"
+  },
+  {
+   "id": "doodle-jump",
+   "answer": "Doodle Jump",
+   "exact": [
+    "doodle jump"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "📒👾⬆️📱 · Saute de plateforme en plateforme vers le haut"
+  },
+  {
+   "id": "fruit-ninja",
+   "answer": "Fruit Ninja",
+   "exact": [
+    "fruit ninja"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🍉🔪🍌📱 · Coupe les fruits avec ton doigt"
+  },
+  {
+   "id": "temple-run",
+   "answer": "Temple Run",
+   "exact": [
+    "temple run"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏛️🏃‍♂️🐒📱 · Cours en fuyant des singes géants"
+  },
+  {
+   "id": "five-nights-at-freddy-s",
+   "answer": "Five Nights at Freddy's",
+   "exact": [
+    "fnaf",
+    "five nights at freddys"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐻🍕🎥🚪 · Survivre à des animatroniques la nuit"
+  },
+  {
+   "id": "lethal-company",
+   "answer": "Lethal Company",
+   "exact": [
+    "lethal company"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🚀📦👾🪙 · Ramasse de la ferraille sur des lunes hantées"
   }
  ]
 }

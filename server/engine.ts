@@ -27,6 +27,7 @@ export interface QueuedPhase { name: string; ms: number; data?: any; onEnd?: () 
 const CORE_SETTINGS: SettingDef[] = [
   { key: 'answerTime', label: 'Temps de réponse (s)', type: 'number', default: 20, min: 5, max: 60, step: 1 },
   { key: 'revealTime', label: 'Temps de révélation (s)', type: 'number', default: 4, min: 2, max: 15, step: 1 },
+  { key: 'maxDifficulty', label: 'Difficulté max', type: 'select', default: 2, options: [{ value: 1, label: 'Facile' }, { value: 2, label: 'Moyen' }, { value: 3, label: 'Tout (même niche)' }] },
   { key: 'packs', label: 'Packs', type: 'packs', default: Object.keys(PACKS).filter(id => id !== 'flags') },
 ];
 
@@ -225,7 +226,8 @@ export class Game {
 
   private packQuestions(): Question[] {
     const ids: string[] = this.setting('packs') ?? [];
-    return ids.flatMap(id => this.pack(id)?.questions ?? []);
+    const max = Number(this.setting('maxDifficulty') ?? 3);
+    return ids.flatMap(id => this.pack(id)?.questions ?? []).filter(q => (q.difficulty || 1) <= max);
   }
 
   private pick(): Question | null {

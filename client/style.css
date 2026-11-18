@@ -210,9 +210,11 @@ img.avatar { object-fit: cover; display: block; }
 .packs-block { display: flex; flex-direction: column; gap: 8px; }
 .packs-sub { display: flex; align-items: center; gap: 8px; margin-top: 4px; color: var(--cyan); }
 .packs-sub a { text-decoration: none; }
-.q-loading { min-height: 200px; min-width: 200px; display: grid; place-items: center; font-size: 2em; }
+.q-loading { min-height: 200px; min-width: 200px; display: grid; place-items: center; font-size: 2em; text-align: center; } .q-loading small { display: block; font-size: .4em; color: var(--muted); }
 .credit { display: block; color: var(--muted); font-size: .7em; margin-top: 4px; }
 .check { padding: 16px; } .check pre { background: #0008; padding: 10px; border-radius: 10px; color: var(--red); }
 .check-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
 .check-grid figure { margin: 0; } .check-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; background: #0006; }
 .check-grid figcaption { font-size: .8em; }
+.q-frame-col { flex-direction: column; gap: 6px; }
+.packs-field { width: 100%; }

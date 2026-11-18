@@ -22,6 +22,7 @@ export function resolvePack(p: PackFile & { media?: Record<string, string> }): P
     questions: p.questions.map(q => ({
       ...q, key: `${p.id}/${q.id}`, pack: p.id, type: q.type ?? 'image', prompt: q.prompt || p.prompt,
       src: map && q.src && map[q.src] ? map[q.src] : media(p.id, q.src), exact: [q.answer, ...(q.exact ?? [])], media: map,
+      opts: p.opts || q.opts ? { ...p.opts, ...q.opts } : undefined,
     })),
   };
 }

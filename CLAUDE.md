@@ -53,6 +53,8 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
   `node scripts/add-pack.mjs file.zip` → `content/packs/<id>/` (pack.json + media/) and/or `client/public/sfx/<event>.mp3`. Then commit + push.
   Check the printed summary (missing files, size). Big media (> ~5 MB) → ask before committing.
 - Format: `shared/pack.ts`. `answer` is always accepted; `exact[]` = other accepted answers. Per-question `time`, `points`, `hint`, `explain`, `effect`, `opts` (blur/zoom/pixelate/reveal, audio clip start/end/loop/rate…).
+- Difficulty: `difficulty` 1 facile / 2 moyen / 3 difficile (+ same tag). Room setting `maxDifficulty` (default 2) filters questions. Pack-level `opts` = default display options (e.g. `{reveal:'unpixelate'}` for posters/logos that show the title).
+- Owner rules for content: accessible/fun first; religious content OK (culture); nothing sexual. No photos of real people (I can't add them, even as links) — he may add them himself in the Studio.
 - Script questions: free JS run client-side with `api` (doc: SCRIPT_API_DOC in client/question-types/script.tsx). No sandbox on purpose (friends only).
 - New question type: `client/question-types/<type>.tsx` receiving `QProps` ({ q, phase, clear }), + add it to TYPES in client/studio/pack-editor.tsx.
 - New game sound event: add to SOUND_EVENTS in client/sfx.ts + file in client/public/sfx/.

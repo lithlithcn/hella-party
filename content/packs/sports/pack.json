@@ -12,268 +12,644 @@
  "questions": [
   {
    "id": "football",
-   "src": "wiki:Ballon_de_football",
    "answer": "Football",
    "exact": [
     "foot",
     "soccer"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Ballon_de_football"
   },
   {
    "id": "basket-ball",
-   "src": "wiki:Ballon_de_basket-ball",
    "answer": "Basket-ball",
    "exact": [
     "basket",
     "basketball"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Ballon_de_basket-ball"
   },
   {
    "id": "tennis",
-   "src": "wiki:Raquette_de_tennis",
    "answer": "Tennis",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Raquette_de_tennis"
   },
   {
    "id": "golf",
-   "src": "wiki:Club_de_golf",
    "answer": "Golf",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Club_de_golf"
   },
   {
    "id": "baseball",
-   "src": "wiki:Balle_de_baseball",
    "answer": "Baseball",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Balle_de_baseball"
   },
   {
    "id": "rugby",
-   "src": "wiki:Ballon_de_rugby",
    "answer": "Rugby",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Ballon_de_rugby"
   },
   {
    "id": "badminton",
-   "src": "wiki:Volant_(badminton)",
    "answer": "Badminton",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Volant_(badminton)"
   },
   {
    "id": "patinage",
-   "src": "wiki:Patin_à_glace",
    "answer": "Patinage",
    "exact": [
     "patin a glace",
     "patinage artistique"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Patin_à_glace"
   },
   {
    "id": "surf",
-   "src": "wiki:Planche_de_surf",
    "answer": "Surf",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Planche_de_surf"
   },
   {
    "id": "skateboard",
-   "src": "wiki:Skateboard",
    "answer": "Skateboard",
    "exact": [
     "skate"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Skateboard"
   },
   {
    "id": "boxe",
-   "src": "wiki:Gant_de_boxe",
    "answer": "Boxe",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Gant_de_boxe"
   },
   {
    "id": "ski",
-   "src": "wiki:Ski",
    "answer": "Ski",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Ski"
   },
   {
    "id": "flechettes",
-   "src": "wiki:Fléchettes",
    "answer": "Fléchettes",
    "exact": [
     "flechettes"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Fléchettes"
   },
   {
    "id": "ping-pong",
-   "src": "wiki:Raquette_de_tennis_de_table",
    "answer": "Ping-pong",
    "exact": [
     "tennis de table",
     "ping pong"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Raquette_de_tennis_de_table"
   },
   {
    "id": "petanque",
-   "src": "wiki:Boule_de_pétanque",
    "answer": "Pétanque",
    "exact": [
     "petanque",
     "boules"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Boule_de_pétanque"
   },
   {
    "id": "bowling",
-   "src": "wiki:Quille_(jeu)",
    "answer": "Bowling",
    "exact": [
     "quilles"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Bowling_pin"
   },
   {
-   "id": "halterophilie",
-   "src": "wiki:Haltère",
-   "answer": "Haltérophilie",
+   "id": "musculation",
+   "answer": "Musculation",
    "exact": [
     "halteres",
-    "musculation",
-    "muscu"
+    "muscu",
+    "halterophilie"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Haltère"
   },
   {
    "id": "hockey-sur-glace",
-   "src": "wiki:Palet_(hockey_sur_glace)",
    "answer": "Hockey sur glace",
    "exact": [
     "hockey"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Palet_(hockey_sur_glace)"
   },
   {
    "id": "volley-ball",
-   "src": "wiki:Ballon_de_volley-ball",
    "answer": "Volley-ball",
    "exact": [
     "volley"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
-  },
-  {
-   "id": "cricket",
-   "src": "wiki:Batte_de_cricket",
-   "answer": "Cricket",
-   "exact": [],
-   "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:Ballon_de_volley-ball"
   },
   {
    "id": "billard",
-   "src": "wiki:Boule_de_billard",
    "answer": "Billard",
    "exact": [],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
-  },
-  {
-   "id": "escrime",
-   "src": "wiki:Fleuret",
-   "answer": "Escrime",
-   "exact": [
-    "fleuret"
+    "sport",
+    "facile"
    ],
-   "tags": [
-    "sport"
-   ]
+   "src": "wiki:Boule_de_billard"
   },
   {
    "id": "tir-a-l-arc",
-   "src": "wiki:Arc_(arme)",
    "answer": "Tir à l'arc",
    "exact": [
     "tir a l arc",
     "arc"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Bow_and_arrow"
   },
   {
    "id": "echecs",
-   "src": "wiki:Pièce_d'échecs",
    "answer": "Échecs",
    "exact": [
     "echecs",
     "chess"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Chess_piece"
   },
   {
    "id": "football-americain",
-   "src": "wiki:Ballon_de_football_américain",
    "answer": "Football américain",
    "exact": [
     "foot us",
     "football americain"
    ],
+   "difficulty": 1,
    "tags": [
-    "sport"
-   ]
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:American_football_(ball)"
+  },
+  {
+   "id": "natation",
+   "answer": "Natation",
+   "exact": [
+    "lunettes de natation",
+    "piscine"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Goggles"
+  },
+  {
+   "id": "cyclisme",
+   "answer": "Cyclisme",
+   "exact": [
+    "velo",
+    "cyclisme sur route"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Road_bicycle"
+  },
+  {
+   "id": "judo",
+   "answer": "Judo",
+   "exact": [
+    "judogi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Judogi"
+  },
+  {
+   "id": "handball",
+   "answer": "Handball",
+   "exact": [
+    "hand"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Handball_(ball)"
+  },
+  {
+   "id": "curling",
+   "answer": "Curling",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Curling_stone"
+  },
+  {
+   "id": "snowboard",
+   "answer": "Snowboard",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Snowboard"
+  },
+  {
+   "id": "parachutisme",
+   "answer": "Parachutisme",
+   "exact": [
+    "parachute"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Parachute"
+  },
+  {
+   "id": "escalade",
+   "answer": "Escalade",
+   "exact": [
+    "mousqueton"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Carabiner"
+  },
+  {
+   "id": "kayak",
+   "answer": "Kayak",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Kayak"
+  },
+  {
+   "id": "roller",
+   "answer": "Roller",
+   "exact": [
+    "patins a roulettes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Roller_skates"
+  },
+  {
+   "id": "ultimate",
+   "answer": "Ultimate",
+   "exact": [
+    "frisbee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Flying_disc"
+  },
+  {
+   "id": "plongee",
+   "answer": "Plongée",
+   "exact": [
+    "plongee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Diving_mask"
+  },
+  {
+   "id": "equitation",
+   "answer": "Équitation",
+   "exact": [
+    "equitation",
+    "cheval"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Saddle"
+  },
+  {
+   "id": "peche",
+   "answer": "Pêche",
+   "exact": [
+    "peche",
+    "canne a peche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Fishing_rod"
+  },
+  {
+   "id": "formule-1",
+   "answer": "Formule 1",
+   "exact": [
+    "f1"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Formula_One_car"
+  },
+  {
+   "id": "trampoline",
+   "answer": "Trampoline",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Trampoline"
+  },
+  {
+   "id": "paintball",
+   "answer": "Paintball",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "sport",
+    "facile"
+   ],
+   "src": "wiki:en:Paintball_marker"
+  },
+  {
+   "id": "sumo",
+   "answer": "Sumo",
+   "exact": [
+    "dohyo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Dohyō"
+  },
+  {
+   "id": "escrime",
+   "answer": "Escrime",
+   "exact": [
+    "fleuret"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:Fleuret"
+  },
+  {
+   "id": "cricket",
+   "answer": "Cricket",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:Batte_de_cricket"
+  },
+  {
+   "id": "squash",
+   "answer": "Squash",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Squash_(sport)"
+  },
+  {
+   "id": "lancer-du-poids",
+   "answer": "Lancer du poids",
+   "exact": [
+    "poids"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Shot_put"
+  },
+  {
+   "id": "javelot",
+   "answer": "Javelot",
+   "exact": [
+    "lancer du javelot"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Javelin_throw"
+  },
+  {
+   "id": "water-polo",
+   "answer": "Water-polo",
+   "exact": [
+    "water polo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Water_polo_ball"
+  },
+  {
+   "id": "lacrosse",
+   "answer": "Lacrosse",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "sport",
+    "moyen"
+   ],
+   "src": "wiki:en:Lacrosse_stick"
+  },
+  {
+   "id": "bobsleigh",
+   "answer": "Bobsleigh",
+   "exact": [
+    "bobsled"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "difficile"
+   ],
+   "src": "wiki:en:Bobsleigh"
+  },
+  {
+   "id": "pelote-basque",
+   "answer": "Pelote basque",
+   "exact": [
+    "cesta punta"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "difficile"
+   ],
+   "src": "wiki:en:Jai_alai"
+  },
+  {
+   "id": "polo",
+   "answer": "Polo",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "sport",
+    "difficile"
+   ],
+   "src": "wiki:en:Polo_(sport)"
   }
  ]
 }

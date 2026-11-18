@@ -7,13 +7,15 @@ export default function Image({ q, phase, clear }: QProps) {
   const v = visualStyle(o, progress, clear);
   const src = useSrc(q.src);
   const [fallback, setFallback] = useState(false);
+  if (src === null) return <div class="q-frame q-loading">🖼️❓<small>Image indisponible{q.hint ? '' : ' — devine avec la catégorie !'}</small></div>;
   if (!src) return <div class="q-frame q-loading">⏳</div>;
   const url = fallback ? src.replace(/\/640px-/, '/330px-') : src;
   return (
-    <div class="q-frame">
+    <div class="q-frame q-frame-col">
       {v.pixel > 0.01
         ? <Pixelated src={url} amount={v.pixel} style={v.style} />
         : <img class="q-image" src={url} alt="" draggable={false} style={v.style} onError={() => !fallback && setFallback(true)} />}
+      {q.text && <div class="q-caption q-caption-over">{q.text}</div>}
     </div>
   );
 }

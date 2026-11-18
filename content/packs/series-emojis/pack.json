@@ -1,0 +1,724 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "series-emojis",
+ "name": "Séries en émojis",
+ "emoji": "📺",
+ "prompt": "Quelle série ?",
+ "tags": [
+  "séries"
+ ],
+ "questions": [
+  {
+   "id": "stranger-things",
+   "answer": "Stranger Things",
+   "exact": [
+    "stranger things"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🚲👦🔦🙃🧇"
+  },
+  {
+   "id": "la-casa-de-papel",
+   "answer": "La Casa de Papel",
+   "exact": [
+    "casa de papel",
+    "money heist"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💰🎭🔴🇪🇸"
+  },
+  {
+   "id": "game-of-thrones",
+   "answer": "Game of Thrones",
+   "exact": [
+    "got",
+    "game of thrones"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐉👑❄️⚔️"
+  },
+  {
+   "id": "breaking-bad",
+   "answer": "Breaking Bad",
+   "exact": [
+    "breaking bad"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧪💎👨‍🔬🚐"
+  },
+  {
+   "id": "squid-game",
+   "answer": "Squid Game",
+   "exact": [
+    "squid game"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦑🟢🔺⭕🟥"
+  },
+  {
+   "id": "the-walking-dead",
+   "answer": "The Walking Dead",
+   "exact": [
+    "walking dead",
+    "twd"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧟‍♂️🔫🤠🏚️"
+  },
+  {
+   "id": "friends",
+   "answer": "Friends",
+   "exact": [
+    "friends"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "☕🛋️👫🦞"
+  },
+  {
+   "id": "mercredi",
+   "answer": "Mercredi",
+   "exact": [
+    "wednesday",
+    "mercredi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🖤✋🎻🏫"
+  },
+  {
+   "id": "lupin",
+   "answer": "Lupin",
+   "exact": [
+    "lupin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎩💎📖🇫🇷"
+  },
+  {
+   "id": "kaamelott",
+   "answer": "Kaamelott",
+   "exact": [
+    "kaamelott"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⚔️👑🍖😤"
+  },
+  {
+   "id": "les-simpson",
+   "answer": "Les Simpson",
+   "exact": [
+    "simpsons",
+    "les simpson"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🍩💛📺👨‍👩‍👧‍👦"
+  },
+  {
+   "id": "the-office",
+   "answer": "The Office",
+   "exact": [
+    "the office"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "📎🏢📹😐"
+  },
+  {
+   "id": "sherlock",
+   "answer": "Sherlock",
+   "exact": [
+    "sherlock"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔍🎻🕵️‍♂️🇬🇧"
+  },
+  {
+   "id": "peaky-blinders",
+   "answer": "Peaky Blinders",
+   "exact": [
+    "peaky blinders"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧢🪒🥃🇬🇧"
+  },
+  {
+   "id": "prison-break",
+   "answer": "Prison Break",
+   "exact": [
+    "prison break"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧑‍🦲🗺️⛓️🚪"
+  },
+  {
+   "id": "the-witcher",
+   "answer": "The Witcher",
+   "exact": [
+    "the witcher",
+    "witcher"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐺⚔️🧙‍♀️🪙"
+  },
+  {
+   "id": "the-mandalorian",
+   "answer": "The Mandalorian",
+   "exact": [
+    "mandalorian"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🪖👶🟢🚀"
+  },
+  {
+   "id": "lost",
+   "answer": "Lost",
+   "exact": [
+    "lost"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "✈️🏝️🔢🐻‍❄️"
+  },
+  {
+   "id": "grey-s-anatomy",
+   "answer": "Grey's Anatomy",
+   "exact": [
+    "greys anatomy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏥🩺❤️👩‍⚕️"
+  },
+  {
+   "id": "dr-house",
+   "answer": "Dr House",
+   "exact": [
+    "house",
+    "dr house"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🩺💊🦯🧠"
+  },
+  {
+   "id": "bref",
+   "answer": "Bref",
+   "exact": [
+    "bref"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🛏️🗣️⏩🇫🇷"
+  },
+  {
+   "id": "plus-belle-la-vie",
+   "answer": "Plus belle la vie",
+   "exact": [
+    "pblv",
+    "plus belle la vie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🌞🏘️📺🇫🇷"
+  },
+  {
+   "id": "engrenages",
+   "answer": "Engrenages",
+   "exact": [
+    "engrenages"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "séries",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "🚓⚖️🇫🇷🕵️"
+  },
+  {
+   "id": "narcos",
+   "answer": "Narcos",
+   "exact": [
+    "narcos"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💊🇨🇴💵🔫"
+  },
+  {
+   "id": "dark",
+   "answer": "Dark",
+   "exact": [
+    "dark"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "⏳🌲🕳️🇩🇪"
+  },
+  {
+   "id": "black-mirror",
+   "answer": "Black Mirror",
+   "exact": [
+    "black mirror"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "📱🖤🪞😨"
+  },
+  {
+   "id": "the-boys",
+   "answer": "The Boys",
+   "exact": [
+    "the boys"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦸‍♂️🩸🇺🇸😈"
+  },
+  {
+   "id": "arcane",
+   "answer": "Arcane",
+   "exact": [
+    "arcane"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⚙️💥👭🧪"
+  },
+  {
+   "id": "one-piece-live",
+   "answer": "One Piece (live)",
+   "exact": [
+    "one piece"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🏴‍☠️👒🍖🌊"
+  },
+  {
+   "id": "emily-in-paris",
+   "answer": "Emily in Paris",
+   "exact": [
+    "emily in paris"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🗼👠🥐📱"
+  },
+  {
+   "id": "le-bureau-des-legendes",
+   "answer": "Le Bureau des légendes",
+   "exact": [
+    "bureau des legendes"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🕵️🇫🇷🗺️📂"
+  },
+  {
+   "id": "valide",
+   "answer": "Validé",
+   "exact": [
+    "valide"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🎤💸🇫🇷🔥"
+  },
+  {
+   "id": "skam",
+   "answer": "Skam",
+   "exact": [
+    "skam"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "📱🏫🇳🇴💬"
+  },
+  {
+   "id": "les-bracelets-rouges",
+   "answer": "Les Bracelets rouges",
+   "exact": [
+    "bracelets rouges"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏥🔴👦🫶"
+  },
+  {
+   "id": "doctor-who",
+   "answer": "Doctor Who",
+   "exact": [
+    "doctor who"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "📞🟦⏳👽"
+  },
+  {
+   "id": "westworld",
+   "answer": "Westworld",
+   "exact": [
+    "westworld"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🤠🤖🎹🐎"
+  },
+  {
+   "id": "better-call-saul",
+   "answer": "Better Call Saul",
+   "exact": [
+    "better call saul"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "⚖️📞🦗💼"
+  },
+  {
+   "id": "ozark",
+   "answer": "Ozark",
+   "exact": [
+    "ozark"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "💵🛥️🏞️🔫"
+  },
+  {
+   "id": "the-crown",
+   "answer": "The Crown",
+   "exact": [
+    "the crown"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👑🇬🇧🫖🏰"
+  },
+  {
+   "id": "vikings",
+   "answer": "Vikings",
+   "exact": [
+    "vikings"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🪓🛶⚔️❄️"
+  },
+  {
+   "id": "alice-in-borderland",
+   "answer": "Alice in Borderland",
+   "exact": [
+    "alice in borderland"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🃏🗼🇯🇵🎲"
+  },
+  {
+   "id": "desperate-housewives",
+   "answer": "Desperate Housewives",
+   "exact": [
+    "desperate housewives"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏡👠🔪☕"
+  },
+  {
+   "id": "how-i-met-your-mother",
+   "answer": "How I Met Your Mother",
+   "exact": [
+    "himym",
+    "how i met your mother"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🎷👔🍺🗽"
+  },
+  {
+   "id": "the-big-bang-theory",
+   "answer": "The Big Bang Theory",
+   "exact": [
+    "big bang theory",
+    "tbbt"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔬🛋️🎮🍕"
+  },
+  {
+   "id": "malcolm",
+   "answer": "Malcolm",
+   "exact": [
+    "malcolm"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👦🧠📺👩‍👦‍👦"
+  },
+  {
+   "id": "h",
+   "answer": "H",
+   "exact": [
+    "h"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🏥😂🇫🇷🩺"
+  },
+  {
+   "id": "fais-pas-ci-fais-pas-ca",
+   "answer": "Fais pas ci, fais pas ça",
+   "exact": [
+    "fais pas ci fais pas ca"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "séries",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👨‍👩‍👧‍👦🙄🏠🇫🇷"
+  },
+  {
+   "id": "avatar-le-dernier-maitre-de-l-air",
+   "answer": "Avatar, le dernier maître de l'air",
+   "exact": [
+    "avatar"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💧🌍🔥🌪️"
+  },
+  {
+   "id": "naruto-shippuden",
+   "answer": "Naruto Shippuden",
+   "exact": [
+    "naruto"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🍥🦊🥷🍜"
+  },
+  {
+   "id": "death-note",
+   "answer": "Death Note",
+   "exact": [
+    "death note"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "séries",
+    "facile"
+   ],
+   "type": "text",
+   "text": "📓🍎✍️💀"
+  }
+ ]
+}

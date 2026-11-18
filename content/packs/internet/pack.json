@@ -1,0 +1,1649 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "internet",
+ "name": "Internet, mèmes & culture geek",
+ "emoji": "🌐",
+ "prompt": "Quel est ce truc d'internet ?",
+ "tags": [
+  "internet"
+ ],
+ "questions": [
+  {
+   "id": "doge",
+   "answer": "Doge",
+   "exact": [
+    "doge",
+    "chien shiba"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Doge_(meme)",
+   "text": "Wow. Much meme. Such shiba."
+  },
+  {
+   "id": "nyan-cat",
+   "answer": "Nyan Cat",
+   "exact": [
+    "nyan cat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Nyan_Cat"
+  },
+  {
+   "id": "trollface",
+   "answer": "Trollface",
+   "exact": [
+    "troll face",
+    "troll"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Trollface"
+  },
+  {
+   "id": "grumpy-cat",
+   "answer": "Grumpy Cat",
+   "exact": [
+    "grumpy cat",
+    "chat grincheux"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Grumpy_Cat"
+  },
+  {
+   "id": "keyboard-cat",
+   "answer": "Keyboard Cat",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Keyboard_Cat"
+  },
+  {
+   "id": "this-is-fine",
+   "answer": "This Is Fine",
+   "exact": [
+    "this is fine",
+    "chien dans le feu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:This_Is_Fine"
+  },
+  {
+   "id": "big-chungus",
+   "answer": "Big Chungus",
+   "exact": [
+    "chungus"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Big_Chungus"
+  },
+  {
+   "id": "ugandan-knuckles",
+   "answer": "Ugandan Knuckles",
+   "exact": [
+    "knuckles"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Ugandan_Knuckles"
+  },
+  {
+   "id": "wojak",
+   "answer": "Wojak",
+   "exact": [
+    "feels guy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Wojak"
+  },
+  {
+   "id": "bongo-cat",
+   "answer": "Bongo Cat",
+   "exact": [
+    "bongo cat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Bongo_Cat"
+  },
+  {
+   "id": "dat-boi",
+   "answer": "Dat Boi",
+   "exact": [
+    "dat boi",
+    "grenouille monocycle"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Dat_Boi"
+  },
+  {
+   "id": "moo-deng",
+   "answer": "Moo Deng",
+   "exact": [
+    "moo deng",
+    "bebe hippo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Moo_Deng"
+  },
+  {
+   "id": "skibidi-toilet",
+   "answer": "Skibidi Toilet",
+   "exact": [
+    "skibidi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Skibidi_Toilet"
+  },
+  {
+   "id": "harambe",
+   "answer": "Harambe",
+   "exact": [
+    "harambe"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Killing_of_Harambe"
+  },
+  {
+   "id": "loss",
+   "answer": "Loss",
+   "exact": [
+    "loss",
+    "is this loss"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Loss_(Ctrl+Alt+Del)"
+  },
+  {
+   "id": "rage-comics",
+   "answer": "Rage comics",
+   "exact": [
+    "rage comic",
+    "trollface comics"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Rage_comic"
+  },
+  {
+   "id": "dancing-baby",
+   "answer": "Dancing Baby",
+   "exact": [
+    "bebe qui danse"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Dancing_baby"
+  },
+  {
+   "id": "stonks",
+   "answer": "Stonks",
+   "exact": [
+    "stonks"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Stonks"
+  },
+  {
+   "id": "amogus",
+   "answer": "Amogus",
+   "exact": [
+    "among us",
+    "sus",
+    "amogus"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Among_Us"
+  },
+  {
+   "id": "huggy-wuggy",
+   "answer": "Huggy Wuggy",
+   "exact": [
+    "poppy playtime",
+    "huggy wuggy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Poppy_Playtime"
+  },
+  {
+   "id": "rickroll",
+   "answer": "Rickroll",
+   "exact": [
+    "rickroll",
+    "rick roll",
+    "rickrolling"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Never gonna give you up » au lieu de la vidéo promise"
+  },
+  {
+   "id": "distracted-boyfriend",
+   "answer": "Distracted Boyfriend",
+   "exact": [
+    "distracted boyfriend",
+    "le copain distrait"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le mec qui se retourne sur une autre fille devant sa copine"
+  },
+  {
+   "id": "woman-yelling-at-a-cat",
+   "answer": "Woman Yelling at a Cat",
+   "exact": [
+    "femme qui crie sur un chat"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Une femme qui crie + un chat blanc à table devant une salade"
+  },
+  {
+   "id": "drake-hotline-bling",
+   "answer": "Drake Hotline Bling",
+   "exact": [
+    "drake meme",
+    "drake"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le chanteur qui dit non d'une main, puis oui en pointant du doigt"
+  },
+  {
+   "id": "surprised-pikachu",
+   "answer": "Surprised Pikachu",
+   "exact": [
+    "pikachu surpris",
+    "surprised pikachu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Pikachu bouche grande ouverte, choqué"
+  },
+  {
+   "id": "hide-the-pain-harold",
+   "answer": "Hide the Pain Harold",
+   "exact": [
+    "harold"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un monsieur âgé qui sourit… mais on sent la douleur"
+  },
+  {
+   "id": "success-kid",
+   "answer": "Success Kid",
+   "exact": [
+    "success kid"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un bébé sur la plage qui serre le poing, victorieux"
+  },
+  {
+   "id": "is-this-a-pigeon",
+   "answer": "Is this a pigeon?",
+   "exact": [
+    "is this a pigeon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un personnage d'animé montre un papillon : « … ? »"
+  },
+  {
+   "id": "change-my-mind",
+   "answer": "Change My Mind",
+   "exact": [
+    "change my mind"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un mec assis derrière une table : « … »"
+  },
+  {
+   "id": "galaxy-brain",
+   "answer": "Galaxy Brain",
+   "exact": [
+    "expanding brain",
+    "galaxy brain"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un cerveau qui s'illumine de plus en plus"
+  },
+  {
+   "id": "one-does-not-simply",
+   "answer": "One Does Not Simply",
+   "exact": [
+    "one does not simply"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "« On ne va pas simplement à Mordor »"
+  },
+  {
+   "id": "gigachad",
+   "answer": "Gigachad",
+   "exact": [
+    "gigachad",
+    "chad"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un homme ultra viril en noir et blanc, la mâchoire carrée"
+  },
+  {
+   "id": "sigma",
+   "answer": "Sigma",
+   "exact": [
+    "sigma",
+    "sigma male"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Sigma male », le loup solitaire"
+  },
+  {
+   "id": "npc",
+   "answer": "NPC",
+   "exact": [
+    "pnj",
+    "npc"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Quelqu'un qui agit comme un personnage non-joueur"
+  },
+  {
+   "id": "rizz",
+   "answer": "Rizz",
+   "exact": [
+    "rizz"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le charisme pour séduire"
+  },
+  {
+   "id": "aura",
+   "answer": "Aura",
+   "exact": [
+    "aura"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« +1000 … » quand quelqu'un est trop stylé"
+  },
+  {
+   "id": "mewing",
+   "answer": "Mewing",
+   "exact": [
+    "mewing"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Pousser la langue au palais pour la mâchoire"
+  },
+  {
+   "id": "ratio",
+   "answer": "Ratio",
+   "exact": [
+    "ratio"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Ta réponse a plus de likes que le message d'origine"
+  },
+  {
+   "id": "ok-boomer",
+   "answer": "Ok boomer",
+   "exact": [
+    "ok boomer"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Réponse à quelqu'un de vieux jeu"
+  },
+  {
+   "id": "karen",
+   "answer": "Karen",
+   "exact": [
+    "karen"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La cliente qui veut parler au manager"
+  },
+  {
+   "id": "chill-guy",
+   "answer": "Chill guy",
+   "exact": [
+    "chill guy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un chien en pull, les mains dans les poches, trop détendu"
+  },
+  {
+   "id": "pedro-pedro-pedro",
+   "answer": "Pedro Pedro Pedro",
+   "exact": [
+    "pedro",
+    "raccoon pedro"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un raton laveur qui tourne sur une musique italienne"
+  },
+  {
+   "id": "tung-tung-tung-sahur",
+   "answer": "Tung Tung Tung Sahur",
+   "exact": [
+    "tung tung tung sahur",
+    "tung tung sahur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Brainrot italien : un bout de bois avec une batte"
+  },
+  {
+   "id": "tralalero-tralala",
+   "answer": "Tralalero Tralala",
+   "exact": [
+    "tralalero tralala"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Brainrot italien : un requin avec des baskets Nike"
+  },
+  {
+   "id": "bombardiro-crocodilo",
+   "answer": "Bombardiro Crocodilo",
+   "exact": [
+    "bombardiro crocodilo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Brainrot italien : un crocodile-bombardier"
+  },
+  {
+   "id": "ballerina-cappuccina",
+   "answer": "Ballerina Cappuccina",
+   "exact": [
+    "ballerina cappuccina"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Brainrot italien : une ballerine avec une tasse de café à la place de la tête"
+  },
+  {
+   "id": "grimace-shake",
+   "answer": "Grimace Shake",
+   "exact": [
+    "grimace shake",
+    "grimace"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le milkshake violet de McDo qui « tue » les gens dans des vidéos"
+  },
+  {
+   "id": "ohio",
+   "answer": "Ohio",
+   "exact": [
+    "ohio"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "L'endroit où tout est bizarre (« Only in … »)"
+  },
+  {
+   "id": "fanum-tax",
+   "answer": "Fanum tax",
+   "exact": [
+    "fanum tax"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Voler un bout de la bouffe de ton pote"
+  },
+  {
+   "id": "thanos-snap",
+   "answer": "Thanos snap",
+   "exact": [
+    "claquement de thanos",
+    "snap"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Claquer des doigts pour faire disparaître la moitié de tout"
+  },
+  {
+   "id": "coffin-dance",
+   "answer": "Coffin Dance",
+   "exact": [
+    "coffin dance",
+    "danse du cercueil"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Des porteurs de cercueil ghanéens qui dansent"
+  },
+  {
+   "id": "harlem-shake",
+   "answer": "Harlem Shake",
+   "exact": [
+    "harlem shake"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Tout le monde danse n'importe comment quand le beat tombe"
+  },
+  {
+   "id": "gangnam-style",
+   "answer": "Gangnam Style",
+   "exact": [
+    "gangnam style"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La danse du cheval, première vidéo à 1 milliard de vues"
+  },
+  {
+   "id": "ice-bucket-challenge",
+   "answer": "Ice Bucket Challenge",
+   "exact": [
+    "ice bucket challenge",
+    "ice bucket"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Se renverser un seau d'eau glacée sur la tête"
+  },
+  {
+   "id": "baby-shark",
+   "answer": "Baby Shark",
+   "exact": [
+    "baby shark"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« … doo doo doo doo »"
+  },
+  {
+   "id": "leeroy-jenkins",
+   "answer": "Leeroy Jenkins",
+   "exact": [
+    "leeroy jenkins",
+    "leroy jenkins"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Le joueur de World of Warcraft qui fonce en criant son nom"
+  },
+  {
+   "id": "charlie-bit-my-finger",
+   "answer": "Charlie bit my finger",
+   "exact": [
+    "charlie bit my finger"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Un bébé qui mord le doigt de son grand frère"
+  },
+  {
+   "id": "numa-numa",
+   "answer": "Numa Numa",
+   "exact": [
+    "numa numa"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Un mec qui chante en playback « Dragostea din tei » face caméra"
+  },
+  {
+   "id": "trololo",
+   "answer": "Trololo",
+   "exact": [
+    "trololo",
+    "mr trololo"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un chanteur russe qui chante sans paroles en souriant"
+  },
+  {
+   "id": "area-51-raid",
+   "answer": "Area 51 Raid",
+   "exact": [
+    "raid zone 51",
+    "area 51 raid"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "« Ils ne peuvent pas tous nous arrêter » : envahir une base secrète"
+  },
+  {
+   "id": "bing-chilling",
+   "answer": "Bing Chilling",
+   "exact": [
+    "bing chilling"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Un catcheur qui mange une glace en parlant chinois"
+  },
+  {
+   "id": "frutiger-aero",
+   "answer": "Frutiger Aero",
+   "exact": [
+    "frutiger aero"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Frutiger_Aero",
+   "text": "Bulles, eau, verdure, verre brillant (2004-2013)"
+  },
+  {
+   "id": "windows-xp",
+   "answer": "Windows XP",
+   "exact": [
+    "xp"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Windows_XP"
+  },
+  {
+   "id": "bliss",
+   "answer": "Bliss",
+   "exact": [
+    "fond d ecran windows xp",
+    "colline windows"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Bliss_(image)",
+   "text": "Le fond d'écran le plus vu au monde"
+  },
+  {
+   "id": "windows-vista",
+   "answer": "Windows Vista",
+   "exact": [
+    "vista"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Windows_Vista"
+  },
+  {
+   "id": "windows-7",
+   "answer": "Windows 7",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Windows_7"
+  },
+  {
+   "id": "msn-messenger",
+   "answer": "MSN Messenger",
+   "exact": [
+    "msn",
+    "windows live messenger"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Windows_Live_Messenger"
+  },
+  {
+   "id": "skype",
+   "answer": "Skype",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Skype"
+  },
+  {
+   "id": "clippy",
+   "answer": "Clippy",
+   "exact": [
+    "trombone office",
+    "clippy"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Office_Assistant"
+  },
+  {
+   "id": "wii",
+   "answer": "Wii",
+   "exact": [
+    "nintendo wii"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Wii"
+  },
+  {
+   "id": "nintendo-ds",
+   "answer": "Nintendo DS",
+   "exact": [
+    "ds"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo_DS"
+  },
+  {
+   "id": "ipod",
+   "answer": "iPod",
+   "exact": [
+    "ipod nano",
+    "ipod classic"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:IPod"
+  },
+  {
+   "id": "nokia-3310",
+   "answer": "Nokia 3310",
+   "exact": [
+    "3310"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Nokia_3310"
+  },
+  {
+   "id": "tamagotchi",
+   "answer": "Tamagotchi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Tamagotchi"
+  },
+  {
+   "id": "club-penguin",
+   "answer": "Club Penguin",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Club_Penguin"
+  },
+  {
+   "id": "habbo",
+   "answer": "Habbo",
+   "exact": [
+    "habbo hotel"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Habbo"
+  },
+  {
+   "id": "neopets",
+   "answer": "Neopets",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Neopets"
+  },
+  {
+   "id": "windows-media-player",
+   "answer": "Windows Media Player",
+   "exact": [
+    "wmp"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Windows_Media_Player"
+  },
+  {
+   "id": "ecran-bleu-de-la-mort",
+   "answer": "Écran bleu de la mort",
+   "exact": [
+    "ecran bleu",
+    "bsod",
+    "blue screen"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Blue_screen_of_death"
+  },
+  {
+   "id": "demineur",
+   "answer": "Démineur",
+   "exact": [
+    "demineur",
+    "minesweeper"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Microsoft_Minesweeper"
+  },
+  {
+   "id": "paint",
+   "answer": "Paint",
+   "exact": [
+    "ms paint"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Microsoft_Paint"
+  },
+  {
+   "id": "tux",
+   "answer": "Tux",
+   "exact": [
+    "pingouin linux",
+    "linux"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Tux_(mascot)"
+  },
+  {
+   "id": "bitcoin",
+   "answer": "Bitcoin",
+   "exact": [
+    "btc"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Bitcoin"
+  },
+  {
+   "id": "pong",
+   "answer": "Pong",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Pong"
+  },
+  {
+   "id": "slender-man",
+   "answer": "Slender Man",
+   "exact": [
+    "slenderman",
+    "slender"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Slender_Man"
+  },
+  {
+   "id": "fondation-scp",
+   "answer": "Fondation SCP",
+   "exact": [
+    "scp",
+    "scp foundation"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:SCP_Foundation"
+  },
+  {
+   "id": "backrooms",
+   "answer": "Backrooms",
+   "exact": [
+    "the backrooms"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:The_Backrooms"
+  },
+  {
+   "id": "siren-head",
+   "answer": "Siren Head",
+   "exact": [
+    "siren head"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "src": "wiki:en:Siren_Head"
+  },
+  {
+   "id": "momo",
+   "answer": "Momo",
+   "exact": [
+    "momo challenge"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "src": "wiki:en:Momo_Challenge_hoax"
+  },
+  {
+   "id": "polybius",
+   "answer": "Polybius",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "src": "wiki:en:Polybius_(urban_legend)"
+  },
+  {
+   "id": "jeff-the-killer",
+   "answer": "Jeff the Killer",
+   "exact": [
+    "jeff the killer"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Creepypasta : un visage blanc au sourire taillé, « Go to sleep »"
+  },
+  {
+   "id": "ben-drowned",
+   "answer": "BEN Drowned",
+   "exact": [
+    "ben drowned",
+    "ben"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Creepypasta : une cartouche de Zelda Majora's Mask hantée"
+  },
+  {
+   "id": "herobrine",
+   "answer": "Herobrine",
+   "exact": [
+    "herobrine"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le fantôme aux yeux blancs de Minecraft"
+  },
+  {
+   "id": "smile-dog",
+   "answer": "Smile Dog",
+   "exact": [
+    "smile dog",
+    "smile jpg"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Creepypasta : un chien au sourire humain"
+  },
+  {
+   "id": "the-rake",
+   "answer": "The Rake",
+   "exact": [
+    "the rake"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Créature pâle et maigre à quatre pattes qui hante les chambres"
+  },
+  {
+   "id": "lavender-town-syndrome",
+   "answer": "Lavender Town Syndrome",
+   "exact": [
+    "lavender town",
+    "lavanville"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "La musique d'une ville de Pokémon qui aurait rendu des enfants malades"
+  },
+  {
+   "id": "candle-cove",
+   "answer": "Candle Cove",
+   "exact": [
+    "candle cove"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Une émission pour enfants dont personne d'autre ne se souvient"
+  },
+  {
+   "id": "effet-mandela",
+   "answer": "Effet Mandela",
+   "exact": [
+    "effet mandela",
+    "mandela effect"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Plein de gens se souviennent d'un truc… qui n'a jamais existé"
+  },
+  {
+   "id": "erreur-404",
+   "answer": "Erreur 404",
+   "exact": [
+    "404",
+    "erreur 404",
+    "404 not found"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "La page que tu cherches n'existe pas"
+  },
+  {
+   "id": "ctrl-alt-suppr",
+   "answer": "Ctrl+Alt+Suppr",
+   "exact": [
+    "ctrl alt suppr",
+    "ctrl alt del"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Les trois touches magiques quand l'ordi plante"
+  },
+  {
+   "id": "code-konami",
+   "answer": "Code Konami",
+   "exact": [
+    "konami code",
+    "konami"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "↑ ↑ ↓ ↓ ← → ← → B A"
+  },
+  {
+   "id": "lorem-ipsum",
+   "answer": "Lorem ipsum",
+   "exact": [
+    "lorem ipsum"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Faux texte latin pour remplir les maquettes"
+  },
+  {
+   "id": "hello-world",
+   "answer": "Hello World",
+   "exact": [
+    "hello world"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le premier programme de tout développeur"
+  },
+  {
+   "id": "dinosaure-de-chrome",
+   "answer": "Dinosaure de Chrome",
+   "exact": [
+    "dino chrome",
+    "t rex chrome",
+    "chrome dino"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le petit T-Rex qui saute quand t'as plus internet"
+  },
+  {
+   "id": "captcha",
+   "answer": "Captcha",
+   "exact": [
+    "captcha",
+    "recaptcha"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Cochez la case pour prouver que vous n'êtes pas un robot »"
+  },
+  {
+   "id": "easter-egg",
+   "answer": "Easter egg",
+   "exact": [
+    "easter egg",
+    "oeuf de paques"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Un secret caché par les développeurs"
+  },
+  {
+   "id": "speedrun",
+   "answer": "Speedrun",
+   "exact": [
+    "speedrun"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Finir un jeu le plus vite possible"
+  },
+  {
+   "id": "rage-quit",
+   "answer": "Rage quit",
+   "exact": [
+    "ragequit",
+    "rage quit"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Quitter la partie en étant énervé"
+  },
+  {
+   "id": "gg",
+   "answer": "GG",
+   "exact": [
+    "gg",
+    "good game"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Ce qu'on écrit à la fin d'une partie pour être fair-play"
+  },
+  {
+   "id": "afk",
+   "answer": "AFK",
+   "exact": [
+    "afk",
+    "away from keyboard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Absent du clavier"
+  },
+  {
+   "id": "noob",
+   "answer": "Noob",
+   "exact": [
+    "noob",
+    "newbie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Débutant nul (insulte de gamer)"
+  },
+  {
+   "id": "quoicoubeh",
+   "answer": "Quoicoubeh",
+   "exact": [
+    "quoicoubeh"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le mot qui a rendu fous les profs en 2023"
+  },
+  {
+   "id": "feur",
+   "answer": "Feur",
+   "exact": [
+    "feur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Ce qu'on te répond quand tu dis « quoi »"
+  },
+  {
+   "id": "ouais-c-est-greg",
+   "answer": "Ouais c'est Greg",
+   "exact": [
+    "ouais c est greg",
+    "greg"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "« … » : la vidéo d'un mec qui se présente au micro"
+  },
+  {
+   "id": "lache-un-pouce-bleu",
+   "answer": "Lâche un pouce bleu",
+   "exact": [
+    "pouce bleu",
+    "like"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Ce que tout youtubeur demande à la fin de sa vidéo"
+  },
+  {
+   "id": "arobase",
+   "answer": "Arobase",
+   "exact": [
+    "arobase",
+    "at"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le symbole @"
+  },
+  {
+   "id": "hashtag",
+   "answer": "Hashtag",
+   "exact": [
+    "hashtag",
+    "diese"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le symbole # sur les réseaux"
+  }
+ ]
+}

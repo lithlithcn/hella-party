@@ -61,6 +61,7 @@ export interface PackFile {
   color?: string;
   tags?: string[];
   prompt: string;         // default question text ("Quel est ce pays ?")
+  opts?: MediaOpts;       // default display options for every question (merged under question.opts)
   questions: PackQuestion[];
   /** Game sound overrides: event id → file in sounds/. */
   sounds?: Record<string, string>;

@@ -1,0 +1,701 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "vehicules",
+ "name": "Véhicules",
+ "emoji": "🚗",
+ "prompt": "C'est quoi ce véhicule ?",
+ "tags": [
+  "véhicules"
+ ],
+ "questions": [
+  {
+   "id": "renault-clio",
+   "answer": "Renault Clio",
+   "exact": [
+    "clio"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Renault_Clio"
+  },
+  {
+   "id": "peugeot-208",
+   "answer": "Peugeot 208",
+   "exact": [
+    "208"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Peugeot_208"
+  },
+  {
+   "id": "citroen-2cv",
+   "answer": "Citroën 2CV",
+   "exact": [
+    "2cv",
+    "deudeuche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Citroën_2CV"
+  },
+  {
+   "id": "volkswagen-coccinelle",
+   "answer": "Volkswagen Coccinelle",
+   "exact": [
+    "coccinelle",
+    "beetle",
+    "cox"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Volkswagen_Beetle"
+  },
+  {
+   "id": "mini",
+   "answer": "Mini",
+   "exact": [
+    "mini cooper"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Mini_(1959)"
+  },
+  {
+   "id": "porsche-911",
+   "answer": "Porsche 911",
+   "exact": [
+    "911"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Porsche_911"
+  },
+  {
+   "id": "tesla-model-3",
+   "answer": "Tesla Model 3",
+   "exact": [
+    "model 3",
+    "tesla"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Tesla_Model_3"
+  },
+  {
+   "id": "ford-mustang",
+   "answer": "Ford Mustang",
+   "exact": [
+    "mustang"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Ford_Mustang"
+  },
+  {
+   "id": "fiat-500",
+   "answer": "Fiat 500",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Fiat_500_(2007)"
+  },
+  {
+   "id": "delorean",
+   "answer": "DeLorean",
+   "exact": [
+    "dmc 12",
+    "delorean dmc-12"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:DeLorean_DMC-12"
+  },
+  {
+   "id": "jeep-wrangler",
+   "answer": "Jeep Wrangler",
+   "exact": [
+    "jeep"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Jeep_Wrangler"
+  },
+  {
+   "id": "toyota-prius",
+   "answer": "Toyota Prius",
+   "exact": [
+    "prius"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Toyota_Prius"
+  },
+  {
+   "id": "smart-fortwo",
+   "answer": "Smart Fortwo",
+   "exact": [
+    "smart"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Smart_Fortwo"
+  },
+  {
+   "id": "renault-twingo",
+   "answer": "Renault Twingo",
+   "exact": [
+    "twingo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Renault_Twingo"
+  },
+  {
+   "id": "range-rover",
+   "answer": "Range Rover",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Range_Rover"
+  },
+  {
+   "id": "volkswagen-golf",
+   "answer": "Volkswagen Golf",
+   "exact": [
+    "golf"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Volkswagen_Golf"
+  },
+  {
+   "id": "bus-scolaire",
+   "answer": "Bus scolaire",
+   "exact": [
+    "school bus",
+    "bus"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:School_bus"
+  },
+  {
+   "id": "tuk-tuk",
+   "answer": "Tuk-tuk",
+   "exact": [
+    "tuk tuk",
+    "rickshaw"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Auto_rickshaw"
+  },
+  {
+   "id": "formule-1",
+   "answer": "Formule 1",
+   "exact": [
+    "f1",
+    "formule un"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Formula_One_car"
+  },
+  {
+   "id": "monster-truck",
+   "answer": "Monster truck",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Monster_truck"
+  },
+  {
+   "id": "camping-car",
+   "answer": "Camping-car",
+   "exact": [
+    "camping car"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Recreational_vehicle"
+  },
+  {
+   "id": "limousine",
+   "answer": "Limousine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Limousine"
+  },
+  {
+   "id": "kart",
+   "answer": "Kart",
+   "exact": [
+    "karting"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Kart_racing"
+  },
+  {
+   "id": "tracteur",
+   "answer": "Tracteur",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Tractor"
+  },
+  {
+   "id": "char-d-assaut",
+   "answer": "Char d'assaut",
+   "exact": [
+    "tank",
+    "char"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Tank"
+  },
+  {
+   "id": "ambulance",
+   "answer": "Ambulance",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Ambulance"
+  },
+  {
+   "id": "camion-de-pompiers",
+   "answer": "Camion de pompiers",
+   "exact": [
+    "camion pompier",
+    "pompiers"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Fire_engine"
+  },
+  {
+   "id": "moto",
+   "answer": "Moto",
+   "exact": [
+    "motocyclette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Motorcycle"
+  },
+  {
+   "id": "vespa",
+   "answer": "Vespa",
+   "exact": [
+    "scooter"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Vespa"
+  },
+  {
+   "id": "quad",
+   "answer": "Quad",
+   "exact": [
+    "atv"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:All-terrain_vehicle"
+  },
+  {
+   "id": "tgv",
+   "answer": "TGV",
+   "exact": [
+    "train"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:TGV"
+  },
+  {
+   "id": "metro",
+   "answer": "Métro",
+   "exact": [
+    "metro",
+    "metro parisien"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Paris_Métro"
+  },
+  {
+   "id": "helicoptere",
+   "answer": "Hélicoptère",
+   "exact": [
+    "helico"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Helicopter"
+  },
+  {
+   "id": "montgolfiere",
+   "answer": "Montgolfière",
+   "exact": [
+    "montgolfiere",
+    "ballon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Hot_air_balloon"
+  },
+  {
+   "id": "sous-marin",
+   "answer": "Sous-marin",
+   "exact": [
+    "sous marin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Submarine"
+  },
+  {
+   "id": "voiture-de-police",
+   "answer": "Voiture de police",
+   "exact": [
+    "police"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Police_car"
+  },
+  {
+   "id": "batmobile",
+   "answer": "Batmobile",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Batmobile"
+  },
+  {
+   "id": "trottinette",
+   "answer": "Trottinette",
+   "exact": [
+    "trottinette electrique"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Kick_scooter"
+  },
+  {
+   "id": "velo",
+   "answer": "Vélo",
+   "exact": [
+    "bicyclette",
+    "velo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Bicycle"
+  },
+  {
+   "id": "paquebot",
+   "answer": "Paquebot",
+   "exact": [
+    "bateau",
+    "navire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Ocean_liner"
+  },
+  {
+   "id": "avion-de-ligne",
+   "answer": "Avion de ligne",
+   "exact": [
+    "avion"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Airliner"
+  },
+  {
+   "id": "fusee",
+   "answer": "Fusée",
+   "exact": [
+    "fusee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "véhicules",
+    "facile"
+   ],
+   "src": "wiki:en:Rocket"
+  },
+  {
+   "id": "ferrari-f40",
+   "answer": "Ferrari F40",
+   "exact": [
+    "f40"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Ferrari_F40"
+  },
+  {
+   "id": "lamborghini-aventador",
+   "answer": "Lamborghini Aventador",
+   "exact": [
+    "aventador"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Lamborghini_Aventador"
+  },
+  {
+   "id": "chevrolet-camaro",
+   "answer": "Chevrolet Camaro",
+   "exact": [
+    "camaro"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Chevrolet_Camaro"
+  },
+  {
+   "id": "bugatti-chiron",
+   "answer": "Bugatti Chiron",
+   "exact": [
+    "chiron"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Bugatti_Chiron"
+  },
+  {
+   "id": "peugeot-205",
+   "answer": "Peugeot 205",
+   "exact": [
+    "205"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Peugeot_205"
+  },
+  {
+   "id": "hummer",
+   "answer": "Hummer",
+   "exact": [
+    "hummer h2"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Hummer_H2"
+  },
+  {
+   "id": "nissan-gt-r",
+   "answer": "Nissan GT-R",
+   "exact": [
+    "gtr",
+    "gt r"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Nissan_GT-R"
+  },
+  {
+   "id": "toyota-supra",
+   "answer": "Toyota Supra",
+   "exact": [
+    "supra"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Toyota_Supra"
+  },
+  {
+   "id": "mercedes-classe-g",
+   "answer": "Mercedes Classe G",
+   "exact": [
+    "classe g",
+    "g wagon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Mercedes-Benz_G-Class"
+  },
+  {
+   "id": "concorde",
+   "answer": "Concorde",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "véhicules",
+    "moyen"
+   ],
+   "src": "wiki:en:Concorde"
+  },
+  {
+   "id": "mclaren-f1",
+   "answer": "McLaren F1",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "véhicules",
+    "difficile"
+   ],
+   "src": "wiki:en:McLaren_F1"
+  }
+ ]
+}

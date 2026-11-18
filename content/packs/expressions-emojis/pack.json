@@ -1,0 +1,797 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "expressions-emojis",
+ "name": "Expressions françaises en émojis",
+ "emoji": "🗯️",
+ "prompt": "Quelle expression ?",
+ "tags": [
+  "expressions",
+  "français"
+ ],
+ "questions": [
+  {
+   "id": "poser-un-lapin",
+   "answer": "Poser un lapin",
+   "exact": [
+    "poser un lapin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🫳🐇"
+  },
+  {
+   "id": "avoir-le-cafard",
+   "answer": "Avoir le cafard",
+   "exact": [
+    "avoir le cafard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😞🪳"
+  },
+  {
+   "id": "couter-les-yeux-de-la-tete",
+   "answer": "Coûter les yeux de la tête",
+   "exact": [
+    "couter les yeux de la tete"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💸👀🤯"
+  },
+  {
+   "id": "il-pleut-des-cordes",
+   "answer": "Il pleut des cordes",
+   "exact": [
+    "il pleut des cordes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🌧️🪢"
+  },
+  {
+   "id": "avoir-un-poil-dans-la-main",
+   "answer": "Avoir un poil dans la main",
+   "exact": [
+    "avoir un poil dans la main"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🫲🦱😴"
+  },
+  {
+   "id": "tomber-dans-les-pommes",
+   "answer": "Tomber dans les pommes",
+   "exact": [
+    "tomber dans les pommes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⬇️🍎🍏"
+  },
+  {
+   "id": "avoir-la-tete-dans-les-nuages",
+   "answer": "Avoir la tête dans les nuages",
+   "exact": [
+    "avoir la tete dans les nuages"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🙂☁️☁️"
+  },
+  {
+   "id": "mettre-les-pieds-dans-le-plat",
+   "answer": "Mettre les pieds dans le plat",
+   "exact": [
+    "mettre les pieds dans le plat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🦶🍽️"
+  },
+  {
+   "id": "etre-dans-la-lune",
+   "answer": "Être dans la lune",
+   "exact": [
+    "etre dans la lune"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧍🌙"
+  },
+  {
+   "id": "donner-sa-langue-au-chat",
+   "answer": "Donner sa langue au chat",
+   "exact": [
+    "donner sa langue au chat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👅➡️🐈"
+  },
+  {
+   "id": "avoir-un-chat-dans-la-gorge",
+   "answer": "Avoir un chat dans la gorge",
+   "exact": [
+    "avoir un chat dans la gorge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐈🗣️"
+  },
+  {
+   "id": "casser-les-pieds",
+   "answer": "Casser les pieds",
+   "exact": [
+    "casser les pieds"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔨🦶"
+  },
+  {
+   "id": "avoir-la-chair-de-poule",
+   "answer": "Avoir la chair de poule",
+   "exact": [
+    "avoir la chair de poule"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧍🐔"
+  },
+  {
+   "id": "quand-les-poules-auront-des-dents",
+   "answer": "Quand les poules auront des dents",
+   "exact": [
+    "quand les poules auront des dents"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐔🦷⏳"
+  },
+  {
+   "id": "avoir-les-yeux-plus-gros-que-le-ventre",
+   "answer": "Avoir les yeux plus gros que le ventre",
+   "exact": [
+    "avoir les yeux plus gros que le ventre"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👀➕🫃🍰"
+  },
+  {
+   "id": "raconter-des-salades",
+   "answer": "Raconter des salades",
+   "exact": [
+    "raconter des salades"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🗣️🥗"
+  },
+  {
+   "id": "prendre-la-grosse-tete",
+   "answer": "Prendre la grosse tête",
+   "exact": [
+    "prendre la grosse tete"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🤯🎈"
+  },
+  {
+   "id": "faire-la-grasse-matinee",
+   "answer": "Faire la grasse matinée",
+   "exact": [
+    "faire la grasse matinee",
+    "grasse mat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😴🛌☀️"
+  },
+  {
+   "id": "avoir-le-c-ur-sur-la-main",
+   "answer": "Avoir le cœur sur la main",
+   "exact": [
+    "avoir le coeur sur la main"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "❤️🖐️"
+  },
+  {
+   "id": "etre-un-cordon-bleu",
+   "answer": "Être un cordon bleu",
+   "exact": [
+    "etre un cordon bleu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👨‍🍳🔵"
+  },
+  {
+   "id": "tirer-les-vers-du-nez",
+   "answer": "Tirer les vers du nez",
+   "exact": [
+    "tirer les vers du nez"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🪱👃"
+  },
+  {
+   "id": "se-creuser-la-tete",
+   "answer": "Se creuser la tête",
+   "exact": [
+    "se creuser la tete"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "⛏️🧠"
+  },
+  {
+   "id": "couter-un-bras",
+   "answer": "Coûter un bras",
+   "exact": [
+    "couter un bras"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💸💪"
+  },
+  {
+   "id": "avoir-la-peche",
+   "answer": "Avoir la pêche",
+   "exact": [
+    "avoir la peche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💪🍑"
+  },
+  {
+   "id": "en-faire-tout-un-fromage",
+   "answer": "En faire tout un fromage",
+   "exact": [
+    "en faire tout un fromage"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧀🤯"
+  },
+  {
+   "id": "mettre-la-main-a-la-pate",
+   "answer": "Mettre la main à la pâte",
+   "exact": [
+    "mettre la main a la pate"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "✋🥖"
+  },
+  {
+   "id": "ne-pas-etre-dans-son-assiette",
+   "answer": "Ne pas être dans son assiette",
+   "exact": [
+    "ne pas etre dans son assiette"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🙅🍽️"
+  },
+  {
+   "id": "avoir-une-memoire-de-poisson-rouge",
+   "answer": "Avoir une mémoire de poisson rouge",
+   "exact": [
+    "memoire de poisson rouge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧠🐟"
+  },
+  {
+   "id": "appeler-un-chat-un-chat",
+   "answer": "Appeler un chat un chat",
+   "exact": [
+    "appeler un chat un chat"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "📞🐈🐈"
+  },
+  {
+   "id": "faire-d-une-pierre-deux-coups",
+   "answer": "Faire d'une pierre deux coups",
+   "exact": [
+    "faire d une pierre deux coups"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🪨✌️"
+  },
+  {
+   "id": "avoir-le-bras-long",
+   "answer": "Avoir le bras long",
+   "exact": [
+    "avoir le bras long"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "💪📏"
+  },
+  {
+   "id": "se-faire-rouler-dans-la-farine",
+   "answer": "Se faire rouler dans la farine",
+   "exact": [
+    "se faire rouler dans la farine"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🌀🌾"
+  },
+  {
+   "id": "revenons-a-nos-moutons",
+   "answer": "Revenons à nos moutons",
+   "exact": [
+    "revenons a nos moutons"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔙🐑🐑"
+  },
+  {
+   "id": "etre-tetu-comme-une-mule",
+   "answer": "Être têtu comme une mule",
+   "exact": [
+    "tetu comme une mule"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😤🫏"
+  },
+  {
+   "id": "avoir-des-fourmis-dans-les-jambes",
+   "answer": "Avoir des fourmis dans les jambes",
+   "exact": [
+    "avoir des fourmis dans les jambes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐜🦵"
+  },
+  {
+   "id": "muet-comme-une-carpe",
+   "answer": "Muet comme une carpe",
+   "exact": [
+    "muet comme une carpe"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🤐🐟"
+  },
+  {
+   "id": "rire-jaune",
+   "answer": "Rire jaune",
+   "exact": [
+    "rire jaune"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😂💛"
+  },
+  {
+   "id": "voir-la-vie-en-rose",
+   "answer": "Voir la vie en rose",
+   "exact": [
+    "voir la vie en rose"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "👀🌍🌹"
+  },
+  {
+   "id": "il-y-a-anguille-sous-roche",
+   "answer": "Il y a anguille sous roche",
+   "exact": [
+    "il y a anguille sous roche"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🐍🪨"
+  },
+  {
+   "id": "avoir-du-pain-sur-la-planche",
+   "answer": "Avoir du pain sur la planche",
+   "exact": [
+    "avoir du pain sur la planche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🍞🪵"
+  },
+  {
+   "id": "etre-une-poule-mouillee",
+   "answer": "Être une poule mouillée",
+   "exact": [
+    "poule mouillee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🐔💧"
+  },
+  {
+   "id": "avoir-le-melon",
+   "answer": "Avoir le melon",
+   "exact": [
+    "avoir le melon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🍈🤴"
+  },
+  {
+   "id": "mettre-de-l-huile-sur-le-feu",
+   "answer": "Mettre de l'huile sur le feu",
+   "exact": [
+    "mettre de l huile sur le feu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🫒💧🔥"
+  },
+  {
+   "id": "jeter-l-eponge",
+   "answer": "Jeter l'éponge",
+   "exact": [
+    "jeter l eponge"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🫳🧽"
+  },
+  {
+   "id": "etre-aux-anges",
+   "answer": "Être aux anges",
+   "exact": [
+    "etre aux anges"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "😇😇"
+  },
+  {
+   "id": "tourner-autour-du-pot",
+   "answer": "Tourner autour du pot",
+   "exact": [
+    "tourner autour du pot"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔄🍯"
+  },
+  {
+   "id": "avoir-la-main-verte",
+   "answer": "Avoir la main verte",
+   "exact": [
+    "avoir la main verte"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🖐️💚🌱"
+  },
+  {
+   "id": "chercher-la-petite-bete",
+   "answer": "Chercher la petite bête",
+   "exact": [
+    "chercher la petite bete"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🔍🐞"
+  },
+  {
+   "id": "un-froid-de-canard",
+   "answer": "Un froid de canard",
+   "exact": [
+    "un froid de canard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🥶🦆"
+  },
+  {
+   "id": "se-mettre-sur-son-trente-et-un",
+   "answer": "Se mettre sur son trente-et-un",
+   "exact": [
+    "se mettre sur son 31",
+    "trente et un"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "👔3️⃣1️⃣"
+  },
+  {
+   "id": "etre-a-l-ouest",
+   "answer": "Être à l'ouest",
+   "exact": [
+    "etre a l ouest"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "expressions",
+    "français",
+    "facile"
+   ],
+   "type": "text",
+   "text": "🧭⬅️"
+  },
+  {
+   "id": "passer-un-savon",
+   "answer": "Passer un savon",
+   "exact": [
+    "passer un savon"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "expressions",
+    "français",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "🧼🗣️"
+  }
+ ]
+}

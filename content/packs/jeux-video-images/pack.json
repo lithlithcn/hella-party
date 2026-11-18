@@ -1,0 +1,798 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "jeux-video-images",
+ "name": "Jeux vidéo (jaquettes)",
+ "emoji": "🕹️",
+ "prompt": "Quel est ce jeu ?",
+ "tags": [
+  "jeux vidéo"
+ ],
+ "opts": {
+  "reveal": "unpixelate"
+ },
+ "questions": [
+  {
+   "id": "minecraft",
+   "answer": "Minecraft",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Minecraft"
+  },
+  {
+   "id": "fortnite",
+   "answer": "Fortnite",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Fortnite_Battle_Royale"
+  },
+  {
+   "id": "super-mario-bros",
+   "answer": "Super Mario Bros.",
+   "exact": [
+    "mario",
+    "super mario",
+    "super mario bros"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Super_Mario_Bros."
+  },
+  {
+   "id": "the-legend-of-zelda-breath-of-the-wild",
+   "answer": "The Legend of Zelda : Breath of the Wild",
+   "exact": [
+    "zelda",
+    "breath of the wild",
+    "botw"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:The_Legend_of_Zelda:_Breath_of_the_Wild"
+  },
+  {
+   "id": "pokemon-rouge-et-bleu",
+   "answer": "Pokémon Rouge et Bleu",
+   "exact": [
+    "pokemon",
+    "pokemon rouge",
+    "pokemon bleu"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Pokémon_Red_and_Blue"
+  },
+  {
+   "id": "tetris",
+   "answer": "Tetris",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Tetris"
+  },
+  {
+   "id": "pac-man",
+   "answer": "Pac-Man",
+   "exact": [
+    "pacman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Pac-Man"
+  },
+  {
+   "id": "sonic-the-hedgehog",
+   "answer": "Sonic the Hedgehog",
+   "exact": [
+    "sonic"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Sonic_the_Hedgehog_(1991_video_game)"
+  },
+  {
+   "id": "grand-theft-auto-v",
+   "answer": "Grand Theft Auto V",
+   "exact": [
+    "gta",
+    "gta 5",
+    "gta v"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Grand_Theft_Auto_V"
+  },
+  {
+   "id": "among-us",
+   "answer": "Among Us",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Among_Us"
+  },
+  {
+   "id": "mario-kart-8",
+   "answer": "Mario Kart 8",
+   "exact": [
+    "mario kart"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Mario_Kart_8"
+  },
+  {
+   "id": "super-smash-bros-ultimate",
+   "answer": "Super Smash Bros. Ultimate",
+   "exact": [
+    "smash",
+    "smash bros"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Super_Smash_Bros._Ultimate"
+  },
+  {
+   "id": "animal-crossing-new-horizons",
+   "answer": "Animal Crossing : New Horizons",
+   "exact": [
+    "animal crossing"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Animal_Crossing:_New_Horizons"
+  },
+  {
+   "id": "league-of-legends",
+   "answer": "League of Legends",
+   "exact": [
+    "lol"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:League_of_Legends"
+  },
+  {
+   "id": "overwatch",
+   "answer": "Overwatch",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Overwatch_(video_game)"
+  },
+  {
+   "id": "valorant",
+   "answer": "Valorant",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Valorant"
+  },
+  {
+   "id": "rocket-league",
+   "answer": "Rocket League",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Rocket_League"
+  },
+  {
+   "id": "fall-guys",
+   "answer": "Fall Guys",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Fall_Guys"
+  },
+  {
+   "id": "red-dead-redemption-2",
+   "answer": "Red Dead Redemption 2",
+   "exact": [
+    "red dead",
+    "rdr2"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Red_Dead_Redemption_2"
+  },
+  {
+   "id": "the-last-of-us",
+   "answer": "The Last of Us",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:The_Last_of_Us"
+  },
+  {
+   "id": "god-of-war",
+   "answer": "God of War",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:God_of_War_(2018_video_game)"
+  },
+  {
+   "id": "elden-ring",
+   "answer": "Elden Ring",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Elden_Ring"
+  },
+  {
+   "id": "stardew-valley",
+   "answer": "Stardew Valley",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Stardew_Valley"
+  },
+  {
+   "id": "terraria",
+   "answer": "Terraria",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Terraria"
+  },
+  {
+   "id": "cuphead",
+   "answer": "Cuphead",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Cuphead"
+  },
+  {
+   "id": "street-fighter-ii",
+   "answer": "Street Fighter II",
+   "exact": [
+    "street fighter"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Street_Fighter_II"
+  },
+  {
+   "id": "donkey-kong",
+   "answer": "Donkey Kong",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Donkey_Kong_(1981_video_game)"
+  },
+  {
+   "id": "space-invaders",
+   "answer": "Space Invaders",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Space_Invaders"
+  },
+  {
+   "id": "super-mario-64",
+   "answer": "Super Mario 64",
+   "exact": [
+    "mario 64"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Super_Mario_64"
+  },
+  {
+   "id": "crash-bandicoot",
+   "answer": "Crash Bandicoot",
+   "exact": [
+    "crash"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Crash_Bandicoot_(video_game)"
+  },
+  {
+   "id": "spyro-the-dragon",
+   "answer": "Spyro the Dragon",
+   "exact": [
+    "spyro"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Spyro_the_Dragon_(video_game)"
+  },
+  {
+   "id": "rayman",
+   "answer": "Rayman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Rayman_(video_game)"
+  },
+  {
+   "id": "tomb-raider",
+   "answer": "Tomb Raider",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Tomb_Raider_(1996_video_game)"
+  },
+  {
+   "id": "pokemon-go",
+   "answer": "Pokémon Go",
+   "exact": [
+    "pokemon go"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Pokémon_Go"
+  },
+  {
+   "id": "clash-of-clans",
+   "answer": "Clash of Clans",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Clash_of_Clans"
+  },
+  {
+   "id": "candy-crush-saga",
+   "answer": "Candy Crush Saga",
+   "exact": [
+    "candy crush"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Candy_Crush_Saga"
+  },
+  {
+   "id": "angry-birds",
+   "answer": "Angry Birds",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Angry_Birds_(video_game)"
+  },
+  {
+   "id": "flappy-bird",
+   "answer": "Flappy Bird",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Flappy_Bird"
+  },
+  {
+   "id": "geometry-dash",
+   "answer": "Geometry Dash",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Geometry_Dash"
+  },
+  {
+   "id": "subway-surfers",
+   "answer": "Subway Surfers",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Subway_Surfers"
+  },
+  {
+   "id": "roblox",
+   "answer": "Roblox",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Roblox"
+  },
+  {
+   "id": "les-sims-4",
+   "answer": "Les Sims 4",
+   "exact": [
+    "sims",
+    "les sims",
+    "sims 4"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:The_Sims_4"
+  },
+  {
+   "id": "portal-2",
+   "answer": "Portal 2",
+   "exact": [
+    "portal"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Portal_2"
+  },
+  {
+   "id": "doom",
+   "answer": "Doom",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Doom_(1993_video_game)"
+  },
+  {
+   "id": "halo",
+   "answer": "Halo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Halo:_Combat_Evolved"
+  },
+  {
+   "id": "kirby",
+   "answer": "Kirby",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Kirby's_Dream_Land"
+  },
+  {
+   "id": "splatoon-3",
+   "answer": "Splatoon 3",
+   "exact": [
+    "splatoon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Splatoon_3"
+  },
+  {
+   "id": "genshin-impact",
+   "answer": "Genshin Impact",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Genshin_Impact"
+  },
+  {
+   "id": "cyberpunk-2077",
+   "answer": "Cyberpunk 2077",
+   "exact": [
+    "cyberpunk"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Cyberpunk_2077"
+  },
+  {
+   "id": "the-witcher-3",
+   "answer": "The Witcher 3",
+   "exact": [
+    "witcher",
+    "the witcher"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:The_Witcher_3:_Wild_Hunt"
+  },
+  {
+   "id": "stray",
+   "answer": "Stray",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "jeux vidéo",
+    "facile"
+   ],
+   "src": "wiki:en:Stray_(video_game)"
+  },
+  {
+   "id": "hollow-knight",
+   "answer": "Hollow Knight",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Hollow_Knight"
+  },
+  {
+   "id": "celeste",
+   "answer": "Celeste",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Celeste_(video_game)"
+  },
+  {
+   "id": "undertale",
+   "answer": "Undertale",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Undertale"
+  },
+  {
+   "id": "hades",
+   "answer": "Hades",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Hades_(video_game)"
+  },
+  {
+   "id": "dark-souls",
+   "answer": "Dark Souls",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Dark_Souls_(video_game)"
+  },
+  {
+   "id": "half-life-2",
+   "answer": "Half-Life 2",
+   "exact": [
+    "half life"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Half-Life_2"
+  },
+  {
+   "id": "metroid",
+   "answer": "Metroid",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Metroid_(video_game)"
+  },
+  {
+   "id": "shovel-knight",
+   "answer": "Shovel Knight",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Shovel_Knight"
+  },
+  {
+   "id": "ori-and-the-blind-forest",
+   "answer": "Ori and the Blind Forest",
+   "exact": [
+    "ori"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Ori_and_the_Blind_Forest"
+  },
+  {
+   "id": "limbo",
+   "answer": "Limbo",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Limbo_(video_game)"
+  },
+  {
+   "id": "super-meat-boy",
+   "answer": "Super Meat Boy",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Super_Meat_Boy"
+  },
+  {
+   "id": "baldur-s-gate-3",
+   "answer": "Baldur's Gate 3",
+   "exact": [
+    "bg3"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "jeux vidéo",
+    "moyen"
+   ],
+   "src": "wiki:en:Baldur's_Gate_3"
+  },
+  {
+   "id": "rivals-of-aether",
+   "answer": "Rivals of Aether",
+   "exact": [
+    "rivals",
+    "roa"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Rivals_of_Aether"
+  },
+  {
+   "id": "inside",
+   "answer": "Inside",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "jeux vidéo",
+    "difficile"
+   ],
+   "src": "wiki:en:Inside_(video_game)"
+  }
+ ]
+}

@@ -1,0 +1,670 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "logos",
+ "name": "Logos & marques",
+ "emoji": "™️",
+ "prompt": "Quelle est cette marque ?",
+ "tags": [
+  "logos"
+ ],
+ "opts": {
+  "reveal": "unpixelate"
+ },
+ "questions": [
+  {
+   "id": "coca-cola",
+   "answer": "Coca-Cola",
+   "exact": [
+    "coca",
+    "coca cola"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Coca-Cola"
+  },
+  {
+   "id": "mcdonald-s",
+   "answer": "McDonald's",
+   "exact": [
+    "mcdo",
+    "mcdonalds",
+    "macdo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:McDonald's"
+  },
+  {
+   "id": "apple",
+   "answer": "Apple",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Apple_Inc."
+  },
+  {
+   "id": "nike",
+   "answer": "Nike",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Nike,_Inc."
+  },
+  {
+   "id": "adidas",
+   "answer": "Adidas",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Adidas"
+  },
+  {
+   "id": "google",
+   "answer": "Google",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Google"
+  },
+  {
+   "id": "amazon",
+   "answer": "Amazon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Amazon_(company)"
+  },
+  {
+   "id": "netflix",
+   "answer": "Netflix",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Netflix"
+  },
+  {
+   "id": "youtube",
+   "answer": "YouTube",
+   "exact": [
+    "youtube"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:YouTube"
+  },
+  {
+   "id": "instagram",
+   "answer": "Instagram",
+   "exact": [
+    "insta"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Instagram"
+  },
+  {
+   "id": "tiktok",
+   "answer": "TikTok",
+   "exact": [
+    "tik tok"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:TikTok"
+  },
+  {
+   "id": "snapchat",
+   "answer": "Snapchat",
+   "exact": [
+    "snap"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Snapchat"
+  },
+  {
+   "id": "discord",
+   "answer": "Discord",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Discord"
+  },
+  {
+   "id": "spotify",
+   "answer": "Spotify",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Spotify"
+  },
+  {
+   "id": "twitch",
+   "answer": "Twitch",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Twitch_(service)"
+  },
+  {
+   "id": "whatsapp",
+   "answer": "WhatsApp",
+   "exact": [
+    "whatsapp"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:WhatsApp"
+  },
+  {
+   "id": "facebook",
+   "answer": "Facebook",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Facebook"
+  },
+  {
+   "id": "x-twitter",
+   "answer": "X (Twitter)",
+   "exact": [
+    "twitter",
+    "x"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Twitter"
+  },
+  {
+   "id": "playstation",
+   "answer": "PlayStation",
+   "exact": [
+    "ps",
+    "playstation"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:PlayStation"
+  },
+  {
+   "id": "xbox",
+   "answer": "Xbox",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Xbox"
+  },
+  {
+   "id": "nintendo",
+   "answer": "Nintendo",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Nintendo"
+  },
+  {
+   "id": "microsoft",
+   "answer": "Microsoft",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Microsoft"
+  },
+  {
+   "id": "samsung",
+   "answer": "Samsung",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Samsung"
+  },
+  {
+   "id": "starbucks",
+   "answer": "Starbucks",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Starbucks"
+  },
+  {
+   "id": "kfc",
+   "answer": "KFC",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:KFC"
+  },
+  {
+   "id": "burger-king",
+   "answer": "Burger King",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Burger_King"
+  },
+  {
+   "id": "pepsi",
+   "answer": "Pepsi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Pepsi"
+  },
+  {
+   "id": "red-bull",
+   "answer": "Red Bull",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Red_Bull"
+  },
+  {
+   "id": "lego",
+   "answer": "Lego",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:The_Lego_Group"
+  },
+  {
+   "id": "ikea",
+   "answer": "IKEA",
+   "exact": [
+    "ikea"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:IKEA"
+  },
+  {
+   "id": "ferrari",
+   "answer": "Ferrari",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Ferrari"
+  },
+  {
+   "id": "lamborghini",
+   "answer": "Lamborghini",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Lamborghini"
+  },
+  {
+   "id": "mercedes-benz",
+   "answer": "Mercedes-Benz",
+   "exact": [
+    "mercedes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Mercedes-Benz"
+  },
+  {
+   "id": "bmw",
+   "answer": "BMW",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:BMW"
+  },
+  {
+   "id": "renault",
+   "answer": "Renault",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Renault"
+  },
+  {
+   "id": "peugeot",
+   "answer": "Peugeot",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Peugeot"
+  },
+  {
+   "id": "tesla",
+   "answer": "Tesla",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Tesla,_Inc."
+  },
+  {
+   "id": "puma",
+   "answer": "Puma",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Puma_(brand)"
+  },
+  {
+   "id": "lacoste",
+   "answer": "Lacoste",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Lacoste"
+  },
+  {
+   "id": "michelin",
+   "answer": "Michelin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Michelin"
+  },
+  {
+   "id": "carrefour",
+   "answer": "Carrefour",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Carrefour"
+  },
+  {
+   "id": "decathlon",
+   "answer": "Decathlon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Decathlon_Group"
+  },
+  {
+   "id": "disney",
+   "answer": "Disney",
+   "exact": [
+    "walt disney"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:The_Walt_Disney_Company"
+  },
+  {
+   "id": "pixar",
+   "answer": "Pixar",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Pixar"
+  },
+  {
+   "id": "marvel",
+   "answer": "Marvel",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Marvel_Comics"
+  },
+  {
+   "id": "ubisoft",
+   "answer": "Ubisoft",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Ubisoft"
+  },
+  {
+   "id": "shell",
+   "answer": "Shell",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Shell_plc"
+  },
+  {
+   "id": "uber",
+   "answer": "Uber",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Uber"
+  },
+  {
+   "id": "airbnb",
+   "answer": "Airbnb",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Airbnb"
+  },
+  {
+   "id": "reddit",
+   "answer": "Reddit",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Reddit"
+  },
+  {
+   "id": "wikipedia",
+   "answer": "Wikipédia",
+   "exact": [
+    "wikipedia"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Wikipedia"
+  },
+  {
+   "id": "android",
+   "answer": "Android",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Android_(operating_system)"
+  },
+  {
+   "id": "firefox",
+   "answer": "Firefox",
+   "exact": [
+    "mozilla firefox"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Firefox"
+  },
+  {
+   "id": "chrome",
+   "answer": "Chrome",
+   "exact": [
+    "google chrome"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "logos",
+    "facile"
+   ],
+   "src": "wiki:en:Google_Chrome"
+  },
+  {
+   "id": "visa",
+   "answer": "Visa",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "logos",
+    "moyen"
+   ],
+   "src": "wiki:en:Visa_Inc."
+  },
+  {
+   "id": "monster-energy",
+   "answer": "Monster Energy",
+   "exact": [
+    "monster"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "logos",
+    "moyen"
+   ],
+   "src": "wiki:en:Monster_Energy"
+  }
+ ]
+}

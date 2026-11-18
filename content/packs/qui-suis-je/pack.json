@@ -20,8 +20,10 @@
    ],
    "hint": "Relativité",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "napoleon-bonaparte",
@@ -34,8 +36,10 @@
    ],
    "hint": "Austerlitz",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "marie-curie",
@@ -47,8 +51,10 @@
    ],
    "hint": "Radium",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "leonard-de-vinci",
@@ -62,8 +68,10 @@
    ],
    "hint": "Mona Lisa",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "mozart",
@@ -75,8 +83,10 @@
    ],
    "hint": "Wolfgang Amadeus",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "pablo-picasso",
@@ -88,8 +98,10 @@
    ],
    "hint": "Période bleue",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "victor-hugo",
@@ -101,8 +113,10 @@
    ],
    "hint": "Exilé à Guernesey",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "moliere",
@@ -114,8 +128,10 @@
    ],
    "hint": "La « langue de … »",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "william-shakespeare",
@@ -127,8 +143,10 @@
    ],
    "hint": "« To be or not to be »",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "isaac-newton",
@@ -140,8 +158,10 @@
    ],
    "hint": "Lois du mouvement",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "neil-armstrong",
@@ -153,8 +173,10 @@
    ],
    "hint": "« Un petit pas pour l'homme »",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "thomas-pesquet",
@@ -166,8 +188,10 @@
    ],
    "hint": "ESA",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "charlie-chaplin",
@@ -180,8 +204,10 @@
    ],
    "hint": "Les Temps modernes",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "walt-disney",
@@ -193,8 +219,10 @@
    ],
    "hint": "Blanche-Neige (1937)",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "steve-jobs",
@@ -206,8 +234,10 @@
    ],
    "hint": "Pixar",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "elon-musk",
@@ -219,8 +249,10 @@
    ],
    "hint": "Né en Afrique du Sud",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "michael-jackson",
@@ -233,8 +265,10 @@
    ],
    "hint": "Un seul gant",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "freddie-mercury",
@@ -246,8 +280,10 @@
    ],
    "hint": "We Are the Champions",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "bob-marley",
@@ -259,8 +295,10 @@
    ],
    "hint": "The Wailers",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "elvis-presley",
@@ -273,8 +311,10 @@
    ],
    "hint": "Jailhouse Rock",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "beyonce",
@@ -286,8 +326,10 @@
    ],
    "hint": "Mariée à Jay-Z",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "rihanna",
@@ -299,8 +341,10 @@
    ],
    "hint": "Diamonds",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "aya-nakamura",
@@ -312,8 +356,10 @@
    ],
    "hint": "Artiste francophone la plus écoutée",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "zinedine-zidane",
@@ -327,8 +373,10 @@
    ],
    "hint": "Zizou",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "kylian-mbappe",
@@ -341,8 +389,10 @@
    ],
    "hint": "Tortue Ninja",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "lionel-messi",
@@ -354,8 +404,10 @@
    ],
    "hint": "La Pulga",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "cristiano-ronaldo",
@@ -368,8 +420,10 @@
    ],
    "hint": "CR7",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "usain-bolt",
@@ -381,8 +435,10 @@
    ],
    "hint": "La pose de l'éclair",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "michael-jordan",
@@ -394,8 +450,10 @@
    ],
    "hint": "Numéro 23",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "serena-williams",
@@ -407,8 +465,10 @@
    ],
    "hint": "Raquette",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "teddy-riner",
@@ -420,8 +480,10 @@
    ],
    "hint": "Judo",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "tony-parker",
@@ -433,8 +495,10 @@
    ],
    "hint": "TP",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "omar-sy",
@@ -446,8 +510,10 @@
    ],
    "hint": "Omar et Fred",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "squeezie",
@@ -459,8 +525,10 @@
    ],
    "hint": "Lucas Hauchard",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "nelson-mandela",
@@ -473,8 +541,10 @@
    ],
    "hint": "Madiba",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
   },
   {
    "id": "cleopatre",
@@ -486,8 +556,209 @@
    ],
    "hint": "Un serpent",
    "tags": [
-    "célébrités"
-   ]
+    "célébrités",
+    "facile"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "kev-adams",
+   "answer": "Kev Adams",
+   "exact": [
+    "kev adams"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Humoriste et acteur · « Soda » · « Les Profs »"
+  },
+  {
+   "id": "jamel-debbouze",
+   "answer": "Jamel Debbouze",
+   "exact": [
+    "jamel"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Humoriste · Jamel Comedy Club · « Astérix : Mission Cléopâtre »"
+  },
+  {
+   "id": "gad-elmaleh",
+   "answer": "Gad Elmaleh",
+   "exact": [
+    "gad elmaleh",
+    "gad"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Humoriste · « Chouchou » · « L'autre c'est moi »"
+  },
+  {
+   "id": "stromae",
+   "answer": "Stromae",
+   "exact": [
+    "stromae"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Chanteur belge · « Alors on danse » · « Papaoutai »"
+  },
+  {
+   "id": "angele",
+   "answer": "Angèle",
+   "exact": [
+    "angele"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Chanteuse belge · « Balance ton quoi » · « Tout oublier »"
+  },
+  {
+   "id": "antoine-griezmann",
+   "answer": "Antoine Griezmann",
+   "exact": [
+    "griezmann"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Champion du monde 2018 · Célèbre pour sa célébration façon Fortnite"
+  },
+  {
+   "id": "thierry-henry",
+   "answer": "Thierry Henry",
+   "exact": [
+    "henry",
+    "titi"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Légende d'Arsenal · Champion du monde 1998 · Titi"
+  },
+  {
+   "id": "charles-de-gaulle",
+   "answer": "Charles de Gaulle",
+   "exact": [
+    "de gaulle"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Appel du 18 juin 1940 · Président de la Ve République"
+  },
+  {
+   "id": "jules-cesar",
+   "answer": "Jules César",
+   "exact": [
+    "cesar",
+    "jules cesar"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Général romain · « Veni, vidi, vici »"
+  },
+  {
+   "id": "jeanne-d-arc",
+   "answer": "Jeanne d'Arc",
+   "exact": [
+    "jeanne d arc"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Héroïne de la guerre de Cent Ans · La Pucelle d'Orléans"
+  },
+  {
+   "id": "taylor-swift",
+   "answer": "Taylor Swift",
+   "exact": [
+    "taylor swift"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Chanteuse américaine · Tournée Eras Tour · « Shake It Off »"
+  },
+  {
+   "id": "ed-sheeran",
+   "answer": "Ed Sheeran",
+   "exact": [
+    "ed sheeran"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Chanteur roux britannique · « Shape of You » · Guitare"
+  },
+  {
+   "id": "billie-eilish",
+   "answer": "Billie Eilish",
+   "exact": [
+    "billie eilish"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Chanteuse américaine · « Bad Guy » · Cheveux souvent verts"
+  },
+  {
+   "id": "drake",
+   "answer": "Drake",
+   "exact": [
+    "drake"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "célébrités",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Rappeur canadien · « Hotline Bling » · Toronto"
   }
  ]
 }

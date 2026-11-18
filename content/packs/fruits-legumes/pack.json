@@ -1,0 +1,720 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "fruits-legumes",
+ "name": "Fruits & légumes",
+ "emoji": "🍓",
+ "prompt": "C'est quoi ?",
+ "tags": [
+  "bouffe",
+  "fruits et légumes"
+ ],
+ "questions": [
+  {
+   "id": "pomme",
+   "answer": "Pomme",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Apple"
+  },
+  {
+   "id": "banane",
+   "answer": "Banane",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Banana"
+  },
+  {
+   "id": "orange",
+   "answer": "Orange",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Orange_(fruit)"
+  },
+  {
+   "id": "fraise",
+   "answer": "Fraise",
+   "exact": [
+    "fraises"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Strawberry"
+  },
+  {
+   "id": "cerise",
+   "answer": "Cerise",
+   "exact": [
+    "cerises"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Cherry"
+  },
+  {
+   "id": "raisin",
+   "answer": "Raisin",
+   "exact": [
+    "raisins"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Grape"
+  },
+  {
+   "id": "pasteque",
+   "answer": "Pastèque",
+   "exact": [
+    "pasteque"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Watermelon"
+  },
+  {
+   "id": "melon",
+   "answer": "Melon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Cantaloupe"
+  },
+  {
+   "id": "ananas",
+   "answer": "Ananas",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Pineapple"
+  },
+  {
+   "id": "mangue",
+   "answer": "Mangue",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Mango"
+  },
+  {
+   "id": "kiwi",
+   "answer": "Kiwi",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Kiwifruit"
+  },
+  {
+   "id": "citron",
+   "answer": "Citron",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Lemon"
+  },
+  {
+   "id": "citron-vert",
+   "answer": "Citron vert",
+   "exact": [
+    "lime"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Lime_(fruit)"
+  },
+  {
+   "id": "peche",
+   "answer": "Pêche",
+   "exact": [
+    "peche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Peach"
+  },
+  {
+   "id": "abricot",
+   "answer": "Abricot",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Apricot"
+  },
+  {
+   "id": "poire",
+   "answer": "Poire",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Pear"
+  },
+  {
+   "id": "prune",
+   "answer": "Prune",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Plum"
+  },
+  {
+   "id": "framboise",
+   "answer": "Framboise",
+   "exact": [
+    "framboises"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Raspberry"
+  },
+  {
+   "id": "myrtille",
+   "answer": "Myrtille",
+   "exact": [
+    "myrtilles",
+    "bleuet"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Blueberry"
+  },
+  {
+   "id": "noix-de-coco",
+   "answer": "Noix de coco",
+   "exact": [
+    "coco"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Coconut"
+  },
+  {
+   "id": "avocat",
+   "answer": "Avocat",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Avocado"
+  },
+  {
+   "id": "grenade",
+   "answer": "Grenade",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Pomegranate"
+  },
+  {
+   "id": "figue",
+   "answer": "Figue",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Common_fig"
+  },
+  {
+   "id": "litchi",
+   "answer": "Litchi",
+   "exact": [
+    "lychee"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Lychee"
+  },
+  {
+   "id": "carotte",
+   "answer": "Carotte",
+   "exact": [
+    "carottes"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Carrot"
+  },
+  {
+   "id": "tomate",
+   "answer": "Tomate",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Tomato"
+  },
+  {
+   "id": "pomme-de-terre",
+   "answer": "Pomme de terre",
+   "exact": [
+    "patate"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Potato"
+  },
+  {
+   "id": "brocoli",
+   "answer": "Brocoli",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Broccoli"
+  },
+  {
+   "id": "chou-fleur",
+   "answer": "Chou-fleur",
+   "exact": [
+    "chou fleur"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Cauliflower"
+  },
+  {
+   "id": "concombre",
+   "answer": "Concombre",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Cucumber"
+  },
+  {
+   "id": "courgette",
+   "answer": "Courgette",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Zucchini"
+  },
+  {
+   "id": "aubergine",
+   "answer": "Aubergine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Eggplant"
+  },
+  {
+   "id": "poivron",
+   "answer": "Poivron",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Bell_pepper"
+  },
+  {
+   "id": "oignon",
+   "answer": "Oignon",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Onion"
+  },
+  {
+   "id": "ail",
+   "answer": "Ail",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Garlic"
+  },
+  {
+   "id": "champignon",
+   "answer": "Champignon",
+   "exact": [
+    "champignon de paris"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Agaricus_bisporus"
+  },
+  {
+   "id": "mais",
+   "answer": "Maïs",
+   "exact": [
+    "mais"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Maize"
+  },
+  {
+   "id": "petits-pois",
+   "answer": "Petits pois",
+   "exact": [
+    "petit pois"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Pea"
+  },
+  {
+   "id": "salade",
+   "answer": "Salade",
+   "exact": [
+    "laitue"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Lettuce"
+  },
+  {
+   "id": "radis",
+   "answer": "Radis",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Radish"
+  },
+  {
+   "id": "citrouille",
+   "answer": "Citrouille",
+   "exact": [
+    "potiron"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Pumpkin"
+  },
+  {
+   "id": "artichaut",
+   "answer": "Artichaut",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Artichoke"
+  },
+  {
+   "id": "asperge",
+   "answer": "Asperge",
+   "exact": [
+    "asperges"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Asparagus"
+  },
+  {
+   "id": "betterave",
+   "answer": "Betterave",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Beetroot"
+  },
+  {
+   "id": "epinards",
+   "answer": "Épinards",
+   "exact": [
+    "epinard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Spinach"
+  },
+  {
+   "id": "piment",
+   "answer": "Piment",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Chili_pepper"
+  },
+  {
+   "id": "patate-douce",
+   "answer": "Patate douce",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Sweet_potato"
+  },
+  {
+   "id": "poireau",
+   "answer": "Poireau",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "facile"
+   ],
+   "src": "wiki:en:Leek"
+  },
+  {
+   "id": "fruit-du-dragon",
+   "answer": "Fruit du dragon",
+   "exact": [
+    "pitaya"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:en:Pitaya"
+  },
+  {
+   "id": "papaye",
+   "answer": "Papaye",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:en:Papaya"
+  },
+  {
+   "id": "fruit-de-la-passion",
+   "answer": "Fruit de la passion",
+   "exact": [
+    "maracuja"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:en:Passiflora_edulis"
+  },
+  {
+   "id": "gingembre",
+   "answer": "Gingembre",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "moyen"
+   ],
+   "src": "wiki:en:Ginger"
+  },
+  {
+   "id": "carambole",
+   "answer": "Carambole",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:en:Carambola"
+  },
+  {
+   "id": "kaki",
+   "answer": "Kaki",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:en:Japanese_persimmon"
+  },
+  {
+   "id": "durian",
+   "answer": "Durian",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "bouffe",
+    "fruits et légumes",
+    "difficile"
+   ],
+   "src": "wiki:en:Durian"
+  }
+ ]
+}

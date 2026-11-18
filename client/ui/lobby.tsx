@@ -8,7 +8,8 @@ const GROUPS: Record<string, string> = { '': 'Partie', scoring: 'Score', goal: '
 export function Lobby({ s }: { s: PublicState }) {
   const isLeader = s.players.find(p => p.id === s.me)?.leader;
   const defs = store.defs.filter(d => !d.dev || DEBUG);
-  const groups = [...new Set(defs.map(d => d.feature ?? ''))];
+  const packDef = defs.find(d => d.type === 'packs');
+  const groups = [...new Set(defs.filter(d => d.type !== 'packs').map(d => d.feature ?? ''))];
   const set = (key: string, v: any) => { play('select', 0.5); send({ t: 'settings', patch: { [key]: v } }); };
   const link = `${location.origin}/${s.code}`;
 
@@ -18,11 +19,12 @@ export function Lobby({ s }: { s: PublicState }) {
         <h2>Salle <span class="code">{s.code}</span></h2>
         <button class="btn ghost" onClick={() => navigator.clipboard?.writeText(link)}>📋 Copier le lien</button>
       </div>
+      {packDef && <fieldset class="packs-field" disabled={!isLeader}><legend>Packs</legend><Setting d={packDef} v={s.settings[packDef.key]} set={set} /></fieldset>}
       <div class="settings">
         {groups.map(g => (
           <fieldset key={g} disabled={!isLeader}>
             <legend>{GROUPS[g] ?? g}</legend>
-            {defs.filter(d => (d.feature ?? '') === g).map(d => <Setting key={d.key} d={d} v={s.settings[d.key]} set={set} />)}
+            {defs.filter(d => (d.feature ?? '') === g && d.type !== 'packs').map(d => <Setting key={d.key} d={d} v={s.settings[d.key]} set={set} />)}
           </fieldset>
         ))}
       </div>
@@ -64,7 +66,7 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
       {d.type === 'bool' && <input type="checkbox" checked={!!v} onChange={e => set(d.key, (e.target as HTMLInputElement).checked)} />}
       {d.type === 'number' && <input type="number" value={v} min={d.min} max={d.max} step={d.step ?? 1} onChange={e => set(d.key, +(e.target as HTMLInputElement).value)} />}
       {d.type === 'select' && (
-        <select value={v} onChange={e => set(d.key, (e.target as HTMLSelectElement).value)}>
+        <select value={v} onChange={e => { const raw = (e.target as HTMLSelectElement).value; set(d.key, d.options?.find(o => String(o.value) === raw)?.value ?? raw); }}>
           {d.options?.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
         </select>
       )}

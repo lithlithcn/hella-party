@@ -11,10 +11,12 @@ export function resolveWiki(src: string): Promise<string | undefined> {
   if (!p) {
     const m = src.match(/^wiki:(?:([a-z]{2,3}):)?(.+)$/)!;
     const lang = m[1] ?? 'fr', title = encodeURIComponent(m[2].trim().replace(/ /g, '_'));
-    p = fetch(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${title}`)
-      .then(r => r.json())
-      .then((j: any) => j.thumbnail?.source?.replace(/\/(\d+)px-/, '/640px-') ?? j.originalimage?.source)
+    const one = (l: string) => fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${title}`)
+      .then(r => (r.ok ? r.json() : null))
+      .then((j: any) => j?.thumbnail?.source?.replace(/\/(\d+)px-/, '/640px-') ?? j?.originalimage?.source)
       .catch(() => undefined);
+    // same title on the other language as a fallback (titles are often identical)
+    p = one(lang).then(u => u ?? one(lang === 'fr' ? 'en' : 'fr'));
     wikiCache.set(src, p);
   }
   return p;
@@ -23,9 +25,9 @@ export const isWiki = (src?: string) => !!src && src.startsWith('wiki:');
 
 /** Media URL, resolving wiki: sources. */
 export function useSrc(src?: string) {
-  const [url, setUrl] = useState<string | undefined>(isWiki(src) ? undefined : src);
-  useEffect(() => { if (isWiki(src)) { setUrl(undefined); resolveWiki(src!).then(setUrl); } else setUrl(src); }, [src]);
-  return url;
+  const [url, setUrl] = useState<string | null | undefined>(isWiki(src) ? undefined : src);
+  useEffect(() => { if (isWiki(src)) { setUrl(undefined); resolveWiki(src!).then(u => setUrl(u ?? null)); } else setUrl(src); }, [src]);
+  return url; // undefined = loading, null = not found
 }
 
 export interface QProps {

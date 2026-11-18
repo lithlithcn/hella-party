@@ -1,0 +1,622 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "super-heros",
+ "name": "Super-héros & méchants",
+ "emoji": "🦸",
+ "prompt": "Qui est-ce ?",
+ "tags": [
+  "super-héros"
+ ],
+ "questions": [
+  {
+   "id": "spider-man",
+   "answer": "Spider-Man",
+   "exact": [
+    "spiderman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Spider-Man"
+  },
+  {
+   "id": "batman",
+   "answer": "Batman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Batman"
+  },
+  {
+   "id": "superman",
+   "answer": "Superman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Superman"
+  },
+  {
+   "id": "wonder-woman",
+   "answer": "Wonder Woman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Wonder_Woman"
+  },
+  {
+   "id": "iron-man",
+   "answer": "Iron Man",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Iron_Man"
+  },
+  {
+   "id": "captain-america",
+   "answer": "Captain America",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Captain_America"
+  },
+  {
+   "id": "hulk",
+   "answer": "Hulk",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Hulk"
+  },
+  {
+   "id": "thor",
+   "answer": "Thor",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Thor_(Marvel_Comics)"
+  },
+  {
+   "id": "wolverine",
+   "answer": "Wolverine",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Wolverine_(character)"
+  },
+  {
+   "id": "deadpool",
+   "answer": "Deadpool",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Deadpool"
+  },
+  {
+   "id": "flash",
+   "answer": "Flash",
+   "exact": [
+    "the flash"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Flash_(Barry_Allen)"
+  },
+  {
+   "id": "aquaman",
+   "answer": "Aquaman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Aquaman"
+  },
+  {
+   "id": "black-panther",
+   "answer": "Black Panther",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Black_Panther_(character)"
+  },
+  {
+   "id": "doctor-strange",
+   "answer": "Doctor Strange",
+   "exact": [
+    "docteur strange"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Doctor_Strange"
+  },
+  {
+   "id": "groot",
+   "answer": "Groot",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Groot"
+  },
+  {
+   "id": "venom",
+   "answer": "Venom",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Venom_(character)"
+  },
+  {
+   "id": "joker",
+   "answer": "Joker",
+   "exact": [
+    "le joker"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Joker_(character)"
+  },
+  {
+   "id": "thanos",
+   "answer": "Thanos",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Thanos"
+  },
+  {
+   "id": "harley-quinn",
+   "answer": "Harley Quinn",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Harley_Quinn"
+  },
+  {
+   "id": "catwoman",
+   "answer": "Catwoman",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Catwoman"
+  },
+  {
+   "id": "hawkeye",
+   "answer": "Hawkeye",
+   "exact": [
+    "oeil de faucon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Clint_Barton"
+  },
+  {
+   "id": "black-widow",
+   "answer": "Black Widow",
+   "exact": [
+    "veuve noire"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Black_Widow_(Natasha_Romanova)"
+  },
+  {
+   "id": "captain-marvel",
+   "answer": "Captain Marvel",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Carol_Danvers"
+  },
+  {
+   "id": "ant-man",
+   "answer": "Ant-Man",
+   "exact": [
+    "antman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Ant-Man"
+  },
+  {
+   "id": "robin",
+   "answer": "Robin",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Robin_(character)"
+  },
+  {
+   "id": "supergirl",
+   "answer": "Supergirl",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Supergirl"
+  },
+  {
+   "id": "green-lantern",
+   "answer": "Green Lantern",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Green_Lantern"
+  },
+  {
+   "id": "loki",
+   "answer": "Loki",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Loki_(Marvel_Comics)"
+  },
+  {
+   "id": "magneto",
+   "answer": "Magneto",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Magneto_(Marvel_Comics)"
+  },
+  {
+   "id": "bouffon-vert",
+   "answer": "Bouffon vert",
+   "exact": [
+    "green goblin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Green_Goblin"
+  },
+  {
+   "id": "docteur-octopus",
+   "answer": "Docteur Octopus",
+   "exact": [
+    "doctor octopus",
+    "doc ock"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Doctor_Octopus"
+  },
+  {
+   "id": "ultron",
+   "answer": "Ultron",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Ultron"
+  },
+  {
+   "id": "bane",
+   "answer": "Bane",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Bane_(DC_Comics)"
+  },
+  {
+   "id": "miles-morales",
+   "answer": "Miles Morales",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Miles_Morales"
+  },
+  {
+   "id": "rocket",
+   "answer": "Rocket",
+   "exact": [
+    "rocket raccoon"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Rocket_Raccoon"
+  },
+  {
+   "id": "sorciere-rouge",
+   "answer": "Sorcière rouge",
+   "exact": [
+    "scarlet witch",
+    "wanda"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "super-héros",
+    "facile"
+   ],
+   "src": "wiki:en:Scarlet_Witch"
+  },
+  {
+   "id": "lex-luthor",
+   "answer": "Lex Luthor",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Lex_Luthor"
+  },
+  {
+   "id": "le-pingouin",
+   "answer": "Le Pingouin",
+   "exact": [
+    "penguin",
+    "pingouin"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Penguin_(character)"
+  },
+  {
+   "id": "daredevil",
+   "answer": "Daredevil",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Daredevil_(Marvel_Comics_character)"
+  },
+  {
+   "id": "surfeur-d-argent",
+   "answer": "Surfeur d'argent",
+   "exact": [
+    "silver surfer"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Silver_Surfer"
+  },
+  {
+   "id": "vision",
+   "answer": "Vision",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Vision_(Marvel_Comics)"
+  },
+  {
+   "id": "cyclope",
+   "answer": "Cyclope",
+   "exact": [
+    "cyclops"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Cyclops_(Marvel_Comics)"
+  },
+  {
+   "id": "tornade",
+   "answer": "Tornade",
+   "exact": [
+    "storm"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Storm_(Marvel_Comics)"
+  },
+  {
+   "id": "shazam",
+   "answer": "Shazam",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Captain_Marvel_(DC_Comics)"
+  },
+  {
+   "id": "cyborg",
+   "answer": "Cyborg",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Cyborg_(DC_Comics)"
+  },
+  {
+   "id": "galactus",
+   "answer": "Galactus",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Galactus"
+  },
+  {
+   "id": "poison-ivy",
+   "answer": "Poison Ivy",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Poison_Ivy_(character)"
+  },
+  {
+   "id": "mystique",
+   "answer": "Mystique",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Mystique_(character)"
+  },
+  {
+   "id": "gambit",
+   "answer": "Gambit",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Gambit_(Marvel_Comics)"
+  },
+  {
+   "id": "ms-marvel",
+   "answer": "Ms. Marvel",
+   "exact": [
+    "kamala khan",
+    "miss marvel"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Kamala_Khan"
+  },
+  {
+   "id": "nick-fury",
+   "answer": "Nick Fury",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "super-héros",
+    "moyen"
+   ],
+   "src": "wiki:en:Nick_Fury"
+  },
+  {
+   "id": "darkseid",
+   "answer": "Darkseid",
+   "exact": [],
+   "difficulty": 3,
+   "tags": [
+    "super-héros",
+    "difficile"
+   ],
+   "src": "wiki:en:Darkseid"
+  }
+ ]
+}

@@ -1,0 +1,849 @@
+{
+ "format": "hella-pack",
+ "version": 1,
+ "author": "Hella Party",
+ "id": "youtubeurs-fr",
+ "name": "Youtubeurs & streamers FR",
+ "emoji": "▶️",
+ "prompt": "Qui est-ce ?",
+ "tags": [
+  "youtube",
+  "internet"
+ ],
+ "questions": [
+  {
+   "id": "squeezie",
+   "answer": "Squeezie",
+   "exact": [
+    "lucas hauchard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Organise le GP Explorer · Une des plus grosses chaînes françaises · De son vrai nom Lucas"
+  },
+  {
+   "id": "cyprien",
+   "answer": "Cyprien",
+   "exact": [
+    "cyprien iov"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Longtemps la plus grosse chaîne FR · Sketchs humoristiques depuis 2007 · Fait aussi des BD"
+  },
+  {
+   "id": "norman",
+   "answer": "Norman",
+   "exact": [
+    "norman thavaud"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« … fait des vidéos » · Humour du quotidien · Est passé au cinéma"
+  },
+  {
+   "id": "mister-v",
+   "answer": "Mister V",
+   "exact": [
+    "mister v",
+    "yvick letexier"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Rappeur et humoriste · Ses propres pizzas surgelées · Vient de Grenoble"
+  },
+  {
+   "id": "inoxtag",
+   "answer": "Inoxtag",
+   "exact": [
+    "inox"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "A gravi l'Everest pour le film « Kaizen » · Ancien joueur Fortnite · Meilleur ami de Michou"
+  },
+  {
+   "id": "michou",
+   "answer": "Michou",
+   "exact": [],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Très gros youtubeur ado · Inséparable d'Inoxtag · Vidéos défis et délires"
+  },
+  {
+   "id": "tibo-inshape",
+   "answer": "Tibo InShape",
+   "exact": [
+    "tibo inshape",
+    "tibo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Youtubeur muscu n°1 en France · Souvent torse nu · Défis sportifs"
+  },
+  {
+   "id": "mcfly-et-carlito",
+   "answer": "McFly et Carlito",
+   "exact": [
+    "mcfly carlito",
+    "mcfly & carlito"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Duo humoriste · Concours d'anecdotes · Vidéo tournée avec le président de la République"
+  },
+  {
+   "id": "lena-situations",
+   "answer": "Lena Situations",
+   "exact": [
+    "lena situations",
+    "lena"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Vlogs de sa vie · Livre « Toujours plus » · Habituée de la Fashion Week"
+  },
+  {
+   "id": "natoo",
+   "answer": "Natoo",
+   "exact": [
+    "natoo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Sketchs humoristiques · Une des premières grandes youtubeuses françaises"
+  },
+  {
+   "id": "joyca",
+   "answer": "Joyca",
+   "exact": [],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Défis et mini-jeux entre potes · Énorme chaîne gaming/divertissement"
+  },
+  {
+   "id": "le-grand-jd",
+   "answer": "Le Grand JD",
+   "exact": [
+    "grand jd",
+    "legrandjd"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Gaming et défis · Énorme communauté · Un des plus gros youtubeurs gaming FR"
+  },
+  {
+   "id": "zerator",
+   "answer": "ZeratoR",
+   "exact": [
+    "zerator"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Streamer · Fondateur du ZEvent (marathon caritatif) · « ZLAN »"
+  },
+  {
+   "id": "kameto",
+   "answer": "Kameto",
+   "exact": [
+    "kameto"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Streamer · Cofondateur de la Karmine Corp"
+  },
+  {
+   "id": "gotaga",
+   "answer": "Gotaga",
+   "exact": [
+    "gotaga"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Légende de Call of Duty · Fondateur de la Vitality · Surnommé « le GOAT »"
+  },
+  {
+   "id": "domingo",
+   "answer": "Domingo",
+   "exact": [
+    "domingo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Animateur du « Popcorn » sur Twitch · Interviews de célébrités"
+  },
+  {
+   "id": "antoine-daniel",
+   "answer": "Antoine Daniel",
+   "exact": [
+    "antoine daniel",
+    "wtc"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« What the Cut » · Analyse de vidéos absurdes · Lunettes et barbe"
+  },
+  {
+   "id": "hugodecrypte",
+   "answer": "HugoDécrypte",
+   "exact": [
+    "hugo decrypte",
+    "hugo"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Résume l'actualité pour les jeunes · Interviews de personnalités"
+  },
+  {
+   "id": "joueur-du-grenier",
+   "answer": "Joueur du Grenier",
+   "exact": [
+    "jdg"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Teste les jeux rétro les plus nuls · Fred et Seb"
+  },
+  {
+   "id": "mathieu-sommet",
+   "answer": "Mathieu Sommet",
+   "exact": [
+    "salut les geeks",
+    "sommet"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "« Salut les geeks » · Plusieurs personnages qui se disputent"
+  },
+  {
+   "id": "le-rire-jaune",
+   "answer": "Le Rire Jaune",
+   "exact": [
+    "rire jaune"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Deux frères · Kevin et Henry Tran · Sketchs sur la culture asiatique"
+  },
+  {
+   "id": "dr-nozman",
+   "answer": "Dr Nozman",
+   "exact": [
+    "nozman",
+    "dr nozman"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Vulgarisation scientifique · Expériences spectaculaires"
+  },
+  {
+   "id": "e-penser",
+   "answer": "e-penser",
+   "exact": [
+    "epenser",
+    "e penser"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Vulgarisation scientifique · Bruce Benamran"
+  },
+  {
+   "id": "nota-bene",
+   "answer": "Nota Bene",
+   "exact": [
+    "nota bene"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Vulgarisation d'histoire · Benjamin Brillaud"
+  },
+  {
+   "id": "fabien-olicard",
+   "answer": "Fabien Olicard",
+   "exact": [
+    "olicard"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Mentaliste · Mémoire et psychologie"
+  },
+  {
+   "id": "studio-bagel",
+   "answer": "Studio Bagel",
+   "exact": [
+    "studio bagel"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Collectif de sketchs · Racheté par Canal+"
+  },
+  {
+   "id": "golden-moustache",
+   "answer": "Golden Moustache",
+   "exact": [
+    "golden moustache"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Collectif humoristique · Sketchs et séries courtes"
+  },
+  {
+   "id": "enjoyphoenix",
+   "answer": "EnjoyPhoenix",
+   "exact": [
+    "enjoy phoenix"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Beauté et lifestyle · Marie Lopez"
+  },
+  {
+   "id": "andy-raconte",
+   "answer": "Andy Raconte",
+   "exact": [
+    "andy"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Raconte des histoires et anecdotes · Ton dynamique"
+  },
+  {
+   "id": "wankil-studio",
+   "answer": "Wankil Studio",
+   "exact": [
+    "wankil",
+    "laink et terracid"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Duo gaming Laink et Terracid"
+  },
+  {
+   "id": "frigiel",
+   "answer": "Frigiel",
+   "exact": [
+    "frigiel"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Youtubeur Minecraft · Personnage aux cheveux rouges"
+  },
+  {
+   "id": "furious-jumper",
+   "answer": "Furious Jumper",
+   "exact": [
+    "furious jumper"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Youtubeur Minecraft et gaming familial"
+  },
+  {
+   "id": "aminematue",
+   "answer": "AmineMaTue",
+   "exact": [
+    "amine",
+    "aminematue"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Streamer Twitch · Défis et délires"
+  },
+  {
+   "id": "ponce",
+   "answer": "Ponce",
+   "exact": [
+    "ponce"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Streamer Twitch · Ambiance détendue et jeux variés"
+  },
+  {
+   "id": "etoiles",
+   "answer": "Etoiles",
+   "exact": [
+    "etoiles"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Streamer et vidéaste · Ultra cultivé en jeux vidéo"
+  },
+  {
+   "id": "sardoche",
+   "answer": "Sardoche",
+   "exact": [
+    "sardoche"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Streamer League of Legends · Célèbre pour ses rages"
+  },
+  {
+   "id": "vilebrequin",
+   "answer": "Vilebrequin",
+   "exact": [
+    "vilebrequin"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Chaîne automobile · Sylvain et Pierre · Voitures improbables"
+  },
+  {
+   "id": "jhon-rachid",
+   "answer": "Jhon Rachid",
+   "exact": [
+    "jhon rachid"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Humoriste · Sketchs « Les problèmes de … »"
+  },
+  {
+   "id": "lama-fache",
+   "answer": "Lama Faché",
+   "exact": [
+    "lama fache"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Vidéos insolites et jeux de tests"
+  },
+  {
+   "id": "doc-seven",
+   "answer": "Doc Seven",
+   "exact": [
+    "doc seven"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Top des faits étonnants · Vulgarisation"
+  },
+  {
+   "id": "linguisticae",
+   "answer": "Linguisticae",
+   "exact": [
+    "linguisticae"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Vulgarisation linguistique · Langues et expressions"
+  },
+  {
+   "id": "siphano",
+   "answer": "Siphano",
+   "exact": [
+    "siphano"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Youtubeur gaming · Minecraft et tests"
+  },
+  {
+   "id": "aypierre",
+   "answer": "Aypierre",
+   "exact": [
+    "aypierre"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Youtubeur Minecraft historique"
+  },
+  {
+   "id": "ibai",
+   "answer": "Ibai",
+   "exact": [
+    "ibai"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Streamer espagnol · Organisateur de la Velada del Año"
+  },
+  {
+   "id": "amixem",
+   "answer": "Amixem",
+   "exact": [
+    "amixem"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Gaming et délires · Une des plus grosses chaînes divertissement FR"
+  },
+  {
+   "id": "mastu",
+   "answer": "Mastu",
+   "exact": [
+    "mastu"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "youtube",
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Streamer gaming · Habitué du ZEvent"
+  },
+  {
+   "id": "baghera-jones",
+   "answer": "Baghera Jones",
+   "exact": [
+    "baghera"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "youtube",
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Streameuse · Habituée du ZEvent"
+  },
+  {
+   "id": "maghla",
+   "answer": "Maghla",
+   "exact": [
+    "maghla"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "youtube",
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Streameuse Twitch · Gaming et discussions"
+  },
+  {
+   "id": "rebeudeter",
+   "answer": "Rebeudeter",
+   "exact": [
+    "rebeudeter"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "youtube",
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Streamer · Humour et gaming · Habitué du ZEvent"
+  },
+  {
+   "id": "micode",
+   "answer": "Micode",
+   "exact": [
+    "micode"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Tech et hacking · Cofondateur de l'émission « Underscore_ »"
+  },
+  {
+   "id": "cyrus-north",
+   "answer": "Cyrus North",
+   "exact": [
+    "cyrus north"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Vulgarisation de philosophie"
+  },
+  {
+   "id": "gaspard-g",
+   "answer": "Gaspard G",
+   "exact": [
+    "gaspard g"
+   ],
+   "difficulty": 2,
+   "tags": [
+    "youtube",
+    "internet",
+    "moyen"
+   ],
+   "type": "text",
+   "text": "Interviews et documentaires sur l'actualité"
+  },
+  {
+   "id": "theodort",
+   "answer": "Theodort",
+   "exact": [
+    "theodort"
+   ],
+   "difficulty": 3,
+   "tags": [
+    "youtube",
+    "internet",
+    "difficile"
+   ],
+   "type": "text",
+   "text": "Humoriste et streamer · Délires et improvisations"
+  },
+  {
+   "id": "mrbeast",
+   "answer": "MrBeast",
+   "exact": [
+    "mr beast",
+    "mrbeast"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Le plus gros youtubeur du monde · Défis à des millions de dollars · Américain"
+  },
+  {
+   "id": "pewdiepie",
+   "answer": "PewDiePie",
+   "exact": [
+    "pewdiepie"
+   ],
+   "difficulty": 1,
+   "tags": [
+    "youtube",
+    "internet",
+    "facile"
+   ],
+   "type": "text",
+   "text": "Youtubeur suédois · Longtemps n°1 mondial · « Subscribe to … »"
+  }
+ ]
+}
