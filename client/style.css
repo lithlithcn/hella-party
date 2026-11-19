@@ -300,3 +300,9 @@ button, .btn { transition: transform .08s, filter .15s; } button:active, .btn:ac
 /* combo badge + time side by side, top-left of the card */
 .ptags { position: absolute; top: -10px; left: -6px; z-index: 3; display: flex; align-items: center; gap: 4px; pointer-events: none; }
 .ptags .combo, .ptags .pfound { position: static; }
+/* fixes: popover always fully on screen (sliders reach both ends), topbar never wider than the screen */
+.topbar { flex-wrap: wrap; gap: 8px; max-width: 100vw; }
+.volpop { position: fixed; top: 64px; right: 8px; left: auto; width: min(320px, calc(100vw - 16px)); }
+.volpop input[type=range] { width: 100%; margin: 6px 0; touch-action: pan-y; }
+/* combo + time together, top-right of the card */
+.ptags { left: auto; right: -6px; }

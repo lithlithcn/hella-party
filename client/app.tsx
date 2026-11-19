@@ -88,7 +88,7 @@ function Room({ code }: { code: string }) {
         {s && <span class="code" title="Copier le lien" onClick={() => navigator.clipboard?.writeText(location.href)}>{code}</span>}
         <span class={`dot ${st.online ? 'on' : ''}`} title={st.online ? 'Connecté' : 'Reconnexion…'} />
         <span class="grow" />
-        <VolumeMenu /><LookMenu /><LookMenu />
+        <VolumeMenu /><LookMenu />
         {me?.leader && s?.status === 'playing' && <button class="btn ghost small" onClick={() => send({ t: 'stop' })}>Arrêter</button>}
       </header>
       {s ? (
