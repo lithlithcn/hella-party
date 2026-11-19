@@ -27,8 +27,9 @@ export function Players({ s }: { s: PublicState }) {
             {p.guess && <div class={`pguess ${f ? 'said' : ''}`} key={p.guess}>{p.guess}</div>}
             <div class="ptags">
               {CLIENT_FEATURES.map(ft => ft.PlayerCard && <ft.PlayerCard key={ft.id} s={s} p={p} />)}
+              {f && reveal && <div class="ppts">+{f.points}</div>}
             </div>
-            {f && <div class="pfound">{reveal ? `+${f.points}` : `✓ ${fmtMs(f.ms)}`}</div>}
+            {f && <div class="pfound">✓ {fmtMs(f.ms)}</div>}
           </div>
         );
       })}

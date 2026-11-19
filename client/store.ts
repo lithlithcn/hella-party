@@ -81,7 +81,10 @@ export const focusTargets = { answer: () => null as HTMLInputElement | null, cha
 function focusHandoff(prev?: string, next?: string) {
   if (prev === next) return;
   const answer = focusTargets.answer(), chat = focusTargets.chat(), active = document.activeElement;
-  if (next === 'question') { if (answer && (active === chat ? !chat?.value : true)) answer.focus({ preventScroll: true }); }
+  if (next === 'question') {
+    if (matchMedia('(pointer: coarse)').matches) { if (active === answer || (active === chat && !chat?.value)) (active as HTMLElement).blur(); }
+    else if (answer && (active === chat ? !chat?.value : true)) answer.focus({ preventScroll: true });
+  }
   else if (prev === 'question' && active === answer) chat?.focus({ preventScroll: true });
 }
 

@@ -320,8 +320,6 @@ button, .btn { transition: transform .08s, filter .15s; } button:active, .btn:ac
 @keyframes inv { 0% { filter: invert(1) hue-rotate(180deg); } 100% { filter: none; } }
 .stage.recoil { animation: rcl .25s ease-out; }
 @keyframes rcl { 30% { transform: translateX(-7px); } 60% { transform: translateX(4px); } }
-/* mobile keyboard open: compact header, image shrinks so image + field both fit above the keyboard */
-body.kb .topbar { display: none; }
-body.kb .q-prompt { font-size: 1em; margin: 2px 0; }
-body.kb .q-image { max-height: calc(var(--vvh, 100vh) - 200px); }
-body.kb .q-hint, body.kb .timer span { font-size: .85em; }
+
+/* card: +points right of the combo badge, answer time always bottom-right */
+.ptags .ppts { font-family: Bungee, sans-serif; font-size: .8em; background: var(--lime); color: #000; padding: 1px 7px; border-radius: 999px; animation: fslide .35s cubic-bezier(.2,1.6,.4,1); }

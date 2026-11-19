@@ -31,16 +31,3 @@ export function recoil() {
   st.classList.remove('recoil'); void st.offsetWidth; st.classList.add('recoil');
 }
 
-// Mobile keyboard: keep the image AND the answer field visible. --vvh = visible height; body.kb while the keyboard is up.
-const vv = window.visualViewport;
-if (vv) {
-  const upd = () => {
-    const kb = vv.height < window.innerHeight * 0.8 && window.matchMedia('(max-width: 860px)').matches;
-    document.documentElement.style.setProperty('--vvh', `${Math.round(vv.height)}px`);
-    if (kb !== document.body.classList.contains('kb')) {
-      document.body.classList.toggle('kb', kb);
-      if (kb) requestAnimationFrame(() => document.querySelector('.stage')?.scrollIntoView({ block: 'start' }));
-    }
-  };
-  vv.addEventListener('resize', upd); upd();
-}

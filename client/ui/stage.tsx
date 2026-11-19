@@ -7,6 +7,7 @@ import { onFx, send, store } from '../store';
 import { play, sfx } from '../sfx';
 import { fmtMs, useNow } from './util';
 import { flash, hit, recoil } from './fx';
+const TOUCH = matchMedia('(pointer: coarse)').matches;
 import { Lobby } from './lobby';
 
 export const QT: Record<string, FunctionComponent<QProps>> = Object.fromEntries(
@@ -126,7 +127,8 @@ function AnswerBox({ s }: { s: PublicState }) {
   useEffect(() => {
     if (open && ref.current) {
       ref.current.value = ''; setFb(''); sfx.start();
-      if (!document.activeElement || document.activeElement === document.body) ref.current.focus({ preventScroll: true });
+      // phones: never pop the keyboard by itself (it hides the image) — the player taps the field when ready
+      if (!TOUCH && (!document.activeElement || document.activeElement === document.body)) ref.current.focus({ preventScroll: true });
     }
   }, [s.phase?.startedAt]);
 
