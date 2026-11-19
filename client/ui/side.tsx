@@ -21,7 +21,7 @@ export function Players({ s }: { s: PublicState }) {
             <span onClick={() => p.id === s.me && setEdit(true)} title={p.id === s.me ? 'Changer ma photo' : undefined} class={p.id === s.me ? 'clickable' : ''}><Avatar name={p.name} id={p.id} /></span>
             <div class="pinfo">
               <div class="pname">{p.leader && '👑 '}{p.name}</div>
-              <div class="pscore">{p.score}</div>
+              <div class="pscore"><Count v={p.score} /></div>
             </div>
 
             {p.guess && <div class={`pguess ${f ? 'said' : ''}`} key={p.guess}>{p.guess}</div>}
@@ -71,4 +71,18 @@ export function Chat() {
       </form>
     </section>
   );
+}
+
+/** Score that counts up (≈0.6 s, ease-out) instead of jumping — one rAF loop only while it moves. */
+function Count({ v }: { v: number }) {
+  const [shown, setShown] = useState(v);
+  const from = useRef(v);
+  useLayoutEffect(() => {
+    const a = from.current, d = v - a; if (!d) return;
+    const t0 = performance.now(); let raf = 0;
+    const step = (t: number) => { const k = Math.min(1, (t - t0) / 600); const n = Math.round(a + d * (1 - (1 - k) ** 3)); setShown(n); from.current = n; if (k < 1) raf = requestAnimationFrame(step); };
+    raf = requestAnimationFrame(step);
+    return () => cancelAnimationFrame(raf);
+  }, [v]);
+  return <span class={shown !== v ? 'counting' : ''}>{shown}</span>;
 }

@@ -56,7 +56,7 @@ export function connect(code: string) {
       case 'avatar': store.avatars = { ...store.avatars }; if (m.data) store.avatars[m.id] = m.data; else delete store.avatars[m.id]; break;
       case 'state': focusHandoff(store.s?.phase?.name, m.s.phase?.name); store.s = m.s; store.offset = m.s.now - Date.now(); break;
       case 'chat': store.chat = [...store.chat.slice(-150), m]; if (m.from) play('chat', 0.6); break;
-      case 'fx': if (m.kind === 'preload' && m.data?.src) preload(m.data.src); if (m.kind === 'join') play('join', 0.7); if (m.kind === 'error') play('invalid'); fxListeners.forEach(l => l(m)); if (m.kind === 'error' && DEBUG) store.chat = [...store.chat, { from: null, name: '', text: `⚠ ${m.data?.where ?? ''} ${m.data?.msg}` }]; break;
+      case 'fx': if (m.kind === 'preload' && m.data?.src) preload(m.data.src); if (m.kind === 'join') play('join', 0.7); if (m.kind === 'leave') play('leave', 0.8); if (m.kind === 'error') play('invalid'); fxListeners.forEach(l => l(m)); if (m.kind === 'error' && DEBUG) store.chat = [...store.chat, { from: null, name: '', text: `⚠ ${m.data?.where ?? ''} ${m.data?.msg}` }]; break;
       case 'err': console.warn(m.msg); break;
     }
     changed();

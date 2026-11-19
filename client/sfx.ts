@@ -10,6 +10,7 @@ export const SOUND_EVENTS = [
   { id: 'tick', label: '5 dernières secondes (chaque seconde)' },
   { id: 'spawn', label: 'Révélation de la réponse' },
   { id: 'join', label: 'Un joueur rejoint' },
+  { id: 'leave', label: 'Un joueur se déconnecte' },
   { id: 'chat', label: 'Message du chat' },
   { id: 'invalid', label: 'Action impossible / erreur' },
   { id: 'victory', label: 'Victoire' },
@@ -62,13 +63,23 @@ export async function play(id: SoundId, gain = 1) {
   const v = volume.get() * gain;
   if (v <= 0) return;
   const buf = await load(id);
-  if (!buf) return;
+  if (!buf) { if (SYNTH[id]) SYNTH[id](ac(), v); return; }
   const c = ac(), src = c.createBufferSource(), g = c.createGain();
   g.gain.value = v;
   src.buffer = buf;
   src.connect(g).connect(c.destination);
   src.start();
 }
+
+// Code-made fallbacks (WebAudio) for events without a sound file. Studio overrides still win.
+const SYNTH: Record<string, (c: AudioContext, v: number) => void> = {
+  leave(c, v) { // soft descending "bloop"
+    const o = c.createOscillator(), g = c.createGain(), t = c.currentTime;
+    o.type = 'triangle'; o.frequency.setValueAtTime(520, t); o.frequency.exponentialRampToValueAtTime(140, t + .35);
+    g.gain.setValueAtTime(v * .5, t); g.gain.exponentialRampToValueAtTime(.001, t + .4);
+    o.connect(g).connect(c.destination); o.start(t); o.stop(t + .42);
+  },
+};
 
 export const playRandom = (...ids: SoundId[]) => play(ids[Math.floor(Math.random() * ids.length)]);
 

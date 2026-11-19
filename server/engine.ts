@@ -168,6 +168,7 @@ export class Game {
     if (this.status === 'lobby') this.players.delete(id);
     if (this.leaderId === id) this.leaderId = this.humans.find(h => h.connected)?.id ?? null;
     this.chat(`${p.name} est parti`);
+    this.fx(null, 'leave', { id });
     this.emit('playerLeave', { player: p });
     if (!this.humans.some(h => h.connected)) this.stop();
     this.io.sync();

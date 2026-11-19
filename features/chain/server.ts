@@ -40,5 +40,7 @@ export default defineFeature<S>({
       if (humans.length && humans.every(p => g.found.get(p.id)?.grade === 'exact')) s.pool.push(q);
     },
   },
+  // quick-fire questions are already known: worth 2.5× less
+  score: [{ order: 40, apply(g, ctx) { if ((g.f.chain as S).run) ctx.points /= 2.5; } }],
   view: g => { const s: S = g.f.chain; return { run: s.run && { i: s.run.i, n: s.run.keys.length }, pool: s.pool.length }; },
 });

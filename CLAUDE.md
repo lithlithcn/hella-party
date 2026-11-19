@@ -74,7 +74,7 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - Avatars: 128px WebP data URL, sent in hello / {t:'avatar'}; Room relays them separately from state (never inside the state snapshot).
 
 ## Features in place
-- `scoring`, `goal`, `bots` (debug). `streak`: x1, x2… combo badge (exact answers in a row; fx 'streak'; chat at every 5). `chain` (option, off by default): when every connected human found the same N questions (default 5), they come back as a quick-fire round (intro phase 'chain.intro', forced questions with chain.time).
+- `scoring`, `goal`, `bots` (debug). `streak`: x1, x2… combo badge (exact answers in a row; fx 'streak'; chat at every 5). `chain` (option, off by default): when every connected human found the same N questions (default 5), they come back as a quick-fire round (intro phase 'chain.intro', forced questions with chain.time, points ÷2.5).
 
 ## Debug
 - `?debug` in the URL: state JSON overlay, dev settings (bots), feature errors in chat.
