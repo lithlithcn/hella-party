@@ -6,7 +6,7 @@ import { CLIENT_FEATURES } from '../feature';
 import { onFx, send, store } from '../store';
 import { play, sfx } from '../sfx';
 import { fmtMs, useNow } from './util';
-import { flash } from './fx';
+import { flash, hit, recoil } from './fx';
 import { Lobby } from './lobby';
 
 export const QT: Record<string, FunctionComponent<QProps>> = Object.fromEntries(
@@ -114,6 +114,7 @@ function AnswerBox({ s }: { s: PublicState }) {
         const d = m.data;
         const cls = d.ok ? (d.grade === 'exact' ? 'ok' : 'partial') : 'bad';
         (d.ok ? (d.grade === 'exact' ? sfx.correct : sfx.partial) : sfx.wrong)();
+        if (!d.ok) recoil(); else if (d.grade === 'exact') hit(1);
         setFb(''); requestAnimationFrame(() => setFb(cls));
       } else if (m.kind === 'found') {
         if (m.data.id !== store.s?.me) sfx.other();

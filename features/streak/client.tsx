@@ -1,6 +1,8 @@
 // x1, x2, x3… combo badge on player cards. Colour climbs the spectrum; each new level replays a
 // one-shot animation whose strength grows with the combo (no infinite animations: weak phones).
 import type { ClientFeature } from '../../client/feature';
+import { hit } from '../../client/ui/fx';
+import { store } from '../../client/store';
 
 const HUES = [200, 170, 130, 85, 50, 30, 10, 340, 300, 275];
 export const comboStyle = (n: number) => {
@@ -20,4 +22,6 @@ export default {
       </div>
     );
   },
+  // bigger combos hit harder (only on my own screen)
+  onFx(m) { if (m.kind === 'streak' && m.data?.id === store.s?.me && m.data.n >= 3) hit(m.data.n >= 8 ? 3 : 2); },
 } satisfies ClientFeature;

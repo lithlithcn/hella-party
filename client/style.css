@@ -309,3 +309,19 @@ button, .btn { transition: transform .08s, filter .15s; } button:active, .btn:ac
 .pcard > .pfound { position: absolute; top: auto; right: 8px; bottom: 5px; z-index: 2; }
 .pguess { z-index: 40; top: calc(100% - 2px); max-width: calc(100% - 8px); padding: .2em .65em; border-radius: 12px; box-shadow: 0 4px 14px #0007; }
 .players { position: relative; z-index: 1; }
+
+/* shmup-style hits (one-shot, transform/filter on the stage only) */
+.stage.hit1 { animation: shk1 .22s linear; }
+.stage.hit2 { animation: shk2 .3s linear, inv .1s steps(1); }
+.stage.hit3 { animation: shk3 .45s linear, inv .16s steps(2); }
+@keyframes shk1 { 25% { transform: translate(3px, -2px); } 50% { transform: translate(-3px, 2px); } 75% { transform: translate(2px, 1px); } }
+@keyframes shk2 { 20% { transform: translate(6px, -4px) rotate(.4deg); } 40% { transform: translate(-6px, 3px); } 60% { transform: translate(4px, 2px) rotate(-.4deg); } 80% { transform: translate(-2px, -1px); } }
+@keyframes shk3 { 15% { transform: translate(10px, -6px) rotate(.8deg) scale(1.01); } 30% { transform: translate(-10px, 5px) rotate(-.8deg); } 50% { transform: translate(7px, 3px); } 70% { transform: translate(-5px, -3px); } 85% { transform: translate(2px, 1px); } }
+@keyframes inv { 0% { filter: invert(1) hue-rotate(180deg); } 100% { filter: none; } }
+.stage.recoil { animation: rcl .25s ease-out; }
+@keyframes rcl { 30% { transform: translateX(-7px); } 60% { transform: translateX(4px); } }
+/* mobile keyboard open: compact header, image shrinks so image + field both fit above the keyboard */
+body.kb .topbar { display: none; }
+body.kb .q-prompt { font-size: 1em; margin: 2px 0; }
+body.kb .q-image { max-height: calc(var(--vvh, 100vh) - 200px); }
+body.kb .q-hint, body.kb .timer span { font-size: .85em; }
