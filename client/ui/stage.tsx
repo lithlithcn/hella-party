@@ -50,7 +50,8 @@ function Timer({ name, startedAt, endsAt }: { name: string; startedAt: number; e
   return (
     <div class={`timer ${name === 'question' && left < total / 4 ? 'hurry' : ''}`}>
       <i style={{ transform: `scaleX(${start})`, animation: `timer-shrink ${dur}ms linear forwards`, ['--from' as any]: start }} />
-      <span>{sec}</span>
+      <span key={sec} class={name === 'question' && sec <= 5 && sec > 0 ? 'tick' : ''}>{sec}</span>
+      {name === 'question' && sec <= 3 && sec > 0 && <div class="danger" key={`d${sec}`} />}
     </div>
   );
 }

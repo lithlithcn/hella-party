@@ -260,3 +260,17 @@ img.avatar { object-fit: cover; display: block; }
 .ci-big { font-family: Bungee, sans-serif; font-size: clamp(1.6em, 6vw, 3em); color: var(--yellow); text-shadow: 0 0 18px #ffd23f88; }
 .ci-sub { margin-top: 10px; color: var(--muted); font-size: 1.1em; }
 .chain-hud { font-family: Bungee, sans-serif; color: var(--yellow); text-align: center; padding: 4px; }
+
+/* intensity: last seconds tick bump + red edge pulse (one-shot per second, opacity/transform only) */
+.timer span.tick { display: inline-block; animation: tbump .35s cubic-bezier(.2,1.8,.4,1); color: var(--red); }
+@keyframes tbump { from { transform: scale(1.7); } to { transform: scale(1); } }
+.danger { position: fixed; inset: 0; pointer-events: none; z-index: 50; box-shadow: inset 0 0 90px #ff2a4a; opacity: 0; will-change: opacity; animation: dpulse .9s ease-out; }
+@keyframes dpulse { 15% { opacity: .55; } to { opacity: 0; } }
+/* reveal: answer slams in, details follow */
+.reveal-answer { animation: rslam .5s cubic-bezier(.2,1.6,.4,1) both; }
+@keyframes rslam { from { transform: scale(2.2) rotate(-4deg); opacity: 0; } 60% { opacity: 1; } to { transform: none; } }
+.reveal-explain, .reveal-finders { animation: rfade .4s .25s both; }
+@keyframes rfade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+/* perf: skip layout/paint of off-screen chat lines; isolate player cards */
+.msg { content-visibility: auto; contain-intrinsic-size: auto 22px; }
+.pcard { contain: layout style; }
