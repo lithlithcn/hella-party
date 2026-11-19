@@ -57,7 +57,7 @@ function Home({ code, onName, go }: { code: string | null; onName: (n: string) =
         )}
       </div>
       <a class="btn ghost studio-link" href="/studio">🎨 Studio : crée tes propres packs</a>
-      <VolumeMenu />
+      <VolumeMenu /><LookMenu />
       <Version />
     </main>
   );
@@ -88,7 +88,7 @@ function Room({ code }: { code: string }) {
         {s && <span class="code" title="Copier le lien" onClick={() => navigator.clipboard?.writeText(location.href)}>{code}</span>}
         <span class={`dot ${st.online ? 'on' : ''}`} title={st.online ? 'Connecté' : 'Reconnexion…'} />
         <span class="grow" />
-        <VolumeMenu />
+        <VolumeMenu /><LookMenu /><LookMenu />
         {me?.leader && s?.status === 'playing' && <button class="btn ghost small" onClick={() => send({ t: 'stop' })}>Arrêter</button>}
       </header>
       {s ? (
@@ -142,6 +142,35 @@ function VolumeMenu() {
         <div class="volpop">
           <label>🎵 Musique<input type="range" min="0" max="1" step="0.05" defaultValue={String(volume.music())} onInput={e => volume.setMusic(+(e.target as HTMLInputElement).value)} /></label>
           <label>💥 Effets<input type="range" min="0" max="1" step="0.05" defaultValue={String(volume.get())} onInput={e => volume.set(+(e.target as HTMLInputElement).value)} /></label>
+        </div>
+      )}
+    </span>
+  );
+}
+
+// Per-device look: one CSS filter on <html>, only set when a slider is moved off its default (no cost otherwise).
+const LOOK_KEYS = [['hue', '🎨 Teinte', 0, 360, 0, 'deg'], ['sat', '🌈 Saturation', 0, 200, 100, '%'], ['bri', '☀️ Luminosité', 50, 150, 100, '%'], ['con', '◐ Contraste', 50, 150, 100, '%']] as const;
+type Look = Record<'hue' | 'sat' | 'bri' | 'con', number>;
+const readLook = (): Look => { try { return { hue: 0, sat: 100, bri: 100, con: 100, ...JSON.parse(localStorage.getItem('hp.look') ?? '{}') }; } catch { return { hue: 0, sat: 100, bri: 100, con: 100 }; } };
+function applyLook(l: Look) {
+  const f = [l.hue && `hue-rotate(${l.hue}deg)`, l.sat !== 100 && `saturate(${l.sat}%)`, l.bri !== 100 && `brightness(${l.bri}%)`, l.con !== 100 && `contrast(${l.con}%)`].filter(Boolean).join(' ');
+  document.documentElement.style.filter = f;
+}
+applyLook(readLook());
+
+function LookMenu() {
+  const [open, setOpen] = useState(false);
+  const [l, setL] = useState(readLook);
+  const set = (k: keyof Look, v: number) => { const n = { ...l, [k]: v }; setL(n); applyLook(n); try { localStorage.setItem('hp.look', JSON.stringify(n)); } catch {} };
+  return (
+    <span class="volmenu">
+      <button class="btn ghost small" onClick={() => setOpen(o => !o)} title="Couleurs du jeu">⚙️</button>
+      {open && (
+        <div class="volpop">
+          {LOOK_KEYS.map(([k, label, min, max]) => (
+            <label key={k}>{label} <small>{l[k]}</small><input type="range" min={min} max={max} step="1" value={l[k]} onInput={e => set(k, +(e.target as HTMLInputElement).value)} /></label>
+          ))}
+          <button class="btn ghost small" onClick={() => { for (const [k, , , , d] of LOOK_KEYS) l[k] = d; set('hue', 0); }}>Réinitialiser</button>
         </div>
       )}
     </span>
