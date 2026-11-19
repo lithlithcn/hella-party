@@ -85,7 +85,10 @@ function focusHandoff(prev?: string, next?: string) {
     if (matchMedia('(pointer: coarse)').matches) { if (active === answer || (active === chat && !chat?.value)) (active as HTMLElement).blur(); }
     else if (answer && (active === chat ? !chat?.value : true)) answer.focus({ preventScroll: true });
   }
-  else if (prev === 'question' && active === answer) chat?.focus({ preventScroll: true });
+  else if (prev === 'question' && active === answer) {
+    if (matchMedia('(pointer: coarse)').matches) answer?.blur(); // phones: just close the keyboard, never jump to the chat
+    else chat?.focus({ preventScroll: true });
+  }
 }
 
 /** Keep preloaded images referenced (decoded + cached) until they are used; ~8 max. */
