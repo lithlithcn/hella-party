@@ -66,7 +66,7 @@ function Question({ s }: { s: PublicState }) {
   const name = (id: string) => s.players.find(p => p.id === id)?.name ?? '?';
   return (
     <div class="question">
-      <div class="q-prompt"><span class="q-round">#{s.round}</span> {q?.prompt ?? 'Réponse'}</div>
+      <div class="q-prompt" key={s.round}><span class="q-round">#{s.round}</span> {q?.prompt ?? 'Réponse'}</div>
       <div class="q-media">
         {q && T ? <T q={q} phase={ph?.name === 'question' ? ph : null} clear={ph?.name === 'reveal'} /> : r?.src ? <img class="q-image" src={r.src} alt="" /> : null}
       </div>
