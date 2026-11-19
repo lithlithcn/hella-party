@@ -274,3 +274,15 @@ img.avatar { object-fit: cover; display: block; }
 /* perf: skip layout/paint of off-screen chat lines; isolate player cards */
 .msg { content-visibility: auto; contain-intrinsic-size: auto 22px; }
 .pcard { contain: layout style; }
+
+/* bubble: grows up to the card width, then wraps (3 lines max) — no left:50% shrink-to-fit trap */
+.pguess { left: 0; right: 0; margin-inline: auto; width: fit-content; max-width: 100%; transform: none; box-sizing: border-box; }
+.combo { right: auto; left: -6px; }
+/* more juice (one-shot, transform/opacity only) */
+.pfound { animation: fslide .35s cubic-bezier(.2,1.6,.4,1); }
+@keyframes fslide { from { transform: translateY(8px) scale(.5); opacity: 0; } }
+.q-prompt { animation: pslam .4s cubic-bezier(.2,1.5,.4,1); }
+@keyframes pslam { from { transform: translateY(-14px) scale(1.15); opacity: 0; } }
+.pcard.found.g-exact .pscore { animation: sbump .5s .1s; display: inline-block; }
+@keyframes sbump { 40% { transform: scale(1.35); color: var(--lime); } }
+.msg { animation: min .2s ease-out; } @keyframes min { from { opacity: 0; transform: translateX(-6px); } }
