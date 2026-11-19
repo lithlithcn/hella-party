@@ -296,3 +296,7 @@ button, .btn { transition: transform .08s, filter .15s; } button:active, .btn:ac
 @media (hover: hover) { .pcard:hover { transform: translateY(-2px); } }
 .answer.ok input { border-color: var(--lime); box-shadow: 0 0 0 4px #8cff5a33; }
 .reveal-finders > * { animation: rfade .3s both; }
+
+/* combo badge + time side by side, top-left of the card */
+.ptags { position: absolute; top: -10px; left: -6px; z-index: 3; display: flex; align-items: center; gap: 4px; pointer-events: none; }
+.ptags .combo, .ptags .pfound { position: static; }

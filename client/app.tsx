@@ -152,9 +152,32 @@ function VolumeMenu() {
 const LOOK_KEYS = [['hue', '🎨 Teinte', 0, 360, 0, 'deg'], ['sat', '🌈 Saturation', 0, 200, 100, '%'], ['bri', '☀️ Luminosité', 50, 150, 100, '%'], ['con', '◐ Contraste', 50, 150, 100, '%']] as const;
 type Look = Record<'hue' | 'sat' | 'bri' | 'con', number>;
 const readLook = (): Look => { try { return { hue: 0, sat: 100, bri: 100, con: 100, ...JSON.parse(localStorage.getItem('hp.look') ?? '{}') }; } catch { return { hue: 0, sat: 100, bri: 100, con: 100 }; } };
+// Images/emojis must stay untouched: the static background gets a CSS filter, UI colours (the :root
+// variables) are recomputed with the same filter maths. Nothing at all when everything is default.
+const VARS = ['--bg', '--panel', '--panel2', '--line', '--pink', '--yellow', '--cyan', '--lime', '--red', '--text', '--muted'];
+let base: Record<string, string> | null = null;
+function filterRgb([r, g, b]: number[], l: Look) {
+  const a = l.hue * Math.PI / 180, c = Math.cos(a), sn = Math.sin(a), S = l.sat / 100;
+  const m = [ // hue-rotate then saturate (W3C filter matrices)
+    [.213 + c * .787 - sn * .213, .715 - c * .715 - sn * .715, .072 - c * .072 + sn * .928],
+    [.213 - c * .213 + sn * .143, .715 + c * .285 + sn * .140, .072 - c * .072 - sn * .283],
+    [.213 - c * .213 - sn * .787, .715 - c * .715 + sn * .715, .072 + c * .928 + sn * .072]];
+  let v = m.map(row => row[0] * r + row[1] * g + row[2] * b);
+  const lum = .213 * v[0] + .715 * v[1] + .072 * v[2];
+  v = v.map(x => lum + (x - lum) * S).map(x => x * l.bri / 100).map(x => (x - 127.5) * l.con / 100 + 127.5);
+  return v.map(x => Math.round(Math.min(255, Math.max(0, x))));
+}
 function applyLook(l: Look) {
-  const f = [l.hue && `hue-rotate(${l.hue}deg)`, l.sat !== 100 && `saturate(${l.sat}%)`, l.bri !== 100 && `brightness(${l.bri}%)`, l.con !== 100 && `contrast(${l.con}%)`].filter(Boolean).join(' ');
-  document.documentElement.style.filter = f;
+  const root = document.documentElement;
+  if (!base) { const cs = getComputedStyle(root); base = Object.fromEntries(VARS.map(k => [k, cs.getPropertyValue(k).trim()])); }
+  const def = !l.hue && l.sat === 100 && l.bri === 100 && l.con === 100;
+  for (const k of VARS) {
+    const hex = base[k]; if (def || !/^#[0-9a-f]{6,8}$/i.test(hex)) { root.style.removeProperty(k); continue; }
+    const rgb = filterRgb([1, 3, 5].map(i => parseInt(hex.slice(i, i + 2), 16)), l);
+    root.style.setProperty(k, '#' + rgb.map(x => x.toString(16).padStart(2, '0')).join('') + hex.slice(7));
+  }
+  const bg = document.querySelector<HTMLElement>('.bg');
+  if (bg) bg.style.filter = def ? '' : `hue-rotate(${l.hue}deg) saturate(${l.sat}%) brightness(${l.bri}%) contrast(${l.con}%)`;
 }
 applyLook(readLook());
 
