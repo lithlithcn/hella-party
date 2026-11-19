@@ -272,7 +272,6 @@ img.avatar { object-fit: cover; display: block; }
 .reveal-explain, .reveal-finders { animation: rfade .4s .25s both; }
 @keyframes rfade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 /* perf: skip layout/paint of off-screen chat lines; isolate player cards */
-.msg { content-visibility: auto; contain-intrinsic-size: auto 22px; }
 .pcard { contain: layout style; }
 
 /* bubble: grows up to the card width, then wraps (3 lines max) — no left:50% shrink-to-fit trap */
@@ -286,3 +285,14 @@ img.avatar { object-fit: cover; display: block; }
 .pcard.found.g-exact .pscore { animation: sbump .5s .1s; display: inline-block; }
 @keyframes sbump { 40% { transform: scale(1.35); color: var(--lime); } }
 .msg { animation: min .2s ease-out; } @keyframes min { from { opacity: 0; transform: translateX(-6px); } }
+
+/* chat must scroll INSIDE its box (flex child needs min-height:0), fixed height on desktop */
+.chat-log { min-height: 0; overscroll-behavior: contain; }
+@media (min-width: 861px) { .chat { height: calc(100vh - 80px); } }
+/* game feel: tactile buttons, smooth focus, gentle hover (transitions only, no loops) */
+button, .btn { transition: transform .08s, filter .15s; } button:active, .btn:active { transform: scale(.95); }
+.answer input, .chat-input { transition: border-color .15s, box-shadow .2s; }
+.answer input:focus { box-shadow: 0 0 0 4px #3ef0ff22, 0 0 24px #3ef0ff33; }
+@media (hover: hover) { .pcard:hover { transform: translateY(-2px); } }
+.answer.ok input { border-color: var(--lime); box-shadow: 0 0 0 4px #8cff5a33; }
+.reveal-finders > * { animation: rfade .3s both; }

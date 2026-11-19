@@ -44,7 +44,11 @@ export function Chat() {
   // Discord-like: stick to the bottom unless the user scrolled up to read (the log is capped, so watch the last line, not the length)
   const stick = useRef(true);
   const last = store.chat[store.chat.length - 1];
-  useLayoutEffect(() => { const b = box.current; if (b && (stick.current || last?.from === store.s?.me)) b.scrollTop = b.scrollHeight; }, [last]);
+  useLayoutEffect(() => {
+    const b = box.current; if (!b || !(stick.current || last?.from === store.s?.me)) return;
+    b.scrollTop = b.scrollHeight; requestAnimationFrame(() => { b.scrollTop = b.scrollHeight; }); // again after the entry animation/layout
+  }, [last]);
+  useLayoutEffect(() => { const b = box.current; if (!b) return; const ro = new ResizeObserver(() => { if (stick.current) b.scrollTop = b.scrollHeight; }); ro.observe(b); return () => ro.disconnect(); }, []);
   const pick = (c: ChatLine) => { if (c.id == null) return; setReply(c); chatInput.el?.focus(); };
   return (
     <section class="chat">

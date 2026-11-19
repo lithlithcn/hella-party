@@ -8,11 +8,11 @@ interface S { pool: Question[]; run: { keys: string[]; i: number } | null }
 export default defineFeature<S>({
   id: 'chain',
   settings: [
-    { key: 'enabled', label: 'Enchaînement bonus', type: 'bool', default: true },
+    { key: 'enabled', label: 'Enchaînement bonus', type: 'bool', default: false },
     { key: 'size', label: 'Questions à enchaîner', type: 'number', default: 5, min: 3, max: 10, step: 1 },
     { key: 'time', label: 'Temps par question (s)', type: 'number', default: 7, min: 3, max: 20, step: 1 },
   ],
-  active: g => g.setting('chain.enabled') !== false,
+  active: g => g.setting('chain.enabled') === true,
   init: () => ({ pool: [], run: null }),
   on: {
     beforeQuestion(g) {
