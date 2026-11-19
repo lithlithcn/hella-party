@@ -72,6 +72,7 @@ export class Game {
   found = new Map<string, Found>();
   /** Speech bubble under each card: wrong guesses, and free messages once found / during the reveal (`after`). */
   guesses = new Map<string, { text: string; after: boolean }>();
+  private foundText = new Map<string, string>();
   /** Library packs loaded for this room (by Room before start). */
   extra: Record<string, import('./packs').Pack> = {};
   /** Ids of library packs that may be selected. */
@@ -267,7 +268,7 @@ export class Game {
     if (this.status !== 'playing') return;
     if (!q) return this.endGame();
     this.mediaFails.clear();
-    this.question = q; this.round++; this.history.push(q); this.found.clear(); this.guesses.clear();
+    this.question = q; this.round++; this.history.push(q); this.found.clear(); this.guesses.clear(); this.foundText.clear();
     this.setPhase('question', (q.time || this.setting<number>('answerTime')) * 1000, undefined, () => this.endQuestion());
     this.emit('questionStart', {});
     this.prepareAhead();
@@ -283,6 +284,8 @@ export class Game {
     };
     const names = this.reveal.finders.map(f => `${this.players.get(f.id)?.name ?? '?'} (${(f.ms / 1000).toFixed(3)} s)`);
     this.chat(`✅ ${q.answer}${names.length ? ` — trouvé par ${names.join(', ')}` : ' — personne n\'a trouvé'}`);
+    // reveal: every finder's bubble shows exactly what they typed (later messages replace it)
+    for (const [pid, t] of this.foundText) this.guesses.set(pid, { text: t, after: false });
     this.setPhase('reveal', this.setting<number>('revealTime') * 1000, undefined, () => this.nextRound());
     this.prepareAhead();
   }
@@ -366,6 +369,7 @@ export class Game {
     p.score += delta;
     this.found.set(id, { grade, ms, points: Math.max(points, prev?.points ?? 0) });
     this.guesses.delete(id);
+    this.foundText.set(id, text.trim().slice(0, 120)); // shown in the bubble at the reveal
     this.fx(id, 'answer', { ok: true, grade, delta, notes: ctx.notes });
     this.fx(null, 'found', { id, grade });
     this.emit('answer', { player: p, grade, ms, points, delta });
