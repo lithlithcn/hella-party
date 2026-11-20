@@ -13,6 +13,8 @@ export interface Question extends Omit<PackQuestion, "type"> {
   aliasTitle?: string;
   /** Specialised name sources (Library.names kind), from the pack. */
   nameKind?: 'anime' | 'game' | 'series';
+  /** Sub-category shown in the lobby (work for characters, source for auto content); players can untick it. */
+  group?: string;
 }
 
 export interface Pack { id: string; name: string; tags: string[]; questions: Question[] }
@@ -29,6 +31,7 @@ export function resolvePack(p: PackFile & { media?: Record<string, string> }): P
       opts: p.opts || q.opts ? { ...p.opts, ...q.opts } : undefined,
       // the pictured page IS the answer, except in "by character" packs (picture = character, answer = work)
       nameKind: (q as any).nameKind ?? p.nameKind,
+      group: (q as any).group ?? ((p as any).groupBy === 'answer' ? q.answer : p.name),
       aliasTitle: (q as any).aliasTitle ?? (q.src?.startsWith('wiki:') && p.aliasFrom !== 'answer' ? q.src.slice(5).replace(/^(?![a-z]{2,3}:)/, 'fr:') : `fr:${q.answer}`),
     })),
   };

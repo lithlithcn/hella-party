@@ -3038,5 +3038,6 @@
    "explain": "C'était Coraline Jones"
   }
  ],
- "aliasFrom": "answer"
+ "aliasFrom": "answer",
+ "groupBy": "answer"
 }

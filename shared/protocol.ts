@@ -79,10 +79,12 @@ export type ClientMsg =
   | { t: 'stop' }
   | { t: 'kick'; id: string }
   | { t: 'univ'; dom: string } // list the works of a Univers domain
+  | { t: 'groups'; id: string } // sub-categories of a category
   | { t: 'settings'; patch: Record<string, any> }
   | { t: 'action'; f: string; a: string; p?: any };
 
 export type ServerMsg =
+  | { t: 'groups'; id: string; list: { g: string; n: number }[] }
   | { t: 'univ'; dom: string; works: { id: string; name: string; n: number }[] }
   | { t: 'welcome'; defs: SettingDef[]; packs: PackInfo[] }
   | { t: 'packs'; packs: PackInfo[] }

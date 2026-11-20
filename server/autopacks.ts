@@ -118,7 +118,7 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
     pages.forEach((p, i) => {
       const diff = thirds(i, pages.length);
       const img = p.original.source.replace(/\/revision\/latest(\/[^?]*)?/, '/revision/latest/scale-to-width-down/800');
-      qs.push({ id: String(p.pageid), answer: clean(p.title), exact: [], difficulty: diff, tags: [...d.tags, DIFF[diff]], type: 'image', src: `url:${img}`,
+      qs.push({ id: String(p.pageid), answer: clean(p.title), exact: [], difficulty: diff, tags: [...d.tags, DIFF[diff]], type: 'image', src: `url:${img}`, group: d.name.replace(/^(Persos (de |d'|des )|Univers |Champions de |Héros d'|Créatures de )/, ''),
         aliasTitle: `fw:${d.wiki}:${p.title}` } as PackQuestion);
     });
   }
@@ -165,7 +165,7 @@ export async function buildDomain(dom: string): Promise<Work[] | null> {
     w.pop += +b.sl.value;
     const diff = thirds(i, rows.length), enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
     w.questions.push({ id: b.c.value.split('/').pop()!, answer: clean(b.cl.value), exact: [], difficulty: diff, tags: [D.name.toLowerCase(), w.name, DIFF[diff]], type: 'image',
-      src: b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`, explain: `Personnage de ${w.name}`,
+      src: b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`, explain: `Personnage de ${w.name}`, group: w.name,
       ...(enTitle ? { aliasTitle: `en:${enTitle}` } : {}) } as PackQuestion);
   });
   return [...works.values()].sort((a, b) => b.pop - a.pop);
@@ -189,7 +189,7 @@ export async function domainFandoms(dom: string): Promise<{ id: string; name: st
 /** Characters of one Fandom wiki (1-2 fetches). Difficulty by page length within the wiki. */
 export async function fandomChars(wiki: string, work: string, domName: string): Promise<PackQuestion[]> {
   const p = await buildAuto({ id: 'x', name: work, emoji: '', prompt: '', tags: [domName.toLowerCase(), work], from: 'fandom', wiki, cat: 'Characters' });
-  return (p?.questions ?? []).map(q => ({ ...q, id: `${wiki}-${q.id}`, explain: `Personnage de ${work}` }));
+  return (p?.questions ?? []).map(q => ({ ...q, id: `${wiki}-${q.id}`, explain: `Personnage de ${work}`, group: work } as PackQuestion));
 }
 
 /** Auto sources merged INTO existing built-in categories (owner: add to the tags already there; new categories only
@@ -205,5 +205,7 @@ export const INTO: Record<string, string> = {
   'auto-mario': 'persos-jeux-video', 'auto-zelda': 'persos-jeux-video', 'auto-sonic': 'persos-jeux-video', 'auto-overwatch': 'persos-jeux-video',
   'auto-genshin': 'persos-jeux-video', 'auto-lol': 'persos-jeux-video',
   'auto-simpsons': 'persos-dessins-animes', 'auto-spongebob': 'persos-dessins-animes', 'auto-disney': 'persos-dessins-animes', 'auto-pixar': 'persos-dessins-animes',
-  'u-jeux': 'persos-jeux-video', 'u-cartoons': 'persos-dessins-animes',
+  'u-jeux': 'persos-jeux-video', 'u-cartoons': 'persos-dessins-animes', 'u-animes': 'animes', 'auto-persos-anime': 'animes',
+  'auto-naruto': 'animes', 'auto-onepiece': 'animes', 'auto-dragonball': 'animes', 'auto-snk': 'animes', 'auto-mha': 'animes', 'auto-demonslayer': 'animes',
+  'auto-jjk': 'animes', 'auto-bleach': 'animes', 'auto-hxh': 'animes', 'auto-jojo': 'animes', 'auto-pokemon': 'persos-jeux-video', 'auto-minecraft': 'persos-jeux-video',
 };

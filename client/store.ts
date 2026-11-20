@@ -8,7 +8,7 @@ export interface ChatLine { bubble?: boolean; id?: number; from: string | null; 
 export const store = {
   s: null as PublicState | null,
   defs: [] as SettingDef[],
-  packs: [] as PackInfo[], univ: {} as Record<string, { id: string; name: string; n: number }[]>,
+  packs: [] as PackInfo[], univ: {} as Record<string, { id: string; name: string; n: number }[]>, groups: {} as Record<string, { g: string; n: number }[]>,
   chat: [] as ChatLine[],
   avatars: {} as Record<string, string>, // player id → data URL
   offset: 0,          // serverNow - Date.now()
@@ -53,6 +53,7 @@ export function connect(code: string) {
       case 'welcome': store.defs = m.defs; store.packs = m.packs; break;
       case 'packs': store.packs = m.packs; break;
       case 'univ': store.univ[m.dom] = m.works; break;
+      case 'groups': store.groups[m.id] = m.list; break;
       case 'avatars': store.avatars = m.map; break;
       case 'avatar': store.avatars = { ...store.avatars }; if (m.data) store.avatars[m.id] = m.data; else delete store.avatars[m.id]; break;
       case 'state': focusHandoff(store.s?.phase?.name, m.s.phase?.name); store.s = m.s; store.offset = m.s.now - Date.now(); break;

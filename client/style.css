@@ -340,3 +340,7 @@ button, .btn { transition: transform .08s, filter .15s; } button:active, .btn:ac
 .univ { margin: 4px 0; } .univ-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .univ-body { margin: 4px 0 8px 14px; } .univ-q { width: min(360px, 100%); margin: 4px 0; }
 .univ-list { display: flex; flex-wrap: wrap; gap: 4px; max-height: 300px; overflow-y: auto; }
+
+.pack .pack-open { background: none; border: 0; color: inherit; font: inherit; cursor: pointer; padding: 0; }
+.pack .pack-open i { font-style: normal; opacity: .6; } .pack.open { outline: 2px solid var(--cyan); }
+.groups { margin: 6px 0 10px; padding: 8px; border: 1px solid var(--line); border-radius: 10px; }

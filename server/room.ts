@@ -2,7 +2,7 @@
 import { DurableObject } from 'cloudflare:workers';
 import type { ChatQuote, ClientMsg, PackInfo, ServerMsg } from '../shared/protocol';
 import { Game, PACK_INFO, SETTING_DEFS } from './engine';
-import { resolvePack } from './packs';
+import { PACKS, resolvePack } from './packs';
 import { library, type Env, type NameKind } from './library';
 import { INTO } from './autopacks';
 
@@ -54,26 +54,42 @@ export class Room extends DurableObject<Env> {
     return [...PACK_INFO, ...this.libList];
   }
 
+  /** Questions merged into a built-in category from auto packs / Univers domains (INTO map). */
+  private async merged(id: string) {
+    const lib = library(this.env), qs: any[] = [];
+    for (const [src, to] of Object.entries(INTO)) {
+      if (to !== id) continue;
+      const p: any = src.startsWith('u-') ? await lib.universe(src.slice(2)).catch(() => null) : await lib.get(src).catch(() => null);
+      if (p) for (const q of p.questions as any[]) qs.push({ ...q, id: `${src}-${q.id}`, prompt: q.prompt || p.prompt, nameKind: p.nameKind, group: q.group ?? p.name });
+    }
+    return qs.length ? resolvePack({ format: 'hella-pack', version: 1, id: '+' + id, name: id, questions: qs } as any) : null;
+  }
+
+  /** Sub-categories of a category for the lobby (name → question count), cached 60 s. */
+  private groupCache = new Map<string, { at: number; list: { g: string; n: number }[] }>();
+  private async groups(id: string) {
+    const c = this.groupCache.get(id); if (c && Date.now() - c.at < 60_000) return c.list;
+    const qs: any[] = [...(PACKS[id]?.questions ?? []), ...((await this.merged(id))?.questions ?? [])];
+    if (!PACKS[id]) { const p: any = id.startsWith('u-') ? await library(this.env).universe(id.slice(2)).catch(() => null) : await library(this.env).get(id).catch(() => null); if (p) qs.push(...resolvePack(p).questions); }
+    const m = new Map<string, number>(); for (const q of qs) m.set(q.group ?? '?', (m.get(q.group ?? '?') ?? 0) + 1);
+    const list = [...m].map(([g, n]) => ({ g, n })).sort((a, b) => b.n - a.n);
+    this.groupCache.set(id, { at: Date.now(), list });
+    return list;
+  }
+
   /** Load the selected library packs into the game (fresh copy at each start). */
   private async loadPacks(game: Game) {
     const all: string[] = game.setting('packs') ?? [];
-    // auto sources merged into the selected built-in categories → game.extra['+<id>']
-    const lib0 = library(this.env), ex0 = all.filter(id => id.startsWith('-w-')).map(id => id.slice(1));
+    // auto sources merged INTO the selected built-in categories → game.extra['+<id>']
     for (const id of all) {
-      const srcs = Object.entries(INTO).filter(([, to]) => to === id).map(([src]) => src);
-      if (!srcs.length) { delete game.extra['+' + id]; continue; }
-      const qs: any[] = [];
-      for (const s of srcs) {
-        const p: any = s.startsWith('u-') ? await lib0.universe(s.slice(2), ex0).catch(() => null) : await lib0.get(s).catch(() => null);
-        if (p) for (const q of p.questions as any[]) qs.push({ ...q, id: `${s}-${q.id}`, prompt: q.prompt || p.prompt, nameKind: p.nameKind });
-      }
-      if (qs.length) game.extra['+' + id] = resolvePack({ format: 'hella-pack', version: 1, id: '+' + id, name: id, nameKind: undefined, questions: qs } as any);
+      const p = Object.values(INTO).includes(id) ? await this.merged(id) : null;
+      if (p) game.extra['+' + id] = p; else delete game.extra['+' + id];
     }
     const ids = all.filter(id => game.libraryIds.has(id) || /^(u|w|fw)-/.test(id));
     const excluded = all.filter(id => id.startsWith('-w-')).map(id => id.slice(1));
     const lib = library(this.env);
     for (const id of ids) {
-      const p = id.startsWith('u-') ? await lib.universe(id.slice(2), excluded) : id.startsWith('w-') ? await lib.work(id) : await lib.get(id);
+      const p = id.startsWith('u-') ? await lib.universe(id.slice(2)) : id.startsWith('w-') ? await lib.work(id) : await lib.get(id);
       if (p) game.extra[id] = resolvePack(p); else delete game.extra[id];
     }
   }
@@ -126,6 +142,7 @@ export class Room extends DurableObject<Env> {
     }
     if (!id) return;
     switch (m.t) {
+      case 'groups': ws.send(JSON.stringify({ t: 'groups', id: String(m.id), list: await this.groups(String(m.id)) } satisfies ServerMsg)); return;
       case 'univ': ws.send(JSON.stringify({ t: 'univ', dom: String(m.dom), works: await library(this.env).works(String(m.dom)) } satisfies ServerMsg)); return;
       case 'packs': ws.send(JSON.stringify({ t: 'packs', packs: await this.packList(true) } satisfies ServerMsg)); return;
       case 'avatar': return this.setAvatar(game, id, m.data);

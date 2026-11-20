@@ -300,12 +300,13 @@ export class Game {
   }
 
   pack(id: string) { return PACKS[id] ?? this.extra[id]; }
-  packExists(id: string) { return !!PACKS[id] || this.libraryIds.has(id) || /^-?(u|w|fw)-[A-Za-z0-9-]{1,60}$/.test(id); }
+  packExists(id: string) { return !!PACKS[id] || this.libraryIds.has(id) || /^-?(u|w|fw)-[A-Za-z0-9-]{1,60}$/.test(id) || (id.startsWith('-g:') && id.length < 200); }
 
   private packQuestions(): Question[] {
     const ids: string[] = this.setting('packs') ?? [];
     const max = Number(this.setting('maxDifficulty') ?? 3);
-    return ids.flatMap(id => [...(this.pack(id)?.questions ?? []), ...(this.extra['+' + id]?.questions ?? [])]).filter(q => (q.difficulty || 1) <= max);
+    const off = new Set(ids.filter(x => x.startsWith('-g:')));
+    return ids.flatMap(id => [...(this.pack(id)?.questions ?? []), ...(this.extra['+' + id]?.questions ?? [])].filter(q => !off.has(`-g:${id}:${q.group}`))).filter(q => (q.difficulty || 1) <= max);
   }
 
   private pick(): Question | null {

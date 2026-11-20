@@ -2468,5 +2468,6 @@
    "explain": "C'était Dai"
   }
  ],
- "aliasFrom": "answer"
+ "aliasFrom": "answer",
+ "groupBy": "answer"
 }
