@@ -59,9 +59,8 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
         <div class="packs">{store.packs.filter(p => !p.custom && !p.auto && !p.univ).map(chip)}</div>
         <div class="packs-sub"><b>🌐 Packs auto (Wikipedia / Fandom)</b> <small class="muted">générés et mis à jour tout seuls · difficulté selon la popularité · 0 = pas encore chargé</small></div>
         <div class="packs">{store.packs.filter(p => p.auto || p.id.startsWith('fw-')).map(chip)}</div>
-        <div class="packs-sub"><b>🌍 Univers : tous les persos de Wikipédia</b> <small class="muted">coche un univers entier puis décoche les œuvres que tu ne veux pas, ou coche seulement certaines œuvres</small></div>
+        <div class="packs-sub"><b>🌍 Grandes catégories</b> <small class="muted">tous les persos de Wikipédia + Fandom · ▸ pour choisir les œuvres une par une</small></div>
         {store.packs.filter(p => p.univ).map(p => <Univ key={p.id} p={p} v={v ?? []} set={x => set(d.key, x)} />)}
-        <FandomAdd v={v ?? []} set={x => set(d.key, x)} />
         <div class="packs-sub">
           <b>Packs du Studio</b>
           <button type="button" class="btn ghost small" onClick={() => send({ t: 'packs' })} title="Actualiser">🔄</button>

@@ -16,6 +16,7 @@ export default {
     if (p === '/api/report' && req.method === 'POST') { const b = await req.json<any>().catch(() => ({})); if (b.key && b.reason) await library(env).report(String(b.key), String(b.reason)); return Response.json({ ok: true }); }
     if (p === '/api/reports') return Response.json(await library(env).reports());
     if (p === '/api/wiki-stats') return Response.json(await library(env).wikiStats());
+    if (p === '/api/univ') return Response.json(await library(env).univStats()); // debug: Univers build state
     if (p === '/api/names') return Response.json(await library(env).names(url.searchParams.get('k') ?? 'fr:Tomate', (url.searchParams.get('kind') || undefined) as any)); // debug: accepted extra names
     if (p === '/api/wiki-check') { // debug: every wiki: image source of built-in packs (page /check)
       const { PACKS } = await import('./packs');

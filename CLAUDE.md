@@ -83,7 +83,7 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - Image srcs `url:` / `fandom:` are downloaded by Library.wiki/store like `wiki:`; TEXTY (file names like logo/cover/poster/cast/group/characters) → image refused → question skipped. Cache table wiki5.
 - Add a category = one line in AUTO (check the Fandom category name exists).
 - Univers (autopacks DOMAINS): one SPARQL per domain (jeux, animes, vn, cartoons, films, series, comics, livres) = every non-human character with P1441/P8345 → a work of those classes, image Fandom P6262 or enwiki. Stored per work in table univ1 (DO row limit 2 MB → never one row per domain); univdom1 = build time/counts. Lobby: `u-<dom>` = whole domain, `-w-Q…` = unticked work, `w-Q…` = single work (ClientMsg {t:'univ'} lists works). Room.loadPacks resolves them.
-- Any Fandom wiki: pack id `fw-<wiki>` (lobby "➕ Wiki Fandom"), category Characters / Playable characters / Fighters / Heroes, cached in auto1.
+- Fandom is scanned automatically (owner doesn't want to type wiki names): buildDom also queues every work of the domain with a Fandom wiki id (Wikidata P4073) in table fwq1; Library.enrich (35 wikis per warm call) adds that wiki's Category:Characters to the work (done 1 = ok, 2 = nothing). Debug: /api/univ. (`fw-<wiki>` pack ids still work but have no UI.)
 
 ## TODO (owner asked, later)
 - Shortcuts are automatic (no per-question data needed):

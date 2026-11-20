@@ -108,7 +108,7 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
   } else {
     const base = `https://${d.wiki}.fandom.com${d.lang ? '/' + d.lang : ''}/api.php`;
     let j: any = null;
-    for (const cat of [d.cat, 'Characters', 'Playable characters', 'Playable Characters', 'Fighters', 'Heroes'].filter((x, i, a) => a.indexOf(x) === i)) {
+    for (const cat of [d.cat, 'Characters', 'Playable characters'].filter((x, i, a) => a.indexOf(x) === i)) {
       const u = `${base}?action=query&format=json&generator=categorymembers&gcmtitle=${encodeURIComponent('Category:' + cat)}&gcmnamespace=0&gcmlimit=500&prop=pageimages|info&piprop=original&pilicense=any`;
       j = await fetch(u, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
       if (j?.query?.pages) break;
@@ -173,3 +173,21 @@ export async function buildDomain(dom: string): Promise<Work[] | null> {
 
 /** Any Fandom wiki by name ("rivalsofaether", "touhou"…): its character category. */
 export const fandomDef = (wiki: string): AutoDef => ({ id: `fw-${wiki}`, name: `Fandom : ${wiki}`, emoji: '🌐', prompt: 'Qui est ce personnage ?', tags: ['personnages', wiki], from: 'fandom', wiki, cat: 'Characters' });
+
+/** Works of a domain that have their own Fandom wiki (Wikidata P4073) → their whole character category is added. */
+export async function domainFandoms(dom: string): Promise<{ id: string; name: string; wiki: string; pop: number }[] | null> {
+  const D = DOMAINS[dom]; if (!D) return null;
+  const q = `SELECT ?w ?wl ?fw ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls; wdt:P4073 ?fw; wikibase:sitelinks ?sl.
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". ?w rdfs:label ?wl. } } LIMIT 20000`;
+  const j: any = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+  if (!j) return null;
+  const seen = new Set<string>();
+  return j.results.bindings.filter((b: any) => !seen.has(b.w.value) && seen.add(b.w.value) && !/^Q\d+$/.test(b.wl?.value ?? 'Q'))
+    .map((b: any) => ({ id: 'w-' + b.w.value.split('/').pop(), name: clean(b.wl.value), wiki: b.fw.value.split('.')[0].toLowerCase(), pop: +b.sl.value }));
+}
+
+/** Characters of one Fandom wiki (1-2 fetches). Difficulty by page length within the wiki. */
+export async function fandomChars(wiki: string, work: string, domName: string): Promise<PackQuestion[]> {
+  const p = await buildAuto({ id: 'x', name: work, emoji: '', prompt: '', tags: [domName.toLowerCase(), work], from: 'fandom', wiki, cat: 'Characters' });
+  return (p?.questions ?? []).map(q => ({ ...q, id: `${wiki}-${q.id}`, explain: `Personnage de ${work}` }));
+}

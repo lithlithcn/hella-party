@@ -1,6 +1,7 @@
 // Online pack library: one Durable Object ("main") with SQLite storage.
 // Packs published from the Studio (JSON) + their media, content-addressed (sha-256) and chunked (rows ≤ 2 MB).
-import { AUTO, buildAuto, buildDomain, DOMAINS, fandomDef } from './autopacks';
+import { normalize } from '../shared/answer';
+import { AUTO, buildAuto, buildDomain, domainFandoms, DOMAINS, fandomChars, fandomDef } from './autopacks';
 import { DurableObject } from 'cloudflare:workers';
 import { PACK_FORMAT, type PackFile } from '../shared/pack';
 import type { PackInfo } from '../shared/protocol';
@@ -27,6 +28,7 @@ export class Library extends DurableObject {
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
       CREATE TABLE IF NOT EXISTS univ1 (work TEXT PRIMARY KEY, dom TEXT NOT NULL, name TEXT NOT NULL, n INTEGER NOT NULL, pop INTEGER NOT NULL, json TEXT NOT NULL);
+      CREATE TABLE IF NOT EXISTS fwq1 (work TEXT PRIMARY KEY, dom TEXT NOT NULL, name TEXT NOT NULL, wiki TEXT NOT NULL, pop INTEGER NOT NULL, done INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS univdom1 (dom TEXT PRIMARY KEY, at INTEGER NOT NULL, works INTEGER NOT NULL, n INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS auto1 (id TEXT PRIMARY KEY, json TEXT NOT NULL, n INTEGER NOT NULL, at INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS names8 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
@@ -50,7 +52,38 @@ export class Library extends DurableObject {
     if (!works?.length) { if (!row) this.sql.exec('INSERT OR REPLACE INTO univdom1 VALUES (?, ?, 0, 0)', dom, Date.now() - 6 * 86_400_000); return; }
     this.sql.exec('DELETE FROM univ1 WHERE dom = ?', dom);
     for (const w of works) this.sql.exec('INSERT OR REPLACE INTO univ1 VALUES (?, ?, ?, ?, ?, ?)', w.id, dom, w.name, w.questions.length, w.pop, JSON.stringify(w.questions));
-    this.sql.exec('INSERT OR REPLACE INTO univdom1 VALUES (?, ?, ?, ?)', dom, Date.now(), works.length, works.reduce((n, w) => n + w.questions.length, 0));
+    // queue every work of the domain that has its own Fandom wiki (Wikidata P4073) for enrichment
+    for (const f of (await domainFandoms(dom)) ?? []) this.sql.exec('INSERT OR IGNORE INTO fwq1 VALUES (?, ?, ?, ?, ?, 0)', f.id, dom, f.name, f.wiki, f.pop);
+    this.recount(dom, Date.now());
+  }
+  private recount(dom: string, at?: number) {
+    const r = this.sql.exec<{ w: number; n: number }>('SELECT COUNT(*) AS w, COALESCE(SUM(n), 0) AS n FROM univ1 WHERE dom = ?', dom).toArray()[0];
+    const old = this.sql.exec<{ at: number }>('SELECT at FROM univdom1 WHERE dom = ?', dom).toArray()[0];
+    this.sql.exec('INSERT OR REPLACE INTO univdom1 VALUES (?, ?, ?, ?)', dom, at ?? old?.at ?? Date.now(), r.w, r.n);
+  }
+  /** Add the characters of up to `n` queued Fandom wikis (most popular works first) to their work. */
+  async enrich(n = 30) {
+    const todo = this.sql.exec<{ work: string; dom: string; name: string; wiki: string; pop: number }>('SELECT work, dom, name, wiki, pop FROM fwq1 WHERE done = 0 ORDER BY pop DESC LIMIT ?', n).toArray();
+    const doms = new Set<string>();
+    for (const t of todo) {
+      const qs = await fandomChars(t.wiki, t.name, DOMAINS[t.dom]?.name ?? '');
+      this.sql.exec('UPDATE fwq1 SET done = ? WHERE work = ?', qs.length ? 1 : 2, t.work);
+      if (!qs.length) continue;
+      const row = this.sql.exec<{ json: string }>('SELECT json FROM univ1 WHERE work = ?', t.work).toArray()[0];
+      const old: any[] = row ? JSON.parse(row.json) : [];
+      const have = new Set(old.map(q => normalize(q.answer)));
+      const merged = [...old, ...qs.filter(q => !have.has(normalize(q.answer)))];
+      const json = JSON.stringify(merged);
+      if (json.length > 1_800_000) continue; // DO row limit
+      this.sql.exec('INSERT OR REPLACE INTO univ1 VALUES (?, ?, ?, ?, ?, ?)', t.work, t.dom, t.name, merged.length, Math.max(t.pop * 10, 1), json);
+      doms.add(t.dom);
+    }
+    for (const d of doms) this.recount(d);
+    return todo.length;
+  }
+  univStats() {
+    return { domains: this.sql.exec('SELECT * FROM univdom1').toArray(), fandom: this.sql.exec('SELECT done, COUNT(*) AS n FROM fwq1 GROUP BY done').toArray(),
+      fandomDone: this.sql.exec('SELECT name, wiki FROM fwq1 WHERE done = 1 ORDER BY pop DESC LIMIT 30').toArray() };
   }
   /** Works of a domain for the lobby tree (most popular first). */
   async works(dom: string) {
@@ -80,7 +113,9 @@ export class Library extends DurableObject {
     const have = new Set(this.sql.exec<{ id: string }>('SELECT id FROM auto1').toArray().map(r => r.id));
     for (const d of AUTO.filter(x => !have.has(x.id)).slice(0, n)) await this.auto(d.id);
     const built = new Set(this.sql.exec<{ dom: string }>('SELECT dom FROM univdom1').toArray().map(r => r.dom));
-    const next = Object.keys(DOMAINS).find(d => !built.has(d)); if (next) await this.buildDom(next); // one domain per call (big query)
+    const next = Object.keys(DOMAINS).find(d => !built.has(d));
+    if (next) await this.buildDom(next); // one domain per call (big query)
+    else await this.enrich(35);        // then Fandom wikis, 35 per call (subrequest budget)
   }
   /** Auto pack (Wikidata / Fandom), rebuilt at most every 7 days; old copy kept if the rebuild fails. */
   async auto(id: string): Promise<PackFile | null> {
