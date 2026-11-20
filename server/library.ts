@@ -10,7 +10,8 @@ export const library = (env: Env) => env.LIBRARY.get(env.LIBRARY.idFromName('mai
 
 const CHUNK = 1_000_000;
 export const MAX_MEDIA = 25_000_000;
-const MAX_PACK_JSON = 2_000_000;
+const MAX_PACK_JSON = 12_000_000; // stored in 900 KB chunks (SQLite row limit 2 MB)
+const PACK_CHUNK = 900_000;
 
 export type NameKind = 'anime' | 'game' | 'series';
 
@@ -22,7 +23,8 @@ export class Library extends DurableObject {
 
   constructor(ctx: DurableObjectState, env: any) {
     super(ctx, env);
-    this.sql.exec(`CREATE TABLE IF NOT EXISTS packs (id TEXT PRIMARY KEY, json TEXT NOT NULL, key TEXT NOT NULL, info TEXT NOT NULL, updated INTEGER NOT NULL);
+    this.sql.exec(`CREATE TABLE IF NOT EXISTS pack_chunks (id TEXT NOT NULL, i INTEGER NOT NULL, part TEXT NOT NULL, PRIMARY KEY (id, i));
+      CREATE TABLE IF NOT EXISTS packs (id TEXT PRIMARY KEY, json TEXT NOT NULL, key TEXT NOT NULL, info TEXT NOT NULL, updated INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
@@ -37,7 +39,9 @@ export class Library extends DurableObject {
   }
   async get(id: string): Promise<(PackFile & { media?: Record<string, string> }) | null> {
     const r = this.sql.exec<{ json: string }>('SELECT json FROM packs WHERE id = ?', id).toArray()[0];
-    return r ? JSON.parse(r.json) : null;
+    if (!r) return null;
+    if (r.json !== '@chunks') return JSON.parse(r.json);
+    return JSON.parse(this.sql.exec<{ part: string }>('SELECT part FROM pack_chunks WHERE id = ? ORDER BY i', id).toArray().map(x => x.part).join(''));
   }
 
   put(pack: PackFile & { media?: Record<string, string> }, key: string): { ok: boolean; error?: string } {
@@ -46,12 +50,15 @@ export class Library extends DurableObject {
     const old = this.sql.exec<{ key: string }>('SELECT key FROM packs WHERE id = ?', pack.id).toArray()[0];
     if (old && old.key !== key) return { ok: false, error: 'Ce nom de pack est déjà pris par quelqu\'un d\'autre. Change le nom.' };
     const json = JSON.stringify(pack);
-    if (json.length > MAX_PACK_JSON) return { ok: false, error: 'pack trop gros (texte > 2 Mo)' };
+    if (json.length > MAX_PACK_JSON) return { ok: false, error: 'pack trop gros (texte > 12 Mo)' };
     const tags = [...new Set([...(pack.tags ?? []), ...pack.questions.flatMap(q => q.tags ?? [])])].slice(0, 40);
     const gm = new Map<string, number>(); for (const q of pack.questions) { const g = String(q.group ?? pack.name).slice(0, 60); gm.set(g, (gm.get(g) ?? 0) + 1); }
     const info: PackInfo = { id: pack.id, name: String(pack.name).slice(0, 60), count: pack.questions.length, emoji: pack.emoji, author: pack.author, tags, custom: true,
       groups: [...gm].sort((a, b) => b[1] - a[1]).slice(0, 300).map(([g, n]) => ({ g, n })) };
-    this.sql.exec('INSERT OR REPLACE INTO packs (id, json, key, info, updated) VALUES (?, ?, ?, ?, ?)', pack.id, json, key, JSON.stringify(info), Date.now());
+    this.sql.exec('DELETE FROM pack_chunks WHERE id = ?', pack.id);
+    const big = json.length > PACK_CHUNK;
+    if (big) for (let i = 0; i * PACK_CHUNK < json.length; i++) this.sql.exec('INSERT INTO pack_chunks VALUES (?, ?, ?)', pack.id, i, json.slice(i * PACK_CHUNK, (i + 1) * PACK_CHUNK));
+    this.sql.exec('INSERT OR REPLACE INTO packs (id, json, key, info, updated) VALUES (?, ?, ?, ?, ?)', pack.id, big ? '@chunks' : json, key, JSON.stringify(info), Date.now());
     return { ok: true };
   }
 
@@ -59,6 +66,7 @@ export class Library extends DurableObject {
     const old = this.sql.exec<{ key: string }>('SELECT key FROM packs WHERE id = ?', id).toArray()[0];
     if (!old || old.key !== key) return { ok: false };
     this.sql.exec('DELETE FROM packs WHERE id = ?', id);
+    this.sql.exec('DELETE FROM pack_chunks WHERE id = ?', id);
     return { ok: true };
   }
 

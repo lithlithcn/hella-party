@@ -62,6 +62,7 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - New game sound event: add to SOUND_EVENTS in client/sfx.ts + file in client/public/sfx/.
 
 ## Online library (packs from the Studio, no GitHub step)
+- Library packs up to 12 MB JSON (stored in 900 KB rows, table pack_chunks; json = "@chunks").
 - Studio "Publier en ligne" → uploads media (sha-256, dedup) to /api/media/<hash>, then PUT /api/packs/<slug(name)> with a per-device key (localStorage) — same name by someone else is refused.
 - Room fetches the library list (cached 10 s) for the lobby, loads selected library packs at `start` into `game.extra`.
 - Media sources: file in media/, absolute URL, or `wiki:Title` / `wiki:en:Title` = lead image of a Wikipedia article, resolved in the browser (client/question-types/common.ts resolveWiki). Built-in image packs use wiki: (zero repo weight). `/check` page lists broken wiki images.
