@@ -55,10 +55,12 @@ export class Room extends DurableObject<Env> {
 
   /** Load the selected library packs into the game (fresh copy at each start). */
   private async loadPacks(game: Game) {
-    const ids: string[] = (game.setting('packs') ?? []).filter((id: string) => game.libraryIds.has(id));
+    const all: string[] = game.setting('packs') ?? [];
+    const ids = all.filter(id => game.libraryIds.has(id) || /^(u|w|fw)-/.test(id));
+    const excluded = all.filter(id => id.startsWith('-w-')).map(id => id.slice(1));
     const lib = library(this.env);
     for (const id of ids) {
-      const p = await lib.get(id);
+      const p = id.startsWith('u-') ? await lib.universe(id.slice(2), excluded) : id.startsWith('w-') ? await lib.work(id) : await lib.get(id);
       if (p) game.extra[id] = resolvePack(p); else delete game.extra[id];
     }
   }
@@ -111,6 +113,7 @@ export class Room extends DurableObject<Env> {
     }
     if (!id) return;
     switch (m.t) {
+      case 'univ': ws.send(JSON.stringify({ t: 'univ', dom: String(m.dom), works: await library(this.env).works(String(m.dom)) } satisfies ServerMsg)); return;
       case 'packs': ws.send(JSON.stringify({ t: 'packs', packs: await this.packList(true) } satisfies ServerMsg)); return;
       case 'avatar': return this.setAvatar(game, id, m.data);
       case 'start':

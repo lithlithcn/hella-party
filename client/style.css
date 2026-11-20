@@ -335,3 +335,8 @@ button, .btn { transition: transform .08s, filter .15s; } button:active, .btn:ac
 
 .pkick { position: absolute; top: 4px; right: 4px; z-index: 4; background: none; border: 0; color: var(--muted); opacity: .45; cursor: pointer; font-size: .85em; padding: 2px 5px; }
 .pkick:hover { opacity: 1; color: var(--red); }
+
+/* Univers tree (lobby) */
+.univ { margin: 4px 0; } .univ-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.univ-body { margin: 4px 0 8px 14px; } .univ-q { width: min(360px, 100%); margin: 4px 0; }
+.univ-list { display: flex; flex-wrap: wrap; gap: 4px; max-height: 300px; overflow-y: auto; }

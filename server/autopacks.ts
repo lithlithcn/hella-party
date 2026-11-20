@@ -107,8 +107,12 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
     });
   } else {
     const base = `https://${d.wiki}.fandom.com${d.lang ? '/' + d.lang : ''}/api.php`;
-    const u = `${base}?action=query&format=json&generator=categorymembers&gcmtitle=${encodeURIComponent('Category:' + d.cat)}&gcmnamespace=0&gcmlimit=500&prop=pageimages|info&piprop=original&pilicense=any`;
-    const j: any = await fetch(u, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+    let j: any = null;
+    for (const cat of [d.cat, 'Characters', 'Playable characters', 'Playable Characters', 'Fighters', 'Heroes'].filter((x, i, a) => a.indexOf(x) === i)) {
+      const u = `${base}?action=query&format=json&generator=categorymembers&gcmtitle=${encodeURIComponent('Category:' + cat)}&gcmnamespace=0&gcmlimit=500&prop=pageimages|info&piprop=original&pilicense=any`;
+      j = await fetch(u, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+      if (j?.query?.pages) break;
+    }
     if (!j) return null;
     const pages = Object.values<any>(j.query?.pages ?? {}).filter(p => p.original?.source && !/\/|List of|Category/i.test(p.title)).sort((a, b) => b.length - a.length);
     pages.forEach((p, i) => {
@@ -121,3 +125,51 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
   if (!qs.length) return null;
   return { format: 'hella-pack', version: 1, id: d.id, name: d.name, emoji: d.emoji, prompt: d.prompt, tags: d.tags, author: d.from === 'wd' ? 'Wikidata' : 'Fandom', nameKind: d.kind, questions: qs } as PackFile;
 }
+
+// ── Univers: EVERY fictional character on Wikidata, grouped by work (game / anime / film…), browsable as a tree.
+// Domain = classes of works. Characters = items "present in work" (P1441) or "from franchise" (P8345), not humans.
+export const DOMAINS: Record<string, { name: string; emoji: string; classes: string[]; prompt: string; kind?: NameKind }> = {
+  jeux: { name: 'Jeux vidéo', emoji: '🎮', classes: ['Q7889', 'Q7058673', 'Q865493'], prompt: 'Qui est ce personnage ?', kind: 'game' },
+  animes: { name: 'Animés & mangas', emoji: '🍥', classes: ['Q63952888', 'Q21198342', 'Q1107', 'Q20650540', 'Q8274'], prompt: 'Qui est ce personnage ?', kind: 'anime' },
+  vn: { name: 'Visual novels', emoji: '📖', classes: ['Q689445'], prompt: 'Qui est ce personnage ?', kind: 'anime' },
+  cartoons: { name: 'Dessins animés', emoji: '📺', classes: ['Q581714', 'Q202866', 'Q117467246'], prompt: 'Qui est ce personnage ?', kind: 'series' },
+  films: { name: 'Films', emoji: '🎬', classes: ['Q11424', 'Q24856'], prompt: 'Qui est ce personnage ?' },
+  series: { name: 'Séries TV', emoji: '📡', classes: ['Q5398426'], prompt: 'Qui est ce personnage ?', kind: 'series' },
+  comics: { name: 'BD & comics', emoji: '💬', classes: ['Q1004', 'Q14406742', 'Q838795', 'Q725377'], prompt: 'Qui est ce personnage ?' },
+  livres: { name: 'Livres', emoji: '📚', classes: ['Q7725634', 'Q1667921', 'Q8261'], prompt: 'Qui est ce personnage ?' },
+};
+
+export interface Work { id: string; name: string; pop: number; questions: PackQuestion[] }
+
+/** One SPARQL fetch → all works of the domain with their characters (difficulty = character sitelinks, thirds). */
+export async function buildDomain(dom: string): Promise<Work[] | null> {
+  const D = DOMAINS[dom]; if (!D) return null;
+  const q = `SELECT ?c ?cl ?sl ?w ?wl ?fandom ?enwiki WHERE {
+    { SELECT DISTINCT ?c ?w ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls.
+      { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= 1) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } } LIMIT 30000 }
+    OPTIONAL { ?c wdt:P6262 ?fandom } OPTIONAL { ?enwiki schema:about ?c; schema:isPartOf <https://en.wikipedia.org/> }
+    FILTER(BOUND(?fandom) || BOUND(?enwiki))
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". ?c rdfs:label ?cl. ?w rdfs:label ?wl. } }`;
+  const j: any = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+  if (!j) return null;
+  const seen = new Set<string>(), works = new Map<string, Work>(), rows: any[] = [];
+  for (const b of j.results.bindings) {
+    const k = b.c.value + b.w.value; if (seen.has(k)) continue; seen.add(k);
+    if (/^Q\d+$/.test(b.cl?.value ?? 'Q1') || /^Q\d+$/.test(b.wl?.value ?? 'Q1')) continue;
+    rows.push(b);
+  }
+  rows.sort((a, b) => +b.sl.value - +a.sl.value);
+  rows.forEach((b, i) => {
+    const wid = 'w-' + b.w.value.split('/').pop();
+    let w = works.get(wid); if (!w) works.set(wid, w = { id: wid, name: clean(b.wl.value), pop: 0, questions: [] });
+    w.pop += +b.sl.value;
+    const diff = thirds(i, rows.length), enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
+    w.questions.push({ id: b.c.value.split('/').pop()!, answer: clean(b.cl.value), exact: [], difficulty: diff, tags: [D.name.toLowerCase(), w.name, DIFF[diff]], type: 'image',
+      src: b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`, explain: `Personnage de ${w.name}`,
+      ...(enTitle ? { aliasTitle: `en:${enTitle}` } : {}) } as PackQuestion);
+  });
+  return [...works.values()].sort((a, b) => b.pop - a.pop);
+}
+
+/** Any Fandom wiki by name ("rivalsofaether", "touhou"…): its character category. */
+export const fandomDef = (wiki: string): AutoDef => ({ id: `fw-${wiki}`, name: `Fandom : ${wiki}`, emoji: '🌐', prompt: 'Qui est ce personnage ?', tags: ['personnages', wiki], from: 'fandom', wiki, cat: 'Characters' });

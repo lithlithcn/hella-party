@@ -300,7 +300,7 @@ export class Game {
   }
 
   pack(id: string) { return PACKS[id] ?? this.extra[id]; }
-  packExists(id: string) { return !!PACKS[id] || this.libraryIds.has(id); }
+  packExists(id: string) { return !!PACKS[id] || this.libraryIds.has(id) || /^-?(u|w|fw)-[A-Za-z0-9-]{1,60}$/.test(id); }
 
   private packQuestions(): Question[] {
     const ids: string[] = this.setting('packs') ?? [];

@@ -66,7 +66,7 @@ export interface PublicState {
   f: Record<string, any>; // per-feature public slices (feature.view)
 }
 
-export interface PackInfo { id: string; name: string; count: number; emoji?: string; author?: string; tags?: string[]; custom?: boolean; auto?: boolean }
+export interface PackInfo { id: string; name: string; count: number; emoji?: string; author?: string; tags?: string[]; custom?: boolean; auto?: boolean; univ?: boolean; works?: number }
 
 export type ClientMsg =
   | { t: 'hello'; id: string; name: string; avatar?: string }
@@ -78,10 +78,12 @@ export type ClientMsg =
   | { t: 'start' }
   | { t: 'stop' }
   | { t: 'kick'; id: string }
+  | { t: 'univ'; dom: string } // list the works of a Univers domain
   | { t: 'settings'; patch: Record<string, any> }
   | { t: 'action'; f: string; a: string; p?: any };
 
 export type ServerMsg =
+  | { t: 'univ'; dom: string; works: { id: string; name: string; n: number }[] }
   | { t: 'welcome'; defs: SettingDef[]; packs: PackInfo[] }
   | { t: 'packs'; packs: PackInfo[] }
   | { t: 'avatars'; map: Record<string, string> }       // id → data URL (on join: everyone's)
