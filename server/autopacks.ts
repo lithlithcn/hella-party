@@ -251,7 +251,7 @@ export const INTO: Record<string, string> = {
 // ── Sub-categories for the hand-made built-in packs: one Wikidata property per pack (owner: every category
 // must have many sub-categories). harvest.ts resolves each question's wiki: page → item → this value's label,
 // writes content/harvest/builtin-groups-map.json { packId: { questionId: group } }; resolvePack applies it.
-const CLASS = '?item wdt:P171* ?g. ?g wdt:P105 wd:Q37517.'; // taxonomic class (Mammifères, Oiseaux…)
+const CLASS = '?item wdt:P171/wdt:P171?/wdt:P171?/wdt:P171?/wdt:P171?/wdt:P171?/wdt:P171?/wdt:P171?/wdt:P171? ?g. ?g wdt:P105 wd:Q37517.'; // bounded path (P171* timed out) // taxonomic class (Mammifères, Oiseaux…)
 export const BUILTIN_GROUPS: Record<string, string> = {
   animaux: CLASS, 'chiens-chats': '?item wdt:P31 ?g.', dinosaures: '?item wdt:P171 ?g.',
   monuments: '?item wdt:P17 ?g.', 'merveilles-nature': '?item wdt:P17 ?g.', capitales: '?item wdt:P17/wdt:P30 ?g.',
