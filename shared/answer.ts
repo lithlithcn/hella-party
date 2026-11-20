@@ -37,8 +37,9 @@ export interface Answerable { exact: string[]; partial?: string[] }
 export function judge(guess: string, q: Answerable): Grade | null {
   const g = normalize(guess);
   if (!g) return null;
-  const exact = q.exact.map(normalize).flatMap(shortcuts);
-  const partial = (q.partial ?? []).map(normalize);
+  const base = q.exact.map(normalize);
+  const exact = base.flatMap(e => [e, ...(ALIAS[e] ?? []).map(normalize)]);
+  const partial = [...(q.partial ?? []).map(normalize), ...base.flatMap(guessed)].filter(x => x && !exact.includes(x));
   if (exact.includes(g)) return 'exact';
   if (partial.includes(g)) return 'partial';
   for (const e of exact) if (levenshtein(g, e, tolerance(e.length)) <= tolerance(e.length)) return 'approx';
@@ -59,10 +60,16 @@ const ALIAS: Record<string, string[]> = {
   'the legend of zelda': ['zelda'], 'league of legends': ['lol'], 'counter strike': ['cs'], 'call of duty': ['cod'],
   'etats unis': ['usa', 'us', 'amerique'], 'royaume uni': ['uk', 'angleterre'], 'tour eiffel': ['eiffel'],
 };
-function shortcuts(e: string): string[] {
-  const out = [e], w = e.split(' ');
-  if (w.length >= 2 && LINK.has(w[1]) && w[0].length >= 4) out.push(w[0]);
-  if (w.length >= 3) out.push(w.filter(x => !LINK.has(x)).map(x => x[0]).join(''));
-  if (ALIAS[e]) out.push(...ALIAS[e].map(normalize));
-  return out;
+// Compound nouns whose head word means something else ("pomme" ≠ "pomme de terre").
+const NOHEAD = new Set(['pomme de terre', 'noix de coco', 'fruit de la passion', 'chou de bruxelles', 'arc en ciel', 'pomme d amour',
+  'chauve souris', 'poisson d avril', 'boule de neige', 'bonhomme de neige', 'coup de foudre', 'tour de france', 'fer a repasser',
+  'pomme de pin', 'queue de cheval', 'cochon d inde', 'belle de nuit', 'tete de mort']);
+const init = (w: string) => { const m = /^([a-z0-9]{1,3})\1/.exec(w); return m ? w[0] + w[0] : w[0]; }; // "jojo" → "jj" (JJBA)
+/** Generated shortcuts → 'partial' (fewer points than the full answer): head noun, initials. */
+function guessed(e: string): string[] {
+  const out: string[] = [], w = e.split(' ').filter(Boolean);
+  if (w.length >= 2 && LINK.has(w[1]) && w[0].length >= 4 && !NOHEAD.has(e)) out.push(w[0]);
+  const core = w.filter(x => !LINK.has(x) && x !== 's'); // "jojo s bizarre adventure"
+  if (core.length >= 3) { out.push(core.map(x => x[0]).join('')); out.push(core.map(init).join('')); out.push(w.filter(x => x !== 's').map(x => x[0]).join('')); }
+  return [...new Set(out)].filter(x => x.length >= 3 || w.length >= 2 && x === w[0]);
 }
