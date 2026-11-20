@@ -54,6 +54,22 @@ const LINK = new Set(['a', 'au', 'aux', 'de', 'du', 'des', 'd', 'en', 'et', 'la'
 const GENERIC = new Set(['movie', 'film', 'films', 'series', 'serie', 'saga', 'game', 'games', 'jeu', 'jeux', 'video', 'videogame', 'tv', 'television', 'televisee',
   'animated', 'anime', 'manga', 'franchise', 'universe', 'univers', 'trilogy', 'trilogie', 'show', 'cartoon', 'live', 'action', 'remake', 'reboot', 'the', 'official',
   'edition', 'collection', 'chronicles', 'part', 'partie', 'chapter', 'chapitre', 'episode', 'volume', 'vol', 'season', 'saison']);
+// Words too common to identify anything on their own (never accepted alone).
+const COMMON = new Set(('super grand grande grands petit petite saint sainte new nouveau nouvelle old vieux big little great king queen roi reine prince princesse '
+  + 'man men woman homme femme boy girl fille garcon kid kids city ville world monde star stars war wars guerre black white red blue green yellow noir noire blanc blanche rouge bleu bleue vert verte jaune '
+  + 'dark light night day nuit jour love amour life vie death mort last first premier premiere return retour legend legende story histoire adventure adventures aventure aventures '
+  + 'tour mont mount lac lake river riviere ile island pont bridge chateau castle palace palais cathedrale eglise church musee museum parc park place rue street porte gate tower arc '
+  + 'chat chien dog cat bros brothers freres team club united real sport sports royal national international ultimate mega ultra hyper pro max mini plus deluxe').split(' '));
+const DIR = new Set(['nord', 'sud', 'est', 'ouest', 'north', 'south', 'east', 'west', 'central', 'centrale', 'occidental', 'oriental', 'du', 'de']);
+/** Distinctive single words / pairs of a multi-word name (≥ 4 letters, not COMMON, not a "Corée du Sud" case). */
+function keyWords(core: string[]): string[] {
+  if (core.length < 2 || core.some(x => DIR.has(x))) return [];
+  const out: string[] = [];
+  const key = core.filter(x => x.length >= 4 && !COMMON.has(x) && !/^\d+$/.test(x));
+  if (core.length >= 3 || key.length === 1) out.push(...key); // 2-word names: only when the other word is common ("Super Mario", "Tour Eiffel")
+  if (core.length >= 3) for (let i = 0; i + 1 < core.length; i++) if (!COMMON.has(core[i]) || !COMMON.has(core[i + 1])) out.push(core[i] + ' ' + core[i + 1]);
+  return out;
+}
 const ART = new Set(['the', 'le', 'la', 'les', 'l', 'a', 'an', 'un', 'une']);
 const ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi'];
 const num = (w: string) => { const r = ROMAN.indexOf(w); return r >= 0 && w !== 'i' ? String(r + 1) : /^\d+$/.test(w) ? w : null; };
@@ -74,6 +90,8 @@ export function expand(raw: string): string[] {
     // core name without generic words: "A Minecraft Movie" → "minecraft", "Pokémon (série télévisée)" → "pokemon"
     const core0 = w.filter(x => !ART.has(x) && !GENERIC.has(x) && !/^(19|20)\d\d$/.test(x));
     if (core0.length && core0.length < w.length) out.add(core0.join(' '));
+    // distinctive word(s) alone: "Super Mario Bros. : Le Film" → "mario", "mario bros"; "Tour Eiffel" → "eiffel"
+    if (!NOHEAD.has(normalize(f))) for (const x of keyWords(core0.filter(y => !LINK.has(y) && y !== 'of' && y !== 's'))) out.add(x);
     const core = w.filter(x => x !== 's'), noArt = core.filter(x => !ART.has(x)), noLead = ART.has(core[0]) ? core.slice(1) : core;
     for (const list of [core, noArt, noLead]) {
       if (list.length < 2) continue;
@@ -105,6 +123,9 @@ const NOHEAD = new Set(['pomme de terre', 'noix de coco', 'fruit de la passion',
   'pomme de pin', 'queue de cheval', 'cochon d inde', 'belle de nuit', 'tete de mort']);
 /** Generated, less certain shortcuts → 'partial'. */
 function guessed(e: string): string[] {
-  const w = e.split(' ').filter(Boolean);
-  return w.length >= 2 && LINK.has(w[1]) && w[0].length >= 4 && !NOHEAD.has(e) ? [w[0]] : [];
+  const w = e.split(' ').filter(Boolean), out: string[] = [];
+  if (w.length >= 2 && LINK.has(w[1]) && w[0].length >= 4 && !NOHEAD.has(e)) out.push(w[0]);
+  // 2-word names (first + last name, "Naruto Uzumaki"): each word alone is accepted, for fewer points
+  if (w.length === 2 && !w.some(x => DIR.has(x) || LINK.has(x))) for (const x of w) if (x.length >= 3 && !COMMON.has(x)) out.push(x);
+  return out;
 }
