@@ -20,6 +20,7 @@ export class Library extends DurableObject {
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
+      CREATE TABLE IF NOT EXISTS names1 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS wiki4 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
 
@@ -57,6 +58,36 @@ export class Library extends DurableObject {
    *  'stored' = downloaded once by the server, served from /api/media (best);
    *  'direct' = the server could not download it, players load Wikimedia's own thumbnail;
    *  'none'   = the article has no image → the question is skipped. Transient errors are not cached. */
+  /** 'lang:Title' → other names of that Wikipedia page: its redirects (abbreviations, spellings) and its
+   *  titles in en/fr/es/it/de/pt (+ their en/fr redirects). Cached 30 days. Becomes extra accepted answers. */
+  async names(k: string): Promise<string[]> {
+    const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names1 WHERE k = ?', k).toArray()[0];
+    if (row && Date.now() - row.at < 30 * 86_400_000) return JSON.parse(row.list);
+    const [lang, ...rest] = k.split(':'); const title = rest.join(':').replace(/_/g, ' ');
+    const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)' };
+    const out = new Set<string>(); let ok = false;
+    const q = async (l: string, t: string) => {
+      const u = `https://${l}.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=redirects|langlinks&rdnamespace=0&rdlimit=200&lllimit=500&titles=${encodeURIComponent(t)}`;
+      const j: any = await fetch(u, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+      const page: any = j && Object.values(j.query?.pages ?? {})[0];
+      if (!page || page.missing !== undefined) return null;
+      ok = true;
+      if (/\(homonymie\)|\(disambiguation\)/i.test(page.title)) return null;
+      out.add(page.title);
+      for (const r of page.redirects ?? []) out.add(r.title);
+      const ll: Record<string, string> = {};
+      for (const x of page.langlinks ?? []) if (['en', 'fr', 'es', 'it', 'de', 'pt'].includes(x.lang)) { ll[x.lang] = x['*']; out.add(x['*']); }
+      return ll;
+    };
+    const ll = await q(lang, title);
+    const other = lang === 'fr' ? ll?.en : ll?.fr;
+    if (other) await q(lang === 'fr' ? 'en' : 'fr', other);
+    const list = [...out].map(s => s.replace(/\s*\([^)]*\)\s*$/, '').trim())
+      .filter(s => s && s.length <= 50 && !/[:/#]/.test(s) && /[a-z0-9]/i.test(s.normalize('NFD'))).slice(0, 150);
+    if (ok) this.sql.exec('INSERT OR REPLACE INTO names1 VALUES (?, ?, ?)', k, JSON.stringify([...new Set(list)]), Date.now());
+    return [...new Set(list)];
+  }
+
   async wiki(src: string): Promise<string | null> {
     const row = this.sql.exec<{ url: string | null; kind: string; at: number }>('SELECT url, kind, at FROM wiki4 WHERE src = ?', src).toArray()[0];
     if (row && (row.kind === 'stored' || Date.now() - row.at < (row.kind === 'direct' ? 3_600_000 : 86_400_000))) return row.url;

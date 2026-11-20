@@ -55,6 +55,8 @@ export interface PackFile {
   version: number;
   id: string;
   name: string;
+  /** "answer": take extra accepted names from the answer's Wikipedia page instead of the pictured one (by-character packs). */
+  aliasFrom?: "src" | "answer";
   description?: string;
   author?: string;
   emoji?: string;

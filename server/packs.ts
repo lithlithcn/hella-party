@@ -9,6 +9,8 @@ export interface Question extends Omit<PackQuestion, "type"> {
   type: string;       // client/question-types/<type>.tsx
   prompt: string;
   media?: Record<string, string>; // library packs: file name → URL (for scripts)
+  /** Wikipedia page whose redirects + other-language titles become accepted answers ('lang:Title'). */
+  aliasTitle?: string;
 }
 
 export interface Pack { id: string; name: string; tags: string[]; questions: Question[] }
@@ -23,6 +25,8 @@ export function resolvePack(p: PackFile & { media?: Record<string, string> }): P
       ...q, key: `${p.id}/${q.id}`, pack: p.id, type: q.type ?? 'image', prompt: q.prompt || p.prompt,
       src: map && q.src && map[q.src] ? map[q.src] : media(p.id, q.src), exact: [q.answer, ...(q.exact ?? [])], media: map,
       opts: p.opts || q.opts ? { ...p.opts, ...q.opts } : undefined,
+      // the pictured page IS the answer, except in "by character" packs (picture = character, answer = work)
+      aliasTitle: q.src?.startsWith('wiki:') && p.aliasFrom !== 'answer' ? q.src.slice(5).replace(/^(?![a-z]{2,3}:)/, 'fr:') : `fr:${q.answer}`,
     })),
   };
 }

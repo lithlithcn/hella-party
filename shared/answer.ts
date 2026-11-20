@@ -33,24 +33,56 @@ const tolerance = (len: number) => (len >= 9 ? 2 : len >= 5 ? 1 : 0);
 
 export interface Answerable { exact: string[]; partial?: string[] }
 
-/** Best grade for a guess, or null if wrong. Normalized lists can be cached by the caller. */
+/** Best grade for a guess, or null if wrong. */
 export function judge(guess: string, q: Answerable): Grade | null {
   const g = normalize(guess);
   if (!g) return null;
-  const base = q.exact.map(normalize);
-  const exact = base.flatMap(e => [e, ...(ALIAS[e] ?? []).map(normalize)]);
-  const partial = [...(q.partial ?? []).map(normalize), ...base.flatMap(guessed)].filter(x => x && !exact.includes(x));
+  const exact = [...new Set(q.exact.flatMap(expand))];
   if (exact.includes(g)) return 'exact';
+  const partial = [...(q.partial ?? []).map(normalize), ...q.exact.map(normalize).flatMap(guessed)];
   if (partial.includes(g)) return 'partial';
-  for (const e of exact) if (levenshtein(g, e, tolerance(e.length)) <= tolerance(e.length)) return 'approx';
+  for (const e of exact) if (e.length >= 4 && levenshtein(g, e, tolerance(e.length)) <= tolerance(e.length)) return 'approx';
   return null;
 }
 
-// Automatic shortcuts accepted as exact (no per-question data needed):
-// - head noun before a linking word: "flute a bec" → "flute", "chat de gouttiere" → "chat" (head ≥ 4 letters)
-// - initials of 3+ words: "grand theft auto" → "gta"; "super nintendo entertainment system" → "snes"
-// - a small table of common aliases (consoles, brands…)
+// ── Automatic shortcuts (owner: "les raccourcis doivent marcher") ─────────────────────────────
+// exact: the answer, without subtitle / parentheses / leading article, roman↔arabic numbers,
+//        acronyms (The Last of Us → tlou, The Lord of the Rings → lotr, Le Seigneur des anneaux → sda,
+//        JoJo's Bizarre Adventure → jjba/jba, Final Fantasy VII → ff7/ffvii), + ALIAS table.
+// partial (fewer points): head noun before a linking word (flûte à bec → flûte), unless NOHEAD.
 const LINK = new Set(['a', 'au', 'aux', 'de', 'du', 'des', 'd', 'en', 'et', 'la', 'le', 'l', 'pour', 'sur']);
+const ART = new Set(['the', 'le', 'la', 'les', 'l', 'a', 'an', 'un', 'une']);
+const ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi'];
+const num = (w: string) => { const r = ROMAN.indexOf(w); return r >= 0 && w !== 'i' ? String(r + 1) : /^\d+$/.test(w) ? w : null; };
+const words = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim().split(' ').filter(Boolean);
+const dup = (w: string) => (/^([a-z]{1,3})\1/.test(w) ? w[0] + w[0] : w[0]); // jojo → jj
+
+const cache = new Map<string, string[]>();
+export function expand(raw: string): string[] {
+  let hit = cache.get(raw); if (hit) return hit;
+  const out = new Set<string>();
+  const parts = raw.split(/\s*[:–—]\s*|\s+-\s+/);
+  const forms = [raw, ...parts, raw.replace(/\s*\([^)]*\)/g, '')];
+  for (const f of forms) {
+    const w = words(f); if (!w.length) continue;
+    out.add(normalize(f));
+    const arabic = w.map(x => num(x) ?? x);
+    out.add(arabic.join(' ')); out.add(w.join(' ')); out.add(w.filter(x => !ART.has(x)).join(' '));
+    const core = w.filter(x => x !== 's'), noArt = core.filter(x => !ART.has(x)), noLead = ART.has(core[0]) ? core.slice(1) : core;
+    for (const list of [core, noArt, noLead]) {
+      if (list.length < 2) continue;
+      const ac = list.map(x => num(x) ?? x[0]).join(''), ac2 = list.map(x => num(x) ?? dup(x)).join('');
+      const acR = list.map(x => (ROMAN.includes(x) && x !== 'i' ? x : (num(x) ?? x[0]))).join('');
+      for (const a of [ac, ac2, acR]) if (a.length >= 3) out.add(a);
+    }
+  }
+  for (const e of [...out]) for (const a of ALIAS[e] ?? []) out.add(normalize(a));
+  hit = [...out].filter(Boolean);
+  if (cache.size > 20000) cache.clear();
+  cache.set(raw, hit);
+  return hit;
+}
+
 const ALIAS: Record<string, string[]> = {
   'super nintendo': ['snes', 'super nes', 'super famicom'], 'nintendo entertainment system': ['nes'], 'nes': ['nintendo'],
   'playstation': ['ps1', 'psx', 'play'], 'playstation 2': ['ps2'], 'playstation 3': ['ps3'], 'playstation 4': ['ps4'], 'playstation 5': ['ps5'],
@@ -60,16 +92,13 @@ const ALIAS: Record<string, string[]> = {
   'the legend of zelda': ['zelda'], 'league of legends': ['lol'], 'counter strike': ['cs'], 'call of duty': ['cod'],
   'etats unis': ['usa', 'us', 'amerique'], 'royaume uni': ['uk', 'angleterre'], 'tour eiffel': ['eiffel'],
 };
+
 // Compound nouns whose head word means something else ("pomme" ≠ "pomme de terre").
 const NOHEAD = new Set(['pomme de terre', 'noix de coco', 'fruit de la passion', 'chou de bruxelles', 'arc en ciel', 'pomme d amour',
   'chauve souris', 'poisson d avril', 'boule de neige', 'bonhomme de neige', 'coup de foudre', 'tour de france', 'fer a repasser',
   'pomme de pin', 'queue de cheval', 'cochon d inde', 'belle de nuit', 'tete de mort']);
-const init = (w: string) => { const m = /^([a-z0-9]{1,3})\1/.exec(w); return m ? w[0] + w[0] : w[0]; }; // "jojo" → "jj" (JJBA)
-/** Generated shortcuts → 'partial' (fewer points than the full answer): head noun, initials. */
+/** Generated, less certain shortcuts → 'partial'. */
 function guessed(e: string): string[] {
-  const out: string[] = [], w = e.split(' ').filter(Boolean);
-  if (w.length >= 2 && LINK.has(w[1]) && w[0].length >= 4 && !NOHEAD.has(e)) out.push(w[0]);
-  const core = w.filter(x => !LINK.has(x) && x !== 's'); // "jojo s bizarre adventure"
-  if (core.length >= 3) { out.push(core.map(x => x[0]).join('')); out.push(core.map(init).join('')); out.push(w.filter(x => x !== 's').map(x => x[0]).join('')); }
-  return [...new Set(out)].filter(x => x.length >= 3 || w.length >= 2 && x === w[0]);
+  const w = e.split(' ').filter(Boolean);
+  return w.length >= 2 && LINK.has(w[1]) && w[0].length >= 4 && !NOHEAD.has(e) ? [w[0]] : [];
 }

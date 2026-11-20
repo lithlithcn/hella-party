@@ -30,9 +30,13 @@ export class Room extends DurableObject<Env> {
       send: (to, msg) => this.send(to, msg),
       bubble: (from, text, to) => this.chatLine(from, text, undefined, to, true),
       prepare: async q => {
-        if (!q.src?.startsWith('wiki:')) return q;
-        const url = await library(this.env).wiki(q.src);
-        return url ? { ...q, src: url } : null;
+        const lib = library(this.env);
+        // extra accepted answers from Wikipedia (redirects + other languages); never blocks the question
+        const names = q.aliasTitle ? await lib.names(q.aliasTitle).catch(() => [] as string[]) : [];
+        const exact = names.length ? [...new Set([...q.exact, ...names])] : q.exact;
+        if (!q.src?.startsWith('wiki:')) return { ...q, exact };
+        const url = await lib.wiki(q.src);
+        return url ? { ...q, src: url, exact } : null;
       },
     }));
   }
