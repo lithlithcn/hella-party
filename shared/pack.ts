@@ -48,6 +48,7 @@ export interface PackQuestion {
   opts?: MediaOpts;
   script?: string;        // JS for type 'script' (see client/question-types/script.tsx)
   data?: any;             // free-form, for scripts and features
+  group?: string;         // sub-category shown in the lobby (e.g. "Chanteurs"); default = pack name
 }
 
 export interface PackFile {

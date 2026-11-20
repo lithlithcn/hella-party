@@ -38,6 +38,11 @@ export async function exportPacks(list: PackFile[]) {
 
 /** Accepts zips made by exportPacks (one or many packs). Returns imported pack names. */
 export async function importZip(file: File): Promise<string[]> {
+  if (file.name.toLowerCase().endsWith('.json')) { // a bare pack.json (e.g. written by another AI, media = URLs / wiki:)
+    const p = JSON.parse(await file.text()) as PackFile;
+    if (p.format !== PACK_FORMAT || !Array.isArray(p.questions)) throw new Error('pack.json invalide (format "hella-pack" attendu)');
+    await packs.remove(p.id); await packs.save(p); return [p.name];
+  }
   const entries = unzipSync(new Uint8Array(await file.arrayBuffer()));
   const names: string[] = [];
   for (const path of Object.keys(entries).filter(k => k.endsWith('pack.json'))) {

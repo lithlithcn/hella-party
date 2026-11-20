@@ -48,7 +48,9 @@ export class Library extends DurableObject {
     const json = JSON.stringify(pack);
     if (json.length > MAX_PACK_JSON) return { ok: false, error: 'pack trop gros (texte > 2 Mo)' };
     const tags = [...new Set([...(pack.tags ?? []), ...pack.questions.flatMap(q => q.tags ?? [])])].slice(0, 40);
-    const info: PackInfo = { id: pack.id, name: String(pack.name).slice(0, 60), count: pack.questions.length, emoji: pack.emoji, author: pack.author, tags, custom: true };
+    const gm = new Map<string, number>(); for (const q of pack.questions) { const g = String(q.group ?? pack.name).slice(0, 60); gm.set(g, (gm.get(g) ?? 0) + 1); }
+    const info: PackInfo = { id: pack.id, name: String(pack.name).slice(0, 60), count: pack.questions.length, emoji: pack.emoji, author: pack.author, tags, custom: true,
+      groups: [...gm].sort((a, b) => b[1] - a[1]).slice(0, 300).map(([g, n]) => ({ g, n })) };
     this.sql.exec('INSERT OR REPLACE INTO packs (id, json, key, info, updated) VALUES (?, ?, ?, ?, ?)', pack.id, json, key, JSON.stringify(info), Date.now());
     return { ok: true };
   }

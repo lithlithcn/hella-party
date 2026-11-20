@@ -63,7 +63,7 @@ export default function Studio() {
         <div class="studio-body">
           <aside class="card packs-side">
             <button class="btn" onClick={create}>+ Nouveau pack</button>
-            <label class="btn ghost small file-btn">📥 Importer un .zip<input type="file" accept=".zip" onChange={e => { const t = e.target as HTMLInputElement; onImport(t.files?.[0]); t.value = ''; }} /></label>
+            <label class="btn ghost small file-btn">📥 Importer (.zip / .json)<input type="file" accept=".zip,.json" onChange={e => { const t = e.target as HTMLInputElement; onImport(t.files?.[0]); t.value = ''; }} /></label>
             <div class="pack-list">
               {list.map(p => (
                 <button key={p.id} class={`pack-item ${cur?.id === p.id ? 'on' : ''}`} style={{ borderColor: p.color }} onClick={() => setCur(p)}>

@@ -1,3 +1,4 @@
+import { Fragment } from 'preact';
 import { useState } from 'preact/hooks';
 import type { PublicState, SettingDef } from '../../shared/protocol';
 import { CLIENT_FEATURES } from '../feature';
@@ -45,16 +46,18 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
       const merged = store.packs.filter(x => x.into === p.id);
       const count = p.count + merged.reduce((n, x) => n + x.count, 0);
       const off = (v ?? []).filter((x: string) => x.startsWith(`-g:${p.id}:`)).length;
+      const toggle = () => set(d.key, on ? v.filter((x: string) => x !== p.id) : [...(v ?? []), p.id]);
       return (
-        <span key={p.id} class={`pack ${on ? 'on' : ''} ${openId === p.id ? 'open' : ''}`} title={[p.author && `par ${p.author}`, p.tags?.join(', ')].filter(Boolean).join(' · ')}>
-          <input type="checkbox" checked={on} onChange={() => set(d.key, on ? v.filter((x: string) => x !== p.id) : [...(v ?? []), p.id])} />
-          <button type="button" class="pack-open" onClick={() => { const o = openId === p.id ? null : p.id; setOpenId(o); if (o && !store.groups[o]) loadGroups(o); }}>
-            {p.emoji} {p.name} <small>{count}{off ? ` · −${off}` : ''}</small> <i>{openId === p.id ? '▾' : '▸'}</i>
-          </button>
-        </span>
+        <Fragment key={p.id}>
+          <span class={`pack ${on ? 'on' : ''} ${openId === p.id ? 'open' : ''}`} title={[p.author && `par ${p.author}`, p.tags?.join(', ')].filter(Boolean).join(' · ')}>
+            <label class="pack-main"><input type="checkbox" checked={on} onChange={toggle} /> {p.emoji} {p.name} <small>{count}{off ? ` · −${off}` : ''}</small></label>
+            <button type="button" class="pack-open" title="Sous-catégories" onClick={() => { const o = openId === p.id ? null : p.id; setOpenId(o); if (o && !store.groups[o]) loadGroups(o); }}>{openId === p.id ? '▾' : '▸'}</button>
+          </span>
+          {openId === p.id && <div class="groups-row"><Groups id={p.id} v={v ?? []} set={x => set(d.key, x)} /></div>}
+        </Fragment>
       );
     };
-    const panel = (list: (typeof store.packs)) => openId && list.some(p => p.id === openId) && <Groups id={openId} v={v ?? []} set={x => set(d.key, x)} />;
+    const panel = (_: unknown) => null;
     const mine = store.packs.filter(p => p.custom);
     return (
       <div class="packs-block">
@@ -126,7 +129,7 @@ function loadGroups(id: string) {
   IDX ??= Promise.all([fetch('/data/index.json').then(r => (r.ok ? r.json() : [])).catch(() => []), fetch('/data/builtin-groups.json').then(r => (r.ok ? r.json() : {})).catch(() => ({}))]);
   IDX.then(([idx, bg]: any[]) => {
     const m = new Map<string, number>(), add = (l: { g: string; n: number }[] = []) => l.forEach(x => m.set(x.g, (m.get(x.g) ?? 0) + x.n));
-    add(bg[id]); idx.filter((h: any) => h.id === id || h.into === id).forEach((h: any) => add(h.groups));
+    add(bg[id] ?? store.packs.find(p => p.id === id)?.groups); idx.filter((h: any) => h.id === id || h.into === id).forEach((h: any) => add(h.groups));
     store.groups[id] = [...m].map(([g, n]) => ({ g, n })).sort((a, b) => b.n - a.n);
     changed();
   });
