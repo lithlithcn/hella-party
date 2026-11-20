@@ -147,6 +147,8 @@ export class Game {
   }
 
   // ───────────── players ─────────────
+  /** Who created the room: gets the leader role back when they reconnect. */
+  hostId: string | null = null;
   join(id: string, name: string, bot = false) {
     name = name.trim().slice(0, 20) || 'Joueur';
     let p = this.players.get(id);
@@ -157,7 +159,8 @@ export class Game {
       this.chat(`${name} a rejoint la partie`);
       this.fx(null, 'join', { id });
     }
-    if (!bot && (!this.leaderId || !this.players.get(this.leaderId)?.connected)) this.leaderId = id;
+    if (!bot && !this.hostId) this.hostId = id;
+    if (!bot && (id === this.hostId || !this.leaderId || !this.players.get(this.leaderId)?.connected)) this.leaderId = id; // host gets the lead back
     this.emit('playerJoin', { player: p });
     this.io.sync();
     return p;

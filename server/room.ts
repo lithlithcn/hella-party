@@ -13,6 +13,9 @@ const MAX_AVATAR = 80_000; // data URL chars (~60 KB image)
 /** Which specialised name sources a pack gets (see Library.names). */
 const NAME_KIND: Record<string, NameKind> = { animes: 'anime', 'jeux-par-perso': 'game', 'persos-jeux-video': 'game', consoles: 'game', 'dessins-animes': 'series' };
 
+/** A dropped player keeps their place (score, host role, running game) this long. */
+const GRACE_MS = 45_000;
+
 export class Room extends DurableObject<Env> {
   private game: Game | null = null;
   private sockets = new Map<WebSocket, string | null>(); // socket → player id
@@ -108,8 +111,9 @@ export class Room extends DurableObject<Env> {
     const close = () => {
       const id = this.sockets.get(ws);
       this.sockets.delete(ws);
-      // only leave if no other socket of the same player is still open (reloads, double tabs)
-      if (id && ![...this.sockets.values()].includes(id)) game.leave(id);
+      // only leave if no other socket of the same player is still open (reloads, double tabs), and only after
+      // a grace period: phones drop the socket when the screen locks / the app switches, they reconnect within seconds
+      if (id) setTimeout(() => { if (![...this.sockets.values()].includes(id)) game.leave(id); }, GRACE_MS);
     };
     ws.addEventListener('close', close);
     ws.addEventListener('error', close);
@@ -128,6 +132,7 @@ export class Room extends DurableObject<Env> {
     let m: ClientMsg;
     try { m = JSON.parse(raw); } catch { return; }
     const id = this.sockets.get(ws);
+    if (m.t === 'ping') { this.trySend(ws, '{"t":"pong"}'); return; }
     if (m.t === 'hello') {
       const pid = String(m.id).slice(0, 40);
       if (this.kicked.has(pid)) { ws.send(JSON.stringify({ t: 'err', msg: 'Tu as été expulsé de ce salon.' } satisfies ServerMsg)); ws.close(); return; }

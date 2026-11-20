@@ -91,6 +91,9 @@ async function sparql(q: string): Promise<any> {
 const FR_ORIGIN = new Set(['Q142', 'Q31']);
 const score = (b: any) => +b.sl.value + (b.frw ? 15 : 0) + (b.co && FR_ORIGIN.has(b.co.value.split('/').pop()) ? 25 : 0);
 const thirds = (i: number, n: number) => (i < n * 0.35 ? 1 : i < n * 0.7 ? 2 : 3);
+/** Owner: « facile » = things REALLY everybody knows. Absolute popularity, not a share of the list (the top third of
+ *  30 000 game characters is still full of unknowns), and at most the top 10 % / 30 % of the list. */
+const level = (b: any, i: number, n: number) => { const s = score(b); return s >= 75 && i < n * 0.1 ? 1 : s >= 40 && i < n * 0.3 ? 2 : 3; };
 const DIFF = ['', 'facile', 'moyen', 'difficile'];
 const clean = (t: string) => t.replace(/\s*\([^)]*\)\s*$/, '').trim();
 
@@ -110,7 +113,7 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
     for (const b of j.results.bindings) { const id = b.item.value; if (seen.has(id)) continue; seen.add(id); rows.push(b); }
     const ok = rows.filter(b => (b.fr || b.en) && (d.img === 'page' ? b.fandom || b.enwiki : b.img)).sort((a, b) => score(b) - score(a));
     ok.forEach((b, i) => {
-      const answer = clean(b.fr?.value ?? b.en.value), en = b.en?.value, diff = b.frw ? thirds(i, ok.length) : 3;
+      const answer = clean(b.fr?.value ?? b.en.value), en = b.en?.value, diff = b.frw ? level(b, i, ok.length) : 3;
       const enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
       const src = d.img === 'page'
         ? (b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`)
@@ -130,7 +133,7 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
     if (!j) return null;
     const pages = Object.values<any>(j.query?.pages ?? {}).filter(p => p.original?.source && !/\/|List of|Category/i.test(p.title)).sort((a, b) => b.length - a.length);
     pages.forEach((p, i) => {
-      const diff = thirds(i, pages.length);
+      const diff = i < pages.length * 0.08 ? 1 : i < pages.length * 0.3 ? 2 : 3; // Fandom: no popularity, only the longest pages are easy
       const img = p.original.source.replace(/\/revision\/latest(\/[^?]*)?/, '/revision/latest/scale-to-width-down/800');
       qs.push({ id: String(p.pageid), answer: clean(p.title), exact: [], difficulty: diff, tags: [...d.tags, DIFF[diff]], type: 'image', src: `url:${img}`, group: d.name.replace(/^(Persos (de |d'|des )|Univers |Champions de |Héros d'|Créatures de )/, ''),
         aliasTitle: `fw:${d.wiki}:${p.title}` } as PackQuestion);
@@ -201,7 +204,7 @@ function groupWorks(D: { name: string }, bindings: any[]): Work[] {
     let w = works.get(wid); if (!w) works.set(wid, w = { id: wid, name: clean((fr ? b.fl : b.wl).value), pop: 0, questions: [] });
     if (w.questions.some(q => q.id === b.c.value.split('/').pop())) return;
     w.pop += score(b);
-    const diff = b.frw || b.light ? thirds(i, rows.length) : 3, enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
+    const diff = b.frw ? level(b, i, rows.length) : b.light ? Math.max(2, thirds(i, rows.length)) : 3, enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
     w.questions.push({ id: b.c.value.split('/').pop()!, answer: clean(b.cl.value), exact: [], difficulty: diff, tags: [D.name.toLowerCase(), w.name, DIFF[diff]], type: 'image',
       src: b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`, explain: `Personnage de ${w.name}`, group: w.name,
       ...(enTitle ? { aliasTitle: `en:${enTitle}` } : {}) } as PackQuestion);

@@ -40,15 +40,30 @@ export const identity = {
 };
 
 let ws: WebSocket | null = null;
-let retry = 0;
+let retry = 0, lastMsg = 0, room = '', applied = '';
+// heartbeat: keeps the socket alive through proxies / phone networks, and detects a dead one (no answer → reconnect)
+setInterval(() => {
+  if (ws?.readyState !== WebSocket.OPEN) return;
+  if (Date.now() - lastMsg > 40_000) return ws.close();
+  ws.send('{"t":"ping"}');
+}, 15_000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden && room && ws?.readyState !== WebSocket.OPEN && ws?.readyState !== WebSocket.CONNECTING) connect(room); });
+/** The leader's last lobby settings (packs, difficulty, rules…), re-applied in every new room they lead. */
+const SAVED = 'hp.settings';
+export function saveSettings(patch: Record<string, any>) {
+  try { localStorage.setItem(SAVED, JSON.stringify({ ...JSON.parse(localStorage.getItem(SAVED) ?? '{}'), ...patch })); } catch {}
+}
 
 export function connect(code: string) {
+  room = code;
   ws?.close();
   const sock = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws/${code}`);
   ws = sock;
-  sock.onopen = () => { retry = 0; store.online = true; send({ t: 'hello', id: identity.id, name: identity.name, avatar: localStorage.getItem('hp.avatar') ?? undefined }); changed(); };
+  sock.onopen = () => { retry = 0; lastMsg = Date.now(); store.online = true; send({ t: 'hello', id: identity.id, name: identity.name, avatar: localStorage.getItem('hp.avatar') ?? undefined }); changed(); };
   sock.onmessage = ev => {
+    lastMsg = Date.now();
     const m: ServerMsg = JSON.parse(ev.data);
+    if ((m as any).t === 'pong') return;
     switch (m.t) {
       case 'welcome': store.defs = m.defs; store.packs = m.packs; break;
       case 'packs': store.packs = m.packs; break;
@@ -56,7 +71,12 @@ export function connect(code: string) {
       case 'groups': store.groups[m.id] = m.list; break;
       case 'avatars': store.avatars = m.map; break;
       case 'avatar': store.avatars = { ...store.avatars }; if (m.data) store.avatars[m.id] = m.data; else delete store.avatars[m.id]; break;
-      case 'state': focusHandoff(store.s?.phase?.name, m.s.phase?.name); store.s = m.s; store.offset = m.s.now - Date.now(); break;
+      case 'state':
+        if (applied !== code && m.s.status === 'lobby' && m.s.players.find(p => p.id === m.s.me)?.leader) {
+          applied = code; // once per room: my saved settings (unknown keys / packs are ignored by the server)
+          try { const saved = JSON.parse(localStorage.getItem(SAVED) ?? 'null'); if (saved) send({ t: 'settings', patch: saved }); } catch {}
+        }
+        focusHandoff(store.s?.phase?.name, m.s.phase?.name); store.s = m.s; store.offset = m.s.now - Date.now(); break;
       case 'chat': store.chat = [...store.chat.slice(-150), m]; if (m.from) play('chat', 0.6); break;
       case 'fx': if (m.kind === 'preload' && m.data?.src) preload(m.data.src); if (m.kind === 'join') play('join', 0.7); if (m.kind === 'leave') play('leave', 0.8); if (m.kind === 'error') play('invalid'); fxListeners.forEach(l => l(m)); if (m.kind === 'error' && DEBUG) store.chat = [...store.chat, { from: null, name: '', text: `⚠ ${m.data?.where ?? ''} ${m.data?.msg}` }]; break;
       case 'err': console.warn(m.msg); break;
@@ -66,7 +86,7 @@ export function connect(code: string) {
   sock.onclose = () => {
     if (ws !== sock) return;
     store.online = false; changed();
-    setTimeout(() => ws === sock && connect(code), Math.min(5000, 500 * 2 ** retry++));
+    setTimeout(() => ws === sock && connect(code), Math.min(3000, 300 * 2 ** retry++));
   };
 }
 

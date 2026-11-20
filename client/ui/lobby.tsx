@@ -2,7 +2,7 @@ import { Fragment } from 'preact';
 import { useState } from 'preact/hooks';
 import type { PublicState, SettingDef } from '../../shared/protocol';
 import { CLIENT_FEATURES } from '../feature';
-import { changed, DEBUG, send, store } from '../store';
+import { changed, DEBUG, saveSettings, send, store } from '../store';
 import { play } from '../sfx';
 
 const GROUPS: Record<string, string> = { '': 'Partie', scoring: 'Score', goal: 'Victoire', chain: 'Enchaînement bonus', bots: 'Debug : bots' };
@@ -12,7 +12,7 @@ export function Lobby({ s }: { s: PublicState }) {
   const defs = store.defs.filter(d => !d.dev || DEBUG);
   const packDef = defs.find(d => d.type === 'packs');
   const groups = [...new Set(defs.filter(d => d.type !== 'packs').map(d => d.feature ?? ''))];
-  const set = (key: string, v: any) => { play('select', 0.5); send({ t: 'settings', patch: { [key]: v } }); };
+  const set = (key: string, v: any) => { play('select', 0.5); send({ t: 'settings', patch: { [key]: v } }); saveSettings({ [key]: v }); };
   const link = `${location.origin}/${s.code}`;
 
   return (

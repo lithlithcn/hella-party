@@ -43,6 +43,9 @@ for (const dom of Object.keys(DOMAINS)) {
   for (let i = 0; i < fw.length; i += 6) {
     await Promise.all(fw.slice(i, i + 6).map(async f => {
       const qs = await fandomChars(f.wiki, f.name, DOMAINS[dom].name).catch(() => []);
+      // a character can't be easier than its work is famous (top pages of a niche game's wiki are not « facile »)
+      const floor = f.pop >= 80 ? 1 : f.pop >= 35 ? 2 : 3, DL = ['', 'facile', 'moyen', 'difficile'];
+      for (const q of qs) if ((q.difficulty ?? 3) < floor) { q.difficulty = floor as any; q.tags = [...(q.tags ?? []).filter(t => !DL.includes(t)), DL[floor]]; }
       if (!qs.length) return;
       let w = byId.get(f.id); if (!w) byId.set(f.id, w = { id: f.id, name: f.name, pop: f.pop, questions: [] });
       const have = new Set(w.questions.map(q => norm(q.answer)));
