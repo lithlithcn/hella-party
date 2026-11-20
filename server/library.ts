@@ -11,6 +11,8 @@ const CHUNK = 1_000_000;
 export const MAX_MEDIA = 25_000_000;
 const MAX_PACK_JSON = 2_000_000;
 
+export type NameKind = 'anime' | 'game' | 'series';
+
 export class Library extends DurableObject {
   private sql = this.ctx.storage.sql;
 
@@ -60,7 +62,7 @@ export class Library extends DurableObject {
    *  'none'   = the article has no image → the question is skipped. Transient errors are not cached. */
   /** 'lang:Title' → other names of that Wikipedia page: its redirects (abbreviations, spellings) and its
    *  titles in en/fr/es/it/de/pt (+ their en/fr redirects). Cached 30 days. Becomes extra accepted answers. */
-  async names(k: string, kind?: 'anime'): Promise<string[]> {
+  async names(k: string, kind?: NameKind): Promise<string[]> {
     if (kind) k += '|' + kind;
     const FR_EN = (l: string) => /^(fr|en)(-|$)/.test(l);
     const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names7 WHERE k = ?', k).toArray()[0];
@@ -111,7 +113,24 @@ export class Library extends DurableObject {
       const m = j?.data?.Media; if (!m) return;
       for (const t of [m.title?.romaji, m.title?.english, m.title?.userPreferred, ...(m.synonyms ?? [])]) if (t) out.add(t);
     };
-    await Promise.all([kind === 'anime' ? anilist(other && lang === 'fr' ? other : title) : null, cn(lang, title), other ? cn(lang === 'fr' ? 'en' : 'fr', other) : null,
+    // Video games: keyless MediaWiki fan wikis (redirects = abbreviations, alt titles, character nicknames)
+    const mw = async (api: string, t: string) => {
+      const j: any = await fetch(`${api}?action=query&format=json&redirects=1&prop=redirects&rdnamespace=0&rdlimit=500&titles=${encodeURIComponent(t)}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+      const page: any = j && Object.values(j.query?.pages ?? {})[0];
+      if (!page || page.missing !== undefined) return;
+      out.add(page.title); for (const r of page.redirects ?? []) out.add(r.title);
+    };
+    const en = lang === 'en' ? title : other ?? title;
+    const GAME_WIKIS = ['https://www.pcgamingwiki.com/w/api.php', 'https://strategywiki.org/w/api.php', 'https://www.mariowiki.com/api.php', 'https://bulbapedia.bulbagarden.net/w/api.php', 'https://zeldawiki.wiki/w/api.php'];
+    // TV series / cartoons: TVMaze alternative titles per country (keyless)
+    const tvmaze = async (t: string) => {
+      const j: any = await fetch(`https://api.tvmaze.com/singlesearch/shows?q=${encodeURIComponent(t)}&embed=akas`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+      if (!j) return; out.add(j.name); for (const a of j._embedded?.akas ?? []) if (!a.country || ['FR', 'US', 'GB', 'CA', 'BE'].includes(a.country.code)) out.add(a.name);
+    };
+    await Promise.all([
+      ...(kind === 'game' ? GAME_WIKIS.map(w => mw(w, en)) : []),
+      kind === 'series' ? tvmaze(en) : null, kind === 'series' && en !== title ? tvmaze(title) : null,
+      kind === 'anime' ? anilist(other && lang === 'fr' ? other : title) : null, cn(lang, title), other ? cn(lang === 'fr' ? 'en' : 'fr', other) : null,
       wikt(lang === 'en' ? 'en' : 'fr', title), other ? wikt(lang === 'fr' ? 'en' : 'fr', other) : null]);
     // Wikidata labels + aliases in every language (nicknames, short names, abbreviations)
     const wd: any = ll && await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|aliases|claims&sites=${lang}wiki&titles=${encodeURIComponent(title)}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);

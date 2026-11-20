@@ -3,9 +3,12 @@ import { DurableObject } from 'cloudflare:workers';
 import type { ChatQuote, ClientMsg, PackInfo, ServerMsg } from '../shared/protocol';
 import { Game, PACK_INFO, SETTING_DEFS } from './engine';
 import { resolvePack } from './packs';
-import { library, type Env } from './library';
+import { library, type Env, type NameKind } from './library';
 
 const MAX_AVATAR = 80_000; // data URL chars (~60 KB image)
+
+/** Which specialised name sources a pack gets (see Library.names). */
+const NAME_KIND: Record<string, NameKind> = { animes: 'anime', 'jeux-par-perso': 'game', 'persos-jeux-video': 'game', consoles: 'game', 'dessins-animes': 'series' };
 
 export class Room extends DurableObject<Env> {
   private game: Game | null = null;
@@ -32,7 +35,7 @@ export class Room extends DurableObject<Env> {
       prepare: async q => {
         const lib = library(this.env);
         // extra accepted answers from Wikipedia (redirects + other languages); never blocks the question
-        const names = q.aliasTitle ? await lib.names(q.aliasTitle, q.pack === 'animes' ? 'anime' : undefined).catch(() => [] as string[]) : [];
+        const names = q.aliasTitle ? await lib.names(q.aliasTitle, NAME_KIND[q.pack]).catch(() => [] as string[]) : [];
         const exact = names.length ? [...new Set([...q.exact, ...names])] : q.exact;
         if (!q.src?.startsWith('wiki:')) return { ...q, exact };
         const url = await lib.wiki(q.src);
