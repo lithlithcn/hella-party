@@ -20,7 +20,7 @@ export class Library extends DurableObject {
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
-      CREATE TABLE IF NOT EXISTS names6 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
+      CREATE TABLE IF NOT EXISTS names7 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS wiki4 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
 
@@ -62,7 +62,7 @@ export class Library extends DurableObject {
    *  titles in en/fr/es/it/de/pt (+ their en/fr redirects). Cached 30 days. Becomes extra accepted answers. */
   async names(k: string): Promise<string[]> {
     const FR_EN = (l: string) => /^(fr|en)(-|$)/.test(l);
-    const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names6 WHERE k = ?', k).toArray()[0];
+    const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names7 WHERE k = ?', k).toArray()[0];
     if (row && Date.now() - row.at < 30 * 86_400_000) return JSON.parse(row.list);
     const [lang, ...rest] = k.split(':'); const title = rest.join(':').replace(/_/g, ' ');
     const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)' };
@@ -90,7 +90,20 @@ export class Library extends DurableObject {
       const j: any = await fetch(`https://api.conceptnet.io/query?node=/c/${l}/${encodeURIComponent(term)}&other=/c&limit=500`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
       for (const e of j?.edges ?? []) if (/Synonym|TranslationOf|FormOf|EtymologicallyRelatedTo/.test(e.rel?.['@id'] ?? '')) for (const n of [e.start, e.end]) if (n?.label && /^\/c\/(fr|en)\//.test(n['@id'] ?? '')) out.add(n.label);
     };
-    await Promise.all([cn(lang, title), other ? cn(lang === 'fr' ? 'en' : 'fr', other) : null]);
+    // Wiktionary (FR + EN): synonyms, abbreviations, spelling variants of the word (frigo, télé, bagnole…)
+    const wikt = async (l: 'fr' | 'en', w: string) => {
+      const j: any = await fetch(`https://${l}.wiktionary.org/w/api.php?action=parse&format=json&prop=wikitext&redirects=1&page=${encodeURIComponent(w.toLowerCase())}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+      let t: string = j?.parse?.wikitext?.['*'] ?? ''; if (!t) return;
+      t = l === 'fr' ? (t.split(/==\s*\{\{langue\|fr\}\}\s*==/)[1] ?? '').split(/\n==\s*\{\{langue\|/)[0] : (t.split(/\n==English==/)[1] ?? '').split(/\n==[^=]/)[0];
+      const SEC = l === 'fr' ? /\{\{S\|(synonymes|quasi-synonymes|abréviations|variantes|variantes orthographiques)/ : /^=+\s*(Synonyms|Alternative forms|Abbreviations)\s*=+/;
+      for (const sec of t.split(/\n(?==)/)) {
+        const head = sec.split('\n')[0];
+        if (SEC.test(head)) for (const m of sec.matchAll(/\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]|\{\{(?:lien|l)\|([^|}]+)/g)) out.add(m[1] ?? m[2]);
+        for (const m of sec.matchAll(/\{\{(?:syn|synonyms)\|en\|([^}]+)\}\}/g)) for (const x of m[1].split('|')) if (!x.includes('=')) out.add(x);
+      }
+    };
+    await Promise.all([cn(lang, title), other ? cn(lang === 'fr' ? 'en' : 'fr', other) : null,
+      wikt(lang === 'en' ? 'en' : 'fr', title), other ? wikt(lang === 'fr' ? 'en' : 'fr', other) : null]);
     // Wikidata labels + aliases in every language (nicknames, short names, abbreviations)
     const wd: any = ll && await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|aliases|claims&sites=${lang}wiki&titles=${encodeURIComponent(title)}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
     const ent: any = wd && Object.values(wd.entities ?? {})[0];
@@ -112,7 +125,7 @@ export class Library extends DurableObject {
     }));
     const list = [...out].map(s => s.replace(/\s*\([^)]*\)\s*$/, '').trim())
       .filter(s => s && s.length <= 60 && !/[:/#]/.test(s) && /^[\p{Script=Latin}\d\s'’.,&!?()-]+$/u.test(s)).slice(0, 1000); // French/English only
-    if (ok) this.sql.exec('INSERT OR REPLACE INTO names6 VALUES (?, ?, ?)', k, JSON.stringify([...new Set(list)]), Date.now());
+    if (ok) this.sql.exec('INSERT OR REPLACE INTO names7 VALUES (?, ?, ?)', k, JSON.stringify([...new Set(list)]), Date.now());
     return [...new Set(list)];
   }
 
