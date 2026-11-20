@@ -39,6 +39,7 @@ for (const dom of Object.keys(DOMAINS)) {
     }));
   }
   const D = DOMAINS[dom];
+  for (const w of byId.values()) if (w.questions.length < 3) w.name = `Autres (${D.name.toLowerCase()})`; // no 1-2 item sub-categories
   save(id, { format: 'hella-pack', version: 1, id, name: D.name, emoji: D.emoji, prompt: D.prompt, nameKind: D.kind, author: 'Wikidata + Fandom',
     questions: [...byId.values()].flatMap(w => w.questions.map(q => ({ ...q, id: `${w.id}-${q.id}`, group: w.name }))) });
 }

@@ -160,12 +160,13 @@ export async function buildDomain(dom: string): Promise<Work[] | null> {
 }
 async function domainQuery(classes: string[]): Promise<any[] | null> {
   const D = { classes };
-  const q = `SELECT ?c ?cl ?sl ?w ?wl ?fandom ?enwiki WHERE {
+  const q = `SELECT ?c ?cl ?sl ?w ?wl ?f ?fl ?fandom ?enwiki WHERE {
     { SELECT DISTINCT ?c ?w ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls.
       { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= 1) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } } LIMIT 30000 }
     OPTIONAL { ?c wdt:P6262 ?fandom } OPTIONAL { ?enwiki schema:about ?c; schema:isPartOf <https://en.wikipedia.org/> }
     FILTER(BOUND(?fandom) || BOUND(?enwiki))
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". ?c rdfs:label ?cl. ?w rdfs:label ?wl. } }`;
+    OPTIONAL { ?w wdt:P8345|wdt:P179 ?f }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". ?c rdfs:label ?cl. ?w rdfs:label ?wl. ?f rdfs:label ?fl. } }`;
   const j: any = await sparql(q);
   return j ? j.results.bindings : null;
 }
@@ -178,8 +179,11 @@ function groupWorks(D: { name: string }, bindings: any[]): Work[] {
   }
   rows.sort((a, b) => +b.sl.value - +a.sl.value);
   rows.forEach((b, i) => {
-    const wid = 'w-' + b.w.value.split('/').pop();
-    let w = works.get(wid); if (!w) works.set(wid, w = { id: wid, name: clean(b.wl.value), pop: 0, questions: [] });
+    // sub-category = franchise / series when Wikidata knows it (all Mario games → "Mario"), else the work itself
+    const fr = b.f && b.fl && !/^Q\d+$/.test(b.fl.value) ? b.f : null;
+    const wid = 'w-' + (fr ?? b.w).value.split('/').pop();
+    let w = works.get(wid); if (!w) works.set(wid, w = { id: wid, name: clean((fr ? b.fl : b.wl).value), pop: 0, questions: [] });
+    if (w.questions.some(q => q.id === b.c.value.split('/').pop())) return;
     w.pop += +b.sl.value;
     const diff = thirds(i, rows.length), enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
     w.questions.push({ id: b.c.value.split('/').pop()!, answer: clean(b.cl.value), exact: [], difficulty: diff, tags: [D.name.toLowerCase(), w.name, DIFF[diff]], type: 'image',

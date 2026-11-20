@@ -51,6 +51,9 @@ export function judge(guess: string, q: Answerable): Grade | null {
 //        JoJo's Bizarre Adventure → jjba/jba, Final Fantasy VII → ff7/ffvii), + ALIAS table.
 // partial (fewer points): head noun before a linking word (flûte à bec → flûte), unless NOHEAD.
 const LINK = new Set(['a', 'au', 'aux', 'de', 'du', 'des', 'd', 'en', 'et', 'la', 'le', 'l', 'pour', 'sur']);
+const GENERIC = new Set(['movie', 'film', 'films', 'series', 'serie', 'saga', 'game', 'games', 'jeu', 'jeux', 'video', 'videogame', 'tv', 'television', 'televisee',
+  'animated', 'anime', 'manga', 'franchise', 'universe', 'univers', 'trilogy', 'trilogie', 'show', 'cartoon', 'live', 'action', 'remake', 'reboot', 'the', 'official',
+  'edition', 'collection', 'chronicles', 'part', 'partie', 'chapter', 'chapitre', 'episode', 'volume', 'vol', 'season', 'saison']);
 const ART = new Set(['the', 'le', 'la', 'les', 'l', 'a', 'an', 'un', 'une']);
 const ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi'];
 const num = (w: string) => { const r = ROMAN.indexOf(w); return r >= 0 && w !== 'i' ? String(r + 1) : /^\d+$/.test(w) ? w : null; };
@@ -68,6 +71,9 @@ export function expand(raw: string): string[] {
     out.add(normalize(f));
     const arabic = w.map(x => num(x) ?? x);
     out.add(arabic.join(' ')); out.add(w.join(' ')); out.add(w.filter(x => !ART.has(x)).join(' '));
+    // core name without generic words: "A Minecraft Movie" → "minecraft", "Pokémon (série télévisée)" → "pokemon"
+    const core0 = w.filter(x => !ART.has(x) && !GENERIC.has(x) && !/^(19|20)\d\d$/.test(x));
+    if (core0.length && core0.length < w.length) out.add(core0.join(' '));
     const core = w.filter(x => x !== 's'), noArt = core.filter(x => !ART.has(x)), noLead = ART.has(core[0]) ? core.slice(1) : core;
     for (const list of [core, noArt, noLead]) {
       if (list.length < 2) continue;
