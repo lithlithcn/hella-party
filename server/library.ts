@@ -1,7 +1,7 @@
 // Online pack library: one Durable Object ("main") with SQLite storage.
 // Packs published from the Studio (JSON) + their media, content-addressed (sha-256) and chunked (rows ≤ 2 MB).
 import { normalize } from '../shared/answer';
-import { AUTO, buildAuto, buildDomain, domainFandoms, DOMAINS, fandomChars, fandomDef } from './autopacks';
+import { AUTO, INTO, buildAuto, buildDomain, domainFandoms, DOMAINS, fandomChars, fandomDef } from './autopacks';
 import { DurableObject } from 'cloudflare:workers';
 import { PACK_FORMAT, type PackFile } from '../shared/pack';
 import type { PackInfo } from '../shared/protocol';
@@ -39,9 +39,9 @@ export class Library extends DurableObject {
   list(): PackInfo[] {
     const lib = this.sql.exec<{ info: string }>('SELECT info FROM packs ORDER BY updated DESC').toArray().map(r => JSON.parse(r.info));
     const counts = new Map(this.sql.exec<{ id: string; n: number }>('SELECT id, n FROM auto1').toArray().map(r => [r.id, r.n]));
-    const auto = AUTO.filter(d => counts.get(d.id) !== 0).map(d => ({ id: d.id, name: d.name, emoji: d.emoji, count: counts.get(d.id) ?? 0, tags: d.tags, author: d.from === 'wd' ? 'Wikidata' : 'Fandom', auto: true }));
+    const auto = AUTO.filter(d => counts.get(d.id) !== 0).map(d => ({ id: d.id, name: d.name, emoji: d.emoji, count: counts.get(d.id) ?? 0, tags: d.tags, author: d.from === 'wd' ? 'Wikidata' : 'Fandom', auto: true, into: INTO[d.id] }));
     const doms = new Map(this.sql.exec<{ dom: string; works: number; n: number }>('SELECT dom, works, n FROM univdom1').toArray().map(r => [r.dom, r]));
-    const univ = Object.entries(DOMAINS).map(([k, d]) => ({ id: `u-${k}`, name: d.name, emoji: d.emoji, count: doms.get(k)?.n ?? 0, works: doms.get(k)?.works ?? 0, univ: true }));
+    const univ = Object.entries(DOMAINS).map(([k, d]) => ({ id: `u-${k}`, name: d.name, emoji: d.emoji, count: doms.get(k)?.n ?? 0, works: doms.get(k)?.works ?? 0, univ: true, dom: k, into: INTO[`u-${k}`] }));
     return [...lib, ...auto, ...univ];
   }
   // ── Univers (every fictional character on Wikidata, by work) ────────────────────────────────

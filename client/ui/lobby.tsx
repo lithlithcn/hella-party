@@ -41,10 +41,13 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
   if (d.type === 'packs') {
     const chip = (p: (typeof store.packs)[number]) => {
       const on = (v ?? []).includes(p.id);
+      const merged = store.packs.filter(x => x.into === p.id), mdom = merged.find(x => x.univ)?.dom;
+      const count = p.count + merged.reduce((n, x) => n + x.count, 0);
+      if (mdom) return <Univ key={p.id} p={{ ...p, count }} dom={mdom} v={v ?? []} set={x => set(d.key, x)} />;
       return (
         <label key={p.id} class={`pack ${on ? 'on' : ''}`} title={[p.author && `par ${p.author}`, p.tags?.join(', ')].filter(Boolean).join(' · ')}>
           <input type="checkbox" checked={on} onChange={() => set(d.key, on ? v.filter((x: string) => x !== p.id) : [...(v ?? []), p.id])} />
-          {p.emoji} {p.name} <small>{p.count}</small>
+          {p.emoji} {p.name} <small>{count}</small>
         </label>
       );
     };
@@ -56,11 +59,11 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
           <button type="button" class="btn ghost small" onClick={() => set(d.key, [])}>Tout décocher</button>
           <small class="muted">{(v ?? []).length} packs · {store.packs.filter(p => (v ?? []).includes(p.id)).reduce((n, p) => n + p.count, 0)} questions</small>
         </div>
-        <div class="packs">{store.packs.filter(p => !p.custom && !p.auto && !p.univ).map(chip)}</div>
+        <div class="packs">{store.packs.filter(p => !p.custom && !p.auto && !p.univ && !p.into).map(chip)}</div>
         <div class="packs-sub"><b>🌐 Packs auto (Wikipedia / Fandom)</b> <small class="muted">générés et mis à jour tout seuls · difficulté selon la popularité · 0 = pas encore chargé</small></div>
-        <div class="packs">{store.packs.filter(p => p.auto || p.id.startsWith('fw-')).map(chip)}</div>
-        <div class="packs-sub"><b>🌍 Grandes catégories</b> <small class="muted">tous les persos de Wikipédia + Fandom · ▸ pour choisir les œuvres une par une</small></div>
-        {store.packs.filter(p => p.univ).map(p => <Univ key={p.id} p={p} v={v ?? []} set={x => set(d.key, x)} />)}
+        <div class="packs">{store.packs.filter(p => (p.auto || p.id.startsWith('fw-')) && !p.into).map(chip)}</div>
+        <div class="packs-sub"><b>🌍 Nouvelles catégories</b> <small class="muted">tous les persos de Wikipédia + Fandom · ▸ pour choisir les œuvres une par une</small></div>
+        {store.packs.filter(p => p.univ && !p.into).map(p => <Univ key={p.id} p={p} dom={p.dom!} v={v ?? []} set={x => set(d.key, x)} />)}
         <div class="packs-sub">
           <b>Packs du Studio</b>
           <button type="button" class="btn ghost small" onClick={() => send({ t: 'packs' })} title="Actualiser">🔄</button>
@@ -85,9 +88,9 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
 }
 
 /** One Univers domain: tick it all, or open it and tick / untick works (exclusions are stored as "-w-Q…"). */
-function Univ({ p, v, set }: { p: { id: string; name: string; emoji?: string; count: number; works?: number }; v: string[]; set: (v: string[]) => void }) {
+function Univ({ p, dom, v, set }: { p: { id: string; name: string; emoji?: string; count: number; works?: number }; dom: string; v: string[]; set: (v: string[]) => void }) {
   const [open, setOpen] = useState(false), [q, setQ] = useState(''), [lim, setLim] = useState(150);
-  const dom = p.id.slice(2), all = v.includes(p.id), works = store.univ[dom];
+  const all = v.includes(p.id), works = store.univ[dom];
   const workOn = (id: string) => (all ? !v.includes('-' + id) : v.includes(id));
   const toggle = (id: string) => set(all ? (v.includes('-' + id) ? v.filter(x => x !== '-' + id) : [...v, '-' + id]) : (v.includes(id) ? v.filter(x => x !== id) : [...v, id]));
   const ids = new Set(works?.map(w => w.id));
@@ -96,7 +99,7 @@ function Univ({ p, v, set }: { p: { id: string; name: string; emoji?: string; co
   return (
     <div class="univ">
       <div class="univ-head">
-        <label class={`pack ${all ? 'on' : ''}`}><input type="checkbox" checked={all} onChange={() => setAll(!all)} /> {p.emoji} {p.name} <small>{p.count || '…'} persos · {p.works || '…'} œuvres</small></label>
+        <label class={`pack ${all ? 'on' : ''}`}><input type="checkbox" checked={all} onChange={() => setAll(!all)} /> {p.emoji} {p.name} <small>{p.count || '…'} persos{p.works ? ` · ${p.works} œuvres` : ''}</small></label>
         <button type="button" class="btn ghost small" onClick={() => { setOpen(!open); if (!works) send({ t: 'univ', dom }); }}>{open ? '▾' : '▸'} Œuvres</button>
       </div>
       {open && (

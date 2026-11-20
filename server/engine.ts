@@ -305,7 +305,7 @@ export class Game {
   private packQuestions(): Question[] {
     const ids: string[] = this.setting('packs') ?? [];
     const max = Number(this.setting('maxDifficulty') ?? 3);
-    return ids.flatMap(id => this.pack(id)?.questions ?? []).filter(q => (q.difficulty || 1) <= max);
+    return ids.flatMap(id => [...(this.pack(id)?.questions ?? []), ...(this.extra['+' + id]?.questions ?? [])]).filter(q => (q.difficulty || 1) <= max);
   }
 
   private pick(): Question | null {

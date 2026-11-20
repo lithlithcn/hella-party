@@ -28,7 +28,7 @@ export function resolvePack(p: PackFile & { media?: Record<string, string> }): P
       src: map && q.src && map[q.src] ? map[q.src] : media(p.id, q.src), exact: [q.answer, ...(q.exact ?? [])], media: map,
       opts: p.opts || q.opts ? { ...p.opts, ...q.opts } : undefined,
       // the pictured page IS the answer, except in "by character" packs (picture = character, answer = work)
-      nameKind: p.nameKind,
+      nameKind: (q as any).nameKind ?? p.nameKind,
       aliasTitle: (q as any).aliasTitle ?? (q.src?.startsWith('wiki:') && p.aliasFrom !== 'answer' ? q.src.slice(5).replace(/^(?![a-z]{2,3}:)/, 'fr:') : `fr:${q.answer}`),
     })),
   };

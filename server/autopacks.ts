@@ -191,3 +191,19 @@ export async function fandomChars(wiki: string, work: string, domName: string): 
   const p = await buildAuto({ id: 'x', name: work, emoji: '', prompt: '', tags: [domName.toLowerCase(), work], from: 'fandom', wiki, cat: 'Characters' });
   return (p?.questions ?? []).map(q => ({ ...q, id: `${wiki}-${q.id}`, explain: `Personnage de ${work}` }));
 }
+
+/** Auto sources merged INTO existing built-in categories (owner: add to the tags already there; new categories only
+ *  when nothing matches). Univers domains merged here get the ▸ works list on that category's chip. */
+export const INTO: Record<string, string> = {
+  'auto-especes': 'animaux', 'auto-chiens': 'chiens-chats', 'auto-chats': 'chiens-chats', 'auto-chevaux': 'animaux',
+  'auto-montagnes': 'merveilles-nature', 'auto-volcans': 'merveilles-nature', 'auto-iles': 'merveilles-nature', 'auto-lacs': 'merveilles-nature', 'auto-cascades': 'merveilles-nature',
+  'auto-unesco': 'monuments', 'auto-chateaux': 'monuments', 'auto-ponts': 'monuments', 'auto-gratte-ciels': 'monuments',
+  'auto-stades': 'sports', 'auto-sports': 'sports',
+  'auto-plats': 'bouffe', 'auto-fromages': 'bouffe', 'auto-cocktails': 'bouffe', 'auto-patisseries': 'desserts', 'auto-fruits': 'fruits-legumes',
+  'auto-voitures': 'vehicules', 'auto-avions': 'vehicules', 'auto-consoles': 'consoles', 'auto-instruments': 'instruments',
+  'auto-persos-jv': 'persos-jeux-video', 'auto-persos-cartoon': 'persos-dessins-animes',
+  'auto-mario': 'persos-jeux-video', 'auto-zelda': 'persos-jeux-video', 'auto-sonic': 'persos-jeux-video', 'auto-overwatch': 'persos-jeux-video',
+  'auto-genshin': 'persos-jeux-video', 'auto-lol': 'persos-jeux-video',
+  'auto-simpsons': 'persos-dessins-animes', 'auto-spongebob': 'persos-dessins-animes', 'auto-disney': 'persos-dessins-animes', 'auto-pixar': 'persos-dessins-animes',
+  'u-jeux': 'persos-jeux-video', 'u-cartoons': 'persos-dessins-animes',
+};

@@ -4,6 +4,7 @@ import type { ChatQuote, ClientMsg, PackInfo, ServerMsg } from '../shared/protoc
 import { Game, PACK_INFO, SETTING_DEFS } from './engine';
 import { resolvePack } from './packs';
 import { library, type Env, type NameKind } from './library';
+import { INTO } from './autopacks';
 
 const MAX_AVATAR = 80_000; // data URL chars (~60 KB image)
 
@@ -56,6 +57,18 @@ export class Room extends DurableObject<Env> {
   /** Load the selected library packs into the game (fresh copy at each start). */
   private async loadPacks(game: Game) {
     const all: string[] = game.setting('packs') ?? [];
+    // auto sources merged into the selected built-in categories → game.extra['+<id>']
+    const lib0 = library(this.env), ex0 = all.filter(id => id.startsWith('-w-')).map(id => id.slice(1));
+    for (const id of all) {
+      const srcs = Object.entries(INTO).filter(([, to]) => to === id).map(([src]) => src);
+      if (!srcs.length) { delete game.extra['+' + id]; continue; }
+      const qs: any[] = [];
+      for (const s of srcs) {
+        const p: any = s.startsWith('u-') ? await lib0.universe(s.slice(2), ex0).catch(() => null) : await lib0.get(s).catch(() => null);
+        if (p) for (const q of p.questions as any[]) qs.push({ ...q, id: `${s}-${q.id}`, prompt: q.prompt || p.prompt, nameKind: p.nameKind });
+      }
+      if (qs.length) game.extra['+' + id] = resolvePack({ format: 'hella-pack', version: 1, id: '+' + id, name: id, nameKind: undefined, questions: qs } as any);
+    }
     const ids = all.filter(id => game.libraryIds.has(id) || /^(u|w|fw)-/.test(id));
     const excluded = all.filter(id => id.startsWith('-w-')).map(id => id.slice(1));
     const lib = library(this.env);
