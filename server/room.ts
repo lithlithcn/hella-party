@@ -53,7 +53,7 @@ export class Room extends DurableObject<Env> {
       try { this.libList = await library(this.env).list(); this.libAt = Date.now(); } catch (e) { console.error('library', e); }
       if (this.game) this.game.libraryIds = new Set([...this.libList.map(p => p.id), ...HARVEST.map(h => h.id)]);
     }
-    return [...PACK_INFO, ...HARVEST.map(h => ({ ...h, auto: true })), ...this.libList];
+    return [...PACK_INFO, ...HARVEST.map(({ base, ...h }) => ({ ...h, auto: !base })), ...this.libList];
   }
 
   /** Harvested pack (static /data/<id>.json, baked at deploy by scripts/harvest.ts), cached per isolate. */

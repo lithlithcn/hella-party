@@ -33,7 +33,19 @@ for (const id of packs) {
   for (const q of p.questions) { const g = q.group ?? (p.groupBy === 'answer' ? q.answer : p.name); m.set(g, (m.get(g) ?? 0) + 1); }
   bg[id] = [...m].sort((a, b) => b[1] - a[1]).map(([g, n]) => ({ g, n }));
 }
+// Single-file packs: any content/packs/<name>.json (easy to upload from a phone, no folder needed).
+// Served as static /data/<id>.json (not bundled → no Worker size limit), listed with the built-in categories.
+for (const f of fs.existsSync(path.join(root, 'content/packs')) ? fs.readdirSync(path.join(root, 'content/packs')) : []) {
+  if (!f.endsWith('.json')) continue;
+  let p; try { p = JSON.parse(fs.readFileSync(path.join(root, 'content/packs', f), 'utf8')); } catch (e) { console.warn(`gen: ${f} is not valid JSON, skipped`); continue; }
+  if (p.format !== 'hella-pack' || !Array.isArray(p.questions) || !/^[a-z0-9-]{1,60}$/.test(p.id ?? '')) { console.warn(`gen: ${f} is not a hella-pack, skipped`); continue; }
+  fs.writeFileSync(path.join(hvOut, `${p.id}.json`), JSON.stringify(p));
+  const m = new Map(); for (const q of p.questions) { const g = q.group ?? p.name; m.set(g, (m.get(g) ?? 0) + 1); }
+  bg[p.id] = [...m].sort((a, b) => b[1] - a[1]).map(([g, n]) => ({ g, n }));
+  hIndex.push({ id: p.id, name: p.name, emoji: p.emoji, count: p.questions.length, tags: p.tags ?? [], base: true });
+  console.log(`gen: single-file pack ${f} → ${p.id} (${p.questions.length} questions)`);
+}
 fs.writeFileSync(path.join(hvOut, 'builtin-groups.json'), JSON.stringify(bg));
-fs.writeFileSync(path.join(gen, 'harvest.ts'), `export const HARVEST: { id: string; name: string; emoji?: string; count: number; into?: string; tags: string[] }[] = ${JSON.stringify(hIndex.map(({ groups, ...p }) => p))};\n`);
+fs.writeFileSync(path.join(gen, 'harvest.ts'), `export const HARVEST: { id: string; name: string; emoji?: string; count: number; into?: string; tags: string[]; base?: boolean }[] = ${JSON.stringify(hIndex.map(({ groups, ...p }) => p))};\n`);
 fs.writeFileSync(path.join(gen, 'version.ts'), `export const VERSION = ${JSON.stringify({ commit: (process.env.WORKERS_CI_COMMIT_SHA ?? 'local').slice(0, 7), built: new Date().toISOString() })};\n`);
 console.log(`gen: ${features.length} features [${features}], ${packs.length} packs [${packs}]`);
