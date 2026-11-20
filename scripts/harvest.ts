@@ -8,7 +8,7 @@ import { AUTO, DOMAINS, INTO, buildAuto, buildDomain, domainFandoms, fandomChars
 
 const out = path.resolve(import.meta.dirname, '../content/harvest');
 fs.mkdirSync(out, { recursive: true });
-const only = process.env.ONLY?.split(',');
+const only = process.env.ONLY ? process.env.ONLY.split(',') : undefined;
 const FANDOM_PER_DOMAIN = +(process.env.FANDOM ?? 400);
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
