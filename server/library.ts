@@ -20,7 +20,7 @@ export class Library extends DurableObject {
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
-      CREATE TABLE IF NOT EXISTS names4 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
+      CREATE TABLE IF NOT EXISTS names5 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS wiki4 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
 
@@ -61,7 +61,7 @@ export class Library extends DurableObject {
   /** 'lang:Title' → other names of that Wikipedia page: its redirects (abbreviations, spellings) and its
    *  titles in en/fr/es/it/de/pt (+ their en/fr redirects). Cached 30 days. Becomes extra accepted answers. */
   async names(k: string): Promise<string[]> {
-    const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names4 WHERE k = ?', k).toArray()[0];
+    const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names5 WHERE k = ?', k).toArray()[0];
     if (row && Date.now() - row.at < 30 * 86_400_000) return JSON.parse(row.list);
     const [lang, ...rest] = k.split(':'); const title = rest.join(':').replace(/_/g, ' ');
     const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)' };
@@ -83,7 +83,7 @@ export class Library extends DurableObject {
     const other = lang === 'fr' ? ll?.en : ll?.fr;
     if (other) await q(lang === 'fr' ? 'en' : 'fr', other);
     // redirects of the big other wikis too (each has its own abbreviations / spellings)
-    await Promise.all(['es', 'de', 'it', 'pt', 'nl', 'pl'].filter(l => l !== lang && ll?.[l]).map(l => q(l, ll![l])));
+    await Promise.all(['es', 'de', 'it', 'pt', 'nl', 'pl', 'sv', 'ca', 'tr', 'id', 'cs', 'ro', 'hu', 'fi', 'da', 'no', 'vi', 'ms', 'eu', 'gl', 'hr', 'tl', 'sk', 'eo'].filter(l => l !== lang && ll?.[l]).map(l => q(l, ll![l])));
     // ConceptNet: synonyms / translations of the word in every language (common nouns: tomate → tomato, pomodoro…)
     const cn = async (l: string, w: string) => {
       const term = w.toLowerCase().trim().replace(/\s+/g, '_');
@@ -97,7 +97,7 @@ export class Library extends DurableObject {
     for (const l of Object.values<any>(ent?.labels ?? {})) out.add(l.value);
     for (const a of Object.values<any>(ent?.aliases ?? {})) for (const x of a) out.add(x.value);
     // Fandom: Wikidata P6262 = "[lang.]wiki:Article" → that fan wiki's title + redirects (nicknames, alt names)
-    const fandoms: string[] = (ent?.claims?.P6262 ?? []).map((c: any) => c.mainsnak?.datavalue?.value).filter(Boolean).slice(0, 4);
+    const fandoms: string[] = (ent?.claims?.P6262 ?? []).map((c: any) => c.mainsnak?.datavalue?.value).filter(Boolean).slice(0, 8);
     await Promise.all(fandoms.map(async v => {
       const m = /^(?:([a-z-]+)\.)?([a-z0-9-]+):(.+)$/i.exec(v); if (!m) return;
       const base = `https://${m[2]}.fandom.com${m[1] ? '/' + m[1] : ''}`;
@@ -108,7 +108,7 @@ export class Library extends DurableObject {
     }));
     const list = [...out].map(s => s.replace(/\s*\([^)]*\)\s*$/, '').trim())
       .filter(s => s && s.length <= 60 && !/[:/#]/.test(s)).slice(0, 2000); // every language/script, no real cap (more is better)
-    if (ok) this.sql.exec('INSERT OR REPLACE INTO names4 VALUES (?, ?, ?)', k, JSON.stringify([...new Set(list)]), Date.now());
+    if (ok) this.sql.exec('INSERT OR REPLACE INTO names5 VALUES (?, ?, ?)', k, JSON.stringify([...new Set(list)]), Date.now());
     return [...new Set(list)];
   }
 

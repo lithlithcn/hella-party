@@ -80,7 +80,8 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 ## TODO (owner asked, later)
 - Shortcuts are automatic (no per-question data needed):
   - shared/answer.ts expand() → exact: subtitle/parentheses/article stripped, roman↔arabic, acronyms (tlou, lotr, sda, jjba, ff7, botw), ALIAS table; guessed() → partial: head noun (flûte à bec → flûte) unless NOHEAD.
-  - Server: Room io.prepare adds Library.names(q.aliasTitle) to q.exact = the Wikipedia page's redirects + titles in en/fr/es/it/de/pt (+ their redirects), cached 30 days (table names4: Fandom wiki redirects via Wikidata P6262, redirects of fr/en/es/de/it/pt/nl/pl, all langlinks, Wikidata labels+aliases, ConceptNet synonyms/translations). aliasTitle = the pictured wiki page, or `fr:<answer>` (packs with `aliasFrom:"answer"`: by-character packs, non-wiki images). Debug: /api/names?k=fr:Tomate.
+  - Keep Library.names under ~45 subrequests (Workers free limit 50 per invocation).
+  - Server: Room io.prepare adds Library.names(q.aliasTitle) to q.exact = the Wikipedia page's redirects + titles in en/fr/es/it/de/pt (+ their redirects), cached 30 days (table names5: Fandom wiki redirects via Wikidata P6262 (≤8 wikis), redirects of fr/en + 24 Latin-script Wikipedias, all langlinks, Wikidata labels+aliases, ConceptNet synonyms/translations). aliasTitle = the pictured wiki page, or `fr:<answer>` (packs with `aliasFrom:"answer"`: by-character packs, non-wiki images). Debug: /api/names?k=fr:Tomate.
   - Still useful: hand-written `exact[]` for nicknames Wikipedia doesn't redirect.
 - Kick: leader ✕ on a card → {t:'kick'}; Room refuses that id for the room's lifetime. Game end waits for the reveal (engine.endAfterReveal).
 
