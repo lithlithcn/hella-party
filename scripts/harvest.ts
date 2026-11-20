@@ -74,7 +74,7 @@ if (bg.length) {
     const m: Record<string, string> = {}, n = new Map<string, number>();
     for (const q of p.questions) { const g = labels.get(title(q).replace(/_/g, ' ')); if (g) { m[q.id] = g[0].toUpperCase() + g.slice(1); n.set(m[q.id], (n.get(m[q.id]) ?? 0) + 1); } }
     for (const [id, g] of Object.entries(m)) if ((n.get(g) ?? 0) < 3) m[id] = 'Autres'; // no tiny sub-categories
-    map[pid] = m; console.log(`✔ groups ${pid}: ${Object.keys(m).length}/${p.questions.length} in ${new Set(Object.values(m)).size} groups`);
+    if (Object.keys(m).length) map[pid] = m; console.log(`✔ groups ${pid}: ${Object.keys(m).length}/${p.questions.length} in ${new Set(Object.values(m)).size} groups`);
     if (Object.keys(m).length) fs.writeFileSync(mapFile, JSON.stringify(map)); else console.warn(`✘ groups ${pid}: 0 (snippet?)`);
   }
 }
