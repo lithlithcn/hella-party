@@ -22,5 +22,18 @@ for (const id of packs) {
   const src = path.join(root, 'content/packs', id, 'media');
   if (fs.existsSync(src)) fs.cpSync(src, path.join(root, 'client/public/packs', id), { recursive: true });
 }
+// harvested Wikidata/Fandom content (scripts/harvest.ts): files served as static /data/<id>.json, small index bundled
+const hv = path.join(root, 'content/harvest'), hvOut = path.join(root, 'client/public/data');
+const hIndex = fs.existsSync(path.join(hv, 'index.json')) ? JSON.parse(fs.readFileSync(path.join(hv, 'index.json'), 'utf8')) : [];
+fs.mkdirSync(hvOut, { recursive: true });
+if (fs.existsSync(hv)) for (const f of fs.readdirSync(hv)) if (f.endsWith('.json')) fs.copyFileSync(path.join(hv, f), path.join(hvOut, f));
+const bg = {};
+for (const id of packs) {
+  const p = JSON.parse(fs.readFileSync(path.join(root, 'content/packs', id, 'pack.json'), 'utf8')), m = new Map();
+  for (const q of p.questions) { const g = q.group ?? (p.groupBy === 'answer' ? q.answer : p.name); m.set(g, (m.get(g) ?? 0) + 1); }
+  bg[id] = [...m].sort((a, b) => b[1] - a[1]).map(([g, n]) => ({ g, n }));
+}
+fs.writeFileSync(path.join(hvOut, 'builtin-groups.json'), JSON.stringify(bg));
+fs.writeFileSync(path.join(gen, 'harvest.ts'), `export const HARVEST: { id: string; name: string; emoji?: string; count: number; into?: string; tags: string[] }[] = ${JSON.stringify(hIndex.map(({ groups, ...p }) => p))};\n`);
 fs.writeFileSync(path.join(gen, 'version.ts'), `export const VERSION = ${JSON.stringify({ commit: (process.env.WORKERS_CI_COMMIT_SHA ?? 'local').slice(0, 7), built: new Date().toISOString() })};\n`);
 console.log(`gen: ${features.length} features [${features}], ${packs.length} packs [${packs}]`);

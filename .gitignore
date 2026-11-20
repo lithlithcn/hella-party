@@ -4,3 +4,4 @@ dist/
 server/_gen/
 client/public/packs/
 .dev.vars
+client/public/data/

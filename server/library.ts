@@ -1,7 +1,6 @@
 // Online pack library: one Durable Object ("main") with SQLite storage.
 // Packs published from the Studio (JSON) + their media, content-addressed (sha-256) and chunked (rows ≤ 2 MB).
 import { normalize } from '../shared/answer';
-import { AUTO, INTO, buildAuto, buildDomain, domainFandoms, DOMAINS, fandomChars, fandomDef } from './autopacks';
 import { DurableObject } from 'cloudflare:workers';
 import { PACK_FORMAT, type PackFile } from '../shared/pack';
 import type { PackInfo } from '../shared/protocol';
@@ -27,10 +26,6 @@ export class Library extends DurableObject {
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
-      CREATE TABLE IF NOT EXISTS univ1 (work TEXT PRIMARY KEY, dom TEXT NOT NULL, name TEXT NOT NULL, n INTEGER NOT NULL, pop INTEGER NOT NULL, json TEXT NOT NULL);
-      CREATE TABLE IF NOT EXISTS fwq1 (work TEXT PRIMARY KEY, dom TEXT NOT NULL, name TEXT NOT NULL, wiki TEXT NOT NULL, pop INTEGER NOT NULL, done INTEGER NOT NULL);
-      CREATE TABLE IF NOT EXISTS univdom1 (dom TEXT PRIMARY KEY, at INTEGER NOT NULL, works INTEGER NOT NULL, n INTEGER NOT NULL);
-      CREATE TABLE IF NOT EXISTS auto1 (id TEXT PRIMARY KEY, json TEXT NOT NULL, n INTEGER NOT NULL, at INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS names8 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS wiki5 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
@@ -38,98 +33,9 @@ export class Library extends DurableObject {
   // ── RPC (called by Room and the Worker) ──
   list(): PackInfo[] {
     const lib = this.sql.exec<{ info: string }>('SELECT info FROM packs ORDER BY updated DESC').toArray().map(r => JSON.parse(r.info));
-    const counts = new Map(this.sql.exec<{ id: string; n: number }>('SELECT id, n FROM auto1').toArray().map(r => [r.id, r.n]));
-    const auto = AUTO.filter(d => counts.get(d.id) !== 0).map(d => ({ id: d.id, name: d.name, emoji: d.emoji, count: counts.get(d.id) ?? 0, tags: d.tags, author: d.from === 'wd' ? 'Wikidata' : 'Fandom', auto: true, into: INTO[d.id] }));
-    const doms = new Map(this.sql.exec<{ dom: string; works: number; n: number }>('SELECT dom, works, n FROM univdom1').toArray().map(r => [r.dom, r]));
-    const univ = Object.entries(DOMAINS).map(([k, d]) => ({ id: `u-${k}`, name: d.name, emoji: d.emoji, count: doms.get(k)?.n ?? 0, works: doms.get(k)?.works ?? 0, univ: true, dom: k, into: INTO[`u-${k}`] }));
-    return [...lib, ...auto, ...univ];
+    return lib;
   }
-  // ── Univers (every fictional character on Wikidata, by work) ────────────────────────────────
-  async buildDom(dom: string, force = false) {
-    const row = this.sql.exec<{ at: number }>('SELECT at FROM univdom1 WHERE dom = ?', dom).toArray()[0];
-    if (row && !force && Date.now() - row.at < 7 * 86_400_000) return;
-    const works = await buildDomain(dom);
-    if (!works?.length) { if (!row) this.sql.exec('INSERT OR REPLACE INTO univdom1 VALUES (?, ?, 0, 0)', dom, Date.now() - 6 * 86_400_000); return; }
-    this.sql.exec('DELETE FROM univ1 WHERE dom = ?', dom);
-    for (const w of works) this.sql.exec('INSERT OR REPLACE INTO univ1 VALUES (?, ?, ?, ?, ?, ?)', w.id, dom, w.name, w.questions.length, w.pop, JSON.stringify(w.questions));
-    // queue every work of the domain that has its own Fandom wiki (Wikidata P4073) for enrichment
-    for (const f of (await domainFandoms(dom)) ?? []) this.sql.exec('INSERT OR IGNORE INTO fwq1 VALUES (?, ?, ?, ?, ?, 0)', f.id, dom, f.name, f.wiki, f.pop);
-    this.recount(dom, Date.now());
-  }
-  private recount(dom: string, at?: number) {
-    const r = this.sql.exec<{ w: number; n: number }>('SELECT COUNT(*) AS w, COALESCE(SUM(n), 0) AS n FROM univ1 WHERE dom = ?', dom).toArray()[0];
-    const old = this.sql.exec<{ at: number }>('SELECT at FROM univdom1 WHERE dom = ?', dom).toArray()[0];
-    this.sql.exec('INSERT OR REPLACE INTO univdom1 VALUES (?, ?, ?, ?)', dom, at ?? old?.at ?? Date.now(), r.w, r.n);
-  }
-  /** Add the characters of up to `n` queued Fandom wikis (most popular works first) to their work. */
-  async enrich(n = 30) {
-    const todo = this.sql.exec<{ work: string; dom: string; name: string; wiki: string; pop: number }>('SELECT work, dom, name, wiki, pop FROM fwq1 WHERE done = 0 ORDER BY pop DESC LIMIT ?', n).toArray();
-    const doms = new Set<string>();
-    for (const t of todo) {
-      const qs = await fandomChars(t.wiki, t.name, DOMAINS[t.dom]?.name ?? '');
-      this.sql.exec('UPDATE fwq1 SET done = ? WHERE work = ?', qs.length ? 1 : 2, t.work);
-      if (!qs.length) continue;
-      const row = this.sql.exec<{ json: string }>('SELECT json FROM univ1 WHERE work = ?', t.work).toArray()[0];
-      const old: any[] = row ? JSON.parse(row.json) : [];
-      const have = new Set(old.map(q => normalize(q.answer)));
-      const merged = [...old, ...qs.filter(q => !have.has(normalize(q.answer)))];
-      const json = JSON.stringify(merged);
-      if (json.length > 1_800_000) continue; // DO row limit
-      this.sql.exec('INSERT OR REPLACE INTO univ1 VALUES (?, ?, ?, ?, ?, ?)', t.work, t.dom, t.name, merged.length, Math.max(t.pop * 10, 1), json);
-      doms.add(t.dom);
-    }
-    for (const d of doms) this.recount(d);
-    return todo.length;
-  }
-  univStats() {
-    return { domains: this.sql.exec('SELECT * FROM univdom1').toArray(), fandom: this.sql.exec('SELECT done, COUNT(*) AS n FROM fwq1 GROUP BY done').toArray(),
-      fandomDone: this.sql.exec('SELECT name, wiki FROM fwq1 WHERE done = 1 ORDER BY pop DESC LIMIT 30').toArray() };
-  }
-  /** Works of a domain for the lobby tree (most popular first). */
-  async works(dom: string) {
-    if (!DOMAINS[dom]) return [];
-    await this.buildDom(dom);
-    return this.sql.exec<{ work: string; name: string; n: number }>('SELECT work, name, n FROM univ1 WHERE dom = ? ORDER BY pop DESC', dom).toArray().map(r => ({ id: r.work, name: r.name, n: r.n }));
-  }
-  private packOf(id: string, name: string, dom: string, rows: { json: string }[]): PackFile {
-    const D = DOMAINS[dom];
-    return { format: PACK_FORMAT, version: 1, id, name, prompt: D?.prompt ?? 'Qui est ce personnage ?', nameKind: D?.kind, questions: rows.flatMap(r => JSON.parse(r.json)) } as PackFile;
-  }
-  /** A whole domain minus the unticked works. */
-  async universe(dom: string, excluded: string[] = []) {
-    if (!DOMAINS[dom]) return null;
-    await this.buildDom(dom);
-    const ex = new Set(excluded);
-    const rows = this.sql.exec<{ work: string; json: string }>('SELECT work, json FROM univ1 WHERE dom = ?', dom).toArray().filter(r => !ex.has(r.work));
-    return this.packOf(`u-${dom}`, DOMAINS[dom].name, dom, rows);
-  }
-  work(id: string) {
-    const r = this.sql.exec<{ dom: string; name: string; json: string }>('SELECT dom, name, json FROM univ1 WHERE work = ?', id).toArray()[0];
-    return r ? this.packOf(id, r.name, r.dom, [r]) : null;
-  }
-
-  /** Build a few auto packs that were never built (called by rooms when they list packs; 1 fetch each). */
-  async warm(n = 6) {
-    const have = new Set(this.sql.exec<{ id: string }>('SELECT id FROM auto1').toArray().map(r => r.id));
-    for (const d of AUTO.filter(x => !have.has(x.id)).slice(0, n)) await this.auto(d.id);
-    const built = new Set(this.sql.exec<{ dom: string }>('SELECT dom FROM univdom1').toArray().map(r => r.dom));
-    const next = Object.keys(DOMAINS).find(d => !built.has(d));
-    if (next) await this.buildDom(next); // one domain per call (big query)
-    else await this.enrich(35);        // then Fandom wikis, 35 per call (subrequest budget)
-  }
-  /** Auto pack (Wikidata / Fandom), rebuilt at most every 7 days; old copy kept if the rebuild fails. */
-  async auto(id: string): Promise<PackFile | null> {
-    const d = AUTO.find(x => x.id === id) ?? (/^fw-[a-z0-9-]{2,60}$/.test(id) ? fandomDef(id.slice(3)) : undefined); if (!d) return null;
-    const row = this.sql.exec<{ json: string; at: number }>('SELECT json, at FROM auto1 WHERE id = ?', id).toArray()[0];
-    if (row && Date.now() - row.at < 7 * 86_400_000) return row.json ? JSON.parse(row.json) : null;
-    const p = await buildAuto(d);
-    if (p) this.sql.exec('INSERT OR REPLACE INTO auto1 VALUES (?, ?, ?, ?)', id, JSON.stringify(p), p.questions.length, Date.now());
-    else if (!row) this.sql.exec('INSERT OR REPLACE INTO auto1 VALUES (?, ?, ?, ?)', id, '', 0, Date.now() - 6 * 86_400_000); // retry in a day
-    return p ?? (row?.json ? JSON.parse(row.json) : null);
-  }
-  ids(): string[] { return this.sql.exec<{ id: string }>('SELECT id FROM packs').toArray().map(r => r.id); }
   async get(id: string): Promise<(PackFile & { media?: Record<string, string> }) | null> {
-    if (id.startsWith('auto-') || id.startsWith('fw-')) return this.auto(id);
     const r = this.sql.exec<{ json: string }>('SELECT json FROM packs WHERE id = ?', id).toArray()[0];
     return r ? JSON.parse(r.json) : null;
   }

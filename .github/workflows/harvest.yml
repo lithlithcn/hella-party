@@ -1,0 +1,23 @@
+# Pulls Wikidata + Fandom into content/harvest (baked into the game). Run it from the Actions tab, or weekly.
+name: Harvest
+on:
+  workflow_dispatch:
+    inputs:
+      only: { description: 'ids (comma) — empty = all', required: false, default: '' }
+  schedule: [{ cron: '17 4 * * 1' }]
+permissions: { contents: write }
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npx tsx scripts/harvest.ts
+        env: { ONLY: '${{ inputs.only }}' }
+      - run: |
+          git config user.name "harvest-bot"; git config user.email "harvest-bot@users.noreply.github.com"
+          git add content/harvest
+          git diff --cached --quiet || (git commit -m "harvest: Wikidata + Fandom content" && git push)

@@ -1,7 +1,7 @@
 import { useState } from 'preact/hooks';
 import type { PublicState, SettingDef } from '../../shared/protocol';
 import { CLIENT_FEATURES } from '../feature';
-import { DEBUG, send, store } from '../store';
+import { changed, DEBUG, send, store } from '../store';
 import { play } from '../sfx';
 
 const GROUPS: Record<string, string> = { '': 'Partie', scoring: 'Score', goal: 'Victoire', chain: 'Enchaînement bonus', bots: 'Debug : bots' };
@@ -48,7 +48,7 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
       return (
         <span key={p.id} class={`pack ${on ? 'on' : ''} ${openId === p.id ? 'open' : ''}`} title={[p.author && `par ${p.author}`, p.tags?.join(', ')].filter(Boolean).join(' · ')}>
           <input type="checkbox" checked={on} onChange={() => set(d.key, on ? v.filter((x: string) => x !== p.id) : [...(v ?? []), p.id])} />
-          <button type="button" class="pack-open" onClick={() => { const o = openId === p.id ? null : p.id; setOpenId(o); if (o && !store.groups[o]) send({ t: 'groups', id: o }); }}>
+          <button type="button" class="pack-open" onClick={() => { const o = openId === p.id ? null : p.id; setOpenId(o); if (o && !store.groups[o]) loadGroups(o); }}>
             {p.emoji} {p.name} <small>{count}{off ? ` · −${off}` : ''}</small> <i>{openId === p.id ? '▾' : '▸'}</i>
           </button>
         </span>
@@ -118,4 +118,16 @@ function Groups({ id, v, set }: { id: string; v: string[]; set: (v: string[]) =>
       </div>
     </div>
   );
+}
+
+/** Sub-categories come from static files baked at deploy (no server round-trip): built-in packs + harvested packs. */
+let IDX: Promise<any[]> | null = null;
+function loadGroups(id: string) {
+  IDX ??= Promise.all([fetch('/data/index.json').then(r => (r.ok ? r.json() : [])).catch(() => []), fetch('/data/builtin-groups.json').then(r => (r.ok ? r.json() : {})).catch(() => ({}))]);
+  IDX.then(([idx, bg]: any[]) => {
+    const m = new Map<string, number>(), add = (l: { g: string; n: number }[] = []) => l.forEach(x => m.set(x.g, (m.get(x.g) ?? 0) + x.n));
+    add(bg[id]); idx.filter((h: any) => h.id === id || h.into === id).forEach((h: any) => add(h.groups));
+    store.groups[id] = [...m].map(([g, n]) => ({ g, n })).sort((a, b) => b.n - a.n);
+    changed();
+  });
 }

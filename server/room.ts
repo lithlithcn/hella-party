@@ -4,7 +4,9 @@ import type { ChatQuote, ClientMsg, PackInfo, ServerMsg } from '../shared/protoc
 import { Game, PACK_INFO, SETTING_DEFS } from './engine';
 import { PACKS, resolvePack } from './packs';
 import { library, type Env, type NameKind } from './library';
-import { INTO } from './autopacks';
+import { HARVEST } from './_gen/harvest';
+import type { Pack } from './packs';
+const HCACHE = new Map<string, Pack>();
 
 const MAX_AVATAR = 80_000; // data URL chars (~60 KB image)
 
@@ -48,33 +50,28 @@ export class Room extends DurableObject<Env> {
   /** Library pack list, cached 10 s. Also tells the game which ids are selectable. */
   private async packList(force = false): Promise<PackInfo[]> {
     if (force || Date.now() - this.libAt > 10_000) {
-      try { const lib = library(this.env); lib.warm().catch(() => {}); this.libList = await lib.list(); this.libAt = Date.now(); } catch (e) { console.error('library', e); }
-      if (this.game) this.game.libraryIds = new Set(this.libList.map(p => p.id));
+      try { this.libList = await library(this.env).list(); this.libAt = Date.now(); } catch (e) { console.error('library', e); }
+      if (this.game) this.game.libraryIds = new Set([...this.libList.map(p => p.id), ...HARVEST.map(h => h.id)]);
     }
-    return [...PACK_INFO, ...this.libList];
+    return [...PACK_INFO, ...HARVEST.map(h => ({ ...h, auto: true })), ...this.libList];
   }
 
-  /** Questions merged into a built-in category from auto packs / Univers domains (INTO map). */
+  /** Harvested pack (static /data/<id>.json, baked at deploy by scripts/harvest.ts), cached per isolate. */
+  private async harvested(id: string) {
+    let p = HCACHE.get(id);
+    if (!p) {
+      const r = await this.env.ASSETS.fetch(new Request(`https://assets.local/data/${id}.json`)).catch(() => null);
+      const j: any = r?.ok ? await r.json().catch(() => null) : null;
+      if (!j) return null;
+      p = resolvePack(j); HCACHE.set(id, p);
+    }
+    return p;
+  }
+  /** Questions merged into a built-in category from harvested packs (INTO map). */
   private async merged(id: string) {
-    const lib = library(this.env), qs: any[] = [];
-    for (const [src, to] of Object.entries(INTO)) {
-      if (to !== id) continue;
-      const p: any = src.startsWith('u-') ? await lib.universe(src.slice(2)).catch(() => null) : await lib.get(src).catch(() => null);
-      if (p) for (const q of p.questions as any[]) qs.push({ ...q, id: `${src}-${q.id}`, prompt: q.prompt || p.prompt, nameKind: p.nameKind, group: q.group ?? p.name });
-    }
-    return qs.length ? resolvePack({ format: 'hella-pack', version: 1, id: '+' + id, name: id, questions: qs } as any) : null;
-  }
-
-  /** Sub-categories of a category for the lobby (name → question count), cached 60 s. */
-  private groupCache = new Map<string, { at: number; list: { g: string; n: number }[] }>();
-  private async groups(id: string) {
-    const c = this.groupCache.get(id); if (c && Date.now() - c.at < 60_000) return c.list;
-    const qs: any[] = [...(PACKS[id]?.questions ?? []), ...((await this.merged(id))?.questions ?? [])];
-    if (!PACKS[id]) { const p: any = id.startsWith('u-') ? await library(this.env).universe(id.slice(2)).catch(() => null) : await library(this.env).get(id).catch(() => null); if (p) qs.push(...resolvePack(p).questions); }
-    const m = new Map<string, number>(); for (const q of qs) m.set(q.group ?? '?', (m.get(q.group ?? '?') ?? 0) + 1);
-    const list = [...m].map(([g, n]) => ({ g, n })).sort((a, b) => b.n - a.n);
-    this.groupCache.set(id, { at: Date.now(), list });
-    return list;
+    const parts = await Promise.all(HARVEST.filter(h => h.into === id).map(h => this.harvested(h.id)));
+    const qs = parts.flatMap(p => p?.questions ?? []);
+    return qs.length ? { id: '+' + id, name: id, tags: [], questions: qs.map(q => ({ ...q, key: `+${id}/${q.key}` })) } : null;
   }
 
   /** Load the selected library packs into the game (fresh copy at each start). */
@@ -82,14 +79,15 @@ export class Room extends DurableObject<Env> {
     const all: string[] = game.setting('packs') ?? [];
     // auto sources merged INTO the selected built-in categories → game.extra['+<id>']
     for (const id of all) {
-      const p = Object.values(INTO).includes(id) ? await this.merged(id) : null;
+      const p = HARVEST.some(h => h.into === id) ? await this.merged(id) : null;
       if (p) game.extra['+' + id] = p; else delete game.extra['+' + id];
     }
     const ids = all.filter(id => game.libraryIds.has(id) || /^(u|w|fw)-/.test(id));
     const excluded = all.filter(id => id.startsWith('-w-')).map(id => id.slice(1));
     const lib = library(this.env);
     for (const id of ids) {
-      const p = id.startsWith('u-') ? await lib.universe(id.slice(2)) : id.startsWith('w-') ? await lib.work(id) : await lib.get(id);
+      if (HARVEST.some(h => h.id === id)) { const h = await this.harvested(id); if (h) game.extra[id] = h; else delete game.extra[id]; continue; }
+      const p = await lib.get(id);
       if (p) game.extra[id] = resolvePack(p); else delete game.extra[id];
     }
   }
@@ -142,8 +140,6 @@ export class Room extends DurableObject<Env> {
     }
     if (!id) return;
     switch (m.t) {
-      case 'groups': ws.send(JSON.stringify({ t: 'groups', id: String(m.id), list: await this.groups(String(m.id)) } satisfies ServerMsg)); return;
-      case 'univ': ws.send(JSON.stringify({ t: 'univ', dom: String(m.dom), works: await library(this.env).works(String(m.dom)) } satisfies ServerMsg)); return;
       case 'packs': ws.send(JSON.stringify({ t: 'packs', packs: await this.packList(true) } satisfies ServerMsg)); return;
       case 'avatar': return this.setAvatar(game, id, m.data);
       case 'start':

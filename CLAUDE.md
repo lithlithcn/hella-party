@@ -77,15 +77,12 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 ## Features in place
 - `scoring`, `goal`, `bots` (debug). `streak`: x1, x2… combo badge (exact answers in a row; fx 'streak'; chat at every 5). `chain` (option, off by default): when every connected human found the same N questions (default 5), they come back as a quick-fire round (intro phase 'chain.intro', forced questions with chain.time, points ÷2.5).
 
-## Auto packs (server/autopacks.ts)
-- `AUTO` defs: Wikidata SPARQL (`wd(...)`: class + min sitelinks; img 'photo' = Commons P18, 'page' = Fandom P6262 / enwiki lead image) or Fandom category (`fd(...)`: infobox images). Built by Library.auto (cache table auto1, 7 days, 1 fetch), warmed 6 at a time by Library.warm when a room lists packs. Ids `auto-*`, lobby section « Packs auto ».
-- Difficulty = popularity rank in thirds: Wikidata sitelinks (≈ how known), Fandom page length.
-- Image srcs `url:` / `fandom:` are downloaded by Library.wiki/store like `wiki:`; TEXTY (file names like logo/cover/poster/cast/group/characters) → image refused → question skipped. Cache table wiki5.
-- `INTO` (autopacks.ts) merges auto packs / Univers domains into existing built-in categories (Room.loadPacks → game.extra['+<id>'], engine.packQuestions adds it); lobby hides merged chips, adds their counts, and gives the ▸ works list to a built-in chip that has a merged domain. Unmatched themes stay as new categories.
-- Sub-categories: every question has `group` (work for characters, source pack name for auto content, `answer` for packs with `groupBy:"answer"`). Lobby: click a category name → Room `groups` (ClientMsg {t:'groups'}) lists them; unticked = `-g:<cat>:<group>` in the packs setting, filtered in engine.packQuestions. (Old `-w-`/Univ tree replaced.)
-- Add a category = one line in AUTO (check the Fandom category name exists).
-- Univers (autopacks DOMAINS): one SPARQL per domain (jeux, animes, vn, cartoons, films, series, comics, livres) = every non-human character with P1441/P8345 → a work of those classes, image Fandom P6262 or enwiki. Stored per work in table univ1 (DO row limit 2 MB → never one row per domain); univdom1 = build time/counts. Lobby: `u-<dom>` = whole domain, `-w-Q…` = unticked work, `w-Q…` = single work (ClientMsg {t:'univ'} lists works). Room.loadPacks resolves them.
-- Fandom is scanned automatically (owner doesn't want to type wiki names): buildDom also queues every work of the domain with a Fandom wiki id (Wikidata P4073) in table fwq1; Library.enrich (35 wikis per warm call) adds that wiki's Category:Characters to the work (done 1 = ok, 2 = nothing). Debug: /api/univ. (`fw-<wiki>` pack ids still work but have no UI.)
+## Harvested content (owner: everything baked into the game, nothing loaded from wikis at play time)
+- server/autopacks.ts = WHAT to harvest: `AUTO` (Wikidata SPARQL classes / Fandom categories), `DOMAINS` (every fictional character by work + each work's Fandom wiki via Wikidata P4073), `INTO` (merge a harvested pack into an existing built-in category; unmatched = new category).
+- scripts/harvest.ts = HOW (runs in GitHub Actions "Harvest": manual or weekly; ONLY=id1,id2 to redo some) → content/harvest/<id>.json + index.json (counts + sub-categories). Commit → deploy.
+- gen.mjs copies them to client/public/data (static assets, NOT bundled: Worker size limit), bundles the small index as server/_gen/harvest.ts, writes data/builtin-groups.json. Room.harvested() reads /data/<id>.json via env.ASSETS (isolate cache); merged(id) adds INTO packs to built-in categories (game.extra['+id']).
+- Difficulty = popularity thirds (Wikidata sitelinks / Fandom page length). Every question has `group` (sub-category: work / source); lobby reads groups from /data/index.json + builtin-groups.json; unticked = `-g:<cat>:<group>` (engine.packQuestions).
+- Images stay `url:` / `fandom:` / `wiki:` srcs, downloaded once by Library.wiki/store (TEXTY file-name filter: logo/cover/poster/cast/group/characters → skipped; cache wiki5).
 
 ## TODO (owner asked, later)
 - Shortcuts are automatic (no per-question data needed):

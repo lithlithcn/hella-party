@@ -19,7 +19,7 @@ export const DEBUG = new URLSearchParams(location.search).has('debug');
 
 const listeners = new Set<() => void>();
 const fxListeners = new Set<(m: Extract<ServerMsg, { t: 'fx' }>) => void>();
-const changed = () => listeners.forEach(l => l());
+export const changed = () => listeners.forEach(l => l());
 
 export function useStore() {
   const [, bump] = useState(0);
