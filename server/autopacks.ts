@@ -133,7 +133,7 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
     if (!j) return null;
     const pages = Object.values<any>(j.query?.pages ?? {}).filter(p => p.original?.source && !/\/|List of|Category/i.test(p.title)).sort((a, b) => b.length - a.length);
     pages.forEach((p, i) => {
-      const diff = i < pages.length * 0.08 ? 1 : i < pages.length * 0.3 ? 2 : 3; // Fandom: no popularity, only the longest pages are easy
+      const diff = i < pages.length * 0.2 ? 2 : 3; // Fandom: no popularity signal (page length is a poor one) → never « facile »
       const img = p.original.source.replace(/\/revision\/latest(\/[^?]*)?/, '/revision/latest/scale-to-width-down/800');
       qs.push({ id: String(p.pageid), answer: clean(p.title), exact: [], difficulty: diff, tags: [...d.tags, DIFF[diff]], type: 'image', src: `url:${img}`, group: d.name.replace(/^(Persos (de |d'|des )|Univers |Champions de |Héros d'|Créatures de )/, ''),
         aliasTitle: `fw:${d.wiki}:${p.title}` } as PackQuestion);
