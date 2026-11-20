@@ -281,13 +281,26 @@ export async function groupLabels(titles: string[], snippet: string): Promise<Ma
   return res;
 }
 
+/** JSON GET with retries/backoff (Wikimedia answers 429 when pushed); logs the status of the last failure. */
+async function getJson(u: string): Promise<any> {
+  let st = 0;
+  for (let i = 0; i < 5; i++) {
+    const r = await fetch(u, { headers: UA }).catch(() => null); st = r?.status ?? 0;
+    if (r?.ok) return r.json().catch(() => null);
+    if (st === 404) return null;
+    await new Promise(res => setTimeout(res, 2000 * 2 ** i));
+  }
+  console.warn(`  ✘ HTTP ${st} ${u.slice(0, 90)}`);
+  return null;
+}
+
 /** "fr:Title" / "en:Title" → Wikidata id, through the Wikipedia API (fast, 50 per call; follows redirects). */
 export async function wikiIds(titles: string[]): Promise<Map<string, string>> {
   const qid = new Map<string, string>(), byLang = new Map<string, string[]>();
   for (const t of titles) { const [l, ...r] = t.split(':'); (byLang.get(l) ?? byLang.set(l, []).get(l)!).push(r.join(':').replace(/_/g, ' ')); }
   for (const [l, ts] of byLang) for (let i = 0; i < ts.length; i += 50) {
     const batch = ts.slice(i, i + 50);
-    const j: any = await fetch(`https://${l}.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=pageprops&ppprop=wikibase_item&titles=${encodeURIComponent(batch.join('|'))}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+    const j: any = await getJson(`https://${l}.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=pageprops&ppprop=wikibase_item&titles=${encodeURIComponent(batch.join('|'))}`);
     if (!j?.query) continue;
     const to = new Map<string, string>(batch.map(t => [t, t]));
     for (const k of ['normalized', 'redirects']) for (const x of j.query[k] ?? []) for (const [o, c] of to) if (c === x.from) to.set(o, x.to);
@@ -301,13 +314,13 @@ export async function wikiIds(titles: string[]): Promise<Map<string, string>> {
 export async function frViews(ids: string[]): Promise<Map<string, number>> {
   const fr = new Map<string, string>(), res = new Map<string, number>();
   for (let i = 0; i < ids.length; i += 50) {
-    const j: any = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=frwiki&ids=${ids.slice(i, i + 50).join('|')}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+    const j: any = await getJson(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=frwiki&ids=${ids.slice(i, i + 50).join('|')}`);
     for (const [id, e] of Object.entries<any>(j?.entities ?? {})) if (e.sitelinks?.frwiki) fr.set(id, e.sitelinks.frwiki.title);
   }
   const end = new Date(), start = new Date(end.getFullYear() - 1, end.getMonth(), 1), ymd = (d: Date) => d.toISOString().slice(0, 7).replace('-', '') + '01';
   const list = [...fr];
-  for (let i = 0; i < list.length; i += 20) await Promise.all(list.slice(i, i + 20).map(async ([id, t]) => {
-    const j: any = await fetch(`https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/${encodeURIComponent(t.replace(/ /g, '_'))}/monthly/${ymd(start)}/${ymd(end)}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+  for (let i = 0; i < list.length; i += 8) await Promise.all(list.slice(i, i + 8).map(async ([id, t]) => {
+    const j: any = await getJson(`https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/${encodeURIComponent(t.replace(/ /g, '_'))}/monthly/${ymd(start)}/${ymd(end)}`);
     res.set(id, (j?.items ?? []).reduce((n: number, x: any) => n + x.views, 0));
   }));
   for (const id of ids) if (!res.has(id)) res.set(id, 0);
