@@ -34,6 +34,7 @@ for (const d of AUTO) {
 
 for (const dom of Object.keys(DOMAINS)) {
   const id = `u-${dom}`; if (only && !only.includes(id)) continue;
+  console.log(`… ${id}`);
   const works = await buildDomain(dom).catch(e => (console.error(id, e), null));
   if (!works) { console.warn(`✘ ${id}`); continue; }
   const byId = new Map(works.map(w => [w.id, w]));
@@ -49,6 +50,10 @@ for (const dom of Object.keys(DOMAINS)) {
     }));
   }
   const D = DOMAINS[dom];
+  // never shrink a domain by a lot because Wikidata had a bad day: keep the previous file
+  const old = path.join(out, `${id}.json`), was = fs.existsSync(old) ? JSON.parse(fs.readFileSync(old, 'utf8')).questions.length : 0;
+  const now = [...byId.values()].reduce((n, w) => n + w.questions.length, 0);
+  if (now < was * 0.8) { console.warn(`✘ ${id}: ${now} < 80% of ${was}, kept the old file`); continue; }
   for (const w of byId.values()) if (w.questions.length < 3) w.name = `Autres (${D.name.toLowerCase()})`; // no 1-2 item sub-categories
   save(id, { format: 'hella-pack', version: 1, id, name: D.name, emoji: D.emoji, prompt: D.prompt, nameKind: D.kind, author: 'Wikidata + Fandom',
     questions: [...byId.values()].flatMap(w => w.questions.map(q => ({ ...q, id: `${w.id}-${q.id}`, group: w.name }))) });

@@ -161,22 +161,30 @@ export async function buildDomain(dom: string): Promise<Work[] | null> {
   const all: any[] = []; let ok = false;
   // one query per class × popularity band: big classes (TV series, films) time out as a single query
   const BANDS: [number, number][] = [[1, 2], [2, 3], [3, 5], [5, 10], [10, 1e6]];
-  for (const cls of D.classes) for (const [lo, hi] of BANDS) { const r = await domainQuery([cls], lo, hi); if (r) { ok = true; all.push(...r); } }
+  const failed: [string, number, number][] = [];
+  for (const cls of D.classes) for (const [lo, hi] of BANDS) { const r = await domainQuery([cls], lo, hi); if (r) { ok = true; all.push(...r); } else failed.push([cls, lo, hi]); }
+  // a failed band used to be silently lost (−34k questions): retry later, then with a lighter query (no France info)
+  for (const [cls, lo, hi] of failed) {
+    await new Promise(r => setTimeout(r, 30_000));
+    const r = (await domainQuery([cls], lo, hi)) ?? (await domainQuery([cls], lo, hi, true));
+    console.log(`${r ? '↻' : '✘'} ${dom} ${cls} [${lo},${hi}) ${r ? r.length + ' rows' + (r[0]?.light ? ' (light)' : '') : 'lost'}`);
+    if (r) { ok = true; all.push(...r); }
+  }
   if (!ok) return null;
   return groupWorks(D, all);
 }
-async function domainQuery(classes: string[], lo = 1, hi = 1e6): Promise<any[] | null> {
+async function domainQuery(classes: string[], lo = 1, hi = 1e6, light = false): Promise<any[] | null> {
   const D = { classes };
   const q = `SELECT ?c ?cl ?sl ?w ?wl ?f ?fl ?fandom ?enwiki ?frw ?co WHERE {
     { SELECT DISTINCT ?c ?w ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls.
       { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= ${lo} && ?sl < ${hi}) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } } LIMIT 30000 }
     OPTIONAL { ?c wdt:P6262 ?fandom } OPTIONAL { ?enwiki schema:about ?c; schema:isPartOf <https://en.wikipedia.org/> }
-    OPTIONAL { ?frw schema:about ?c; schema:isPartOf <https://fr.wikipedia.org/> } OPTIONAL { ?w wdt:P495 ?co }
+    ${light ? '' : 'OPTIONAL { ?frw schema:about ?c; schema:isPartOf <https://fr.wikipedia.org/> } OPTIONAL { ?w wdt:P495 ?co }'}
     FILTER(BOUND(?fandom) || BOUND(?enwiki))
     OPTIONAL { ?w wdt:P8345|wdt:P179 ?f }
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". ?c rdfs:label ?cl. ?w rdfs:label ?wl. ?f rdfs:label ?fl. } }`;
   const j: any = await sparql(q);
-  return j ? j.results.bindings : null;
+  return j ? (light ? j.results.bindings.map((b: any) => ({ ...b, light: true })) : j.results.bindings) : null;
 }
 function groupWorks(D: { name: string }, bindings: any[]): Work[] {
   const seen = new Set<string>(), works = new Map<string, Work>(), rows: any[] = [];
@@ -193,7 +201,7 @@ function groupWorks(D: { name: string }, bindings: any[]): Work[] {
     let w = works.get(wid); if (!w) works.set(wid, w = { id: wid, name: clean((fr ? b.fl : b.wl).value), pop: 0, questions: [] });
     if (w.questions.some(q => q.id === b.c.value.split('/').pop())) return;
     w.pop += score(b);
-    const diff = b.frw ? thirds(i, rows.length) : 3, enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
+    const diff = b.frw || b.light ? thirds(i, rows.length) : 3, enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
     w.questions.push({ id: b.c.value.split('/').pop()!, answer: clean(b.cl.value), exact: [], difficulty: diff, tags: [D.name.toLowerCase(), w.name, DIFF[diff]], type: 'image',
       src: b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`, explain: `Personnage de ${w.name}`, group: w.name,
       ...(enTitle ? { aliasTitle: `en:${enTitle}` } : {}) } as PackQuestion);
