@@ -28,11 +28,15 @@ for (const id of packs) {
 const hv = path.join(root, 'content/harvest'), hvOut = path.join(root, 'client/public/data');
 const hIndex = fs.existsSync(path.join(hv, 'index.json')) ? JSON.parse(fs.readFileSync(path.join(hv, 'index.json'), 'utf8')) : [];
 fs.mkdirSync(hvOut, { recursive: true });
-if (fs.existsSync(hv)) for (const f of fs.readdirSync(hv)) if (f.endsWith('.json')) fs.copyFileSync(path.join(hv, f), path.join(hvOut, f));
+if (fs.existsSync(hv)) for (const f of fs.readdirSync(hv)) if (f.endsWith('.json') && f !== 'builtin-groups-map.json') fs.copyFileSync(path.join(hv, f), path.join(hvOut, f));
+// sub-categories of built-in packs computed by the harvest (content/harvest/builtin-groups-map.json)
+const gmapFile = path.join(root, 'content/harvest/builtin-groups-map.json');
+const gmap = fs.existsSync(gmapFile) ? JSON.parse(fs.readFileSync(gmapFile, 'utf8')) : {};
+fs.writeFileSync(path.join(gen, 'groupmap.ts'), `export const GROUP_MAP: Record<string, Record<string, string>> = ${JSON.stringify(gmap)};\n`);
 const bg = {};
 for (const id of packs) {
   const p = JSON.parse(fs.readFileSync(path.join(root, 'content/packs', id, 'pack.json'), 'utf8')), m = new Map();
-  for (const q of p.questions) { const g = q.group ?? (p.groupBy === 'answer' ? q.answer : p.name); m.set(g, (m.get(g) ?? 0) + 1); }
+  for (const q of p.questions) { const g = q.group ?? gmap[id]?.[q.id] ?? (p.groupBy === 'answer' ? q.answer : gmap[id] ? 'Autres' : p.name); m.set(g, (m.get(g) ?? 0) + 1); }
   bg[id] = [...m].sort((a, b) => b[1] - a[1]).map(([g, n]) => ({ g, n }));
 }
 // Single-file packs: any content/packs/<name>.json (easy to upload from a phone, no folder needed).

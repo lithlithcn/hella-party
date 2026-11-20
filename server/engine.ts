@@ -73,6 +73,7 @@ export class Game {
   /** Speech bubble under each card: wrong guesses, and free messages once found / during the reveal (`after`). */
   guesses = new Map<string, { text: string; after: boolean }>();
   private foundText = new Map<string, string>();
+  private gaveUp = new Set<string>();
   /** Library packs loaded for this room (by Room before start). */
   extra: Record<string, import('./packs').Pack> = {};
   /** Ids of library packs that may be selected. */
@@ -277,7 +278,7 @@ export class Game {
     if (this.status !== 'playing') return;
     if (!q) return this.endGame();
     this.mediaFails.clear();
-    this.question = q; this.round++; this.history.push(q); this.found.clear(); this.guesses.clear(); this.foundText.clear();
+    this.question = q; this.round++; this.history.push(q); this.found.clear(); this.guesses.clear(); this.foundText.clear(); this.gaveUp.clear();
     this.setPhase('question', (q.time || this.setting<number>('answerTime')) * 1000, undefined, () => this.endQuestion());
     this.emit('questionStart', {});
     this.prepareAhead();
@@ -362,6 +363,11 @@ export class Game {
     if (!p || !q || this.phase?.name !== 'question') return;
     const prev = this.found.get(id);
     if (prev?.grade === 'exact') return this.say(id, text); // already found: the answer box becomes a bubble
+    if (text.trim() === '//') { // give up on this question; if everyone still searching gives up → reveal now
+      this.gaveUp.add(id); this.guesses.set(id, { text: '💀 abandon', after: false }); this.io.bubble?.(id, '💀 abandon', null);
+      if (this.active.every(pl => this.found.get(pl.id)?.grade === 'exact' || this.gaveUp.has(pl.id))) this.skipPhase(); else this.io.sync();
+      return;
+    }
     const grade = judge(text, q);
     if (!grade) {
       this.fx(id, 'answer', { ok: false });
@@ -383,7 +389,7 @@ export class Game {
     this.fx(id, 'answer', { ok: true, grade, delta, notes: ctx.notes });
     this.fx(null, 'found', { id, grade });
     this.emit('answer', { player: p, grade, ms, points, delta });
-    if (this.active.every(pl => this.found.has(pl.id))) this.skipPhase(); // everyone found → reveal now
+    if (this.active.every(pl => this.found.has(pl.id) || this.gaveUp.has(pl.id))) this.skipPhase(); // everyone found (or gave up) → reveal now
     this.io.sync();
   }
 

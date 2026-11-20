@@ -238,3 +238,33 @@ export const INTO: Record<string, string> = {
   'auto-naruto': 'animes', 'auto-onepiece': 'animes', 'auto-dragonball': 'animes', 'auto-snk': 'animes', 'auto-mha': 'animes', 'auto-demonslayer': 'animes',
   'auto-jjk': 'animes', 'auto-bleach': 'animes', 'auto-hxh': 'animes', 'auto-jojo': 'animes', 'auto-pokemon': 'persos-jeux-video', 'auto-minecraft': 'persos-jeux-video',
 };
+
+// ── Sub-categories for the hand-made built-in packs: one Wikidata property per pack (owner: every category
+// must have many sub-categories). harvest.ts resolves each question's wiki: page → item → this value's label,
+// writes content/harvest/builtin-groups-map.json { packId: { questionId: group } }; resolvePack applies it.
+const CLASS = '?item wdt:P171* ?g. ?g wdt:P105 wd:Q37517.'; // taxonomic class (Mammifères, Oiseaux…)
+export const BUILTIN_GROUPS: Record<string, string> = {
+  animaux: CLASS, 'chiens-chats': '?item wdt:P31 ?g.', dinosaures: '?item wdt:P171 ?g.',
+  monuments: '?item wdt:P17 ?g.', 'merveilles-nature': '?item wdt:P17 ?g.', capitales: '?item wdt:P17/wdt:P30 ?g.',
+  flags: '?item wdt:P30 ?g.', 'drapeaux-faciles': '?item wdt:P30 ?g.',
+  bouffe: '?item wdt:P495 ?g.', desserts: '?item wdt:P495 ?g.', 'fruits-legumes': '?item wdt:P279 ?g.',
+  vehicules: '?item wdt:P31 ?g.', consoles: '?item wdt:P176 ?g.', instruments: '?item wdt:P279 ?g.', sports: '?item wdt:P279 ?g.',
+  espace: '?item wdt:P31 ?g.', 'jeux-jouets': '?item wdt:P279 ?g.', 'retro-objets': '?item wdt:P279 ?g.', 'zoom-objets': '?item wdt:P279 ?g.',
+  'culture-jeune': '?item wdt:P279 ?g.', internet: '?item wdt:P31 ?g.', 'super-heros': '?item wdt:P1080 ?g.',
+  'persos-jeux-video': '?item wdt:P8345|wdt:P1441 ?g.', 'persos-dessins-animes': '?item wdt:P8345|wdt:P1441 ?g.',
+};
+
+/** titles ('fr:Tomate', 'en:Naruto_Uzumaki') → group label, batched. */
+export async function groupLabels(titles: string[], snippet: string): Promise<Map<string, string>> {
+  const res = new Map<string, string>();
+  for (let i = 0; i < titles.length; i += 120) {
+    const batch = titles.slice(i, i + 120);
+    const vals = batch.map(t => { const [l, ...r] = t.split(':'); return `("${r.join(':').replace(/_/g, ' ').replace(/"/g, '\\"')}"@${l} <https://${l}.wikipedia.org/>)`; }).join(' ');
+    const q = `SELECT ?t ?l ?gl WHERE { VALUES (?t ?site) { ${vals} } ?a schema:name ?t; schema:isPartOf ?site; schema:about ?item. ${snippet}
+      ?g rdfs:label ?gl. FILTER(LANG(?gl) = "fr") BIND(LANG(?t) AS ?l) }`;
+    const j: any = await sparql(q);
+    for (const b of j?.results?.bindings ?? []) { const k = `${b.l.value}:${b.t.value}`; if (!res.has(k)) res.set(k, b.gl.value); }
+    await new Promise(r => setTimeout(r, 800));
+  }
+  return res;
+}

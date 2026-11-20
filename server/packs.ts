@@ -1,3 +1,4 @@
+import { GROUP_MAP } from './_gen/groupmap';
 // Content packs: content/packs/<id>/pack.json + media/. Registered by scripts/gen.mjs.
 import { RAW_PACKS } from './_gen/packs';
 import type { PackFile, PackQuestion } from '../shared/pack';
@@ -31,7 +32,7 @@ export function resolvePack(p: PackFile & { media?: Record<string, string> }): P
       opts: p.opts || q.opts ? { ...p.opts, ...q.opts } : undefined,
       // the pictured page IS the answer, except in "by character" packs (picture = character, answer = work)
       nameKind: (q as any).nameKind ?? p.nameKind,
-      group: (q as any).group ?? ((p as any).groupBy === 'answer' ? q.answer : p.name),
+      group: (q as any).group ?? GROUP_MAP[p.id]?.[q.id] ?? ((p as any).groupBy === 'answer' ? q.answer : GROUP_MAP[p.id] ? 'Autres' : p.name),
       aliasTitle: (q as any).aliasTitle ?? (q.src?.startsWith('wiki:') && p.aliasFrom !== 'answer' ? q.src.slice(5).replace(/^(?![a-z]{2,3}:)/, 'fr:') : `fr:${q.answer}`),
     })),
   };
