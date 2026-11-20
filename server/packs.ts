@@ -11,11 +11,13 @@ export interface Question extends Omit<PackQuestion, "type"> {
   media?: Record<string, string>; // library packs: file name → URL (for scripts)
   /** Wikipedia page whose redirects + other-language titles become accepted answers ('lang:Title'). */
   aliasTitle?: string;
+  /** Specialised name sources (Library.names kind), from the pack. */
+  nameKind?: 'anime' | 'game' | 'series';
 }
 
 export interface Pack { id: string; name: string; tags: string[]; questions: Question[] }
 
-const media = (pack: string, src?: string) => (src && !/^(https?:|\/|wiki:)/.test(src) ? `/packs/${pack}/${src}` : src);
+const media = (pack: string, src?: string) => (src && !/^(https?:|\/|wiki:|url:|fandom:)/.test(src) ? `/packs/${pack}/${src}` : src);
 
 export function resolvePack(p: PackFile & { media?: Record<string, string> }): Pack {
   const map = p.media;
@@ -26,7 +28,8 @@ export function resolvePack(p: PackFile & { media?: Record<string, string> }): P
       src: map && q.src && map[q.src] ? map[q.src] : media(p.id, q.src), exact: [q.answer, ...(q.exact ?? [])], media: map,
       opts: p.opts || q.opts ? { ...p.opts, ...q.opts } : undefined,
       // the pictured page IS the answer, except in "by character" packs (picture = character, answer = work)
-      aliasTitle: q.src?.startsWith('wiki:') && p.aliasFrom !== 'answer' ? q.src.slice(5).replace(/^(?![a-z]{2,3}:)/, 'fr:') : `fr:${q.answer}`,
+      nameKind: p.nameKind,
+      aliasTitle: (q as any).aliasTitle ?? (q.src?.startsWith('wiki:') && p.aliasFrom !== 'answer' ? q.src.slice(5).replace(/^(?![a-z]{2,3}:)/, 'fr:') : `fr:${q.answer}`),
     })),
   };
 }

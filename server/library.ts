@@ -1,5 +1,6 @@
 // Online pack library: one Durable Object ("main") with SQLite storage.
 // Packs published from the Studio (JSON) + their media, content-addressed (sha-256) and chunked (rows ≤ 2 MB).
+import { AUTO, buildAuto } from './autopacks';
 import { DurableObject } from 'cloudflare:workers';
 import { PACK_FORMAT, type PackFile } from '../shared/pack';
 import type { PackInfo } from '../shared/protocol';
@@ -13,6 +14,9 @@ const MAX_PACK_JSON = 2_000_000;
 
 export type NameKind = 'anime' | 'game' | 'series';
 
+/** Image file names that usually show the answer as text, or a whole cast instead of one subject → skip. */
+export const TEXTY = /(^|[^a-z])(logos?|wordmark|covers?|posters?|affiche|jaquette|box[ _-]?art|title[ _-]?card|titlecard|banner|cast|group|ensemble|main[ _-]characters|personnages|characters|promo(tional)?|key[ _-]?art|dvd|blu-?ray|vhs|comic[ _-]?book|issue[ _-]?\d+|tv[ _-]?series|season[ _-]?\d+)([^a-z]|$)/i;
+
 export class Library extends DurableObject {
   private sql = this.ctx.storage.sql;
 
@@ -22,16 +26,36 @@ export class Library extends DurableObject {
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
+      CREATE TABLE IF NOT EXISTS auto1 (id TEXT PRIMARY KEY, json TEXT NOT NULL, n INTEGER NOT NULL, at INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS names8 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
-      CREATE TABLE IF NOT EXISTS wiki4 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
+      CREATE TABLE IF NOT EXISTS wiki5 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
 
   // ── RPC (called by Room and the Worker) ──
   list(): PackInfo[] {
-    return this.sql.exec<{ info: string }>('SELECT info FROM packs ORDER BY updated DESC').toArray().map(r => JSON.parse(r.info));
+    const lib = this.sql.exec<{ info: string }>('SELECT info FROM packs ORDER BY updated DESC').toArray().map(r => JSON.parse(r.info));
+    const counts = new Map(this.sql.exec<{ id: string; n: number }>('SELECT id, n FROM auto1').toArray().map(r => [r.id, r.n]));
+    const auto = AUTO.filter(d => counts.get(d.id) !== 0).map(d => ({ id: d.id, name: d.name, emoji: d.emoji, count: counts.get(d.id) ?? 0, tags: d.tags, author: d.from === 'wd' ? 'Wikidata' : 'Fandom', auto: true }));
+    return [...lib, ...auto];
+  }
+  /** Build a few auto packs that were never built (called by rooms when they list packs; 1 fetch each). */
+  async warm(n = 6) {
+    const have = new Set(this.sql.exec<{ id: string }>('SELECT id FROM auto1').toArray().map(r => r.id));
+    for (const d of AUTO.filter(x => !have.has(x.id)).slice(0, n)) await this.auto(d.id);
+  }
+  /** Auto pack (Wikidata / Fandom), rebuilt at most every 7 days; old copy kept if the rebuild fails. */
+  async auto(id: string): Promise<PackFile | null> {
+    const d = AUTO.find(x => x.id === id); if (!d) return null;
+    const row = this.sql.exec<{ json: string; at: number }>('SELECT json, at FROM auto1 WHERE id = ?', id).toArray()[0];
+    if (row && Date.now() - row.at < 7 * 86_400_000) return row.json ? JSON.parse(row.json) : null;
+    const p = await buildAuto(d);
+    if (p) this.sql.exec('INSERT OR REPLACE INTO auto1 VALUES (?, ?, ?, ?)', id, JSON.stringify(p), p.questions.length, Date.now());
+    else if (!row) this.sql.exec('INSERT OR REPLACE INTO auto1 VALUES (?, ?, ?, ?)', id, '', 0, Date.now() - 6 * 86_400_000); // retry in a day
+    return p ?? (row?.json ? JSON.parse(row.json) : null);
   }
   ids(): string[] { return this.sql.exec<{ id: string }>('SELECT id FROM packs').toArray().map(r => r.id); }
-  get(id: string): (PackFile & { media?: Record<string, string> }) | null {
+  async get(id: string): Promise<(PackFile & { media?: Record<string, string> }) | null> {
+    if (id.startsWith('auto-')) return this.auto(id);
     const r = this.sql.exec<{ json: string }>('SELECT json FROM packs WHERE id = ?', id).toArray()[0];
     return r ? JSON.parse(r.json) : null;
   }
@@ -56,7 +80,7 @@ export class Library extends DurableObject {
     return { ok: true };
   }
 
-  /** wiki:Title → playable image URL, shared by all rooms (table wiki4, kind = how it was resolved, for /api/wiki-stats):
+  /** wiki:Title → playable image URL, shared by all rooms (table wiki5, kind = how it was resolved, for /api/wiki-stats):
    *  'stored' = downloaded once by the server, served from /api/media (best);
    *  'direct' = the server could not download it, players load Wikimedia's own thumbnail;
    *  'none'   = the article has no image → the question is skipped. Transient errors are not cached. */
@@ -67,6 +91,15 @@ export class Library extends DurableObject {
     const FR_EN = (l: string) => /^(fr|en)(-|$)/.test(l);
     const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names8 WHERE k = ?', k).toArray()[0];
     if (row && Date.now() - row.at < 30 * 86_400_000) return JSON.parse(row.list);
+    if (k.startsWith('fw:')) { // fandom page (auto packs): that wiki's redirects = nicknames
+      const [, wiki, ...t] = k.split(':'); const out = new Set<string>([t.join(':')]);
+      const j: any = await fetch(`https://${wiki}.fandom.com/api.php?action=query&format=json&redirects=1&prop=redirects&rdnamespace=0&rdlimit=500&titles=${encodeURIComponent(t.join(':'))}`, { headers: { 'user-agent': 'HellaParty/1.0' } }).then(r => r.ok ? r.json() : null).catch(() => null);
+      const page: any = j && Object.values(j.query?.pages ?? {})[0];
+      for (const r of page?.redirects ?? []) out.add(r.title);
+      const list = [...out].map(x => x.replace(/\s*\([^)]*\)\s*$/, '')).filter(x => x && x.length <= 60);
+      if (page) this.sql.exec('INSERT OR REPLACE INTO names8 VALUES (?, ?, ?)', k, JSON.stringify(list), Date.now());
+      return list;
+    }
     const [lang, ...rest] = k.split('|')[0].split(':'); const title = rest.join(':').replace(/_/g, ' ');
     const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)' };
     const out = new Set<string>(); let ok = false;
@@ -157,9 +190,39 @@ export class Library extends DurableObject {
     return [...new Set(list)];
   }
 
+  /** Download an image URL, keep a same-origin copy (/api/media/<hash>), cache the result under `src`. */
+  private async store(src: string, u: string, UA: Record<string, string>): Promise<string | null> {
+    if (TEXTY.test(decodeURIComponent(u.split('?')[0]))) { this.sql.exec('INSERT OR REPLACE INTO wiki5 VALUES (?, ?, ?, ?, ?)', src, null, 'none', 'texty file name', Date.now()); return null; }
+    const img = await fetch(u, { headers: UA }).catch(() => null);
+    if (img?.ok) {
+      const type = img.headers.get('content-type') ?? '', bytes = await img.arrayBuffer();
+      if (type.startsWith('image/') && !type.includes('svg') && bytes.byteLength > 200 && bytes.byteLength <= 3_000_000) {
+        const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(b => b.toString(16).padStart(2, '0')).join('');
+        await this.putMedia(hash, type, bytes);
+        const url = `/api/media/${hash}.${type.split('/')[1].replace('jpeg', 'jpg').replace(/[^a-z0-9]/g, '')}`;
+        this.sql.exec('INSERT OR REPLACE INTO wiki5 VALUES (?, ?, ?, ?, ?)', src, url, 'stored', null, Date.now());
+        return url;
+      }
+    }
+    if (img && img.status < 500 && img.status !== 429) this.sql.exec('INSERT OR REPLACE INTO wiki5 VALUES (?, ?, ?, ?, ?)', src, null, 'none', `img ${img.status}`, Date.now());
+    return null;
+  }
+
   async wiki(src: string): Promise<string | null> {
-    const row = this.sql.exec<{ url: string | null; kind: string; at: number }>('SELECT url, kind, at FROM wiki4 WHERE src = ?', src).toArray()[0];
+    const row = this.sql.exec<{ url: string | null; kind: string; at: number }>('SELECT url, kind, at FROM wiki5 WHERE src = ?', src).toArray()[0];
     if (row && (row.kind === 'stored' || Date.now() - row.at < (row.kind === 'direct' ? 3_600_000 : 86_400_000))) return row.url;
+    const UA0 = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)' };
+    if (src.startsWith('url:') || src.startsWith('fandom:')) {
+      let u = src.slice(4);
+      if (src.startsWith('fandom:')) { // Wikidata P6262 "[lang.]wiki:Article" → that page's infobox image
+        const f = /^fandom:(?:([a-z-]+)\.)?([a-z0-9-]+):(.+)$/i.exec(src); if (!f) return null;
+        const j: any = await fetch(`https://${f[2]}.fandom.com${f[1] ? '/' + f[1] : ''}/api.php?action=query&format=json&redirects=1&prop=pageimages&piprop=original&titles=${encodeURIComponent(f[3].replace(/_/g, ' '))}`, { headers: UA0 }).then(r => r.ok ? r.json() : null).catch(() => null);
+        const o = j && (Object.values(j.query?.pages ?? {})[0] as any)?.original?.source;
+        if (!o) { this.sql.exec('INSERT OR REPLACE INTO wiki5 VALUES (?, ?, ?, ?, ?)', src, null, 'none', 'fandom: no image', Date.now()); return null; }
+        u = o.replace(/\/revision\/latest(\/[^?]*)?/, '/revision/latest/scale-to-width-down/800');
+      }
+      return this.store(src, u, UA0);
+    }
     const m = src.match(/^wiki:(?:([a-z]{2,3}):)?(.+)$/);
     if (!m) return null;
     const lang = m[1] ?? 'fr', title = encodeURIComponent(m[2].trim().replace(/ /g, '_'));
@@ -171,6 +234,7 @@ export class Library extends DurableObject {
       if (!r.ok) { info += `summary ${l}: ${r.status}; `; continue; }
       const j: any = await r.json().catch(() => null);
       thumb = j?.thumbnail?.source;
+      if (thumb && TEXTY.test(decodeURIComponent(j?.originalimage?.source ?? thumb))) { info += `summary ${l}: texty image; `; thumb = undefined; break; }
       // summary thumbnails are ~320px: ask for 960px (a standard Wikimedia step), or the original if smaller (not SVG)
       const o = j?.originalimage;
       if (thumb && o?.width > 960 && /\/\d+px-/.test(thumb)) big = thumb.replace(/\/\d+px-/, '/960px-');
@@ -179,7 +243,7 @@ export class Library extends DurableObject {
       info += `summary ${l}: no image; `;
     }
     if (!thumb) {
-      if (!transient) this.sql.exec('INSERT OR REPLACE INTO wiki4 VALUES (?, ?, ?, ?, ?)', src, null, 'none', info, Date.now());
+      if (!transient) this.sql.exec('INSERT OR REPLACE INTO wiki5 VALUES (?, ?, ?, ?, ?)', src, null, 'none', info, Date.now());
       return null;
     }
     // try to store a copy (thumbnail as given = a size Wikimedia always serves)
@@ -194,13 +258,13 @@ export class Library extends DurableObject {
         const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(b => b.toString(16).padStart(2, '0')).join('');
         await this.putMedia(hash, type, bytes);
         const url = `/api/media/${hash}.${type.split('/')[1].replace('jpeg', 'jpg').replace(/[^a-z0-9]/g, '')}`;
-        this.sql.exec('INSERT OR REPLACE INTO wiki4 VALUES (?, ?, ?, ?, ?)', src, url, 'stored', null, Date.now());
+        this.sql.exec('INSERT OR REPLACE INTO wiki5 VALUES (?, ?, ?, ?, ?)', src, url, 'stored', null, Date.now());
         return url;
       }
       info += `img: bad type/size ${type} ${bytes.byteLength}; `;
     } else if (img) info += `img: ${img.status}; `;
     // could not copy it: let players load the thumbnail straight from Wikimedia (they report back if it fails)
-    this.sql.exec('INSERT OR REPLACE INTO wiki4 VALUES (?, ?, ?, ?, ?)', src, thumb, 'direct', info, Date.now());
+    this.sql.exec('INSERT OR REPLACE INTO wiki5 VALUES (?, ?, ?, ?, ?)', src, thumb, 'direct', info, Date.now());
     return thumb;
   }
 
@@ -211,8 +275,8 @@ export class Library extends DurableObject {
   reports() { return this.sql.exec('SELECT key, reason, n, at FROM reports ORDER BY n DESC, at DESC LIMIT 500').toArray(); }
 
   wikiStats() {
-    const counts = this.sql.exec<{ kind: string; n: number }>('SELECT kind, COUNT(*) AS n FROM wiki4 GROUP BY kind').toArray();
-    const samples = this.sql.exec<{ src: string; kind: string; info: string }>("SELECT src, kind, info FROM wiki4 WHERE kind != 'stored' ORDER BY at DESC LIMIT 30").toArray();
+    const counts = this.sql.exec<{ kind: string; n: number }>('SELECT kind, COUNT(*) AS n FROM wiki5 GROUP BY kind').toArray();
+    const samples = this.sql.exec<{ src: string; kind: string; info: string }>("SELECT src, kind, info FROM wiki5 WHERE kind != 'stored' ORDER BY at DESC LIMIT 30").toArray();
     return { counts, samples };
   }
 

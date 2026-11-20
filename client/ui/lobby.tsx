@@ -55,7 +55,9 @@ function Setting({ d, v, set }: { d: SettingDef; v: any; set: (k: string, v: any
           <button type="button" class="btn ghost small" onClick={() => set(d.key, [])}>Tout décocher</button>
           <small class="muted">{(v ?? []).length} packs · {store.packs.filter(p => (v ?? []).includes(p.id)).reduce((n, p) => n + p.count, 0)} questions</small>
         </div>
-        <div class="packs">{store.packs.filter(p => !p.custom).map(chip)}</div>
+        <div class="packs">{store.packs.filter(p => !p.custom && !p.auto).map(chip)}</div>
+        <div class="packs-sub"><b>🌐 Packs auto (Wikipedia / Fandom)</b> <small class="muted">générés et mis à jour tout seuls · difficulté selon la popularité · 0 = pas encore chargé</small></div>
+        <div class="packs">{store.packs.filter(p => p.auto).map(chip)}</div>
         <div class="packs-sub">
           <b>Packs du Studio</b>
           <button type="button" class="btn ghost small" onClick={() => send({ t: 'packs' })} title="Actualiser">🔄</button>

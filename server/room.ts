@@ -35,10 +35,10 @@ export class Room extends DurableObject<Env> {
       prepare: async q => {
         const lib = library(this.env);
         // extra accepted answers from Wikipedia (redirects + other languages); never blocks the question
-        const names = q.aliasTitle ? await lib.names(q.aliasTitle, NAME_KIND[q.pack]).catch(() => [] as string[]) : [];
+        const names = q.aliasTitle ? await lib.names(q.aliasTitle, q.nameKind ?? NAME_KIND[q.pack]).catch(() => [] as string[]) : [];
         const exact = names.length ? [...new Set([...q.exact, ...names])] : q.exact;
-        if (!q.src?.startsWith('wiki:')) return { ...q, exact };
-        const url = await lib.wiki(q.src);
+        if (!/^(wiki|url|fandom):/.test(q.src ?? '')) return { ...q, exact };
+        const url = await lib.wiki(q.src!);
         return url ? { ...q, src: url, exact } : null;
       },
     }));
@@ -47,7 +47,7 @@ export class Room extends DurableObject<Env> {
   /** Library pack list, cached 10 s. Also tells the game which ids are selectable. */
   private async packList(force = false): Promise<PackInfo[]> {
     if (force || Date.now() - this.libAt > 10_000) {
-      try { this.libList = await library(this.env).list(); this.libAt = Date.now(); } catch (e) { console.error('library', e); }
+      try { const lib = library(this.env); lib.warm().catch(() => {}); this.libList = await lib.list(); this.libAt = Date.now(); } catch (e) { console.error('library', e); }
       if (this.game) this.game.libraryIds = new Set(this.libList.map(p => p.id));
     }
     return [...PACK_INFO, ...this.libList];

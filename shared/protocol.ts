@@ -66,7 +66,7 @@ export interface PublicState {
   f: Record<string, any>; // per-feature public slices (feature.view)
 }
 
-export interface PackInfo { id: string; name: string; count: number; emoji?: string; author?: string; tags?: string[]; custom?: boolean }
+export interface PackInfo { id: string; name: string; count: number; emoji?: string; author?: string; tags?: string[]; custom?: boolean; auto?: boolean }
 
 export type ClientMsg =
   | { t: 'hello'; id: string; name: string; avatar?: string }

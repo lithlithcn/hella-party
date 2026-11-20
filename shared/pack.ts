@@ -57,6 +57,8 @@ export interface PackFile {
   name: string;
   /** "answer": take extra accepted names from the answer's Wikipedia page instead of the pictured one (by-character packs). */
   aliasFrom?: "src" | "answer";
+  /** Extra name sources for answers: anime (AniList), game (game wikis), series (TVMaze). */
+  nameKind?: "anime" | "game" | "series";
   description?: string;
   author?: string;
   emoji?: string;

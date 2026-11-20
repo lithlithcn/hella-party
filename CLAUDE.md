@@ -77,6 +77,12 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 ## Features in place
 - `scoring`, `goal`, `bots` (debug). `streak`: x1, x2… combo badge (exact answers in a row; fx 'streak'; chat at every 5). `chain` (option, off by default): when every connected human found the same N questions (default 5), they come back as a quick-fire round (intro phase 'chain.intro', forced questions with chain.time, points ÷2.5).
 
+## Auto packs (server/autopacks.ts)
+- `AUTO` defs: Wikidata SPARQL (`wd(...)`: class + min sitelinks; img 'photo' = Commons P18, 'page' = Fandom P6262 / enwiki lead image) or Fandom category (`fd(...)`: infobox images). Built by Library.auto (cache table auto1, 7 days, 1 fetch), warmed 6 at a time by Library.warm when a room lists packs. Ids `auto-*`, lobby section « Packs auto ».
+- Difficulty = popularity rank in thirds: Wikidata sitelinks (≈ how known), Fandom page length.
+- Image srcs `url:` / `fandom:` are downloaded by Library.wiki/store like `wiki:`; TEXTY (file names like logo/cover/poster/cast/group/characters) → image refused → question skipped. Cache table wiki5.
+- Add a category = one line in AUTO (check the Fandom category name exists).
+
 ## TODO (owner asked, later)
 - Shortcuts are automatic (no per-question data needed):
   - shared/answer.ts expand() → exact: subtitle/parentheses/article stripped, roman↔arabic, acronyms (tlou, lotr, sda, jjba, ff7, botw), ALIAS table; guessed() → partial: head noun (flûte à bec → flûte) unless NOHEAD.
