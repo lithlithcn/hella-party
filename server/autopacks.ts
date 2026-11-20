@@ -154,15 +154,17 @@ export interface Work { id: string; name: string; pop: number; questions: PackQu
 export async function buildDomain(dom: string): Promise<Work[] | null> {
   const D = DOMAINS[dom]; if (!D) return null;
   const all: any[] = []; let ok = false;
-  for (const cls of D.classes) { const r = await domainQuery([cls]); if (r) { ok = true; all.push(...r); } }
+  // one query per class × popularity band: big classes (TV series, films) time out as a single query
+  const BANDS: [number, number][] = [[1, 2], [2, 3], [3, 5], [5, 10], [10, 1e6]];
+  for (const cls of D.classes) for (const [lo, hi] of BANDS) { const r = await domainQuery([cls], lo, hi); if (r) { ok = true; all.push(...r); } }
   if (!ok) return null;
   return groupWorks(D, all);
 }
-async function domainQuery(classes: string[]): Promise<any[] | null> {
+async function domainQuery(classes: string[], lo = 1, hi = 1e6): Promise<any[] | null> {
   const D = { classes };
   const q = `SELECT ?c ?cl ?sl ?w ?wl ?f ?fl ?fandom ?enwiki WHERE {
     { SELECT DISTINCT ?c ?w ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls.
-      { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= 1) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } } LIMIT 30000 }
+      { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= ${lo} && ?sl < ${hi}) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } } LIMIT 30000 }
     OPTIONAL { ?c wdt:P6262 ?fandom } OPTIONAL { ?enwiki schema:about ?c; schema:isPartOf <https://en.wikipedia.org/> }
     FILTER(BOUND(?fandom) || BOUND(?enwiki))
     OPTIONAL { ?w wdt:P8345|wdt:P179 ?f }
