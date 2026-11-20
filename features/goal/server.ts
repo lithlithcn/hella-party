@@ -8,7 +8,7 @@ export default defineFeature({
     questionEnd(g) {
       const goal = g.setting<number>('goal.score');
       const top = g.rank()[0];
-      if (top && top.score >= goal) g.endGame(g.list.filter(p => p.score === top.score).map(p => p.id));
+      if (top && top.score >= goal) g.endAfterReveal(g.list.filter(p => p.score === top.score).map(p => p.id));
     },
   },
 });

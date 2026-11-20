@@ -21,7 +21,8 @@ export function Players({ s }: { s: PublicState }) {
             <span onClick={() => p.id === s.me && setEdit(true)} title={p.id === s.me ? 'Changer ma photo' : undefined} class={p.id === s.me ? 'clickable' : ''}><Avatar name={p.name} id={p.id} /></span>
             <div class="pinfo">
               <div class="pname">{p.leader && '👑 '}{p.name}</div>
-              <div class="pscore"><Count v={p.score} /></div>
+              {s.players.find(x => x.leader)?.id === s.me && p.id !== s.me && <button type="button" class="pkick" title="Expulser" onClick={() => confirm(`Expulser ${p.name} ?`) && send({ t: 'kick', id: p.id })}>✕</button>}
+            <div class="pscore"><Count v={p.score} /></div>
             </div>
 
             {p.guess && <div class={`pguess ${f ? 'said' : ''}`} key={p.guess}>{p.guess}</div>}

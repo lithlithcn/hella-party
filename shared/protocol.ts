@@ -77,6 +77,7 @@ export type ClientMsg =
   | { t: 'chat'; text: string; reply?: number }
   | { t: 'start' }
   | { t: 'stop' }
+  | { t: 'kick'; id: string }
   | { t: 'settings'; patch: Record<string, any> }
   | { t: 'action'; f: string; a: string; p?: any };
 

@@ -162,6 +162,9 @@ export class Game {
     return p;
   }
 
+  /** Leader removes a player for good (Room closes their sockets and refuses them). */
+  kick(id: string) { const p = this.players.get(id); if (!p) return; this.leave(id); this.players.delete(id); this.chat(`🚫 ${p.name} a été expulsé`); this.io.sync(); }
+
   leave(id: string) {
     const p = this.players.get(id); if (!p) return;
     p.connected = false;
@@ -201,8 +204,13 @@ export class Game {
     this.setPhase('podium', 8000, undefined, () => this.stop());
   }
 
+  /** End the game once the current reveal is over (so the last answer is always shown). */
+  endAfterReveal(winners: string[]) { if (this.phase?.name === 'reveal' || this.phase?.name === 'question') this.pendingEnd = winners; else this.endGame(winners); }
+  private pendingEnd: string[] | null = null;
+
   private nextRound() {
     if (this.status !== 'playing') return;
+    if (this.pendingEnd) { const w = this.pendingEnd; this.pendingEnd = null; return this.endGame(w); }
     this.queue = []; this.reveal = null; this.question = null; this.found.clear();
     this.emit('beforeQuestion', {});
     this.runQueue();

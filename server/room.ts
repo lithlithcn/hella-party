@@ -15,6 +15,7 @@ export class Room extends DurableObject<Env> {
   private libList: PackInfo[] = [];
   private libAt = 0;
   private chatSeq = 0;
+  private kicked = new Set<string>();
   private chatLog = new Map<number, ChatQuote>(); // recent player messages, for replies
 
   private getGame(code: string) {
@@ -93,6 +94,7 @@ export class Room extends DurableObject<Env> {
     const id = this.sockets.get(ws);
     if (m.t === 'hello') {
       const pid = String(m.id).slice(0, 40);
+      if (this.kicked.has(pid)) { ws.send(JSON.stringify({ t: 'err', msg: 'Tu as été expulsé de ce salon.' } satisfies ServerMsg)); ws.close(); return; }
       this.sockets.set(ws, pid);
       ws.send(JSON.stringify({ t: 'welcome', defs: SETTING_DEFS, packs: await this.packList() } satisfies ServerMsg));
       ws.send(JSON.stringify({ t: 'avatars', map: Object.fromEntries(this.avatars) } satisfies ServerMsg));
@@ -126,6 +128,13 @@ export class Room extends DurableObject<Env> {
           return;
         }
         case 'stop': if (id === game.leaderId) game.stop(); return;
+        case 'kick': {
+          const target = String(m.id);
+          if (id !== game.leaderId || target === id) return;
+          this.kicked.add(target);
+          for (const [w, pid] of this.sockets) if (pid === target) { this.trySend(w, JSON.stringify({ t: 'err', msg: 'Tu as été expulsé de ce salon.' })); this.sockets.delete(w); try { w.close(); } catch {} }
+          game.kick(target); return;
+        }
         case 'settings': return game.patchSettings(id, m.patch ?? {});
         case 'action': return game.action(id, String(m.f), String(m.a), m.p);
       }

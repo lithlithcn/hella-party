@@ -332,3 +332,6 @@ button, .btn { transition: transform .08s, filter .15s; } button:active, .btn:ac
 @keyframes sweep { to { transform: translateX(520%); } }
 .timer.hurry i { box-shadow: 0 0 12px var(--red); }
 .reveal-answer { text-shadow: 0 0 22px #ffd23f66; }
+
+.pkick { position: absolute; top: 4px; right: 4px; z-index: 4; background: none; border: 0; color: var(--muted); opacity: .45; cursor: pointer; font-size: .85em; padding: 2px 5px; }
+.pkick:hover { opacity: 1; color: var(--red); }
