@@ -22,7 +22,7 @@ export class Library extends DurableObject {
       CREATE TABLE IF NOT EXISTS media (hash TEXT NOT NULL, part INTEGER NOT NULL, data BLOB NOT NULL, PRIMARY KEY (hash, part));
       CREATE TABLE IF NOT EXISTS media_meta (hash TEXT PRIMARY KEY, type TEXT NOT NULL, size INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports (key TEXT NOT NULL, reason TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 1, at INTEGER NOT NULL, PRIMARY KEY (key, reason));
-      CREATE TABLE IF NOT EXISTS names7 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
+      CREATE TABLE IF NOT EXISTS names8 (k TEXT PRIMARY KEY, list TEXT NOT NULL, at INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS wiki4 (src TEXT PRIMARY KEY, url TEXT, kind TEXT NOT NULL, info TEXT, at INTEGER NOT NULL);`);
   }
 
@@ -65,7 +65,7 @@ export class Library extends DurableObject {
   async names(k: string, kind?: NameKind): Promise<string[]> {
     if (kind) k += '|' + kind;
     const FR_EN = (l: string) => /^(fr|en)(-|$)/.test(l);
-    const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names7 WHERE k = ?', k).toArray()[0];
+    const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names8 WHERE k = ?', k).toArray()[0];
     if (row && Date.now() - row.at < 30 * 86_400_000) return JSON.parse(row.list);
     const [lang, ...rest] = k.split('|')[0].split(':'); const title = rest.join(':').replace(/_/g, ' ');
     const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)' };
@@ -121,7 +121,7 @@ export class Library extends DurableObject {
       out.add(page.title); for (const r of page.redirects ?? []) out.add(r.title);
     };
     const en = lang === 'en' ? title : other ?? title;
-    const GAME_WIKIS = ['https://www.pcgamingwiki.com/w/api.php', 'https://strategywiki.org/w/api.php', 'https://www.mariowiki.com/api.php', 'https://bulbapedia.bulbagarden.net/w/api.php', 'https://zeldawiki.wiki/w/api.php'];
+    const GAME_WIKIS = ['https://www.pcgamingwiki.com/w/api.php', 'https://strategywiki.org/w/api.php', 'https://www.ssbwiki.com/api.php'];
     // TV series / cartoons: TVMaze alternative titles per country (keyless)
     const tvmaze = async (t: string) => {
       const j: any = await fetch(`https://api.tvmaze.com/singlesearch/shows?q=${encodeURIComponent(t)}&embed=akas`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
@@ -153,7 +153,7 @@ export class Library extends DurableObject {
     }));
     const list = [...out].map(s => s.replace(/\s*\([^)]*\)\s*$/, '').trim())
       .filter(s => s && s.length <= 60 && !/[:/#]/.test(s) && /^[\p{Script=Latin}\d\s'’.,&!?()-]+$/u.test(s)).slice(0, 1000); // French/English only
-    if (ok) this.sql.exec('INSERT OR REPLACE INTO names7 VALUES (?, ?, ?)', k, JSON.stringify([...new Set(list)]), Date.now());
+    if (ok) this.sql.exec('INSERT OR REPLACE INTO names8 VALUES (?, ?, ?)', k, JSON.stringify([...new Set(list)]), Date.now());
     return [...new Set(list)];
   }
 
