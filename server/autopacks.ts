@@ -43,7 +43,7 @@ export const AUTO: AutoDef[] = [
   // ── objets & tech
   wd('voitures', 'Modèles de voitures', '🚗', 'Quelle est cette voiture ?', ['véhicules'], '?item wdt:P31 wd:Q3231690.', 25),
   wd('avions', 'Avions', '✈️', 'Quel est cet avion ?', ['véhicules'], '?item wdt:P31 wd:Q15056995.', 25),
-  wd('consoles', 'Consoles de jeu', '🎮', 'Quelle est cette console ?', ['jeux vidéo', 'tech'], '?item wdt:P31 wd:Q8076.', 15, 'photo', 'game'),
+  wd('consoles', 'Consoles de jeu', '🎮', 'Quelle est cette console ?', ['jeux vidéo', 'tech'], '?item wdt:P31/wdt:P279* wd:Q8076.', 10, 'photo', 'game'),
   wd('instruments', 'Instruments de musique', '🎻', 'Quel est cet instrument ?', ['musique'], '?item wdt:P279 wd:Q34379.', 15),
   wd('sports', 'Sports', '⚽', 'Quel est ce sport ?', ['sport'], '?item wdt:P31 wd:Q31629.', 30),
   // ── personnages (image = page image, never a cover)

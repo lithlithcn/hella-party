@@ -60,9 +60,12 @@ for (const dom of Object.keys(DOMAINS)) {
 }
 
 // sub-categories for the hand-made built-in packs (one Wikidata property each, see BUILTIN_GROUPS)
-if (!only || only.includes('builtin-groups')) {
-  const map: Record<string, Record<string, string>> = {};
-  for (const [pid, snippet] of Object.entries(BUILTIN_GROUPS)) {
+// ONLY=builtin-groups (all) or bg:<pack>,bg:<pack> (some); merged into the existing map, saved after each pack
+const bg = Object.keys(BUILTIN_GROUPS).filter(pid => !only || only.includes('builtin-groups') || only.includes('bg:' + pid));
+if (bg.length) {
+  const mapFile = path.join(out, 'builtin-groups-map.json');
+  const map: Record<string, Record<string, string>> = fs.existsSync(mapFile) ? JSON.parse(fs.readFileSync(mapFile, 'utf8')) : {};
+  for (const pid of bg) { const snippet = BUILTIN_GROUPS[pid];
     const f = path.resolve(import.meta.dirname, `../content/packs/${pid}/pack.json`); if (!fs.existsSync(f)) continue;
     const p = JSON.parse(fs.readFileSync(f, 'utf8'));
     const title = (q: any) => q.src?.startsWith('wiki:') ? (/^wiki:[a-z]{2,3}:/.test(q.src) ? q.src.slice(5) : 'fr:' + q.src.slice(5)) : 'fr:' + q.answer;
@@ -72,8 +75,8 @@ if (!only || only.includes('builtin-groups')) {
     for (const q of p.questions) { const g = labels.get(title(q).replace(/_/g, ' ')); if (g) { m[q.id] = g[0].toUpperCase() + g.slice(1); n.set(m[q.id], (n.get(m[q.id]) ?? 0) + 1); } }
     for (const [id, g] of Object.entries(m)) if ((n.get(g) ?? 0) < 3) m[id] = 'Autres'; // no tiny sub-categories
     map[pid] = m; console.log(`✔ groups ${pid}: ${Object.keys(m).length}/${p.questions.length} in ${new Set(Object.values(m)).size} groups`);
+    if (Object.keys(m).length) fs.writeFileSync(mapFile, JSON.stringify(map)); else console.warn(`✘ groups ${pid}: 0 (snippet?)`);
   }
-  fs.writeFileSync(path.join(out, 'builtin-groups-map.json'), JSON.stringify(map));
 }
 
 // index: what the lobby shows (counts, merge target, sub-categories)
