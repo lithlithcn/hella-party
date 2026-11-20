@@ -10,6 +10,11 @@ const out = path.resolve(import.meta.dirname, '../content/harvest');
 fs.mkdirSync(out, { recursive: true });
 const only = process.env.ONLY ? process.env.ONLY.split(',') : undefined;
 const FANDOM_PER_DOMAIN = +(process.env.FANDOM ?? 1e9); // every work that has a Fandom wiki
+// no request may hang the run (a stuck Wikidata/Fandom connection blocked a whole run for hours): 90 s max each
+const fetch0 = globalThis.fetch;
+globalThis.fetch = ((u: any, o: any = {}) => fetch0(u, { signal: AbortSignal.timeout(90_000), ...o })) as typeof fetch;
+const t0 = Date.now(), log = console.log;
+console.log = (...a: any[]) => log(`[${Math.round((Date.now() - t0) / 1000)}s]`, ...a);
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 
@@ -17,6 +22,7 @@ function save(id: string, p: any) { fs.writeFileSync(path.join(out, `${id}.json`
 
 for (const d of AUTO) {
   if (only && !only.includes(d.id)) continue;
+  console.log(`… ${d.id}`);
   const p = await buildAuto(d).catch(e => (console.error(d.id, e), null));
   // sub-category = country / origin / maker / artist when Wikidata has it, else the source name; tiny groups folded
   if (p) {
@@ -55,6 +61,7 @@ if (!only || only.includes('builtin-groups')) {
     const f = path.resolve(import.meta.dirname, `../content/packs/${pid}/pack.json`); if (!fs.existsSync(f)) continue;
     const p = JSON.parse(fs.readFileSync(f, 'utf8'));
     const title = (q: any) => q.src?.startsWith('wiki:') ? (/^wiki:[a-z]{2,3}:/.test(q.src) ? q.src.slice(5) : 'fr:' + q.src.slice(5)) : 'fr:' + q.answer;
+    console.log(`… groups ${pid} (${p.questions.length})`);
     const labels = await groupLabels([...new Set(p.questions.map(title))] as string[], snippet).catch(() => new Map());
     const m: Record<string, string> = {}, n = new Map<string, number>();
     for (const q of p.questions) { const g = labels.get(title(q).replace(/_/g, ' ')); if (g) { m[q.id] = g[0].toUpperCase() + g.slice(1); n.set(m[q.id], (n.get(m[q.id]) ?? 0) + 1); } }

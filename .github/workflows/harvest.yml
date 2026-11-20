@@ -9,15 +9,24 @@ permissions: { contents: write }
 jobs:
   harvest:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
       - run: npm ci
       - run: npx tsx scripts/harvest.ts
+        timeout-minutes: 100 # then the commit step still saves what was done
         env: { ONLY: '${{ inputs.only }}' }
-      - run: |
+      # index.json is rebuilt after pulling, so several runs (ONLY=…) can work in parallel without conflicts
+      - if: always()
+        run: |
           git config user.name "harvest-bot"; git config user.email "harvest-bot@users.noreply.github.com"
+          git checkout -- content/harvest/index.json 2>/dev/null || true
           git add content/harvest
-          git diff --cached --quiet || (git commit -m "harvest: Wikidata + Fandom content" && git pull --rebase origin main && git push)
+          git diff --cached --quiet || git commit -m "harvest: ${{ inputs.only || 'all' }}"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && ONLY=index-only npx tsx scripts/harvest.ts && git add content/harvest/index.json
+            git diff --cached --quiet || git commit -m "harvest: index"
+            git push && break; sleep $((i * 15))
+          done
