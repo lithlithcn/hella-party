@@ -32,7 +32,7 @@ export class Room extends DurableObject<Env> {
       prepare: async q => {
         const lib = library(this.env);
         // extra accepted answers from Wikipedia (redirects + other languages); never blocks the question
-        const names = q.aliasTitle ? await lib.names(q.aliasTitle).catch(() => [] as string[]) : [];
+        const names = q.aliasTitle ? await lib.names(q.aliasTitle, q.pack === 'animes' ? 'anime' : undefined).catch(() => [] as string[]) : [];
         const exact = names.length ? [...new Set([...q.exact, ...names])] : q.exact;
         if (!q.src?.startsWith('wiki:')) return { ...q, exact };
         const url = await lib.wiki(q.src);

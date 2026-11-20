@@ -60,11 +60,12 @@ export class Library extends DurableObject {
    *  'none'   = the article has no image → the question is skipped. Transient errors are not cached. */
   /** 'lang:Title' → other names of that Wikipedia page: its redirects (abbreviations, spellings) and its
    *  titles in en/fr/es/it/de/pt (+ their en/fr redirects). Cached 30 days. Becomes extra accepted answers. */
-  async names(k: string): Promise<string[]> {
+  async names(k: string, kind?: 'anime'): Promise<string[]> {
+    if (kind) k += '|' + kind;
     const FR_EN = (l: string) => /^(fr|en)(-|$)/.test(l);
     const row = this.sql.exec<{ list: string; at: number }>('SELECT list, at FROM names7 WHERE k = ?', k).toArray()[0];
     if (row && Date.now() - row.at < 30 * 86_400_000) return JSON.parse(row.list);
-    const [lang, ...rest] = k.split(':'); const title = rest.join(':').replace(/_/g, ' ');
+    const [lang, ...rest] = k.split('|')[0].split(':'); const title = rest.join(':').replace(/_/g, ' ');
     const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)' };
     const out = new Set<string>(); let ok = false;
     const q = async (l: string, t: string) => {
@@ -102,7 +103,15 @@ export class Library extends DurableObject {
         for (const m of sec.matchAll(/\{\{(?:syn|synonyms)\|en\|([^}]+)\}\}/g)) for (const x of m[1].split('|')) if (!x.includes('=')) out.add(x);
       }
     };
-    await Promise.all([cn(lang, title), other ? cn(lang === 'fr' ? 'en' : 'fr', other) : null,
+    // AniList (anime packs): romaji / English / native titles + every synonym fans use (SnK, AoT, Shingeki…)
+    const anilist = async (search: string) => {
+      const j: any = await fetch('https://graphql.anilist.co', { method: 'POST', headers: { ...UA, 'content-type': 'application/json', accept: 'application/json' },
+        body: JSON.stringify({ query: 'query($s:String){Media(search:$s,type:ANIME,sort:POPULARITY_DESC){title{romaji english userPreferred}synonyms}}', variables: { s: search } }) })
+        .then(r => r.ok ? r.json() : null).catch(() => null);
+      const m = j?.data?.Media; if (!m) return;
+      for (const t of [m.title?.romaji, m.title?.english, m.title?.userPreferred, ...(m.synonyms ?? [])]) if (t) out.add(t);
+    };
+    await Promise.all([kind === 'anime' ? anilist(other && lang === 'fr' ? other : title) : null, cn(lang, title), other ? cn(lang === 'fr' ? 'en' : 'fr', other) : null,
       wikt(lang === 'en' ? 'en' : 'fr', title), other ? wikt(lang === 'fr' ? 'en' : 'fr', other) : null]);
     // Wikidata labels + aliases in every language (nicknames, short names, abbreviations)
     const wd: any = ll && await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|aliases|claims&sites=${lang}wiki&titles=${encodeURIComponent(title)}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
