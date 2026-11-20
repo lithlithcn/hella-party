@@ -265,15 +265,26 @@ export const BUILTIN_GROUPS: Record<string, string> = {
 
 /** titles ('fr:Tomate', 'en:Naruto_Uzumaki') → group label, batched. */
 export async function groupLabels(titles: string[], snippet: string): Promise<Map<string, string>> {
-  const res = new Map<string, string>();
-  for (let i = 0; i < titles.length; i += 120) {
-    const batch = titles.slice(i, i + 120);
-    const vals = batch.map(t => { const [l, ...r] = t.split(':'); return `("${r.join(':').replace(/_/g, ' ').replace(/"/g, '\\"')}"@${l} <https://${l}.wikipedia.org/>)`; }).join(' ');
-    const q = `SELECT ?t ?l ?gl WHERE { VALUES (?t ?site) { ${vals} } ?a schema:name ?t; schema:isPartOf ?site; schema:about ?item. ${snippet}
-      ?g rdfs:label ?gl. FILTER(LANG(?gl) = "fr") BIND(LANG(?t) AS ?l) }`;
-    const j: any = await sparql(q);
-    for (const b of j?.results?.bindings ?? []) { const k = `${b.l.value}:${b.t.value}`; if (!res.has(k)) res.set(k, b.gl.value); }
-    await new Promise(r => setTimeout(r, 800));
+  // 1) titles → Wikidata ids through the Wikipedia API (fast, 50 per call); matching titles inside SPARQL was far too slow
+  const qid = new Map<string, string>(), byLang = new Map<string, string[]>();
+  for (const t of titles) { const [l, ...r] = t.split(':'); (byLang.get(l) ?? byLang.set(l, []).get(l)!).push(r.join(':').replace(/_/g, ' ')); }
+  for (const [l, ts] of byLang) for (let i = 0; i < ts.length; i += 50) {
+    const batch = ts.slice(i, i + 50);
+    const j: any = await fetch(`https://${l}.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=pageprops&ppprop=wikibase_item&titles=${encodeURIComponent(batch.join('|'))}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+    if (!j?.query) continue;
+    const to = new Map<string, string>(batch.map(t => [t, t]));
+    for (const k of ['normalized', 'redirects']) for (const x of j.query[k] ?? []) for (const [o, c] of to) if (c === x.from) to.set(o, x.to);
+    const page = new Map<string, string>(Object.values<any>(j.query.pages ?? {}).filter(p => p.pageprops?.wikibase_item).map(p => [p.title, p.pageprops.wikibase_item]));
+    for (const [o, c] of to) { const q = page.get(c); if (q) qid.set(`${l}:${o}`, q); }
   }
+  // 2) one SPARQL per 200 ids: the group label of each item
+  const res = new Map<string, string>(), ids = [...new Set(qid.values())], lab = new Map<string, string>();
+  for (let i = 0; i < ids.length; i += 200) {
+    const q = `SELECT ?item ?gl WHERE { VALUES ?item { ${ids.slice(i, i + 200).map(x => 'wd:' + x).join(' ')} } ${snippet} ?g rdfs:label ?gl. FILTER(LANG(?gl) = "fr") }`;
+    const j: any = await sparql(q);
+    for (const b of j?.results?.bindings ?? []) { const k = b.item.value.split('/').pop(); if (!lab.has(k)) lab.set(k, b.gl.value); }
+  }
+  for (const [t, q] of qid) { const g = lab.get(q); if (g) res.set(t, g); }
+  console.log(`  ${titles.length} titles → ${qid.size} ids → ${res.size} grouped`);
   return res;
 }
