@@ -77,6 +77,15 @@ export const AUTO: AutoDef[] = [
 ];
 
 const UA = { 'user-agent': 'HellaParty/1.0 (https://hella-party.arietbatiment5.workers.dev; party quiz game)', accept: 'application/sparql-results+json' };
+/** Wikidata SPARQL with retries (the public endpoint times out / rate-limits now and then). */
+async function sparql(q: string): Promise<any> {
+  for (let i = 0; i < 4; i++) {
+    const j = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+    if (j) return j;
+    await new Promise(r => setTimeout(r, 5000 * (i + 1)));
+  }
+  return null;
+}
 const thirds = (i: number, n: number) => (i < n * 0.35 ? 1 : i < n * 0.7 ? 2 : 3);
 const DIFF = ['', 'facile', 'moyen', 'difficile'];
 const clean = (t: string) => t.replace(/\s*\([^)]*\)\s*$/, '').trim();
@@ -90,7 +99,7 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
       OPTIONAL { ?item rdfs:label ?fr. FILTER(LANG(?fr) = "fr") } OPTIONAL { ?item rdfs:label ?en. FILTER(LANG(?en) = "en") }
       OPTIONAL { ?item wdt:P18 ?img } OPTIONAL { ?enwiki schema:about ?item; schema:isPartOf <https://en.wikipedia.org/> }
       OPTIONAL { ?item wdt:P6262 ?fandom } } ORDER BY DESC(?sl)`;
-    const j: any = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+    const j: any = await sparql(q);
     if (!j) return null;
     const seen = new Set<string>(), rows: any[] = [];
     for (const b of j.results.bindings) { const id = b.item.value; if (seen.has(id)) continue; seen.add(id); rows.push(b); }
@@ -144,16 +153,25 @@ export interface Work { id: string; name: string; pop: number; questions: PackQu
 /** One SPARQL fetch → all works of the domain with their characters (difficulty = character sitelinks, thirds). */
 export async function buildDomain(dom: string): Promise<Work[] | null> {
   const D = DOMAINS[dom]; if (!D) return null;
+  const all: any[] = []; let ok = false;
+  for (const cls of D.classes) { const r = await domainQuery([cls]); if (r) { ok = true; all.push(...r); } }
+  if (!ok) return null;
+  return groupWorks(D, all);
+}
+async function domainQuery(classes: string[]): Promise<any[] | null> {
+  const D = { classes };
   const q = `SELECT ?c ?cl ?sl ?w ?wl ?fandom ?enwiki WHERE {
     { SELECT DISTINCT ?c ?w ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls.
       { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= 1) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } } LIMIT 30000 }
     OPTIONAL { ?c wdt:P6262 ?fandom } OPTIONAL { ?enwiki schema:about ?c; schema:isPartOf <https://en.wikipedia.org/> }
     FILTER(BOUND(?fandom) || BOUND(?enwiki))
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". ?c rdfs:label ?cl. ?w rdfs:label ?wl. } }`;
-  const j: any = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
-  if (!j) return null;
+  const j: any = await sparql(q);
+  return j ? j.results.bindings : null;
+}
+function groupWorks(D: { name: string }, bindings: any[]): Work[] {
   const seen = new Set<string>(), works = new Map<string, Work>(), rows: any[] = [];
-  for (const b of j.results.bindings) {
+  for (const b of bindings) {
     const k = b.c.value + b.w.value; if (seen.has(k)) continue; seen.add(k);
     if (/^Q\d+$/.test(b.cl?.value ?? 'Q1') || /^Q\d+$/.test(b.wl?.value ?? 'Q1')) continue;
     rows.push(b);
@@ -179,7 +197,7 @@ export async function domainFandoms(dom: string): Promise<{ id: string; name: st
   const D = DOMAINS[dom]; if (!D) return null;
   const q = `SELECT ?w ?wl ?fw ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls; wdt:P4073 ?fw; wikibase:sitelinks ?sl.
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". ?w rdfs:label ?wl. } } LIMIT 20000`;
-  const j: any = await fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+  const j: any = await sparql(q);
   if (!j) return null;
   const seen = new Set<string>();
   return j.results.bindings.filter((b: any) => !seen.has(b.w.value) && seen.add(b.w.value) && !/^Q\d+$/.test(b.wl?.value ?? 'Q'))
