@@ -93,7 +93,7 @@ const score = (b: any) => +b.sl.value + (b.frw ? 15 : 0) + (b.co && FR_ORIGIN.ha
 const thirds = (i: number, n: number) => (i < n * 0.35 ? 1 : i < n * 0.7 ? 2 : 3);
 /** Owner: « facile » = things REALLY everybody knows. Absolute popularity, not a share of the list (the top third of
  *  30 000 game characters is still full of unknowns), and at most the top 10 % / 30 % of the list. */
-const level = (b: any, i: number, n: number) => { const s = score(b); return s >= 75 && i < n * 0.1 ? 1 : s >= 40 && i < n * 0.3 ? 2 : 3; };
+const level = (b: any, i: number, n: number) => { const s = score(b); return s >= 100 && i < n * 0.05 ? 1 : s >= 45 && i < n * 0.3 ? 2 : 3; };
 const DIFF = ['', 'facile', 'moyen', 'difficile'];
 const clean = (t: string) => t.replace(/\s*\([^)]*\)\s*$/, '').trim();
 
@@ -180,7 +180,7 @@ async function domainQuery(classes: string[], lo = 1, hi = 1e6, light = false): 
   const D = { classes };
   const q = `SELECT ?c ?cl ?sl ?w ?wl ?f ?fl ?fandom ?enwiki ?frw ?co WHERE {
     { SELECT DISTINCT ?c ?w ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls.
-      { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= ${lo} && ?sl < ${hi}) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } } LIMIT 30000 }
+      { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= ${lo} && ?sl < ${hi}) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } FILTER NOT EXISTS { ?c wdt:P625 [] } } LIMIT 30000 } # P625: places that appear in works are not characters
     OPTIONAL { ?c wdt:P6262 ?fandom } OPTIONAL { ?enwiki schema:about ?c; schema:isPartOf <https://en.wikipedia.org/> }
     ${light ? '' : 'OPTIONAL { ?frw schema:about ?c; schema:isPartOf <https://fr.wikipedia.org/> } OPTIONAL { ?w wdt:P495 ?co }'}
     FILTER(BOUND(?fandom) || BOUND(?enwiki))
@@ -268,7 +268,21 @@ export const BUILTIN_GROUPS: Record<string, string> = {
 
 /** titles ('fr:Tomate', 'en:Naruto_Uzumaki') → group label, batched. */
 export async function groupLabels(titles: string[], snippet: string): Promise<Map<string, string>> {
-  // 1) titles → Wikidata ids through the Wikipedia API (fast, 50 per call); matching titles inside SPARQL was far too slow
+  const qid = await wikiIds(titles);
+  // 2) one SPARQL per 200 ids: the group label of each item
+  const res = new Map<string, string>(), ids = [...new Set(qid.values())], lab = new Map<string, string>();
+  for (let i = 0; i < ids.length; i += 200) {
+    const q = `SELECT ?item ?gl WHERE { VALUES ?item { ${ids.slice(i, i + 200).map(x => 'wd:' + x).join(' ')} } ${snippet} ?g rdfs:label ?gl. FILTER(LANG(?gl) = "fr") }`;
+    const j: any = await sparql(q);
+    for (const b of j?.results?.bindings ?? []) { const k = b.item.value.split('/').pop(); if (!lab.has(k)) lab.set(k, b.gl.value); }
+  }
+  for (const [t, q] of qid) { const g = lab.get(q); if (g) res.set(t, g); }
+  console.log(`  ${titles.length} titles → ${qid.size} ids → ${res.size} grouped`);
+  return res;
+}
+
+/** "fr:Title" / "en:Title" → Wikidata id, through the Wikipedia API (fast, 50 per call; follows redirects). */
+export async function wikiIds(titles: string[]): Promise<Map<string, string>> {
   const qid = new Map<string, string>(), byLang = new Map<string, string[]>();
   for (const t of titles) { const [l, ...r] = t.split(':'); (byLang.get(l) ?? byLang.set(l, []).get(l)!).push(r.join(':').replace(/_/g, ' ')); }
   for (const [l, ts] of byLang) for (let i = 0; i < ts.length; i += 50) {
@@ -280,14 +294,22 @@ export async function groupLabels(titles: string[], snippet: string): Promise<Ma
     const page = new Map<string, string>(Object.values<any>(j.query.pages ?? {}).filter(p => p.pageprops?.wikibase_item).map(p => [p.title, p.pageprops.wikibase_item]));
     for (const [o, c] of to) { const q = page.get(c); if (q) qid.set(`${l}:${o}`, q); }
   }
-  // 2) one SPARQL per 200 ids: the group label of each item
-  const res = new Map<string, string>(), ids = [...new Set(qid.values())], lab = new Map<string, string>();
-  for (let i = 0; i < ids.length; i += 200) {
-    const q = `SELECT ?item ?gl WHERE { VALUES ?item { ${ids.slice(i, i + 200).map(x => 'wd:' + x).join(' ')} } ${snippet} ?g rdfs:label ?gl. FILTER(LANG(?gl) = "fr") }`;
-    const j: any = await sparql(q);
-    for (const b of j?.results?.bindings ?? []) { const k = b.item.value.split('/').pop(); if (!lab.has(k)) lab.set(k, b.gl.value); }
+  return qid;
+}
+
+/** French notoriety: fr.wikipedia page views of the last 12 months, per Wikidata id (0 = no French page). */
+export async function frViews(ids: string[]): Promise<Map<string, number>> {
+  const fr = new Map<string, string>(), res = new Map<string, number>();
+  for (let i = 0; i < ids.length; i += 50) {
+    const j: any = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=frwiki&ids=${ids.slice(i, i + 50).join('|')}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+    for (const [id, e] of Object.entries<any>(j?.entities ?? {})) if (e.sitelinks?.frwiki) fr.set(id, e.sitelinks.frwiki.title);
   }
-  for (const [t, q] of qid) { const g = lab.get(q); if (g) res.set(t, g); }
-  console.log(`  ${titles.length} titles → ${qid.size} ids → ${res.size} grouped`);
+  const end = new Date(), start = new Date(end.getFullYear() - 1, end.getMonth(), 1), ymd = (d: Date) => d.toISOString().slice(0, 7).replace('-', '') + '01';
+  const list = [...fr];
+  for (let i = 0; i < list.length; i += 20) await Promise.all(list.slice(i, i + 20).map(async ([id, t]) => {
+    const j: any = await fetch(`https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/${encodeURIComponent(t.replace(/ /g, '_'))}/monthly/${ymd(start)}/${ymd(end)}`, { headers: UA }).then(r => r.ok ? r.json() : null).catch(() => null);
+    res.set(id, (j?.items ?? []).reduce((n: number, x: any) => n + x.views, 0));
+  }));
+  for (const id of ids) if (!res.has(id)) res.set(id, 0);
   return res;
 }

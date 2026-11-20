@@ -166,6 +166,12 @@ export class Game {
     return p;
   }
 
+  /** Leader hands the host role to another connected human (also keeps it when that player reconnects). */
+  makeHost(by: string, id: string) {
+    const p = this.players.get(id);
+    if (by !== this.leaderId || !p || p.bot || !p.connected || id === by) return;
+    this.leaderId = this.hostId = id; this.chat(`👑 ${p.name} est maintenant l'hôte`); this.io.sync();
+  }
   /** Leader removes a player for good (Room closes their sockets and refuses them). */
   kick(id: string) { const p = this.players.get(id); if (!p) return; this.leave(id); this.players.delete(id); this.chat(`🚫 ${p.name} a été expulsé`); this.io.sync(); }
 

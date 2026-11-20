@@ -4,7 +4,7 @@
 //   npx tsx scripts/harvest.ts            (all)      ONLY=auto-chiens,u-jeux npx tsx scripts/harvest.ts
 import fs from 'node:fs';
 import path from 'node:path';
-import { AUTO, BUILTIN_GROUPS, DOMAINS, INTO, buildAuto, buildDomain, domainFandoms, fandomChars, groupLabels } from '../server/autopacks';
+import { AUTO, BUILTIN_GROUPS, DOMAINS, INTO, buildAuto, buildDomain, domainFandoms, fandomChars, frViews, groupLabels, wikiIds } from '../server/autopacks';
 
 const out = path.resolve(import.meta.dirname, '../content/harvest');
 fs.mkdirSync(out, { recursive: true });
@@ -82,8 +82,29 @@ if (bg.length) {
   }
 }
 
+// French notoriety of the hand-made / uploaded packs (fr.wikipedia views, 12 months) → views-map.json
+// gen.mjs turns it into difficulties (owner: « facile » = things EVERYBODY knows, moyen ≈ half of people).
+if (!only || only.includes('views')) {
+  const vf = path.join(out, 'views-map.json'), vm: Record<string, Record<string, number>> = {};
+  const dir = path.resolve(import.meta.dirname, '../content/packs');
+  for (const pid of fs.readdirSync(dir)) {
+    const f = path.join(dir, pid, 'pack.json'); if (!fs.existsSync(f)) continue;
+    const p = JSON.parse(fs.readFileSync(f, 'utf8'));
+    const title = (q: any) => (q.src?.startsWith('wiki:') ? (/^wiki:[a-z]{2,3}:/.test(q.src) ? q.src.slice(5) : 'fr:' + q.src.slice(5)) : 'fr:' + q.answer).replace(/_/g, ' ');
+    console.log(`… views ${pid} (${p.questions.length})`);
+    const ids = await wikiIds([...new Set<string>(p.questions.map(title))]);
+    const views = await frViews([...new Set(ids.values())]);
+    const m: Record<string, number> = {};
+    for (const q of p.questions) { const id = ids.get(title(q)); if (id) m[q.id] = views.get(id) ?? 0; }
+    vm[p.id ?? pid] = m;
+    const top = Object.entries(m).sort((a, b) => b[1] - a[1]), at = (k: number) => top[Math.min(top.length - 1, k)];
+    console.log(`✔ views ${pid}: ${top.length}/${p.questions.length} | #1 ${p.questions.find((q: any) => q.id === top[0]?.[0])?.answer} ${top[0]?.[1]} | #100 ${at(100)?.[1]} | #1000 ${at(1000)?.[1]}`);
+    fs.writeFileSync(vf, JSON.stringify(vm));
+  }
+}
+
 // index: what the lobby shows (counts, merge target, sub-categories)
-const index = fs.readdirSync(out).filter(f => f.endsWith('.json') && f !== 'index.json' && f !== 'builtin-groups-map.json').map(f => {
+const index = fs.readdirSync(out).filter(f => f.endsWith('.json') && f !== 'index.json' && !f.endsWith('-map.json')).map(f => {
   const p = JSON.parse(fs.readFileSync(path.join(out, f), 'utf8')), id = f.slice(0, -5);
   const g = new Map<string, number>(); for (const q of p.questions) g.set(q.group, (g.get(q.group) ?? 0) + 1);
   return { id, name: p.name, emoji: p.emoji, count: p.questions.length, into: INTO[id], tags: p.tags ?? [], groups: [...g].sort((a, b) => b[1] - a[1]).map(([name, n]) => ({ g: name, n })) };

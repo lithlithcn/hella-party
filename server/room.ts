@@ -6,7 +6,9 @@ import { PACKS, resolvePack } from './packs';
 import { library, type Env, type NameKind } from './library';
 import { HARVEST } from './_gen/harvest';
 import type { Pack } from './packs';
-const HCACHE = new Map<string, Pack>();
+/** Questions kept per harvested pack and difficulty level for one game (random sample). */
+const SAMPLE = 400;
+const shuffle = <T,>(a: T[]) => { for (let i = a.length - 1; i > 0; i--) { const j = (Math.random() * (i + 1)) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
 const MAX_AVATAR = 80_000; // data URL chars (~60 KB image)
 
@@ -59,20 +61,27 @@ export class Room extends DurableObject<Env> {
     return [...PACK_INFO, ...HARVEST.map(({ base, ...h }) => ({ ...h, auto: !base })), ...this.libList];
   }
 
-  /** Harvested pack (static /data/<id>.json, baked at deploy by scripts/harvest.ts), cached per isolate. */
-  private async harvested(id: string) {
-    let p = HCACHE.get(id);
-    if (!p) {
-      const r = await this.env.ASSETS.fetch(new Request(`https://assets.local/data/${id}.json`)).catch(() => null);
-      const j: any = r?.ok ? await r.json().catch(() => null) : null;
-      if (!j) return null;
-      p = resolvePack(j); HCACHE.set(id, p);
+  /** Harvested pack (static /data/<id>.d<level>.json, baked at deploy by scripts/harvest.ts): only the played levels,
+   *  only the ticked sub-categories, at most SAMPLE questions per level — loaded one file at a time, nothing cached.
+   *  (Keeping whole packs in memory went past the Durable Object's 128 MB → the room was reset, the game lost.) */
+  private async harvested(id: string, game: Game, cat = id) {
+    const max = Number(game.setting('maxDifficulty') ?? 3), off = new Set((game.setting('packs') ?? []).filter((x: string) => x.startsWith('-g:')));
+    let head: Pack | null = null; const qs: Pack['questions'] = [];
+    for (let d = 1; d <= max; d++) {
+      const r = await this.env.ASSETS.fetch(new Request(`https://assets.local/data/${id}.d${d}.json`)).catch(() => null);
+      let j: any = r?.ok ? await r.json().catch(() => null) : null;
+      if (!j) continue;
+      const ok = j.questions.filter((q: any) => !off.has(`-g:${cat}:${q.group ?? j.name}`));
+      j.questions = ok.length > SAMPLE ? shuffle(ok).slice(0, SAMPLE) : ok;
+      const p = resolvePack(j); j = null;
+      head ??= p; qs.push(...p.questions);
     }
-    return p;
+    return head ? { ...head, questions: qs } : null;
   }
   /** Questions merged into a built-in category from harvested packs (INTO map). */
-  private async merged(id: string) {
-    const parts = await Promise.all(HARVEST.filter(h => h.into === id).map(h => this.harvested(h.id)));
+  private async merged(id: string, game: Game) {
+    const parts: (Pack | null)[] = [];
+    for (const h of HARVEST.filter(h => h.into === id)) parts.push(await this.harvested(h.id, game, id));
     const qs = parts.flatMap(p => p?.questions ?? []);
     return qs.length ? { id: '+' + id, name: id, tags: [], questions: qs.map(q => ({ ...q, key: `+${id}/${q.key}` })) } : null;
   }
@@ -82,14 +91,14 @@ export class Room extends DurableObject<Env> {
     const all: string[] = game.setting('packs') ?? [];
     // auto sources merged INTO the selected built-in categories → game.extra['+<id>']
     for (const id of all) {
-      const p = HARVEST.some(h => h.into === id) ? await this.merged(id) : null;
+      const p = HARVEST.some(h => h.into === id) ? await this.merged(id, game) : null;
       if (p) game.extra['+' + id] = p; else delete game.extra['+' + id];
     }
     const ids = all.filter(id => game.libraryIds.has(id) || /^(u|w|fw)-/.test(id));
     const excluded = all.filter(id => id.startsWith('-w-')).map(id => id.slice(1));
     const lib = library(this.env);
     for (const id of ids) {
-      if (HARVEST.some(h => h.id === id)) { const h = await this.harvested(id); if (h) game.extra[id] = h; else delete game.extra[id]; continue; }
+      if (HARVEST.some(h => h.id === id)) { const h = await this.harvested(id, game); if (h) game.extra[id] = h; else delete game.extra[id]; continue; }
       const p = await lib.get(id);
       if (p) game.extra[id] = resolvePack(p); else delete game.extra[id];
     }
@@ -169,6 +178,7 @@ export class Room extends DurableObject<Env> {
           return;
         }
         case 'stop': if (id === game.leaderId) game.stop(); return;
+        case 'host': return game.makeHost(id, String(m.id));
         case 'kick': {
           const target = String(m.id);
           if (id !== game.leaderId || target === id) return;

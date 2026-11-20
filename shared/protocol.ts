@@ -78,6 +78,7 @@ export type ClientMsg =
   | { t: 'start' }
   | { t: 'stop' }
   | { t: 'kick'; id: string }
+  | { t: 'host'; id: string }
   | { t: 'univ'; dom: string } // list the works of a Univers domain
   | { t: 'groups'; id: string } // sub-categories of a category
   | { t: 'settings'; patch: Record<string, any> }
