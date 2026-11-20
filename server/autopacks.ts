@@ -86,6 +86,10 @@ async function sparql(q: string): Promise<any> {
   }
   return null;
 }
+/** France first (owner: French game for French players): popularity score with a big bonus for a French Wikipedia
+ *  page and for works from France / Belgium. Items without a French page always end up « difficile ». */
+const FR_ORIGIN = new Set(['Q142', 'Q31']);
+const score = (b: any) => +b.sl.value + (b.frw ? 15 : 0) + (b.co && FR_ORIGIN.has(b.co.value.split('/').pop()) ? 25 : 0);
 const thirds = (i: number, n: number) => (i < n * 0.35 ? 1 : i < n * 0.7 ? 2 : 3);
 const DIFF = ['', 'facile', 'moyen', 'difficile'];
 const clean = (t: string) => t.replace(/\s*\([^)]*\)\s*$/, '').trim();
@@ -94,18 +98,18 @@ const clean = (t: string) => t.replace(/\s*\([^)]*\)\s*$/, '').trim();
 export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
   const qs: PackQuestion[] = [];
   if (d.from === 'wd') {
-    const q = `SELECT ?item ?sl ?fr ?en ?img ?enwiki ?fandom WHERE {
+    const q = `SELECT ?item ?sl ?fr ?en ?img ?enwiki ?fandom ?frw ?co WHERE {
       { SELECT ?item ?sl WHERE { ${d.where} ?item wikibase:sitelinks ?sl. FILTER(?sl >= ${d.min ?? 10}) } ORDER BY DESC(?sl) LIMIT 500 }
       OPTIONAL { ?item rdfs:label ?fr. FILTER(LANG(?fr) = "fr") } OPTIONAL { ?item rdfs:label ?en. FILTER(LANG(?en) = "en") }
       OPTIONAL { ?item wdt:P18 ?img } OPTIONAL { ?enwiki schema:about ?item; schema:isPartOf <https://en.wikipedia.org/> }
-      OPTIONAL { ?item wdt:P6262 ?fandom } } ORDER BY DESC(?sl)`;
+      OPTIONAL { ?item wdt:P6262 ?fandom } OPTIONAL { ?frw schema:about ?item; schema:isPartOf <https://fr.wikipedia.org/> } OPTIONAL { ?item wdt:P495 ?co } } ORDER BY DESC(?sl)`;
     const j: any = await sparql(q);
     if (!j) return null;
     const seen = new Set<string>(), rows: any[] = [];
     for (const b of j.results.bindings) { const id = b.item.value; if (seen.has(id)) continue; seen.add(id); rows.push(b); }
-    const ok = rows.filter(b => (b.fr || b.en) && (d.img === 'page' ? b.fandom || b.enwiki : b.img));
+    const ok = rows.filter(b => (b.fr || b.en) && (d.img === 'page' ? b.fandom || b.enwiki : b.img)).sort((a, b) => score(b) - score(a));
     ok.forEach((b, i) => {
-      const answer = clean(b.fr?.value ?? b.en.value), en = b.en?.value, diff = thirds(i, ok.length);
+      const answer = clean(b.fr?.value ?? b.en.value), en = b.en?.value, diff = b.frw ? thirds(i, ok.length) : 3;
       const enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
       const src = d.img === 'page'
         ? (b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`)
@@ -162,10 +166,11 @@ export async function buildDomain(dom: string): Promise<Work[] | null> {
 }
 async function domainQuery(classes: string[], lo = 1, hi = 1e6): Promise<any[] | null> {
   const D = { classes };
-  const q = `SELECT ?c ?cl ?sl ?w ?wl ?f ?fl ?fandom ?enwiki WHERE {
+  const q = `SELECT ?c ?cl ?sl ?w ?wl ?f ?fl ?fandom ?enwiki ?frw ?co WHERE {
     { SELECT DISTINCT ?c ?w ?sl WHERE { VALUES ?cls { ${D.classes.map(c => 'wd:' + c).join(' ')} } ?w wdt:P31 ?cls.
       { ?c wdt:P1441 ?w } UNION { ?c wdt:P8345 ?w } ?c wikibase:sitelinks ?sl. FILTER(?sl >= ${lo} && ?sl < ${hi}) FILTER NOT EXISTS { ?c wdt:P31 wd:Q5 } } LIMIT 30000 }
     OPTIONAL { ?c wdt:P6262 ?fandom } OPTIONAL { ?enwiki schema:about ?c; schema:isPartOf <https://en.wikipedia.org/> }
+    OPTIONAL { ?frw schema:about ?c; schema:isPartOf <https://fr.wikipedia.org/> } OPTIONAL { ?w wdt:P495 ?co }
     FILTER(BOUND(?fandom) || BOUND(?enwiki))
     OPTIONAL { ?w wdt:P8345|wdt:P179 ?f }
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". ?c rdfs:label ?cl. ?w rdfs:label ?wl. ?f rdfs:label ?fl. } }`;
@@ -179,15 +184,15 @@ function groupWorks(D: { name: string }, bindings: any[]): Work[] {
     if (/^Q\d+$/.test(b.cl?.value ?? 'Q1') || /^Q\d+$/.test(b.wl?.value ?? 'Q1')) continue;
     rows.push(b);
   }
-  rows.sort((a, b) => +b.sl.value - +a.sl.value);
+  rows.sort((a, b) => score(b) - score(a));
   rows.forEach((b, i) => {
     // sub-category = franchise / series when Wikidata knows it (all Mario games → "Mario"), else the work itself
     const fr = b.f && b.fl && !/^Q\d+$/.test(b.fl.value) ? b.f : null;
     const wid = 'w-' + (fr ?? b.w).value.split('/').pop();
     let w = works.get(wid); if (!w) works.set(wid, w = { id: wid, name: clean((fr ? b.fl : b.wl).value), pop: 0, questions: [] });
     if (w.questions.some(q => q.id === b.c.value.split('/').pop())) return;
-    w.pop += +b.sl.value;
-    const diff = thirds(i, rows.length), enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
+    w.pop += score(b);
+    const diff = b.frw ? thirds(i, rows.length) : 3, enTitle = b.enwiki ? decodeURIComponent(b.enwiki.value.split('/wiki/')[1]) : undefined;
     w.questions.push({ id: b.c.value.split('/').pop()!, answer: clean(b.cl.value), exact: [], difficulty: diff, tags: [D.name.toLowerCase(), w.name, DIFF[diff]], type: 'image',
       src: b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`, explain: `Personnage de ${w.name}`, group: w.name,
       ...(enTitle ? { aliasTitle: `en:${enTitle}` } : {}) } as PackQuestion);

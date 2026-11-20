@@ -66,6 +66,13 @@ Pas besoin des majuscules/accents/fautes de frappe : le jeu les tolère tout seu
 - **3 difficile** : niche.
 Vise environ 40 % facile, 35 % moyen, 25 % difficile.
 
+## 4 bis. Priorité France (très important)
+
+Le jeu est en français, pour des joueurs français. **Au moins 60 % des personnes doivent être françaises** (ou très connues en France : Belges, Suisses, Québécois, Maghreb francophone…), le reste international.
+- Chaque sous-catégorie doit d'abord contenir les Français : rappeurs FR, chanteurs FR, acteurs et humoristes FR, youtubeurs / streamers / tiktokeurs FR, sportifs FR (foot, rugby, Tour de France…), présidents et politiques FR, rois de France, figures historiques de France, écrivains, scientifiques et inventeurs FR, personnalités de la télé FR.
+- La difficulté se juge **en France** : une star américaine peu connue ici est « difficile », un youtubeur FR très connu est « facile ».
+- Si tu manques d'idées, privilégie les personnes qui ont une page Wikipédia **française** bien fournie.
+
 ## 5. Règles obligatoires
 
 - **Uniquement des images** : pas de question texte, pas de rébus.
