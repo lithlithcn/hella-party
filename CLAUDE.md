@@ -77,7 +77,7 @@ Errors inside feature code are caught (`g.guard`), logged in `/log/CODE`, and sh
 - `scoring`, `goal`, `bots` (debug). `streak`: x1, x2… combo badge (exact answers in a row; fx 'streak'; chat at every 5). `chain` (option, off by default): when every connected human found the same N questions (default 5), they come back as a quick-fire round (intro phase 'chain.intro', forced questions with chain.time, points ÷2.5).
 
 ## TODO (owner asked, later)
-- Answer shortcuts for every question (e.g. 'flûte' for 'Flûte à bec') + other-language answers (tomato → tomate) via a translation step (Google Translate) at pack build time → `exact[]`.
+- Done generically in shared/answer.ts shortcuts() (head noun, initials, ALIAS table). Still TODO: per-question shortcuts + other-language answers (tomato → tomate) via a translation step (Google Translate) at pack build time → `exact[]`.
 - Kick: leader ✕ on a card → {t:'kick'}; Room refuses that id for the room's lifetime. Game end waits for the reveal (engine.endAfterReveal).
 
 ## Debug
