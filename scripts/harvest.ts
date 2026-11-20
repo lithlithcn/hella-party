@@ -18,7 +18,11 @@ function save(id: string, p: any) { fs.writeFileSync(path.join(out, `${id}.json`
 for (const d of AUTO) {
   if (only && !only.includes(d.id)) continue;
   const p = await buildAuto(d).catch(e => (console.error(d.id, e), null));
-  if (p) save(d.id, { ...p, questions: p.questions.map(q => ({ ...q, group: d.name })) }); else console.warn(`✘ ${d.id}`);
+  // sub-category = country / origin / maker / artist when Wikidata has it, else the source name; tiny groups folded
+  if (p) {
+    const n = new Map<string, number>(); for (const q of p.questions as any[]) if (q.group) n.set(q.group, (n.get(q.group) ?? 0) + 1);
+    save(d.id, { ...p, questions: p.questions.map((q: any) => ({ ...q, group: q.group && (n.get(q.group) ?? 0) >= 3 ? q.group : d.name })) });
+  } else console.warn(`✘ ${d.id}`);
   await sleep(1500); // be gentle with Wikidata
 }
 

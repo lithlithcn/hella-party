@@ -98,11 +98,12 @@ const clean = (t: string) => t.replace(/\s*\([^)]*\)\s*$/, '').trim();
 export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
   const qs: PackQuestion[] = [];
   if (d.from === 'wd') {
-    const q = `SELECT ?item ?sl ?fr ?en ?img ?enwiki ?fandom ?frw ?co WHERE {
+    const q = `SELECT ?item ?sl ?fr ?en ?img ?enwiki ?fandom ?frw ?co ?ggl WHERE {
       { SELECT ?item ?sl WHERE { ${d.where} ?item wikibase:sitelinks ?sl. FILTER(?sl >= ${d.min ?? 10}) } ORDER BY DESC(?sl) LIMIT 500 }
       OPTIONAL { ?item rdfs:label ?fr. FILTER(LANG(?fr) = "fr") } OPTIONAL { ?item rdfs:label ?en. FILTER(LANG(?en) = "en") }
       OPTIONAL { ?item wdt:P18 ?img } OPTIONAL { ?enwiki schema:about ?item; schema:isPartOf <https://en.wikipedia.org/> }
-      OPTIONAL { ?item wdt:P6262 ?fandom } OPTIONAL { ?frw schema:about ?item; schema:isPartOf <https://fr.wikipedia.org/> } OPTIONAL { ?item wdt:P495 ?co } } ORDER BY DESC(?sl)`;
+      OPTIONAL { ?item wdt:P6262 ?fandom } OPTIONAL { ?frw schema:about ?item; schema:isPartOf <https://fr.wikipedia.org/> } OPTIONAL { ?item wdt:P495 ?co }
+      OPTIONAL { ?item wdt:P17|wdt:P495|wdt:P176|wdt:P170 ?gg. ?gg rdfs:label ?ggl. FILTER(LANG(?ggl) = "fr") } } ORDER BY DESC(?sl)`;
     const j: any = await sparql(q);
     if (!j) return null;
     const seen = new Set<string>(), rows: any[] = [];
@@ -115,7 +116,7 @@ export async function buildAuto(d: AutoDef): Promise<PackFile | null> {
         ? (b.fandom ? `fandom:${b.fandom.value}` : `wiki:en:${enTitle}`)
         : `url:${b.img.value.replace(/^http:/, 'https:')}?width=960`;
       if (/^Q\d+$/.test(answer)) return;
-      qs.push({ id: b.item.value.split('/').pop()!, answer, exact: en && en !== answer ? [clean(en)] : [], difficulty: diff, tags: [...d.tags, DIFF[diff]], type: 'image', src,
+      qs.push({ id: b.item.value.split('/').pop()!, answer, exact: en && en !== answer ? [clean(en)] : [], difficulty: diff, tags: [...d.tags, DIFF[diff]], type: 'image', src, group: b.ggl?.value,
         ...(enTitle ? { aliasTitle: `en:${enTitle}` } : {}) } as PackQuestion);
     });
   } else {
