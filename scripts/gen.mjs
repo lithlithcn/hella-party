@@ -42,17 +42,15 @@ fs.writeFileSync(path.join(gen, 'groupmap.ts'), `export const GROUP_MAP: Record<
 // Owner: « facile » = things EVERYBODY knows, « moyen » ≈ half of people, « difficile » = hard.
 //  - people packs: absolute thresholds;  - other packs: a « facile » far less viewed than the pack's other « facile » → moyen.
 const vmFile = path.join(hv, 'views-map.json'), vmap = fs.existsSync(vmFile) ? JSON.parse(fs.readFileSync(vmFile, 'utf8')) : {};
-const PEOPLE = { facile: 400_000, moyen: 150_000 }; // celebrites: ~210 facile (Messi … Whitney Houston), ~1000 moyen
+// People packs only. fr.wikipedia views (60 days ×6) follow the news (spikes), so « facile » also needs the pack's own
+// level (≤ orig): intl → Zidane, Brad Pitt, de Gaulle…; FR pack's own levels are weak → views higher, orig ≤ 2.
+// Hand-made packs keep their hand-set levels (views of their pictured pages are a poor signal: Éléphant, Peppa Pig…).
+const PEOPLE = { 'celebrites-internationales': { facile: 400_000, orig: 1 }, 'personnalites-francophones-etendue': { facile: 500_000, orig: 2 } };
+const MOYEN = 150_000;
 function viewsDifficulty(p) {
-  const v = vmap[p.id]; if (!v) return {};
+  const v = vmap[p.id], c = PEOPLE[p.id]; if (!v || !c) return {};
   const out = {};
-  if (p.aliasFrom === 'answer' && /célébr|francophon|personnal/i.test(`${p.name} ${(p.tags ?? []).join(' ')}`)) {
-    for (const q of p.questions) { const n = v[q.id] ?? 0; out[q.id] = n >= PEOPLE.facile ? 1 : n >= PEOPLE.moyen ? 2 : 3; }
-  } else {
-    const easy = p.questions.filter(q => (q.difficulty || 1) === 1 && v[q.id] > 0).map(q => v[q.id]).sort((a, b) => a - b);
-    const med = easy[easy.length >> 1] ?? 0;
-    for (const q of p.questions) if ((q.difficulty || 1) === 1 && v[q.id] !== undefined && v[q.id] < med * 0.25) out[q.id] = 2;
-  }
+  for (const q of p.questions) { const n = v[q.id]; if (n === undefined) continue; out[q.id] = n >= c.facile && (q.difficulty || 3) <= c.orig ? 1 : n >= MOYEN ? 2 : 3; }
   return out;
 }
 const dmap = {};
