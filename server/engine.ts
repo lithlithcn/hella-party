@@ -321,10 +321,13 @@ export class Game {
 
   private pick(): Question | null {
     const all = this.packQuestions();
-    let pool = all.filter(q => !this.used.has(q.key));
+    let pool = all.filter(q => !this.used.has(q.key) && !this.used.has('a:' + q.answer.toLowerCase()));
     if (!pool.length) { this.used.clear(); pool = all; }
-    const q = pool[Math.floor(Math.random() * pool.length)];
-    if (q) this.used.add(q.key);
+    // one draw per distinct answer: the same character listed under 50 works (Batman…) is not 50× more likely
+    const by = new Map<string, Question[]>(); for (const q of pool) { const k = q.answer.toLowerCase(); (by.get(k) ?? by.set(k, []).get(k)!).push(q); }
+    const group = [...by.values()][Math.floor(Math.random() * by.size)];
+    const q = group?.[Math.floor(Math.random() * group.length)];
+    if (q) { this.used.add(q.key); this.used.add('a:' + q.answer.toLowerCase()); }
     return q ?? null;
   }
 
