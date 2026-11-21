@@ -27,7 +27,8 @@ jobs:
           git add content/harvest
           git diff --cached --quiet || git commit -m "harvest: ${{ inputs.only || 'all' }}"
           for i in 1 2 3 4 5 6 7 8; do
-            git pull --rebase origin main || { git rebase --abort; sleep 5; continue; }
+            # a conflict on our harvest files (e.g. someone deleted one meanwhile): keep this run's version
+            git pull --rebase origin main || { git add content/harvest && GIT_EDITOR=true git rebase --continue; } || { git rebase --abort; sleep 5; continue; }
             ONLY=index-only npx tsx scripts/harvest.ts && git add content/harvest/index.json
             # this run's built-in groups merged into the latest map (other runs may have added theirs)
             [ -f /tmp/map.json ] && node -e "const f=require('fs'),M='$M',a=f.existsSync(M)?JSON.parse(f.readFileSync(M)):{};Object.assign(a,JSON.parse(f.readFileSync('/tmp/map.json')));f.writeFileSync(M,JSON.stringify(a))" && git add $M
