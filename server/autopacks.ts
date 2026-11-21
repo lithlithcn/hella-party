@@ -322,11 +322,17 @@ export async function frViews(ids: string[]): Promise<Map<string, number>> {
   const list = [...fr];
   for (let i = 0; i < list.length; i += 50) {
     const part = list.slice(i, i + 50);
-    const j: any = await getJson(`https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=pageviews&pvipdays=60&titles=${encodeURIComponent(part.map(x => x[1]).join('|'))}`);
-    if (!j?.query) continue;
-    const to = new Map<string, string>(part.map(([, t]) => [t, t]));
-    for (const k of ['normalized', 'redirects']) for (const x of j.query[k] ?? []) for (const [o, c] of to) if (c === x.from) to.set(o, x.to);
-    const pv = new Map<string, number>((j.query.pages ?? []).map((p: any) => [p.title, Object.values<any>(p.pageviews ?? {}).reduce((n, v) => n + (v ?? 0), 0)]));
+    // the API answers a few pages per call and gives `continue` for the rest: follow it; pages without data stay unset
+    const to = new Map<string, string>(part.map(([, t]) => [t, t])), pv = new Map<string, number>();
+    let cont = '';
+    for (let k = 0; k < 30; k++) {
+      const j: any = await getJson(`https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=pageviews&pvipdays=60&titles=${encodeURIComponent(part.map(x => x[1]).join('|'))}${cont}`);
+      if (!j?.query) break;
+      for (const kk of ['normalized', 'redirects']) for (const x of j.query[kk] ?? []) for (const [o, c] of to) if (c === x.from) to.set(o, x.to);
+      for (const p of j.query.pages ?? []) if (p.pageviews) pv.set(p.title, Object.values<any>(p.pageviews).reduce((n, v) => n + (v ?? 0), 0));
+      if (!j.continue) break;
+      cont = Object.entries<any>(j.continue).map(([a, b]) => `&${a}=${encodeURIComponent(b)}`).join('');
+    }
     for (const [id, t] of part) { const v = pv.get(to.get(t) ?? t); if (v !== undefined) res.set(id, Math.round(v * 365 / 60)); }
   }
   for (const id of ids) if (!fr.has(id)) res.set(id, 0); // no French page at all
