@@ -42,7 +42,7 @@ fs.writeFileSync(path.join(gen, 'groupmap.ts'), `export const GROUP_MAP: Record<
 // Owner: « facile » = things EVERYBODY knows, « moyen » ≈ half of people, « difficile » = hard.
 //  - people packs: absolute thresholds;  - other packs: a « facile » far less viewed than the pack's other « facile » → moyen.
 const vmFile = path.join(hv, 'views-map.json'), vmap = fs.existsSync(vmFile) ? JSON.parse(fs.readFileSync(vmFile, 'utf8')) : {};
-const PEOPLE = { facile: 700_000, moyen: 150_000 };
+const PEOPLE = { facile: 400_000, moyen: 150_000 }; // celebrites: ~210 facile (Messi … Whitney Houston), ~1000 moyen
 function viewsDifficulty(p) {
   const v = vmap[p.id]; if (!v) return {};
   const out = {};

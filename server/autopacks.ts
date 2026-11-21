@@ -317,12 +317,18 @@ export async function frViews(ids: string[]): Promise<Map<string, number>> {
     const j: any = await getJson(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=frwiki&ids=${ids.slice(i, i + 50).join('|')}`);
     for (const [id, e] of Object.entries<any>(j?.entities ?? {})) if (e.sitelinks?.frwiki) fr.set(id, e.sitelinks.frwiki.title);
   }
-  const end = new Date(), start = new Date(end.getFullYear() - 1, end.getMonth(), 1), ymd = (d: Date) => d.toISOString().slice(0, 7).replace('-', '') + '01';
+  // MediaWiki PageViewInfo: daily views of the last 60 days, 50 titles per call (the REST per-article API answers 429 at scale).
+  // Scaled to a year. A failed call leaves the id unset (never counted as 0 views = never wrongly demoted).
   const list = [...fr];
-  for (let i = 0; i < list.length; i += 8) await Promise.all(list.slice(i, i + 8).map(async ([id, t]) => {
-    const j: any = await getJson(`https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/${encodeURIComponent(t.replace(/ /g, '_'))}/monthly/${ymd(start)}/${ymd(end)}`);
-    res.set(id, (j?.items ?? []).reduce((n: number, x: any) => n + x.views, 0));
-  }));
-  for (const id of ids) if (!res.has(id)) res.set(id, 0);
+  for (let i = 0; i < list.length; i += 50) {
+    const part = list.slice(i, i + 50);
+    const j: any = await getJson(`https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&prop=pageviews&pvipdays=60&titles=${encodeURIComponent(part.map(x => x[1]).join('|'))}`);
+    if (!j?.query) continue;
+    const to = new Map<string, string>(part.map(([, t]) => [t, t]));
+    for (const k of ['normalized', 'redirects']) for (const x of j.query[k] ?? []) for (const [o, c] of to) if (c === x.from) to.set(o, x.to);
+    const pv = new Map<string, number>((j.query.pages ?? []).map((p: any) => [p.title, Object.values<any>(p.pageviews ?? {}).reduce((n, v) => n + (v ?? 0), 0)]));
+    for (const [id, t] of part) { const v = pv.get(to.get(t) ?? t); if (v !== undefined) res.set(id, Math.round(v * 365 / 60)); }
+  }
+  for (const id of ids) if (!fr.has(id)) res.set(id, 0); // no French page at all
   return res;
 }

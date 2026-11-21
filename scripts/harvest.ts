@@ -95,7 +95,7 @@ if (!only || only.includes('views')) {
     const ids = await wikiIds([...new Set<string>(p.questions.map(title))]);
     const views = await frViews([...new Set(ids.values())]);
     const m: Record<string, number> = {};
-    for (const q of p.questions) { const id = ids.get(title(q)); if (id) m[q.id] = views.get(id) ?? 0; }
+    for (const q of p.questions) { const id = ids.get(title(q)); const v = id && views.get(id); if (v !== undefined && v !== '') m[q.id] = v as number; }
     vm[p.id ?? pid] = m;
     const top = Object.entries(m).sort((a, b) => b[1] - a[1]), at = (k: number) => top[Math.min(top.length - 1, k)];
     console.log(`✔ views ${pid}: ${top.length}/${p.questions.length} | #1 ${p.questions.find((q: any) => q.id === top[0]?.[0])?.answer} ${top[0]?.[1]} | #100 ${at(100)?.[1]} | #1000 ${at(1000)?.[1]}`);
